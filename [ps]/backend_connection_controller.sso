@@ -1,0 +1,5 @@
+reconnectDelaysSec   =   [
+   30,
+   60
+]
+__type   =   "object"

@@ -1,0 +1,11 @@
+fadeWrapper   =   {
+   fadeInAnimName   =   "none"
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiTitleScreenTitlescreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ScreenViewBase"

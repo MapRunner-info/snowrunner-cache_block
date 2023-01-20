@@ -1,0 +1,65 @@
+minimumThreshold   =   {
+   aabbMinPoint   =   {
+      x   =   0.01
+      y   =   0.01
+      z   =   0.01
+      __type   =   "Vector3d"
+   }
+   aabbMaxPoint   =   {
+      x   =   0.01
+      y   =   0.01
+      z   =   0.01
+      __type   =   "Vector3d"
+   }
+   position   =   {
+      x   =   1
+      y   =   1
+      z   =   1
+      __type   =   "Vector3d"
+   }
+   rotation   =   {
+      x   =   10
+      y   =   10
+      z   =   10
+      __type   =   "Vector3d"
+   }
+   __type   =   "TruckCheckData"
+}
+criticalThreshold   =   {
+   aabbMinPoint   =   {
+      x   =   0.1
+      y   =   0.1
+      z   =   0.1
+      __type   =   "Vector3d"
+   }
+   aabbMaxPoint   =   {
+      x   =   0.1
+      y   =   0.1
+      z   =   0.1
+      __type   =   "Vector3d"
+   }
+   position   =   {
+      x   =   5
+      y   =   5
+      z   =   5
+      __type   =   "Vector3d"
+   }
+   rotation   =   {
+      x   =   20
+      y   =   20
+      z   =   20
+      __type   =   "Vector3d"
+   }
+   __type   =   "TruckCheckData"
+}
+setTruckDelay   =   100
+globalIdParam   =   {
+   __type   =   "StringRefParam"
+}
+levelNameParam   =   {
+   __type   =   "StringRefParam"
+}
+isDoubleCheckParam   =   {
+   __type   =   "BoolRefParam"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

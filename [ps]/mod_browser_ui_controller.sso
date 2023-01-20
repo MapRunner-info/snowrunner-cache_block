@@ -1,0 +1,206 @@
+view   =   {
+   __type   =   "ModBrowserUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         Refresh   =   {
+            uiInputName   =   "Refresh"
+            __type   =   "NavButtonDesc"
+         }
+         Subscribe   =   {
+            uiInputName   =   "ToggleSubscribe"
+            __type   =   "NavButtonDesc"
+         }
+         Unsubscribe   =   {
+            uiInputName   =   "ToggleSubscribe"
+            __type   =   "NavButtonDesc"
+         }
+         Enable   =   {
+            uiInputName   =   "ToggleEnable"
+            __type   =   "NavButtonDesc"
+         }
+         Disable   =   {
+            uiInputName   =   "ToggleEnable"
+            __type   =   "NavButtonDesc"
+         }
+         Filter   =   {
+            uiInputName   =   "Filter"
+            __type   =   "NavButtonDesc"
+         }
+         Search   =   {
+            uiInputName   =   "Search"
+            __type   =   "NavButtonDesc"
+         }
+         More   =   {
+            uiInputName   =   "MoreOptions"
+            __type   =   "NavButtonDesc"
+         }
+         FakeZoom   =   {
+            uiInputName   =   "FakeZoom"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "ModBrowserNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "ModBrowserScreenState"
+}
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "ModBrowser"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Refresh   =   {
+         inputLink   =   "UI.ModBrowserRefresh"
+         __type   =   "InputLinkActionMr"
+      }
+      PrevPage   =   {
+         inputLink   =   "UI.PrevPage"
+         __type   =   "InputLinkActionMr"
+      }
+      NextPage   =   {
+         inputLink   =   "UI.NextPage"
+         __type   =   "InputLinkActionMr"
+      }
+      ToggleEnable   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      ToggleSubscribe   =   {
+         inputLink   =   "UI.ToggleSubscribeMod"
+         __type   =   "InputLinkActionMr"
+      }
+      Filter   =   {
+         inputLink   =   "UI.ModBrowserFilter"
+         __type   =   "InputLinkActionMr"
+      }
+      Search   =   {
+         inputLink   =   "UI.ModBrowserSearch"
+         __type   =   "InputLinkActionMr"
+      }
+      MoreOptions   =   {
+         inputLink   =   "UI.ModBrowserMoreOptions"
+         __type   =   "InputLinkHoldMr"
+      }
+      FakeZoom   =   {
+         inputLink   =   "UI.FakeRotation"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+prevPageNavBtn   =   {
+   desc   =   {
+      uiInputName   =   "PrevPage"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+nextPageNavBtn   =   {
+   desc   =   {
+      uiInputName   =   "NextPage"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+filter   =   {
+   sort   =   {
+      __type   =   "ModBrowserFilterSort"
+   }
+   __type   =   "ModBrowserFilter"
+}
+confirmLogoutPopup   =   {
+   view   =   {
+      header   =   "UI_HUD_POPUP_MODIO_LOGOUT_CONFIRM_HEADER"
+      text   =   "UI_HUD_POPUP_MODIO_LOGOUT_CONFIRM_TEXT"
+      __type   =   "SimplePopupUiView"
+   }
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            Decline   =   {
+               text   =   "UI_DECLINE"
+               uiInputName   =   "Decline"
+               __type   =   "NavButtonDesc"
+            }
+         }
+         order   =   [
+            "Accept",
+            "Decline"
+         ]
+         __type   =   "AllButtonsNavigationPanel"
+      }
+   }
+   id   =   "MODS_LOGOUT_CONFIRM"
+   inputScreen   =   {
+      inputsLinks   =   {
+         Decline   =   {
+            inputLink   =   "Popups.Back"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "SimplePopupUiController"
+}
+confirmUnsubscribePopup   =   {
+   view   =   {
+      headerIcon   =   "tutorialHintExclaimBold"
+      header   =   "UI_POPUP_MOD_UNSUBSCRIBE_CONFIRM_HEADER"
+      text   =   "UI_POPUP_MOD_UNSUBSCRIBE_CONFIRM_DESC"
+      __type   =   "SimplePopupUiView"
+   }
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            Decline   =   {
+               text   =   "UI_DECLINE"
+               uiInputName   =   "Decline"
+               __type   =   "NavButtonDesc"
+            }
+         }
+         order   =   [
+            "Accept",
+            "Decline"
+         ]
+         __type   =   "AllButtonsNavigationPanel"
+      }
+   }
+   id   =   "MOD_UNSIBSCRIBE_CONFIRM"
+   disableInputs   =   True
+   inputScreen   =   {
+      name   =   "PopupModUnsubscribeConfirm"
+      inputsLinks   =   {
+         Decline   =   {
+            inputLink   =   "Popups.Back"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "SimplePopupUiController"
+}
+descScrollStep   =   5
+descGamepadScrollSpeed   =   -1
+descGamepadScrollSpeedSwitch   =   -2
+inputLinkGamepadScrollDesc   =   {
+   inputLink   =   "UI.ModBrowserScrollDesc"
+   __type   =   "InputLinkVectorMr"
+}
+__type   =   "ScreenControllerBase"

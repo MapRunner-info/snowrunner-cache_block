@@ -1,0 +1,86 @@
+uiObjectDesc   =   {
+   type   =   {
+      header   =   {
+         tf   =   {
+            text   =   "UI_TRIALS_SCREEN_TITLE"
+            __type   =   "UiLabel"
+         }
+         __type   =   "UiTrialsTrialsheader"
+      }
+      listCont   =   {
+         list   =   {
+            lir   =   {
+               __type   =   "UiTrialsScreenListItemRenderer"
+            }
+            __type   =   "UiTrialsTrialslist"
+         }
+         __type   =   "UiTrialsTrialslistcontainer"
+      }
+      descCont   =   {
+         title   =   {
+            tf   =   {
+               isHtml   =   True
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiTrialsTrialsdescheader"
+         }
+         locked   =   {
+            tf   =   {
+               text   =   ""
+               isHtml   =   False
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiTrialsTrialslockedtext"
+         }
+         descCont   =   {
+            descText   =   {
+               tfText   =   {
+                  isHtml   =   True
+                  __type   =   "UiLabel"
+               }
+               isHtml   =   True
+               __type   =   "UiTrialsTrialsdesctext"
+            }
+            __type   =   "UiTrialsTrialsdesctextcont"
+         }
+         rewardsHeader   =   {
+            tf   =   {
+               color   =   -1
+               colorTransform   =   {
+                  multiplier   =   {
+                     a   =   127
+                     r   =   255
+                     g   =   0
+                     b   =   0
+                     __type   =   "Color"
+                  }
+                  __type   =   "null"
+               }
+               text   =   "UI_TRIALS_REWARDS"
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiTrialsTrialsrewardsheader"
+         }
+         desc   =   {
+            isHtml   =   True
+            __type   =   "UiTrialsTrialsdesctext"
+         }
+         __type   =   "UiTrialsTrialsdesccontainer"
+      }
+      __type   =   "UiTrialsTrialsscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+trialsList   =   {
+   uiInputScreen   =   {
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   ""
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+__type   =   "ScreenViewBase"

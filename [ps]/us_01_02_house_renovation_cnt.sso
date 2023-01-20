@@ -1,0 +1,57 @@
+uiDesc   =   "US_01_02_HOUSE_RENOVATION_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_HOUSE_RENOVATION_STAGE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_OLD_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBricks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_HOUSE_RENOVATION_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_HOUSE_RENOVATION_CNT"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ContestRewards   =   {
+      timeSettings   =   {
+         GOLD   =   {
+            timeLimit   =   570
+            xp   =   390
+            money   =   3750
+            __type   =   "ContestResultRewards"
+         }
+         SILVER   =   {
+            timeLimit   =   660
+            xp   =   190
+            money   =   1800
+            __type   =   "ContestResultRewards"
+         }
+         BRONZE   =   {
+            xp   =   110
+            money   =   1050
+            __type   =   "ContestResultRewards"
+         }
+      }
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+failReasons   =   {
+   CockpitFailReason   =   {
+   }
+}
+__type   =   "ContestSettings"

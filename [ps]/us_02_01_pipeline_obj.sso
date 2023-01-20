@@ -1,0 +1,60 @@
+uiDesc   =   "US_02_01_PIPELINE_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_01_PIPELINE_ACTION_1_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_PIPELINE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+               model   =   {
+                  levelName   =   "level_us_02_01"
+                  modelTag   =   "RU_02_02_PIPE_MDL"
+                  stagesProgress   =   {
+                     dase   =   {
+                     }
+                  }
+                  __type   =   "null"
+               }
+               additionalUnloadZones   =   [
+                  "US_02_01_PIPELINE_01"
+               ]
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_02_01"
+   modelTag   =   "US_02_01_PIPE_MDL"
+   stagesProgress   =   {
+      state_start   =   {
+         __value   =   0
+      }
+      state_end   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "US_02_01_PIPELINE_OBJ_REW"
+employer   =   "BlackBird"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   180
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1400
+   }
+}
+__type   =   "ContractSettings"

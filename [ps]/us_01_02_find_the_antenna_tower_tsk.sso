@@ -1,0 +1,31 @@
+uiDesc   =   "US_01_02_FIND_THE_ANTENNA_TOWER_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_02_FIND_THE_ANTENNA_TOWER_VISIT_ZONE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_ANTENNA_TOWER"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+description   =   "US_01_02_FIND_THE_ANTENNA_TOWER_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_FIND_THE_ANTENNA_TOWER_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   80
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1400
+   }
+}
+__type   =   "TaskSettings"

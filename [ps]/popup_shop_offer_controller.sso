@@ -1,0 +1,21 @@
+view   =   {
+   __type   =   "PopupShopOfferView"
+}
+navPanels   =   {
+   PopupShopOfferNavigationPanel   =   {
+   }
+}
+state   =   {
+   __type   =   "PopupShopOfferNavigationPanelState"
+}
+id   =   "SHOP_OFFER"
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Up",
+      "Right",
+      "Left",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

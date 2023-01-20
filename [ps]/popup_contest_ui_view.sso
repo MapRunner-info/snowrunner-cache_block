@@ -1,0 +1,62 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibHudanimpopupcontest"
+   }
+   __type   =   "UiObjectDesc"
+}
+cupIconDesc   =   {
+   gold   =   {
+      type   =   {
+         __type   =   "UiIconsLibCupimggold80"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   silver   =   {
+      type   =   {
+         __type   =   "UiIconsLibCupimgsilver80"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   bronze   =   {
+      type   =   {
+         __type   =   "UiIconsLibCupimgbronze80"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   empty   =   {
+      type   =   {
+         __type   =   "UiIconsLibCupimgw80"
+      }
+      __type   =   "UiContainerDesc"
+   }
+}
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPopuptrophyimg"
+   }
+   __type   =   "UiContainerDesc"
+}
+rewCurrIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilecurrency40"
+   }
+   __type   =   "UiContainerDesc"
+}
+rewExpIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilestar40"
+   }
+   __type   =   "UiContainerDesc"
+}
+cupLinkages   =   {
+   GOLD   =   {
+      __value   =   "cupImgGold40"
+   }
+   SILVER   =   {
+      __value   =   "cupImgSilver40"
+   }
+   BRONZE   =   {
+      __value   =   "cupImgBronze40"
+   }
+}
+__type   =   "PopupViewBase"

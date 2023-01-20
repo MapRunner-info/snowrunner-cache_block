@@ -1,0 +1,22 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      sysMsgMulitlineText   =   {
+         isHtml   =   True
+         __type   =   "UiSystemMessageSysmessagemultilinetext"
+      }
+      __type   =   "UiSystemMessageSystemmessagecontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "End",
+      "Home"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "ScreenViewBase"

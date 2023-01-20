@@ -1,0 +1,4 @@
+delayBeforeStartSec   =   0.5
+waitTimeSec   =   0.2
+holdPeriod   =   0.1
+__type   =   "CustomNavigationButtonView"

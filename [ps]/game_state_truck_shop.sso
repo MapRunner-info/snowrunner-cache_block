@@ -1,0 +1,7 @@
+enableScaleformMouse   =   False
+inputScreen   =   {
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+idx   =   "TRUCK_SHOP"
+__type   =   "GameStateBase"

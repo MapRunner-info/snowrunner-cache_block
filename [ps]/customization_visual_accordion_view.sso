@@ -1,0 +1,16 @@
+accordionContentDesc   =   {
+   type   =   {
+      contentButton   =   {
+         __type   =   "CustomizationAccordionButton"
+      }
+      contentList   =   {
+         lir   =   {
+            __type   =   "CustomizationViewCustomizationAccordionLir"
+         }
+         __type   =   "UiCustomizationLibVisuallist"
+      }
+      __type   =   "CustomizationAccordionContent"
+   }
+   __type   =   "SslDesc"
+}
+__type   =   "CustomizationAccordionViewBase"

@@ -1,0 +1,158 @@
+view   =   {
+   text   =   "UI_CRANE_WINCH"
+   __type   =   "NavLegendSectionView"
+}
+hintDescs   =   [
+   {
+      type   =   {
+         view   =   {
+            text   =   "UI_CRANE_PULL_PUSH"
+            __type   =   "NavLegendHintView"
+         }
+         inputs   =   [
+            {
+               inputLink   =   "Crane.WinchPush"
+            },
+            {
+               inputLink   =   "Crane.WinchPull"
+            }
+         ]
+         steeringWheelInputDesc   =   {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchActions"
+               __type   =   "InputLinkMr"
+            }
+            isVector   =   True
+            order   =   [
+               "BACKWARD",
+               "FORWARD"
+            ]
+            __type   =   "NavLegendHintControllerInput"
+         }
+         __type   =   "NavLegendHintController"
+      }
+   },
+   {
+      type   =   {
+         view   =   {
+            text   =   "UI_CRANE_CARGO_ROTATION"
+            __type   =   "NavLegendHintView"
+         }
+         inputs   =   [
+            {
+               inputLink   =   "Crane.TurnCounterClockwise"
+            },
+            {
+               inputLink   =   "Crane.TurnClockwise"
+            }
+         ]
+         steeringWheelInputDesc   =   {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchActions"
+               __type   =   "InputLinkMr"
+            }
+            isVector   =   True
+            order   =   [
+               "RIGHT",
+               "LEFT"
+            ]
+            craneCargoRotationAxis   =   True
+            inputLinkAxis   =   {
+               inputLink   =   "Crane.CargoRotationAxis"
+               __type   =   "InputLinkMr"
+            }
+            __type   =   "NavLegendHintControllerInput"
+         }
+         __type   =   "NavLegendHintController"
+      }
+   },
+   {
+      type   =   {
+         view   =   {
+            text   =   "UI_CRANE_EXIT_WINCH_CONTROL"
+            __type   =   "NavLegendHintView"
+         }
+         inputs   =   [
+            {
+               inputLink   =   "Crane.WinchPush"
+            }
+         ]
+         steeringWheelInputDesc   =   {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchPush"
+               __type   =   "InputLinkMr"
+            }
+            __type   =   "NavLegendHintControllerInput"
+         }
+         excludedDevices   =   [
+            "keyboard",
+            "mouse"
+         ]
+         __type   =   "NavLegendHintController"
+      }
+   },
+   {
+      type   =   {
+         view   =   {
+            text   =   "UI_CRANE_WINCH_CONTROL"
+            __type   =   "NavLegendHintView"
+         }
+         inputs   =   [
+            {
+               inputLink   =   "Crane.TurnCounterClockwise"
+            },
+            {
+               inputLink   =   "Crane.TurnClockwise"
+            }
+         ]
+         steeringWheelInputDesc   =   {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchActions"
+               __type   =   "InputLinkMr"
+            }
+            isVector   =   True
+            order   =   [
+               "RIGHT",
+               "LEFT"
+            ]
+            craneCargoRotationAxis   =   True
+            inputLinkAxis   =   {
+               inputLink   =   "Crane.CargoRotationAxis"
+               __type   =   "InputLinkMr"
+            }
+            __type   =   "NavLegendHintControllerInput"
+         }
+         excludedDevices   =   [
+            "keyboard",
+            "mouse"
+         ]
+         __type   =   "NavLegendHintController"
+      }
+   },
+   {
+      type   =   {
+         view   =   {
+            text   =   "UI_CRANE_ENTER_WINCH_CONTROL"
+            __type   =   "NavLegendHintView"
+         }
+         inputs   =   [
+            {
+               inputLink   =   "Crane.WinchPush"
+            }
+         ]
+         steeringWheelInputDesc   =   {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchPush"
+               __type   =   "InputLinkMr"
+            }
+            __type   =   "NavLegendHintControllerInput"
+         }
+         excludedDevices   =   [
+            "keyboard",
+            "mouse"
+         ]
+         __type   =   "NavLegendHintController"
+      }
+   }
+]
+__type   =   "NavLegendSectionController"

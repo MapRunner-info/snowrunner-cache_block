@@ -1,0 +1,32 @@
+uiDesc   =   "US_01_04_LOST_SHIP_OBJ_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_04_LOST_SHIP_OBJ_SUB_0_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_LOST_SHIP"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+description   =   "US_01_04_LOST_SHIP_OBJ_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_04_new || US_01_04_FIND_LOST_SHIP_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   50
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   850
+   }
+}
+recommendedTruck   =   "SCOUT"
+__type   =   "TaskSettings"

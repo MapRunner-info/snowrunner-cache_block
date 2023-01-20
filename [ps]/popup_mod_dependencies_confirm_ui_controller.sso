@@ -1,0 +1,58 @@
+view   =   {
+   header   =   "UI_HUD_MOD_DEPENDENCIES_CONFIRM_HEADER"
+   desc   =   "UI_HUD_MOD_DEPENDENCIES_CONFIRM_DESC,"
+   totalSize   =   "UI_HUD_MOD_DEPENDENCIES_CONFIRM_TOTAL_SIZE"
+   __type   =   "PopupAcceptCoopModsUiView"
+}
+navPanels   =   {
+   default   =   {
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         accept   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "accept"
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "decline"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupAcceptCoopModsNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "ScreenState"
+}
+id   =   "ACCEPT_MODS_DOWNLOAD"
+useDefaultAttach   =   True
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PACK CARGO WARNING"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      decline   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "End",
+      "Return"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

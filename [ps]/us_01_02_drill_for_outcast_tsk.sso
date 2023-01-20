@@ -1,0 +1,37 @@
+uiDesc   =   "US_01_02_DRILL_FOR_OUTCAST_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_DRILL_FOR_OUTCAST_SERVICE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_HERMIT_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoVehiclesSpareParts"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_DRILL_FOR_OUTCAST_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_DRILLOUTCAST_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   210
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2100
+   }
+}
+__type   =   "TaskSettings"

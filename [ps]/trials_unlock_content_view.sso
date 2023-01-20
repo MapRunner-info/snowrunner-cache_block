@@ -1,0 +1,23 @@
+uiObjectDesc   =   {
+   type   =   {
+      textContainer   =   {
+         tfCont   =   {
+            tf   =   {
+               isHtml   =   True
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiTrialsTrialsunlockcontenttext"
+         }
+         __type   =   "UiTrialsTrialsunlockcontenttextcontainer"
+      }
+      __type   =   "UiTrialsTrialsunlockcontentcontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+completeIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibStatuscheckokicon"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ComponentUiViewBase"

@@ -1,0 +1,17 @@
+rewards   =   {
+   ContestRewards   =   {
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+taskGiverZone   =   {
+   __type   =   "ZoneGlobalIdentificator"
+}
+failReasons   =   {
+   ChangeTruckFailReason   =   {
+   }
+   RecoveryFailReason   =   {
+   }
+   GarageFailReason   =   {
+   }
+}
+__type   =   "ObjectiveWithFailReasonSettings"

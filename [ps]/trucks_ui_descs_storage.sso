@@ -1,0 +1,6 @@
+rootNodeName   =   "Truck"
+classType   =   "trucks"
+uiDescNodeName   =   "UiDesc"
+landmarkDescNodeName   =   "Landmark"
+defaultTruckLandmarkMesh   =   "landmarks_truck_default_lmk"
+__type   =   "XmlDescStorageBase"

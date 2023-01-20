@@ -1,0 +1,9 @@
+navBtn   =   {
+   desc   =   {
+      disableMouse   =   True
+      isButtonWithoutText   =   True
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+__type   =   "HudControllerMrBase"

@@ -1,0 +1,26 @@
+minBeepingFrequency   =   0.7
+maxBeepingFrequency   =   5
+beepingToReadyThreshold   =   1
+beepingThreshold   =   150
+beepingFrequencySpline   =   {
+   spline   =   [
+      0,
+      1,
+      -0.1432375,
+      1,
+      0.1432375,
+      1,
+      1,
+      0,
+      0.5702875,
+      0,
+      1.5,
+      0
+   ]
+   argumentScale   =   1
+   __type   =   "SplineBezier1d"
+}
+beepingSoundName   =   "actors/actor_vibro_sensor/actor_vibro_sensor_beep"
+readyToWorkSoundName   =   "actors/actor_vibro_sensor/actor_vibro_sensor_ready_loop"
+workingSoundName   =   "actors/actor_vibro_sensor/actor_vibro_sensor_loop"
+__type   =   "object"

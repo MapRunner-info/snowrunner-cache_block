@@ -1,0 +1,39 @@
+uiDesc   =   "RU_02_02_STUCK_TRUCK_03_TSK_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "RU_02_02_STUCK_TRUCK_03_TRK"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_REPAIR"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "RU_02_02_STUCK_TRUCK_03_TRUCK_DESC"
+            afterStageFinished   =   "REWARD"
+            globalZoneSpawnId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_STUCK_TRUCK_03_SPAWN"
+               __type   =   "null"
+            }
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_STUCK_TRUCK_03_TSK_REW"
+recommendedTruck   =   "SCOUT"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   290
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2300
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_ru_02_02 || RU_02_02_STUCK_TRUCK_03_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "RU_02_02_STUCK_TRUCK_03_02_TSK"
+]
+__type   =   "TaskSettings"

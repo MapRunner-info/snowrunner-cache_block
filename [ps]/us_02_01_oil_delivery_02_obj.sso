@@ -1,0 +1,38 @@
+uiDesc   =   "US_02_01_OIL_DELIVERY_02_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_01_OIL_DELIVERY_02_ACTION_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_SERVICE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+blockerObjectives   =   [
+   "US_02_01_PIPELINE_OBJ",
+   "US_02_01_DISASS_OBJ"
+]
+description   =   "US_02_01_OIL_DELIVERY_02_OBJ_REW"
+employer   =   "BlackBird"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   290
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2500
+   }
+}
+__type   =   "ContractSettings"

@@ -1,0 +1,13 @@
+settings   =   {
+   kinematicConstraintTypeStr   =   "None"
+   maxAcceleration   =   20
+   maxDeceleration   =   30
+   leftTurnRadius   =   0.9
+   rightTurnRadius   =   0.9
+   __type   =   "NavPathMovementSettings"
+}
+navPathMovement   =   {
+   goalDistTolerance   =   1
+   __type   =   "NavPathMovement"
+}
+__type   =   "prop_base"

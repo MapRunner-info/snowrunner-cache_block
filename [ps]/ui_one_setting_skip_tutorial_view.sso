@@ -1,0 +1,11 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiSettingsSettingstextclip"
+   }
+   __type   =   "UiObjectDesc"
+}
+hintInputLink   =   {
+   inputLink   =   "UI.Accept"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "UiOneSettingView"

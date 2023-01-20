@@ -1,0 +1,2144 @@
+classes   =   {
+   Ctabuttonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "ctaButtonAttach"
+      sslClass   =   "UiModsLibCtabuttonattach"
+      __type   =   "UiContainer"
+   }
+   Customscenariolir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "customScenarioLir"
+      spinner   =   {
+         symbol   =   ""
+         x   =   490
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModlirspinner"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   34
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModlirtfcont"
+      }
+      __type   =   "UiListItem"
+   }
+   Customscenariolirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Customscenarioslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "customScenariosList"
+      __type   =   "UiScrollingList"
+   }
+   Customscenarioslistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "customScenariosListContainer"
+      sslClass   =   "UiModsLibCustomscenarioslistcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibCustomscenarioslist"
+      }
+      __type   =   "UiContainer"
+   }
+   Customscenariosmainscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "customScenariosMainScreen"
+      sslClass   =   "UiModsLibCustomscenariosmainscreen"
+      header   =   {
+         symbol   =   ""
+         x   =   38
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsheader"
+      }
+      modTypeTabs   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   620
+         y   =   208
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModstabpanel"
+      }
+      nomods   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   351
+         y   =   334
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibNomodsmsgcontainer"
+      }
+      navPanel   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModspanelnavbtnattach"
+      }
+      listContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   351
+         y   =   334
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibCustomscenarioslistcontainer"
+      }
+      details   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   968
+         y   =   334
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModdetailscontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Modauthortext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modAuthorText"
+      sslClass   =   "UiModsLibModauthortext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserconsolecompatibleicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserConsoleCompatibleIcon"
+      sslClass   =   "UiModsLibModbrowserconsolecompatibleicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetails   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetails"
+      sslClass   =   "UiModsLibModbrowserdetails"
+      activeHintAttach   =   {
+         symbol   =   ""
+         x   =   196
+         y   =   749
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsscreenattach"
+      }
+      activeSwitch   =   {
+         symbol   =   ""
+         x   =   234
+         y   =   746
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModlirswitchbox"
+      }
+      scrollContainer   =   {
+         symbol   =   ""
+         x   =   275.05
+         y   =   258
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailsscrollcontainer"
+      }
+      serviceInfo   =   {
+         symbol   =   ""
+         x   =   33
+         y   =   743
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailsserviceinfo"
+      }
+      titleContent   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailstitle"
+      }
+      update   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   127
+         y   =   64
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiModsLibModbrowserdetailsdatetext"
+      }
+      date   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   27
+         y   =   64
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiModsLibModbrowserdetailsdatetext"
+      }
+      authorText   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   237
+         y   =   62
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowserdetailsauthortext"
+      }
+      hddram   =   {
+         symbol   =   ""
+         x   =   350
+         y   =   695
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailshddram"
+      }
+      mbText   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   356.45
+         y   =   690
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibModbrowserdetailsmbtext"
+      }
+      desc   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   290
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowserdetailsdesctext"
+      }
+      rating   =   {
+         symbol   =   ""
+         x   =   6
+         y   =   689
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserrating"
+      }
+      subs   =   {
+         symbol   =   ""
+         x   =   494
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemsubs"
+      }
+      consoleCompatible   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   93
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailsconsolecompatible"
+      }
+      gradient   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   224
+         scaleX   =   99.826
+         scaleY   =   55.452
+         __type   =   "UiModsLibModpostergradient"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   93
+         scaleX   =   89.6881
+         scaleY   =   89.6652
+         __type   =   "UiModsLibModbrowserdetailsposterattach"
+      }
+      spinner   =   {
+         symbol   =   ""
+         x   =   330
+         y   =   280
+         scaleX   =   60.0006
+         scaleY   =   60.0006
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsauthortext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsAuthorText"
+      sslClass   =   "UiModsLibModbrowserdetailsauthortext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsconsolecompatible   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsConsoleCompatible"
+      sslClass   =   "UiModsLibModbrowserdetailsconsolecompatible"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibModbrowserdetailsconsolecompatibletext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsconsolecompatibletext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "modBrowserDetailsConsoleCompatibleText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Modbrowserdetailsdatetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsDateText"
+      sslClass   =   "UiModsLibModbrowserdetailsdatetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsdesctext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "modBrowserDetailsDescText"
+      __type   =   "UiTextArea"
+   }
+   Modbrowserdetailshddram   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsHddRam"
+      sslClass   =   "UiModsLibModbrowserdetailshddram"
+      hdd   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailshddrambar"
+      }
+      ram   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   44
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailshddrambar"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailshddrambar   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsHddRamBar"
+      sslClass   =   "UiModsLibModbrowserdetailshddrambar"
+      mbTextMultiline   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -19
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowserdetailsmbtextmultiline"
+      }
+      mbText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowserdetailsmbtext"
+      }
+      valueBar   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   115
+         y   =   31
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailshddrambaranim"
+      }
+      addBar   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   115
+         y   =   31
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailshddrambaranim"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailshddrambaranim   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsHddRamBarAnim"
+      sslClass   =   "UiModsLibModbrowserdetailshddrambaranim"
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailshddrambarstripe   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsHddRamBarStripe"
+      sslClass   =   "UiModsLibModbrowserdetailshddrambarstripe"
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsmbtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsMbText"
+      sslClass   =   "UiModsLibModbrowserdetailsmbtext"
+      tf   =   {
+         x   =   -70
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsmbtextmultiline   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsMbTextMultiline"
+      sslClass   =   "UiModsLibModbrowserdetailsmbtextmultiline"
+      tf   =   {
+         x   =   -70
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailspagination   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsPagination"
+      sslClass   =   "UiModsLibModbrowserdetailspagination"
+      nextBtn   =   {
+         symbol   =   ""
+         x   =   287
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailspaginationnext"
+      }
+      prevBtn   =   {
+         symbol   =   ""
+         x   =   33
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailspaginationprev"
+      }
+      nextHintAttach   =   {
+         symbol   =   ""
+         x   =   321
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModposterattach"
+      }
+      prevHintAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModposterattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailspaginationnext   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserDetailsPaginationNext"
+      __type   =   "UiButton"
+   }
+   Modbrowserdetailspaginationnexttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsPaginationNextText"
+      sslClass   =   "UiModsLibModbrowserdetailspaginationnexttext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailspaginationprev   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserDetailsPaginationPrev"
+      __type   =   "UiButton"
+   }
+   Modbrowserdetailspaginationprevtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsPaginationPrevText"
+      sslClass   =   "UiModsLibModbrowserdetailspaginationprevtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsposterattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsPosterAttach"
+      sslClass   =   "UiModsLibModbrowserdetailsposterattach"
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsscrollcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsScrollContainer"
+      sslClass   =   "UiModsLibModbrowserdetailsscrollcontainer"
+      scrollUpBtn   =   {
+         symbol   =   ""
+         x   =   4.95
+         y   =   24
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibPaginationarrow"
+      }
+      scrollBtn   =   {
+         symbol   =   ""
+         x   =   4.95
+         y   =   380
+         scaleX   =   100
+         scaleY   =   100
+         rotation   =   -90
+         __type   =   "UiModsLibPaginationarrow"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailsserviceinfo   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsServiceInfo"
+      sslClass   =   "UiModsLibModbrowserdetailsserviceinfo"
+      okIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   4.9
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiMovieClip"
+      }
+      spinner   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   32
+         scaleX   =   30.0003
+         scaleY   =   30.0003
+         __type   =   "UiMovieClip"
+      }
+      infoText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   32
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowserdetailsauthortext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailstitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsTitle"
+      sslClass   =   "UiModsLibModbrowserdetailstitle"
+      titleText   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   10
+         y   =   10
+         scaleX   =   100
+         scaleY   =   95.0577
+         __type   =   "UiModsLibModbrowserdetailstitletext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserdetailstitletext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserDetailsTitleText"
+      sslClass   =   "UiModsLibModbrowserdetailstitletext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserfade   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserFade"
+      sslClass   =   "UiModsLibModbrowserfade"
+      __type   =   "UiContainer"
+   }
+   Modbrowserheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeader"
+      sslClass   =   "UiModsLibModbrowserheader"
+      inputContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   468
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheaderinputcontainer"
+      }
+      sortBtn   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   45
+         y   =   13
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheaderbutton"
+      }
+      filterBtn   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   268
+         y   =   13
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheaderbutton"
+      }
+      offlineText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   60
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibModbrowserheaderofflinetext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserheaderbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserHeaderButton"
+      iconAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -23
+         y   =   7.75
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModposterattach"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowserheaderbuttontext"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowserheaderbuttontext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeaderButtonText"
+      sslClass   =   "UiModsLibModbrowserheaderbuttontext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserheaderclearinputbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserHeaderClearInputButton"
+      clearIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiModsLibModbrowserheaderclearinputicon"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowserheaderclearinputicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeaderClearInputIcon"
+      sslClass   =   "UiModsLibModbrowserheaderclearinputicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserheaderinput   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "modBrowserHeaderInput"
+      __type   =   "UiTextInput"
+   }
+   Modbrowserheaderinputbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeaderInputBg"
+      sslClass   =   "UiModsLibModbrowserheaderinputbg"
+      __type   =   "UiContainer"
+   }
+   Modbrowserheaderinputbtnbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeaderInputBtnBg"
+      sslClass   =   "UiModsLibModbrowserheaderinputbtnbg"
+      __type   =   "UiContainer"
+   }
+   Modbrowserheaderinputbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserHeaderInputButton"
+      searchIcon   =   {
+         animated   =   True
+         colorMode   =   4
+         symbol   =   ""
+         x   =   20
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheaderinputicon"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowserheaderinputcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeaderInputContainer"
+      sslClass   =   "UiModsLibModbrowserheaderinputcontainer"
+      clearBtn   =   {
+         symbol   =   ""
+         x   =   462
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheaderclearinputbutton"
+      }
+      searchHintAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsscreenattach"
+      }
+      searchBtn   =   {
+         symbol   =   ""
+         x   =   507
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheaderinputbutton"
+      }
+      searchInput   =   {
+         symbol   =   ""
+         x   =   32
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheaderinput"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserheaderinputicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeaderInputIcon"
+      sslClass   =   "UiModsLibModbrowserheaderinputicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserheaderofflinetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserHeaderOfflineText"
+      sslClass   =   "UiModsLibModbrowserheaderofflinetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowseritem   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserItem"
+      selection   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibModbrowseritemselection"
+      }
+      nameText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   7
+         y   =   192
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowseritemnametext"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemposterattach"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowseritemactive   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemActive"
+      sslClass   =   "UiModsLibModbrowseritemactive"
+      mbText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   11
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibModbrowseritemmbtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemactivebg   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemActiveBg"
+      sslClass   =   "UiModsLibModbrowseritemactivebg"
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemactivebtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserItemActiveBtn"
+      activeText   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemactivetext"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowseritemactivetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemActiveText"
+      sslClass   =   "UiModsLibModbrowseritemactivetext"
+      tf   =   {
+         x   =   -4
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemconsolecompatible   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemConsoleCompatible"
+      sslClass   =   "UiModsLibModbrowseritemconsolecompatible"
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemContainer"
+      sslClass   =   "UiModsLibModbrowseritemcontainer"
+      consoleCompatible   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   87
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemconsolecompatible"
+      }
+      modRating   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowserrating"
+      }
+      modActiveBtn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemactivebtn"
+      }
+      modSizeSpinner   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemactive"
+      }
+      modSubsBtn   =   {
+         symbol   =   ""
+         x   =   232
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemsubs"
+      }
+      itemContent   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritem"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemmbtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemMbText"
+      sslClass   =   "UiModsLibModbrowseritemmbtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemnametext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemNameText"
+      sslClass   =   "UiModsLibModbrowseritemnametext"
+      tfContent   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemnametextcontent"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemnametextcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemNameTextContent"
+      sslClass   =   "UiModsLibModbrowseritemnametextcontent"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemposterattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemPosterAttach"
+      sslClass   =   "UiModsLibModbrowseritemposterattach"
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemselection   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemSelection"
+      sslClass   =   "UiModsLibModbrowseritemselection"
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemsubs   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserItemSubs"
+      subsIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   77
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowseritemsubsicon"
+      }
+      subsText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModbrowseritemsubstext"
+      }
+      subsBg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiModsLibModbrowseritemsubsbg"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowseritemsubsbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemSubsBg"
+      sslClass   =   "UiModsLibModbrowseritemsubsbg"
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemsubsicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemSubsIcon"
+      sslClass   =   "UiModsLibModbrowseritemsubsicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowseritemsubstext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserItemSubsText"
+      sslClass   =   "UiModsLibModbrowseritemsubstext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowsermainscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserMainScreen"
+      sslClass   =   "UiModsLibModbrowsermainscreen"
+      fade   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserfade"
+      }
+      popUpAttach   =   {
+         symbol   =   ""
+         x   =   660
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsscreenattach"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   59
+         y   =   29
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsheaderlight"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModspanelnavbtnattach"
+      }
+      browserHeader   =   {
+         symbol   =   ""
+         x   =   124
+         y   =   125
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserheader"
+      }
+      browserPage   =   {
+         symbol   =   ""
+         x   =   124
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserpage"
+      }
+      browserPagination   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserpagination"
+      }
+      browserDetails   =   {
+         symbol   =   ""
+         x   =   1203
+         y   =   125
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetails"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserpage   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserPage"
+      sslClass   =   "UiModsLibModbrowserpage"
+      item0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item1   =   {
+         symbol   =   ""
+         x   =   353.95
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item2   =   {
+         symbol   =   ""
+         x   =   706
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item3   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   251
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item4   =   {
+         symbol   =   ""
+         x   =   353.95
+         y   =   251
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item5   =   {
+         symbol   =   ""
+         x   =   706
+         y   =   251
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item6   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   502
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item7   =   {
+         symbol   =   ""
+         x   =   353.95
+         y   =   502
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      item8   =   {
+         symbol   =   ""
+         x   =   706
+         y   =   502
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowseritemcontainer"
+      }
+      browserSummary   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   740
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowsersummarytext"
+      }
+      noModsText   =   {
+         symbol   =   ""
+         x   =   221
+         y   =   284
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibNomodsmsgtext"
+      }
+      spinner   =   {
+         symbol   =   ""
+         x   =   579.7
+         y   =   418.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      browserInvisibleBackground   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserpagination   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserPagination"
+      sslClass   =   "UiModsLibModbrowserpagination"
+      prevBtn   =   {
+         symbol   =   ""
+         x   =   83
+         y   =   10.95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailspaginationprev"
+      }
+      nextBtn   =   {
+         symbol   =   ""
+         x   =   399
+         y   =   10.95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserdetailspaginationnext"
+      }
+      nextHintAttach   =   {
+         symbol   =   ""
+         x   =   433
+         y   =   8.95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModposterattach"
+      }
+      prevHintAttach   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   8.95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModposterattach"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   58
+         y   =   6.95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserpaginationtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserpaginationtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserPaginationText"
+      sslClass   =   "UiModsLibModbrowserpaginationtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserrating   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserRating"
+      sslClass   =   "UiModsLibModbrowserrating"
+      dislikeBtn   =   {
+         symbol   =   ""
+         x   =   98
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratingdislikebtn"
+      }
+      likeBtn   =   {
+         symbol   =   ""
+         x   =   12
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratinglikebtn"
+      }
+      percentIcon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   300
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratingpercenticon"
+      }
+      percentText   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   250
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratingpercenttext"
+      }
+      dislikeText   =   {
+         symbol   =   ""
+         x   =   120
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratingtext"
+      }
+      likeText   =   {
+         symbol   =   ""
+         x   =   34
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratingtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserratingdislikebtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserRatingDislikeBtn"
+      dislikeIcon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratinglikeiconembeded"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowserratinglikebtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modBrowserRatingLikeBtn"
+      likeIcon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModbrowserratinglikeiconembeded"
+      }
+      __type   =   "UiButton"
+   }
+   Modbrowserratinglikeiconembeded   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserRatingLikeIconEmbeded"
+      sslClass   =   "UiModsLibModbrowserratinglikeiconembeded"
+      __type   =   "UiContainer"
+   }
+   Modbrowserratingpercenticon   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserRatingPercentIcon"
+      sslClass   =   "UiModsLibModbrowserratingpercenticon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserratingpercenttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserRatingPercentText"
+      sslClass   =   "UiModsLibModbrowserratingpercenttext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowserratingtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserRatingText"
+      sslClass   =   "UiModsLibModbrowserratingtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modbrowsersummarytext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modBrowserSummaryText"
+      sslClass   =   "UiModsLibModbrowsersummarytext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modcustomscenariosstepper   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "modCustomScenariosStepper"
+      prevBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiModsLibModswitchstepperarrow"
+      }
+      nextBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   271
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiModsLibModswitchstepperarrow"
+      }
+      __type   =   "UiOptionStepper"
+   }
+   Moddatetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modDateText"
+      sslClass   =   "UiModsLibModdatetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Moddescpagedtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modDescPagedText"
+      sslClass   =   "UiModsLibModdescpagedtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Moddesctextold   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modDescTextOld"
+      sslClass   =   "UiModsLibModdesctextold"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Moddetailscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modDetailsContainer"
+      sslClass   =   "UiModsLibModdetailscontainer"
+      indikatorHardmode   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModhardmodeindikator"
+      }
+      title   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   4
+         scaleX   =   100
+         scaleY   =   95.0577
+         __type   =   "UiModsLibModtitletext"
+      }
+      date   =   {
+         symbol   =   ""
+         x   =   385
+         y   =   45
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModdatetext"
+      }
+      authorText   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   45
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModauthortext"
+      }
+      nextBtn   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   566
+         y   =   353
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibPaginationarrow"
+      }
+      prevBtn   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   33
+         y   =   353
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibPaginationarrow"
+      }
+      modeStepperAttach   =   {
+         symbol   =   ""
+         x   =   14
+         y   =   498
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibCtabuttonattach"
+      }
+      ctaAttach   =   {
+         symbol   =   ""
+         x   =   295
+         y   =   499
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibCtabuttonattach"
+      }
+      scrollContainer   =   {
+         symbol   =   ""
+         x   =   276
+         y   =   225
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModdetailsscrollcontainer"
+      }
+      desc   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   51
+         y   =   257
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModdetailsdesctext"
+      }
+      gradient   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   60
+         scaleX   =   100
+         scaleY   =   90.7578
+         __type   =   "UiModsLibModpostergradient"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   75
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModposterattach"
+      }
+      spinner   =   {
+         symbol   =   ""
+         x   =   330
+         y   =   200
+         scaleX   =   60.0006
+         scaleY   =   60.0006
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Moddetailsdesctext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "modDetailsDescText"
+      __type   =   "UiTextArea"
+   }
+   Moddetailsscrollcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modDetailsScrollContainer"
+      sslClass   =   "UiModsLibModdetailsscrollcontainer"
+      scrollUpBtn   =   {
+         symbol   =   ""
+         x   =   4.95
+         y   =   24
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibPaginationarrow"
+      }
+      scrollBtn   =   {
+         symbol   =   ""
+         x   =   4.95
+         y   =   240
+         scaleX   =   100
+         scaleY   =   100
+         rotation   =   -90
+         __type   =   "UiModsLibPaginationarrow"
+      }
+      __type   =   "UiContainer"
+   }
+   Modhardmodeindikator   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modHardModeIndikator"
+      sslClass   =   "UiModsLibModhardmodeindikator"
+      __type   =   "UiContainer"
+   }
+   Modlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "modLir"
+      switchBox   =   {
+         symbol   =   ""
+         x   =   450
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModlirswitchbox"
+      }
+      spinner   =   {
+         symbol   =   ""
+         x   =   490
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModlirspinner"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   34
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModlirtfcont"
+      }
+      __type   =   "UiListItem"
+   }
+   Modlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Modlirspinner   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modLirSpinner"
+      sslClass   =   "UiModsLibModlirspinner"
+      __type   =   "UiContainer"
+   }
+   Modlirswitchbox   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modLirSwitchBox"
+      sslClass   =   "UiModsLibModlirswitchbox"
+      textOn   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   60
+         y   =   2.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibSwitchboxtf"
+      }
+      textOff   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   2.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiModsLibSwitchboxtf"
+      }
+      __type   =   "UiContainer"
+   }
+   Modlirtfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modLirTfCont"
+      sslClass   =   "UiModsLibModlirtfcont"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modposterattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modPosterAttach"
+      sslClass   =   "UiModsLibModposterattach"
+      __type   =   "UiContainer"
+   }
+   Modpostergradient   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modPosterGradient"
+      sslClass   =   "UiModsLibModpostergradient"
+      __type   =   "UiContainer"
+   }
+   Modscounter   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsCounter"
+      sslClass   =   "UiModsLibModscounter"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modsheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsHeader"
+      sslClass   =   "UiModsLibModsheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modsheaderlight   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsHeaderLight"
+      sslClass   =   "UiModsLibModsheaderlight"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "modsList"
+      __type   =   "UiScrollingList"
+   }
+   Modslistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsListContainer"
+      sslClass   =   "UiModsLibModslistcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModslist"
+      }
+      __type   =   "UiContainer"
+   }
+   Modsmainscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsMainScreen"
+      sslClass   =   "UiModsLibModsmainscreen"
+      header   =   {
+         symbol   =   ""
+         x   =   38
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsheader"
+      }
+      counter   =   {
+         symbol   =   ""
+         x   =   43
+         y   =   105
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModscounter"
+      }
+      mods   =   {
+         symbol   =   ""
+         x   =   350
+         y   =   325
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsscreen"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModspanelnavbtnattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Modspanelnavbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsPanelNavBtnAttach"
+      sslClass   =   "UiModsLibModspanelnavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Modsscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsScreen"
+      sslClass   =   "UiModsLibModsscreen"
+      nomods   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibNomodsmsgcontainer"
+      }
+      modsListCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibModslistcontainer"
+      }
+      modDetailsCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   620
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiModsLibModdetailscontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Modsscreenattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsScreenAttach"
+      sslClass   =   "UiModsLibModsscreenattach"
+      __type   =   "UiContainer"
+   }
+   Modstabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsTabPanel"
+      sslClass   =   "UiModsLibModstabpanel"
+      navAttachR   =   {
+         symbol   =   ""
+         x   =   646
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModstabpanelnavbtnattach"
+      }
+      navAttachL   =   {
+         symbol   =   ""
+         x   =   -120
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModstabpanelnavbtnattach"
+      }
+      btnsContainer   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModspanelnavbtnattach"
+      }
+      tab0   =   {
+         symbol   =   ""
+         x   =   -72
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModstabpanelbtn"
+      }
+      tab1   =   {
+         symbol   =   ""
+         x   =   168
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModstabpanelbtn"
+      }
+      tab2   =   {
+         symbol   =   ""
+         x   =   408
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModstabpanelbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Modstabpanelbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modsTabPanelBtn"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiModsLibModstabtext"
+      }
+      __type   =   "UiButton"
+   }
+   Modstabpanelnavbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsTabPanelNavBtnAttach"
+      sslClass   =   "UiModsLibModstabpanelnavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Modstabtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modsTabText"
+      sslClass   =   "UiModsLibModstabtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modswitchstepper   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "modSwitchStepper"
+      prevBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiModsLibModswitchstepperarrow"
+      }
+      nextBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   139
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiModsLibModswitchstepperarrow"
+      }
+      __type   =   "UiOptionStepper"
+   }
+   Modswitchstepperarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "modSwitchStepperArrow"
+      __type   =   "UiButton"
+   }
+   Modtitletext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "modTitleText"
+      sslClass   =   "UiModsLibModtitletext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Nomodsmessage   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "noModsMessage"
+      sslClass   =   "UiModsLibNomodsmessage"
+      msgCont   =   {
+         symbol   =   ""
+         x   =   360
+         y   =   240
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibNomodsmsgcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Nomodsmsgcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "noModsMsgContainer"
+      sslClass   =   "UiModsLibNomodsmsgcontainer"
+      title   =   {
+         symbol   =   ""
+         x   =   200
+         y   =   192
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibNomodsmsgtitle"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   300
+         y   =   242
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibNomodsmsgtext"
+      }
+      btnAttach   =   {
+         symbol   =   ""
+         x   =   463
+         y   =   423
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsscreenattach"
+      }
+      btn2Attach   =   {
+         symbol   =   ""
+         x   =   463
+         y   =   473
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiModsLibModsscreenattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Nomodsmsgtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "noModsMsgText"
+      sslClass   =   "UiModsLibNomodsmsgtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Nomodsmsgtitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "noModsMsgTitle"
+      sslClass   =   "UiModsLibNomodsmsgtitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Paginationarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "paginationArrow"
+      __type   =   "UiButton"
+   }
+   Paginationlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "paginationLir"
+      __type   =   "UiListItem"
+   }
+   Paginationlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "paginationList"
+      __type   =   "UiScrollingList"
+   }
+   Switchboxtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_mods_lib"
+      symbol   =   "switchBoxTf"
+      sslClass   =   "UiModsLibSwitchboxtf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

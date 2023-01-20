@@ -1,0 +1,81 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         stepper   =   {
+            wrapMode   =   True
+            __type   =   "UiSettingsSettingsstepper"
+         }
+         __type   =   "UiSettingsSettingsstepperclip"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_MENU_LANGUAGE"
+desc   =   "UI_SETTINGS_MENU_LANGUAGE_DESC"
+languages   =   [
+   {
+      localeName   =   "english"
+      uiName   =   "UI_OPTION_LANGUAGE_ENG"
+   },
+   {
+      localeName   =   "french"
+      uiName   =   "UI_OPTION_LANGUAGE_FRA"
+   },
+   {
+      localeName   =   "russian"
+      uiName   =   "UI_OPTION_LANGUAGE_RUS"
+   },
+   {
+      localeName   =   "italian"
+      uiName   =   "UI_OPTION_LANGUAGE_ITA"
+   },
+   {
+      localeName   =   "german"
+      uiName   =   "UI_OPTION_LANGUAGE_GER"
+   },
+   {
+      localeName   =   "spanish"
+      uiName   =   "UI_OPTION_LANGUAGE_SPA"
+   },
+   {
+      localeName   =   "brazilian_portuguese"
+      uiName   =   "UI_OPTION_LANGUAGE_BRP"
+   },
+   {
+      localeName   =   "polish"
+      uiName   =   "UI_OPTION_LANGUAGE_POL"
+   },
+   {
+      localeName   =   "traditional_chinese"
+      uiName   =   "UI_OPTION_LANGUAGE_TRDN_CHN"
+   },
+   {
+      localeName   =   "simplified_chinese"
+      uiName   =   "UI_OPTION_LANGUAGE_SMPL_CHN"
+   },
+   {
+      localeName   =   "czech"
+      uiName   =   "UI_OPTION_LANGUAGE_CZ"
+   },
+   {
+      localeName   =   "korean"
+      uiName   =   "UI_OPTION_LANGUAGE_KOR"
+   }
+]
+japaneseLanguageDesc   =   {
+   localeName   =   "japanese"
+   uiName   =   "UI_OPTION_LANGUAGE_JPN"
+   __type   =   "UiLanguageDescription"
+}
+japaneseBuildLanguages   =   [
+   {
+      localeName   =   "english"
+      uiName   =   "UI_OPTION_LANGUAGE_ENG"
+   },
+   {
+      localeName   =   "japanese"
+      uiName   =   "UI_OPTION_LANGUAGE_JPN"
+   }
+]
+__type   =   "UiOneSettingStepperController"

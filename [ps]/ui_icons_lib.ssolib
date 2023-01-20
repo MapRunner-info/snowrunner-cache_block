@@ -1,0 +1,5394 @@
+classes   =   {
+   Addonsimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "addonsImg40"
+      sslClass   =   "UiIconsLibAddonsimg40"
+      __type   =   "UiContainer"
+   }
+   Advancedmenucargoicon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "AdvancedMenuCargoIcon30"
+      sslClass   =   "UiIconsLibAdvancedmenucargoicon30"
+      __type   =   "UiContainer"
+   }
+   Airportaltimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "airportAltImg"
+      sslClass   =   "UiIconsLibAirportaltimg"
+      __type   =   "UiContainer"
+   }
+   Airportaltimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "airportAltImg30"
+      sslClass   =   "UiIconsLibAirportaltimg30"
+      __type   =   "UiContainer"
+   }
+   Airportimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "airportImg"
+      sslClass   =   "UiIconsLibAirportimg"
+      __type   =   "UiContainer"
+   }
+   Airportimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "airportImg30"
+      sslClass   =   "UiIconsLibAirportimg30"
+      __type   =   "UiContainer"
+   }
+   Allvehicle60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "allVehicle60"
+      sslClass   =   "UiIconsLibAllvehicle60"
+      __type   =   "UiContainer"
+   }
+   Allvehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "allVehicleImg"
+      sslClass   =   "UiIconsLibAllvehicleimg"
+      __type   =   "UiContainer"
+   }
+   Allvehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "allVehicleImg30"
+      sslClass   =   "UiIconsLibAllvehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Allvehicleimg40plus   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "allVehicleImg40Plus"
+      sslClass   =   "UiIconsLibAllvehicleimg40plus"
+      __type   =   "UiContainer"
+   }
+   Anklogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ANKLogo80"
+      sslClass   =   "UiIconsLibAnklogo80"
+      __type   =   "UiContainer"
+   }
+   Aramatsulogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "AramatsuLogo80"
+      sslClass   =   "UiIconsLibAramatsulogo80"
+      __type   =   "UiContainer"
+   }
+   Arrowchevronimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "arrowChevronImg"
+      sslClass   =   "UiIconsLibArrowchevronimg"
+      __type   =   "UiContainer"
+   }
+   Awd40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "awd40"
+      sslClass   =   "UiIconsLibAwd40"
+      __type   =   "UiContainer"
+   }
+   Azovlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "AzovLogo80"
+      sslClass   =   "UiIconsLibAzovlogo80"
+      __type   =   "UiContainer"
+   }
+   Badconnectionicons   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "badConnectionIconS"
+      sslClass   =   "UiIconsLibBadconnectionicons"
+      __type   =   "UiContainer"
+   }
+   Boarlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "BoarLogo80"
+      sslClass   =   "UiIconsLibBoarlogo80"
+      __type   =   "UiContainer"
+   }
+   Bodyimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "bodyImg40"
+      sslClass   =   "UiIconsLibBodyimg40"
+      __type   =   "UiContainer"
+   }
+   Bodytrailerimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "bodyTrailerImg40"
+      sslClass   =   "UiIconsLibBodytrailerimg40"
+      __type   =   "UiContainer"
+   }
+   Bunkeraltimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "bunkerAltImg"
+      sslClass   =   "UiIconsLibBunkeraltimg"
+      __type   =   "UiContainer"
+   }
+   Bunkeraltimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "bunkerAltImg30"
+      sslClass   =   "UiIconsLibBunkeraltimg30"
+      __type   =   "UiContainer"
+   }
+   Bunkerimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "bunkerImg"
+      sslClass   =   "UiIconsLibBunkerimg"
+      __type   =   "UiContainer"
+   }
+   Bunkerimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "bunkerImg30"
+      sslClass   =   "UiIconsLibBunkerimg30"
+      __type   =   "UiContainer"
+   }
+   Cargoloadtypeliquid10   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoLoadTypeLiquid10"
+      sslClass   =   "UiIconsLibCargoloadtypeliquid10"
+      __type   =   "UiContainer"
+   }
+   Cargoloadtypeliquid20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoLoadTypeLiquid20"
+      sslClass   =   "UiIconsLibCargoloadtypeliquid20"
+      __type   =   "UiContainer"
+   }
+   Cargoloadtypeuniversal10   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoLoadTypeUniversal10"
+      sslClass   =   "UiIconsLibCargoloadtypeuniversal10"
+      __type   =   "UiContainer"
+   }
+   Cargoloadtypeuniversal20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoLoadTypeUniversal20"
+      sslClass   =   "UiIconsLibCargoloadtypeuniversal20"
+      __type   =   "UiContainer"
+   }
+   Cargoloadtypeuniversalcurrent20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoLoadTypeUniversalCurrent20"
+      sslClass   =   "UiIconsLibCargoloadtypeuniversalcurrent20"
+      __type   =   "UiContainer"
+   }
+   Cargoloadtypewood10   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoLoadTypeWood10"
+      sslClass   =   "UiIconsLibCargoloadtypewood10"
+      __type   =   "UiContainer"
+   }
+   Cargoloadtypewood20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoLoadTypeWood20"
+      sslClass   =   "UiIconsLibCargoloadtypewood20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebags   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBags"
+      sslClass   =   "UiIconsLibCargotypebags"
+      __type   =   "UiContainer"
+   }
+   Cargotypebags20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBags20"
+      sslClass   =   "UiIconsLibCargotypebags20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebags40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBags40"
+      sslClass   =   "UiIconsLibCargotypebags40"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrel   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrel"
+      sslClass   =   "UiIconsLibCargotypebarrel"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrel20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrel20"
+      sslClass   =   "UiIconsLibCargotypebarrel20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrel40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrel40"
+      sslClass   =   "UiIconsLibCargotypebarrel40"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrelmasut20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrelMasut20"
+      sslClass   =   "UiIconsLibCargotypebarrelmasut20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrelmasut40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrelMasut40"
+      sslClass   =   "UiIconsLibCargotypebarrelmasut40"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrels   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrels"
+      sslClass   =   "UiIconsLibCargotypebarrels"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrelsbricks   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrelsBricks"
+      sslClass   =   "UiIconsLibCargotypebarrelsbricks"
+      __type   =   "UiContainer"
+   }
+   Cargotypebarrelsmasut   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBarrelsMasut"
+      sslClass   =   "UiIconsLibCargotypebarrelsmasut"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigbox   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigBox"
+      sslClass   =   "UiIconsLibCargotypebigbox"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigbox20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigBox20"
+      sslClass   =   "UiIconsLibCargotypebigbox20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigbox40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigBox40"
+      sslClass   =   "UiIconsLibCargotypebigbox40"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigboxalt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigBoxAlt"
+      sslClass   =   "UiIconsLibCargotypebigboxalt"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigboxalt20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigBoxAlt20"
+      sslClass   =   "UiIconsLibCargotypebigboxalt20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigdrills   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigDrills"
+      sslClass   =   "UiIconsLibCargotypebigdrills"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigdrills20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigDrills20"
+      sslClass   =   "UiIconsLibCargotypebigdrills20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebigdrills40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigDrills40"
+      sslClass   =   "UiIconsLibCargotypebigdrills40"
+      __type   =   "UiContainer"
+   }
+   Cargotypebiglog   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBigLog"
+      sslClass   =   "UiIconsLibCargotypebiglog"
+      __type   =   "UiContainer"
+   }
+   Cargotypeblock   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBlock"
+      sslClass   =   "UiIconsLibCargotypeblock"
+      __type   =   "UiContainer"
+   }
+   Cargotypeblock20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBlock20"
+      sslClass   =   "UiIconsLibCargotypeblock20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeblock40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBlock40"
+      sslClass   =   "UiIconsLibCargotypeblock40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeboiler   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBoiler"
+      sslClass   =   "UiIconsLibCargotypeboiler"
+      __type   =   "UiContainer"
+   }
+   Cargotypeboiler20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBoiler20"
+      sslClass   =   "UiIconsLibCargotypeboiler20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeboiler40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBoiler40"
+      sslClass   =   "UiIconsLibCargotypeboiler40"
+      __type   =   "UiContainer"
+   }
+   Cargotypebrick   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBrick"
+      sslClass   =   "UiIconsLibCargotypebrick"
+      __type   =   "UiContainer"
+   }
+   Cargotypebrick20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBrick20"
+      sslClass   =   "UiIconsLibCargotypebrick20"
+      __type   =   "UiContainer"
+   }
+   Cargotypebrick40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBrick40"
+      sslClass   =   "UiIconsLibCargotypebrick40"
+      __type   =   "UiContainer"
+   }
+   Cargotypebricks   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBricks"
+      sslClass   =   "UiIconsLibCargotypebricks"
+      __type   =   "UiContainer"
+   }
+   Cargotypeburntlogs   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBurntLogs"
+      sslClass   =   "UiIconsLibCargotypeburntlogs"
+      __type   =   "UiContainer"
+   }
+   Cargotypeburntlogs20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBurntLogs20"
+      sslClass   =   "UiIconsLibCargotypeburntlogs20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeburntlogs40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeBurntLogs40"
+      sslClass   =   "UiIconsLibCargotypeburntlogs40"
+      __type   =   "UiContainer"
+   }
+   Cargotypecellulose   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeCellulose"
+      sslClass   =   "UiIconsLibCargotypecellulose"
+      __type   =   "UiContainer"
+   }
+   Cargotypechangehouse   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeChangeHouse"
+      sslClass   =   "UiIconsLibCargotypechangehouse"
+      __type   =   "UiContainer"
+   }
+   Cargotypechangehouse20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeChangeHouse20"
+      sslClass   =   "UiIconsLibCargotypechangehouse20"
+      __type   =   "UiContainer"
+   }
+   Cargotypechangehouse40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeChangeHouse40"
+      sslClass   =   "UiIconsLibCargotypechangehouse40"
+      __type   =   "UiContainer"
+   }
+   Cargotypechemicals20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeChemicals20"
+      sslClass   =   "UiIconsLibCargotypechemicals20"
+      __type   =   "UiContainer"
+   }
+   Cargotypechemicals40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeChemicals40"
+      sslClass   =   "UiIconsLibCargotypechemicals40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeconcreteblocks   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeConcreteBlocks"
+      sslClass   =   "UiIconsLibCargotypeconcreteblocks"
+      __type   =   "UiContainer"
+   }
+   Cargotypeconcreteblocksalt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeConcreteBlocksAlt"
+      sslClass   =   "UiIconsLibCargotypeconcreteblocksalt"
+      __type   =   "UiContainer"
+   }
+   Cargotypeconcreteslab   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeConcreteSlab"
+      sslClass   =   "UiIconsLibCargotypeconcreteslab"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainer"
+      sslClass   =   "UiIconsLibCargotypecontainer"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainer20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainer20"
+      sslClass   =   "UiIconsLibCargotypecontainer20"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainer40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainer40"
+      sslClass   =   "UiIconsLibCargotypecontainer40"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontaineralt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerAlt"
+      sslClass   =   "UiIconsLibCargotypecontaineralt"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontaineralt20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerAlt20"
+      sslClass   =   "UiIconsLibCargotypecontaineralt20"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontaineralt40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerAlt40"
+      sslClass   =   "UiIconsLibCargotypecontaineralt40"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainerdrill   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerDrill"
+      sslClass   =   "UiIconsLibCargotypecontainerdrill"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainerdrilling   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerDrilling"
+      sslClass   =   "UiIconsLibCargotypecontainerdrilling"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainerdrilling20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerDrilling20"
+      sslClass   =   "UiIconsLibCargotypecontainerdrilling20"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainerdrilling40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerDrilling40"
+      sslClass   =   "UiIconsLibCargotypecontainerdrilling40"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainerlarge   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerLarge"
+      sslClass   =   "UiIconsLibCargotypecontainerlarge"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainersmall   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerSmall"
+      sslClass   =   "UiIconsLibCargotypecontainersmall"
+      __type   =   "UiContainer"
+   }
+   Cargotypecontainersmallspecial   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeContainerSmallSpecial"
+      sslClass   =   "UiIconsLibCargotypecontainersmallspecial"
+      __type   =   "UiContainer"
+   }
+   Cargotypecratelarge   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeCrateLarge"
+      sslClass   =   "UiIconsLibCargotypecratelarge"
+      __type   =   "UiContainer"
+   }
+   Cargotypecratelargealt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeCrateLargeAlt"
+      sslClass   =   "UiIconsLibCargotypecratelargealt"
+      __type   =   "UiContainer"
+   }
+   Cargotypecratelargealt2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeCrateLargeAlt2"
+      sslClass   =   "UiIconsLibCargotypecratelargealt2"
+      __type   =   "UiContainer"
+   }
+   Cargotypecratelargealt3   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeCrateLargeAlt3"
+      sslClass   =   "UiIconsLibCargotypecratelargealt3"
+      __type   =   "UiContainer"
+   }
+   Cargotypegoldenbox   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeGoldenBox"
+      sslClass   =   "UiIconsLibCargotypegoldenbox"
+      __type   =   "UiContainer"
+   }
+   Cargotypegoldenbox20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeGoldenBox20"
+      sslClass   =   "UiIconsLibCargotypegoldenbox20"
+      __type   =   "UiContainer"
+   }
+   Cargotypegoldenbox40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeGoldenBox40"
+      sslClass   =   "UiIconsLibCargotypegoldenbox40"
+      __type   =   "UiContainer"
+   }
+   Cargotypehaystack   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeHaystack"
+      sslClass   =   "UiIconsLibCargotypehaystack"
+      __type   =   "UiContainer"
+   }
+   Cargotypehaystack20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeHaystack20"
+      sslClass   =   "UiIconsLibCargotypehaystack20"
+      __type   =   "UiContainer"
+   }
+   Cargotypehaystack40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeHaystack40"
+      sslClass   =   "UiIconsLibCargotypehaystack40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeloco30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLoco30"
+      sslClass   =   "UiIconsLibCargotypeloco30"
+      __type   =   "UiContainer"
+   }
+   Cargotypeloco40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLoco40"
+      sslClass   =   "UiIconsLibCargotypeloco40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeloco40nostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLoco40NoStroke"
+      sslClass   =   "UiIconsLibCargotypeloco40nostroke"
+      __type   =   "UiContainer"
+   }
+   Cargotypelog   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLog"
+      sslClass   =   "UiIconsLibCargotypelog"
+      __type   =   "UiContainer"
+   }
+   Cargotypelog20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLog20"
+      sslClass   =   "UiIconsLibCargotypelog20"
+      __type   =   "UiContainer"
+   }
+   Cargotypelog40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLog40"
+      sslClass   =   "UiIconsLibCargotypelog40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeloglong20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogLong20"
+      sslClass   =   "UiIconsLibCargotypeloglong20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeloglong40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogLong40"
+      sslClass   =   "UiIconsLibCargotypeloglong40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeloglow20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogLow20"
+      sslClass   =   "UiIconsLibCargotypeloglow20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeloglow40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogLow40"
+      sslClass   =   "UiIconsLibCargotypeloglow40"
+      __type   =   "UiContainer"
+   }
+   Cargotypelogmid20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogMid20"
+      sslClass   =   "UiIconsLibCargotypelogmid20"
+      __type   =   "UiContainer"
+   }
+   Cargotypelogmid40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogMid40"
+      sslClass   =   "UiIconsLibCargotypelogmid40"
+      __type   =   "UiContainer"
+   }
+   Cargotypelogs   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogs"
+      sslClass   =   "UiIconsLibCargotypelogs"
+      __type   =   "UiContainer"
+   }
+   Cargotypelogs20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogs20"
+      sslClass   =   "UiIconsLibCargotypelogs20"
+      __type   =   "UiContainer"
+   }
+   Cargotypelogs40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogs40"
+      sslClass   =   "UiIconsLibCargotypelogs40"
+      __type   =   "UiContainer"
+   }
+   Cargotypelogslow   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLogsLow"
+      sslClass   =   "UiIconsLibCargotypelogslow"
+      __type   =   "UiContainer"
+   }
+   Cargotypelonglogs   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLongLogs"
+      sslClass   =   "UiIconsLibCargotypelonglogs"
+      __type   =   "UiContainer"
+   }
+   Cargotypelost   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLost"
+      sslClass   =   "UiIconsLibCargotypelost"
+      __type   =   "UiContainer"
+   }
+   Cargotypelost20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLost20"
+      sslClass   =   "UiIconsLibCargotypelost20"
+      __type   =   "UiContainer"
+   }
+   Cargotypelost40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeLost40"
+      sslClass   =   "UiIconsLibCargotypelost40"
+      __type   =   "UiContainer"
+   }
+   Cargotypemediumlogs   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeMediumLogs"
+      sslClass   =   "UiIconsLibCargotypemediumlogs"
+      __type   =   "UiContainer"
+   }
+   Cargotypemetall   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeMetall"
+      sslClass   =   "UiIconsLibCargotypemetall"
+      __type   =   "UiContainer"
+   }
+   Cargotypemetall20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeMetall20"
+      sslClass   =   "UiIconsLibCargotypemetall20"
+      __type   =   "UiContainer"
+   }
+   Cargotypemetall40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeMetall40"
+      sslClass   =   "UiIconsLibCargotypemetall40"
+      __type   =   "UiContainer"
+   }
+   Cargotypemetalplanks   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeMetalPlanks"
+      sslClass   =   "UiIconsLibCargotypemetalplanks"
+      __type   =   "UiContainer"
+   }
+   Cargotypepaper20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePaper20"
+      sslClass   =   "UiIconsLibCargotypepaper20"
+      __type   =   "UiContainer"
+   }
+   Cargotypepaper40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePaper40"
+      sslClass   =   "UiIconsLibCargotypepaper40"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipe20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipe20"
+      sslClass   =   "UiIconsLibCargotypepipe20"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipe40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipe40"
+      sslClass   =   "UiIconsLibCargotypepipe40"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipeaverage   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeAverage"
+      sslClass   =   "UiIconsLibCargotypepipeaverage"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipeaverage20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeAverage20"
+      sslClass   =   "UiIconsLibCargotypepipeaverage20"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipeaverage40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeAverage40"
+      sslClass   =   "UiIconsLibCargotypepipeaverage40"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipebig   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeBig"
+      sslClass   =   "UiIconsLibCargotypepipebig"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipebig20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeBig20"
+      sslClass   =   "UiIconsLibCargotypepipebig20"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipebig40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeBig40"
+      sslClass   =   "UiIconsLibCargotypepipebig40"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipelarge   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeLarge"
+      sslClass   =   "UiIconsLibCargotypepipelarge"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipesmall   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeSmall"
+      sslClass   =   "UiIconsLibCargotypepipesmall"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipesmall20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipeSmall20"
+      sslClass   =   "UiIconsLibCargotypepipesmall20"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipesmedium   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipesMedium"
+      sslClass   =   "UiIconsLibCargotypepipesmedium"
+      __type   =   "UiContainer"
+   }
+   Cargotypepipessmall   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePipesSmall"
+      sslClass   =   "UiIconsLibCargotypepipessmall"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplane   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlane"
+      sslClass   =   "UiIconsLibCargotypeplane"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplane20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlane20"
+      sslClass   =   "UiIconsLibCargotypeplane20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplane40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlane40"
+      sslClass   =   "UiIconsLibCargotypeplane40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplank   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlank"
+      sslClass   =   "UiIconsLibCargotypeplank"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplank20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlank20"
+      sslClass   =   "UiIconsLibCargotypeplank20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplank40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlank40"
+      sslClass   =   "UiIconsLibCargotypeplank40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplankslong   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlanksLong"
+      sslClass   =   "UiIconsLibCargotypeplankslong"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplanksmedium   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlanksMedium"
+      sslClass   =   "UiIconsLibCargotypeplanksmedium"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplate   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlate"
+      sslClass   =   "UiIconsLibCargotypeplate"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplate20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlate20"
+      sslClass   =   "UiIconsLibCargotypeplate20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeplate40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePlate40"
+      sslClass   =   "UiIconsLibCargotypeplate40"
+      __type   =   "UiContainer"
+   }
+   Cargotypepotato   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePotato"
+      sslClass   =   "UiIconsLibCargotypepotato"
+      __type   =   "UiContainer"
+   }
+   Cargotypepotato20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePotato20"
+      sslClass   =   "UiIconsLibCargotypepotato20"
+      __type   =   "UiContainer"
+   }
+   Cargotypepotato40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypePotato40"
+      sslClass   =   "UiIconsLibCargotypepotato40"
+      __type   =   "UiContainer"
+   }
+   Cargotyperadioactive   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRadioactive"
+      sslClass   =   "UiIconsLibCargotyperadioactive"
+      __type   =   "UiContainer"
+   }
+   Cargotyperadioactive20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRadioactive20"
+      sslClass   =   "UiIconsLibCargotyperadioactive20"
+      __type   =   "UiContainer"
+   }
+   Cargotyperadioactive40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRadioactive40"
+      sslClass   =   "UiIconsLibCargotyperadioactive40"
+      __type   =   "UiContainer"
+   }
+   Cargotyperails   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRails"
+      sslClass   =   "UiIconsLibCargotyperails"
+      __type   =   "UiContainer"
+   }
+   Cargotyperails20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRails20"
+      sslClass   =   "UiIconsLibCargotyperails20"
+      __type   =   "UiContainer"
+   }
+   Cargotyperails40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRails40"
+      sslClass   =   "UiIconsLibCargotyperails40"
+      __type   =   "UiContainer"
+   }
+   Cargotyperailsstack   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRailsStack"
+      sslClass   =   "UiIconsLibCargotyperailsstack"
+      __type   =   "UiContainer"
+   }
+   Cargotyperailsstack20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRailsStack20"
+      sslClass   =   "UiIconsLibCargotyperailsstack20"
+      __type   =   "UiContainer"
+   }
+   Cargotyperailsstack40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRailsStack40"
+      sslClass   =   "UiIconsLibCargotyperailsstack40"
+      __type   =   "UiContainer"
+   }
+   Cargotyperocketengine   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRocketEngine"
+      sslClass   =   "UiIconsLibCargotyperocketengine"
+      __type   =   "UiContainer"
+   }
+   Cargotyperocketengine20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRocketEngine20"
+      sslClass   =   "UiIconsLibCargotyperocketengine20"
+      __type   =   "UiContainer"
+   }
+   Cargotyperocketengine40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRocketEngine40"
+      sslClass   =   "UiIconsLibCargotyperocketengine40"
+      __type   =   "UiContainer"
+   }
+   Cargotyperocketmodule   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRocketModule"
+      sslClass   =   "UiIconsLibCargotyperocketmodule"
+      __type   =   "UiContainer"
+   }
+   Cargotyperocketmodule20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRocketModule20"
+      sslClass   =   "UiIconsLibCargotyperocketmodule20"
+      __type   =   "UiContainer"
+   }
+   Cargotyperocketmodule40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRocketModule40"
+      sslClass   =   "UiIconsLibCargotyperocketmodule40"
+      __type   =   "UiContainer"
+   }
+   Cargotyperubbish   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRubbish"
+      sslClass   =   "UiIconsLibCargotyperubbish"
+      __type   =   "UiContainer"
+   }
+   Cargotyperubbish20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRubbish20"
+      sslClass   =   "UiIconsLibCargotyperubbish20"
+      __type   =   "UiContainer"
+   }
+   Cargotyperubbish40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeRubbish40"
+      sslClass   =   "UiIconsLibCargotyperubbish40"
+      __type   =   "UiContainer"
+   }
+   Cargotypesand20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSand20"
+      sslClass   =   "UiIconsLibCargotypesand20"
+      __type   =   "UiContainer"
+   }
+   Cargotypesand40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSand40"
+      sslClass   =   "UiIconsLibCargotypesand40"
+      __type   =   "UiContainer"
+   }
+   Cargotypesandbags   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSandBags"
+      sslClass   =   "UiIconsLibCargotypesandbags"
+      __type   =   "UiContainer"
+   }
+   Cargotypeservicespareparts   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeServiceSpareParts"
+      sslClass   =   "UiIconsLibCargotypeservicespareparts"
+      __type   =   "UiContainer"
+   }
+   Cargotypeservicespareparts20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeServiceSpareParts20"
+      sslClass   =   "UiIconsLibCargotypeservicespareparts20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeservicespareparts40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeServiceSpareParts40"
+      sslClass   =   "UiIconsLibCargotypeservicespareparts40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeservicesparepartstown   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeServiceSparePartsTown"
+      sslClass   =   "UiIconsLibCargotypeservicesparepartstown"
+      __type   =   "UiContainer"
+   }
+   Cargotypeslabbig   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSlabBig"
+      sslClass   =   "UiIconsLibCargotypeslabbig"
+      __type   =   "UiContainer"
+   }
+   Cargotypeslabbig20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSlabBig20"
+      sslClass   =   "UiIconsLibCargotypeslabbig20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeslabbig40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSlabBig40"
+      sslClass   =   "UiIconsLibCargotypeslabbig40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeslabsmall   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSlabSmall"
+      sslClass   =   "UiIconsLibCargotypeslabsmall"
+      __type   =   "UiContainer"
+   }
+   Cargotypeslabsmall20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSlabSmall20"
+      sslClass   =   "UiIconsLibCargotypeslabsmall20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeslabsmall40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSlabSmall40"
+      sslClass   =   "UiIconsLibCargotypeslabsmall40"
+      __type   =   "UiContainer"
+   }
+   Cargotypesmallbox   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSmallBox"
+      sslClass   =   "UiIconsLibCargotypesmallbox"
+      __type   =   "UiContainer"
+   }
+   Cargotypesmallbox20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSmallBox20"
+      sslClass   =   "UiIconsLibCargotypesmallbox20"
+      __type   =   "UiContainer"
+   }
+   Cargotypesmallbox40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSmallBox40"
+      sslClass   =   "UiIconsLibCargotypesmallbox40"
+      __type   =   "UiContainer"
+   }
+   Cargotypesmallboxalt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSmallBoxAlt"
+      sslClass   =   "UiIconsLibCargotypesmallboxalt"
+      __type   =   "UiContainer"
+   }
+   Cargotypesmallboxalt20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSmallBoxAlt20"
+      sslClass   =   "UiIconsLibCargotypesmallboxalt20"
+      __type   =   "UiContainer"
+   }
+   Cargotypesmallboxalt40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSmallBoxAlt40"
+      sslClass   =   "UiIconsLibCargotypesmallboxalt40"
+      __type   =   "UiContainer"
+   }
+   Cargotypesmallbricks   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSmallBricks"
+      sslClass   =   "UiIconsLibCargotypesmallbricks"
+      __type   =   "UiContainer"
+   }
+   Cargotypesolarpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSolarPanel"
+      sslClass   =   "UiIconsLibCargotypesolarpanel"
+      __type   =   "UiContainer"
+   }
+   Cargotypesolarpanel20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSolarPanel20"
+      sslClass   =   "UiIconsLibCargotypesolarpanel20"
+      __type   =   "UiContainer"
+   }
+   Cargotypesolarpanel40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSolarPanel40"
+      sslClass   =   "UiIconsLibCargotypesolarpanel40"
+      __type   =   "UiContainer"
+   }
+   Cargotypesparepartstown20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSparePartsTown20"
+      sslClass   =   "UiIconsLibCargotypesparepartstown20"
+      __type   =   "UiContainer"
+   }
+   Cargotypesparepartstown40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSparePartsTown40"
+      sslClass   =   "UiIconsLibCargotypesparepartstown40"
+      __type   =   "UiContainer"
+   }
+   Cargotypespecial20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSpecial20"
+      sslClass   =   "UiIconsLibCargotypespecial20"
+      __type   =   "UiContainer"
+   }
+   Cargotypespecial40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSpecial40"
+      sslClass   =   "UiIconsLibCargotypespecial40"
+      __type   =   "UiContainer"
+   }
+   Cargotypesteelroll   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSteelRoll"
+      sslClass   =   "UiIconsLibCargotypesteelroll"
+      __type   =   "UiContainer"
+   }
+   Cargotypesteelroll20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSteelRoll20"
+      sslClass   =   "UiIconsLibCargotypesteelroll20"
+      __type   =   "UiContainer"
+   }
+   Cargotypesteelroll40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeSteelRoll40"
+      sslClass   =   "UiIconsLibCargotypesteelroll40"
+      __type   =   "UiContainer"
+   }
+   Cargotypetankbody   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeTankBody"
+      sslClass   =   "UiIconsLibCargotypetankbody"
+      __type   =   "UiContainer"
+   }
+   Cargotypetankbody20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeTankBody20"
+      sslClass   =   "UiIconsLibCargotypetankbody20"
+      __type   =   "UiContainer"
+   }
+   Cargotypetankbody40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeTankBody40"
+      sslClass   =   "UiIconsLibCargotypetankbody40"
+      __type   =   "UiContainer"
+   }
+   Cargotypetankwagon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeTankWagon"
+      sslClass   =   "UiIconsLibCargotypetankwagon"
+      __type   =   "UiContainer"
+   }
+   Cargotypetankwagon20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeTankWagon20"
+      sslClass   =   "UiIconsLibCargotypetankwagon20"
+      __type   =   "UiContainer"
+   }
+   Cargotypetankwagon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeTankWagon40"
+      sslClass   =   "UiIconsLibCargotypetankwagon40"
+      __type   =   "UiContainer"
+   }
+   Cargotypeunique   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeUnique"
+      sslClass   =   "UiIconsLibCargotypeunique"
+      __type   =   "UiContainer"
+   }
+   Cargotypeunique20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeUnique20"
+      sslClass   =   "UiIconsLibCargotypeunique20"
+      __type   =   "UiContainer"
+   }
+   Cargotypeunique40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeUnique40"
+      sslClass   =   "UiIconsLibCargotypeunique40"
+      __type   =   "UiContainer"
+   }
+   Cargotypevehiclespareparts   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeVehicleSpareParts"
+      sslClass   =   "UiIconsLibCargotypevehiclespareparts"
+      __type   =   "UiContainer"
+   }
+   Cargotypevehiclespareparts20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeVehicleSpareParts20"
+      sslClass   =   "UiIconsLibCargotypevehiclespareparts20"
+      __type   =   "UiContainer"
+   }
+   Cargotypevehiclespareparts40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeVehicleSpareParts40"
+      sslClass   =   "UiIconsLibCargotypevehiclespareparts40"
+      __type   =   "UiContainer"
+   }
+   Cargotypevehiclesspareparts20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeVehiclesSpareParts20"
+      sslClass   =   "UiIconsLibCargotypevehiclesspareparts20"
+      __type   =   "UiContainer"
+   }
+   Cargotypevehiclesspareparts40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeVehiclesSpareParts40"
+      sslClass   =   "UiIconsLibCargotypevehiclesspareparts40"
+      __type   =   "UiContainer"
+   }
+   Cargotypewoodenplanks   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cargoTypeWoodenPlanks"
+      sslClass   =   "UiIconsLibCargotypewoodenplanks"
+      __type   =   "UiContainer"
+   }
+   Catterpillarlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "CatterpillarLogo80"
+      sslClass   =   "UiIconsLibCatterpillarlogo80"
+      __type   =   "UiContainer"
+   }
+   Chevroletlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ChevroletLogo80"
+      sslClass   =   "UiIconsLibChevroletlogo80"
+      __type   =   "UiContainer"
+   }
+   Climbraceimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "climbRaceImg30"
+      sslClass   =   "UiIconsLibClimbraceimg30"
+      __type   =   "UiContainer"
+   }
+   Climbraceimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "climbRaceImg40"
+      sslClass   =   "UiIconsLibClimbraceimg40"
+      __type   =   "UiContainer"
+   }
+   Clipboardcheckedimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardCheckedImg"
+      sslClass   =   "UiIconsLibClipboardcheckedimg"
+      __type   =   "UiContainer"
+   }
+   Clipboardcheckedimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardCheckedImg20"
+      sslClass   =   "UiIconsLibClipboardcheckedimg20"
+      __type   =   "UiContainer"
+   }
+   Clipboardcheckedimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardCheckedImg30"
+      sslClass   =   "UiIconsLibClipboardcheckedimg30"
+      __type   =   "UiContainer"
+   }
+   Clipboardcheckedimg40plus   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardCheckedImg40Plus"
+      sslClass   =   "UiIconsLibClipboardcheckedimg40plus"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptycheckedimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyCheckedImg20"
+      sslClass   =   "UiIconsLibClipboardemptycheckedimg20"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptyexclaimimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyExclaimImg20"
+      sslClass   =   "UiIconsLibClipboardemptyexclaimimg20"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptyexclaimimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyExclaimImg40"
+      sslClass   =   "UiIconsLibClipboardemptyexclaimimg40"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptyexclaimimgalt20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyExclaimImgAlt20"
+      sslClass   =   "UiIconsLibClipboardemptyexclaimimgalt20"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptyimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyImg20"
+      sslClass   =   "UiIconsLibClipboardemptyimg20"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptyimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyImg30"
+      sslClass   =   "UiIconsLibClipboardemptyimg30"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptyquestimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyQuestImg20"
+      sslClass   =   "UiIconsLibClipboardemptyquestimg20"
+      __type   =   "UiContainer"
+   }
+   Clipboardemptyquestimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardEmptyQuestImg40"
+      sslClass   =   "UiIconsLibClipboardemptyquestimg40"
+      __type   =   "UiContainer"
+   }
+   Clipboardimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardImg"
+      sslClass   =   "UiIconsLibClipboardimg"
+      __type   =   "UiContainer"
+   }
+   Clipboardimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardImg20"
+      sslClass   =   "UiIconsLibClipboardimg20"
+      __type   =   "UiContainer"
+   }
+   Clipboardimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardImg30"
+      sslClass   =   "UiIconsLibClipboardimg30"
+      __type   =   "UiContainer"
+   }
+   Clipboardnewimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "clipboardNewImg30"
+      sslClass   =   "UiIconsLibClipboardnewimg30"
+      __type   =   "UiContainer"
+   }
+   Codexiconcargo40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconCargo40"
+      sslClass   =   "UiIconsLibCodexiconcargo40"
+      __type   =   "UiContainer"
+   }
+   Codexicondamage40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconDamage40"
+      sslClass   =   "UiIconsLibCodexicondamage40"
+      __type   =   "UiContainer"
+   }
+   Codexicondriving40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconDriving40"
+      sslClass   =   "UiIconsLibCodexicondriving40"
+      __type   =   "UiContainer"
+   }
+   Codexiconnavigation20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconNavigation20"
+      sslClass   =   "UiIconsLibCodexiconnavigation20"
+      __type   =   "UiContainer"
+   }
+   Codexiconnavigation40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconNavigation40"
+      sslClass   =   "UiIconsLibCodexiconnavigation40"
+      __type   =   "UiContainer"
+   }
+   Codexiconobjectives40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconObjectives40"
+      sslClass   =   "UiIconsLibCodexiconobjectives40"
+      __type   =   "UiContainer"
+   }
+   Codexiconother40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconOther40"
+      sslClass   =   "UiIconsLibCodexiconother40"
+      __type   =   "UiContainer"
+   }
+   Codexiconvehup40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "codexIconVehUp40"
+      sslClass   =   "UiIconsLibCodexiconvehup40"
+      __type   =   "UiContainer"
+   }
+   Colorimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "colorImg40"
+      sslClass   =   "UiIconsLibColorimg40"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercomrad   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerComrad"
+      sslClass   =   "UiIconsLibCompassbarmarkercomrad"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercomradalt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerComradAlt"
+      sslClass   =   "UiIconsLibCompassbarmarkercomradalt"
+      countTxt   =   {
+         x   =   14.05
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontract   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContract"
+      sslClass   =   "UiIconsLibCompassbarmarkercontract"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontractcraft   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractCraft"
+      sslClass   =   "UiIconsLibCompassbarmarkercontractcraft"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontractfind   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractFind"
+      sslClass   =   "UiIconsLibCompassbarmarkercontractfind"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontractgenerator   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractGenerator"
+      sslClass   =   "UiIconsLibCompassbarmarkercontractgenerator"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontractloading   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractLoading"
+      sslClass   =   "UiIconsLibCompassbarmarkercontractloading"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontractmisc   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractMisc"
+      sslClass   =   "UiIconsLibCompassbarmarkercontractmisc"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontractroad   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractRoad"
+      sslClass   =   "UiIconsLibCompassbarmarkercontractroad"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontracttowing   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractTowing"
+      sslClass   =   "UiIconsLibCompassbarmarkercontracttowing"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkercontractuploading   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerContractUploading"
+      sslClass   =   "UiIconsLibCompassbarmarkercontractuploading"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkerplayer   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerPlayer"
+      sslClass   =   "UiIconsLibCompassbarmarkerplayer"
+      countTxt   =   {
+         x   =   14.05
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkerroute   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerRoute"
+      sslClass   =   "UiIconsLibCompassbarmarkerroute"
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkertask   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "compassBarMarkerTask"
+      sslClass   =   "UiIconsLibCompassbarmarkertask"
+      __type   =   "UiContainer"
+   }
+   Constructionblockageimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionBlockageImg"
+      sslClass   =   "UiIconsLibConstructionblockageimg"
+      __type   =   "UiContainer"
+   }
+   Constructionblockageimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionBlockageImg20"
+      sslClass   =   "UiIconsLibConstructionblockageimg20"
+      __type   =   "UiContainer"
+   }
+   Constructionblockageimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionBlockageImg30"
+      sslClass   =   "UiIconsLibConstructionblockageimg30"
+      __type   =   "UiContainer"
+   }
+   Constructionborderboothimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionBorderBoothImg"
+      sslClass   =   "UiIconsLibConstructionborderboothimg"
+      __type   =   "UiContainer"
+   }
+   Constructionborderboothimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionBorderBoothImg20"
+      sslClass   =   "UiIconsLibConstructionborderboothimg20"
+      __type   =   "UiContainer"
+   }
+   Constructionborderboothimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionBorderBoothImg30"
+      sslClass   =   "UiIconsLibConstructionborderboothimg30"
+      __type   =   "UiContainer"
+   }
+   Constructioncargoimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionCargoImg"
+      sslClass   =   "UiIconsLibConstructioncargoimg"
+      __type   =   "UiContainer"
+   }
+   Constructioncargoimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionCargoImg20"
+      sslClass   =   "UiIconsLibConstructioncargoimg20"
+      __type   =   "UiContainer"
+   }
+   Constructioncargoimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionCargoImg30"
+      sslClass   =   "UiIconsLibConstructioncargoimg30"
+      __type   =   "UiContainer"
+   }
+   Constructionhardhatimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionHardHatImg"
+      sslClass   =   "UiIconsLibConstructionhardhatimg"
+      __type   =   "UiContainer"
+   }
+   Constructionhardhatimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionHardHatImg20"
+      sslClass   =   "UiIconsLibConstructionhardhatimg20"
+      __type   =   "UiContainer"
+   }
+   Constructionhardhatimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionHardHatImg30"
+      sslClass   =   "UiIconsLibConstructionhardhatimg30"
+      __type   =   "UiContainer"
+   }
+   Constructionopenzoneimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionOpenZoneImg"
+      sslClass   =   "UiIconsLibConstructionopenzoneimg"
+      __type   =   "UiContainer"
+   }
+   Constructionsitealtimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionSiteAltImg"
+      sslClass   =   "UiIconsLibConstructionsitealtimg"
+      __type   =   "UiContainer"
+   }
+   Constructionsiteimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionSiteImg"
+      sslClass   =   "UiIconsLibConstructionsiteimg"
+      __type   =   "UiContainer"
+   }
+   Constructiontrash30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionTrash30"
+      sslClass   =   "UiIconsLibConstructiontrash30"
+      __type   =   "UiContainer"
+   }
+   Constructiontrash40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionTrash40"
+      sslClass   =   "UiIconsLibConstructiontrash40"
+      __type   =   "UiContainer"
+   }
+   Constructionwarehouseimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionWarehouseImg"
+      sslClass   =   "UiIconsLibConstructionwarehouseimg"
+      __type   =   "UiContainer"
+   }
+   Constructionwarehouseimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "constructionWarehouseImg30"
+      sslClass   =   "UiIconsLibConstructionwarehouseimg30"
+      __type   =   "UiContainer"
+   }
+   Contestcheckedimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestCheckedImg20"
+      sslClass   =   "UiIconsLibContestcheckedimg20"
+      __type   =   "UiContainer"
+   }
+   Contestcheckedimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestCheckedImg30"
+      sslClass   =   "UiIconsLibContestcheckedimg30"
+      __type   =   "UiContainer"
+   }
+   Contestemptyimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestEmptyImg20"
+      sslClass   =   "UiIconsLibContestemptyimg20"
+      __type   =   "UiContainer"
+   }
+   Contestemptyimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestEmptyImg30"
+      sslClass   =   "UiIconsLibContestemptyimg30"
+      __type   =   "UiContainer"
+   }
+   Contestimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestImg"
+      sslClass   =   "UiIconsLibContestimg"
+      __type   =   "UiContainer"
+   }
+   Contestimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestImg20"
+      sslClass   =   "UiIconsLibContestimg20"
+      __type   =   "UiContainer"
+   }
+   Contestimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestImg30"
+      sslClass   =   "UiIconsLibContestimg30"
+      __type   =   "UiContainer"
+   }
+   Contestimg60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestImg60"
+      sslClass   =   "UiIconsLibContestimg60"
+      __type   =   "UiContainer"
+   }
+   Contestnewimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestNewImg20"
+      sslClass   =   "UiIconsLibContestnewimg20"
+      __type   =   "UiContainer"
+   }
+   Contestnewimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestNewImg30"
+      sslClass   =   "UiIconsLibContestnewimg30"
+      __type   =   "UiContainer"
+   }
+   Contestpopupimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestPopupImg40"
+      sslClass   =   "UiIconsLibContestpopupimg40"
+      __type   =   "UiContainer"
+   }
+   Contesttracked20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contestTracked20"
+      sslClass   =   "UiIconsLibContesttracked20"
+      __type   =   "UiContainer"
+   }
+   Contractpopupimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contractPopupImg40"
+      sslClass   =   "UiIconsLibContractpopupimg40"
+      __type   =   "UiContainer"
+   }
+   Contracttracked20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contractTracked20"
+      sslClass   =   "UiIconsLibContracttracked20"
+      __type   =   "UiContainer"
+   }
+   Contracttracked40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "contractTracked40"
+      sslClass   =   "UiIconsLibContracttracked40"
+      __type   =   "UiContainer"
+   }
+   Controlcenterimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "controlCenterImg30"
+      sslClass   =   "UiIconsLibControlcenterimg30"
+      __type   =   "UiContainer"
+   }
+   Controlcenterimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "controlCenterImg40"
+      sslClass   =   "UiIconsLibControlcenterimg40"
+      __type   =   "UiContainer"
+   }
+   Copyicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "copyIcon"
+      sslClass   =   "UiIconsLibCopyicon"
+      __type   =   "UiContainer"
+   }
+   Craftconveer40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftConveer40"
+      sslClass   =   "UiIconsLibCraftconveer40"
+      __type   =   "UiContainer"
+   }
+   Craftconveermarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftConveerMarker40"
+      sslClass   =   "UiIconsLibCraftconveermarker40"
+      __type   =   "UiContainer"
+   }
+   Craftcrafting30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftCrafting30"
+      sslClass   =   "UiIconsLibCraftcrafting30"
+      __type   =   "UiContainer"
+   }
+   Craftcraftinging40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftCraftinging40"
+      sslClass   =   "UiIconsLibCraftcraftinging40"
+      __type   =   "UiContainer"
+   }
+   Craftcraftingmarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftCraftingMarker40"
+      sslClass   =   "UiIconsLibCraftcraftingmarker40"
+      __type   =   "UiContainer"
+   }
+   Craftfuelimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftFuelImg"
+      sslClass   =   "UiIconsLibCraftfuelimg"
+      __type   =   "UiContainer"
+   }
+   Craftgenerator30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftGenerator30"
+      sslClass   =   "UiIconsLibCraftgenerator30"
+      __type   =   "UiContainer"
+   }
+   Craftgenerator40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftGenerator40"
+      sslClass   =   "UiIconsLibCraftgenerator40"
+      __type   =   "UiContainer"
+   }
+   Craftgeneratormarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftGeneratorMarker40"
+      sslClass   =   "UiIconsLibCraftgeneratormarker40"
+      __type   =   "UiContainer"
+   }
+   Craftlivingarea30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftLivingArea30"
+      sslClass   =   "UiIconsLibCraftlivingarea30"
+      __type   =   "UiContainer"
+   }
+   Craftlivingarea40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftLivingArea40"
+      sslClass   =   "UiIconsLibCraftlivingarea40"
+      __type   =   "UiContainer"
+   }
+   Craftlivingareamarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftLivingAreaMarker40"
+      sslClass   =   "UiIconsLibCraftlivingareamarker40"
+      __type   =   "UiContainer"
+   }
+   Craftnofuelimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftNoFuelImg"
+      sslClass   =   "UiIconsLibCraftnofuelimg"
+      __type   =   "UiContainer"
+   }
+   Craftstorage30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftStorage30"
+      sslClass   =   "UiIconsLibCraftstorage30"
+      __type   =   "UiContainer"
+   }
+   Craftstorage40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftStorage40"
+      sslClass   =   "UiIconsLibCraftstorage40"
+      __type   =   "UiContainer"
+   }
+   Craftstoragemarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "craftStorageMarker40"
+      sslClass   =   "UiIconsLibCraftstoragemarker40"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconconsole   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconConsole"
+      sslClass   =   "UiIconsLibCrossplayiconconsole"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconegs   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconEGS"
+      sslClass   =   "UiIconsLibCrossplayiconegs"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconms   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconMS"
+      sslClass   =   "UiIconsLibCrossplayiconms"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconpc   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconPC"
+      sslClass   =   "UiIconsLibCrossplayiconpc"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconps   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconPS"
+      sslClass   =   "UiIconsLibCrossplayiconps"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconstadia   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconStadia"
+      sslClass   =   "UiIconsLibCrossplayiconstadia"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconsteam   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconSteam"
+      sslClass   =   "UiIconsLibCrossplayiconsteam"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconswitch   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconSwitch"
+      sslClass   =   "UiIconsLibCrossplayiconswitch"
+      __type   =   "UiContainer"
+   }
+   Crossplayiconxbox   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "crossplayIconXbox"
+      sslClass   =   "UiIconsLibCrossplayiconxbox"
+      __type   =   "UiContainer"
+   }
+   Cupimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImg"
+      sslClass   =   "UiIconsLibCupimg"
+      __type   =   "UiContainer"
+   }
+   Cupimgbronze40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgBronze40"
+      sslClass   =   "UiIconsLibCupimgbronze40"
+      __type   =   "UiContainer"
+   }
+   Cupimgbronze80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgBronze80"
+      sslClass   =   "UiIconsLibCupimgbronze80"
+      __type   =   "UiContainer"
+   }
+   Cupimgbronzze20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgBronzze20"
+      sslClass   =   "UiIconsLibCupimgbronzze20"
+      __type   =   "UiContainer"
+   }
+   Cupimggold20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgGold20"
+      sslClass   =   "UiIconsLibCupimggold20"
+      __type   =   "UiContainer"
+   }
+   Cupimggold40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgGold40"
+      sslClass   =   "UiIconsLibCupimggold40"
+      __type   =   "UiContainer"
+   }
+   Cupimggold80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgGold80"
+      sslClass   =   "UiIconsLibCupimggold80"
+      __type   =   "UiContainer"
+   }
+   Cupimgsilver20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgSilver20"
+      sslClass   =   "UiIconsLibCupimgsilver20"
+      __type   =   "UiContainer"
+   }
+   Cupimgsilver40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgSilver40"
+      sslClass   =   "UiIconsLibCupimgsilver40"
+      __type   =   "UiContainer"
+   }
+   Cupimgsilver80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgSilver80"
+      sslClass   =   "UiIconsLibCupimgsilver80"
+      __type   =   "UiContainer"
+   }
+   Cupimgw20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgW20"
+      sslClass   =   "UiIconsLibCupimgw20"
+      __type   =   "UiContainer"
+   }
+   Cupimgw80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgW80"
+      sslClass   =   "UiIconsLibCupimgw80"
+      __type   =   "UiContainer"
+   }
+   Cupimgwhite20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgWhite20"
+      sslClass   =   "UiIconsLibCupimgwhite20"
+      __type   =   "UiContainer"
+   }
+   Cupimgwhite40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgWhite40"
+      sslClass   =   "UiIconsLibCupimgwhite40"
+      __type   =   "UiContainer"
+   }
+   Cupimgwhite80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "cupImgWhite80"
+      sslClass   =   "UiIconsLibCupimgwhite80"
+      __type   =   "UiContainer"
+   }
+   Curciutraceimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "curciutRaceImg30"
+      sslClass   =   "UiIconsLibCurciutraceimg30"
+      __type   =   "UiContainer"
+   }
+   Curciutraceimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "curciutRaceImg40"
+      sslClass   =   "UiIconsLibCurciutraceimg40"
+      __type   =   "UiContainer"
+   }
+   Currency30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "currency30"
+      sslClass   =   "UiIconsLibCurrency30"
+      __type   =   "UiContainer"
+   }
+   Currency40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "currency40"
+      sslClass   =   "UiIconsLibCurrency40"
+      __type   =   "UiContainer"
+   }
+   Curtainimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "curtainImg40"
+      sslClass   =   "UiIconsLibCurtainimg40"
+      __type   =   "UiContainer"
+   }
+   Danlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "DANLogo80"
+      sslClass   =   "UiIconsLibDanlogo80"
+      __type   =   "UiContainer"
+   }
+   Decalaltimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "decalAltImg"
+      sslClass   =   "UiIconsLibDecalaltimg"
+      __type   =   "UiContainer"
+   }
+   Decalimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "decalImg"
+      sslClass   =   "UiIconsLibDecalimg"
+      __type   =   "UiContainer"
+   }
+   Derrylonghornlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "DerryLonghornLogo80"
+      sslClass   =   "UiIconsLibDerrylonghornlogo80"
+      __type   =   "UiContainer"
+   }
+   Difflock40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "diffLock40"
+      sslClass   =   "UiIconsLibDifflock40"
+      __type   =   "UiContainer"
+   }
+   Dlcpageitemskinicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "dlcpageItemSkinIcon"
+      sslClass   =   "UiIconsLibDlcpageitemskinicon"
+      __type   =   "UiContainer"
+   }
+   Donlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "DONLogo80"
+      sslClass   =   "UiIconsLibDonlogo80"
+      __type   =   "UiContainer"
+   }
+   Drillingsiteimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "drillingSiteImg"
+      sslClass   =   "UiIconsLibDrillingsiteimg"
+      __type   =   "UiContainer"
+   }
+   Drillingsiteimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "drillingSiteImg30"
+      sslClass   =   "UiIconsLibDrillingsiteimg30"
+      __type   =   "UiContainer"
+   }
+   Employersbrentbgimg300   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersBrentBgImg300"
+      sslClass   =   "UiIconsLibEmployersbrentbgimg300"
+      __type   =   "UiContainer"
+   }
+   Employersbrentimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersBrentImg40"
+      sslClass   =   "UiIconsLibEmployersbrentimg40"
+      __type   =   "UiContainer"
+   }
+   Employersgasprombgimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersGaspromBgImg"
+      sslClass   =   "UiIconsLibEmployersgasprombgimg"
+      __type   =   "UiContainer"
+   }
+   Employersgaspromimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersGaspromImg40"
+      sslClass   =   "UiIconsLibEmployersgaspromimg40"
+      __type   =   "UiContainer"
+   }
+   Employershuskybgimg300   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersHuskyBgImg300"
+      sslClass   =   "UiIconsLibEmployershuskybgimg300"
+      __type   =   "UiContainer"
+   }
+   Employershuskyimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersHuskyImg40"
+      sslClass   =   "UiIconsLibEmployershuskyimg40"
+      __type   =   "UiContainer"
+   }
+   Employerslukoilbgimg300   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersLukoilBgImg300"
+      sslClass   =   "UiIconsLibEmployerslukoilbgimg300"
+      __type   =   "UiContainer"
+   }
+   Employerslukoilimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "EmployersLukoilImg40"
+      sslClass   =   "UiIconsLibEmployerslukoilimg40"
+      __type   =   "UiContainer"
+   }
+   Emptyfullscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "emptyFullScreen"
+      sslClass   =   "UiIconsLibEmptyfullscreen"
+      shape   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Engineiconmap   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "engineIconMap"
+      sslClass   =   "UiIconsLibEngineiconmap"
+      __type   =   "UiContainer"
+   }
+   Engineimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "engineImg40"
+      sslClass   =   "UiIconsLibEngineimg40"
+      __type   =   "UiContainer"
+   }
+   Enginerepairmenuicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "engineRepairMenuIcon"
+      sslClass   =   "UiIconsLibEnginerepairmenuicon"
+      __type   =   "UiContainer"
+   }
+   Enterimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "enterImg"
+      sslClass   =   "UiIconsLibEnterimg"
+      __type   =   "UiContainer"
+   }
+   Enterimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "enterImg20"
+      sslClass   =   "UiIconsLibEnterimg20"
+      __type   =   "UiContainer"
+   }
+   Exhaustimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "exhaustImg40"
+      sslClass   =   "UiIconsLibExhaustimg40"
+      __type   =   "UiContainer"
+   }
+   Exp30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "exp30"
+      sslClass   =   "UiIconsLibExp30"
+      __type   =   "UiContainer"
+   }
+   Exp40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "exp40"
+      sslClass   =   "UiIconsLibExp40"
+      __type   =   "UiContainer"
+   }
+   Experimentalfarm30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "experimentalFarm30"
+      sslClass   =   "UiIconsLibExperimentalfarm30"
+      __type   =   "UiContainer"
+   }
+   Experimentalfarm40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "experimentalFarm40"
+      sslClass   =   "UiIconsLibExperimentalfarm40"
+      __type   =   "UiContainer"
+   }
+   Exteriorfigureimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "exteriorFigureImg30"
+      sslClass   =   "UiIconsLibExteriorfigureimg30"
+      __type   =   "UiContainer"
+   }
+   Exteriorfigureimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "exteriorFigureImg40"
+      sslClass   =   "UiIconsLibExteriorfigureimg40"
+      __type   =   "UiContainer"
+   }
+   Factoryimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "factoryImg"
+      sslClass   =   "UiIconsLibFactoryimg"
+      __type   =   "UiContainer"
+   }
+   Factoryimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "factoryImg30"
+      sslClass   =   "UiIconsLibFactoryimg30"
+      __type   =   "UiContainer"
+   }
+   Farmimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "farmImg"
+      sslClass   =   "UiIconsLibFarmimg"
+      __type   =   "UiContainer"
+   }
+   Farmimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "farmImg30"
+      sslClass   =   "UiIconsLibFarmimg30"
+      __type   =   "UiContainer"
+   }
+   Farmingrecommendimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "farmingRecommendImg30"
+      sslClass   =   "UiIconsLibFarmingrecommendimg30"
+      __type   =   "UiContainer"
+   }
+   Farmingrecommendimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "farmingRecommendImg40"
+      sslClass   =   "UiIconsLibFarmingrecommendimg40"
+      __type   =   "UiContainer"
+   }
+   Fenderimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fenderImg40"
+      sslClass   =   "UiIconsLibFenderimg40"
+      __type   =   "UiContainer"
+   }
+   Firedeptimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fireDeptImg40"
+      sslClass   =   "UiIconsLibFiredeptimg40"
+      __type   =   "UiContainer"
+   }
+   Flagfinishimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "flagFinishImg"
+      sslClass   =   "UiIconsLibFlagfinishimg"
+      __type   =   "UiContainer"
+   }
+   Flagimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "flagImg"
+      sslClass   =   "UiIconsLibFlagimg"
+      __type   =   "UiContainer"
+   }
+   Fordlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "FordLogo80"
+      sslClass   =   "UiIconsLibFordlogo80"
+      __type   =   "UiContainer"
+   }
+   Fordlogoalt80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "FordLogoAlt80"
+      sslClass   =   "UiIconsLibFordlogoalt80"
+      __type   =   "UiContainer"
+   }
+   Frameaddon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "frameAddon40"
+      sslClass   =   "UiIconsLibFrameaddon40"
+      __type   =   "UiContainer"
+   }
+   Freightlinerlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "FreightlinerLogo80"
+      sslClass   =   "UiIconsLibFreightlinerlogo80"
+      __type   =   "UiContainer"
+   }
+   Freightlinerlogoalt80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "FreightlinerLogoAlt80"
+      sslClass   =   "UiIconsLibFreightlinerlogoalt80"
+      __type   =   "UiContainer"
+   }
+   Frontbumperimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "frontBumperImg40"
+      sslClass   =   "UiIconsLibFrontbumperimg40"
+      __type   =   "UiContainer"
+   }
+   Fuelimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelImg20"
+      sslClass   =   "UiIconsLibFuelimg20"
+      __type   =   "UiContainer"
+   }
+   Fuelrepairmenuicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelRepairMenuIcon"
+      sslClass   =   "UiIconsLibFuelrepairmenuicon"
+      __type   =   "UiContainer"
+   }
+   Fuelstationalt2img   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationAlt2Img"
+      sslClass   =   "UiIconsLibFuelstationalt2img"
+      __type   =   "UiContainer"
+   }
+   Fuelstationalt2img30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationAlt2Img30"
+      sslClass   =   "UiIconsLibFuelstationalt2img30"
+      __type   =   "UiContainer"
+   }
+   Fuelstationaltimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationAltImg"
+      sslClass   =   "UiIconsLibFuelstationaltimg"
+      __type   =   "UiContainer"
+   }
+   Fuelstationaltimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationAltImg30"
+      sslClass   =   "UiIconsLibFuelstationaltimg30"
+      __type   =   "UiContainer"
+   }
+   Fuelstationaltimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationAltImg40"
+      sslClass   =   "UiIconsLibFuelstationaltimg40"
+      __type   =   "UiContainer"
+   }
+   Fuelstationimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationImg"
+      sslClass   =   "UiIconsLibFuelstationimg"
+      __type   =   "UiContainer"
+   }
+   Fuelstationimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationImg30"
+      sslClass   =   "UiIconsLibFuelstationimg30"
+      __type   =   "UiContainer"
+   }
+   Fuelstationimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelStationImg40"
+      sslClass   =   "UiIconsLibFuelstationimg40"
+      __type   =   "UiContainer"
+   }
+   Fueltankiconmap   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fueltankIconMap"
+      sslClass   =   "UiIconsLibFueltankiconmap"
+      __type   =   "UiContainer"
+   }
+   Fueltankimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "fuelTankImg40"
+      sslClass   =   "UiIconsLibFueltankimg40"
+      __type   =   "UiContainer"
+   }
+   Garageblockimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "garageBlockImg30"
+      sslClass   =   "UiIconsLibGarageblockimg30"
+      __type   =   "UiContainer"
+   }
+   Garageimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "garageImg"
+      sslClass   =   "UiIconsLibGarageimg"
+      __type   =   "UiContainer"
+   }
+   Garageimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "garageImg30"
+      sslClass   =   "UiIconsLibGarageimg30"
+      __type   =   "UiContainer"
+   }
+   Garageimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "garageImg40"
+      sslClass   =   "UiIconsLibGarageimg40"
+      __type   =   "UiContainer"
+   }
+   Garagemenucustomizeicon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuCustomizeIcon30"
+      sslClass   =   "UiIconsLibGaragemenucustomizeicon30"
+      __type   =   "UiContainer"
+   }
+   Garagemenucustomizeicon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuCustomizeIcon40"
+      sslClass   =   "UiIconsLibGaragemenucustomizeicon40"
+      __type   =   "UiContainer"
+   }
+   Garagemenuexiticon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuExitIcon30"
+      sslClass   =   "UiIconsLibGaragemenuexiticon30"
+      __type   =   "UiContainer"
+   }
+   Garagemenuexiticon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuExitIcon40"
+      sslClass   =   "UiIconsLibGaragemenuexiticon40"
+      __type   =   "UiContainer"
+   }
+   Garagemenusloticon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuSlotIcon"
+      sslClass   =   "UiIconsLibGaragemenusloticon"
+      __type   =   "UiContainer"
+   }
+   Garagemenusloticon20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuSlotIcon20"
+      sslClass   =   "UiIconsLibGaragemenusloticon20"
+      __type   =   "UiContainer"
+   }
+   Garagemenusloticon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuSlotIcon30"
+      sslClass   =   "UiIconsLibGaragemenusloticon30"
+      __type   =   "UiContainer"
+   }
+   Garagemenustoreicon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuStoreIcon30"
+      sslClass   =   "UiIconsLibGaragemenustoreicon30"
+      __type   =   "UiContainer"
+   }
+   Garagemenustoreicon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuStoreIcon40"
+      sslClass   =   "UiIconsLibGaragemenustoreicon40"
+      __type   =   "UiContainer"
+   }
+   Garagemenutrucksicon20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuTrucksIcon20"
+      sslClass   =   "UiIconsLibGaragemenutrucksicon20"
+      __type   =   "UiContainer"
+   }
+   Garagemenutrucksicon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuTrucksIcon30"
+      sslClass   =   "UiIconsLibGaragemenutrucksicon30"
+      __type   =   "UiContainer"
+   }
+   Garagemenutrucksicon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GarageMenuTrucksIcon40"
+      sslClass   =   "UiIconsLibGaragemenutrucksicon40"
+      __type   =   "UiContainer"
+   }
+   Garagenoimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "garageNoImg30"
+      sslClass   =   "UiIconsLibGaragenoimg30"
+      __type   =   "UiContainer"
+   }
+   Gatewayimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gatewayImg"
+      sslClass   =   "UiIconsLibGatewayimg"
+      __type   =   "UiContainer"
+   }
+   Gatewayimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gatewayImg30"
+      sslClass   =   "UiIconsLibGatewayimg30"
+      __type   =   "UiContainer"
+   }
+   Gatewayimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gatewayImg40"
+      sslClass   =   "UiIconsLibGatewayimg40"
+      __type   =   "UiContainer"
+   }
+   Gatewaylockedimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gatewayLockedImg"
+      sslClass   =   "UiIconsLibGatewaylockedimg"
+      __type   =   "UiContainer"
+   }
+   Gatewaylockedimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gatewayLockedImg30"
+      sslClass   =   "UiIconsLibGatewaylockedimg30"
+      __type   =   "UiContainer"
+   }
+   Gatewaylockedimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gatewayLockedImg40"
+      sslClass   =   "UiIconsLibGatewaylockedimg40"
+      __type   =   "UiContainer"
+   }
+   Gearboxiconmap   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gearboxIconMap"
+      sslClass   =   "UiIconsLibGearboxiconmap"
+      __type   =   "UiContainer"
+   }
+   Gearboxrepairmenuicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "gearboxRepairMenuIcon"
+      sslClass   =   "UiIconsLibGearboxrepairmenuicon"
+      __type   =   "UiContainer"
+   }
+   Generatoremptyicon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "generatorEmptyIcon30"
+      sslClass   =   "UiIconsLibGeneratoremptyicon30"
+      __type   =   "UiContainer"
+   }
+   Generatoremptyicon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "generatorEmptyIcon40"
+      sslClass   =   "UiIconsLibGeneratoremptyicon40"
+      __type   =   "UiContainer"
+   }
+   Generatoremptyiconmarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "generatorEmptyIconMarker40"
+      sslClass   =   "UiIconsLibGeneratoremptyiconmarker40"
+      __type   =   "UiContainer"
+   }
+   Generatoricon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "generatorIcon30"
+      sslClass   =   "UiIconsLibGeneratoricon30"
+      __type   =   "UiContainer"
+   }
+   Generatoricon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "generatorIcon40"
+      sslClass   =   "UiIconsLibGeneratoricon40"
+      __type   =   "UiContainer"
+   }
+   Generatoriconmarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "generatorIconMarker40"
+      sslClass   =   "UiIconsLibGeneratoriconmarker40"
+      __type   =   "UiContainer"
+   }
+   Gmlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GMLogo80"
+      sslClass   =   "UiIconsLibGmlogo80"
+      __type   =   "UiContainer"
+   }
+   Gmlogoalt80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GMLogoAlt80"
+      sslClass   =   "UiIconsLibGmlogoalt80"
+      __type   =   "UiContainer"
+   }
+   Goldmineimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "goldMineImg40"
+      sslClass   =   "UiIconsLibGoldmineimg40"
+      __type   =   "UiContainer"
+   }
+   Gorlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "GorLogo80"
+      sslClass   =   "UiIconsLibGorlogo80"
+      __type   =   "UiContainer"
+   }
+   Grillimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "grillImg40"
+      sslClass   =   "UiIconsLibGrillimg40"
+      __type   =   "UiContainer"
+   }
+   Heavy2vehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavy2VehicleImg"
+      sslClass   =   "UiIconsLibHeavy2vehicleimg"
+      __type   =   "UiContainer"
+   }
+   Heavy2vehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavy2VehicleImg30"
+      sslClass   =   "UiIconsLibHeavy2vehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Heavydutyvehicle60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyDutyVehicle60"
+      sslClass   =   "UiIconsLibHeavydutyvehicle60"
+      __type   =   "UiContainer"
+   }
+   Heavydutyvehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyDutyVehicleImg"
+      sslClass   =   "UiIconsLibHeavydutyvehicleimg"
+      __type   =   "UiContainer"
+   }
+   Heavydutyvehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyDutyVehicleImg30"
+      sslClass   =   "UiIconsLibHeavydutyvehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Heavydutyvehiclenostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyDutyVehicleNoStroke"
+      sslClass   =   "UiIconsLibHeavydutyvehiclenostroke"
+      __type   =   "UiContainer"
+   }
+   Heavyvehicle60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyVehicle60"
+      sslClass   =   "UiIconsLibHeavyvehicle60"
+      __type   =   "UiContainer"
+   }
+   Heavyvehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyVehicleImg"
+      sslClass   =   "UiIconsLibHeavyvehicleimg"
+      __type   =   "UiContainer"
+   }
+   Heavyvehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyVehicleImg30"
+      sslClass   =   "UiIconsLibHeavyvehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Heavyvehiclenostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heavyVehicleNoStroke"
+      sslClass   =   "UiIconsLibHeavyvehiclenostroke"
+      __type   =   "UiContainer"
+   }
+   Heroraceimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heroRaceImg30"
+      sslClass   =   "UiIconsLibHeroraceimg30"
+      __type   =   "UiContainer"
+   }
+   Heroraceimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "heroRaceImg40"
+      sslClass   =   "UiIconsLibHeroraceimg40"
+      __type   =   "UiContainer"
+   }
+   Highwayvehicle60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "highwayVehicle60"
+      sslClass   =   "UiIconsLibHighwayvehicle60"
+      __type   =   "UiContainer"
+   }
+   Highwayvehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "highwayVehicleImg"
+      sslClass   =   "UiIconsLibHighwayvehicleimg"
+      __type   =   "UiContainer"
+   }
+   Highwayvehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "highwayVehicleImg30"
+      sslClass   =   "UiIconsLibHighwayvehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Highwayvehiclenostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "highwayVehicleNoStroke"
+      sslClass   =   "UiIconsLibHighwayvehiclenostroke"
+      __type   =   "UiContainer"
+   }
+   Hudbadconnectionicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "HudBadConnectionIcon"
+      sslClass   =   "UiIconsLibHudbadconnectionicon"
+      __type   =   "UiContainer"
+   }
+   Hummerlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "HummerLogo80"
+      sslClass   =   "UiIconsLibHummerlogo80"
+      __type   =   "UiContainer"
+   }
+   Iconfailchange   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailChange"
+      sslClass   =   "UiIconsLibIconfailchange"
+      __type   =   "UiContainer"
+   }
+   Iconfailchange60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailChange60"
+      sslClass   =   "UiIconsLibIconfailchange60"
+      __type   =   "UiContainer"
+   }
+   Iconfaildmg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailDmg"
+      sslClass   =   "UiIconsLibIconfaildmg"
+      __type   =   "UiContainer"
+   }
+   Iconfaildmg60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailDmg60"
+      sslClass   =   "UiIconsLibIconfaildmg60"
+      __type   =   "UiContainer"
+   }
+   Iconfailfpv   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailFpv"
+      sslClass   =   "UiIconsLibIconfailfpv"
+      __type   =   "UiContainer"
+   }
+   Iconfailfpv60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailFpv60"
+      sslClass   =   "UiIconsLibIconfailfpv60"
+      __type   =   "UiContainer"
+   }
+   Iconfailgarage   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailGarage"
+      sslClass   =   "UiIconsLibIconfailgarage"
+      __type   =   "UiContainer"
+   }
+   Iconfailnight   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailNight"
+      sslClass   =   "UiIconsLibIconfailnight"
+      __type   =   "UiContainer"
+   }
+   Iconfailnight60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailNight60"
+      sslClass   =   "UiIconsLibIconfailnight60"
+      __type   =   "UiContainer"
+   }
+   Iconfailrecovery   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "IconFailRecovery"
+      sslClass   =   "UiIconsLibIconfailrecovery"
+      __type   =   "UiContainer"
+   }
+   Infinityimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "infinityImg20"
+      sslClass   =   "UiIconsLibInfinityimg20"
+      __type   =   "UiContainer"
+   }
+   Infinityimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "infinityImg40"
+      sslClass   =   "UiIconsLibInfinityimg40"
+      __type   =   "UiContainer"
+   }
+   Interieraltimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interierAltImg40"
+      sslClass   =   "UiIconsLibInterieraltimg40"
+      __type   =   "UiContainer"
+   }
+   Interierimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interierImg40"
+      sslClass   =   "UiIconsLibInterierimg40"
+      __type   =   "UiContainer"
+   }
+   Interiorbubbleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorBubbleImg30"
+      sslClass   =   "UiIconsLibInteriorbubbleimg30"
+      __type   =   "UiContainer"
+   }
+   Interiorbubbleimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorBubbleImg40"
+      sslClass   =   "UiIconsLibInteriorbubbleimg40"
+      __type   =   "UiContainer"
+   }
+   Interiorimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorImg"
+      sslClass   =   "UiIconsLibInteriorimg"
+      __type   =   "UiContainer"
+   }
+   Interiormirrorimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorMirrorImg30"
+      sslClass   =   "UiIconsLibInteriormirrorimg30"
+      __type   =   "UiContainer"
+   }
+   Interiormirrorimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorMirrorImg40"
+      sslClass   =   "UiIconsLibInteriormirrorimg40"
+      __type   =   "UiContainer"
+   }
+   Interiorstickersimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorStickersImg40"
+      sslClass   =   "UiIconsLibInteriorstickersimg40"
+      __type   =   "UiContainer"
+   }
+   Interiorwindshieldimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorWindshieldImg30"
+      sslClass   =   "UiIconsLibInteriorwindshieldimg30"
+      __type   =   "UiContainer"
+   }
+   Interiorwindshieldimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "interiorWindshieldImg40"
+      sslClass   =   "UiIconsLibInteriorwindshieldimg40"
+      __type   =   "UiContainer"
+   }
+   Internationalnavistarlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "InternationalNavistarLogo80"
+      sslClass   =   "UiIconsLibInternationalnavistarlogo80"
+      __type   =   "UiContainer"
+   }
+   Internationalnavistarlogoalt80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "InternationalNavistarLogoAlt80"
+      sslClass   =   "UiIconsLibInternationalnavistarlogoalt80"
+      __type   =   "UiContainer"
+   }
+   Jeeplogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "JeepLogo80"
+      sslClass   =   "UiIconsLibJeeplogo80"
+      __type   =   "UiContainer"
+   }
+   Khanlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "KhanLogo80"
+      sslClass   =   "UiIconsLibKhanlogo80"
+      __type   =   "UiContainer"
+   }
+   Kirovetslogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "KirovetsLogo80"
+      sslClass   =   "UiIconsLibKirovetslogo80"
+      __type   =   "UiContainer"
+   }
+   Kolari30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "kolari30"
+      sslClass   =   "UiIconsLibKolari30"
+      __type   =   "UiContainer"
+   }
+   Kolari40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "kolari40"
+      sslClass   =   "UiIconsLibKolari40"
+      __type   =   "UiContainer"
+   }
+   Koloblogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "KolobLogo80"
+      sslClass   =   "UiIconsLibKoloblogo80"
+      __type   =   "UiContainer"
+   }
+   Krslogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "KRSLogo80"
+      sslClass   =   "UiIconsLibKrslogo80"
+      __type   =   "UiContainer"
+   }
+   Landroveraltlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "LandRoverAltLogo80"
+      sslClass   =   "UiIconsLibLandroveraltlogo80"
+      __type   =   "UiContainer"
+   }
+   Landroverlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "LandRoverLogo80"
+      sslClass   =   "UiIconsLibLandroverlogo80"
+      __type   =   "UiContainer"
+   }
+   Listimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "listImg"
+      sslClass   =   "UiIconsLibListimg"
+      __type   =   "UiContainer"
+   }
+   Loadingmarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loadingMarker40"
+      sslClass   =   "UiIconsLibLoadingmarker40"
+      __type   =   "UiContainer"
+   }
+   Lockbycontract   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lockByContract"
+      sslClass   =   "UiIconsLibLockbycontract"
+      __type   =   "UiContainer"
+   }
+   Lockbyrank   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lockByRank"
+      sslClass   =   "UiIconsLibLockbyrank"
+      __type   =   "UiContainer"
+   }
+   Lockbyregion   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lockByRegion"
+      sslClass   =   "UiIconsLibLockbyregion"
+      __type   =   "UiContainer"
+   }
+   Lockimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lockImg"
+      sslClass   =   "UiIconsLibLockimg"
+      __type   =   "UiContainer"
+   }
+   Lockimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lockImg20"
+      sslClass   =   "UiIconsLibLockimg20"
+      __type   =   "UiContainer"
+   }
+   Lockregionimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lockRegionImg"
+      sslClass   =   "UiIconsLibLockregionimg"
+      __type   =   "UiContainer"
+   }
+   Loco60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loco60"
+      sslClass   =   "UiIconsLibLoco60"
+      __type   =   "UiContainer"
+   }
+   Loggingfull   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loggingFull"
+      sslClass   =   "UiIconsLibLoggingfull"
+      __type   =   "UiContainer"
+   }
+   Loggingfull30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loggingFull30"
+      sslClass   =   "UiIconsLibLoggingfull30"
+      __type   =   "UiContainer"
+   }
+   Loggingfullimgnostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loggingFullImgNoStroke"
+      sslClass   =   "UiIconsLibLoggingfullimgnostroke"
+      __type   =   "UiContainer"
+   }
+   Loggingimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loggingImg"
+      sslClass   =   "UiIconsLibLoggingimg"
+      __type   =   "UiContainer"
+   }
+   Loggingimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loggingImg30"
+      sslClass   =   "UiIconsLibLoggingimg30"
+      __type   =   "UiContainer"
+   }
+   Loggingnostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "loggingNoStroke"
+      sslClass   =   "UiIconsLibLoggingnostroke"
+      __type   =   "UiContainer"
+   }
+   Lumberjackimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lumberjackImg"
+      sslClass   =   "UiIconsLibLumberjackimg"
+      __type   =   "UiContainer"
+   }
+   Lumberjackimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "lumberjackImg30"
+      sslClass   =   "UiIconsLibLumberjackimg30"
+      __type   =   "UiContainer"
+   }
+   Manipulatorimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ManipulatorImg30"
+      sslClass   =   "UiIconsLibManipulatorimg30"
+      __type   =   "UiContainer"
+   }
+   Manipulatorimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ManipulatorImg40"
+      sslClass   =   "UiIconsLibManipulatorimg40"
+      __type   =   "UiContainer"
+   }
+   Manualloading   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualLoading"
+      sslClass   =   "UiIconsLibManualloading"
+      __type   =   "UiContainer"
+   }
+   Manualloading30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualLoading30"
+      sslClass   =   "UiIconsLibManualloading30"
+      __type   =   "UiContainer"
+   }
+   Manualloading40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualLoading40"
+      sslClass   =   "UiIconsLibManualloading40"
+      __type   =   "UiContainer"
+   }
+   Manualloadingimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualLoadingImg40"
+      sslClass   =   "UiIconsLibManualloadingimg40"
+      __type   =   "UiContainer"
+   }
+   Manualloadingmarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualLoadingMarker40"
+      sslClass   =   "UiIconsLibManualloadingmarker40"
+      __type   =   "UiContainer"
+   }
+   Manualloadingnostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualLoadingNoStroke"
+      sslClass   =   "UiIconsLibManualloadingnostroke"
+      __type   =   "UiContainer"
+   }
+   Manualuploading30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualUploading30"
+      sslClass   =   "UiIconsLibManualuploading30"
+      __type   =   "UiContainer"
+   }
+   Manualuploading40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualUploading40"
+      sslClass   =   "UiIconsLibManualuploading40"
+      __type   =   "UiContainer"
+   }
+   Manualuploadingimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualUploadingImg40"
+      sslClass   =   "UiIconsLibManualuploadingimg40"
+      __type   =   "UiContainer"
+   }
+   Manualuploadingmarker40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "manualUploadingMarker40"
+      sslClass   =   "UiIconsLibManualuploadingmarker40"
+      __type   =   "UiContainer"
+   }
+   Markergpsimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "markerGpsImg"
+      sslClass   =   "UiIconsLibMarkergpsimg"
+      __type   =   "UiContainer"
+   }
+   Markerimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "markerImg"
+      sslClass   =   "UiIconsLibMarkerimg"
+      __type   =   "UiContainer"
+   }
+   Markerimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "markerImg20"
+      sslClass   =   "UiIconsLibMarkerimg20"
+      __type   =   "UiContainer"
+   }
+   Markerimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "markerImg30"
+      sslClass   =   "UiIconsLibMarkerimg30"
+      __type   =   "UiContainer"
+   }
+   Metaldetectorimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metalDetectorImg30"
+      sslClass   =   "UiIconsLibMetaldetectorimg30"
+      __type   =   "UiContainer"
+   }
+   Metaldetectorimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metalDetectorImg40"
+      sslClass   =   "UiIconsLibMetaldetectorimg40"
+      __type   =   "UiContainer"
+   }
+   Metaprogressa01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressA01"
+      sslClass   =   "UiIconsLibMetaprogressa01"
+      __type   =   "UiContainer"
+   }
+   Metaprogressa02   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressA02"
+      sslClass   =   "UiIconsLibMetaprogressa02"
+      __type   =   "UiContainer"
+   }
+   Metaprogressa03   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressA03"
+      sslClass   =   "UiIconsLibMetaprogressa03"
+      __type   =   "UiContainer"
+   }
+   Metaprogressk01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressK01"
+      sslClass   =   "UiIconsLibMetaprogressk01"
+      __type   =   "UiContainer"
+   }
+   Metaprogressk01alt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressK01Alt"
+      sslClass   =   "UiIconsLibMetaprogressk01alt"
+      __type   =   "UiContainer"
+   }
+   Metaprogressm01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressM01"
+      sslClass   =   "UiIconsLibMetaprogressm01"
+      __type   =   "UiContainer"
+   }
+   Metaprogressm02   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressM02"
+      sslClass   =   "UiIconsLibMetaprogressm02"
+      __type   =   "UiContainer"
+   }
+   Metaprogressm03   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressM03"
+      sslClass   =   "UiIconsLibMetaprogressm03"
+      __type   =   "UiContainer"
+   }
+   Metaprogressmainegarage   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressMaineGarage"
+      sslClass   =   "UiIconsLibMetaprogressmainegarage"
+      __type   =   "UiContainer"
+   }
+   Metaprogressmainelambermill   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressMaineLamberMill"
+      sslClass   =   "UiIconsLibMetaprogressmainelambermill"
+      __type   =   "UiContainer"
+   }
+   Metaprogressn01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressN01"
+      sslClass   =   "UiIconsLibMetaprogressn01"
+      __type   =   "UiContainer"
+   }
+   Metaprogressn02   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressN02"
+      sslClass   =   "UiIconsLibMetaprogressn02"
+      __type   =   "UiContainer"
+   }
+   Metaprogressrostovbridge   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRostovBridge"
+      sslClass   =   "UiIconsLibMetaprogressrostovbridge"
+      __type   =   "UiContainer"
+   }
+   Metaprogressrostovfactory   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRostovFactory"
+      sslClass   =   "UiIconsLibMetaprogressrostovfactory"
+      __type   =   "UiContainer"
+   }
+   Metaprogressrostovinfrastructure   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRostovInfrastructure"
+      sslClass   =   "UiIconsLibMetaprogressrostovinfrastructure"
+      __type   =   "UiContainer"
+   }
+   Metaprogressru04rocket01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRu04Rocket01"
+      sslClass   =   "UiIconsLibMetaprogressru04rocket01"
+      __type   =   "UiContainer"
+   }
+   Metaprogressru04rocket02   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRu04Rocket02"
+      sslClass   =   "UiIconsLibMetaprogressru04rocket02"
+      __type   =   "UiContainer"
+   }
+   Metaprogressru04rocketnpz   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRu04RocketNPZ"
+      sslClass   =   "UiIconsLibMetaprogressru04rocketnpz"
+      __type   =   "UiContainer"
+   }
+   Metaprogressru08kolari   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRu08Kolari"
+      sslClass   =   "UiIconsLibMetaprogressru08kolari"
+      __type   =   "UiContainer"
+   }
+   Metaprogressru08ruscrop   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRu08Ruscrop"
+      sslClass   =   "UiIconsLibMetaprogressru08ruscrop"
+      __type   =   "UiContainer"
+   }
+   Metaprogressru08sunsails   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressRu08Sunsails"
+      sslClass   =   "UiIconsLibMetaprogressru08sunsails"
+      __type   =   "UiContainer"
+   }
+   Metaprogresss01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressS01"
+      sslClass   =   "UiIconsLibMetaprogresss01"
+      __type   =   "UiContainer"
+   }
+   Metaprogresss02   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressS02"
+      sslClass   =   "UiIconsLibMetaprogresss02"
+      __type   =   "UiContainer"
+   }
+   Metaprogresst01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressT01"
+      sslClass   =   "UiIconsLibMetaprogresst01"
+      __type   =   "UiContainer"
+   }
+   Metaprogresst02   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressT02"
+      sslClass   =   "UiIconsLibMetaprogresst02"
+      __type   =   "UiContainer"
+   }
+   Metaprogressus09evac   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressUs09Evac"
+      sslClass   =   "UiIconsLibMetaprogressus09evac"
+      __type   =   "UiContainer"
+   }
+   Metaprogressus09fire   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressUs09Fire"
+      sslClass   =   "UiIconsLibMetaprogressus09fire"
+      __type   =   "UiContainer"
+   }
+   Metaprogressus09infrastructure   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressUs09Infrastructure"
+      sslClass   =   "UiIconsLibMetaprogressus09infrastructure"
+      __type   =   "UiContainer"
+   }
+   Metaprogressy01   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressY01"
+      sslClass   =   "UiIconsLibMetaprogressy01"
+      __type   =   "UiContainer"
+   }
+   Metaprogressy01alt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressY01Alt"
+      sslClass   =   "UiIconsLibMetaprogressy01alt"
+      __type   =   "UiContainer"
+   }
+   Metaprogressy01alt2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressY01Alt2"
+      sslClass   =   "UiIconsLibMetaprogressy01alt2"
+      __type   =   "UiContainer"
+   }
+   Metaprogressy01secret   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressY01Secret"
+      sslClass   =   "UiIconsLibMetaprogressy01secret"
+      __type   =   "UiContainer"
+   }
+   Metaprogressy02   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressY02"
+      sslClass   =   "UiIconsLibMetaprogressy02"
+      __type   =   "UiContainer"
+   }
+   Metaprogressy02alt   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "metaProgressY02Alt"
+      sslClass   =   "UiIconsLibMetaprogressy02alt"
+      __type   =   "UiContainer"
+   }
+   Minimapimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapImg"
+      sslClass   =   "UiIconsLibMinimapimg"
+      __type   =   "UiContainer"
+   }
+   Minimapimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapImg20"
+      sslClass   =   "UiIconsLibMinimapimg20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkcraft20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkCraft20"
+      sslClass   =   "UiIconsLibMinimapmarkcraft20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkcraft30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkCraft30"
+      sslClass   =   "UiIconsLibMinimapmarkcraft30"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkcraft40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkCraft40"
+      sslClass   =   "UiIconsLibMinimapmarkcraft40"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkcraftalt20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkCraftAlt20"
+      sslClass   =   "UiIconsLibMinimapmarkcraftalt20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkcraftalt40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkCraftAlt40"
+      sslClass   =   "UiIconsLibMinimapmarkcraftalt40"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkfind20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkFind20"
+      sslClass   =   "UiIconsLibMinimapmarkfind20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkfindalt20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkFindAlt20"
+      sslClass   =   "UiIconsLibMinimapmarkfindalt20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkloading20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkLoading20"
+      sslClass   =   "UiIconsLibMinimapmarkloading20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkloading30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkLoading30"
+      sslClass   =   "UiIconsLibMinimapmarkloading30"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkloading40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkLoading40"
+      sslClass   =   "UiIconsLibMinimapmarkloading40"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkloadingmanual20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkLoadingManual20"
+      sslClass   =   "UiIconsLibMinimapmarkloadingmanual20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkloadingmanual30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkLoadingManual30"
+      sslClass   =   "UiIconsLibMinimapmarkloadingmanual30"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkloadingmanual40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkLoadingManual40"
+      sslClass   =   "UiIconsLibMinimapmarkloadingmanual40"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkmisc20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkMisc20"
+      sslClass   =   "UiIconsLibMinimapmarkmisc20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkmiscalt20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkMiscAlt20"
+      sslClass   =   "UiIconsLibMinimapmarkmiscalt20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkplayer20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkPlayer20"
+      sslClass   =   "UiIconsLibMinimapmarkplayer20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkplayer40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkPlayer40"
+      sslClass   =   "UiIconsLibMinimapmarkplayer40"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkroad20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkRoad20"
+      sslClass   =   "UiIconsLibMinimapmarkroad20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarksummon20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkSummon20"
+      sslClass   =   "UiIconsLibMinimapmarksummon20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkuploading20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkUploading20"
+      sslClass   =   "UiIconsLibMinimapmarkuploading20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkuploading30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkUploading30"
+      sslClass   =   "UiIconsLibMinimapmarkuploading30"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkuploading40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkUploading40"
+      sslClass   =   "UiIconsLibMinimapmarkuploading40"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkuploadingmanual20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkUploadingManual20"
+      sslClass   =   "UiIconsLibMinimapmarkuploadingmanual20"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkuploadingmanual30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkUploadingManual30"
+      sslClass   =   "UiIconsLibMinimapmarkuploadingmanual30"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkuploadingmanual40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapMarkUploadingManual40"
+      sslClass   =   "UiIconsLibMinimapmarkuploadingmanual40"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskavailable20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskAvailable20"
+      sslClass   =   "UiIconsLibMinimaptaskavailable20"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskcurrent20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskCurrent20"
+      sslClass   =   "UiIconsLibMinimaptaskcurrent20"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskdone20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskDone20"
+      sslClass   =   "UiIconsLibMinimaptaskdone20"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskfind20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskFind20"
+      sslClass   =   "UiIconsLibMinimaptaskfind20"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskloading20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskLoading20"
+      sslClass   =   "UiIconsLibMinimaptaskloading20"
+      __type   =   "UiContainer"
+   }
+   Minimaptasklocked20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskLocked20"
+      sslClass   =   "UiIconsLibMinimaptasklocked20"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskmisc20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskMisc20"
+      sslClass   =   "UiIconsLibMinimaptaskmisc20"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskrepair20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskRepair20"
+      sslClass   =   "UiIconsLibMinimaptaskrepair20"
+      __type   =   "UiContainer"
+   }
+   Minimaptaskuploading20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "minimapTaskUploading20"
+      sslClass   =   "UiIconsLibMinimaptaskuploading20"
+      __type   =   "UiContainer"
+   }
+   Miscellaneousimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "miscellaneousImg40"
+      sslClass   =   "UiIconsLibMiscellaneousimg40"
+      __type   =   "UiContainer"
+   }
+   Modbrowserbrowseicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserBrowseIcon"
+      sslClass   =   "UiIconsLibModbrowserbrowseicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowsercleanupicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserCleanupIcon"
+      sslClass   =   "UiIconsLibModbrowsercleanupicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserfilterandsorticon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserFilterAndSortIcon40"
+      sslClass   =   "UiIconsLibModbrowserfilterandsorticon40"
+      __type   =   "UiContainer"
+   }
+   Modbrowserfiltericon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserFilterIcon"
+      sslClass   =   "UiIconsLibModbrowserfiltericon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserguidesicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserGuidesIcon"
+      sslClass   =   "UiIconsLibModbrowserguidesicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserlogouticon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserLogoutIcon"
+      sslClass   =   "UiIconsLibModbrowserlogouticon"
+      __type   =   "UiContainer"
+   }
+   Modbrowsermoreicon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserMoreIcon40"
+      sslClass   =   "UiIconsLibModbrowsermoreicon40"
+      __type   =   "UiContainer"
+   }
+   Modbrowserpolygonicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserPolygonIcon"
+      sslClass   =   "UiIconsLibModbrowserpolygonicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserratingdislikeicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserRatingDislikeIcon"
+      sslClass   =   "UiIconsLibModbrowserratingdislikeicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserratinglikeicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserRatingLikeIcon"
+      sslClass   =   "UiIconsLibModbrowserratinglikeicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserrenewicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserRenewIcon"
+      sslClass   =   "UiIconsLibModbrowserrenewicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserreporticon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserReportIcon"
+      sslClass   =   "UiIconsLibModbrowserreporticon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserreporticon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserReportIcon40"
+      sslClass   =   "UiIconsLibModbrowserreporticon40"
+      __type   =   "UiContainer"
+   }
+   Modbrowsersorticon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserSortIcon"
+      sslClass   =   "UiIconsLibModbrowsersorticon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserswitchallicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserSwitchAllIcon"
+      sslClass   =   "UiIconsLibModbrowserswitchallicon"
+      __type   =   "UiContainer"
+   }
+   Modbrowserunsubscribeallicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modBrowserUnsubscribeAllIcon"
+      sslClass   =   "UiIconsLibModbrowserunsubscribeallicon"
+      __type   =   "UiContainer"
+   }
+   Modmapimgplaceholder   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modMapImgPlaceholder"
+      sslClass   =   "UiIconsLibModmapimgplaceholder"
+      __type   =   "UiContainer"
+   }
+   Modtruckimgplaceholder   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "modTruckImgPlaceholder"
+      sslClass   =   "UiIconsLibModtruckimgplaceholder"
+      __type   =   "UiContainer"
+   }
+   Mpus07circuit   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "mpUs07Circuit"
+      sslClass   =   "UiIconsLibMpus07circuit"
+      __type   =   "UiContainer"
+   }
+   Mpus07climb   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "mpUs07Climb"
+      sslClass   =   "UiIconsLibMpus07climb"
+      __type   =   "UiContainer"
+   }
+   Mpus07hero   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "mpUs07Hero"
+      sslClass   =   "UiIconsLibMpus07hero"
+      __type   =   "UiContainer"
+   }
+   Mpus07orientation   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "mpUs07Orientation"
+      sslClass   =   "UiIconsLibMpus07orientation"
+      __type   =   "UiContainer"
+   }
+   Multiplerewards40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "multipleRewards40"
+      sslClass   =   "UiIconsLibMultiplerewards40"
+      __type   =   "UiContainer"
+   }
+   Multiplerewardsalt40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "multipleRewardsAlt40"
+      sslClass   =   "UiIconsLibMultiplerewardsalt40"
+      __type   =   "UiContainer"
+   }
+   Multiplerewardsaltalt40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "multipleRewardsAltAlt40"
+      sslClass   =   "UiIconsLibMultiplerewardsaltalt40"
+      __type   =   "UiContainer"
+   }
+   Npzimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "npzImg30"
+      sslClass   =   "UiIconsLibNpzimg30"
+      __type   =   "UiContainer"
+   }
+   Npzimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "npzImg40"
+      sslClass   =   "UiIconsLibNpzimg40"
+      __type   =   "UiContainer"
+   }
+   Observatoryimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "observatoryImg"
+      sslClass   =   "UiIconsLibObservatoryimg"
+      __type   =   "UiContainer"
+   }
+   Offroadaltaltimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadAltAltImg"
+      sslClass   =   "UiIconsLibOffroadaltaltimg"
+      __type   =   "UiContainer"
+   }
+   Offroadaltaltimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadAltAltImg30"
+      sslClass   =   "UiIconsLibOffroadaltaltimg30"
+      __type   =   "UiContainer"
+   }
+   Offroadaltimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadAltImg"
+      sslClass   =   "UiIconsLibOffroadaltimg"
+      __type   =   "UiContainer"
+   }
+   Offroadaltimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadAltImg30"
+      sslClass   =   "UiIconsLibOffroadaltimg30"
+      __type   =   "UiContainer"
+   }
+   Offroadimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadImg"
+      sslClass   =   "UiIconsLibOffroadimg"
+      __type   =   "UiContainer"
+   }
+   Offroadimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadImg30"
+      sslClass   =   "UiIconsLibOffroadimg30"
+      __type   =   "UiContainer"
+   }
+   Offroadtruckimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadTruckImg40"
+      sslClass   =   "UiIconsLibOffroadtruckimg40"
+      __type   =   "UiContainer"
+   }
+   Offroadvehicle60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadVehicle60"
+      sslClass   =   "UiIconsLibOffroadvehicle60"
+      __type   =   "UiContainer"
+   }
+   Offroadvehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadVehicleImg"
+      sslClass   =   "UiIconsLibOffroadvehicleimg"
+      __type   =   "UiContainer"
+   }
+   Offroadvehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadVehicleImg30"
+      sslClass   =   "UiIconsLibOffroadvehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Offroadvehiclenostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "offroadVehicleNoStroke"
+      sslClass   =   "UiIconsLibOffroadvehiclenostroke"
+      __type   =   "UiContainer"
+   }
+   Ontariofiredeptimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioFireDeptImg30"
+      sslClass   =   "UiIconsLibOntariofiredeptimg30"
+      __type   =   "UiContainer"
+   }
+   Ontariofiredeptimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioFireDeptImg40"
+      sslClass   =   "UiIconsLibOntariofiredeptimg40"
+      __type   =   "UiContainer"
+   }
+   Ontariogoldmineimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioGoldMineImg30"
+      sslClass   =   "UiIconsLibOntariogoldmineimg30"
+      __type   =   "UiContainer"
+   }
+   Ontariogoldmineimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioGoldMineImg40"
+      sslClass   =   "UiIconsLibOntariogoldmineimg40"
+      __type   =   "UiContainer"
+   }
+   Ontariotownhallimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioTownHallImg30"
+      sslClass   =   "UiIconsLibOntariotownhallimg30"
+      __type   =   "UiContainer"
+   }
+   Ontariotownhallimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioTownHallImg40"
+      sslClass   =   "UiIconsLibOntariotownhallimg40"
+      __type   =   "UiContainer"
+   }
+   Openzonereward20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "openZoneReward20"
+      sslClass   =   "UiIconsLibOpenzonereward20"
+      __type   =   "UiContainer"
+   }
+   Openzonereward40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "openZoneReward40"
+      sslClass   =   "UiIconsLibOpenzonereward40"
+      __type   =   "UiContainer"
+   }
+   Orientationraceimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "orientationRaceImg30"
+      sslClass   =   "UiIconsLibOrientationraceimg30"
+      __type   =   "UiContainer"
+   }
+   Orientationraceimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "orientationRaceImg40"
+      sslClass   =   "UiIconsLibOrientationraceimg40"
+      __type   =   "UiContainer"
+   }
+   Pacificlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "PacificLogo80"
+      sslClass   =   "UiIconsLibPacificlogo80"
+      __type   =   "UiContainer"
+   }
+   Pausemenunotifyicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "pauseMenuNotifyIcon"
+      sslClass   =   "UiIconsLibPausemenunotifyicon"
+      __type   =   "UiContainer"
+   }
+   Pausemenunotifyiconanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "pauseMenuNotifyIconAnim"
+      sslClass   =   "UiIconsLibPausemenunotifyiconanim"
+      icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiIconsLibPausemenunotifyicon"
+      }
+      __type   =   "UiContainer"
+   }
+   Planeimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "planeImg30"
+      sslClass   =   "UiIconsLibPlaneimg30"
+      __type   =   "UiContainer"
+   }
+   Playerprofilecurrency20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileCurrency20"
+      sslClass   =   "UiIconsLibPlayerprofilecurrency20"
+      __type   =   "UiContainer"
+   }
+   Playerprofilecurrency40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileCurrency40"
+      sslClass   =   "UiIconsLibPlayerprofilecurrency40"
+      __type   =   "UiContainer"
+   }
+   Playerprofilegift20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileGift20"
+      sslClass   =   "UiIconsLibPlayerprofilegift20"
+      __type   =   "UiContainer"
+   }
+   Playerprofilegift40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileGift40"
+      sslClass   =   "UiIconsLibPlayerprofilegift40"
+      __type   =   "UiContainer"
+   }
+   Playerprofilestar20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileStar20"
+      sslClass   =   "UiIconsLibPlayerprofilestar20"
+      __type   =   "UiContainer"
+   }
+   Playerprofilestar40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileStar40"
+      sslClass   =   "UiIconsLibPlayerprofilestar40"
+      __type   =   "UiContainer"
+   }
+   Playerprofiletrophy20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileTrophy20"
+      sslClass   =   "UiIconsLibPlayerprofiletrophy20"
+      __type   =   "UiContainer"
+   }
+   Playerprofiletrophy40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "playerProfileTrophy40"
+      sslClass   =   "UiIconsLibPlayerprofiletrophy40"
+      __type   =   "UiContainer"
+   }
+   Popupfuelstationimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupFuelStationImg"
+      sslClass   =   "UiIconsLibPopupfuelstationimg"
+      __type   =   "UiContainer"
+   }
+   Popupgarageimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupGarageImg"
+      sslClass   =   "UiIconsLibPopupgarageimg"
+      __type   =   "UiContainer"
+   }
+   Popupgateimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupGateImg"
+      sslClass   =   "UiIconsLibPopupgateimg"
+      __type   =   "UiContainer"
+   }
+   Popupgatelockedimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupGateLockedImg"
+      sslClass   =   "UiIconsLibPopupgatelockedimg"
+      __type   =   "UiContainer"
+   }
+   Popupperairimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupPerairImg"
+      sslClass   =   "UiIconsLibPopupperairimg"
+      __type   =   "UiContainer"
+   }
+   Popuptrophyimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupTrophyImg"
+      sslClass   =   "UiIconsLibPopuptrophyimg"
+      __type   =   "UiContainer"
+   }
+   Popupwarningimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupWarningImg"
+      sslClass   =   "UiIconsLibPopupwarningimg"
+      __type   =   "UiContainer"
+   }
+   Popupwatchtowerimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupWatchTowerImg"
+      sslClass   =   "UiIconsLibPopupwatchtowerimg"
+      __type   =   "UiContainer"
+   }
+   Popupzoneblockedimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "popupZoneBlockedImg"
+      sslClass   =   "UiIconsLibPopupzoneblockedimg"
+      __type   =   "UiContainer"
+   }
+   Potatomodified30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "potatoModified30"
+      sslClass   =   "UiIconsLibPotatomodified30"
+      __type   =   "UiContainer"
+   }
+   Potatomodified40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "potatoModified40"
+      sslClass   =   "UiIconsLibPotatomodified40"
+      __type   =   "UiContainer"
+   }
+   Profileregionalaskaimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionAlaskaImg"
+      sslClass   =   "UiIconsLibProfileregionalaskaimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionallimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionAllImg"
+      sslClass   =   "UiIconsLibProfileregionallimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionamurimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionAmurImg"
+      sslClass   =   "UiIconsLibProfileregionamurimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionazerbaijanimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionAzerbaijanImg"
+      sslClass   =   "UiIconsLibProfileregionazerbaijanimg"
+      __type   =   "UiContainer"
+   }
+   Profileregioncentralasia   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionCentralAsia"
+      sslClass   =   "UiIconsLibProfileregioncentralasia"
+      __type   =   "UiContainer"
+   }
+   Profileregionkolaimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionKolaImg"
+      sslClass   =   "UiIconsLibProfileregionkolaimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionmaine   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionMaine"
+      sslClass   =   "UiIconsLibProfileregionmaine"
+      __type   =   "UiContainer"
+   }
+   Profileregionmichiganimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionMichiganImg"
+      sslClass   =   "UiIconsLibProfileregionmichiganimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionontario   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionOntario"
+      sslClass   =   "UiIconsLibProfileregionontario"
+      __type   =   "UiContainer"
+   }
+   Profileregionplaceholder   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionPlaceholder"
+      sslClass   =   "UiIconsLibProfileregionplaceholder"
+      __type   =   "UiContainer"
+   }
+   Profileregionrostovimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionRostovImg"
+      sslClass   =   "UiIconsLibProfileregionrostovimg"
+      __type   =   "UiContainer"
+   }
+   Profileregiontaimyrimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionTaimyrImg"
+      sslClass   =   "UiIconsLibProfileregiontaimyrimg"
+      __type   =   "UiContainer"
+   }
+   Profileregiontennesseeimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionTennesseeImg"
+      sslClass   =   "UiIconsLibProfileregiontennesseeimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionwisconsinimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionWisconsinImg"
+      sslClass   =   "UiIconsLibProfileregionwisconsinimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionyakutiaimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionYakutiaImg"
+      sslClass   =   "UiIconsLibProfileregionyakutiaimg"
+      __type   =   "UiContainer"
+   }
+   Profileregionyukonimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "profileRegionYukonImg"
+      sslClass   =   "UiIconsLibProfileregionyukonimg"
+      __type   =   "UiContainer"
+   }
+   Rearbumperimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rearBumperImg40"
+      sslClass   =   "UiIconsLibRearbumperimg40"
+      __type   =   "UiContainer"
+   }
+   Refuelimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "refuelImg40"
+      sslClass   =   "UiIconsLibRefuelimg40"
+      __type   =   "UiContainer"
+   }
+   Refuelvalueimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "reFuelValueImg20"
+      sslClass   =   "UiIconsLibRefuelvalueimg20"
+      __type   =   "UiContainer"
+   }
+   Regionicon20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "regionIcon20"
+      sslClass   =   "UiIconsLibRegionicon20"
+      __type   =   "UiContainer"
+   }
+   Regionicon30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "regionIcon30"
+      sslClass   =   "UiIconsLibRegionicon30"
+      __type   =   "UiContainer"
+   }
+   Regionicon40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "regionIcon40"
+      sslClass   =   "UiIconsLibRegionicon40"
+      __type   =   "UiContainer"
+   }
+   Regionmapplayer20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "regionmapPlayer20"
+      sslClass   =   "UiIconsLibRegionmapplayer20"
+      __type   =   "UiContainer"
+   }
+   Repairimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "repairImg40"
+      sslClass   =   "UiIconsLibRepairimg40"
+      __type   =   "UiContainer"
+   }
+   Repairpartsimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "repairPartsImg20"
+      sslClass   =   "UiIconsLibRepairpartsimg20"
+      __type   =   "UiContainer"
+   }
+   Repairrefuelzoneimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "repairRefuelZoneImg"
+      sslClass   =   "UiIconsLibRepairrefuelzoneimg"
+      __type   =   "UiContainer"
+   }
+   Repairvalueimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rePairValueImg20"
+      sslClass   =   "UiIconsLibRepairvalueimg20"
+      __type   =   "UiContainer"
+   }
+   Repairwheelsimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "repairWheelsImg20"
+      sslClass   =   "UiIconsLibRepairwheelsimg20"
+      __type   =   "UiContainer"
+   }
+   Resourceicon20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "reSourceIcon20"
+      sslClass   =   "UiIconsLibResourceicon20"
+      __type   =   "UiContainer"
+   }
+   Resupplyimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "resupplyImg"
+      sslClass   =   "UiIconsLibResupplyimg"
+      __type   =   "UiContainer"
+   }
+   Resupplyimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "resupplyImg30"
+      sslClass   =   "UiIconsLibResupplyimg30"
+      __type   =   "UiContainer"
+   }
+   Resupplyimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "resupplyImg40"
+      sslClass   =   "UiIconsLibResupplyimg40"
+      __type   =   "UiContainer"
+   }
+   Retargeticon20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "reTargetIcon20"
+      sslClass   =   "UiIconsLibRetargeticon20"
+      __type   =   "UiContainer"
+   }
+   Rezvanilogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "RezvaniLogo80"
+      sslClass   =   "UiIconsLibRezvanilogo80"
+      __type   =   "UiContainer"
+   }
+   Rimimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rimImg40"
+      sslClass   =   "UiIconsLibRimimg40"
+      __type   =   "UiContainer"
+   }
+   Rocketconstructionimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rocketConstructionImg30"
+      sslClass   =   "UiIconsLibRocketconstructionimg30"
+      __type   =   "UiContainer"
+   }
+   Rocketconstructionimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rocketConstructionImg40"
+      sslClass   =   "UiIconsLibRocketconstructionimg40"
+      __type   =   "UiContainer"
+   }
+   Roofimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "roofImg40"
+      sslClass   =   "UiIconsLibRoofimg40"
+      __type   =   "UiContainer"
+   }
+   Rostovicon85   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rostovIcon85"
+      sslClass   =   "UiIconsLibRostovicon85"
+      __type   =   "UiContainer"
+   }
+   Royallogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "RoyalLogo80"
+      sslClass   =   "UiIconsLibRoyallogo80"
+      __type   =   "UiContainer"
+   }
+   Ruins30bricks1   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Bricks1"
+      sslClass   =   "UiIconsLibRuins30bricks1"
+      __type   =   "UiContainer"
+   }
+   Ruins30bricks2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Bricks2"
+      sslClass   =   "UiIconsLibRuins30bricks2"
+      __type   =   "UiContainer"
+   }
+   Ruins30bricks3   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Bricks3"
+      sslClass   =   "UiIconsLibRuins30bricks3"
+      __type   =   "UiContainer"
+   }
+   Ruins30metals1   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Metals1"
+      sslClass   =   "UiIconsLibRuins30metals1"
+      __type   =   "UiContainer"
+   }
+   Ruins30metals2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Metals2"
+      sslClass   =   "UiIconsLibRuins30metals2"
+      __type   =   "UiContainer"
+   }
+   Ruins30metals3   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Metals3"
+      sslClass   =   "UiIconsLibRuins30metals3"
+      __type   =   "UiContainer"
+   }
+   Ruins30rocket   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Rocket"
+      sslClass   =   "UiIconsLibRuins30rocket"
+      __type   =   "UiContainer"
+   }
+   Ruins30shipwreck   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Shipwreck"
+      sslClass   =   "UiIconsLibRuins30shipwreck"
+      __type   =   "UiContainer"
+   }
+   Ruins30woods1   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Woods1"
+      sslClass   =   "UiIconsLibRuins30woods1"
+      __type   =   "UiContainer"
+   }
+   Ruins30woods2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Woods2"
+      sslClass   =   "UiIconsLibRuins30woods2"
+      __type   =   "UiContainer"
+   }
+   Ruins30woods3   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins30Woods3"
+      sslClass   =   "UiIconsLibRuins30woods3"
+      __type   =   "UiContainer"
+   }
+   Ruins40bricks1   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Bricks1"
+      sslClass   =   "UiIconsLibRuins40bricks1"
+      __type   =   "UiContainer"
+   }
+   Ruins40bricks2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Bricks2"
+      sslClass   =   "UiIconsLibRuins40bricks2"
+      __type   =   "UiContainer"
+   }
+   Ruins40bricks3   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Bricks3"
+      sslClass   =   "UiIconsLibRuins40bricks3"
+      __type   =   "UiContainer"
+   }
+   Ruins40metals1   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Metals1"
+      sslClass   =   "UiIconsLibRuins40metals1"
+      __type   =   "UiContainer"
+   }
+   Ruins40metals2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Metals2"
+      sslClass   =   "UiIconsLibRuins40metals2"
+      __type   =   "UiContainer"
+   }
+   Ruins40metals3   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Metals3"
+      sslClass   =   "UiIconsLibRuins40metals3"
+      __type   =   "UiContainer"
+   }
+   Ruins40rocket   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Rocket"
+      sslClass   =   "UiIconsLibRuins40rocket"
+      __type   =   "UiContainer"
+   }
+   Ruins40shipwreck   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Shipwreck"
+      sslClass   =   "UiIconsLibRuins40shipwreck"
+      __type   =   "UiContainer"
+   }
+   Ruins40woods1   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Woods1"
+      sslClass   =   "UiIconsLibRuins40woods1"
+      __type   =   "UiContainer"
+   }
+   Ruins40woods2   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Woods2"
+      sslClass   =   "UiIconsLibRuins40woods2"
+      __type   =   "UiContainer"
+   }
+   Ruins40woods3   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ruins40Woods3"
+      sslClass   =   "UiIconsLibRuins40woods3"
+      __type   =   "UiContainer"
+   }
+   Ruscrop30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rusCrop30"
+      sslClass   =   "UiIconsLibRuscrop30"
+      __type   =   "UiContainer"
+   }
+   Ruscrop40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "rusCrop40"
+      sslClass   =   "UiIconsLibRuscrop40"
+      __type   =   "UiContainer"
+   }
+   Sawmillimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "sawmillImg"
+      sslClass   =   "UiIconsLibSawmillimg"
+      __type   =   "UiContainer"
+   }
+   Sawmillimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "sawmillImg30"
+      sslClass   =   "UiIconsLibSawmillimg30"
+      __type   =   "UiContainer"
+   }
+   Scouttruckimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "scoutTruckImg"
+      sslClass   =   "UiIconsLibScouttruckimg"
+      __type   =   "UiContainer"
+   }
+   Scoutvehicle60   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "scoutVehicle60"
+      sslClass   =   "UiIconsLibScoutvehicle60"
+      __type   =   "UiContainer"
+   }
+   Scoutvehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "scoutVehicleImg"
+      sslClass   =   "UiIconsLibScoutvehicleimg"
+      __type   =   "UiContainer"
+   }
+   Scoutvehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "scoutVehicleImg30"
+      sslClass   =   "UiIconsLibScoutvehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Scoutvehiclenostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "scoutVehicleNoStroke"
+      sslClass   =   "UiIconsLibScoutvehiclenostroke"
+      __type   =   "UiContainer"
+   }
+   Seismicvibratorimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "seismicVibratorImg30"
+      sslClass   =   "UiIconsLibSeismicvibratorimg30"
+      __type   =   "UiContainer"
+   }
+   Seismicvibratorimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "seismicVibratorImg40"
+      sslClass   =   "UiIconsLibSeismicvibratorimg40"
+      __type   =   "UiContainer"
+   }
+   Servicehubimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "serviceHubImg"
+      sslClass   =   "UiIconsLibServicehubimg"
+      __type   =   "UiContainer"
+   }
+   Servicehubimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "serviceHubImg30"
+      sslClass   =   "UiIconsLibServicehubimg30"
+      __type   =   "UiContainer"
+   }
+   Snorkelimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "snorkelImg40"
+      sslClass   =   "UiIconsLibSnorkelimg40"
+      __type   =   "UiContainer"
+   }
+   Solarstationimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "solarStationImg30"
+      sslClass   =   "UiIconsLibSolarstationimg30"
+      __type   =   "UiContainer"
+   }
+   Solarstationimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "solarStationImg40"
+      sslClass   =   "UiIconsLibSolarstationimg40"
+      __type   =   "UiContainer"
+   }
+   Specialcargodrillingrigimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "SpecialCargoDrillingRigImg30"
+      sslClass   =   "UiIconsLibSpecialcargodrillingrigimg30"
+      __type   =   "UiContainer"
+   }
+   Specialcargoheavycisternimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "SpecialCargoHeavyCisternImg30"
+      sslClass   =   "UiIconsLibSpecialcargoheavycisternimg30"
+      __type   =   "UiContainer"
+   }
+   Specialcargoheavycoiledtubingimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "SpecialCargoHeavyCoiledTubingImg40"
+      sslClass   =   "UiIconsLibSpecialcargoheavycoiledtubingimg40"
+      __type   =   "UiContainer"
+   }
+   Specialcargoheavyequipmentimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "SpecialCargoHeavyEquipmentImg40"
+      sslClass   =   "UiIconsLibSpecialcargoheavyequipmentimg40"
+      __type   =   "UiContainer"
+   }
+   Sprayimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "sprayImg"
+      sslClass   =   "UiIconsLibSprayimg"
+      __type   =   "UiContainer"
+   }
+   Starttableimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "startTableImg30"
+      sslClass   =   "UiIconsLibStarttableimg30"
+      __type   =   "UiContainer"
+   }
+   Starttableimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "startTableImg40"
+      sslClass   =   "UiIconsLibStarttableimg40"
+      __type   =   "UiContainer"
+   }
+   Statusactivecontracticons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusActiveContractIcons20"
+      sslClass   =   "UiIconsLibStatusactivecontracticons20"
+      __type   =   "UiContainer"
+   }
+   Statusactivetrackedicons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusActiveTrackedIcons20"
+      sslClass   =   "UiIconsLibStatusactivetrackedicons20"
+      __type   =   "UiContainer"
+   }
+   Statusavailablecontracticons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusAvailableContractIcons20"
+      sslClass   =   "UiIconsLibStatusavailablecontracticons20"
+      __type   =   "UiContainer"
+   }
+   Statuscheckokicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "statusCheckOkIcon"
+      sslClass   =   "UiIconsLibStatuscheckokicon"
+      __type   =   "UiContainer"
+   }
+   Statusinfoicons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusInfoIcons20"
+      sslClass   =   "UiIconsLibStatusinfoicons20"
+      __type   =   "UiContainer"
+   }
+   Statuslockedcontracticons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusLockedContractIcons20"
+      sslClass   =   "UiIconsLibStatuslockedcontracticons20"
+      __type   =   "UiContainer"
+   }
+   Statusnoticeicons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusNoticeIcons20"
+      sslClass   =   "UiIconsLibStatusnoticeicons20"
+      __type   =   "UiContainer"
+   }
+   Statuspinicons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusPinIcons20"
+      sslClass   =   "UiIconsLibStatuspinicons20"
+      __type   =   "UiContainer"
+   }
+   Statuspinicons40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusPinIcons40"
+      sslClass   =   "UiIconsLibStatuspinicons40"
+      __type   =   "UiContainer"
+   }
+   Statusselectedicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "statusSelectedIcon"
+      sslClass   =   "UiIconsLibStatusselectedicon"
+      __type   =   "UiContainer"
+   }
+   Statustimeicons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusTimeIcons20"
+      sslClass   =   "UiIconsLibStatustimeicons20"
+      __type   =   "UiContainer"
+   }
+   Statususericons20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StatusUserIcons20"
+      sslClass   =   "UiIconsLibStatususericons20"
+      __type   =   "UiContainer"
+   }
+   Steplogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "StepLogo80"
+      sslClass   =   "UiIconsLibSteplogo80"
+      __type   =   "UiContainer"
+   }
+   Stepneyimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "stepneyImg40"
+      sslClass   =   "UiIconsLibStepneyimg40"
+      __type   =   "UiContainer"
+   }
+   Sunsailstechnologies30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "sunsailsTechnologies30"
+      sslClass   =   "UiIconsLibSunsailstechnologies30"
+      __type   =   "UiContainer"
+   }
+   Sunsailstechnologies40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "sunsailsTechnologies40"
+      sslClass   =   "UiIconsLibSunsailstechnologies40"
+      __type   =   "UiContainer"
+   }
+   Suspensionimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "suspensionImg40"
+      sslClass   =   "UiIconsLibSuspensionimg40"
+      __type   =   "UiContainer"
+   }
+   Suspiconmap   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "suspIconMap"
+      sslClass   =   "UiIconsLibSuspiconmap"
+      __type   =   "UiContainer"
+   }
+   Susprepairmenuicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "suspRepairMenuIcon"
+      sslClass   =   "UiIconsLibSusprepairmenuicon"
+      __type   =   "UiContainer"
+   }
+   Tankbodyimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tankBodyImg30"
+      sslClass   =   "UiIconsLibTankbodyimg30"
+      __type   =   "UiContainer"
+   }
+   Tankimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tankImg"
+      sslClass   =   "UiIconsLibTankimg"
+      __type   =   "UiContainer"
+   }
+   Tankimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tankImg30"
+      sslClass   =   "UiIconsLibTankimg30"
+      __type   =   "UiContainer"
+   }
+   Tanknostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tankNoStroke"
+      sslClass   =   "UiIconsLibTanknostroke"
+      __type   =   "UiContainer"
+   }
+   Taskcheckedimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskCheckedImg20"
+      sslClass   =   "UiIconsLibTaskcheckedimg20"
+      __type   =   "UiContainer"
+   }
+   Taskcheckedimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskCheckedImg30"
+      sslClass   =   "UiIconsLibTaskcheckedimg30"
+      __type   =   "UiContainer"
+   }
+   Taskemptyimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskEmptyImg20"
+      sslClass   =   "UiIconsLibTaskemptyimg20"
+      __type   =   "UiContainer"
+   }
+   Taskemptyimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskEmptyImg30"
+      sslClass   =   "UiIconsLibTaskemptyimg30"
+      __type   =   "UiContainer"
+   }
+   Taskimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskImg20"
+      sslClass   =   "UiIconsLibTaskimg20"
+      __type   =   "UiContainer"
+   }
+   Taskimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskImg30"
+      sslClass   =   "UiIconsLibTaskimg30"
+      __type   =   "UiContainer"
+   }
+   Taskimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskImg40"
+      sslClass   =   "UiIconsLibTaskimg40"
+      __type   =   "UiContainer"
+   }
+   Tasknewimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskNewImg20"
+      sslClass   =   "UiIconsLibTasknewimg20"
+      __type   =   "UiContainer"
+   }
+   Tasknewimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskNewImg30"
+      sslClass   =   "UiIconsLibTasknewimg30"
+      __type   =   "UiContainer"
+   }
+   Tasknewimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskNewImg40"
+      sslClass   =   "UiIconsLibTasknewimg40"
+      __type   =   "UiContainer"
+   }
+   Tasknotify   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskNotify"
+      sslClass   =   "UiIconsLibTasknotify"
+      __type   =   "UiContainer"
+   }
+   Tasknotify20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskNotify20"
+      sslClass   =   "UiIconsLibTasknotify20"
+      __type   =   "UiContainer"
+   }
+   Tasknotify20anim   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskNotify20Anim"
+      sslClass   =   "UiIconsLibTasknotify20anim"
+      __type   =   "UiContainer"
+   }
+   Tasknotify20inner   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskNotify20Inner"
+      sslClass   =   "UiIconsLibTasknotify20inner"
+      __type   =   "UiContainer"
+   }
+   Taskpopupimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskPopupImg40"
+      sslClass   =   "UiIconsLibTaskpopupimg40"
+      __type   =   "UiContainer"
+   }
+   Tasksubimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskSubImg30"
+      sslClass   =   "UiIconsLibTasksubimg30"
+      __type   =   "UiContainer"
+   }
+   Tasksubimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskSubImg40"
+      sslClass   =   "UiIconsLibTasksubimg40"
+      __type   =   "UiContainer"
+   }
+   Tasktracked20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "taskTracked20"
+      sslClass   =   "UiIconsLibTasktracked20"
+      __type   =   "UiContainer"
+   }
+   Tatralogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TatraLogo80"
+      sslClass   =   "UiIconsLibTatralogo80"
+      __type   =   "UiContainer"
+   }
+   Taygalogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TaygaLogo80"
+      sslClass   =   "UiIconsLibTaygalogo80"
+      __type   =   "UiContainer"
+   }
+   Testclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "testClip"
+      sslClass   =   "UiIconsLibTestclip"
+      __type   =   "UiContainer"
+   }
+   Tierimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tierImg40"
+      sslClass   =   "UiIconsLibTierimg40"
+      __type   =   "UiContainer"
+   }
+   Towingplatform20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "towingPlatform20"
+      sslClass   =   "UiIconsLibTowingplatform20"
+      __type   =   "UiContainer"
+   }
+   Towingplatform30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "towingPlatform30"
+      sslClass   =   "UiIconsLibTowingplatform30"
+      __type   =   "UiContainer"
+   }
+   Towingplatform40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "towingPlatform40"
+      sslClass   =   "UiIconsLibTowingplatform40"
+      __type   =   "UiContainer"
+   }
+   Towingplatform40outline   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "towingPlatform40outline"
+      sslClass   =   "UiIconsLibTowingplatform40outline"
+      __type   =   "UiContainer"
+   }
+   Townhallimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "townHallImg40"
+      sslClass   =   "UiIconsLibTownhallimg40"
+      __type   =   "UiContainer"
+   }
+   Townstorage   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "townStorage"
+      sslClass   =   "UiIconsLibTownstorage"
+      __type   =   "UiContainer"
+   }
+   Townstorage30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "townStorage30"
+      sslClass   =   "UiIconsLibTownstorage30"
+      __type   =   "UiContainer"
+   }
+   Trabsnissionimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trabsnissionImg40"
+      sslClass   =   "UiIconsLibTrabsnissionimg40"
+      __type   =   "UiContainer"
+   }
+   Trailerfullimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerFullImg"
+      sslClass   =   "UiIconsLibTrailerfullimg"
+      __type   =   "UiContainer"
+   }
+   Trailerfullimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerFullImg30"
+      sslClass   =   "UiIconsLibTrailerfullimg30"
+      __type   =   "UiContainer"
+   }
+   Trailerfullnostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerFullNoStroke"
+      sslClass   =   "UiIconsLibTrailerfullnostroke"
+      __type   =   "UiContainer"
+   }
+   Trailergenerator   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerGenerator"
+      sslClass   =   "UiIconsLibTrailergenerator"
+      __type   =   "UiContainer"
+   }
+   Trailergenerator30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerGenerator30"
+      sslClass   =   "UiIconsLibTrailergenerator30"
+      __type   =   "UiContainer"
+   }
+   Trailerimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImg"
+      sslClass   =   "UiIconsLibTrailerimg"
+      __type   =   "UiContainer"
+   }
+   Trailerimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImg30"
+      sslClass   =   "UiIconsLibTrailerimg30"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketempty   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketEmpty"
+      sslClass   =   "UiIconsLibTrailerimgrocketempty"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketempty30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketEmpty30"
+      sslClass   =   "UiIconsLibTrailerimgrocketempty30"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketfull   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketFull"
+      sslClass   =   "UiIconsLibTrailerimgrocketfull"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketfull30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketFull30"
+      sslClass   =   "UiIconsLibTrailerimgrocketfull30"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketrailsempty   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketRailsEmpty"
+      sslClass   =   "UiIconsLibTrailerimgrocketrailsempty"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketrailsempty30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketRailsEmpty30"
+      sslClass   =   "UiIconsLibTrailerimgrocketrailsempty30"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketrailsfull   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketRailsFull"
+      sslClass   =   "UiIconsLibTrailerimgrocketrailsfull"
+      __type   =   "UiContainer"
+   }
+   Trailerimgrocketrailsfull30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerImgRocketRailsFull30"
+      sslClass   =   "UiIconsLibTrailerimgrocketrailsfull30"
+      __type   =   "UiContainer"
+   }
+   Trailerlogpole   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerLogPole"
+      sslClass   =   "UiIconsLibTrailerlogpole"
+      __type   =   "UiContainer"
+   }
+   Trailerlogpole30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerLogPole30"
+      sslClass   =   "UiIconsLibTrailerlogpole30"
+      __type   =   "UiContainer"
+   }
+   Trailerlogpolenostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerLogPoleNoStroke"
+      sslClass   =   "UiIconsLibTrailerlogpolenostroke"
+      __type   =   "UiContainer"
+   }
+   Trailernostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerNoStroke"
+      sslClass   =   "UiIconsLibTrailernostroke"
+      __type   =   "UiContainer"
+   }
+   Traileroffroadcargo30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerOffroadCargo30"
+      sslClass   =   "UiIconsLibTraileroffroadcargo30"
+      __type   =   "UiContainer"
+   }
+   Traileroffroadcargo40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerOffroadCargo40"
+      sslClass   =   "UiIconsLibTraileroffroadcargo40"
+      __type   =   "UiContainer"
+   }
+   Trailerplow30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerPlow30"
+      sslClass   =   "UiIconsLibTrailerplow30"
+      __type   =   "UiContainer"
+   }
+   Trailerplow40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerPlow40"
+      sslClass   =   "UiIconsLibTrailerplow40"
+      __type   =   "UiContainer"
+   }
+   Trailerpotatodigger30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerPotatoDigger30"
+      sslClass   =   "UiIconsLibTrailerpotatodigger30"
+      __type   =   "UiContainer"
+   }
+   Trailerpotatodigger40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerPotatoDigger40"
+      sslClass   =   "UiIconsLibTrailerpotatodigger40"
+      __type   =   "UiContainer"
+   }
+   Trailerseeder30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSeeder30"
+      sslClass   =   "UiIconsLibTrailerseeder30"
+      __type   =   "UiContainer"
+   }
+   Trailerseeder40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSeeder40"
+      sslClass   =   "UiIconsLibTrailerseeder40"
+      __type   =   "UiContainer"
+   }
+   Trailersemifullimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSemiFullImg"
+      sslClass   =   "UiIconsLibTrailersemifullimg"
+      __type   =   "UiContainer"
+   }
+   Trailersemifullimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSemiFullImg30"
+      sslClass   =   "UiIconsLibTrailersemifullimg30"
+      __type   =   "UiContainer"
+   }
+   Trailersemifullnostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSemiFullNoStroke"
+      sslClass   =   "UiIconsLibTrailersemifullnostroke"
+      __type   =   "UiContainer"
+   }
+   Trailersemiimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSemiImg"
+      sslClass   =   "UiIconsLibTrailersemiimg"
+      __type   =   "UiContainer"
+   }
+   Trailersemiimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSemiImg30"
+      sslClass   =   "UiIconsLibTrailersemiimg30"
+      __type   =   "UiContainer"
+   }
+   Trailerseminostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSemiNoStroke"
+      sslClass   =   "UiIconsLibTrailerseminostroke"
+      __type   =   "UiContainer"
+   }
+   Trailerservice   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerService"
+      sslClass   =   "UiIconsLibTrailerservice"
+      __type   =   "UiContainer"
+   }
+   Trailerservice30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerService30"
+      sslClass   =   "UiIconsLibTrailerservice30"
+      __type   =   "UiContainer"
+   }
+   Trailershopimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerShopImg30"
+      sslClass   =   "UiIconsLibTrailershopimg30"
+      __type   =   "UiContainer"
+   }
+   Trailershopimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerShopImg40"
+      sslClass   =   "UiIconsLibTrailershopimg40"
+      __type   =   "UiContainer"
+   }
+   Trailerspecial   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSpecial"
+      sslClass   =   "UiIconsLibTrailerspecial"
+      __type   =   "UiContainer"
+   }
+   Trailerspecial30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSpecial30"
+      sslClass   =   "UiIconsLibTrailerspecial30"
+      __type   =   "UiContainer"
+   }
+   Trailerspecialfull   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSpecialFull"
+      sslClass   =   "UiIconsLibTrailerspecialfull"
+      __type   =   "UiContainer"
+   }
+   Trailerspecialfull30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSpecialFull30"
+      sslClass   =   "UiIconsLibTrailerspecialfull30"
+      __type   =   "UiContainer"
+   }
+   Trailerspecialfullnostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSpecialFullNoStroke"
+      sslClass   =   "UiIconsLibTrailerspecialfullnostroke"
+      __type   =   "UiContainer"
+   }
+   Trailerspecialnostroke   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerSpecialNoStroke"
+      sslClass   =   "UiIconsLibTrailerspecialnostroke"
+      __type   =   "UiContainer"
+   }
+   Trailerstoreimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerStoreImg40"
+      sslClass   =   "UiIconsLibTrailerstoreimg40"
+      __type   =   "UiContainer"
+   }
+   Trailertech   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerTech"
+      sslClass   =   "UiIconsLibTrailertech"
+      __type   =   "UiContainer"
+   }
+   Trailertech30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trailerTech30"
+      sslClass   =   "UiIconsLibTrailertech30"
+      __type   =   "UiContainer"
+   }
+   Trophyimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "trophyImg40"
+      sslClass   =   "UiIconsLibTrophyimg40"
+      __type   =   "UiContainer"
+   }
+   Troublealtvehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "troubleAltVehicleImg"
+      sslClass   =   "UiIconsLibTroublealtvehicleimg"
+      __type   =   "UiContainer"
+   }
+   Troublealtvehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "troubleAltVehicleImg30"
+      sslClass   =   "UiIconsLibTroublealtvehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Troublevehicleimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "troubleVehicleImg"
+      sslClass   =   "UiIconsLibTroublevehicleimg"
+      __type   =   "UiContainer"
+   }
+   Troublevehicleimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "troubleVehicleImg30"
+      sslClass   =   "UiIconsLibTroublevehicleimg30"
+      __type   =   "UiContainer"
+   }
+   Truckstatsawdimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TruckStatsAWDImg30"
+      sslClass   =   "UiIconsLibTruckstatsawdimg30"
+      __type   =   "UiContainer"
+   }
+   Truckstatsdifflockimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TruckStatsDiffLockImg30"
+      sslClass   =   "UiIconsLibTruckstatsdifflockimg30"
+      __type   =   "UiContainer"
+   }
+   Truckstatsfuelcapacityimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TruckStatsFuelCapacityImg30"
+      sslClass   =   "UiIconsLibTruckstatsfuelcapacityimg30"
+      __type   =   "UiContainer"
+   }
+   Truckstatsintegrityimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TruckStatsIntegrityImg30"
+      sslClass   =   "UiIconsLibTruckstatsintegrityimg30"
+      __type   =   "UiContainer"
+   }
+   Truckstatssuspensiontypeimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TruckStatsSuspensionTypeImg30"
+      sslClass   =   "UiIconsLibTruckstatssuspensiontypeimg30"
+      __type   =   "UiContainer"
+   }
+   Truckstatstiretypeimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TruckStatsTireTypeImg30"
+      sslClass   =   "UiIconsLibTruckstatstiretypeimg30"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintexclaim   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tutorialHintExclaim"
+      sslClass   =   "UiIconsLibTutorialhintexclaim"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintexclaimbold   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tutorialHintExclaimBold"
+      sslClass   =   "UiIconsLibTutorialhintexclaimbold"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintinfo   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tutorialHintInfo"
+      sslClass   =   "UiIconsLibTutorialhintinfo"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintinfobold   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tutorialHintInfoBold"
+      sslClass   =   "UiIconsLibTutorialhintinfobold"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintuseradd   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "tutorialHintUserAdd"
+      sslClass   =   "UiIconsLibTutorialhintuseradd"
+      __type   =   "UiContainer"
+   }
+   Tuzlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "TUZLogo80"
+      sslClass   =   "UiIconsLibTuzlogo80"
+      __type   =   "UiContainer"
+   }
+   Uniqueskinicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "uniqueSkinIcon"
+      sslClass   =   "UiIconsLibUniqueskinicon"
+      __type   =   "UiContainer"
+   }
+   Uniqueskinicontransperent   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "uniqueSkinIconTransperent"
+      sslClass   =   "UiIconsLibUniqueskinicontransperent"
+      __type   =   "UiContainer"
+   }
+   Upgradecreateimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "upgradeCreateImg30"
+      sslClass   =   "UiIconsLibUpgradecreateimg30"
+      __type   =   "UiContainer"
+   }
+   Upgradecreateimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "upgradeCreateImg40"
+      sslClass   =   "UiIconsLibUpgradecreateimg40"
+      __type   =   "UiContainer"
+   }
+   Upgradecreateimg40plus   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "upgradeCreateImg40Plus"
+      sslClass   =   "UiIconsLibUpgradecreateimg40plus"
+      __type   =   "UiContainer"
+   }
+   Upgradecreatepopupimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "upgradeCreatePopupImg"
+      sslClass   =   "UiIconsLibUpgradecreatepopupimg"
+      __type   =   "UiContainer"
+   }
+   Upgradeimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "upgradeImg30"
+      sslClass   =   "UiIconsLibUpgradeimg30"
+      __type   =   "UiContainer"
+   }
+   Upgradeimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "upgradeImg40"
+      sslClass   =   "UiIconsLibUpgradeimg40"
+      __type   =   "UiContainer"
+   }
+   Visualimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "visualImg20"
+      sslClass   =   "UiIconsLibVisualimg20"
+      __type   =   "UiContainer"
+   }
+   Visualimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "visualImg40"
+      sslClass   =   "UiIconsLibVisualimg40"
+      __type   =   "UiContainer"
+   }
+   Voronlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "VoronLogo80"
+      sslClass   =   "UiIconsLibVoronlogo80"
+      __type   =   "UiContainer"
+   }
+   Walkietalkie30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "walkieTalkie30"
+      sslClass   =   "UiIconsLibWalkietalkie30"
+      __type   =   "UiContainer"
+   }
+   Walkietalkie40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "walkieTalkie40"
+      sslClass   =   "UiIconsLibWalkietalkie40"
+      __type   =   "UiContainer"
+   }
+   Walkietalkiealt30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "walkieTalkieAlt30"
+      sslClass   =   "UiIconsLibWalkietalkiealt30"
+      __type   =   "UiContainer"
+   }
+   Walkietalkiealt40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "walkieTalkieAlt40"
+      sslClass   =   "UiIconsLibWalkietalkiealt40"
+      __type   =   "UiContainer"
+   }
+   Walkietalkiemute40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "walkieTalkieMute40"
+      sslClass   =   "UiIconsLibWalkietalkiemute40"
+      __type   =   "UiContainer"
+   }
+   Walkietalkiemutealt40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "walkieTalkieMuteAlt40"
+      sslClass   =   "UiIconsLibWalkietalkiemutealt40"
+      __type   =   "UiContainer"
+   }
+   Watchtowerimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "watchTowerImg"
+      sslClass   =   "UiIconsLibWatchtowerimg"
+      __type   =   "UiContainer"
+   }
+   Watchtowerimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "watchTowerImg30"
+      sslClass   =   "UiIconsLibWatchtowerimg30"
+      __type   =   "UiContainer"
+   }
+   Watchtowerimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "watchTowerImg40"
+      sslClass   =   "UiIconsLibWatchtowerimg40"
+      __type   =   "UiContainer"
+   }
+   Waterrefillimg20   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "waterRefillImg20"
+      sslClass   =   "UiIconsLibWaterrefillimg20"
+      __type   =   "UiContainer"
+   }
+   Waterstationimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "waterStationImg30"
+      sslClass   =   "UiIconsLibWaterstationimg30"
+      __type   =   "UiContainer"
+   }
+   Waterstationimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "waterStationImg40"
+      sslClass   =   "UiIconsLibWaterstationimg40"
+      __type   =   "UiContainer"
+   }
+   Westernstarlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "WesternStarLogo80"
+      sslClass   =   "UiIconsLibWesternstarlogo80"
+      __type   =   "UiContainer"
+   }
+   Westernstarlogoalt80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "WesternStarLogoAlt80"
+      sslClass   =   "UiIconsLibWesternstarlogoalt80"
+      __type   =   "UiContainer"
+   }
+   Wheeliconmap   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "wheelIconMap"
+      sslClass   =   "UiIconsLibWheeliconmap"
+      __type   =   "UiContainer"
+   }
+   Wheelimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "wheelImg"
+      sslClass   =   "UiIconsLibWheelimg"
+      __type   =   "UiContainer"
+   }
+   Wheelrepairmenuicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "wheelRepairMenuIcon"
+      sslClass   =   "UiIconsLibWheelrepairmenuicon"
+      __type   =   "UiContainer"
+   }
+   Wheelsizeimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "wheelSizeImg40"
+      sslClass   =   "UiIconsLibWheelsizeimg40"
+      __type   =   "UiContainer"
+   }
+   Winchimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "winchImg40"
+      sslClass   =   "UiIconsLibWinchimg40"
+      __type   =   "UiContainer"
+   }
+   Yarlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "YARLogo80"
+      sslClass   =   "UiIconsLibYarlogo80"
+      __type   =   "UiContainer"
+   }
+   Zikzlogo80   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ZiKZLogo80"
+      sslClass   =   "UiIconsLibZikzlogo80"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

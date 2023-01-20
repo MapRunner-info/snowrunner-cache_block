@@ -1,0 +1,19 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   accept   =   {
+      view   =   {
+         text   =   "UI_ACCEPT"
+         __type   =   "NavButtonView"
+      }
+      __type   =   "NavButtonController"
+   }
+   back   =   {
+      view   =   {
+         text   =   "UI_BACK"
+         __type   =   "NavButtonView"
+      }
+      __type   =   "NavButtonController"
+   }
+}
+__type   =   "NavigationPanelController"

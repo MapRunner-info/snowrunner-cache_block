@@ -1,0 +1,20 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      repair   =   {
+         repairTargetDetails   =   {
+            lir   =   {
+               __type   =   "PopupRepairUiViewLirItem"
+            }
+            __type   =   "UiPopupLibPopuprepairtargetdetailslist"
+         }
+         __type   =   "UiPopupLibPopuprepair"
+      }
+      __type   =   "UiCrossplayLibAnimpopupcrossplaykey"
+   }
+   __type   =   "UiObjectDesc"
+}
+hideSound   =   "ui/ui_click_exit"
+__type   =   "PopupViewBase"

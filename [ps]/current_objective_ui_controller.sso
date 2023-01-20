@@ -1,0 +1,6 @@
+contestIcon   =   "contestImg"
+taskIcon   =   "taskImg40"
+stageHeaderIcons   =   {
+   __type   =   "ObjectiveStageHeaderIcons"
+}
+__type   =   "object"

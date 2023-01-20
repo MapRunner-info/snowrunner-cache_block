@@ -1,0 +1,11 @@
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "Left",
+      "Up",
+      "Right",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupWithoutMoveUiController"

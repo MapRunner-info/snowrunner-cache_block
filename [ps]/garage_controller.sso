@@ -1,0 +1,20 @@
+garageModes   =   [
+   {
+      name   =   "GarageWithoutUpgrade"
+      refName   =   "ref_garage_usa_interior"
+   },
+   {
+      name   =   "GarageWithoutSlots"
+      refName   =   "ref_upgradable_garage_int_stage_usa_interior_1"
+   },
+   {
+      name   =   "GarageWithoutStore"
+      refName   =   "ref_upgradable_garage_int_stage_usa_interior_2"
+   },
+   {
+      name   =   "Default"
+      refName   =   "ref_upgradable_garage_int_stage_usa_interior_3"
+   }
+]
+garageModel   =   "garage"
+__type   =   "object"

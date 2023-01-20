@@ -1,0 +1,28 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         slider   =   {
+            sliderTf   =   {
+               tf   =   {
+                  visible   =   False
+                  __type   =   "UiLabel"
+               }
+               __type   =   "UiSettingsSettingsslidertf"
+            }
+            __type   =   "UiSettingsSettingsslider"
+         }
+         __type   =   "UiSettingsSettingssliderclip"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   descriptionImage   =   "settingsBrightness"
+   __type   =   "UiOneSettingSliderView"
+}
+header   =   "UI_SETTINGS_GAMMA"
+desc   =   "UI_SETTINGS_GAMMA_DESC"
+minValue   =   0.5
+maxValue   =   2
+defaultValue   =   1
+stepInterval   =   0.01
+textfield   =   "FLOAT"
+__type   =   "UiOneSettingSliderController"

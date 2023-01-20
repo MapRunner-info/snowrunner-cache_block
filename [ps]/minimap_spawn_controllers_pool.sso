@@ -1,0 +1,9 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "MinimapSpawnController"
+   }
+   __type   =   "MinimapSpawnControllerDesc"
+}
+initialCapacity   =   3
+editorMaxCapacity   =   20
+__type   =   "EditorObjectDescPool"

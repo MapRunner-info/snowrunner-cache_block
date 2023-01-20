@@ -1,0 +1,11 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_FPS_LIMIT"
+desc   =   "UI_SETTINGS_FPS_LIMIT_DESC"
+valueUiNames   =   [
+   "UI_OPTION_STEPPER_OFF",
+   "60",
+   "30"
+]
+__type   =   "UiOneSettingStepperVideoValuesController"

@@ -1,0 +1,13 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   close   =   {
+      text   =   "UI_CLOSE"
+      __type   =   "NavButtonDesc"
+   }
+   sell   =   {
+      text   =   "UI_SELL"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

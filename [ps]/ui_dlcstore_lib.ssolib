@@ -1,0 +1,882 @@
+classes   =   {
+   Dlcpagearrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "dlcpageArrow"
+      __type   =   "UiButton"
+   }
+   Dlcpageitemplaceholder   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageItemPlaceholder"
+      sslClass   =   "UiDlcstoreLibDlcpageitemplaceholder"
+      __type   =   "UiContainer"
+   }
+   Dlcpagelist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "dlcpageList"
+      __type   =   "UiTileList"
+   }
+   Dlcpagelistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageListContainer"
+      sslClass   =   "UiDlcstoreLibDlcpagelistcontainer"
+      listTitle   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcspagelisttitle"
+      }
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   63
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagelist"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcpagelistlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "dlcpageListLir"
+      content   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcpagelistlircontent"
+      }
+      __type   =   "UiListItem"
+   }
+   Dlcpagelistlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Dlcpagelistlircontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageListLirContent"
+      sslClass   =   "UiDlcstoreLibDlcpagelistlircontent"
+      title   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   195
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcpagelistlirtitlecontainer"
+      }
+      label   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   207
+         scaleX   =   100.0214
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcspagelistlirlabel"
+      }
+      iconAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   13
+         y   =   210
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcpagelistliriconattach"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagelistlirposterattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcpagelistliriconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageListLirIconAttach"
+      sslClass   =   "UiDlcstoreLibDlcpagelistliriconattach"
+      __type   =   "UiContainer"
+   }
+   Dlcpagelistlirposterattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageListLirPosterAttach"
+      sslClass   =   "UiDlcstoreLibDlcpagelistlirposterattach"
+      __type   =   "UiContainer"
+   }
+   Dlcpagelistlirtitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageListLirTitle"
+      sslClass   =   "UiDlcstoreLibDlcpagelistlirtitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcpagelistlirtitlecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageListLirTitleContainer"
+      sslClass   =   "UiDlcstoreLibDlcpagelistlirtitlecontainer"
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   12
+         scaleX   =   100
+         scaleY   =   101.2451
+         __type   =   "UiDlcstoreLibDlcpagelistlirtitle"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcpagepreview   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpagePreview"
+      sslClass   =   "UiDlcstoreLibDlcpagepreview"
+      warn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   572
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagewarn"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   24
+         y   =   367
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagepreviewdesc"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagepreviewposterattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcpagepreviewdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpagePreviewDesc"
+      sslClass   =   "UiDlcstoreLibDlcpagepreviewdesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcpagepreviewplaceholder   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpagePreviewPlaceholder"
+      sslClass   =   "UiDlcstoreLibDlcpagepreviewplaceholder"
+      __type   =   "UiContainer"
+   }
+   Dlcpagepreviewposterattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpagePreviewPosterAttach"
+      sslClass   =   "UiDlcstoreLibDlcpagepreviewposterattach"
+      __type   =   "UiContainer"
+   }
+   Dlcpagescreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageScreen"
+      sslClass   =   "UiDlcstoreLibDlcpagescreen"
+      fade   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -760
+         y   =   -420
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstoreheader"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorenavattach"
+      }
+      navAttachL   =   {
+         symbol   =   ""
+         x   =   150
+         y   =   523
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepanelnavbtnattach"
+      }
+      arrowL   =   {
+         symbol   =   ""
+         x   =   207
+         y   =   525
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagearrow"
+      }
+      arrowR   =   {
+         symbol   =   ""
+         x   =   1716
+         y   =   525
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagearrow"
+      }
+      navAttachR   =   {
+         symbol   =   ""
+         x   =   1740
+         y   =   523
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepanelnavbtnattach"
+      }
+      preview   =   {
+         symbol   =   ""
+         x   =   251
+         y   =   210
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagepreview"
+      }
+      list   =   {
+         symbol   =   ""
+         x   =   991
+         y   =   208
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagelistcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcpagewarn   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcpageWarn"
+      sslClass   =   "UiDlcstoreLibDlcpagewarn"
+      label   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   43
+         y   =   4.8
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiDlcstoreLibDlcspagewarnlabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcspagelistlirlabel   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcspageListLirLabel"
+      sslClass   =   "UiDlcstoreLibDlcspagelistlirlabel"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcspagelisttitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcspageListTitle"
+      sslClass   =   "UiDlcstoreLibDlcspagelisttitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcspagewarnlabel   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcspageWarnLabel"
+      sslClass   =   "UiDlcstoreLibDlcspagewarnlabel"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstoreblurblackimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreBlurBlackImg"
+      sslClass   =   "UiDlcstoreLibDlcstoreblurblackimg"
+      __type   =   "UiContainer"
+   }
+   Dlcstorecheck   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreCheck"
+      sslClass   =   "UiDlcstoreLibDlcstorecheck"
+      __type   =   "UiContainer"
+   }
+   Dlcstorecontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreContent"
+      sslClass   =   "UiDlcstoreLibDlcstorecontent"
+      dividerBottom   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   882
+         y   =   794
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiDlcstoreLibDlcstorefeaturedlistdivider"
+      }
+      dividerTop   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   882
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiDlcstoreLibDlcstorefeaturedlistdivider"
+      }
+      featuredListCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   800
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiDlcstoreLibDlcstorefeaturedlistcontainer"
+      }
+      featuredPreview   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiDlcstoreLibDlcstorefeaturedpreview"
+      }
+      listCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   2
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorelistcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorefeatureditemcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreFeaturedItemContent"
+      sslClass   =   "UiDlcstoreLibDlcstorefeatureditemcontent"
+      iconAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   67
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcpagelistliriconattach"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   39.9994
+         scaleY   =   39.9994
+         __type   =   "UiDlcstoreLibDlcpagelistlirposterattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorefeaturedlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "dlcstoreFeaturedList"
+      __type   =   "UiTileList"
+   }
+   Dlcstorefeaturedlistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreFeaturedListContainer"
+      sslClass   =   "UiDlcstoreLibDlcstorefeaturedlistcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorefeaturedlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorefeaturedlistcontainermask   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreFeaturedListContainerMask"
+      sslClass   =   "UiDlcstoreLibDlcstorefeaturedlistcontainermask"
+      __type   =   "UiContainer"
+   }
+   Dlcstorefeaturedlistdivider   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreFeaturedListDivider"
+      sslClass   =   "UiDlcstoreLibDlcstorefeaturedlistdivider"
+      __type   =   "UiContainer"
+   }
+   Dlcstorefeaturedpreview   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreFeaturedPreview"
+      sslClass   =   "UiDlcstoreLibDlcstorefeaturedpreview"
+      check   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   581
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorecheck"
+      }
+      item0   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   24
+         y   =   623
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcstorefeatureditemcontent"
+      }
+      item1   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   164
+         y   =   623
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcstorefeatureditemcontent"
+      }
+      item2   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   304
+         y   =   623
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcstorefeatureditemcontent"
+      }
+      item3   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   444
+         y   =   623
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcstorefeatureditemcontent"
+      }
+      warn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   741
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagewarn"
+      }
+      title   =   {
+         symbol   =   ""
+         x   =   24
+         y   =   347
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorefeaturedtitlecontainer"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   24
+         y   =   403
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagepreviewdesc"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcpagepreviewposterattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorefeaturedtitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreFeaturedTitle"
+      sslClass   =   "UiDlcstoreLibDlcstorefeaturedtitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorefeaturedtitlecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreFeaturedTitleContainer"
+      sslClass   =   "UiDlcstoreLibDlcstorefeaturedtitlecontainer"
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   12
+         scaleX   =   100
+         scaleY   =   101.2451
+         __type   =   "UiDlcstoreLibDlcstorefeaturedtitle"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstoreheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreHeader"
+      sslClass   =   "UiDlcstoreLibDlcstoreheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstoreitemplaceholder   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreItemPlaceholder"
+      sslClass   =   "UiDlcstoreLibDlcstoreitemplaceholder"
+      __type   =   "UiContainer"
+   }
+   Dlcstorelist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "dlcstoreList"
+      __type   =   "UiTileList"
+   }
+   Dlcstorelistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreListContainer"
+      sslClass   =   "UiDlcstoreLibDlcstorelistcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorelist"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorelistcontainermask   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreListContainerMask"
+      sslClass   =   "UiDlcstoreLibDlcstorelistcontainermask"
+      __type   =   "UiContainer"
+   }
+   Dlcstorelistlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "dlcstoreListLir"
+      content   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorelistlircontent"
+      }
+      __type   =   "UiListItem"
+   }
+   Dlcstorelistlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Dlcstorelistlircontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreListLirContent"
+      sslClass   =   "UiDlcstoreLibDlcstorelistlircontent"
+      check   =   {
+         symbol   =   ""
+         x   =   271
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorecheck"
+      }
+      title   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   186.85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorelistlirtitlecontainer"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   240
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorelistlirdesc"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100.0031
+         scaleY   =   100.0031
+         __type   =   "UiDlcstoreLibDlcstorelistlirposterattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorelistlirdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreListLirDesc"
+      sslClass   =   "UiDlcstoreLibDlcstorelistlirdesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorelistlirposterattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreListLirPosterAttach"
+      sslClass   =   "UiDlcstoreLibDlcstorelistlirposterattach"
+      __type   =   "UiContainer"
+   }
+   Dlcstorelistlirtitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreListLirTitle"
+      sslClass   =   "UiDlcstoreLibDlcstorelistlirtitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorelistlirtitlecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreListLirTitleContainer"
+      sslClass   =   "UiDlcstoreLibDlcstorelistlirtitlecontainer"
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   12
+         scaleX   =   100
+         scaleY   =   101.2451
+         __type   =   "UiDlcstoreLibDlcstorelistlirtitle"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstorenavattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreNavAttach"
+      sslClass   =   "UiDlcstoreLibDlcstorenavattach"
+      __type   =   "UiContainer"
+   }
+   Dlcstorepanelnavbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstorePanelNavBtnAttach"
+      sslClass   =   "UiDlcstoreLibDlcstorepanelnavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Dlcstorepaneltabbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "dlcstorePanelTabBtn"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiDlcstoreLibDlcstoretabtext"
+      }
+      __type   =   "UiButton"
+   }
+   Dlcstorescreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreScreen"
+      sslClass   =   "UiDlcstoreLibDlcstorescreen"
+      fade   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -760
+         y   =   -420
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstoreheader"
+      }
+      tabs   =   {
+         symbol   =   ""
+         x   =   572.5
+         y   =   67
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstoretabpanel"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorenavattach"
+      }
+      storeContent   =   {
+         symbol   =   ""
+         x   =   88
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorecontent"
+      }
+      listCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   0.5676
+         scaleY   =   1.0086
+         alpha   =   0
+         __type   =   "UiDlcstoreLibDlcstorelistcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstoretabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreTabPanel"
+      sslClass   =   "UiDlcstoreLibDlcstoretabpanel"
+      navAttachR   =   {
+         symbol   =   ""
+         x   =   1262
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepanelnavbtnattach"
+      }
+      navAttachL   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepanelnavbtnattach"
+      }
+      tab0   =   {
+         symbol   =   ""
+         x   =   49
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+      }
+      tab1   =   {
+         symbol   =   ""
+         x   =   289
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+      }
+      tab2   =   {
+         symbol   =   ""
+         x   =   529
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+      }
+      tab3   =   {
+         symbol   =   ""
+         x   =   769
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+      }
+      tab4   =   {
+         symbol   =   ""
+         x   =   1009
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcstoretabtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_dlcstore_lib"
+      symbol   =   "dlcstoreTabText"
+      sslClass   =   "UiDlcstoreLibDlcstoretabtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

@@ -1,0 +1,79 @@
+uiDesc   =   "US_01_04_LOST_CARGO_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_LOST_CARGO_SUB_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_LOST_CARGO_DELIVERY_DELIVERY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoContainerSmallSpecial"
+                  count   =   3
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      spawnCargoOnStageActive   =   [
+         {
+            zone   =   {
+               sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+               globalZoneId   =   "level_us_01_04_new || US_01_04_LOST_CARGO_01"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  sslModule   =   "game.terrain_descs_storage.zone_properties.zone_property_cargo_loading"
+                  name   =   "CargoContainerSmallSpecial"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_04_new || US_01_04_LOST_CARGO_02"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  sslModule   =   "game.terrain_descs_storage.zone_properties.zone_property_cargo_loading"
+                  name   =   "CargoContainerSmallSpecial"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_04_new || US_01_04_LOST_CARGO_03"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  sslModule   =   "game.terrain_descs_storage.zone_properties.zone_property_cargo_loading"
+                  name   =   "CargoContainerSmallSpecial"
+                  count   =   1
+               }
+            ]
+         }
+      ]
+   }
+]
+description   =   "US_01_04_LOST_CARGO_REW"
+recommendedTruck   =   "CRANE"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   240
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2150
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_04_new || US_01_04_LOST_CARGO_DELIVERY_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

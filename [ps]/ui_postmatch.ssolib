@@ -1,0 +1,405 @@
+classes   =   {
+   AutoClassPostmatchscreenHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   ""
+      sslClass   =   "UiPostmatchAutoclasspostmatchscreenheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassPostmatchscreenAchievementsbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   ""
+      sslClass   =   "UiPostmatchAutoclasspostmatchscreenachievementsbg"
+      bgImg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchachievement   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchAchievement"
+      sslClass   =   "UiPostmatchPostmatchachievement"
+      achivementHeader   =   {
+         symbol   =   ""
+         x   =   -246
+         y   =   39
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchachievementtext"
+      }
+      achivementValue   =   {
+         symbol   =   ""
+         x   =   12
+         y   =   -46
+         scaleX   =   150.0031
+         scaleY   =   150
+         __type   =   "UiPostmatchPostmatchachievementbigtext"
+      }
+      achivementIcon   =   {
+         symbol   =   ""
+         x   =   -40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchachievementbigtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchAchievementBigText"
+      sslClass   =   "UiPostmatchPostmatchachievementbigtext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchachievementtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchAchievementText"
+      sslClass   =   "UiPostmatchPostmatchachievementtext"
+      textField   =   {
+         x   =   -40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchearnings   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchEarnings"
+      sslClass   =   "UiPostmatchPostmatchearnings"
+      progress   =   {
+         symbol   =   ""
+         x   =   -138
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchearningscont"
+      }
+      currency   =   {
+         symbol   =   ""
+         x   =   -8
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchearningscont"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchearningscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchEarningsCont"
+      sslClass   =   "UiPostmatchPostmatchearningscont"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchiconattach"
+      }
+      tf   =   {
+         x   =   46
+         y   =   -2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchearningsconttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchEarningsContText"
+      sslClass   =   "UiPostmatchPostmatchearningsconttext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchheadertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchHeaderText"
+      sslClass   =   "UiPostmatchPostmatchheadertext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchIconAttach"
+      sslClass   =   "UiPostmatchPostmatchiconattach"
+      __type   =   "UiContainer"
+   }
+   Postmatchscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchScreen"
+      sslClass   =   "UiPostmatchPostmatchscreen"
+      header   =   {
+         symbol   =   ""
+         x   =   500
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchAutoclasspostmatchscreenheader"
+      }
+      timer   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   910
+         y   =   120
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchtimertext"
+      }
+      earningsHeader   =   {
+         animated   =   True
+         colorMode   =   4
+         symbol   =   ""
+         x   =   765
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchheadertext"
+      }
+      earnings   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   960
+         y   =   223
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchearnings"
+      }
+      bg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   560
+         y   =   210
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      achievement2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1420
+         y   =   455
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchachievement"
+      }
+      achievement1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   860
+         y   =   455
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchachievement"
+      }
+      achievement0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   300
+         y   =   455
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchachievement"
+      }
+      achievementsBg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   325.05
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchAutoclasspostmatchscreenachievementsbg"
+      }
+      statisticsHeader   =   {
+         animated   =   True
+         colorMode   =   4
+         symbol   =   ""
+         x   =   765
+         y   =   735
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchheadertext"
+      }
+      statsCont2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1155
+         y   =   780
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchstatscontainer"
+      }
+      statsCont1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   765
+         y   =   780
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchstatscontainer"
+      }
+      statsCont0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   375
+         y   =   780
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiPostmatchPostmatchstatscontainer"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchstatsbigtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchStatsBigText"
+      sslClass   =   "UiPostmatchPostmatchstatsbigtext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchstatscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchStatsContainer"
+      sslClass   =   "UiPostmatchPostmatchstatscontainer"
+      statHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchsubheadertext"
+      }
+      statsBg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMovieClip"
+      }
+      statUnit   =   {
+         symbol   =   ""
+         x   =   264
+         y   =   52
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchstatssmalltext"
+      }
+      statValue   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   36
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPostmatchPostmatchstatsbigtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchstatssmalltext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchStatsSmallText"
+      sslClass   =   "UiPostmatchPostmatchstatssmalltext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchsubheadertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchSubHeaderText"
+      sslClass   =   "UiPostmatchPostmatchsubheadertext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postmatchtimertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_postmatch"
+      symbol   =   "postmatchTimerText"
+      sslClass   =   "UiPostmatchPostmatchtimertext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

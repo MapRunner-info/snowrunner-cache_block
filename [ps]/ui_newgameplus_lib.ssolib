@@ -1,0 +1,212 @@
+classes   =   {
+   Newgameplusblurblackimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusBlurBlackImg"
+      sslClass   =   "UiNewgameplusLibNewgameplusblurblackimg"
+      __type   =   "UiContainer"
+   }
+   Newgameplusdescriptioncontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusDescriptionContainer"
+      sslClass   =   "UiNewgameplusLibNewgameplusdescriptioncontainer"
+      descriptionText   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   60
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgameplusdescriptiontext"
+      }
+      __type   =   "UiContainer"
+   }
+   Newgameplusdescriptiontext   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusDescriptionText"
+      sslClass   =   "UiNewgameplusLibNewgameplusdescriptiontext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Newgameplusheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusHeader"
+      sslClass   =   "UiNewgameplusLibNewgameplusheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Newgamepluslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "newgameplusList"
+      __type   =   "UiTileList"
+   }
+   Newgamepluslistlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "newgameplusListLir"
+      title   =   {
+         symbol   =   ""
+         x   =   40
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgamepluslistlirtitle"
+      }
+      navAttachR   =   {
+         symbol   =   ""
+         x   =   747
+         y   =   72
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgamepluslistlirnavbtnattach"
+      }
+      navAttachL   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   72
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgamepluslistlirnavbtnattach"
+      }
+      stepperAttach   =   {
+         symbol   =   ""
+         x   =   80
+         y   =   70
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgameplusnavattach"
+      }
+      bg   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   40
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   80
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiListItem"
+   }
+   Newgamepluslistlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Newgamepluslistlirnavbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusListLirNavBtnAttach"
+      sslClass   =   "UiNewgameplusLibNewgamepluslistlirnavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Newgamepluslistlirtitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusListLirTitle"
+      sslClass   =   "UiNewgameplusLibNewgamepluslistlirtitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Newgameplusnavattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusNavAttach"
+      sslClass   =   "UiNewgameplusLibNewgameplusnavattach"
+      __type   =   "UiContainer"
+   }
+   Newgameplusscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_newgameplus_lib"
+      symbol   =   "newgameplusScreen"
+      sslClass   =   "UiNewgameplusLibNewgameplusscreen"
+      fade   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -760
+         y   =   -420
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgameplusnavattach"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgameplusheader"
+      }
+      description   =   {
+         symbol   =   ""
+         x   =   320
+         y   =   905
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgameplusdescriptioncontainer"
+      }
+      tileList   =   {
+         symbol   =   ""
+         x   =   180
+         y   =   144
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNewgameplusLibNewgamepluslist"
+      }
+      __type   =   "UiContainer"
+   }
+   Newgameplusstepper   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "newgameplusStepper"
+      prevBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiNewgameplusLibNewgameplusstepperarrow"
+      }
+      nextBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   620
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiNewgameplusLibNewgameplusstepperarrow"
+      }
+      __type   =   "UiOptionStepper"
+   }
+   Newgameplusstepperarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "newgameplusStepperArrow"
+      __type   =   "UiButton"
+   }
+}
+__type   =   "ssl_object_lib"

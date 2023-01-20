@@ -1,0 +1,60 @@
+uiDesc   =   "US_01_02_MICHIGAN_TRIAL_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_02_FLAG_A_ZONE_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FLAG_A"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_02_FLAG_B_ZONE_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FLAG_B"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_02_FLAG_C_ZONE_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FLAG_C"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_02_FLAG_D_ZONE_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FLAG_D"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_02_FLAG_E_ZONE_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FLAG_E"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+description   =   "US_01_02_MICHIGAN_TRIAL_REW"
+recommendedTruck   =   "SCOUT"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_MICHIGAN_TRIAL_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   80
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1350
+   }
+}
+__type   =   "TaskSettings"

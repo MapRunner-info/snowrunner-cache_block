@@ -1,0 +1,3242 @@
+view   =   {
+   __type   =   "UiCreditsView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         up   =   {
+            uiInputName   =   "Up"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+         down   =   {
+            uiInputName   =   "Down"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+         UpDown   =   {
+            text   =   "UI_CREDITS_MOUSE_SCROLL"
+            uiInputName   =   "UpDown"
+            excludedDevices   =   [
+               "gamepad_xbox_one",
+               "gamepad_xenon",
+               "gamepad_ds4",
+               "gamepad_orbis",
+               "farm_sideboard",
+               "steering_wheel",
+               "gamepad_nx64",
+               "gamepad_stadia"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "UiCreditsNavigationPanel"
+   }
+}
+inputScreen   =   {
+   name   =   "UiCredits"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Down   =   {
+         inputLink   =   "UI.GamepadDPadDown"
+         __type   =   "InputLinkHoldMr"
+      }
+      Up   =   {
+         inputLink   =   "UI.GamepadDPadUp"
+         __type   =   "InputLinkHoldMr"
+      }
+      UpDown   =   {
+         inputLink   =   "UI.MouseWheelPress"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+credits   =   [
+   {
+      creditsType   =   "EMPTY_SCREEN"
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "SABER INTERACTIVE - SNOWRUNNER TEAM"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CEO"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Matthew Karch"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "COO"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Iones"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CTO"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anton Krupkin "
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "STUDIO PROGRAMMING DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Grigoriev"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "STUDIO DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladimir Chernyish"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "STUDIO ART DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitrii Kholodov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ART DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Gromov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CHIEF CREATIVE OFFICER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Craig Sherman"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CREATIVE OFFICER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oliver Hollister"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CREATIVE VISION HOLDER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Zagrebelniy"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "PRODUCTION TEAM"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Evgeniy Sorokin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Karina Belyanina"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Irina Denisova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeniya Novikova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artyom Pozhilenkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sofiia Chernetskaia"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniel Shreder"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ADDITIONAL PRODUCTION"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alina Galiamova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ksenia Timchenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daria Kruzhaeva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maria Pestereva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandra Zakirova"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "GAME DESIGN"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Vitaliy Yaruta"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Lev Danilov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Stepanov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LEVEL DESIGN"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Donskoi"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Filipp Ivanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Medvedev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladimir Shchigelskii"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergei Kiper"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "UI/UX TEAM"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Alexey Melnikov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anna Boldireva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oksana Burova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kim Chevardin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mikhail Kirillov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexandr Kharkovsky"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Pechatnikov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeny Senin"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CHARACTERS ART"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Maxim Nezvanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandra Khalilova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mikhail Metliaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artemii Sokolov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anastasiya Tulupnikova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Zharkikh"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "VEHICLE ART"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD ART - Oleg Kuznetsov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maksim Esafev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Petelin "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anton Sumerin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD TEXTURE - Georgiy Paute"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mark Stoyko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ekaterina Surikova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD TECH - Nikolai Grigorev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeniy Dyibchinskiy"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksei Kandiusov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Rostislav Karpov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Zakalin"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LEVEL ART "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Dmitriy Efimov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitriy Flibustier Andreev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maxim Antropov "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anton Bondar"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor Budalovskiy"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Michail Davidenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Denis Getman"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Kvashnin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Lebedev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Vorohov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artur Sukhorukov"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LIGHTING ART "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Olga Cheremisova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mikhail Korovkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexey Krivospitskiy"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yakov Shevchenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitriy Zhempala"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TEXTURE "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Elena Tarnovskaia"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Davyidov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexey Konnov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ivan Kudinov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "VISUAL EFFECTS & ANIMATION"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD VFX - Anton Lomakin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeniy Shipilo"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD ANIMATOR - Aleksandr Myala"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Afanasev Dmitriy"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oleg Zaika"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TECHNICAL ART "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Sergey Demidov  "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Arefiev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Baryshnikov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Georgiy Belyaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilya Kuzmichev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeniy Nikolaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilya Sobko"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "OUTSOURCE ART DEPARTMENT"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Elena Bondareva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mikhail Beliashov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "2D ART"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Dmitriy Volkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vitaliy Anikin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Belov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nikolay Eliseev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniil Kuksov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "SOUND DEPARTMENT"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Ivan Osipenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artem Davydov "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Grachev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Georgii Lutsenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrei Pyregov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Baranov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "PROGRAMMING"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "R&D DIRECTOR - Evgeniy Tsyimbalyuk"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "GAME DEVELOPMENT DIRECTOR - Ruslan Vizgalin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "RENDERING DIRECTOR - Denis Sladkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "TOOLS LEAD - Alexey Ivanov "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "BACKEND LEAD - Dmitri Brevdo"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "PROJECT TECH LEAD - Evgeniy Pichugin"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "GAMEPLAY PROGRAMMING"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "LEAD - Yulia Abdalova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vadim Filatov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladimir Golohvastov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vitaliy Ivolgin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Kogut"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Koltsov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexander Lyashenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniil Peshkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniil Pshegorlinskii"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tatiana Saveleva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Matvei Gordienko"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ENGINE PROGRAMMERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Avdeev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yaroslav Cherniy"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Denisov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Doroshenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitry Fedorov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergei Izieiurov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitriy Kildyushkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Margarita Kiseleva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oleg Kokshin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Adam Korkmazov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Kuznetsov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ivan Leonov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Malgavka"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Konstantin Marinov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladimir Petrovskii"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeniy Pichugin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilja Pokolew"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vitaliy Polyakov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexander Senin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgenii Shatunov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksey Shutov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilya Solovev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Valerii Udaltsov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Zherebtsov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Rikov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor Beliaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oleg Baluk"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksei Kliushkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "GRAPHICS ENGINE DEPARTMENT"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Brayon"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yaroslav Dmitriev-Lappo"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexey Eremin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Viktor Fomin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Timur Gagiev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vitaliy Kuzmin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Lisenkov"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ADDITIONAL RENDERING"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artem Doronin"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "BACKEND "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ekaterina Asabina"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitry Shakshin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilia Borisov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergei Bugaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Dushin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Igumnov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anton \"Evgenich\" Ivanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitri Karlson"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oleg Karpov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nikolay Lukyanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey \"amorofrost\" Morozovsky"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitriy Neganov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Nikitin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Rogozin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vasiliy Vishnevetsky"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeniy Viushin"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TOOLS "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Arkhipov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Valeriy Cyvakin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitriy Nazarenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Fedor Rebenkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor Tsevelev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Stanislav Turchenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Zhigunov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "QUALITY ASSURANCE"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "QA DIRECTOR - Viktor Glyanenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "QA LEAD - Nina Reznichenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Valerii \"Wolya\" Bezrodnyi"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Dmitriev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Olga \"Aki\" Dvornikova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor Esaulov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergei Kiper"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgenii Kolchev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nikita \"Dungeon Master\" Krinitsin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Danila Kultin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladimir Litchenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Panin Vladimir"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mikhail \"Lionhead\" Rybalkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Elizaveta Mamontova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrei Volgin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maksim Naldin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nadezhda Marchenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anatolii Khvatov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Violetta Kleshnina"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ADDITIONAL TESTING"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniil Bakulin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel \"Hashirama\" Boyarko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Devyaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artem Dubanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maxim Filippov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Stanislav \"Madara\" Ladatkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksey Vorobiev"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TECHNICAL WRITERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Kozyrev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maria Zvyagintseva"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "IT"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "IT DIRECTOR - Viktor Stupko "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Arthur Agadzhanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Albert Kosarev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Larochkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ivan Lebedev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergei Silchin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maksim Smirnov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksei Tsybin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladislav Yakushenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anatolii Zimovskii"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "HR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "HR DIRECTOR - Yuliya Egorova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tatiana Arsakova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tatiana Bugaenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mariia Ianko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yurii Kurashov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anastasia Kurnosova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   " Zoia Maslova"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ACCOUNTANTS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yana Bondar"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nikita Mitasov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tatiana Umarova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mariia Vasilieva"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "OFFICE SUPPORT"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anna Agaian"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Viktoriya Kolganova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Natalia Lediaeva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ruslan Nikitin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Leyla Novruzova"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "SUPPORT TEAM"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anton Shelevakho"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Bukharov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Boris Arefev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Konstantin Polozhenkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Vasilchuk"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "ADDITIONAL ART"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "DIGITAL FORMS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "CEO - Sergey Antonov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "ART DIRECTOR - Ilya Krutikhin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Valery Barabash"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey Evseev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tatyana Gorbunova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitry Kopeikin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Konstantin Melnik"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilya Mikhailov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pavel Prisyazhny"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mikhail Selevonik"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Konstantin Shestov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Grigory Tarasov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor Vidlatsky"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "BLACKSTEINN, LTD."
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "CEO - Dmitry Sorokin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "COO - Alexander Siyutkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeny Borzaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Grigory Dolzhenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artem Lynnik"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oleg Polyushkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yuriy Sitov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mark Smirnov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Stepanov"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TRACE STUDIO"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "EXPLOSIVE GAMES"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "AFTERMATH PRODUCTION"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ENCLAVE INTERACTIVE"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ADDITIONAL ARTISTS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor Asadullin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladyslav Bilyk"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Zhanna Bondareva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maks Emski"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anton Fokin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitriy Gedz"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Veronika Kislova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Denis Laktionov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oleh Nevmyvaka"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ruslan Shtepin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kostiantyn Snopov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilya Sotrikhin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexander Stepanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anastasia Stepanova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Iryna Sukhostavska"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Tarasov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Philip Volkonsky"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "MUSIC"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Original Music Composed, Produced And Mixed By:"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Steve Molitz"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Citrus Prana (Mikhail Kotov, Vitaly Chirkov)"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Additional Musical Performances By:"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andy Aledort"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Seafoam Green"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "ShwizZ HimselF"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mark Joseph"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dave O'Grady"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Clay Parnell"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ryan Liatsis"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Eric McFadden"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "FOCUS HOME INTERACTIVE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "PRODUCTION DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Luc Heninger"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "EXECUTIVE PRODUCERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Theophile Gaudron"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Xavier Marot"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Benjamin Bris"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LINE PRODUCERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Quentin Delplace"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ASSOCIATE LINE PRODUCERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Olivia Tamet"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Julien Dai"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Antonin Ploquin"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ADDITIONAL PRODUCERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yves Colas"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pierre Martinent"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "SENIOR RELEASE MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mohad Semlali"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "RELEASE MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maxime Bejat"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Thierry Ching"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Florent d'Herve"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alison Epron"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Megane Cortes"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "QA MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Marie-Therese Nguyen"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alan Vitige"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LEAD QA"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pierre Duchateau"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ASSOCIATE LEAD QA"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Clement Joseph-Francois"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Farah Boutin-Albrand"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Abel Poitvin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexia Lucidarme"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "QA ANALYSTS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Caroline Alouet"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Doriane Claireaux"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Bekir Kilinc"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pascale Mehalin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Emeline Vaisse-Lesteven"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tom Weiss"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Eva Rebillat"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Matthieu Mignon"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Arthur Gevaux"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Damien Vervoort"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alice Loing"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nathan Renaud"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "ADDITIONAL QA ANALYSTS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Apollinaire Behra-Le Cam"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Martin Besnard"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Gregory Collomb"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Jonathan Delage"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Guillaume Laudillay"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Victor Loffet"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Claire Moinet"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Amaury Nedel"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Edwin Logez"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Jeffrey Claude-Maurice"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Lat Dior Thiam"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Lucas Parraud"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nicolas Petit"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Hugo Rosales"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Clement Tisserand"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Guillaume Peignot"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Clement Nowacki"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Margaux Jouany"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Milan Guedj"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexandre Poncelet"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "MARKETING DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Thomas Barrau"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CREATIVE DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dessil Basmadjian"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "OPERATIONAL MARKETING MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pierre Gonzalvez"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CREATIVE PRODUCER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Miguel Rey Garcia"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "BRAND MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sylvain Le Roux"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LEAD COMMUNITY & INFLUENCER MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nicolas Weil"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "COMMUNITY MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Quentin Yueh Yu Lee"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Marcus Hansson"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sarah Makdad"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Cyril Dejoue"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Diane Vouaux"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Leo Lemetayer"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Remy Ranawat"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ADVERTISING MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sebastien Goyens"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Julia Grenier"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Hugo Lemaitre"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "PRESS RELATION MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Julie Carneiro"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LEAD CINEMATIC ARTISTS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maxime Guemon"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Jean-Philippe Bouix"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CINEMATIC ARTISTS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Emmanuel Bahu-Leyser"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Isabella Basso"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ARTISTIC DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Francois Weytens"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "GRAPHISTS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Melanie Pompon"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mazarine Touzet"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Adrion Gion"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Christine Zhang"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "SALES DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aurelie Rodrigues"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "BUSINESS DEVELOPMENT DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vincent Chataignier"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "BUSINESS UNIT"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Charlotte Derquennes"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mickael Harbon"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Camille Duchange"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexandre Brochard"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Francois Mainardi"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "SALES AND MANUFACTURING"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vincent Duhnen"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Julie Perrot"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Karolina Serynkova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Patrycja Kara"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TRADE MARKETING MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tristan Hauvette"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TRADE MARKETING COORDINATOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sing-Fun Shek"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CONTENT MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Boris Kohler-Nudelmont"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Emilie Regnier"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "HEAD OF CONTENT"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Theophile Gaudron"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ASSOCIATE LINE DESIGNER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Eddy Alain Njiki Tchantchou"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "USER EXPERIENCE RESEARCHERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Clement Charvin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anaitis de France"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ASSOCIATE USER RESEARCHER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Martin Lasserre"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "EVENT MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Julie Valladon"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Erell Guichard"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "QUALITY ASSURANCE - GlobalStep LLC"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "QA DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sumit Arora"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "SENIOR QA MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Piyoosh Sah"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "QA LEADS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sunil Pawar"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vishal kakade"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "QA Testers"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nawaj Shaikh"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Shubham Shevale"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Arpan Agarwal"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yasir khan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Satpal Singh Rajput"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yash Patil"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "QUALITY ASSURANCE - Quantic Lab"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "MANAGING DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Stefan Seicarescu"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "EXECUTIVE DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Marius Popa"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "ACCOUNT MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Raluca Cozma"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TECHNICAL DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Szilveszter Pap"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "QA DIRECTOR"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Gizella Varga"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "PROJECT MANAGERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alberto Fernandez de Agirre"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Attila Ujvari"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Bogdan Puiu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Hajnalka Szilagyi"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ionut Sarca"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Iulia Violeta Cirebea"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Molnar Ignac"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LEAD TESTERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Arpad Kelemen"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Cristian Parascan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Florin Alexandru Chirut"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pedro Luis Nicoletti"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Radu Raspopa"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Robert Loch"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tudor Fertea"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sanziana Gadalean"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vlad Tautu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Catalina Rodean"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Gaita Costel-Vasile"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "TESTERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Abel Barabas"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Adrian Paul Hirit"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexandra Sima"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexandre Combes"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexandru Dan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alina Molodova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anca Creta"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrada Alexandrina Morar"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrea Pezzillo"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrei Ionescu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrei Oprea"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrei Szekely"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Benjamin Bloemer"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Bogdan Stefan Ciobanu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Catalina Jianu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Charlotte Sahakian"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniel Marshall"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Delia Pop"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Diana Stefanescu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dragos Rusu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Emanuel Prostire"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Emilia Blaszczak"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Florentin Sincu Scripa"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Florin Daniel Muresan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Gabriel Valentin Hopirtean"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Gandac Daniel"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Geller Pusok"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Inna Trykiz"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ioan Sarca"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Janos Mihok Oltyan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "John Hickmore"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Jonathan Ericher"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Jose Morales"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Levente Claudiu Szedlacsek Petrule"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Melinda Danut"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mihai Sandru"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ning Hsu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oudai Mari"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Qianyun Ma"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Paul Hanga"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Radu Marchis"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Raul Tegzesiu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Silvio Lorentini"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Teodora Carla Piu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Victor Dragan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Viorel Panaite"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrei Ionel Brasai"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Robert Attila Ciucas"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andreea Madalina Ciurtin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Carmen Maria Munteanu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Valeriu Aurelian Muresan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alina Nazaru"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrei Silviu Argint"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andreea Denisa Caila"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Bogdan Andrei Muresan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mihnea Eduard Volosciuc"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vlad Spalnacan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Maria Alexandra Raiu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Baricz Orsolya"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniel Robert Daramus"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Paul Jiman"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Paula Cirebea"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alin Vinteler"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniel Nitu Manyoki"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Flavius Ionut Goia"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsData   =   "NINTENDO SWITCH&#8482; TEAM"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Bogdan Gheta"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Diana Dullo"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tiberiu Onisor"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Popa Cristian"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Flaviu Bulzan"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Cristian Stirb"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Daniel Suciu"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "IT MANAGER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ionel Aurelian Rau"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "LEAD TESTER"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Paul Cristian Colceriu"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "TESTERS"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tudor Florin Pacurariu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dragos Cristian Pacurariu"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dan Sorin Blaga"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Rares Ionut Oarga"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "LOCALIZATION"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "THE MOST GAMES"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Thiago Araujo"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Lorenzo Bertolucci"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Flavio Bonfiglio"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Fred Brunet"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alain Dellepiane"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ekaterina Dyakonenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Jakob Kandel"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitry Kirpichnikov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Barbara Monti"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Isabel de la Mota Mendiola"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Pedro Cortazar Pagalday"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Matteo Scarabelli"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alexander Sukhanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Michal Tosza"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "SPECIAL THANKS "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor Tarasov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Irina Sheremetova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nikita Koval"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Anastasia Kolomytseva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitry Yakovlev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Olga Sorokina"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "Outsource QA - Bytex LLC"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CEO"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitri Karasev"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Head of Quality Assurance Department"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alena Karaseva"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Quality Assurance Managers"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kirill Flyagin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Artem Stukalov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeny Kryukov"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Quality Assurance Team Lead"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Eugene Glushkin"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Quality Assurance Team"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Eldar Almiashov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "German Bulavkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Alena Entsova"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Nikita Generalov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Denis Grachyov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Natasha Gryaznaya"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Kolisnichenko"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Mark Kuryshev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Konstantin Marenkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Dmitriy 'Bezlik' Mitkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksandr Shiriaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ekaterina Tepaykina"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vladislav Zhavoronkov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Lyubov Zhuravleva"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Evgeny Zhuravlev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey 'sizn' Zyryaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Andrey 'Prinscrash' Vishniakov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Oleg Gavrilkin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor 'Gajira??' Minlikaev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilya Kuklin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Roman Udalov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ivan 'Briareos' Uvarov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Aleksey Moiseev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Sergey Kupriyanov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ilya 'YoNEtt' Polikanin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ivan Aryashev"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Vitalii 'Fijoosy' Liamzin"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Igor 'Enkel' Bashmakov"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Ekaterina 'JScene' Boiko"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "TITLE"
+      creditsData   =   "Licensed to and published in Japan by Oizumi Amuzio Inc."
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "CEO"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Tomo Fukushima"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "International Accounts Manager"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Huitzui Anazawa"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Localization Manager"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kai Oishi"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Localization Producer"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Corey Mansur "
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Saki Ueno"
+   },
+   {
+      creditsType   =   "SPACE"
+      creditsData   =   ""
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Sales/Marketing Manager"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Satoshi Saito"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Sales/Promotion"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Kengo Kuroda"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Marketing"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Yuka Saito"
+   },
+   {
+      creditsType   =   "SPACE"
+   },
+   {
+      creditsType   =   "HEADER"
+      creditsData   =   "Web Design"
+   },
+   {
+      creditsType   =   "ONE_COLUMN"
+      creditsData   =   "Manami Kuwata"
+   },
+   {
+      creditsType   =   "DOUBLE_SPACE"
+   },
+   {
+      creditsType   =   "EMPTY_SCREEN"
+   }
+]
+inputLinkGamepadRollScroll   =   {
+   inputLink   =   "UI.GamePadChangeScroll"
+   __type   =   "InputLinkVectorMr"
+}
+__type   =   "ScreenControllerBase"

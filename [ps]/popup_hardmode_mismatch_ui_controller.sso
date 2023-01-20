@@ -1,0 +1,36 @@
+view   =   {
+   __type   =   "PopupHardmodeMismatchUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            uiInputName   =   "Recover"
+            __type   =   "NavButtonDesc"
+         }
+         refuse   =   {
+            uiInputName   =   "Cancel"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupHardmodeMismatchPanel"
+   }
+}
+id   =   "HARDMODE_MISMATCH_WARNING"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupRecovery"
+   inputsLinks   =   {
+      Recover   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Cancel   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

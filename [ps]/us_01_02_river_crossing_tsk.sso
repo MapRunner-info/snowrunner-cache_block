@@ -1,0 +1,31 @@
+uiDesc   =   "US_01_02_RIVER_CROSSING_TSK_DESC_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "TRAILER_CROSSING"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_RIVER_CROSSING"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_02_RIVER_CROSSING__TRAILER"
+         }
+      ]
+   }
+]
+description   =   "US_01_02_RIVER_CROSSING_TSK_REW"
+recommendedTruck   =   "OFFROAD"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   150
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1350
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_RIVER_CROSSING_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

@@ -1,0 +1,217 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Nyx Ability Params (0)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Layer 1 Distort"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Layer 2 Distort"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					
+					floatParam00 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distort Power Main"
+						}
+						__type = "float"
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distort Power Blurred"
+						}
+						__type = "float"
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distort L1 Size"
+						}
+						__type = "float"
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distort L1 Speed"
+						}
+						__type = "float"
+					}
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distort L2 Size"
+						}
+						__type = "float"
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distort L2 Speed"
+						}
+						__type = "float"
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distort L2 Power"
+						}
+						__type = "float"
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Blur L1 Gamma"
+						}
+						__type = "float"
+					}
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Blur L1 Brightness"
+						}
+						__type = "float"
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Blur L2 Gamma"
+						}
+						__type = "float"
+					}
+					floatParam10 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Blur L2 Desat"
+						}
+						__type = "float"
+					}
+					floatParam11 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Blur L2 Blend"
+						}
+						__type = "float"
+					}
+					floatParam12 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Colorize Desat"
+						}
+						__type = "float"
+					}
+					floatParam13 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Colorize Blend"
+						}
+						__type = "float"
+					}
+					floatParam14 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Depth Decay"
+							__hint = "Range: [0 - 1]"
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+					floatParam15 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Gamma Post Blur Overlay"
+						}
+						__type = "float"
+					}
+					floatParam16 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Gamma"
+						}
+						__type = "float"
+					}
+					
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+						}
+					}
+				}
+			}
+			
+		}
+	}
+}

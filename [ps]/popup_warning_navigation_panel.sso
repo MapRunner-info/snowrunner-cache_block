@@ -1,0 +1,20 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   close   =   {
+      text   =   "UI_CLOSE"
+      uiInputName   =   "Accept"
+      __type   =   "NavButtonDesc"
+   }
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      uiInputName   =   "Accept"
+      __type   =   "NavButtonDesc"
+   }
+   decline   =   {
+      text   =   "UI_DECLINE"
+      uiInputName   =   "Back"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

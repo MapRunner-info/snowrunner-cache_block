@@ -1,0 +1,7 @@
+min   =   {
+   __type   =   "Vector3d"
+}
+max   =   {
+   __type   =   "Vector3d"
+}
+__type   =   "EmissionVectorBase"

@@ -1,0 +1,51 @@
+popupIds   =   {
+   PLAY_WITHOUT_CONNECTION   =   {
+      __value   =   "CHECK_PERMISSION_PLAY_WITHOUT_CONNECTION"
+      __type   =   "PopupId"
+   }
+   CHECKING_PERMISSIONS   =   {
+      __value   =   "CHECK_PERMISSION_CHECKING"
+      __type   =   "PopupId"
+   }
+   INITIAL_CHUNK   =   {
+      __value   =   "MISSING_PERMISSION_NO_INITIAL_CHUNK"
+      __type   =   "PopupId"
+   }
+   UNACCEPTED_GDPR   =   {
+      __value   =   "MISSING_PERMISSION_UNACCEPTED_GDPR"
+      __type   =   "PopupId"
+   }
+   NO_LIVEGOLD   =   {
+      __value   =   "MISSING_PERMISSION_NO_LIVEGOLD"
+      __type   =   "PopupId"
+   }
+   NO_PSN   =   {
+      __value   =   "MISSING_PERMISSION_NO_PSN"
+      __type   =   "PopupId"
+   }
+   NO_PCCONNECTION   =   {
+      __value   =   "MISSING_PERMISSION_NO_PCCONNECTION"
+      __type   =   "PopupId"
+   }
+   LOST_CONNECTION   =   {
+      __value   =   "CHECK_PERMISSION_LOST_CONNECTION"
+      __type   =   "PopupId"
+   }
+   AGE_RESTRICTIONS_FORBIDDEN   =   {
+      __value   =   "MISSING_PERMISSION_AGE_RESTRICTION"
+      __type   =   "PopupId"
+   }
+   BAD_NAT   =   {
+      __value   =   "CHECK_PERMISSION_BAD_NAT"
+      __type   =   "PopupId"
+   }
+   UNKNOWN_NAT   =   {
+      __value   =   "CHECK_PERMISSION_UNKNOWN_NAT"
+      __type   =   "PopupId"
+   }
+   BLOCKED_NAT   =   {
+      __value   =   "CHECK_PERMISSION_BLOCKED_NAT"
+      __type   =   "PopupId"
+   }
+}
+__type   =   "object"

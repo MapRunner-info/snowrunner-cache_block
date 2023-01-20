@@ -1,0 +1,6 @@
+header   =   "UI_SETTINGS_MASTER_AUDIO"
+desc   =   "UI_SETTINGS_MASTER_AUDIO_DESC"
+defaultValue   =   1
+stepInterval   =   0.01
+textfield   =   "PERCENT"
+__type   =   "UiOneSettingSliderController"

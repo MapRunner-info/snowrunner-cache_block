@@ -1,0 +1,80 @@
+view   =   {
+   navBtnPageL   =   {
+      uiInputName   =   "PrevPage"
+      __type   =   "CustomNavigationButtonView"
+   }
+   navBtnPageR   =   {
+      uiInputName   =   "NextPage"
+      __type   =   "CustomNavigationButtonView"
+   }
+   __type   =   "DlcStoreDetailsUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         ToStore   =   {
+            uiInputName   =   "ToStore"
+            __type   =   "NavButtonDesc"
+         }
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         Preview   =   {
+            uiInputName   =   "Preview"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "DlcStoreDetailsNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "DlcStoreDetailsState"
+}
+regionIconName   =   "regionIcon30"
+skinIconName   =   "dlcpageItemSkinIcon"
+contentPlaceholder   =   "dlcpageItemPlaceholder"
+inputScreen   =   {
+   inputsLinks   =   {
+      ToStore   =   {
+         inputLink   =   "UI.OpenPlatformStore"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      NextPage   =   {
+         inputLink   =   "UI.TabBtnR"
+         __type   =   "InputLinkActionMr"
+      }
+      PrevPage   =   {
+         inputLink   =   "UI.TabBtnL"
+         __type   =   "InputLinkActionMr"
+      }
+      Preview   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+warningPopup   =   {
+   id   =   "DLC_STORE_WARNING"
+   __type   =   "PopupWarningController"
+}
+warningInputScreen   =   {
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

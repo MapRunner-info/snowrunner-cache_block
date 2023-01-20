@@ -1,0 +1,66 @@
+uiDesc   =   "US_01_01_METEO_DATA_CNT_DESC_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_01_METEO_DATA_CNT_ST1"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_METEO_DATA_1"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_METEO_DATA_CNT_ST2"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_METEO_DATA_2"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_METEO_DATA_CNT_ST3"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_METEO_DATA_3"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_01_METEO_DATA_CNT_REWARD_DESC"
+rewards   =   {
+   ContestRewards   =   {
+      timeSettings   =   {
+         GOLD   =   {
+            timeLimit   =   630
+            xp   =   220
+            money   =   3800
+            __type   =   "ContestResultRewards"
+         }
+         SILVER   =   {
+            timeLimit   =   780
+            xp   =   110
+            money   =   1850
+            __type   =   "ContestResultRewards"
+         }
+         BRONZE   =   {
+            xp   =   70
+            money   =   1100
+            __type   =   "ContestResultRewards"
+         }
+      }
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_METEO_DATA_CNT"
+   __type   =   "ZoneGlobalIdentificator"
+}
+failReasons   =   {
+   CockpitFailReason   =   {
+   }
+}
+__type   =   "ContestSettings"

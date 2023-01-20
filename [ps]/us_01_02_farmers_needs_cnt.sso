@@ -1,0 +1,53 @@
+uiDesc   =   "US_01_02_FARMERS_NEEDS_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_FARMERS_NEEDS_STAGE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FARM"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   3
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_FARMERS_NEEDS_REW"
+rewards   =   {
+   ContestRewards   =   {
+      timeSettings   =   {
+         GOLD   =   {
+            timeLimit   =   270
+            xp   =   370
+            money   =   3050
+            __type   =   "ContestResultRewards"
+         }
+         SILVER   =   {
+            timeLimit   =   480
+            xp   =   180
+            money   =   1500
+            __type   =   "ContestResultRewards"
+         }
+         BRONZE   =   {
+            xp   =   110
+            money   =   900
+            __type   =   "ContestResultRewards"
+         }
+      }
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_FARMERS_NEEDS_CNT"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "ContestSettings"

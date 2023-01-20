@@ -1,0 +1,3458 @@
+classes   =   {
+   AutoClassContractbtnTextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscontractbtntextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassContractconditioncontainerTextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscontractconditioncontainertextcont"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassContractcontainerDesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscontractcontainerdesc"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassContractrewardcontainerHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscontractrewardcontainerheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassContractrewardlineTextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscontractrewardlinetextcont"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassContractwarninghintHinttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscontractwarninghinthinttext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassContractwarninghintimgHinttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscontractwarninghintimghinttext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCraftcontainerHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscraftcontainerheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCraftcontainerDesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasscraftcontainerdesc"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassEmployerbtnTextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassemployerbtntextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMarkercargofinityCargocount   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassmarkercargofinitycargocount"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMarkerselectionbgbuildingInfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassmarkerselectionbgbuildinginfcont"
+      markerInfCurrentLoadingAttach   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   -112
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      markerInfStatusAttach   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   -35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMarkerselectionbgtrailerInfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassmarkerselectionbgtrailerinfcont"
+      markerInfCurrentLoadingAttach   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMarkerselectionbgtruckInfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassmarkerselectionbgtruckinfcont"
+      markerInfCurrentLoadingAttach   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      markerInfStatusAttach   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   97
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMenupanelheaderHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassmenupanelheaderheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkerinfMarkerinfname   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerinfmarkerinfname"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkerinf   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerinf"
+      markerInfName   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerinfmarkerinfname"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkerbgMarkerbgbuttonmove   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbgmarkerbgbuttonmove"
+      markerBgButtonAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkerbgMarkerbgmove   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbgmarkerbgmove"
+      markerBgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkerbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbg"
+      markerBgButtonMove   =   {
+         symbol   =   ""
+         x   =   -80
+         y   =   -58
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbgmarkerbgbuttonmove"
+      }
+      markerBgMove   =   {
+         symbol   =   ""
+         x   =   -80
+         y   =   -58
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbgmarkerbgmove"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkerantenMarkerantenzoom   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerantenmarkerantenzoom"
+      markerAntenAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkeranten   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranten"
+      markerAntenZoom   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   50
+         scaleY   =   62.5473
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerantenmarkerantenzoom"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkeranimMarkeranimrotateMarkeranimzoom   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranimmarkeranimrotatemarkeranimzoom"
+      markerAnimAttach   =   {
+         symbol   =   ""
+         x   =   0.05
+         y   =   0.05
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkeranimMarkeranimrotate   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranimmarkeranimrotate"
+      markerAnimZoom   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   25
+         scaleY   =   25
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranimmarkeranimrotatemarkeranimzoom"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkeranim   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranim"
+      markerAnimRotate   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranimmarkeranimrotate"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkeranchorMarkeranchorrotateMarkeranchorzoom   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranchormarkeranchorrotatemarkeranchorzoom"
+      markerAnchorAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkeranchorMarkeranchorrotate   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranchormarkeranchorrotate"
+      markerAnchorZoom   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranchormarkeranchorrotatemarkeranchorzoom"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkeranchor   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranchor"
+      markerAnchorRotate   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranchormarkeranchorrotate"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkersfxMarkersfxrotateMarkersfxzoom   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkersfxmarkersfxrotatemarkersfxzoom"
+      markerSfxAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkersfxMarkersfxrotate   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkersfxmarkersfxrotate"
+      markerSfxZoom   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   16.6672
+         scaleY   =   16.6672
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkersfxmarkersfxrotatemarkersfxzoom"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkersfx   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkersfx"
+      markerSfxRotate   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkersfxmarkersfxrotate"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapmarkeruniversalMarkerhitarea   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerhitarea"
+      rectHitZone   =   {
+         symbol   =   ""
+         x   =   -50
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMarkerrecthitarea"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapnameMapsubname   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapnamemapsubname"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapnameMapname   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapnamemapname"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMinimapGpsPointGpspoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassminimapgpspointgpspoint"
+      gpsPointDist   =   {
+         symbol   =   ""
+         x   =   -40
+         y   =   -42
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapGpspointdistance"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassObjectbtncontentBtntextcontTextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassobjectbtncontentbtntextconttextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassObjectbtncontentBtntextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassobjectbtncontentbtntextcont"
+      textCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassobjectbtncontentbtntextconttextcont"
+      }
+      markAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapObjectbtniconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassObjectcontainerDesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassobjectcontainerdesc"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassObjectcontainerWarning   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassobjectcontainerwarning"
+      textField   =   {
+         x   =   0
+         y   =   -7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassObjectsubheaderSubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclassobjectsubheadersubheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTaskviewcontainerDesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasstaskviewcontainerdesc"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTaskviewcontainerWarning   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   ""
+      sslClass   =   "UiMinimapAutoclasstaskviewcontainerwarning"
+      textField   =   {
+         x   =   0
+         y   =   -7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Acceptbtncontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "acceptBtnContent"
+      sslClass   =   "UiMinimapAcceptbtncontent"
+      img   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAcceptbtnimg"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   45
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAcceptbtntext"
+      }
+      __type   =   "UiContainer"
+   }
+   Acceptbtnimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "acceptBtnImg"
+      sslClass   =   "UiMinimapAcceptbtnimg"
+      __type   =   "UiContainer"
+   }
+   Acceptbtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "acceptBtnText"
+      sslClass   =   "UiMinimapAcceptbtntext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Accepttaskbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "acceptTaskBtn"
+      btnContent   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   10
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAcceptbtncontent"
+      }
+      __type   =   "UiButton"
+   }
+   Blackbgpopup   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "blackBgPopUp"
+      sslClass   =   "UiMinimapBlackbgpopup"
+      __type   =   "UiContainer"
+   }
+   Compassneedle   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "compassNeedle"
+      sslClass   =   "UiMinimapCompassneedle"
+      __type   =   "UiContainer"
+   }
+   Contestfailconditionheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contestFailConditionHeader"
+      sslClass   =   "UiMinimapContestfailconditionheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestfailconditionlabel   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contestFailConditionLabel"
+      sslClass   =   "UiMinimapContestfailconditionlabel"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestfailconditions   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contestFailConditions"
+      sslClass   =   "UiMinimapContestfailconditions"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContestfailconditionheader"
+      }
+      garageIcon   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   55
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditioniconattach"
+      }
+      truckChangeIcon   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   185
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditioniconattach"
+      }
+      recoveryIcon   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   315
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditioniconattach"
+      }
+      garageLabel   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   53
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapContestfailconditionlabel"
+      }
+      truckChangeLabel   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   130
+         y   =   53
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapContestfailconditionlabel"
+      }
+      recoveryLabel   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   260
+         y   =   53
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapContestfailconditionlabel"
+      }
+      condition1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   19
+         y   =   95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionitem"
+      }
+      condition2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   19
+         y   =   123
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionitem"
+      }
+      condition3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   19
+         y   =   151
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionitem"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestfailconditionsdivider   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contestFailConditionsDivider"
+      sslClass   =   "UiMinimapContestfailconditionsdivider"
+      __type   =   "UiContainer"
+   }
+   Contractbtn   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "contractBtn"
+      imgAttach1   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   390
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapEmployerbtniconattach"
+      }
+      imgAttach0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   52
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapEmployerbtniconattach"
+      }
+      txtLine   =   {
+         sslModule   =   "ui.ui_gfx"
+         colorMode   =   3
+         symbol   =   ""
+         x   =   85
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMovieClip"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   85
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiMinimapAutoclasscontractbtntextcont"
+      }
+      __type   =   "UiListItem"
+   }
+   Contractbtndata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Contractbtnimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractBtnImgAttach"
+      sslClass   =   "UiMinimapContractbtnimgattach"
+      __type   =   "UiContainer"
+   }
+   Contractcargoinfo   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractCargoInfo"
+      sslClass   =   "UiMinimapContractcargoinfo"
+      imgAttach   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      tf   =   {
+         x   =   25
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractconditioncontainer   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "contractConditionContainer"
+      status   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   8
+         scaleX   =   80.0003
+         scaleY   =   80.0003
+         __type   =   "UiMinimapContractstatus"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   25
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiMinimapAutoclasscontractconditioncontainertextcont"
+      }
+      cargoInfo0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   25
+         y   =   25
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiMinimapContractcargoinfo"
+      }
+      cargoInfo1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   95
+         y   =   25
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiMinimapContractcargoinfo"
+      }
+      cargoInfo2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   165
+         y   =   25
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiMinimapContractcargoinfo"
+      }
+      cargoInfo3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   235
+         y   =   25
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiMinimapContractcargoinfo"
+      }
+      __type   =   "UiButton"
+   }
+   Contractcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractContainer"
+      sslClass   =   "UiMinimapContractcontainer"
+      taskList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskaccordionlist"
+      }
+      taskListShort   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskaccordionlistshort"
+      }
+      taskListShortMore   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskaccordionlistshortmore"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasscontractcontainerdesc"
+      }
+      failCondition   =   {
+         symbol   =   ""
+         x   =   25
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionattach"
+      }
+      lockDesc   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapLockdescription"
+      }
+      whiteBg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   8
+         __type   =   "UiMinimapMenupanelwhitebg"
+      }
+      warning1   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   414
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractwarninghint"
+      }
+      warning0   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   440
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractwarninghintimg"
+      }
+      separator   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   470
+         scaleX   =   100
+         scaleY   =   111.7645
+         __type   =   "UiMinimapMenupanelstripe"
+      }
+      rewardsAttach   =   {
+         symbol   =   ""
+         x   =   25
+         y   =   490
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      rewards   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   490
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractrewardcontainer"
+      }
+      restartBtnAttach   =   {
+         symbol   =   ""
+         x   =   75
+         y   =   706
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      acceptBtnAttach   =   {
+         symbol   =   ""
+         x   =   75
+         y   =   756
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      iconAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   105
+         y   =   575
+         scaleX   =   99.9878
+         scaleY   =   99.9878
+         alpha   =   12
+         __type   =   "UiMinimapMenupanelimglrgattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractcurrecycont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractCurrecyCont"
+      sslClass   =   "UiMinimapContractcurrecycont"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   6
+         scaleX   =   80.0003
+         scaleY   =   80.0003
+         __type   =   "UiMinimapMenupanelimgattach"
+      }
+      tf   =   {
+         x   =   25
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractprogresscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractProgressCont"
+      sslClass   =   "UiMinimapContractprogresscont"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      tf   =   {
+         x   =   25
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractrewardcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractRewardContainer"
+      sslClass   =   "UiMinimapContractrewardcontainer"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasscontractrewardcontainerheader"
+      }
+      progress   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   48
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractprogresscont"
+      }
+      currency   =   {
+         symbol   =   ""
+         x   =   95
+         y   =   48
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractcurrecycont"
+      }
+      reward0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   84
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractrewardline"
+      }
+      reward1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractrewardline"
+      }
+      reward2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   154
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractrewardline"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractrewardheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractRewardHeader"
+      sslClass   =   "UiMinimapContractrewardheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractrewardline   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractRewardLine"
+      sslClass   =   "UiMinimapContractrewardline"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach30"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   35
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasscontractrewardlinetextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractrewardtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractRewardText"
+      sslClass   =   "UiMinimapContractrewardtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractstatus   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractStatus"
+      sslClass   =   "UiMinimapContractstatus"
+      __type   =   "UiContainer"
+   }
+   Contractwarninghint   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractWarningHint"
+      sslClass   =   "UiMinimapContractwarninghint"
+      hintText   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasscontractwarninghinthinttext"
+      }
+      __type   =   "UiContainer"
+   }
+   Contractwarninghintimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "contractWarningHintImg"
+      sslClass   =   "UiMinimapContractwarninghintimg"
+      iconAttach   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   337
+         y   =   -3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach40"
+      }
+      hintText   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasscontractwarninghintimghinttext"
+      }
+      __type   =   "UiContainer"
+   }
+   Craftcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "craftContainer"
+      sslClass   =   "UiMinimapCraftcontainer"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasscraftcontainerheader"
+      }
+      recipe0   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   42
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapRecipecont"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   71
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasscraftcontainerdesc"
+      }
+      __type   =   "UiContainer"
+   }
+   Craftdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "craftDesc"
+      sslClass   =   "UiMinimapCraftdesc"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Craftheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "craftHeader"
+      sslClass   =   "UiMinimapCraftheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Craftoperator   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "craftOperator"
+      sslClass   =   "UiMinimapCraftoperator"
+      __type   =   "UiContainer"
+   }
+   Dummyclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "dummyClip"
+      sslClass   =   "UiMinimapDummyclip"
+      __type   =   "UiContainer"
+   }
+   Employerbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "employerBtn"
+      notifyAttach   =   {
+         symbol   =   ""
+         x   =   390
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      imgAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   41
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiMinimapEmployerbtnimgattach"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   96
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiMinimapAutoclassemployerbtntextcont"
+      }
+      __type   =   "UiButton"
+   }
+   Employerbtniconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "employerBtnIconAttach"
+      sslClass   =   "UiMinimapEmployerbtniconattach"
+      __type   =   "UiContainer"
+   }
+   Employerbtnimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "employerBtnImgAttach"
+      sslClass   =   "UiMinimapEmployerbtnimgattach"
+      __type   =   "UiContainer"
+   }
+   Employerbtnstripe   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "employerBtnStripe"
+      sslClass   =   "UiMinimapEmployerbtnstripe"
+      __type   =   "UiContainer"
+   }
+   Employerbtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "employerBtnText"
+      sslClass   =   "UiMinimapEmployerbtntext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Employersaccordioncontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "employersAccordionContainer"
+      sslClass   =   "UiMinimapEmployersaccordioncontainer"
+      __type   =   "UiContainer"
+   }
+   Employersaccordionlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "employersAccordionList"
+      sslClass   =   "UiMinimapEmployersaccordionlist"
+      __type   =   "UiAccordion"
+   }
+   Employerscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "employersContainer"
+      sslClass   =   "UiMinimapEmployerscontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapEmployersaccordionlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Failconditionattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "failConditionAttach"
+      sslClass   =   "UiMinimapFailconditionattach"
+      __type   =   "UiContainer"
+   }
+   Failconditioniconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "failConditionIconAttach"
+      sslClass   =   "UiMinimapFailconditioniconattach"
+      __type   =   "UiContainer"
+   }
+   Failconditionitem   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "failConditionItem"
+      sslClass   =   "UiMinimapFailconditionitem"
+      icon   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   0
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditioniconattach"
+      }
+      label   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   31
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapFailconditionlabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Failconditionlabel   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "failConditionLabel"
+      sslClass   =   "UiMinimapFailconditionlabel"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Gpspointdistance   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "gpsPointDistance"
+      sslClass   =   "UiMinimapGpspointdistance"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Headerbackbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "headerBackBtn"
+      __type   =   "UiButton"
+   }
+   Headertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "headerText"
+      sslClass   =   "UiMinimapHeadertext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Lockdescheader   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "lockDescHeader"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Lockdesclir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "lockDescLir"
+      textClip   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   50
+         y   =   -2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapLockdesctext"
+      }
+      __type   =   "UiListItem"
+   }
+   Lockdesclirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Lockdesclist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "lockDescList"
+      __type   =   "UiScrollingList"
+   }
+   Lockdescription   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "lockDescription"
+      sslClass   =   "UiMinimapLockdescription"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapLockdescheader"
+      }
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   46
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapLockdesclist"
+      }
+      bg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   80
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Lockdesctext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "lockDescText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Markerbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "markerButton"
+      markerButtonIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -40
+         y   =   -67.45
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiMovieClip"
+      }
+      markerBgButtonIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -33.5
+         y   =   -61
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiMovieClip"
+      }
+      markerBgButtonBg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiMinimapMarkerselectionbgbuttonoriginal"
+      }
+      __type   =   "UiButton"
+   }
+   Markercargofinity   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerCargoFinity"
+      sslClass   =   "UiMinimapMarkercargofinity"
+      cargoIcon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      cargoCount   =   {
+         symbol   =   ""
+         x   =   23
+         y   =   -3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassmarkercargofinitycargocount"
+      }
+      __type   =   "UiContainer"
+   }
+   Markercargoinfinity   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerCargoInfinity"
+      sslClass   =   "UiMinimapMarkercargoinfinity"
+      cargoIcon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Markerdetailslir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "markerDetailsLir"
+      attach30   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach30"
+      }
+      attach20   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapEmployerbtniconattach"
+      }
+      textClip   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapLockdesctext"
+      }
+      __type   =   "UiListItem"
+   }
+   Markerdetailslirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Markerdetailslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "markerDetailsList"
+      __type   =   "UiScrollingList"
+   }
+   Markerimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerImgAttach"
+      sslClass   =   "UiMinimapMarkerimgattach"
+      __type   =   "UiContainer"
+   }
+   Markerimgcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerImgCont"
+      sslClass   =   "UiMinimapMarkerimgcont"
+      markerMarkAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   20
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapObjectbtniconattach"
+      }
+      playerImgAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      markerIconAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Markerrecthitarea   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerRectHitArea"
+      sslClass   =   "UiMinimapMarkerrecthitarea"
+      __type   =   "UiContainer"
+   }
+   Markerselectionanchorbuildingoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionAnchorBuildingOriginal"
+      sslClass   =   "UiMinimapMarkerselectionanchorbuildingoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionanchortruckoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionAnchorTruckOriginal"
+      sslClass   =   "UiMinimapMarkerselectionanchortruckoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionanimbuildingoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionAnimBuildingOriginal"
+      sslClass   =   "UiMinimapMarkerselectionanimbuildingoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionanimtruckoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionAnimTruckOriginal"
+      sslClass   =   "UiMinimapMarkerselectionanimtruckoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionantenoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionAntenOriginal"
+      sslClass   =   "UiMinimapMarkerselectionantenoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionbgarroworiginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionBgArrowOriginal"
+      sslClass   =   "UiMinimapMarkerselectionbgarroworiginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionbgbuilding   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionBgBuilding"
+      sslClass   =   "UiMinimapMarkerselectionbgbuilding"
+      buttonIcon   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   -110
+         y   =   -111
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      buttonBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -79
+         y   =   -59
+         scaleX   =   100
+         scaleY   =   82.7118
+         __type   =   "UiMinimapMarkerbutton"
+      }
+      infCont   =   {
+         symbol   =   ""
+         x   =   -80
+         y   =   -146
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassmarkerselectionbgbuildinginfcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Markerselectionbgbuttonoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionBgButtonOriginal"
+      sslClass   =   "UiMinimapMarkerselectionbgbuttonoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionbgmisc   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionBgMisc"
+      sslClass   =   "UiMinimapMarkerselectionbgmisc"
+      infCont   =   {
+         symbol   =   ""
+         x   =   -80
+         y   =   -116
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Markerselectionbgoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionBgOriginal"
+      sslClass   =   "UiMinimapMarkerselectionbgoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionbgtrailer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionBgTrailer"
+      sslClass   =   "UiMinimapMarkerselectionbgtrailer"
+      infCont   =   {
+         symbol   =   ""
+         x   =   -80
+         y   =   -162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassmarkerselectionbgtrailerinfcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Markerselectionbgtruck   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionBgTruck"
+      sslClass   =   "UiMinimapMarkerselectionbgtruck"
+      buttonIcon   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   -110
+         y   =   -135
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      buttonBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -79
+         y   =   -59
+         scaleX   =   100
+         scaleY   =   127.8976
+         __type   =   "UiMinimapMarkerbutton"
+      }
+      infCont   =   {
+         symbol   =   ""
+         x   =   -80
+         y   =   -192
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassmarkerselectionbgtruckinfcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Markerselectiondetailsbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionDetailsBg"
+      sslClass   =   "UiMinimapMarkerselectiondetailsbg"
+      __type   =   "UiContainer"
+   }
+   Markerselectiondetailscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionDetailsContainer"
+      sslClass   =   "UiMinimapMarkerselectiondetailscontainer"
+      detailsList   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapMarkerdetailslist"
+      }
+      detailsAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   -25
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      content   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMarkerselectiondetailscontent"
+      }
+      bg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   85.7574
+         scaleY   =   301.8738
+         __type   =   "UiMinimapMarkerselectiondetailsbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Markerselectiondetailscontent   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "markerSelectionDetailsContent"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Markerselectionsfxbuildingoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionSfxBuildingOriginal"
+      sslClass   =   "UiMinimapMarkerselectionsfxbuildingoriginal"
+      __type   =   "UiContainer"
+   }
+   Markerselectionsfxtruckoriginal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSelectionSfxTruckOriginal"
+      sslClass   =   "UiMinimapMarkerselectionsfxtruckoriginal"
+      __type   =   "UiContainer"
+   }
+   Markersummonbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "markerSummonBg"
+      sslClass   =   "UiMinimapMarkersummonbg"
+      __type   =   "UiContainer"
+   }
+   Menupanelbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelBg"
+      sslClass   =   "UiMinimapMenupanelbg"
+      __type   =   "UiContainer"
+   }
+   Menupanelcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelContent"
+      sslClass   =   "UiMinimapMenupanelcontent"
+      contractView   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractcontainer"
+      }
+      objectView   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapObjectcontainer"
+      }
+      objects   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapObjectscontainer"
+      }
+      employers   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapEmployerscontainer"
+      }
+      tasks   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskscontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Menupanelcontentlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "menuPanelContentList"
+      __type   =   "UiScrollingList"
+   }
+   Menupanelheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelHeader"
+      sslClass   =   "UiMinimapMenupanelheader"
+      arrowBack   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapPanelarrowback"
+      }
+      metaIconAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   345
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach30"
+      }
+      iconAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   385
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach40"
+      }
+      header   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   48
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassmenupanelheaderheader"
+      }
+      __type   =   "UiContainer"
+   }
+   Menupaneliconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelIconAttach"
+      sslClass   =   "UiMinimapMenupaneliconattach"
+      __type   =   "UiContainer"
+   }
+   Menupaneliconattach30   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelIconAttach30"
+      sslClass   =   "UiMinimapMenupaneliconattach30"
+      __type   =   "UiContainer"
+   }
+   Menupaneliconattach40   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelIconAttach40"
+      sslClass   =   "UiMinimapMenupaneliconattach40"
+      __type   =   "UiContainer"
+   }
+   Menupanelimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelImgAttach"
+      sslClass   =   "UiMinimapMenupanelimgattach"
+      __type   =   "UiContainer"
+   }
+   Menupanelimghorizontalattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelImgHorizontalAttach"
+      sslClass   =   "UiMinimapMenupanelimghorizontalattach"
+      __type   =   "UiContainer"
+   }
+   Menupanelimglrgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelImgLrgAttach"
+      sslClass   =   "UiMinimapMenupanelimglrgattach"
+      __type   =   "UiContainer"
+   }
+   Menupanelstripe   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelStripe"
+      sslClass   =   "UiMinimapMenupanelstripe"
+      __type   =   "UiContainer"
+   }
+   Menupaneltabbuttons   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelTabButtons"
+      sslClass   =   "UiMinimapMenupaneltabbuttons"
+      tab0   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      tab1   =   {
+         symbol   =   ""
+         x   =   133
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      tab2   =   {
+         symbol   =   ""
+         x   =   217
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      tab3   =   {
+         symbol   =   ""
+         x   =   300
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Menupaneltanbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuPanelTanBtn"
+      tab   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMinimapMarkerimgattach"
+      }
+      __type   =   "UiButton"
+   }
+   Menupanelwhitebg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "menuPanelWhiteBg"
+      sslClass   =   "UiMinimapMenupanelwhitebg"
+      __type   =   "UiContainer"
+   }
+   Minimapattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapAttachPoint"
+      sslClass   =   "UiMinimapMinimapattachpoint"
+      __type   =   "UiContainer"
+   }
+   Minimapcompass   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapCompass"
+      sslClass   =   "UiMinimapMinimapcompass"
+      needle   =   {
+         symbol   =   ""
+         x   =   31
+         y   =   31
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapCompassneedle"
+      }
+      __type   =   "UiContainer"
+   }
+   Minimapdaytimetf   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapDayTimeTf"
+      sslClass   =   "UiMinimapMinimapdaytimetf"
+      textField   =   {
+         x   =   -1
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      bg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   3
+         scaleX   =   119.9997
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapMinimapdaytimetfbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Minimapdaytimetfbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapDayTimeTfBg"
+      sslClass   =   "UiMinimapMinimapdaytimetfbg"
+      __type   =   "UiContainer"
+   }
+   Minimapmarkeruniversal   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapMarkerUniversal"
+      sslClass   =   "UiMinimapMinimapmarkeruniversal"
+      notifyAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      tutorialArrow   =   {
+         symbol   =   ""
+         x   =   -25
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      detailsAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -50
+         y   =   -58
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      markerInfIconAttach   =   {
+         symbol   =   ""
+         x   =   -20
+         y   =   -65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMarkerimgcont"
+      }
+      markerInf   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   -60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerinf"
+      }
+      markerBg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbg"
+      }
+      markerArrow   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      markerAnten   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranten"
+      }
+      markerAnim   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranim"
+      }
+      markerAnchor   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranchor"
+      }
+      markerSfx   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkersfx"
+      }
+      markerHitArea   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerhitarea"
+      }
+      __type   =   "UiContainer"
+   }
+   Minimapmenupanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapMenuPanel"
+      sslClass   =   "UiMinimapMinimapmenupanel"
+      trialsLogoAttach   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      panelHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupanelheader"
+      }
+      hintAttachL   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   96
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapSwitchtabhintattach"
+      }
+      hintAttachR   =   {
+         symbol   =   ""
+         x   =   357
+         y   =   96
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapSwitchtabhintattach"
+      }
+      tab2notify   =   {
+         symbol   =   ""
+         x   =   303
+         y   =   91
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      tab1notify   =   {
+         symbol   =   ""
+         x   =   219
+         y   =   91
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      tab0notify   =   {
+         symbol   =   ""
+         x   =   136
+         y   =   91
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      tab0   =   {
+         symbol   =   ""
+         x   =   116
+         y   =   91
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      tab1   =   {
+         symbol   =   ""
+         x   =   199.5
+         y   =   91
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      tab2   =   {
+         symbol   =   ""
+         x   =   283.5
+         y   =   91
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      tab3   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   283.5
+         y   =   91
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapMenupaneltanbtn"
+      }
+      content   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   228
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupanelcontent"
+      }
+      __type   =   "UiContainer"
+   }
+   Minimapname   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapName"
+      sslClass   =   "UiMinimapMinimapname"
+      dayTime   =   {
+         symbol   =   ""
+         x   =   700
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapdaytimetf"
+      }
+      mapSubname   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   61
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiMinimapAutoclassminimapnamemapsubname"
+      }
+      mapName   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapnamemapname"
+      }
+      __type   =   "UiContainer"
+   }
+   Minimapscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimapScreen"
+      sslClass   =   "UiMinimapMinimapscreen"
+      mmPopupAnimAttach   =   {
+         symbol   =   ""
+         x   =   770
+         y   =   319
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMmpopupanimattach"
+      }
+      tutorialHintAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      hintAttach   =   {
+         symbol   =   ""
+         x   =   610
+         y   =   260
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      saveLoadAttach   =   {
+         symbol   =   ""
+         x   =   1415
+         y   =   808
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      logAttach   =   {
+         symbol   =   ""
+         x   =   1825
+         y   =   385
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      compass   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   468
+         y   =   189
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapMinimapcompass"
+      }
+      nameCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   495
+         y   =   77
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapMinimapname"
+      }
+      navPanelUpper   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   912
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      sidePanel   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapMinimapmenupanel"
+      }
+      currentContractAttach   =   {
+         symbol   =   ""
+         x   =   1820
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      selectedMarkerAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      markersAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   MinimapDayVsNightButton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "minimap_day_vs_night_button"
+      day_vs_night_toggle   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   MinimapGpsButton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "minimap_gps_button"
+      __type   =   "UiButton"
+   }
+   MinimapGpsPoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimap_gps_point"
+      sslClass   =   "UiMinimapMinimapgpspoint"
+      gpsPoint   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassminimapgpspointgpspoint"
+      }
+      __type   =   "UiContainer"
+   }
+   MinimapIconPlayer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimap_icon_player"
+      sslClass   =   "UiMinimapMinimapiconplayer"
+      __type   =   "UiContainer"
+   }
+   MinimapIconSelector   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimap_icon_selector"
+      sslClass   =   "UiMinimapMinimapiconselector"
+      __type   =   "UiContainer"
+   }
+   MinimapMarkersAttach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "minimap_markers_attach"
+      sslClass   =   "UiMinimapMinimapmarkersattach"
+      __type   =   "UiContainer"
+   }
+   MinimapRegionMapButton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "minimap_region_map_button"
+      __type   =   "UiButton"
+   }
+   Mmpopupanimattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "mmPopUpAnimAttach"
+      sslClass   =   "UiMinimapMmpopupanimattach"
+      popUp   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapMmpopupattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   Mmpopupattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "mmPopUpAttachPoint"
+      sslClass   =   "UiMinimapMmpopupattachpoint"
+      __type   =   "UiContainer"
+   }
+   Objectbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "objectBtn"
+      imgAttachPlayer   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   395
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapObjectbtniconattach"
+      }
+      imgAttach1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   360
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapObjectbtniconattach"
+      }
+      imgAttach2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   395
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMinimapObjectbtniconattach"
+      }
+      btnCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiMinimapObjectbtncontent"
+      }
+      __type   =   "UiButton"
+   }
+   Objectbtncontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectBtnContent"
+      sslClass   =   "UiMinimapObjectbtncontent"
+      imgAttach0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapObjectbtnimgattach"
+      }
+      btnTextCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassobjectbtncontentbtntextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Objectbtniconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectBtnIconAttach"
+      sslClass   =   "UiMinimapObjectbtniconattach"
+      __type   =   "UiContainer"
+   }
+   Objectbtnimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectBtnImgAttach"
+      sslClass   =   "UiMinimapObjectbtnimgattach"
+      __type   =   "UiContainer"
+   }
+   Objectcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectContainer"
+      sslClass   =   "UiMinimapObjectcontainer"
+      resources   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapStockresourcescont"
+      }
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   54
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupanelimghorizontalattach"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   246
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassobjectcontainerdesc"
+      }
+      whiteBg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   236
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   7
+         __type   =   "UiMinimapMenupanelwhitebg"
+      }
+      craft   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   400
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapCraftcontainer"
+      }
+      warning   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   646
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclassobjectcontainerwarning"
+      }
+      __type   =   "UiContainer"
+   }
+   Objectdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectDesc"
+      sslClass   =   "UiMinimapObjectdesc"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Objectsaccordioncontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectsAccordionContainer"
+      sslClass   =   "UiMinimapObjectsaccordioncontainer"
+      __type   =   "UiContainer"
+   }
+   Objectsaccordionlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectsAccordionList"
+      sslClass   =   "UiMinimapObjectsaccordionlist"
+      __type   =   "UiAccordion"
+   }
+   Objectscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectsContainer"
+      sslClass   =   "UiMinimapObjectscontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapObjectsaccordionlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Objectsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectSubHeader"
+      sslClass   =   "UiMinimapObjectsubheader"
+      subHeader   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiMinimapAutoclassobjectsubheadersubheader"
+      }
+      __type   =   "UiContainer"
+   }
+   Objectwarning   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "objectWarning"
+      sslClass   =   "UiMinimapObjectwarning"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Panelarrowback   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "panelArrowBack"
+      arrowIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   5
+         y   =   5
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Recipecont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "recipeCont"
+      sslClass   =   "UiMinimapRecipecont"
+      resourceImg0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      resourceImg1   =   {
+         symbol   =   ""
+         x   =   52
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      resourceImg2   =   {
+         symbol   =   ""
+         x   =   104
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      operator0   =   {
+         symbol   =   ""
+         x   =   26
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      operator1   =   {
+         symbol   =   ""
+         x   =   78
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Stockresources   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "stockResources"
+      sslClass   =   "UiMinimapStockresources"
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      tf   =   {
+         x   =   24
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Stockresourcescont   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "stockResourcesCont"
+      sslClass   =   "UiMinimapStockresourcescont"
+      resLimited0   =   {
+         symbol   =   ""
+         x   =   46
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapStockresources"
+      }
+      res0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMenupaneliconattach"
+      }
+      tf   =   {
+         x   =   175
+         y   =   -1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Switchtabhintattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "switchTabHintAttach"
+      sslClass   =   "UiMinimapSwitchtabhintattach"
+      __type   =   "UiContainer"
+   }
+   Taskaccordioncontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskAccordionContainer"
+      sslClass   =   "UiMinimapTaskaccordioncontainer"
+      __type   =   "UiContainer"
+   }
+   Taskaccordioncontainershort   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskAccordionContainerShort"
+      sslClass   =   "UiMinimapTaskaccordioncontainershort"
+      __type   =   "UiContainer"
+   }
+   Taskaccordioncontainershortmore   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskAccordionContainerShortMore"
+      sslClass   =   "UiMinimapTaskaccordioncontainershortmore"
+      __type   =   "UiContainer"
+   }
+   Taskaccordionlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskAccordionList"
+      sslClass   =   "UiMinimapTaskaccordionlist"
+      __type   =   "UiAccordion"
+   }
+   Taskaccordionlistshort   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskAccordionListShort"
+      sslClass   =   "UiMinimapTaskaccordionlistshort"
+      __type   =   "UiAccordion"
+   }
+   Taskaccordionlistshortmore   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskAccordionListShortMore"
+      sslClass   =   "UiMinimapTaskaccordionlistshortmore"
+      __type   =   "UiAccordion"
+   }
+   Taskfailconditions   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskFailConditions"
+      sslClass   =   "UiMinimapTaskfailconditions"
+      condition1   =   {
+         symbol   =   ""
+         x   =   19
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionitem"
+      }
+      condition2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   19
+         y   =   37
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionitem"
+      }
+      condition3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   19
+         y   =   65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionitem"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasklirimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskLirImgAttach"
+      sslClass   =   "UiMinimapTasklirimgattach"
+      __type   =   "UiContainer"
+   }
+   Tasklirtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskLirTf"
+      sslClass   =   "UiMinimapTasklirtf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasklistitem   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "taskListItem"
+      subHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTasksubheader"
+      }
+      imgAttach0   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTasklirimgattach"
+      }
+      imgAttach2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   395
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapObjectbtniconattach"
+      }
+      imgAttach1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   360
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMinimapObjectbtniconattach"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   75
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   85
+         __type   =   "UiMinimapTasklirtf"
+      }
+      __type   =   "UiListItem"
+   }
+   Tasklistitemdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Taskscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "tasksContainer"
+      sslClass   =   "UiMinimapTaskscontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskslist"
+      }
+      __type   =   "UiContainer"
+   }
+   Taskslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "tasksList"
+      __type   =   "UiScrollingList"
+   }
+   Taskstagebuttonl   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "taskStageButtonL"
+      textClip   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextconts"
+      }
+      __type   =   "UiButton"
+   }
+   Taskstagebuttonm   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "taskStageButtonM"
+      textClip   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextcontm"
+      }
+      __type   =   "UiButton"
+   }
+   Taskstagebuttons   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "taskStageButtonS"
+      textClip   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextcontl"
+      }
+      __type   =   "UiButton"
+   }
+   Taskstageheaderl   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "taskStageHeaderL"
+      textClip   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextconts"
+      }
+      status   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagestatus"
+      }
+      __type   =   "UiButton"
+   }
+   Taskstageheaderm   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "taskStageHeaderM"
+      textClip   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextcontm"
+      }
+      status   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagestatus"
+      }
+      __type   =   "UiButton"
+   }
+   Taskstageheaders   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "taskStageHeaderS"
+      textClip   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextcontl"
+      }
+      status   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagestatus"
+      }
+      __type   =   "UiButton"
+   }
+   Taskstagespaceclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskStageSpaceClip"
+      sslClass   =   "UiMinimapTaskstagespaceclip"
+      __type   =   "UiContainer"
+   }
+   Taskstagestatus   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskStageStatus"
+      sslClass   =   "UiMinimapTaskstagestatus"
+      __type   =   "UiContainer"
+   }
+   Taskstagetextcontl   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskStageTextContL"
+      sslClass   =   "UiMinimapTaskstagetextcontl"
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetexts"
+      }
+      __type   =   "UiContainer"
+   }
+   Taskstagetextcontm   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskStageTextContM"
+      sslClass   =   "UiMinimapTaskstagetextcontm"
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextm"
+      }
+      __type   =   "UiContainer"
+   }
+   Taskstagetextconts   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskStageTextContS"
+      sslClass   =   "UiMinimapTaskstagetextconts"
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskstagetextl"
+      }
+      __type   =   "UiContainer"
+   }
+   Taskstagetextl   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "taskStageTextL"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Taskstagetextm   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "taskStageTextM"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Taskstagetexts   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "taskStageTextS"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Tasksubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskSubHeader"
+      sslClass   =   "UiMinimapTasksubheader"
+      subHeaderTf   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiMinimapTasksubheadertf"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasksubheadertf   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskSubHeaderTf"
+      sslClass   =   "UiMinimapTasksubheadertf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Taskviewcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "taskViewContainer"
+      sslClass   =   "UiMinimapTaskviewcontainer"
+      taskList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapTaskaccordionlist"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasstaskviewcontainerdesc"
+      }
+      lockDesc   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapLockdescription"
+      }
+      failCondition   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapFailconditionattach"
+      }
+      whiteBg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   7
+         __type   =   "UiMinimapMenupanelwhitebg"
+      }
+      warning   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   447
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAutoclasstaskviewcontainerwarning"
+      }
+      rewardsAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   540
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapMinimapattachpoint"
+      }
+      rewards   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   540
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapContractrewardcontainer"
+      }
+      acceptBtn   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   751
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMinimapAccepttaskbtn"
+      }
+      iconAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   543
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   7
+         __type   =   "UiMinimapMenupanelimglrgattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsminimaplogo   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "trialsMinimapLogo"
+      sslClass   =   "UiMinimapTrialsminimaplogo"
+      __type   =   "UiContainer"
+   }
+   Truckdirectionindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_minimap"
+      symbol   =   "truckDirectionIndicator"
+      sslClass   =   "UiMinimapTruckdirectionindicator"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

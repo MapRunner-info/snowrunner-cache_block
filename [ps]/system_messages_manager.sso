@@ -1,0 +1,1141 @@
+availableMessages   =   {
+   SYSTEM_GAMEPAD_DISCONNECTED   =   {
+      id   =   "SYSTEM_GAMEPAD_DISCONNECTED"
+      title   =   "UI_SYSTEM_MESSAGE_GAMEPAD_DISCONNECTED_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_GAMEPAD_DISCONNECTED_TEXT"
+      __type   =   "SystemMessageGamepadDisconnected"
+   }
+   SYSTEM_USER_SIGN_OUT   =   {
+      id   =   "SYSTEM_USER_SIGN_OUT"
+      priority   =   "VERY_HIGH"
+      title   =   "UI_SYSTEM_MESSAGE_USER_SIGN_OUT_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_USER_SIGN_OUT_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_EULA_DECLINE_WARNING   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_EULA_DECLINE_WARNING"
+      title   =   "UI_SYSTEM_MESSAGE_EULA_DECLINE_WARNING_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_EULA_DECLINE_WARNING_TEXT"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_GDPR_DECLINE_WARNING   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_GDPR_DECLINE_WARNING"
+      title   =   "UI_SYSTEM_MESSAGE_GDPR_DECLINE_WARNING_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_GDPR_DECLINE_WARNING_TEXT"
+      inputScreen   =   {
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_CHUNKS_LOADING_WARNING   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_CHUNKS_LOADING_WARNING"
+      title   =   "UI_SYSTEM_MESSAGE_CHUNKS_LOADING_WARNING_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_CHUNKS_LOADING_WARNING_TEXT"
+      inputScreen   =   {
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_EXPLORE_GARAGE_FOR_MULT   =   {
+      id   =   "SYSTEM_MESSAGE_EXPLORE_GARAGE_FOR_MULT"
+      title   =   "UI_SYSTEM_MESSAGE_EXPLORE_GARAGE_FOR_MULT_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_EXPLORE_GARAGE_FOR_MULT_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_DISCONNECTED   =   {
+      priority   =   "VERY_HIGH"
+      __type   =   "SystemMessageDisconnected"
+   }
+   SYSTEM_MESSAGE_LOST_CONNECTION   =   {
+      priority   =   "VERY_HIGH"
+      __type   =   "SystemMessageLostConnection"
+   }
+   MISSING_PERMISSION_NO_INITIAL_CHUNK   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "MISSING_PERMISSION_NO_INITIAL_CHUNK"
+      title   =   "UI_WARNING_INSTALLATION_NOT_COMPLETE"
+      message   =   "UI_WARNING_INSTALLATION_NOT_COMPLETE_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   MISSING_PERMISSION_UNACCEPTED_GDPR   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "MISSING_PERMISSION_UNACCEPTED_GDPR"
+      title   =   "UI_WARNING_GDPR_NOT_ACCEPTED"
+      message   =   "UI_WARNING_GDPR_NOT_ACCEPTED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   MISSING_PERMISSION_NO_LIVEGOLD   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "MISSING_PERMISSION_NO_LIVEGOLD"
+      title   =   "UI_WARNING_NOXBOXLIVESUBSCRIPTION"
+      message   =   "UI_WARNING_NOXBOXLIVESUBSCRIPTION_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   MISSING_PERMISSION_NO_PSN   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "MISSING_PERMISSION_NO_PSN"
+      title   =   "UI_WARNING_NOPSNSUBSCRIPTION"
+      message   =   "UI_WARNING_NOPSNSUBSCRIPTION_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   MISSING_PERMISSION_NO_PCCONNECTION   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "MISSING_PERMISSION_NO_PCCONNECTION"
+      title   =   "UI_WARNING_ONLINE_SERVICES_DENIED"
+      message   =   "UI_WARNING_ONLINE_SERVICES_DENIED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CHECK_PERMISSION_CHECKING   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            __type   =   "SystemMessageNavigationPanelNoButtons"
+         }
+      }
+      id   =   "CHECK_PERMISSION_CHECKING"
+      title   =   "UI_WARNING_CHECKING_PERMISSIONS"
+      message   =   "UI_WARNING_CHECKING_PERMISSIONS_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CHECK_PERMISSION_LOST_CONNECTION   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "CHECK_PERMISSION_LOST_CONNECTION"
+      priority   =   "VERY_HIGH"
+      title   =   "UI_SYSTEM_MESSAGE_LOST_CONNECTION_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_LOST_CONNECTION_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   CHECK_PERMISSION_PLAY_WITHOUT_CONNECTION   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_AGREEMENT_OK"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "CHECK_PERMISSION_PLAY_WITHOUT_CONNECTION"
+      title   =   "UI_WARNING_PLAY_WITHOUT_CONNECTION"
+      message   =   "UI_WARNING_PLAY_WITHOUT_CONNECTION_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_DENY_SWAP_REGIONS_IN_COOP   =   {
+      id   =   "SYSTEM_MESSAGE_DENY_SWAP_REGIONS_IN_COOP"
+      title   =   "UI_SYSTEM_MESSAGE_CANT_SWAP_REGION_COOP_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_CANT_SWAP_REGION_COOP_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_SWAP_REGIONS_ONLY_GARAGE   =   {
+      id   =   "SYSTEM_MESSAGE_SWAP_REGIONS_ONLY_GARAGE"
+      title   =   "UI_SYSTEM_MESSAGE_SWAP_REGIONS_ONLY_GARAGE_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_SWAP_REGIONS_ONLY_GARAGE_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   TITLE_SCREEN_CANNOT_CONNECT_TO_SERVICES   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_WARNING_SERVICES_CONNECTION_FAIL_SKIP"
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  text   =   "UI_WARNING_SERVICES_CONNECTION_FAIL_RETRY"
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "TITLE_SCREEN_CANNOT_CONNECT_TO_SERVICES"
+      title   =   "UI_WARNING_SERVICES_CONNECTION_FAIL"
+      message   =   "UI_WARNING_SERVICES_CONNECTION_FAIL_DESC"
+      inputScreen   =   {
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   MM_WARNINGS   =   {
+      id   =   "MM_WARNINGS"
+      __type   =   "SystemMessageMmWarning"
+   }
+   CHECK_PERMISSION_BAD_NAT   =   {
+      id   =   "CHECK_PERMISSION_BAD_NAT"
+      title   =   "UI_WARNING_SYMMETRIC_NAT"
+      message   =   "UI_WARNING_SYMMETRIC_NAT_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CHECK_PERMISSION_BLOCKED_NAT   =   {
+      id   =   "CHECK_PERMISSION_BLOCKED_NAT"
+      title   =   "UI_WARNING_BLOCKED_NAT"
+      message   =   "UI_WARNING_BLOCKED_NAT_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CHECK_PERMISSION_UNKNOWN_NAT   =   {
+      id   =   "CHECK_PERMISSION_UNKNOWN_NAT"
+      title   =   "UI_WARNING_UNKNOWN_NAT"
+      message   =   "UI_WARNING_UNKNOWN_NAT_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   MISSING_PERMISSION_AGE_RESTRICTION   =   {
+      id   =   "MISSING_PERMISSION_AGE_RESTRICTION"
+      title   =   "UI_WARNING_AGE_RESTRICTION_FORBIDDEN"
+      message   =   "UI_WARNING_AGE_RESTRICTION_FORBIDDEN_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_SAVES_OUTDATED_WARNING   =   {
+      id   =   "SYSTEM_MESSAGE_SAVES_OUTDATED_WARNING"
+      title   =   "UI_WARNING_SAVES_OUTDATED"
+      message   =   "UI_WARNING_SAVES_OUTDATED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_LOOSE_EXPERIENCE_TUTORIAL_DANGER   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_LOOSE_EXPERIENCE_TUTORIAL_DANGER"
+      title   =   "UI_WARNING_LOOSE_EXPERIENCE_TUTORIAL_DANGER"
+      message   =   "UI_WARNING_LOOSE_EXPERIENCE_TUTORIAL_DANGER_DESC"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_CONFIRM"
+      priority   =   "HIGH"
+      title   =   "UI_SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_TEXT"
+      cbOnAnimStop   =   False
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_ENTER_ALASKA_TO_LEAVE_GARAGE   =   {
+      id   =   "SYSTEM_MESSAGE_ENTER_ALASKA_TO_LEAVE_GARAGE"
+      title   =   "UI_WARNING_ENTER_ALASKA_TO_LEAVE_GARAGE_TITLE"
+      message   =   "UI_WARNING_ENTER_ALASKA_TO_LEAVE_GARAGE_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_DENY_SWAP_REGIONS_WITHOUT_RETAINED_TRUCK_UNTIL_FIRST_TRAVEL   =   {
+      id   =   "SYSTEM_MESSAGE_DENY_SWAP_REGIONS_WITHOUT_RETAINED_TRUCK_UNTIL_FIRST_TRAVEL"
+      title   =   "UI_SYSTEM_MESSAGE_CANT_SWAP_REGION_WITHOUT_RETAINED_TRUCK_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_CANT_SWAP_REGION_WITHOUT_RETAINED_TRUCK_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_WARNING   =   {
+      id   =   "SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_WARNING"
+      priority   =   "HIGH"
+      title   =   "UI_SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_WARNING_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_MULTIPLAYER_NO_RETAINED_TRUCK_WARNING_TEXT"
+      cbOnAnimStop   =   True
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_EXIT_GAME_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_YES"
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  text   =   "UI_NO"
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_EXIT_GAME_CONFIRM"
+      title   =   "SYSTEM_MESSAGE_EXIT_GAME_CONFIRM_TITLE"
+      message   =   "SYSTEM_MESSAGE_EXIT_GAME_CONFIRM_TEXT"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_TUTORIAL_SKIPPED   =   {
+      id   =   "SYSTEM_MESSAGE_TUTORIAL_SKIPPED"
+      title   =   "UI_SYSTEM_MESSAGE_TUTORIAL_SKIPPED_HEADER"
+      message   =   "UI_SYSTEM_MESSAGE_TUTORIAL_SKIPPED_MESSAGE"
+      __type   =   "SystemMessageUiController"
+   }
+   FRIEND_INVITE_REQUEST   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  text   =   "UI_HUD_DIALOG_ACCEPT"
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  text   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_DECLINE"
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "FRIEND_INVITE_REQUEST"
+      priority   =   "VERY_HIGH"
+      message   =   "SYSTEM_MESSAGE_FRIENDS_INVITE_DESCRIPTION"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "InviteSystemMessageUiController"
+   }
+   FRIEND_INVITE_SENT_INFO   =   {
+      id   =   "FRIEND_INVITE_SENT_INFO"
+      title   =   "SYSTEM_MESSAGE_FRIENDS_INVITE_SENT_INFO_HEADER"
+      message   =   "SYSTEM_MESSAGE_FRIENDS_INVITE_SENT_INFO_DESCRIPTION"
+      __type   =   "InviteSystemMessageUiController"
+   }
+   FRIEND_INGAME_INVITE_REQUEST   =   {
+      id   =   "FRIEND_INGAME_INVITE_REQUEST"
+      priority   =   "VERY_HIGH"
+      message   =   "SYSTEM_MESSAGE_FRIENDS_INVITE_DESCRIPTION"
+      isNeedToSetPause   =   False
+      __type   =   "SystemMessageInviteUiController"
+   }
+   SYSTEM_MESSAGE_INVITE_IN_GAME_WITH_MODS_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_INVITE_IN_GAME_WITH_MODS_CONFIRM"
+      priority   =   "HIGH"
+      title   =   "SYSTEM_MESSAGE_INVITE_IN_GAME_WITH_MODS_CONFIRM_TITLE"
+      message   =   "SYSTEM_MESSAGE_INVITE_IN_GAME_WITH_MODS_CONFIRM_TEXT"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_WAIT_MODS_SUBSCRIBING   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            __type   =   "SystemMessageNavigationPanelNoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_WAIT_MODS_SUBSCRIBING"
+      title   =   "SYSTEM_MESSAGE_WAIT_MODS_HEADER"
+      message   =   "SYSTEM_MESSAGE_WAIT_MODS_DESC"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MODS_ABORT_WARNING   =   {
+      id   =   "SYSTEM_MESSAGE_MODS_ABORT_WARNING"
+      title   =   "SYSTEM_MESSAGE_MODS_ABORT_WARNING_HEADER"
+      message   =   "SYSTEM_MESSAGE_MODS_ABORT_WARNING_TEXT"
+      __type   =   "SystemMessageCoopModsAbort"
+   }
+   FRIEND_INVITE_FULL_PARTY_CANT_JOIN   =   {
+      id   =   "FRIEND_INVITE_FULL_PARTY_CANT_JOIN"
+      title   =   "UI_WARNING_FRIEND_PARTY_FULL_CANT_JOIN"
+      message   =   "UI_WARNING_FRIEND_PARTY_FULL_CANT_JOIN_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   WORK_IN_PROGRESS   =   {
+      id   =   "WORK_IN_PROGRESS"
+      title   =   "WORK IN PROGRESS"
+      message   =   "Work is in progress. Sorry :("
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_DELETE_GAME_WARNING   =   {
+      id   =   "SYSTEM_MESSAGE_DELETE_GAME_WARNING"
+      title   =   "UI_SYSTEM_MESSAGE_DELETE_GAME_WARNING_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_DELETE_GAME_WARNING_TEXT"
+      messageWithParam   =   "UI_SYSTEM_MESSAGE_DELETE_GAME_WARNING_WITH_PARAM_TEXT"
+      __type   =   "SystemMessageSaveManagmentUiController"
+   }
+   SYSTEM_MESSAGE_NEW_GAME_WARNING   =   {
+      id   =   "SYSTEM_MESSAGE_NEW_GAME_WARNING"
+      title   =   "UI_SYSTEM_MESSAGE_NEW_GAME_WARNING_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_NEW_GAME_WARNING_TEXT"
+      messageWithParam   =   "UI_SYSTEM_MESSAGE_NEW_GAME_WARNING_WITH_PARAM_TEXT"
+      __type   =   "SystemMessageSaveManagmentUiController"
+   }
+   FRIEND_INVITE_OFFLINE_GAME_CANT_JOIN   =   {
+      id   =   "FRIEND_INVITE_OFFLINE_GAME_CANT_JOIN"
+      title   =   "UI_WARNING_FRIEND_OFFLINE_GAME_CANT_JOIN"
+      message   =   "UI_WARNING_FRIEND_OFFLINE_GAME_CANT_JOIN_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_DENY_MOVE_MAP_WITH_TRUCK_WHILE_CHANGE_REGION   =   {
+      id   =   "SYSTEM_MESSAGE_DENY_MOVE_MAP_WITH_TRUCK_WHILE_CHANGE_REGION"
+      priority   =   "VERY_LOW"
+      title   =   "SYSTEM_MESSAGE_DENY_MOVE_MAP_WITH_TRUCK_WHILE_CHANGE_REGION_HEADER"
+      message   =   "SYSTEM_MESSAGE_DENY_MOVE_MAP_WITH_TRUCK_WHILE_CHANGE_REGION_TITLE"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_REGION_CHANGE_COUNTDOWN   =   {
+      __type   =   "SystemMessageRegionCountdownUiController"
+   }
+   SYSTEM_MESSAGE_CHANGIN_REGIONS_ABORTED   =   {
+      id   =   "SYSTEM_MESSAGE_CHANGIN_REGIONS_ABORTED"
+      priority   =   "VERY_LOW"
+      title   =   "SYSTEM_MESSAGE_CHANGIN_REGIONS_ABORTED_HEADER"
+      message   =   "SYSTEM_MESSAGE_CHANGIN_REGIONS_ABORTED_TITLE"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_EXIT_TO_MENU_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_EXIT_TO_MENU_CONFIRM"
+      priority   =   "HIGH"
+      title   =   "SYSTEM_MESSAGE_EXIT_TO_MENU_CONFIRM_TITLE"
+      message   =   "SYSTEM_MESSAGE_EXIT_TO_MENU_CONFIRM_TEXT"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_YOUR_SAVE_WILL_BE_SCALED   =   {
+      id   =   "SYSTEM_MESSAGE_YOUR_SAVE_WILL_BE_SCALED"
+      title   =   "SYSTEM_MESSAGE_YOUR_SAVE_WILL_BE_SCALED_TITLE"
+      message   =   "SYSTEM_MESSAGE_YOUR_SAVE_WILL_BE_SCALED_TEXT"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_NO_MAP_MOD_ERROR   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_NO_MAP_MOD_ERROR"
+      title   =   "UI_SYSTEM_MESSAGE_NO_MAP_MOD_ERROR_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_NO_MAP_MOD_ERROR_TEXT"
+      __type   =   "SystemMessageSaveSlotNoMods"
+   }
+   SYSTEM_MESSAGE_NO_TRUCK_MOD_WARNING   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanelTwoButtons   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_NO_TRUCK_MOD_WARNING"
+      title   =   "UI_SYSTEM_MESSAGE_NO_TRUCK_MOD_WARNING_TITLE"
+      message   =   "UI_SYSTEM_MESSAGE_NO_TRUCK_MOD_WARNING_TEXT"
+      inputScreen   =   {
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageSaveSlotNoMods"
+   }
+   SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED   =   {
+      view   =   {
+         isWarning   =   False
+         __type   =   "SystemMessageUiView"
+      }
+      id   =   "SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED"
+      title   =   "SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED_HEADER"
+      message   =   "SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED_BUT_SOME_FAILED   =   {
+      id   =   "SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED_BUT_SOME_FAILED"
+      title   =   "SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED_BUT_SOME_FAILED_HEADER"
+      message   =   "SYSTEM_MESSAGE_ALL_MODS_DOWNLOADED_BUT_SOME_FAILED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_RESTART_TRIAL_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_RESTART_TRIAL_CONFIRM"
+      title   =   "SYSTEM_MESSAGE_RESTART_TRIAL_CONFIRM_HEADER"
+      message   =   "SYSTEM_MESSAGE_RESTART_TRIAL_CONFIRM_DESC"
+      inputScreen   =   {
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_SCENARIO_NOT_VALID   =   {
+      id   =   "SYSTEM_MESSAGE_SCENARIO_NOT_VALID"
+      title   =   "UI_SCENARIO_NOT_VALID_TITLE"
+      message   =   "UI_SCENARIO_NOT_VALID_TEXT, %userprofile%\\documents\\My Games\\SnowRunner\\base\\logs.ModMapError.txt"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_GAME_DATA_IS_CORRUPTED   =   {
+      id   =   "SYSTEM_MESSAGE_GAME_DATA_IS_CORRUPTED"
+      title   =   "SYSTEM_MESSAGE_GAME_DATA_IS_CORRUPTED_HEADER"
+      message   =   "SYSTEM_MESSAGE_GAME_DATA_IS_CORRUPTED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MOD_BROWSER_CONNECTION_FAILED   =   {
+      id   =   "SYSTEM_MESSAGE_MOD_BROWSER_CONNECTION_FAILED"
+      title   =   "SYSTEM_MESSAGE_MOD_BROWSER_CONNECTION_FAILED_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_BROWSER_CONNECTION_FAILED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MOD_CLEAN_UP_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_MOD_CLEAN_UP_CONFIRM"
+      priority   =   "HIGH"
+      title   =   "SYSTEM_MESSAGE_MOD_CLEAN_UP_CONFIRM_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_CLEAN_UP_CONFIRM_DESC"
+      cbOnAnimStop   =   False
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CONFIRM"
+      priority   =   "HIGH"
+      title   =   "SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CONFIRM_HEADER"
+      message   =   "SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CONFIRM_DESC"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_KNOWN_ERROR   =   {
+      id   =   "SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_KNOWN_ERROR"
+      title   =   "SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_KNOWN_ERROR_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_KNOWN_ERROR_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_UNKNOWN_ERROR   =   {
+      id   =   "SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_UNKNOWN_ERROR"
+      title   =   "SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_UNKNOWN_ERROR_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_DOWNLOAD_FAILED_UNKNOWN_ERROR_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_MOD_INSTALL_FAILED_UNKNOWN_ERROR   =   {
+      id   =   "SYSTEM_MESSAGE_MOD_INSTALL_FAILED_UNKNOWN_ERROR"
+      title   =   "SYSTEM_MESSAGE_MOD_INSTALL_FAILED_UNKNOWN_ERROR_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_INSTALL_FAILED_UNKNOWN_ERROR_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_MOD_REPORT_FAILED   =   {
+      id   =   "SYSTEM_MESSAGE_MOD_REPORT_FAILED"
+      title   =   "SYSTEM_MESSAGE_MOD_REPORT_FAILED_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_REPORT_FAILED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MOD_ENABLE_FAILED   =   {
+      id   =   "SYSTEM_MESSAGE_MOD_ENABLE_FAILED"
+      title   =   "SYSTEM_MESSAGE_MOD_ENABLE_FAILED_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_ENABLE_FAILED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MODS_NO_PERMISSION_FOR_UGC   =   {
+      id   =   "SYSTEM_MESSAGE_MODS_NO_PERMISSION_FOR_UGC"
+      title   =   "SYSTEM_MESSAGE_MODS_NO_PERMISSION_FOR_UGC_HEADER"
+      message   =   "SYSTEM_MESSAGE_MODS_NO_PERMISSION_FOR_UGC_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_FAILED_CHECK_MODS_PERMISSION   =   {
+      id   =   "SYSTEM_MESSAGE_FAILED_CHECK_MODS_PERMISSION"
+      title   =   "SYSTEM_MESSAGE_FAILED_CHECK_MODS_PERMISSION_HEADER"
+      message   =   "UI_MAIN_MENU_MOD_BROWSER_PERMISSION_HINT"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MOD_ENABLE_FAILED_MOD_IS_BROKEN   =   {
+      id   =   "SYSTEM_MESSAGE_MOD_ENABLE_FAILED_MOD_IS_BROKEN"
+      title   =   "SYSTEM_MESSAGE_MOD_ENABLE_FAILED_MOD_IS_BROKEN_HEADER"
+      message   =   "SYSTEM_MESSAGE_MOD_ENABLE_FAILED_MOD_IS_BROKEN_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_RECOVERY_IS_NOT_AVAILABLE_IN_SCENARIO   =   {
+      id   =   "SYSTEM_MESSAGE_RECOVERY_IS_NOT_AVAILABLE_IN_SCENARIO"
+      title   =   "SYSTEM_MESSAGE_RECOVERY_IS_NOT_AVAILABLE_IN_SCENARIO_HEADER"
+      message   =   "SYSTEM_MESSAGE_RECOVERY_IS_NOT_AVAILABLE_IN_SCENARIO_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_RAM_CANT_PLAY_WITH_MOD_ENABLED   =   {
+      id   =   "SYSTEM_MESSAGE_RAM_CANT_PLAY_WITH_MOD_ENABLED"
+      title   =   "SYSTEM_MESSAGE_RAM_CANT_PLAY_WITH_MOD_ENABLED_TITLE"
+      message   =   "SYSTEM_MESSAGE_RAM_CANT_PLAY_WITH_MOD_ENABLED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_CUSTOM   =   {
+      __type   =   "SystemMessageCustomMessageUiController"
+   }
+   SYSTEM_MESSAGE_AUTOLOGIN_FAILED_DURANGO_GUEST_ACCOUNT   =   {
+      id   =   "SYSTEM_MESSAGE_AUTOLOGIN_FAILED_DURANGO_GUEST_ACCOUNT"
+      title   =   "SYSTEM_MESSAGE_AUTOLOGIN_FAILED_DURANGO_GUEST_ACCOUNT_HEADER"
+      message   =   "SYSTEM_MESSAGE_AUTOLOGIN_FAILED_DURANGO_GUEST_ACCOUNT_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_BLACK_LIST_AUTHORITY_IS_BLOCKED   =   {
+      id   =   "SYSTEM_MESSAGE_BLACK_LIST_AUTHORITY_IS_BLOCKED"
+      title   =   "SYSTEM_MESSAGE_BLACK_LIST_AUTHORITY_IS_BLOCKED_HEADER"
+      message   =   "SYSTEM_MESSAGE_BLACK_LIST_AUTHORITY_IS_BLOCKED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_BLACK_LIST_BLOCKED_BY_AUTHORITY   =   {
+      id   =   "SYSTEM_MESSAGE_BLACK_LIST_BLOCKED_BY_AUTHORITY"
+      title   =   "SYSTEM_MESSAGE_BLACK_LIST_BLOCKED_BY_AUTHORITY_HEADER"
+      message   =   "SYSTEM_MESSAGE_BLACK_LIST_BLOCKED_BY_AUTHORITY_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_CROSSPLAY_MODS_NOT_APPROVED_MAP   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_NOT_APPROVED_MAP"
+      priority   =   "HIGH"
+      title   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_NOT_APPROVED_MAP_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_NOT_APPROVED_MAP_DESC"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE   =   {
+      id   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE"
+      title   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE_MORE   =   {
+      id   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE_MORE"
+      title   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE_MORE_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSSPLAY_MODS_MODS_TO_DISABLE_ARE_IN_SAVE_MORE_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_LOCALGAME_MODS_DISABLED_MAP   =   {
+      id   =   "SYSTEM_MESSAGE_LOCALGAME_MODS_DISABLED_MAP"
+      title   =   "SYSTEM_MESSAGE_LOCALGAME_MODS_DISABLED_MAP_HEADER"
+      message   =   "SYSTEM_MESSAGE_LOCALGAME_MODS_DISABLED_MAP_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_LOCALGAME_MODS_TO_DISABLE_ARE_IN_SAVE   =   {
+      id   =   "SYSTEM_MESSAGE_LOCALGAME_MODS_TO_DISABLE_ARE_IN_SAVE"
+      title   =   "SYSTEM_MESSAGE_LOCALGAME_MODS_TO_DISABLE_ARE_IN_SAVE_HEADER"
+      message   =   "SYSTEM_MESSAGE_LOCALGAME_MODS_TO_DISABLE_ARE_IN_SAVE_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_LEECH_DISCONNECTED   =   {
+      id   =   "SYSTEM_MESSAGE_LEECH_DISCONNECTED"
+      title   =   "LEECH DISCONNECTED"
+      message   =   "Backend client was disconnected with error"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_MODS_MISSING_DEPENDENCIES_WARNING   =   {
+      id   =   "SYSTEM_MESSAGE_MODS_MISSING_DEPENDENCIES_WARNING"
+      title   =   "SYSTEM_MESSAGE_MODS_MISSING_DEPENDENCIES_WARNING_HEADER"
+      message   =   "SYSTEM_MESSAGE_MODS_MISSING_DEPENDENCIES_WARNING_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MODS_WARNING_MOD_NESTED_DEPENDENCIES   =   {
+      id   =   "SYSTEM_MESSAGE_MODS_WARNING_MOD_NESTED_DEPENDENCIES"
+      title   =   "SYSTEM_MESSAGE_MODS_WARNING_MOD_NESTED_DEPENDENCIES_HEADER"
+      message   =   "SYSTEM_MESSAGE_MODS_WARNING_MOD_NESTED_DEPENDENCIES_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MODS_DEPENDED_MODS_ARE_NOT_APPROVED   =   {
+      id   =   "SYSTEM_MESSAGE_MODS_DEPENDED_MODS_ARE_NOT_APPROVED"
+      title   =   "SYSTEM_MESSAGE_MODS_DEPENDED_MODS_ARE_NOT_APPROVED_HEADER"
+      message   =   "SYSTEM_MESSAGE_MODS_DEPENDED_MODS_ARE_NOT_APPROVED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_JOINING_TO_NOT_CROSSPLAY_SESSION_CONFIRM   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
+      id   =   "SYSTEM_MESSAGE_JOINING_TO_NOT_CROSSPLAY_SESSION_CONFIRM"
+      title   =   "SYSTEM_MESSAGE_JOINING_TO_NOT_CROSSPLAY_SESSION_CONFIRM_HEADER"
+      message   =   "SYSTEM_MESSAGE_JOINING_TO_NOT_CROSSPLAY_SESSION_CONFIRM_DESC"
+      inputScreen   =   {
+         priority   =   "SYSTEM"
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_CROSSPLAY_IS_NOT_ALLOWED   =   {
+      id   =   "SYSTEM_MESSAGE_CROSSPLAY_IS_NOT_ALLOWED"
+      title   =   "SYSTEM_MESSAGE_CROSSPLAY_IS_NOT_ALLOWED_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSSPLAY_IS_NOT_ALLOWED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CROSSPLAY_IS_NOT_ALLOWED   =   {
+      id   =   "SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CROSSPLAY_IS_NOT_ALLOWED"
+      title   =   "SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CROSSPLAY_IS_NOT_ALLOWED_HEADER"
+      message   =   "SYSTEM_MESSAGE_JOINING_TO_CROSSPLAY_SESSION_CROSSPLAY_IS_NOT_ALLOWED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_CONNECTION_FAILED   =   {
+      id   =   "SYSTEM_MESSAGE_CONNECTION_FAILED"
+      title   =   "SYSTEM_MESSAGE_CONNECTION_FAILED_HEADER"
+      message   =   "SYSTEM_MESSAGE_CONNECTION_FAILED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_DLC_PURCHASED   =   {
+      id   =   "SYSTEM_MESSAGE_DLC_PURCHASED"
+      title   =   "SYSTEM_MESSAGE_DLC_PURCHASED_HEADER"
+      message   =   "SYSTEM_MESSAGE_DLC_PURCHASED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_MISSING_DEPENDENCIES_OFFLINE   =   {
+      id   =   "SYSTEM_MESSAGE_MISSING_DEPENDENCIES_OFFLINE"
+      title   =   "SYSTEM_MESSAGE_MISSING_DEPENDENCIES_OFFLINE_HEADER"
+      message   =   "SYSTEM_MESSAGE_MISSING_DEPENDENCIES_OFFLINE_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_IMPORT_SAVE   =   {
+      id   =   "SYSTEM_MESSAGE_IMPORT_SAVE"
+      title   =   "SYSTEM_MESSAGE_IMPORT_SAVE_HEADER"
+      message   =   "SYSTEM_MESSAGE_IMPORT_SAVE_DESC"
+      __type   =   "SystemMessageSaveManagmentUiController"
+   }
+   SYSTEM_MESSAGE_IMPORT_SAVE_SUCCESS   =   {
+      view   =   {
+         isWarning   =   False
+         __type   =   "SystemMessageUiView"
+      }
+      id   =   "SYSTEM_MESSAGE_IMPORT_SAVE_SUCCESS"
+      title   =   "SYSTEM_MESSAGE_IMPORT_SAVE_SUCCESS_HEADER"
+      message   =   "SYSTEM_MESSAGE_IMPORT_SAVE_SUCCESS_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_IMPORT_SAVE_ERROR   =   {
+      id   =   "SYSTEM_MESSAGE_IMPORT_SAVE_ERROR"
+      title   =   "SYSTEM_MESSAGE_IMPORT_SAVE_ERROR_HEADER"
+      message   =   "SYSTEM_MESSAGE_IMPORT_SAVE_ERROR_DESC"
+      __type   =   "SystemMessageArgStringUiController"
+   }
+   OBJECTIVE_CANNOT_BE_ACCEPTED_DURING_SINGLE   =   {
+      id   =   "OBJECTIVE_CANNOT_BE_ACCEPTED_DURING_SINGLE"
+      priority   =   "VERY_LOW"
+      title   =   "OBJECTIVE_CANNOT_BE_ACCEPTED_DURING_SINGLE_HEADER"
+      message   =   "OBJECTIVE_CANNOT_BE_ACCEPTED_DURING_SINGLE_TITLE"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_CROSSPLAY_INVITE_FAILED   =   {
+      id   =   "SYSTEM_MESSAGE_CROSSPLAY_INVITE_FAILED"
+      title   =   "UI_POPUP_CROSSPLAY_INVITE_BY_CODE_HEADER"
+      message   =   "UI_POPUP_CROSSPLAY_INVITE_FAILED_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   SYSTEM_MESSAGE_SCENARIO_HAS_BLOCKED_DLC_CONTENT   =   {
+      id   =   "SYSTEM_MESSAGE_SCENARIO_HAS_BLOCKED_DLC_CONTENT"
+      title   =   "SYSTEM_MESSAGE_SCENARIO_HAS_BLOCKED_DLC_CONTENT_TITLE"
+      message   =   "SYSTEM_MESSAGE_SCENARIO_HAS_BLOCKED_DLC_CONTENT_DESC"
+      __type   =   "SystemMessageArgStringArrayUiController"
+   }
+   SYSTEM_MESSAGE_MODS_DEPENDING_MOD_CANT_BE_ENABLED   =   {
+      id   =   "SYSTEM_MESSAGE_MODS_DEPENDING_MOD_CANT_BE_ENABLED"
+      title   =   "SYSTEM_MESSAGE_MODS_DEPENDING_MOD_CANT_BE_ENABLED_HEADER"
+      message   =   "SYSTEM_MESSAGE_MODS_DEPENDING_MOD_CANT_BE_ENABLED_DESC"
+      __type   =   "SystemMessageArgStringUiController"
+   }
+   SYSTEM_MESSAGE_SAVES_COMPARTIBILITY   =   {
+      id   =   "SYSTEM_MESSAGE_SAVES_COMPARTIBILITY"
+      title   =   "SYSTEM_MESSAGE_SAVES_COMPARTIBILITY_HEADER"
+      message   =   "SYSTEM_MESSAGE_SAVES_COMPARTIBILITY_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   REDLYNX_REWARD_MESSAGE   =   {
+      id   =   "REDLYNX_REWARD_MESSAGE"
+      title   =   "SYSTEM_MESSAGE_REDLYNX_REWARD_MESSAGE_HEADER"
+      message   =   "SYSTEM_MESSAGE_REDLYNX_REWARD_MESSAGE_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CROSS_SAVE_ACCEPT_REJECT_MESSAGE   =   {
+      id   =   "CROSS_SAVE_ACCEPT_REJECT_MESSAGE"
+      __type   =   "SystemMessageCustomMessageUiController"
+   }
+   CROSS_SAVE_UNRECOVERABLE_ERROR_MESSAGE   =   {
+      id   =   "CROSS_SAVE_UNRECOVERABLE_ERROR_MESSAGE"
+      title   =   "SYSTEM_MESSAGE_CROSS_SAVE_UNRECOVERABLE_ERROR_MESSAGE_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSS_SAVE_UNRECOVERABLE_ERROR_MESSAGE_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CROSS_SAVE_ACCEPT_FAILED_MESSAGE   =   {
+      id   =   "CROSS_SAVE_ACCEPT_FAILED_MESSAGE"
+      title   =   "SYSTEM_MESSAGE_CROSS_SAVE_ACCEPT_FAILED_MESSAGE_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSS_SAVE_ACCEPT_FAILED_MESSAGE_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CROSS_SAVE_APPLYING_MESSAGE   =   {
+      id   =   "CROSS_SAVE_APPLYING_MESSAGE"
+      title   =   "SYSTEM_MESSAGE_CROSS_SAVE_APPLYING_MESSAGE_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSS_SAVE_APPLYING_MESSAGE_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+}
+__type   =   "object"

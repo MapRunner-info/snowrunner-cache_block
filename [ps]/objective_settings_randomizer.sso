@@ -1,0 +1,84 @@
+availableCargos   =   [
+   "CargoBarrels",
+   "CargoBricks",
+   "CargoConcreteBlocks",
+   "CargoContainerSmall",
+   "CargoContainerLarge",
+   "CargoMetalPlanks",
+   "CargoWoodenPlanks",
+   "CargoPipeLarge"
+]
+regions   =   {
+   no_region   =   {
+      maps   =   {
+         test_cargo   =   {
+            stages   =   [
+               {
+                  minCargos   =   1
+                  maxCargos   =   3
+                  cargos   =   [
+                     {
+                        type   =   "CargoBarrels"
+                        minCount   =   1
+                        maxCount   =   5
+                     },
+                     {
+                        type   =   "CargoBricks"
+                        minCount   =   1
+                        maxCount   =   5
+                     },
+                     {
+                        type   =   "CargoConcreteBlocks"
+                        minCount   =   1
+                        maxCount   =   5
+                     },
+                     {
+                        type   =   "CargoContainerSmall"
+                        minCount   =   1
+                        maxCount   =   5
+                     },
+                     {
+                        type   =   "CargoContainerLarge"
+                        minCount   =   1
+                        maxCount   =   5
+                     }
+                  ]
+               },
+               {
+                  minCargos   =   1
+                  maxCargos   =   3
+                  cargos   =   [
+                     {
+                        type   =   "CargoBricks"
+                        minCount   =   1
+                        maxCount   =   5
+                     },
+                     {
+                        type   =   "CargoConcreteBlocks"
+                        minCount   =   1
+                        maxCount   =   5
+                     },
+                     {
+                        type   =   "CargoContainerSmall"
+                        minCount   =   1
+                        maxCount   =   5
+                     },
+                     {
+                        type   =   "CargoContainerLarge"
+                        minCount   =   1
+                        maxCount   =   5
+                     }
+                  ]
+               }
+            ]
+            goalZone   =   "cargo_area_01"
+            cargoZones   =   [
+               "cargo_area_06"
+            ]
+            __type   =   "ObjectiveSettingsRandomizerMapSettings"
+         }
+      }
+      __type   =   "ObjectiveSettingsRandomizerRegionSettings"
+   }
+}
+__type   =   "object"

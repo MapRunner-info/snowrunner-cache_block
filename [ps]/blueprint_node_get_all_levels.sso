@@ -1,0 +1,5 @@
+regionRef   =   {
+   def   =   "us_01"
+   __type   =   "StringRefParam"
+}
+__type   =   "BluePrintNode"

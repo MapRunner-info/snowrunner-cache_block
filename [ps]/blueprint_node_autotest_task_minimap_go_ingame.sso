@@ -1,0 +1,6 @@
+delayBeforeSuccess   =   1000
+minimapInputLink   =   {
+   inputLink   =   "UI.Close"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

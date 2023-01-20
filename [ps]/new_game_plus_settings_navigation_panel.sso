@@ -1,0 +1,36 @@
+useBg   =   True
+btns   =   {
+   Back   =   {
+      text   =   "UI_BACK"
+      input   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   Accept   =   {
+      text   =   "UI_ACCEPT"
+      input   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "null"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   RestoreDefault   =   {
+      text   =   "UI_RESTORE_DEFAULT"
+      input   =   {
+         inputLink   =   "UI.RestoreDefault"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   RandomAll   =   {
+      text   =   "UI_RANDOM_ALL"
+      input   =   {
+         inputLink   =   "UI.RandomAll"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

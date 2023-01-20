@@ -1,0 +1,55 @@
+view   =   {
+   __type   =   "PopupShopPurchaseView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            text   =   "UI_MAP_CLOSE"
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         buy   =   {
+            uiInputName   =   "Buy"
+            __type   =   "NavButtonDesc"
+         }
+         buy_and_set   =   {
+            uiInputName   =   "BuyAndSet"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupShopPurchaseNavigationPanel"
+   }
+}
+id   =   "PURCHASE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "ShopPurchase"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Buy   =   {
+         inputLink   =   "UI.ExtraTruckPurchase"
+         __type   =   "InputLinkActionMr"
+      }
+      BuyAndSet   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

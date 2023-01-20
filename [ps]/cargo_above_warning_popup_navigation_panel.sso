@@ -1,0 +1,13 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   Yes   =   {
+      text   =   "UI_YES"
+      __type   =   "NavButtonDesc"
+   }
+   No   =   {
+      text   =   "UI_NO"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

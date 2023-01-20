@@ -1,0 +1,31 @@
+uiDesc   =   "US_01_02_BRICKS_DELIVERY_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "TRAILER_BRICKS"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_WAREHOUSE_01"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_02_BRICKS_DELIVERY_BRICKS"
+            afterStageFinished   =   "DESTROY"
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_BRICKS_DELIVERY_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_BRICKS_DELIVERY_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   270
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2450
+   }
+}
+__type   =   "TaskSettings"

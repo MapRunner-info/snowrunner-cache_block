@@ -1,0 +1,121 @@
+settings   =   {
+   BaseMode   =   {
+      sellMultiplier   =   1
+      recoveryPrice   =   {
+         Undefined   =   {
+         }
+         ALL   =   {
+         }
+         HIGHWAY   =   {
+         }
+         HEAVY_DUTY   =   {
+         }
+         HEAVY   =   {
+         }
+         OFFROAD   =   {
+         }
+         SCOUT   =   {
+         }
+      }
+      fullRepairPrice   =   {
+         Undefined   =   {
+         }
+         ALL   =   {
+         }
+         HIGHWAY   =   {
+         }
+         HEAVY_DUTY   =   {
+         }
+         HEAVY   =   {
+         }
+         OFFROAD   =   {
+         }
+         SCOUT   =   {
+         }
+      }
+      needToAddDlcTrucks   =   True
+      zonePropsToDisable   =   [
+         "RESUPPLY_REPAIR"
+      ]
+      __type   =   "GameDifficultySettings"
+   }
+   HardMode   =   {
+      maxContestAttempts   =   3
+      autoloadPrice   =   150
+      sellMultiplier   =   0.5
+      deployPrice   =   {
+         Map   =   {
+            __value   =   1000
+         }
+         Region   =   {
+            __value   =   3500
+         }
+      }
+      recoveryPrice   =   {
+         Undefined   =   {
+         }
+         ALL   =   {
+         }
+         HIGHWAY   =   {
+            __value   =   2500
+         }
+         HEAVY_DUTY   =   {
+            __value   =   5000
+         }
+         HEAVY   =   {
+            __value   =   8000
+         }
+         OFFROAD   =   {
+            __value   =   5000
+         }
+         SCOUT   =   {
+            __value   =   2000
+         }
+      }
+      fullRepairPrice   =   {
+         Undefined   =   {
+         }
+         ALL   =   {
+         }
+         HIGHWAY   =   {
+            __value   =   1500
+         }
+         HEAVY_DUTY   =   {
+            __value   =   2500
+         }
+         HEAVY   =   {
+            __value   =   5000
+         }
+         OFFROAD   =   {
+            __value   =   2500
+         }
+         SCOUT   =   {
+            __value   =   1500
+         }
+      }
+      startingLevelState   =   "EXPLORING"
+      overrideStartingProfileData   =   {
+         money   =   5000
+         __type   =   "PersistentProfileData"
+      }
+      startingGarageStatus   =   {
+         level_us_01_01   =   {
+            __value   =   "OPENED"
+            __type   =   "MapGarageStatus"
+         }
+      }
+      objectivesToComplete   =   [
+         "US_01_01_EXPLORING_WATCHTOWER_OBJ",
+         "US_01_01_EXPLORING_TRUCK_OBJ",
+         "US_01_01_BUILD_A_BRIDGE_OBJ",
+         "US_01_01_EXPLORE_GARAGE_OBJ"
+      ]
+      recoverOnStart   =   True
+      zonePropsToDisable   =   [
+         "AUTO_RESTORE",
+         "AUTO_REFUEL"
+      ]
+      __type   =   "GameDifficultySettings"
+   }
+}
+__type   =   "object"

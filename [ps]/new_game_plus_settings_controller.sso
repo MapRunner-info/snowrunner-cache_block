@@ -1,0 +1,1289 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         visible   =   True
+         focusable   =   True
+         enabled   =   True
+         fade   =   {
+            mouseEnabled   =   False
+            mouseChildren   =   False
+            focusable   =   False
+            enabled   =   True
+            __type   =   "UiMovieClip"
+         }
+         tileList   =   {
+            isPersistentScrollbar   =   True
+            scrollBar   =   {
+               __type   =   "UiCommonLibDefscrollbars"
+            }
+            __type   =   "UiNewgameplusLibNewgamepluslist"
+         }
+         __type   =   "UiNewgameplusLibNewgameplusscreen"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   newGamePlusSettingsList   =   {
+      alwaysSendElementSelected   =   True
+      uiFocusScreen   =   {
+         uiGfxInputToDisable   =   [
+            "Return",
+            "Down",
+            "Up",
+            "Right",
+            "Left"
+         ]
+         __type   =   "UiFocusScreen"
+      }
+      uiInputScreen   =   {
+         priority   =   "VERY_HIGH"
+         name   =   "UiTileListAdapter"
+         __type   =   "SslUiInputScreenMr"
+      }
+      disableAcceptInput   =   True
+      __type   =   "UiTileListAdapter"
+   }
+   inputScreen   =   {
+      __type   =   "null"
+   }
+   __type   =   "NewGamePlusSettingsView"
+}
+navPanels   =   {
+   NewGamePlusSettingsNavigationPanel   =   {
+      btns   =   {
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         Accept   =   {
+            uiInputName   =   "Accept"
+            input   =   {
+               inputLink   =   "UI.Accept"
+               __type   =   "null"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         RestoreDefault   =   {
+            input   =   {
+               inputLink   =   "UI.RestoreDefault"
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         RandomAll   =   {
+            input   =   {
+               inputLink   =   "UI.RandomAll"
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         scroll   =   {
+            text   =   "UI_SHOP_SCROLL"
+            uiInputName   =   "SwitchLeftRight"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            text   =   "UI_NAVIGATION"
+            uiInputName   =   "Navigation"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            hideWithCustomSteeringWheelPreset   =   True
+            useAnim   =   False
+            __type   =   "NavButtonDesc"
+         }
+         LeftTap   =   {
+            text   =   "UI_PREV_STE"
+            uiInputName   =   "LeftTap"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            forceShow   =   True
+            __type   =   "NavButtonDesc"
+         }
+         RightTap   =   {
+            text   =   "UI_NEXT"
+            uiInputName   =   "RightTap"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            forceShow   =   True
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "NewGamePlusSettings"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      RestoreDfault   =   {
+         inputLink   =   "UI.RestoreDefault"
+         __type   =   "InputLinkHoldMr"
+      }
+      RandomAll   =   {
+         inputLink   =   "UI.RandomAll"
+         __type   =   "InputLinkHoldMr"
+      }
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      SwitchRight   =   {
+         inputLink   =   "UI.SwitchRight"
+         __type   =   "InputLinkActionMr"
+      }
+      SwitchLeft   =   {
+         inputLink   =   "UI.SwitchLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      SwitchUp   =   {
+         inputLink   =   "UI.SwitchUp"
+         __type   =   "InputLinkActionMr"
+      }
+      SwitchDown   =   {
+         inputLink   =   "UI.SwitchDown"
+         __type   =   "InputLinkActionMr"
+      }
+      SwitchLeftRight   =   {
+         inputLink   =   "UI.NavigationHorizontal"
+         __type   =   "InputLinkActionMr"
+      }
+      Navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      LeftTap   =   {
+         inputLink   =   "UI.SelectSettingLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      RightTap   =   {
+         inputLink   =   "UI.SelectSettingRight"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+settings   =   [
+   {
+      name   =   "STARTING_RULES"
+      title   =   "UI_STARTING_RULES"
+      controller   =   {
+         view   =   {
+            uiObjectDesc   =   {
+               type   =   {
+                  prevBtn   =   {
+                     mouseChildren   =   True
+                     __type   =   "UiNewgameplusLibNewgameplusstepperarrow"
+                  }
+                  nextBtn   =   {
+                     mouseChildren   =   True
+                     __type   =   "UiNewgameplusLibNewgameplusstepperarrow"
+                  }
+                  __type   =   "UiNewgameplusLibNewgameplusstepper"
+               }
+               __type   =   "UiObjectDesc"
+            }
+            __type   =   "UiNewGamePlusOneSettingStepperView"
+         }
+         presetUiNames   =   [
+            {
+               name   =   "UI_DEFAULT_RULES"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_AMERICAN_SCOUT"
+               decs   =   "UI_AMERICAN_SCOUT_DESC"
+            },
+            {
+               name   =   "UI_AMERICAN_SCOUT_AND_AMERICAN_HIGHWAY"
+               decs   =   "UI_AMERICAN_SCOUT_AND_AMERICAN_HIGHWAY_DESC"
+            },
+            {
+               name   =   "UI_AMERICAN_SCOUT_AND_AMERICAN_HEAVY_DUTY"
+               decs   =   "UI_AMERICAN_SCOUT_AND_AMERICAN_HEAVY_DUTY_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "STARTING_RANK"
+      title   =   "UI_NGP_STARTING_RANK"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANK_10"
+               decs   =   "UI_NGP_RANK_10_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANK_20"
+               decs   =   "UI_NGP_RANK_20_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANK_30"
+               decs   =   "UI_NGP_RANK_30_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "STARTING_MONEY"
+      title   =   "UI_NGP_STARTING_MONEY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_0"
+               decs   =   "UI_NGP_0_DESC"
+            },
+            {
+               name   =   "UI_NGP_5000"
+               decs   =   "UI_NGP_5000_DESC"
+            },
+            {
+               name   =   "UI_NGP_15000"
+               decs   =   "UI_NGP_15000_DESC"
+            },
+            {
+               name   =   "UI_NGP_25000"
+               decs   =   "UI_NGP_25000_DESC"
+            },
+            {
+               name   =   "UI_NGP_150000"
+               decs   =   "UI_NGP_150000_DESC"
+            },
+            {
+               name   =   "UI_NGP_500000"
+               decs   =   "UI_NGP_500000_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_5000_TO_100000"
+               decs   =   "UI_NGP_RANDOM_5000_TO_100000_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_0_TO_100000"
+               decs   =   "UI_NGP_RANDOM_0_TO_100000_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_0_TO_1000000"
+               decs   =   "UI_NGP_RANDOM_0_TO_1000000_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      title   =   "UI_TRUCK_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALL_TRUCKS_FROM_START"
+               decs   =   "UI_NGP_ALL_TRUCKS_FROM_START_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_TRUCKS_IN_EVERY_GARAGE"
+               decs   =   "UI_NGP_RANDOM_TRUCKS_IN_EVERY_GARAGE_DESC"
+            },
+            {
+               name   =   "UI_NGP_TRUCK_STORE_FROM_LVL_10"
+               decs   =   "UI_NGP_TRUCK_STORE_FROM_LVL_10_DESC"
+            },
+            {
+               name   =   "UI_NGP_TRUCK_STORE_FROM_LVL_20"
+               decs   =   "UI_NGP_TRUCK_STORE_FROM_LVL_20_DESC"
+            },
+            {
+               name   =   "UI_NGP_TRUCK_STORE_FROM_LVL_30"
+               decs   =   "UI_NGP_TRUCK_STORE_FROM_LVL_30_DESC"
+            },
+            {
+               name   =   "UI_NGP_UNAVAILABLE_TRUCK_STORE"
+               decs   =   "UI_NGP_UNAVAILABLE_TRUCK_STORE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "DLC_VEHICLES"
+      title   =   "UI_DLC_VEHICLES"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_AVAILABLE"
+               decs   =   "UI_NGP_AVAILABLE_DESC"
+            },
+            {
+               name   =   "UI_NGP_UNAVAILABLE"
+               decs   =   "UI_NGP_UNAVAILABLE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TRUCK_PRICING"
+      title   =   "UI_TRUCK_PRICING"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_FREE_TRUCKS"
+               decs   =   "UI_NGP_FREE_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2_PRICES_TRUCKS"
+               decs   =   "UI_NGP_X2_PRICES_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4_PRICES_TRUCKS"
+               decs   =   "UI_NGP_X4_PRICES_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6_PRICES_TRUCKS"
+               decs   =   "UI_NGP_X6_PRICES_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOMIZED_X1_TO_X6_TRUCKS"
+               decs   =   "UI_NGP_RANDOMIZED_X1_TO_X6_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TRUCK_SELLING"
+      title   =   "UI_NGP_TRUCK_SELLING"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_0.5X_PRICES_TRUCKS"
+               decs   =   "UI_NGP_0.5X_PRICES_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_0.3X_PRICES_TRUCKS"
+               decs   =   "UI_NGP_0.3X_PRICES_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_0.1X_PRICES_TRUCKS"
+               decs   =   "UI_NGP_0.1X_PRICES_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_UNABLE_TO_SELL_TRUCKS"
+               decs   =   "UI_NGP_UNABLE_TO_SELL_TRUCKS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "VEHICLE_STORAGE"
+      title   =   "UI_VEHICLE_STORAGE_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_3_SLOTS"
+               decs   =   "UI_NGP_3_SLOTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_5_SLOTS"
+               decs   =   "UI_NGP_5_SLOTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_10_SLOTS"
+               decs   =   "UI_NGP_10_SLOTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_ONLY_SCOUT_VEHICLES"
+               decs   =   "UI_NGP_ONLY_SCOUT_VEHICLES_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TRAILER_AVAILABILITY"
+      title   =   "UI_NGP_TRALER_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALL_TRAILERS_AVAILABLE"
+               decs   =   "UI_NGP_ALL_TRAILERS_AVAILABLE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TRAILER_STORE_AVAILBILITY"
+      title   =   "UI_NGP_TRAILER_STORE_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_ONE_RANDOM_TRAILER_ZONE_ON_MAP"
+               decs   =   "UI_NGP_ONE_RANDOM_TRAILER_ZONE_ON_MAP_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TRAILER_PRICING"
+      title   =   "UI_NP_TRAILER_PRICING"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALL_TRAILERS_FREE"
+               decs   =   "UI_NGP_ALL_TRAILERS_FREE_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2_PRICES_TRAILERS"
+               decs   =   "UI_NGP_X2_PRICES_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4_PRICES_TRAILERS"
+               decs   =   "UI_NGP_X4_PRICES_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6_PRICES_TRAILERS"
+               decs   =   "UI_NGP_X6_PRICES_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOMIZED_X1_TO_X6_TRAILERS"
+               decs   =   "UI_NGP_RANDOMIZED_X1_TO_X6_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TRAILER_SELLING"
+      title   =   "UI_NGP_TRAILER_SELLING"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_0.5X_PRICES_TRAILERS"
+               decs   =   "UI_NGP_0.5X_PRICES_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_0.3X_PRICES_TRAILERS"
+               decs   =   "UI_NGP_0.3X_PRICES_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_0.1X_PRICES_TRAILERS"
+               decs   =   "UI_NGP_0.1X_PRICES_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_UNABLE_TO_SELL_TRAILERS"
+               decs   =   "UI_NGP_UNABLE_TO_SELL_TRAILERS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "ADDON_AVAILABILITY"
+      title   =   "UI_ADDON_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALL_ADDONS_AVAILABLE"
+               decs   =   "UI_NGP_ALL_ADDONS_AVAILABLE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RAND_SET_OF_5_ADDONS"
+               decs   =   "UI_NGP_RAND_SET_OF_5_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RAND_SET_OF_10_ADDONS"
+               decs   =   "UI_NGP_RAND_SET_OF_10_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RAND_SET_OF_10_IN_EVERY_GARAGE_ADDONS"
+               decs   =   "UI_NGP_RAND_SET_OF_10_IN_EVERY_GARAGE_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TYRE_AVAILABILITY"
+      title   =   "UI_TYRE_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALL_TYRES_AVAILABLE"
+               decs   =   "UI_NGP_ALL_TYRES_AVAILABLE_DESC"
+            },
+            {
+               name   =   "UI_NGP_ONLY_HIGHWAY_AND_ALLROAD"
+               decs   =   "UI_NGP_ONLY_HIGHWAY_AND_ALLROAD_DESC"
+            },
+            {
+               name   =   "UI_NGP_ONLY_HIGHWAY_AND_ALLROAD_AND_OFFROAD"
+               decs   =   "UI_NGP_ONLY_HIGHWAY_AND_ALLROAD_AND_OFFROAD_DESC"
+            },
+            {
+               name   =   "UI_NGP_NO_MUD_TYRES"
+               decs   =   "UI_NGP_NO_MUD_TYRES_DESC"
+            },
+            {
+               name   =   "UI_NGP_NO_CHAINED_TYRES"
+               decs   =   "UI_NGP_NO_CHAINED_TYRES_DESC"
+            },
+            {
+               name   =   "UI_NGP_SET_OF_RANDOM_IN_EVETY_GARAGE"
+               decs   =   "UI_NGP_SET_OF_RANDOM_IN_EVETY_GARAGE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "INTENAL_ADDON_AVAILABILITY"
+      title   =   "UI_INTERNAL_ADDON_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALL_INTERNAL_ADDONS_AVAILABLE"
+               decs   =   "UI_NGP_ALL_INTERNAL_ADDONS_AVAILABLE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RAND_AMOUNT_IN_10_TO_50"
+               decs   =   "UI_NGP_RAND_AMOUNT_IN_10_TO_50_DESC"
+            },
+            {
+               name   =   "UI_NGP_RAND_AMOUNT_IN_30_TO_100"
+               decs   =   "UI_NGP_RAND_AMOUNT_IN_30_TO_100_DESC"
+            },
+            {
+               name   =   "UI_NGP_RAND_AMOUNT_IN_50_TO_150"
+               decs   =   "UI_NGP_RAND_AMOUNT_IN_50_TO_150_DESC"
+            },
+            {
+               name   =   "UI_NGP_RAND_AMOUNT_IN_0_TO_100"
+               decs   =   "UI_NGP_RAND_AMOUNT_IN_0_TO_100_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "ADDON_PRICING"
+      title   =   "UI_NGP_ADDON_PRICING"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_FREE_ADDONS"
+               decs   =   "UI_NGP_FREE_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2_PRICES_ADDONS"
+               decs   =   "UI_NGP_X2_PRICES_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4_PRICES_ADDONS"
+               decs   =   "UI_NGP_X4_PRICES_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6_PRICES_ADDONS"
+               decs   =   "UI_NGP_X6_PRICES_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOMIZED_X1_TO_X6_ADDONS"
+               decs   =   "UI_NGP_RANDOMIZED_X1_TO_X6_ADDONS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "GARAGE_REFUEL"
+      title   =   "UI_NGP_GARAGE_REFUEL"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_NO_REFUELNG_IN_GARAGE"
+               decs   =   "UI_NGP_NO_REFUELNG_IN_GARAGE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "FUEL_PRICE"
+      title   =   "UI_NGP_FUEL_PRICE"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_FREE_FUEL"
+               decs   =   "UI_NGP_FREE_FUEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2_PRICES_FUEL"
+               decs   =   "UI_NGP_X2_PRICES_FUEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4_PRICES_FUEL"
+               decs   =   "UI_NGP_X4_PRICES_FUEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6_PRICES_FUEL"
+               decs   =   "UI_NGP_X6_PRICES_FUEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOMIZED_X1_TO_X6_FUEL"
+               decs   =   "UI_NGP_RANDOMIZED_X1_TO_X6_FUEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_COST_FROM_X1_TO_X6_ON_EVERY_STATION_FUEL"
+               decs   =   "UI_NGP_RANDOM_COST_FROM_X1_TO_X6_ON_EVERY_STATION_FUEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "GARAGE_REPAIRE"
+      title   =   "UI_NGP_GARAGE_REPAIRE"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_UNABLE_TO_REPAIRE_AUTOMATICALLY"
+               decs   =   "UI_NGP_UNABLE_TO_REPAIRE_AUTOMATICALLY_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2_PRICES_REPAIRE"
+               decs   =   "UI_NGP_X2_PRICES_REPAIRE_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4_PRICES_REPAIRE"
+               decs   =   "UI_NGP_X4_PRICES_REPAIRE_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6_PRICES_REPAIRE"
+               decs   =   "UI_NGP_X6_PRICES_REPAIRE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_COST_FROM_X1_TO_X6_IN_EVERY_GARAGE_REPAIRE"
+               decs   =   "UI_NGP_RANDOM_COST_FROM_X1_TO_X6_IN_EVERY_GARAGE_REPAIRE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "REPAIR_POINTS_COST"
+      title   =   "UI_NGP_REPAIRE_POINTS_RESTOCK_PRICE"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_POINTS_COST_RULES"
+               decs   =   "UI_NGP_POINTS_COST_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_POINTS_COST_X2_PRICES"
+               decs   =   "UI_NGP_POINTS_COST_X2_PRICES_DESC"
+            },
+            {
+               name   =   "UI_NGP_POINTS_COST_X4_PRICES"
+               decs   =   "UI_NGP_POINTS_COST_X4_PRICES_DESC"
+            },
+            {
+               name   =   "UI_NGP_POINTS_COST_X6_PRICES"
+               decs   =   "UI_NGP_POINTS_COST_X6_PRICES_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_COST_FROM_X1_TO_X6_IN_EVERY_SUPPLY_ZONE_POINTS_COST"
+               decs   =   "UI_NGP_RANDOM_COST_FROM_X1_TO_X6_IN_EVERY_SUPPLY_ZONE_POINTS_COST_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "REPAIR_POINTS_AMOUNT"
+      title   =   "UI_NGP_REPAIR_POINTS_EFFICIENCY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_HARD_MODE_X0.5_POINTS"
+               decs   =   "UI_NGP_HARD_MODE_X0.5_POINTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_HARD_MODE_X2_POINTS"
+               decs   =   "UI_NGP_HARD_MODE_X2_POINTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_HARD_MODE_X4_POINTS"
+               decs   =   "UI_NGP_HARD_MODE_X4_POINTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_HARD_MODE_X6_POINTS"
+               decs   =   "UI_NGP_HARD_MODE_X6_POINTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "REGIONAL_REPAIR"
+      title   =   "UI_NGP_REGIONAL_REPAIR"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2PRICE_X2POINTS"
+               decs   =   "UI_NGP_X2PRICE_X2POINTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X3PRICE_X3POINTS"
+               decs   =   "UI_NGP_X3PRICE_X3POINTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4PRICE_X4POINTS"
+               decs   =   "UI_NGP_X4PRICE_X4POINTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "VEHICLE_DAMAGE"
+      title   =   "UI_VEHICLE_DAMAGE"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_NO_DAMAGE"
+               decs   =   "UI_NGP_NO_DAMAGE_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2POINTS_DAMAGE"
+               decs   =   "UI_NGP_X2POINTS_DAMAGE_DESC"
+            },
+            {
+               name   =   "UI_NGP_X3POINTS_DAMAGE"
+               decs   =   "UI_NGP_X3POINTS_DAMAGE_DESC"
+            },
+            {
+               name   =   "UI_NGP_X5POINTS_DAMAGE"
+               decs   =   "UI_NGP_X5POINTS_DAMAGE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "RECOVERY"
+      title   =   "UI_NGP_RECOVERY_RULES"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2PRICE_RECOVERY"
+               decs   =   "UI_NGP_X2PRICE_RECOVERY_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4PRICE_RECOVERY"
+               decs   =   "UI_NGP_X4PRICE_RECOVERY_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6PRICE_RECOVERY"
+               decs   =   "UI_NGP_X6PRICE_RECOVERY_DESC"
+            },
+            {
+               name   =   "UI_NGP_NOT_AVAILABLE_RECOVERY"
+               decs   =   "UI_NGP_NOT_AVAILABLE_RECOVERY_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "CONTRACTS"
+      title   =   "UI_NGP_CONTRACT_PAYOUTS"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_X0.5_PRICES_CONTRACTS"
+               decs   =   "UI_NGP_X0.5_PRICES_CONTRACTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X1.5_PRICES_CONTRACTS"
+               decs   =   "UI_NGP_X1.5_PRICES_CONTRACTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2_PRICES_CONTRACTS"
+               decs   =   "UI_NGP_X2_PRICES_CONTRACTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X3_PRICES_CONTRACTS"
+               decs   =   "UI_NGP_X3_PRICES_CONTRACTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOMIZED_FROM_X0.5_TO_X3_CONTRACTS"
+               decs   =   "UI_NGP_RANDOMIZED_FROM_X0.5_TO_X3_CONTRACTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TASKS_CONTESTS"
+      title   =   "UI_NGP_TASKS_AND_CONTESTS_PAYOUTS"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_X0.5_PRICES_TASKS_CONTESTS"
+               decs   =   "UI_NGP_X0.5_PRICES_TASKS_CONTESTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X1.5_PRICES_TASKS_CONTESTS"
+               decs   =   "UI_NGP_X1.5_PRICES_TASKS_CONTESTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2_PRICES_TASKS_CONTESTS"
+               decs   =   "UI_NGP_X2_PRICES_TASKS_CONTESTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_X3_PRICES_TASKS_CONTESTS"
+               decs   =   "UI_NGP_X3_PRICES_TASKS_CONTESTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOMIZED_FROM_X0.5_TO_X3_TASKS_CONTESTS"
+               decs   =   "UI_NGP_RANDOMIZED_FROM_X0.5_TO_X3_TASKS_CONTESTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "CONTEST_ATTEMPTS"
+      title   =   "UI_NGP_CONTESTS_AVAILABILITY"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_1_ATTEMPT"
+               decs   =   "UI_NGP_1_ATTEMPT_DESC"
+            },
+            {
+               name   =   "UI_NGP_3_ATTEMPTS"
+               decs   =   "UI_NGP_3_ATTEMPTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_5_ATTEMPTS"
+               decs   =   "UI_NGP_5_ATTEMPTS_DESC"
+            },
+            {
+               name   =   "UI_NGP_GOLD_TIME"
+               decs   =   "UI_NGP_GOLD_TIME_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "LOADING"
+      title   =   "UI_NGP_LOADING_RULES"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_X1PRICE_LOADING"
+               decs   =   "UI_NGP_X1PRICE_LOADING_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2PRICE_LOADING"
+               decs   =   "UI_NGP_X2PRICE_LOADING_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4PRICE_LOADING"
+               decs   =   "UI_NGP_X4PRICE_LOADING_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6PRICE_LOADING"
+               decs   =   "UI_NGP_X6PRICE_LOADING_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "MAP_MARKER"
+      title   =   "UI_NGP_MAP_MARKER_RULES"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_HARD_MODE_RULES"
+               decs   =   "UI_NGP_HARD_MODE_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "REGION_TRAVELLING"
+      title   =   "UI_NGP_REGION_TRAVELLING_PRICING"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_HARD_MODE_RULES_TRAVEL"
+               decs   =   "UI_NGP_HARD_MODE_RULES_TRAVEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_X2PRICE_TRAVEL"
+               decs   =   "UI_NGP_X2PRICE_TRAVEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_X4PRICE_TRAVEL"
+               decs   =   "UI_NGP_X4PRICE_TRAVEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_X6PRICE_TRAVEL"
+               decs   =   "UI_NGP_X6PRICE_TRAVEL_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TELEPORTATION"
+      title   =   "UI_NGP_TELEPORTATION_RULES"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_500_PRICE"
+               decs   =   "UI_NGP_500_PRICE_DESC"
+            },
+            {
+               name   =   "UI_NGP_1000_PRICE"
+               decs   =   "UI_NGP_1000_PRICE_DESC"
+            },
+            {
+               name   =   "UI_NGP_2000_PRICE"
+               decs   =   "UI_NGP_2000_PRICE_DESC"
+            },
+            {
+               name   =   "UI_NGP_5000_PRICE"
+               decs   =   "UI_NGP_5000_PRICE_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "TIME_SETTINGS"
+      title   =   "UI_NGP_TIME_SETTINGS"
+      controller   =   {
+         presetUiNames   =   [
+            {
+               name   =   "UI_NGP_DEFAULT"
+               decs   =   "UI_DEFAULT_RULES_DESC"
+            },
+            {
+               name   =   "UI_NGP_UNABLE_TO_SKIP_TIME"
+               decs   =   "UI_NGP_UNABLE_TO_SKIP_TIME_DESC"
+            },
+            {
+               name   =   "UI_NGP_DAYX2"
+               decs   =   "UI_NGP_DAYX2_DESC"
+            },
+            {
+               name   =   "UI_NGP_NIGHTX2"
+               decs   =   "UI_NGP_NIGHTX2_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALWAYS_DAY"
+               decs   =   "UI_NGP_ALWAYS_DAY_DESC"
+            },
+            {
+               name   =   "UI_NGP_ALWAYS_NIGHT"
+               decs   =   "UI_NGP_ALWAYS_NIGHT_DESC"
+            },
+            {
+               name   =   "UI_NGP_RANDOM_OPTION"
+               desc   =   "UI_NGP_RANDOM_OPTION_DESC"
+            }
+         ]
+         __type   =   "UiNewGamePlusOneAdvancedStepperController"
+      }
+   }
+]
+inputScreenSave   =   {
+   name   =   "NGPInputScreenFromSaveSlots"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+inputScreenForStepper   =   {
+   priority   =   "HIGH"
+   name   =   "InputScreenStepper"
+   inputsLinks   =   {
+      LeftTap   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      RightTap   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

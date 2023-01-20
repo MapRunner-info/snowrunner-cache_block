@@ -1,0 +1,17 @@
+// Default parameters for shader 'base'
+
+rgbSrc = "tex"
+alphaSrc = "tex"
+colorConst = [ 255, 255, 255, 255 ]
+blendMode = "none"
+blendModeAlpha = "none"   
+zWrite = true
+zTest  = true
+noCull = false
+srgbRead = true
+swizzleTexInShader = false
+uint4Tex = false
+hsvTex = false   
+snormTex = false
+tex = ""
+  

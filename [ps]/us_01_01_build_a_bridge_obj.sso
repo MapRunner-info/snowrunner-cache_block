@@ -1,0 +1,73 @@
+uiDesc   =   "US_01_01_BUILD_A_BRIDGE_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_BUILD_A_BRIDGE_STAGE_1_BRING_METAL_PLANKS"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BROKEN_BRIDGE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   },
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_BUILD_A_BRIDGE_STAGE_2_BRING_WOODEN_PLANKS"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BROKEN_BRIDGE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_01"
+   modelTag   =   "us_01_bridge_construction"
+   stagesProgress   =   {
+      build_stage_0   =   {
+      }
+      build_stage_1   =   {
+         __value   =   1
+      }
+      build_complete   =   {
+         __value   =   2
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+blockerObjectives   =   [
+   "US_01_01_EXPLORING_WATCHTOWER_OBJ"
+]
+description   =   "US_01_01_BUILD_A_BRIDGE_REWARD_DESC"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   350
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2100
+   }
+}
+employer   =   "AttecaTownship"
+region   =   "us_01"
+__type   =   "ContractSettings"

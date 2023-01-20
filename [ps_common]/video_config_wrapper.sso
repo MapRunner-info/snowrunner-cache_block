@@ -1,0 +1,7 @@
+defferedSettingsNames   =   [
+   "Adapter"
+]
+instantSettingsNames   =   [
+   "Gamma"
+]
+__type   =   "BaseConfigWrapper"

@@ -1,0 +1,1089 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         country   =   {
+            listCont   =   {
+               lir   =   {
+                  __type   =   "ModBrowserReportPopupLir"
+               }
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiPopupLibPopupmodslist"
+            }
+            __type   =   "UiPopupLibModreportcountry"
+         }
+         details   =   {
+            textInput   =   {
+               maxChars   =   1024
+               __type   =   "UiPopupLibModbrowserpopupreportinputtext"
+            }
+            __type   =   "UiPopupLibModreportdetails"
+         }
+         __type   =   "UiPopupLibModbrowserpopupreport"
+      }
+      __type   =   "UiPopupLibAnimmodbrowserpopupreport"
+   }
+   __type   =   "UiObjectDesc"
+}
+countriesUiNames   =   {
+   AF   =   {
+      __value   =   "Afghanistan"
+   }
+   AX   =   {
+      __value   =   "Aland Islands"
+   }
+   AL   =   {
+      __value   =   "Albania"
+   }
+   DZ   =   {
+      __value   =   "Algeria"
+   }
+   AS   =   {
+      __value   =   "American Samoa"
+   }
+   AD   =   {
+      __value   =   "Andorra"
+   }
+   AO   =   {
+      __value   =   "Angola"
+   }
+   AI   =   {
+      __value   =   "Anguilla"
+   }
+   AQ   =   {
+      __value   =   "Antarctica"
+   }
+   AG   =   {
+      __value   =   "Antigua and Barbuda"
+   }
+   AR   =   {
+      __value   =   "Argentina"
+   }
+   AM   =   {
+      __value   =   "Armenia"
+   }
+   AW   =   {
+      __value   =   "Aruba"
+   }
+   AU   =   {
+      __value   =   "Australia"
+   }
+   AT   =   {
+      __value   =   "Austria"
+   }
+   AZ   =   {
+      __value   =   "Azerbaijan"
+   }
+   BS   =   {
+      __value   =   "Bahamas"
+   }
+   BH   =   {
+      __value   =   "Bahrain"
+   }
+   BD   =   {
+      __value   =   "Bangladesh"
+   }
+   BB   =   {
+      __value   =   "Barbados"
+   }
+   BY   =   {
+      __value   =   "Belarus"
+   }
+   BE   =   {
+      __value   =   "Belgium"
+   }
+   BZ   =   {
+      __value   =   "Belize"
+   }
+   BJ   =   {
+      __value   =   "Benin"
+   }
+   BM   =   {
+      __value   =   "Bermuda"
+   }
+   BT   =   {
+      __value   =   "Bhutan"
+   }
+   BO   =   {
+      __value   =   "Bolivia"
+   }
+   BQ   =   {
+      __value   =   "Bonaire, Saint Eustatius and Saba"
+   }
+   BA   =   {
+      __value   =   "Bosnia and Herzegovina"
+   }
+   BW   =   {
+      __value   =   "Botswana"
+   }
+   BV   =   {
+      __value   =   "Bouvet Island"
+   }
+   BR   =   {
+      __value   =   "Brazil"
+   }
+   IO   =   {
+      __value   =   "British Indian Ocean Territory"
+   }
+   BN   =   {
+      __value   =   "Brunei Darussalam"
+   }
+   BG   =   {
+      __value   =   "Bulgaria"
+   }
+   BF   =   {
+      __value   =   "Burkina Faso"
+   }
+   BI   =   {
+      __value   =   "Burundi"
+   }
+   KH   =   {
+      __value   =   "Cambodia"
+   }
+   CM   =   {
+      __value   =   "Cameroon"
+   }
+   CA   =   {
+      __value   =   "Canada"
+   }
+   CV   =   {
+      __value   =   "Cape Verde"
+   }
+   KY   =   {
+      __value   =   "Cayman Islands"
+   }
+   CF   =   {
+      __value   =   "Central African Republic"
+   }
+   TD   =   {
+      __value   =   "Chad"
+   }
+   CL   =   {
+      __value   =   "Chile"
+   }
+   CN   =   {
+      __value   =   "China"
+   }
+   CX   =   {
+      __value   =   "Christmas Island"
+   }
+   CC   =   {
+      __value   =   "Cocos (Keeling) Islands"
+   }
+   CO   =   {
+      __value   =   "Colombia"
+   }
+   KM   =   {
+      __value   =   "Comoros"
+   }
+   CG   =   {
+      __value   =   "Congo"
+   }
+   CD   =   {
+      __value   =   "Congo, The Democratic Republic of the"
+   }
+   CK   =   {
+      __value   =   "Cook Islands"
+   }
+   CR   =   {
+      __value   =   "Costa Rica"
+   }
+   CI   =   {
+      __value   =   "Cote d'Ivoire"
+   }
+   HR   =   {
+      __value   =   "Croatia"
+   }
+   CU   =   {
+      __value   =   "Cuba"
+   }
+   CW   =   {
+      __value   =   "Curacao"
+   }
+   CY   =   {
+      __value   =   "Cyprus"
+   }
+   CZ   =   {
+      __value   =   "Czech Republic"
+   }
+   DK   =   {
+      __value   =   "Denmark"
+   }
+   DJ   =   {
+      __value   =   "Djibouti"
+   }
+   DM   =   {
+      __value   =   "Dominica"
+   }
+   DO   =   {
+      __value   =   "Dominican Republic"
+   }
+   EC   =   {
+      __value   =   "Ecuador"
+   }
+   EG   =   {
+      __value   =   "Egypt"
+   }
+   SV   =   {
+      __value   =   "El Salvador"
+   }
+   GQ   =   {
+      __value   =   "Equatorial Guinea"
+   }
+   ER   =   {
+      __value   =   "Eritrea"
+   }
+   EE   =   {
+      __value   =   "Estonia"
+   }
+   ET   =   {
+      __value   =   "Ethiopia"
+   }
+   FK   =   {
+      __value   =   "Falkland Islands (Malvinas)"
+   }
+   FO   =   {
+      __value   =   "Faroe Islands"
+   }
+   FJ   =   {
+      __value   =   "Fiji"
+   }
+   FI   =   {
+      __value   =   "Finland"
+   }
+   FR   =   {
+      __value   =   "France"
+   }
+   GF   =   {
+      __value   =   "French Guiana"
+   }
+   PF   =   {
+      __value   =   "French Polynesia"
+   }
+   TF   =   {
+      __value   =   "French Southern Territories"
+   }
+   GA   =   {
+      __value   =   "Gabon"
+   }
+   GM   =   {
+      __value   =   "Gambia"
+   }
+   GE   =   {
+      __value   =   "Georgia"
+   }
+   DE   =   {
+      __value   =   "Germany"
+   }
+   GH   =   {
+      __value   =   "Ghana"
+   }
+   GI   =   {
+      __value   =   "Gibraltar"
+   }
+   GR   =   {
+      __value   =   "Greece"
+   }
+   GL   =   {
+      __value   =   "Greenland"
+   }
+   GD   =   {
+      __value   =   "Grenada"
+   }
+   GP   =   {
+      __value   =   "Guadeloupe"
+   }
+   GU   =   {
+      __value   =   "Guam"
+   }
+   GT   =   {
+      __value   =   "Guatemala"
+   }
+   GG   =   {
+      __value   =   "Guernsey"
+   }
+   GN   =   {
+      __value   =   "Guinea"
+   }
+   GW   =   {
+      __value   =   "Guinea-Bissau"
+   }
+   GY   =   {
+      __value   =   "Guyana"
+   }
+   HT   =   {
+      __value   =   "Haiti"
+   }
+   HM   =   {
+      __value   =   "Heard Island and McDonald Islands"
+   }
+   VA   =   {
+      __value   =   "Holy See (Vatican City State)"
+   }
+   HN   =   {
+      __value   =   "Honduras"
+   }
+   HK   =   {
+      __value   =   "Hong Kong"
+   }
+   HU   =   {
+      __value   =   "Hungary"
+   }
+   IS   =   {
+      __value   =   "Iceland"
+   }
+   IN   =   {
+      __value   =   "India"
+   }
+   ID   =   {
+      __value   =   "Indonesia"
+   }
+   IR   =   {
+      __value   =   "Iran, Islamic Republic of"
+   }
+   IQ   =   {
+      __value   =   "Iraq"
+   }
+   IE   =   {
+      __value   =   "Ireland"
+   }
+   IM   =   {
+      __value   =   "Isle of Man"
+   }
+   IL   =   {
+      __value   =   "Israel"
+   }
+   IT   =   {
+      __value   =   "Italy"
+   }
+   JM   =   {
+      __value   =   "Jamaica"
+   }
+   JP   =   {
+      __value   =   "Japan"
+   }
+   JE   =   {
+      __value   =   "Jersey"
+   }
+   JO   =   {
+      __value   =   "Jordan"
+   }
+   KZ   =   {
+      __value   =   "Kazakhstan"
+   }
+   KE   =   {
+      __value   =   "Kenya"
+   }
+   KI   =   {
+      __value   =   "Kiribati"
+   }
+   KP   =   {
+      __value   =   "Korea, Democratic People's Republic of"
+   }
+   KR   =   {
+      __value   =   "Korea, Republic of"
+   }
+   KW   =   {
+      __value   =   "Kuwait"
+   }
+   KG   =   {
+      __value   =   "Kyrgyzstan"
+   }
+   LA   =   {
+      __value   =   "Lao People's Democratic Republic"
+   }
+   LV   =   {
+      __value   =   "Latvia"
+   }
+   LB   =   {
+      __value   =   "Lebanon"
+   }
+   LS   =   {
+      __value   =   "Lesotho"
+   }
+   LR   =   {
+      __value   =   "Liberia"
+   }
+   LY   =   {
+      __value   =   "Libyan Arab Jamahiriya"
+   }
+   LI   =   {
+      __value   =   "Liechtenstein"
+   }
+   LT   =   {
+      __value   =   "Lithuania"
+   }
+   LU   =   {
+      __value   =   "Luxembourg"
+   }
+   MO   =   {
+      __value   =   "Macao"
+   }
+   MK   =   {
+      __value   =   "Macedonia"
+   }
+   MG   =   {
+      __value   =   "Madagascar"
+   }
+   MW   =   {
+      __value   =   "Malawi"
+   }
+   MY   =   {
+      __value   =   "Malaysia"
+   }
+   MV   =   {
+      __value   =   "Maldives"
+   }
+   ML   =   {
+      __value   =   "Mali"
+   }
+   MT   =   {
+      __value   =   "Malta"
+   }
+   MH   =   {
+      __value   =   "Marshall Islands"
+   }
+   MQ   =   {
+      __value   =   "Martinique"
+   }
+   MR   =   {
+      __value   =   "Mauritania"
+   }
+   MU   =   {
+      __value   =   "Mauritius"
+   }
+   YT   =   {
+      __value   =   "Mayotte"
+   }
+   MX   =   {
+      __value   =   "Mexico"
+   }
+   FM   =   {
+      __value   =   "Micronesia, Federated States of"
+   }
+   MD   =   {
+      __value   =   "Moldova, Republic of"
+   }
+   MC   =   {
+      __value   =   "Monaco"
+   }
+   MN   =   {
+      __value   =   "Mongolia"
+   }
+   ME   =   {
+      __value   =   "Montenegro"
+   }
+   MS   =   {
+      __value   =   "Montserrat"
+   }
+   MA   =   {
+      __value   =   "Morocco"
+   }
+   MZ   =   {
+      __value   =   "Mozambique"
+   }
+   MM   =   {
+      __value   =   "Myanmar"
+   }
+   NA   =   {
+      __value   =   "Namibia"
+   }
+   NR   =   {
+      __value   =   "Nauru"
+   }
+   NP   =   {
+      __value   =   "Nepal"
+   }
+   NL   =   {
+      __value   =   "Netherlands"
+   }
+   NC   =   {
+      __value   =   "New Caledonia"
+   }
+   NZ   =   {
+      __value   =   "New Zealand"
+   }
+   NI   =   {
+      __value   =   "Nicaragua"
+   }
+   NE   =   {
+      __value   =   "Niger"
+   }
+   NG   =   {
+      __value   =   "Nigeria"
+   }
+   NU   =   {
+      __value   =   "Niue"
+   }
+   NF   =   {
+      __value   =   "Norfolk Island"
+   }
+   MP   =   {
+      __value   =   "Northern Mariana Islands"
+   }
+   NO   =   {
+      __value   =   "Norway"
+   }
+   OM   =   {
+      __value   =   "Oman"
+   }
+   PK   =   {
+      __value   =   "Pakistan"
+   }
+   PW   =   {
+      __value   =   "Palau"
+   }
+   PS   =   {
+      __value   =   "Palestinian Territory"
+   }
+   PA   =   {
+      __value   =   "Panama"
+   }
+   PG   =   {
+      __value   =   "Papua New Guinea"
+   }
+   PY   =   {
+      __value   =   "Paraguay"
+   }
+   PE   =   {
+      __value   =   "Peru"
+   }
+   PH   =   {
+      __value   =   "Philippines"
+   }
+   PN   =   {
+      __value   =   "Pitcairn"
+   }
+   PL   =   {
+      __value   =   "Poland"
+   }
+   PT   =   {
+      __value   =   "Portugal"
+   }
+   PR   =   {
+      __value   =   "Puerto Rico"
+   }
+   QA   =   {
+      __value   =   "Qatar"
+   }
+   RE   =   {
+      __value   =   "Reunion"
+   }
+   RO   =   {
+      __value   =   "Romania"
+   }
+   RU   =   {
+      __value   =   "Russian Federation"
+   }
+   RW   =   {
+      __value   =   "Rwanda"
+   }
+   BL   =   {
+      __value   =   "Saint Bartelemey"
+   }
+   SH   =   {
+      __value   =   "Saint Helena"
+   }
+   KN   =   {
+      __value   =   "Saint Kitts and Nevis"
+   }
+   LC   =   {
+      __value   =   "Saint Lucia"
+   }
+   MF   =   {
+      __value   =   "Saint Martin"
+   }
+   PM   =   {
+      __value   =   "Saint Pierre and Miquelon"
+   }
+   VC   =   {
+      __value   =   "Saint Vincent and the Grenadines"
+   }
+   WS   =   {
+      __value   =   "Samoa"
+   }
+   SM   =   {
+      __value   =   "San Marino"
+   }
+   ST   =   {
+      __value   =   "Sao Tome and Principe"
+   }
+   SA   =   {
+      __value   =   "Saudi Arabia"
+   }
+   SN   =   {
+      __value   =   "Senegal"
+   }
+   RS   =   {
+      __value   =   "Serbia"
+   }
+   SC   =   {
+      __value   =   "Seychelles"
+   }
+   SL   =   {
+      __value   =   "Sierra Leone"
+   }
+   SG   =   {
+      __value   =   "Singapore"
+   }
+   SX   =   {
+      __value   =   "Sint Maarten"
+   }
+   SK   =   {
+      __value   =   "Slovakia"
+   }
+   SI   =   {
+      __value   =   "Slovenia"
+   }
+   SB   =   {
+      __value   =   "Solomon Islands"
+   }
+   SO   =   {
+      __value   =   "Somalia"
+   }
+   ZA   =   {
+      __value   =   "South Africa"
+   }
+   GS   =   {
+      __value   =   "South Georgia and the South Sandwich Islands"
+   }
+   SS   =   {
+      __value   =   "South Sudan"
+   }
+   ES   =   {
+      __value   =   "Spain"
+   }
+   LK   =   {
+      __value   =   "Sri Lanka"
+   }
+   SD   =   {
+      __value   =   "Sudan"
+   }
+   SR   =   {
+      __value   =   "Suriname"
+   }
+   SJ   =   {
+      __value   =   "Svalbard and Jan Mayen"
+   }
+   SZ   =   {
+      __value   =   "Swaziland"
+   }
+   SE   =   {
+      __value   =   "Sweden"
+   }
+   CH   =   {
+      __value   =   "Switzerland"
+   }
+   SY   =   {
+      __value   =   "Syrian Arab Republic"
+   }
+   TW   =   {
+      __value   =   "Taiwan"
+   }
+   TJ   =   {
+      __value   =   "Tajikistan"
+   }
+   TZ   =   {
+      __value   =   "Tanzania, United Republic of"
+   }
+   TH   =   {
+      __value   =   "Thailand"
+   }
+   TL   =   {
+      __value   =   "Timor-Leste"
+   }
+   TG   =   {
+      __value   =   "Togo"
+   }
+   TK   =   {
+      __value   =   "Tokelau"
+   }
+   TO   =   {
+      __value   =   "Tonga"
+   }
+   TT   =   {
+      __value   =   "Trinidad and Tobago"
+   }
+   TN   =   {
+      __value   =   "Tunisia"
+   }
+   TR   =   {
+      __value   =   "Turkey"
+   }
+   TM   =   {
+      __value   =   "Turkmenistan"
+   }
+   TC   =   {
+      __value   =   "Turks and Caicos Islands"
+   }
+   TV   =   {
+      __value   =   "Tuvalu"
+   }
+   UG   =   {
+      __value   =   "Uganda"
+   }
+   UA   =   {
+      __value   =   "Ukraine"
+   }
+   AE   =   {
+      __value   =   "United Arab Emirates"
+   }
+   GB   =   {
+      __value   =   "United Kingdom"
+   }
+   US   =   {
+      __value   =   "United States"
+   }
+   UY   =   {
+      __value   =   "Uruguay"
+   }
+   UZ   =   {
+      __value   =   "Uzbekistan"
+   }
+   VU   =   {
+      __value   =   "Vanuatu"
+   }
+   VE   =   {
+      __value   =   "Venezuela"
+   }
+   VN   =   {
+      __value   =   "Vietnam"
+   }
+   VG   =   {
+      __value   =   "Virgin Islands, British"
+   }
+   VI   =   {
+      __value   =   "Virgin Islands, U.S."
+   }
+   WF   =   {
+      __value   =   "Wallis and Futuna"
+   }
+   EH   =   {
+      __value   =   "Western Sahara"
+   }
+   YE   =   {
+      __value   =   "Yemen"
+   }
+   ZM   =   {
+      __value   =   "Zambia"
+   }
+   ZW   =   {
+      __value   =   "Zimbabwe"
+   }
+}
+countriesOrder   =   [
+   "CZ",
+   "FR",
+   "DE",
+   "IT",
+   "RU",
+   "ES",
+   "GB",
+   "US",
+   "AF",
+   "AX",
+   "AL",
+   "DZ",
+   "AS",
+   "AD",
+   "AO",
+   "AI",
+   "AQ",
+   "AG",
+   "AR",
+   "AM",
+   "AW",
+   "AU",
+   "AT",
+   "AZ",
+   "BS",
+   "BH",
+   "BD",
+   "BB",
+   "BY",
+   "BE",
+   "BZ",
+   "BJ",
+   "BM",
+   "BT",
+   "BO",
+   "BQ",
+   "BA",
+   "BW",
+   "BV",
+   "BR",
+   "IO",
+   "BN",
+   "BG",
+   "BF",
+   "BI",
+   "KH",
+   "CM",
+   "CA",
+   "CV",
+   "KY",
+   "CF",
+   "TD",
+   "CL",
+   "CN",
+   "CX",
+   "CC",
+   "CO",
+   "KM",
+   "CG",
+   "CD",
+   "CK",
+   "CR",
+   "CI",
+   "HR",
+   "CU",
+   "CW",
+   "CY",
+   "DK",
+   "DJ",
+   "DM",
+   "DO",
+   "EC",
+   "EG",
+   "SV",
+   "GQ",
+   "ER",
+   "EE",
+   "ET",
+   "FK",
+   "FO",
+   "FJ",
+   "FI",
+   "GF",
+   "PF",
+   "TF",
+   "GA",
+   "GM",
+   "GE",
+   "GH",
+   "GI",
+   "GR",
+   "GL",
+   "GD",
+   "GP",
+   "GU",
+   "GT",
+   "GG",
+   "GN",
+   "GW",
+   "GY",
+   "HT",
+   "HM",
+   "VA",
+   "HN",
+   "HK",
+   "HU",
+   "IS",
+   "IN",
+   "ID",
+   "IR",
+   "IQ",
+   "IE",
+   "IM",
+   "IL",
+   "JM",
+   "JP",
+   "JE",
+   "JO",
+   "KZ",
+   "KE",
+   "KI",
+   "KP",
+   "KR",
+   "KW",
+   "KG",
+   "LA",
+   "LV",
+   "LB",
+   "LS",
+   "LR",
+   "LY",
+   "LI",
+   "LT",
+   "LU",
+   "MO",
+   "MK",
+   "MG",
+   "MW",
+   "MY",
+   "MV",
+   "ML",
+   "MT",
+   "MH",
+   "MQ",
+   "MR",
+   "MU",
+   "YT",
+   "MX",
+   "FM",
+   "MD",
+   "MC",
+   "MN",
+   "ME",
+   "MS",
+   "MA",
+   "MZ",
+   "MM",
+   "NA",
+   "NR",
+   "NP",
+   "NL",
+   "NC",
+   "NZ",
+   "NI",
+   "NE",
+   "NG",
+   "NU",
+   "NF",
+   "MP",
+   "NO",
+   "OM",
+   "PK",
+   "PW",
+   "PS",
+   "PA",
+   "PG",
+   "PY",
+   "PE",
+   "PH",
+   "PN",
+   "PL",
+   "PT",
+   "PR",
+   "QA",
+   "RE",
+   "RO",
+   "RW",
+   "BL",
+   "SH",
+   "KN",
+   "LC",
+   "MF",
+   "PM",
+   "VC",
+   "WS",
+   "SM",
+   "ST",
+   "SA",
+   "SN",
+   "RS",
+   "SC",
+   "SL",
+   "SG",
+   "SX",
+   "SK",
+   "SI",
+   "SB",
+   "SO",
+   "ZA",
+   "GS",
+   "SS",
+   "LK",
+   "SD",
+   "SR",
+   "SJ",
+   "SZ",
+   "SE",
+   "CH",
+   "SY",
+   "TW",
+   "TJ",
+   "TZ",
+   "TH",
+   "TL",
+   "TG",
+   "TK",
+   "TO",
+   "TT",
+   "TN",
+   "TR",
+   "TM",
+   "TC",
+   "TV",
+   "UG",
+   "UA",
+   "AE",
+   "UY",
+   "UZ",
+   "VU",
+   "VE",
+   "VN",
+   "VG",
+   "VI",
+   "WF",
+   "EH",
+   "YE",
+   "ZM",
+   "ZW"
+]
+headerIconName   =   "modBrowserReportIcon40"
+bigText   =   "<u>mod.io</u> respects the intellectual property rights of others, and we ask that everyone using our internet sites and services do the same. Anyone who believes that their work has been reproduced in one of our internet sites or services in a way that constitutes copyright infringement may notify mod.io's copyright agent using the form below.<br><br>Submitting a claim of copyright infringement is a serious legal matter. Before you proceed, you might consider contacting the individual directly to address the complaint. It might be a simple misunderstanding and possible to address without involving proper legal process.<br><br>Be aware that under Section 512(f) of the Digital Millennium Copyright Act, any person who knowingly materially misrepresents that material or activity is infringing may be liable for damages. Please also note that the information provided in this legal notice may be shared with third-parties or made public."
+stageViewStates   =   {
+   REPORT_TYPE   =   {
+      __type   =   "ModReportViewState"
+   }
+   BIG_TEXT   =   {
+      __value   =   "BIG_TEXT"
+      __type   =   "ModReportViewState"
+   }
+   CONTACT   =   {
+      __value   =   "CONTACT"
+      __type   =   "ModReportViewState"
+   }
+   PENALTY   =   {
+      __value   =   "PENALTY"
+      __type   =   "ModReportViewState"
+   }
+   SIGNATURE   =   {
+      __value   =   "TEXTINPUT"
+      __type   =   "ModReportViewState"
+   }
+   EMAIL   =   {
+      __value   =   "TEXTINPUT"
+      __type   =   "ModReportViewState"
+   }
+   DETAILS_AND_CONFIRMATION   =   {
+      __value   =   "DETAILS_AND_CONFIRMATION"
+      __type   =   "ModReportViewState"
+   }
+   COUNTRY   =   {
+      __value   =   "COUNTRY"
+      __type   =   "ModReportViewState"
+   }
+}
+reasonArray   =   {
+   GENERIC   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_NOT_SELECTED"
+   }
+   DMCA   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_DMCA"
+   }
+   NOT_WORKING   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_NOT_WORKING"
+   }
+   RUDE_CONTENT   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_RUDE_CONTENT"
+   }
+   ILLEGAL_CONTENT   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_ILLEGAL_CONTENT"
+   }
+   STOLEN_CONTENT   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_STOLEN_CONTENT"
+   }
+   FALSE_INFORMATION   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_FALSE_INFORMATION"
+   }
+   OTHER   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_TYPE_OTHER"
+   }
+}
+__type   =   "PopupViewBase"

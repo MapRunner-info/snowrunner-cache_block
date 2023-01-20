@@ -1,0 +1,379 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Frost On Screen(17)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Frost Lr1"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Frost Lr2"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture2 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Frost Lr3"
+							__hint = "texture2"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture3 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Frost Lr4"
+							__hint = "texture3"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}		
+					texture4 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Frost Mask"
+							__hint = "texture4"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+						colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "Snow Color"
+							__hint = ""
+							__wrappable = false
+							__hidden = false
+						}
+					}
+						colorParam01 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "Background Color"
+							__hint = ""
+							__wrappable = false
+							__hidden = false
+						}
+					}							
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr1 Border Start"
+						}
+						__type = "float"
+						__defaultValue = 0.002
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr1 Border End"
+						}
+						__type = "float"
+						__defaultValue = 7
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr1 Size X"
+						}
+						__type = "float"
+						__defaultValue = 4.3
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr1 Size Y"
+						}
+						__type = "float"
+						__defaultValue = 17
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr1 Power"
+						}
+						__type = "float"
+						__defaultValue = -5.3
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr2 Border Start"
+						}
+						__type = "float"
+						__defaultValue = 31
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr2 Border End"
+						}
+						__type = "float"
+						__defaultValue = 7.2
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr2 Size X"
+						}
+						__type = "float"
+						__defaultValue = -0.002
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr2 Size Y"
+						}
+						__type = "float"
+						__defaultValue = 37
+					}
+					floatParam10 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr2 Power"
+						}
+						__type = "float"
+						__defaultValue = -4.3
+					}
+					floatParam11 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr3 Border Start"
+						}
+						__type = "float"
+						__defaultValue = 51
+					}
+					
+					floatParam12 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr3 Border End"
+						}
+						__type = "float"
+						__defaultValue = 5.3
+					}
+					floatParam13 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr3 Size X"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam14 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr3 Size Y"
+						}
+						__type = "float"
+						__defaultValue = -7.2
+					}
+					floatParam15 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr3 Power"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					floatParam16 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr4 Border Start"
+						}
+						__type = "float"
+						__defaultValue = 0.2
+					}
+					floatParam17 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr4 Border End"
+						}
+						__type = "float"
+						__defaultValue = -0.5
+					}
+					floatParam18 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr4 Size X"
+						}
+						__type = "float"
+						__defaultValue = 0.9
+					}
+					floatParam19 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr4 Size Y"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					
+					floatParam20 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Lr4 Power"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					floatParam21 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Mask Size X"
+						}
+						__type = "float"
+						__defaultValue = 0.05
+					}
+					floatParam22 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Mask Size Y"
+						}
+						__type = "float"
+						__defaultValue = 0.6
+					}
+					floatParam23 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Mask Clamp Min"
+						}
+						__type = "float"
+						__defaultValue = 1.2
+					}
+					
+					floatParam24 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Frost Mask Clamp Max"
+						}
+						__type = "float"
+						__defaultValue = 0.4
+					}
+					floatParam25 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Dark Blend"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					floatParam26 = {
+                  __type = "float"
+                  __defaultValue = 0.0
+                  __items = [ 0.0, 1.0, 2.0 ]
+                  __viewType = {
+                     __type = "valueEnum"
+                     __items = [ "Blend", "Additive", "Multiply" ]
+                    }
+
+					}
+
+				}
+			}	
+			
+		}
+	}
+}

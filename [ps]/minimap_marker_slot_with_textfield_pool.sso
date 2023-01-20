@@ -1,0 +1,9 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "UiMinimapMarkercargofinity"
+   }
+   __type   =   "UiContainerDesc"
+}
+initialCapacity   =   50
+editorMaxCapacity   =   260
+__type   =   "EditorObjectDescPool"

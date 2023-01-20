@@ -1,0 +1,48 @@
+view   =   {
+   header   =   "UI_HUD_POPUP_MOD_BROWSER_MORE_OPTIONS_HEADER"
+   __type   =   "ModBrowserMoreOptionsPopupUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         Accept   =   {
+            text   =   "UI_SELECT"
+            uiInputName   =   "Accept"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+         Back   =   {
+            text   =   "UI_BACK"
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      order   =   [
+         "Accept",
+         "Back"
+      ]
+      __type   =   "AllButtonsNavigationPanel"
+   }
+}
+id   =   "MOD_BROWSER_MORE_OPTIONS"
+priority   =   "MIDDLE"
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "Mod Browser More Options"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

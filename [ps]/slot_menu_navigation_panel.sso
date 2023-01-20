@@ -1,0 +1,41 @@
+useBg   =   True
+btns   =   {
+   regionMap   =   {
+      text   =   "UI_REGION_MAP"
+      __type   =   "NavButtonDesc"
+   }
+   select   =   {
+      text   =   "UI_SELECT"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   ingameMenu   =   {
+      text   =   "UI_INGAME_MENU"
+      __type   =   "NavButtonDesc"
+   }
+   profile   =   {
+      text   =   "UI_OPEN_PROFILE"
+      __type   =   "NavButtonDesc"
+   }
+   truckRetain   =   {
+      text   =   "UI_UNSELECT"
+      __type   =   "NavButtonDesc"
+   }
+   localMap   =   {
+      text   =   "UI_LOCAL_MAP"
+      __type   =   "NavButtonDesc"
+   }
+   navigation   =   {
+      text   =   "UI_NAVIGATION"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

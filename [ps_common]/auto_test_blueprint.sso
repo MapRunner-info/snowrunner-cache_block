@@ -1,0 +1,4 @@
+autotestFlow   =   {
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestAbstract"

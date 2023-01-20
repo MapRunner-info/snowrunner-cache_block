@@ -1,0 +1,47 @@
+view   =   {
+   __type   =   "PopupSettingsResetDefaultView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         close   =   {
+            uiInputName   =   "Close"
+            clickSound   =   "ui/ui_click_exit"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupSettingsResetDefaultNavigationPanel"
+   }
+}
+id   =   "SETTINGS_CHANGE_INPUT"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupResetDefaultSettings"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

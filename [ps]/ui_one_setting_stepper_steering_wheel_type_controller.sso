@@ -1,0 +1,30 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         stepper   =   {
+            wrapMode   =   True
+            __type   =   "UiSettingsSettingsstepper"
+         }
+         __type   =   "UiSettingsSettingsstepperclip"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_MENU_STEERING_WHEEL_TYPE"
+desc   =   "UI_SETTINGS_MENU_STEERING_WHEEL_TYPE_DESC"
+steeringWheelTypes   =   {
+   DIRECT_INPUT   =   {
+      __value   =   "UI_STEERING_WHEEL_TYPE_DIRECT_INPUT"
+   }
+   LOGITECH_TRUEFORCE   =   {
+      __value   =   "UI_STEERING_WHEEL_TYPE_LOGITECH_TRUEFORCE"
+   }
+   LOGITECH_LEGACY   =   {
+      __value   =   "UI_STEERING_WHEEL_TYPE_LOGITECH_LEGACY"
+   }
+   THRUSTMASTER   =   {
+      __value   =   "UI_STEERING_WHEEL_TYPE_THRUSTMASTER"
+   }
+}
+__type   =   "UiOneSettingStepperController"

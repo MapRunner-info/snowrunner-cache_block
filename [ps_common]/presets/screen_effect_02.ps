@@ -1,0 +1,443 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Doom Marine Ability Params (2)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Texture"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Texture"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture2 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Texture"
+							__hint = "texture2"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture3 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Texture"
+							__hint = "texture3"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture4 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Texture"
+							__hint = "texture4"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture5 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Flow Pattern"
+							__hint = "texture5"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture6 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Flow Distort"
+							__hint = "texture6"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture7 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Heartbeat Animation"
+							__hint = "texture7"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture8 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Flow Color Gradient"
+							__hint = "texture8"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture9 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Colorize Gradient"
+							__hint = "texture9"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+
+					floatParam00 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Fisheye Power"
+						}
+						__type = "float"
+						__defaultValue = 100
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Fisheye Zoom"
+						}
+						__type = "float"
+						__defaultValue = 1.22
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Radial Fade Start"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Radial Fade End"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Distort"
+						}
+						__type = "float"
+						__defaultValue = 0.1
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L1 Tile U"
+						}
+						__type = "float"
+						__defaultValue = 8.0
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L1 Tile V"
+						}
+						__type = "float"
+						__defaultValue = 2.0
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L1 Speed U"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L1 Speed V"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L2 Tile U"
+						}
+						__type = "float"
+						__defaultValue = 8.0
+					}
+					floatParam10 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L2 Tile V"
+						}
+						__type = "float"
+						__defaultValue = 2.0
+					}
+					floatParam11 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L2 Speed U"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					
+					floatParam12 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L2 Speed V"
+						}
+						__type = "float"
+						__defaultValue = -1.9
+					}
+					floatParam13 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow L2 Distort"
+						}
+						__type = "float"
+						__defaultValue = 0.05
+					}
+					floatParam14 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Radial Noise Power"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					floatParam15 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Radial Noise Speed"
+						}
+						__type = "float"
+						__defaultValue = 0.1
+					}
+					floatParam16 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Radial Noise Tiles 1"
+						}
+						__type = "float"
+						__defaultValue = 4.0
+					}
+					floatParam17 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Radial Noise Tiles 2"
+						}
+						__type = "float"
+						__defaultValue = 7.0
+					}
+					floatParam18 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Radial Noise Tiles 3"
+						}
+						__type = "float"
+						__defaultValue = 11.0
+					}
+					floatParam19 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Radial Noise Speed 2"
+						}
+						__type = "float"
+						__defaultValue = -1.0
+					}
+					
+					floatParam20 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Radial Noise Speed 3"
+						}
+						__type = "float"
+						__defaultValue = -14.0
+					}
+					floatParam21 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Heartbeat Speed"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam22 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Heartbeat Distort"
+						}
+						__type = "float"
+						__defaultValue = 0.05
+					}
+					floatParam23 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Heartbeat Blur Blend"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					
+					floatParam24 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Heartbeat Radial Start"
+						}
+						__type = "float"
+						__defaultValue = 0.7
+					}
+					floatParam25 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Heartbeat Radial End"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam26 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Fisheye Gloabl Scale"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}					
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+							__hidden = true
+						}
+					}
+				}
+			}	
+			
+		}
+	}
+}

@@ -1,0 +1,30 @@
+view   =   {
+   __type   =   "PopupCollisionWarningView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupCollisionWarningNavigationPanel"
+   }
+}
+id   =   "COLLISION_WARNING"
+priority   =   "MIDDLE"
+disableInputs   =   False
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "CollisionWarning"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

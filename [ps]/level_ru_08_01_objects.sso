@@ -1,0 +1,2692 @@
+tasksSettings   =   {
+   RU_08_01_VILLAGE_RENOVATION   =   {
+      uiDesc   =   "RU_08_01_VILLAGE_RENOVATION_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_VILLAGE_RENOVATION_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_VILLAGE_RENOVATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_08_01_VILLAGE_RENOVATION_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_VILLAGE_RENOVATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "RU_08_01_VILLAGE_RENOVATION_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   420
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4650
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_VILLAGE_RENOVATION"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_LOST_EVACUATION   =   {
+      uiDesc   =   "RU_08_01_LOST_EVACUATION_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_LOST_EVACUATION_CAR"
+                  truckUiName   =   "LOST_EVACUATION"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_LOST_EVACUATION_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_LOST_EVACUATION_S"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_08_01_LOST_EVACUATION_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   240
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1800
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_LOST_EVACUATION"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_08_01_LOST_EVACUATION_TASK_S"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_VILLAGE_SUPPLIES   =   {
+      uiDesc   =   "RU_08_01_VILLAGE_SUPPLIES_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_VILLAGE_SUPPLIES_S_1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_VILLAGE_SUPPLIES_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoCrateLarge"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_VILLAGE_SUPPLIES_TRAILER"
+                  truckUiName   =   "VILLAGE_SUPPLIES_TRAILER"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_VILLAGE_SUPPLIES_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_VILLAGE_SUPPLIES_S_2"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_08_01_VILLAGE_SUPPLIES_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   660
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6400
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_VILLAGE_SUPPLIES"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_PROMO_PICS   =   {
+      uiDesc   =   "RU_08_01_PROMO_PICS_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_PROMO_PICS_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_PROMO_PICS_1"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_08_01_PROMO_PICS_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_PROMO_PICS_2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_08_01_PROMO_PICS_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_PROMO_PICS_3"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_08_01_PROMO_PICS_S_04"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_PROMO_PICS_4"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_08_01_PROMO_PICS_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   200
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2100
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_PROMO_PICS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_FARM_VEHICLE_PARTS   =   {
+      uiDesc   =   "RU_08_01_FARM_VEHICLE_PARTS_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_FARM_VEHICLE_PARTS_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_FARM_VEHICLE_PARTS_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoVehiclesSpareParts"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "RU_08_01_FARM_VEHICLE_PARTS_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   380
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4450
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_FARM_VEHICLE_PARTS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_GRAIN_ELEVATOR   =   {
+      uiDesc   =   "RU_08_01_GRAIN_ELEVATOR_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_GRAIN_ELEVATOR_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_GRAIN_ELEVATOR_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoCrateLarge"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_ELEVATOR_STUFF"
+      ]
+      description   =   "RU_08_01_GRAIN_ELEVATOR_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   620
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6350
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_GRAIN_ELEVATOR"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_FARMING_FIELD_1   =   {
+      uiDesc   =   "RU_08_01_FARMING_FIELD_1_DESC"
+      stages   =   [
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_1"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Cultivator"
+               neededState   =   "FIELD_STATE_PLOWED"
+               tolerance   =   0.1
+               uiDesc   =   "RU_08_01_FARMING_FIELD_1_S_01"
+               model   =   {
+                  levelName   =   "level_ru_08_01"
+                  modelTag   =   "field_anim_1"
+                  stagesProgress   =   {
+                     build_stage_0   =   {
+                     }
+                     build_stage_1   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "null"
+               }
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_1"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN"
+               tolerance   =   0.1
+               hideStageFromUi   =   False
+               uiDesc   =   "RU_08_01_FARMING_FIELD_1_S_02"
+               model   =   {
+                  levelName   =   "level_ru_08_01"
+                  modelTag   =   "field_anim_1"
+                  stagesProgress   =   {
+                     build_stage_0   =   {
+                        __value   =   0
+                     }
+                     build_stage_1   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "null"
+               }
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_1"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               neededState   =   "FIELD_STATE_SOWN_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "\"DEFAULT DESCRIPTION\""
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_1"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE"
+               tolerance   =   0.1
+               uiDesc   =   "RU_08_01_FARMING_FIELD_1_S_03"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_1"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "\"DEFAULT DESCRIPTION\""
+               __type   =   "FarmingActionSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_FARMING_FIELD_TUTORIAL"
+      ]
+      description   =   "RU_08_01_FARMING_FIELD_1_REW"
+      recommendedTruck   =   "FARMING_EQUIPMENT"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   370
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5800
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_TASK_1"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   False
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_FARMING_FIELD_2   =   {
+      uiDesc   =   "RU_08_01_FARMING_FIELD_2_DESC"
+      stages   =   [
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_2"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Cultivator"
+               neededState   =   "FIELD_STATE_PLOWED"
+               tolerance   =   0.1
+               uiDesc   =   "RU_08_01_FARMING_FIELD_2_S_05"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_FARMING_FIELD_2_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_2_PLANTER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               __type   =   "null"
+            }
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_2"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN"
+               tolerance   =   0.1
+               uiDesc   =   "RU_08_01_FARMING_FIELD_2_S_02"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_2"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "\"DEFAULT DESCRIPTION\""
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_FARMING_FIELD_2_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_2_HARVESTER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               __type   =   "null"
+            }
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_2"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE"
+               tolerance   =   0.1
+               uiDesc   =   "RU_08_01_FARMING_FIELD_2_S_04"
+               model   =   {
+                  levelName   =   "level_ru_08_01"
+                  modelTag   =   "field_anim_2"
+                  stagesProgress   =   {
+                     build_stage_0   =   {
+                     }
+                     build_stage_1   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "null"
+               }
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_2"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "\"DEFAULT DESCRIPTION\""
+               model   =   {
+                  levelName   =   "level_ru_08_01"
+                  modelTag   =   "field_anim_2"
+                  stagesProgress   =   {
+                     build_stage_0   =   {
+                     }
+                     build_stage_1   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "null"
+               }
+               __type   =   "FarmingActionSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_FARMING_FIELD_TUTORIAL"
+      ]
+      description   =   "RU_08_01_FARMING_FIELD_2_REW"
+      recommendedTruck   =   "FARMING_EQUIPMENT"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   470
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6400
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_TASK_2"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   False
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_CHECKING_TOURISTS   =   {
+      uiDesc   =   "RU_08_01_CHECKING_TOURISTS_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               __type   =   "ActionPackSettings"
+            }
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_CHECKING_TOURISTS_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_CHECKING_TOURISTS_S1"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_CHECKING_TOURISTS_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_CHECKING_TOURISTS_S2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_CHECKING_TOURISTS_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_CHECKING_TOURISTS_S3"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_08_01_CHECKING_TOURISTS_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   150
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1000
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_CHECKING_TOURISTS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_SUPPLIES_FOR_WATCHERS   =   {
+      uiDesc   =   "RU_08_01_SUPPLIES_FOR_WATCHERS_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_SUPPLIES_FOR_WATCHERS_TRAILER"
+                  truckUiName   =   "SUPPLIES_FOR_WATCHERS_TRAILER"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_SUPPLIES_FOR_WATCHERS_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_SUPPLIES_FOR_WATCHERS_S"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_08_01_SUPPLIES_FOR_WATCHERS_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   250
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_SUPPLIES_FOR_WATCHERS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_PLANKS_SUPPLIES   =   {
+      uiDesc   =   "RU_08_01_PLANKS_SUPPLIES_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_PLANKS_SUPPLIES_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_PLANKS_SUPPLIES_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "RU_08_01_PLANKS_SUPPLIES_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   200
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2250
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_PLANKS_SUPPLIES"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_EXPEDITION_HELP   =   {
+      uiDesc   =   "RU_08_01_EXPEDITION_HELP_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_EXPEDITION_HELP_TRAILER"
+                  truckUiName   =   "EXPEDITION_HELP"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_EXPEDITION_HELP_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_EXPEDITION_HELP_S"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_08_01_EXPEDITION_HELP_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   540
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6200
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_EXPEDITION_HELP"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_SILLY_WORKERS   =   {
+      uiDesc   =   "RU_08_01_SILLY_WORKERS_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_SILLY_WORKERS_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_SILLY_WORKERS_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_SILLY_WORKERS_SPAWN_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_SILLY_WORKERS_SPAWN_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      description   =   "RU_08_01_SILLY_WORKERS_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_08_01_REPAIR_ZONE"
+                  mapId   =   "level_ru_08_01"
+                  props   =   {
+                     ZonePropertyAutoRepairAndRestore   =   {
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   200
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_SILLY_WORKERS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_ILLEGAL_BUSINESS   =   {
+      uiDesc   =   "RU_08_01_ILLEGAL_BUSINESS_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_ILLEGAL_BUSINESS"
+                  truckUiName   =   "ILLEGAL_BUSINESS"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ILLEGAL_BUSINESS"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_ILLEGAL_BUSINESS_S"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_08_01_ILLEGAL_BUSINESS_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   440
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4550
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_ILLEGAL_BUSINESS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_08_01_ILLEGAL_BUSINESS_TASK_S"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_INF_FARMING_1   =   {
+      uiDesc   =   "RU_08_01_INF_FARMING_1_DESC"
+      stages   =   [
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Cultivator"
+               neededState   =   "FIELD_STATE_PLOWED"
+               tolerance   =   0.1
+               uiDesc   =   "RU_08_01_INF_FARMING_1_S_01"
+               __type   =   "FarmingActionSettings"
+            }
+            uiDesc   =   ""
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN"
+               tolerance   =   0.1
+               uiDesc   =   "RU_08_01_INF_FARMING_1_S_02"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "RU_08_01_INF_FARMING_1_S_03"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE"
+               tolerance   =   0.1
+               hideStageFromUi   =   False
+               uiDesc   =   "RU_08_01_INF_FARMING_1_S_04"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "RU_08_01_INF_FARMING_1_S_05"
+               __type   =   "FarmingActionSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_FARMING_FIELD_TUTORIAL"
+      ]
+      description   =   "RU_08_01_INF_FARMING_1_REW"
+      recommendedTruck   =   "FARMING_EQUIPMENT"
+      rewards   =   {
+         ObjectiveRewardAddItemsToZone   =   {
+            cargosSettings   =   [
+               {
+                  name   =   "CargoPotato"
+                  count   =   2
+               }
+            ]
+            zoneId   =   "RU_08_01_POTATO_STORAGE_1"
+            mapId   =   "level_ru_08_01"
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   310
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   50
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_INF_FARMING_1"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_DANGEROUS_BARRELS   =   {
+      uiDesc   =   "RU_08_01_DANGEROUS_BARRELS_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_DANGEROUS_BARRELS_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CARGO_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_DANGEROUS_BARRELS_SPAWN_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_DANGEROUS_BARRELS_SPAWN_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      description   =   "RU_08_01_DANGEROUS_BARRELS_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   270
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2000
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_DANGEROUS_BARRELS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_POTATO_SELL   =   {
+      uiDesc   =   "RU_08_01_POTATO_SELL_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_POTATO_SELL_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_POTATO_SELL_TASK_S"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPotato"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_FARMING_FIELD_TUTORIAL"
+      ]
+      description   =   "RU_08_01_POTATO_SELL_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   3500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   50
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_POTATO_SELL_TASK_S"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_08_01_POTATO_SELL"
+      ]
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_ECOLOGICAL_CHANGE   =   {
+      uiDesc   =   "RU_08_01_ECOLOGICAL_CHANGE_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_ECOLOGICAL_CHANGE_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_RAILROAD"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerSmallSpecial"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ECOLOGICAL_CHANGE_SPAWN_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoContainerSmallSpecial"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_ECOLOGICAL_CHANGE_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_DELIVERY_S2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLargeDrilling"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ECOLOGICAL_CHANGE_SPAWN_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoContainerLargeDrilling"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+            isForceSearchCargoOnMap   =   False
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_SUPPLIES_FOR_WATCHERS"
+      ]
+      description   =   "RU_08_01_ECOLOGICAL_CHANGE_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   730
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6660
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_ECOLOGICAL_CHANGE"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_HAYSTACKS   =   {
+      uiDesc   =   "RU_08_01_HAYSTACKS_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_HAYSTACKS_S1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoStack"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_SPAWN_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_SPAWN_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_SPAWN_3"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_SPAWN_4"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_KIROVEC"
+      ]
+      description   =   "RU_08_01_HAYSTACKS_REW"
+      recommendedTruck   =   "KIROVETS_MANIPULATOR"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   100
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1700
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+   RU_08_01_HAYSTACKS_2   =   {
+      uiDesc   =   "RU_08_01_HAYSTACKS_2_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_HAYSTACKS_2_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoStack"
+                        count   =   6
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_2_SPAWN_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_2_SPAWN_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_2_SPAWN_3"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_2_SPAWN_4"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_2_SPAWN_5"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_2_SPAWN_6"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoStack"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_KIROVEC"
+      ]
+      description   =   "RU_08_01_HAYSTACKS_2_REW"
+      recommendedTruck   =   "KIROVETS_MANIPULATOR"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   370
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   3400
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_HAYSTACKS_2"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_08_01_HAYSTACKS_2_TASK_S"
+      ]
+      __type   =   "TaskSettings"
+   }
+}
+contractsSettings   =   {
+   RU_08_01_KIROVEC   =   {
+      uiDesc   =   "RU_08_01_KIROVEC_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_KIROVEC_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_KIROVEC_SCOUT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_KIROVEC"
+                  truckUiName   =   "KIROVEC"
+                  afterStageFinished   =   "REWARD"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_KIROVEC_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_KIROVEC_S_02"
+               }
+            ]
+            uiDesc   =   ""
+         }
+      ]
+      description   =   "RU_08_01_KIROVEC_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_08_01_POTATO_STORAGE_1"
+                  mapId   =   "level_ru_08_01"
+                  props   =   {
+                     ZonePropertyCargoLoadingAlwaysVisible   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoPotato"
+                              count   =   0
+                           }
+                        ]
+                        platformId   =   "RU_08_01_POTATO_STORAGE_S_1"
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   250
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2000
+         }
+      }
+      employer   =   "HarvestCorp"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_HELP_RAILWAY_WORKERS   =   {
+      uiDesc   =   "RU_08_01_HELP_RAILWAY_WORKERS_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_HELP_RAILWAY_WORKERS_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_HELP_RAILWAY_WORKERS_CHECK"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_RAILWAY_WORKERS"
+                  truckUiName   =   "HELP_RAILWAY_WORKERS"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HELP_RAILWAY_WORKERS_EVAC"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_HELP_RAILWAY_WORKERS_S_02"
+               }
+            ]
+            uiDesc   =   "RU_08_01_HELP_RAILWAY_WORKERS_S_02"
+         }
+      ]
+      description   =   "RU_08_01_HELP_RAILWAY_WORKERS_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   430
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4800
+         }
+      }
+      employer   =   "HarvestCorp"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_FARMING_FIELD_TUTORIAL   =   {
+      uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_DECS"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "cultivator"
+                  truckUiName   =   "trailer_cultivator"
+                  afterStageFinished   =   "DO_NOTHING"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_01"
+               }
+            ]
+         },
+         {
+            visitAllZones   =   {
+               __type   =   "VisitAllZonesSettings"
+            }
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Cultivator"
+               neededState   =   "FIELD_STATE_PLOWED"
+               tolerance   =   0.3
+               uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_02"
+               __type   =   "FarmingActionSettings"
+            }
+            uiDesc   =   ""
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "planter"
+                  truckUiName   =   "trailer_planter"
+                  afterStageFinished   =   "DO_NOTHING"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_03"
+               }
+            ]
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN"
+               tolerance   =   0.3
+               uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_04"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_05"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "harvester"
+                  truckUiName   =   "trailer_harvester"
+                  afterStageFinished   =   "DO_NOTHING"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_06"
+               }
+            ]
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE"
+               tolerance   =   0.3
+               uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_07"
+               model   =   {
+                  levelName   =   "level_ru_08_01"
+                  modelTag   =   "field_tutor"
+                  stagesProgress   =   {
+                     build_stage_0   =   {
+                     }
+                     build_stage_1   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "ModelBuildingSettings"
+               }
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "level_ru_08_01 || RU_08_01_FARMING_FIELD_TUTORIAL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE_GROWN"
+               tolerance   =   1
+               hideStageFromUi   =   True
+               uiDesc   =   "RU_08_01_FARMING_FIELD_TUTORIAL_S_08"
+               __type   =   "FarmingActionSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_KIROVEC"
+      ]
+      description   =   "RU_08_01_FARMING_FIELD_TUTORIAL_REW"
+      recommendedTruck   =   "FARMING_EQUIPMENT"
+      rewards   =   {
+         ObjectiveRewardAddItemsToZone   =   {
+            cargosSettings   =   [
+               {
+                  name   =   "CargoPotato"
+                  count   =   2
+               }
+            ]
+            zoneId   =   "RU_08_01_POTATO_STORAGE_1"
+            mapId   =   "level_ru_08_01"
+         }
+         ObjectiveRewardOpenZoneProperties_1   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_08_01_TRANSIT_08_02"
+                  mapId   =   "level_ru_08_01"
+                  props   =   {
+                     ZonePropertyGateway   =   {
+                        cameraPos   =   {
+                           x   =   -483.42
+                           y   =   94.59
+                           z   =   851.93
+                           __type   =   "Vector3d"
+                        }
+                        cameraDir   =   {
+                           x   =   -0.3
+                           y   =   -0.28
+                           z   =   -0.91
+                           __type   =   "Vector3d"
+                        }
+                        animationTime   =   8000
+                        startDelayTime   =   3000
+                        levelZoneLink   =   "level_ru_08_02 || RU_08_02_TRANSIT_08_01"
+                        extraZoneToPlaceTrucks   =   "level_ru_08_01 || RU_08_01_TRANSIT_08_02_OUT"
+                        extraZoneToPlaceWinch   =   "level_ru_08_01 || RU_08_01_TRANSIT_08_02_OUT"
+                     }
+                  }
+               }
+            }
+            __type   =   "ObjectiveRewardOpenZoneProperties"
+         }
+         ObjectiveRewardOpenZoneProperties_3   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_08_01_TRANSIT_08_02_OUT"
+                  mapId   =   "level_ru_08_01"
+                  props   =   {
+                     ZonePropertyGatewayOut   =   {
+                     }
+                  }
+               }
+            }
+            __type   =   "ObjectiveRewardOpenZoneProperties"
+         }
+         ObjectiveRewardOpenZoneProperties_2   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_08_01_TRANSIT_08_03"
+                  mapId   =   "level_ru_08_01"
+                  props   =   {
+                     ZonePropertyGateway   =   {
+                        cameraPos   =   {
+                           x   =   832.06
+                           y   =   87.51
+                           z   =   298.77
+                           __type   =   "Vector3d"
+                        }
+                        cameraDir   =   {
+                           x   =   -0.97
+                           y   =   -0.09
+                           z   =   -0.25
+                           __type   =   "Vector3d"
+                        }
+                        animationTime   =   8000
+                        startDelayTime   =   3000
+                        levelZoneLink   =   "level_ru_08_03 || RU_08_03_TRANSIT_08_01"
+                        extraZoneToPlaceTrucks   =   "level_ru_08_01 || RU_08_01_TRANSIT_08_03_OUT"
+                        extraZoneToPlaceWinch   =   "level_ru_08_01 || RU_08_01_TRANSIT_08_03_OUT"
+                     }
+                  }
+               }
+            }
+            __type   =   "ObjectiveRewardOpenZoneProperties"
+         }
+         ObjectiveRewardOpenZoneProperties_4   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_08_01_TRANSIT_08_03_OUT"
+                  mapId   =   "level_ru_08_01"
+                  props   =   {
+                     ZonePropertyGatewayOut   =   {
+                     }
+                  }
+               }
+            }
+            __type   =   "ObjectiveRewardOpenZoneProperties"
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   950
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   9200
+         }
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_08_01_TRAILER_STORE"
+                  mapId   =   "level_ru_08_01"
+                  props   =   {
+                     ZonePropertyTrailerAttach   =   {
+                     }
+                  }
+               }
+            }
+         }
+      }
+      employer   =   "HarvestCorp"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_HAZARD   =   {
+      uiDesc   =   "RU_08_01_HAZARD_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_HAZARD_CONTACT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CONTACT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_HAZARD_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CARGO_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoRadioactive"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CARGO_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CARGO_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CARGO_3"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CARGO_4"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+            isForceSearchCargoOnMap   =   True
+         }
+      ]
+      description   =   "RU_08_01_HAZARD_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   550
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4500
+         }
+      }
+      employer   =   "Kolari"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_WIND_POWER   =   {
+      uiDesc   =   "RU_08_01_WIND_POWER_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_WIND_POWER_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_WIND_POWER_SUPPLIES_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_08_01_WIND_POWER_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_WIND_POWER_SUPPLIES_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_08_01_WIND_POWER_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_WIND_POWER_SUPPLIES_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags2"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RU_08_01_WIND_POWER_BLADE"
+                  truckUiName   =   "WIND_BLADE"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_WIND_POWER_BLADE_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_WIND_POWER_S_04"
+               }
+            ]
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_08_01"
+         modelTag   =   "RU_08_01_WINDMILL"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_complete   =   {
+               __value   =   2
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_08_01_WIND_POWER_REW"
+      recommendedTruck   =   "LOGS"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   2100
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   19800
+         }
+      }
+      employer   =   "SunsailsTechnologies"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_FACTORY_RECYCLE   =   {
+      uiDesc   =   "RU_08_01_FACTORY_RECYCLE_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_FACTORY_CONTACT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_CONTACT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_FACTORY_RECYCLE_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_DELIVERY_S2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrels"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_PILE_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrels"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_PILE_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrels"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+            isForceSearchCargoOnMap   =   True
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_FACTORY_RECYCLE_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_HAZARD_CARGO_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_PILE_3"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_PILE_4"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+            isForceSearchCargoOnMap   =   True
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_FACTORY_RECYCLE_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_DELIVERY_S1"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_PILE_5"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoMetalPlanks"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_FACTORY_RECYCLE_PILE_6"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoMetalPlanks"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+            isForceSearchCargoOnMap   =   True
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_HAZARD"
+      ]
+      description   =   "RU_08_01_FACTORY_RECYCLE_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1270
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   12250
+         }
+      }
+      employer   =   "Kolari"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_ELEVATOR_STUFF   =   {
+      uiDesc   =   "RU_08_01_ELEVATOR_STUFF_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_ELEVATOR_STUFF_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_ELEVATOR_STUFF_V"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_ELEVATOR_STUFF_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_ELEVATOR_STUFF_PARTS_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "ELEVATOR_STUFF_SP"
+                  truckUiName   =   "ELEVATOR_STUFF_SP"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ELEVATOR_STUFF_SPECIAL_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_08_01_ELEVATOR_STUFF_S_02"
+               }
+            ]
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ELEVATOR_STUFF_SPAWN_PARTS_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ELEVATOR_STUFF_SPAWN_PARTS_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ELEVATOR_STUFF_SPAWN_PARTS_3"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_ELEVATOR_STUFF_SPAWN_PARTS_4"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+            isForceSearchCargoOnMap   =   True
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_HELP_RAILWAY_WORKERS"
+      ]
+      description   =   "RU_08_01_ELEVATOR_STUFF_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   870
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   9300
+         }
+      }
+      employer   =   "HarvestCorp"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_METALSCOUT   =   {
+      uiDesc   =   "RU_08_01_METALSCOUT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_METALSCOUT_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_METALSCOUT_PIPES_SCOUT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  needToBeDiscoveredByMetallodetector   =   True
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_METALSCOUT_PIPES_SPAWN"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoPipesSmall"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_METALSCOUT_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_METALSCOUT_DELIVERY_PIPES"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesSmall"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            isForceSearchCargoOnMap   =   True
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_METALSCOUT_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_METALSCOUT_SPECIAL_SCOUT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  needToBeDiscoveredByMetallodetector   =   True
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_METALSCOUT_SPECIAL_SPAWN"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoContainerLarge"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_METALSCOUT_S_04"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_METALSCOUT_DELIVERY_SPECIAL"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLarge"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            isForceSearchCargoOnMap   =   True
+         }
+      ]
+      description   =   "RU_08_01_METALSCOUT_REW"
+      recommendedTruck   =   "METAL_DETECTOR"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   950
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   9200
+         }
+      }
+      employer   =   "HarvestCorp"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+   RU_08_01_THROW_OUT_TRASH   =   {
+      uiDesc   =   "RU_08_01_THROW_OUT_TRASH_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_08_01_THROW_OUT_TRASH_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_03 || RU_08_03_GARBAGE_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoTrash"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_THROW_OUT_TRASH_SPAWN_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoTrash"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_ru_08_01 || RU_08_01_THROW_OUT_TRASH_SPAWN_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoTrash"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_FARMING_FIELD_TUTORIAL"
+      ]
+      description   =   "RU_08_01_THROW_OUT_TRASH_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   590
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6650
+         }
+      }
+      employer   =   "Kolari"
+      region   =   "ru_08"
+      __type   =   "ContractSettings"
+   }
+}
+contestSettings   =   {
+   RU_08_01_LAKE_RACE   =   {
+      uiDesc   =   "RU_08_01_LAKE_RACE_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            uiDesc   =   ""
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S3"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S4"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S5"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S6"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S7"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S8"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_S9"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_08_01_LAKE_RACE_S_9"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_F"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_08_01_LAKE_RACE_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   240
+                  xp   =   560
+                  money   =   560
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   260
+                  xp   =   410
+                  money   =   410
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   300
+                  xp   =   260
+                  money   =   260
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_LAKE_RACE_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   RU_08_01_LOCAL_FUN   =   {
+      uiDesc   =   "RU_08_01_LOCAL_FUN_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S3"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S4"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S5"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S6"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S7"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S8"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_S9"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_08_01_HAZARD"
+      ]
+      description   =   "RU_08_01_LOCAL_FUN_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   200
+                  xp   =   500
+                  money   =   500
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   240
+                  xp   =   350
+                  money   =   350
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   300
+                  xp   =   150
+                  money   =   150
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_08_01 || RU_08_01_LOCAL_FUN_RACE_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

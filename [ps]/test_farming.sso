@@ -1,0 +1,48 @@
+isNeedToBeCloacked   =   False
+zoneDesc   =   {
+   TESTFARM_GARAGE_ENTRANCE   =   {
+      props   =   {
+         ZonePropertyGarageEntrance   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TESTFARM_GARAGE_EXIT   =   {
+      props   =   {
+         ZonePropertyGarageExit   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TESTFARM_FARM_LARGE   =   {
+      props   =   {
+         ZonePropertyFarmingArea   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TESTFARM_FARM_MEDIUM   =   {
+      props   =   {
+         ZonePropertyFarmingArea   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TESTFARM_FARM_SMALL   =   {
+      props   =   {
+         ZonePropertyFarmingArea   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TESTFARM_FARM_LARGE_GIVER   =   {
+      __type   =   "ZoneSettings"
+   }
+   TESTFARM_FARM_MEDIUM_GIVER   =   {
+      __type   =   "ZoneSettings"
+   }
+   TESTFARM_FARM_SMALL_GIVER   =   {
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

@@ -1,0 +1,4 @@
+modMapIdRef   =   {
+   __type   =   "IntRefParam"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

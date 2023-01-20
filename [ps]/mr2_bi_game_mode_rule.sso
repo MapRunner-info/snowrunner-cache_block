@@ -1,0 +1,110 @@
+difficultyGameModeStrings   =   {
+   BaseMode   =   {
+      __value   =   "NewGame"
+   }
+   HardMode   =   {
+      __value   =   "HardMode"
+   }
+   NewGamePlusMode   =   {
+      __value   =   "NewGamePlus"
+   }
+}
+ngpSettingsStrings   =   {
+   TRUCK_AVAILABILITY   =   {
+      __value   =   "TruckAvailability"
+   }
+   STARTING_RULES   =   {
+      __value   =   "StartingVehicles"
+   }
+   STARTING_RANK   =   {
+      __value   =   "Rank"
+   }
+   VEHICLE_STORAGE   =   {
+      __value   =   "TruckStorageAvailability"
+   }
+   DLC_VEHICLES   =   {
+      __value   =   "DLCAvailability"
+   }
+   ADDON_AVAILABILITY   =   {
+      __value   =   "ExternalAddonsAvailability"
+   }
+   TYRE_AVAILABILITY   =   {
+      __value   =   "TireAvailability"
+   }
+   INTENAL_ADDON_AVAILABILITY   =   {
+      __value   =   "InternalAddonsAvailability"
+   }
+   TRAILER_STORE_AVAILBILITY   =   {
+      __value   =   "TrailerStoreAvailability"
+   }
+   TRAILER_AVAILABILITY   =   {
+      __value   =   "TrailerAvailability"
+   }
+   STARTING_MONEY   =   {
+      __value   =   "StartingCurrency"
+   }
+   TRUCK_PRICING   =   {
+      __value   =   "PricingRules"
+   }
+   TRUCK_SELLING   =   {
+      __value   =   "SellingPriceRules"
+   }
+   ADDON_PRICING   =   {
+      __value   =   "AddonPricingRules"
+   }
+   TRAILER_PRICING   =   {
+      __value   =   "TrailerPricingRules"
+   }
+   TRAILER_SELLING   =   {
+      __value   =   "TrailerSellingPriceRules"
+   }
+   FUEL_PRICE   =   {
+      __value   =   "FuelPricingRules"
+   }
+   GARAGE_REPAIRE   =   {
+      __value   =   "GarageRepairRules"
+   }
+   GARAGE_REFUEL   =   {
+      __value   =   "GarageRefuelingRules"
+   }
+   REPAIR_POINTS_COST   =   {
+      __value   =   "RepairPointsRestock"
+   }
+   REPAIR_POINTS_AMOUNT   =   {
+      __value   =   "RepairPointsEfficiency"
+   }
+   CONTRACTS   =   {
+      __value   =   "ContractPayout"
+   }
+   TASKS_CONTESTS   =   {
+      __value   =   "TaskContestPayout"
+   }
+   CONTEST_ATTEMPTS   =   {
+      __value   =   "ContestAvailability"
+   }
+   REGION_TRAVELLING   =   {
+      __value   =   "TravelingBetweenRegions"
+   }
+   VEHICLE_DAMAGE   =   {
+      __value   =   "DamageRules"
+   }
+   RECOVERY   =   {
+      __value   =   "TruckRecoveryRules"
+   }
+   TIME_SETTINGS   =   {
+      __value   =   "TimeSettings"
+   }
+   LOADING   =   {
+      __value   =   "AutomaticCargoLoading"
+   }
+   TELEPORTATION   =   {
+      __value   =   "TruckSwitchingMinimapRules"
+   }
+   REGIONAL_REPAIR   =   {
+      __value   =   "RepairRegionalRules"
+   }
+   MAP_MARKER   =   {
+      __value   =   "MapMarker"
+   }
+}
+__type   =   "ClientBiEventRule"

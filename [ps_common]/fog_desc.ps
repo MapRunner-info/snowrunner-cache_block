@@ -1,0 +1,60 @@
+fog {
+	__type = "section"
+    	__caption = "Fog parameters"
+
+	density {
+		__type = "float"
+		__caption = "Density (0-...)"
+		__defaultValue = 0.0005
+	}
+	height {
+		__type = "float"
+		__caption = "Height (m)"
+		__defaultValue = 0.0000
+	}
+	upperFalloff {
+		__type = "float"
+		__caption = "Upper falloff scale (0-...)"
+		__defaultValue = 1.0000
+	}
+	lowerFalloff {
+		__type = "float"
+		__caption = "Lower falloff scale (0-...)"
+		__defaultValue = 1.0000
+	}
+	densityStart {
+		__type = "float"
+		__caption = "Start distance from camera (m)"
+		__defaultValue = 0
+	}
+	opacityClamp {
+		__type = "float"
+		__caption = "Maximum opacity (0 - 1)"
+		__defaultValue = 1.0
+	}
+	color {
+		__type = "col3hdr"
+		__caption = "Color"
+		__defaultValue = [25.5, 11.8, 22.9, 25.2]
+	}
+	sunColor {
+		__type = "col3hdr"
+		__caption = "Inscatter color"
+		__defaultValue = [25.5, 16.0, 23.9, 25.2]
+	}
+	sunAngle {
+		__type = "float"
+		__caption = "Inscatter angle (0 - 180 degr.)"
+		__defaultValue = 30.0
+	}
+	inscatterFromSky {
+        	__type = "bool"
+        	__caption = "Add skylight to fog"
+        	__defaultValue = false
+	}
+	inscatterAmount {
+		__type = "float"
+		__caption = "Amount of sky light in fog"
+		__defaultValue = 1.0
+	}
+}

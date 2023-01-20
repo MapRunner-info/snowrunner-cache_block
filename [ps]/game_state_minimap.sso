@@ -1,0 +1,7 @@
+enableScaleformMouse   =   True
+inputScreen   =   {
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+idx   =   "MINIMAP"
+__type   =   "GameStateBase"

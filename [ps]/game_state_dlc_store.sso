@@ -1,0 +1,3 @@
+enableScaleformMouse   =   False
+idx   =   "DLC_STORE"
+__type   =   "GameStateBase"

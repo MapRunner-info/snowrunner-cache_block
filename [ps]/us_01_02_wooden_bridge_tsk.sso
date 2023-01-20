@@ -1,0 +1,55 @@
+uiDesc   =   "US_01_02_WOODEN_BRIDGE_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_WOODEN_BRIDGE_WOODEN"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_WOODEN_BRIDGE_A_TSK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_01_02_WOODEN_BRIDGE_B_TSK"
+               ]
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_02"
+   modelTag   =   "us_01_02_wood_bridge_construction"
+   stagesProgress   =   {
+      build_stage_0   =   {
+      }
+      build_stage_1   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "US_01_02_WOODEN_BRIDGE_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_WOODEN_BRIDGE_A_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_02_WOODEN_BRIDGE_B_TSK"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   200
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2200
+   }
+}
+__type   =   "TaskSettings"

@@ -1,0 +1,34 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         prevBtn   =   {
+            mouseChildren   =   True
+            isEnableHandleInput   =   False
+            __type   =   "UiNewgameplusLibNewgameplusstepperarrow"
+         }
+         nextBtn   =   {
+            mouseChildren   =   True
+            isEnableHandleInput   =   False
+            __type   =   "UiNewgameplusLibNewgameplusstepperarrow"
+         }
+         __type   =   "UiNewgameplusLibNewgameplusstepper"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "UiNewGamePlusOneSettingStepperView"
+}
+inputScreen   =   {
+   priority   =   "VERY_HIGH"
+   inputsLinks   =   {
+      LeftTap   =   {
+         inputLink   =   "UI.SelectSettingLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      RightTap   =   {
+         inputLink   =   "UI.SelectSettingRight"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "UiNewGamePlusOneSettingStepperController"

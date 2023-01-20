@@ -1,0 +1,48 @@
+uiDesc   =   "US_01_01_BOATMAN__TOOLS_DELIVERY_TSK_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_BOATMAN_TOOLS_BRING_SERVICE_AND_VEHICLE_SPARE_PARTS"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BOATMAN_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BOATMAN_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_01_BOATMAN__TOOLS_DELIVERY_TSK_REWARD_DESC"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   180
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1600
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_BOATMAN_TOOLS_DELIVERY_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

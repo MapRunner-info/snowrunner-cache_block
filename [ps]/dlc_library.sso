@@ -1,0 +1,1053 @@
+dlcInfos   =   {
+   pre_order   =   {
+      name   =   "UI_DLC_NAME_PRE_ORDER"
+      desc   =   "UI_DLC_NAME_PRE_ORDER_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannernavistar5000mvtractor"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgnavistar5000mvtractor"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgNavistar5000MVTractor"
+      isHidden   =   True
+      platformsToExclude   =   [
+         "egs"
+      ]
+      dlcTruck   =   {
+         navistar_5000mv   =   {
+            __value   =   "dlcstoreImgNavistar5000MVTractor"
+         }
+      }
+      trucksToAdd   =   {
+         navistar_5000mv   =   {
+            __value   =   1
+         }
+      }
+      __type   =   "DlcInfo"
+   }
+   sabertooth   =   {
+      name   =   "UI_DLC_NAME_SABERTOOTH"
+      seasonpassId   =   "seasonpass_1"
+      isHidden   =   True
+      unavailableToBuy   =   True
+      truckSkins   =   [
+         {
+            truckType   =   "derry_longhorn_4520"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinHeavyDutyDerryLonghorn4520"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   khan39marshall   =   {
+      name   =   "UI_DLC_NAME_DLC02"
+      desc   =   "UI_DLC_NAME_DLC02_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerhighroller"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimghighrollerpack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgHighRollerPack"
+      seasonpassId   =   "seasonpass_1"
+      dlcTruck   =   {
+         khan_39_marshall   =   {
+            __value   =   "dlcstoreImgKhan39Scout"
+         }
+      }
+      trucksToAdd   =   {
+         khan_39_marshall   =   {
+            __value   =   1
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "khan_39_marshall"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinKhan39Scout"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   white_western_star4964skin   =   {
+      name   =   "UI_DLC_NAME_DLC03"
+      desc   =   "UI_DLC_NAME_DLC03_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerloadeddice"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgloadeddicevinylwrap"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgLoadedDiceVinylWrap"
+      seasonpassId   =   "seasonpass_1"
+      truckSkins   =   [
+         {
+            truckType   =   "ws_4964_white"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinWhiteWesternStar4964"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   chevroletck1500skin   =   {
+      name   =   "UI_DLC_NAME_DLC04"
+      desc   =   "UI_DLC_NAME_DLC04_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerscorched"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgscorchedvinylwrap"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgScorchedVinylWrap"
+      seasonpassId   =   "seasonpass_1"
+      truckSkins   =   [
+         {
+            truckType   =   "chevrolet_ck1500"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinChevroletCK1500"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   chevrolet_kodiakc70skin   =   {
+      name   =   "UI_DLC_NAME_DLC05"
+      desc   =   "UI_DLC_NAME_DLC05_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannertruecolors"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgtruecolorsvinylwrap"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgTrueColorsVinylWrap"
+      seasonpassId   =   "seasonpass_1"
+      truckSkins   =   [
+         {
+            truckType   =   "chevrolet_kodiakc70"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinChevroletKodiakC70"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   search_and_recover   =   {
+      name   =   "UI_DLC_NAME_SEARCH_AND_RECOVER"
+      desc   =   "UI_DLC_NAME_SEARCH_AND_RECOVER_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseason1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgseason1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason1"
+      seasonpassId   =   "seasonpass_1"
+      dlcTruck   =   {
+         ford_f750   =   {
+            __value   =   "dlcstoreImgFord750"
+         }
+         tuz_16_actaeon   =   {
+            __value   =   "dlcstoreImgTUZ16Actaeon"
+         }
+         tuz_108_warthog   =   {
+            __value   =   "dlcstoreImgTUZ108Warthog"
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "tayga_6436"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinTayga6436"
+         },
+         {
+            truckType   =   "tuz_166"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinTUZ166"
+         }
+      ]
+      regions   =   [
+         "ru_03"
+      ]
+      addons   =   [
+         "stuff_dog"
+      ]
+      __type   =   "DlcInfo"
+   }
+   westernstar49x   =   {
+      name   =   "UI_DLC_NAME_DLC10"
+      desc   =   "UI_DLC_NAME_DLC10_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerwestern"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgwesternstar49x"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      dlcTruck   =   {
+         western_star_49x   =   {
+            __value   =   "dlcstoreImgWesternStar49X"
+         }
+      }
+      trucksToAdd   =   {
+         western_star_49x   =   {
+            __value   =   1
+         }
+      }
+      __type   =   "DlcInfo"
+   }
+   chevroletapache   =   {
+      name   =   "UI_DLC_NAME_DLC11"
+      desc   =   "UI_DLC_NAME_DLC11_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerclassico"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgclasicopack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      dlcTruck   =   {
+         chevy_apache   =   {
+            __value   =   "dlcstoreImgChevroletApache6x6"
+         }
+      }
+      trucksToAdd   =   {
+         chevy_apache   =   {
+            __value   =   1
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "chevy_apache"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinChevroletApache6x6"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   expand_and_explore   =   {
+      name   =   "UI_DLC_NAME_EXPAND_AND_EXPLORE"
+      desc   =   "UI_DLC_NAME_EXPAND_AND_EXPLORE_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseason2"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgseason2"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason2"
+      seasonpassId   =   "seasonpass_1"
+      dlcTruck   =   {
+         cat_770g   =   {
+            __value   =   "dlcstoreImgCAT770G"
+         }
+         cat_th357   =   {
+            __value   =   "dlcstoreImgCATTH357DAG"
+         }
+         krs_58_bandit   =   {
+            __value   =   "dlcstoreImgBandit"
+         }
+      }
+      trucksToAdd   =   {
+         krs_58_bandit   =   {
+            __value   =   1
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "international_scout_800"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinInternationalHarvesterScout800"
+         },
+         {
+            truckType   =   "international_loadstar_1700"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinInternationalLoadstar"
+         }
+      ]
+      regions   =   [
+         "us_04"
+      ]
+      addons   =   [
+         "stuff_pendant_skull",
+         "stuff_pendant_dreamcatcher"
+      ]
+      __type   =   "DlcInfo"
+   }
+   seasonpass_1   =   {
+      name   =   "UI_DLC_NAME_SEASONPASS_1"
+      desc   =   "UI_DLC_NAME_SEASONPASS_1_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBanneryear1pass"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgyear1pass"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      isHidden   =   True
+      isSeasonpass   =   True
+      __type   =   "DlcInfo"
+   }
+   locate_and_deliver   =   {
+      name   =   "UI_DLC_NAME_LOCATE_AND_DELIVER"
+      desc   =   "UI_DLC_NAME_LOCATE_AND_DELIVER_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseason3"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgseason3"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason3"
+      seasonpassId   =   "seasonpass_1"
+      dlcTruck   =   {
+         paystar_5600ts   =   {
+            __value   =   "dlcstoreImgInternationalPayStarTwinSteer"
+         }
+         boar_45318   =   {
+            __value   =   "dlcstoreImgBoar45318"
+         }
+         pacific_p512   =   {
+            __value   =   "dlcstoreImgPacificP512PF"
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "step_310e"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinStep310e"
+         },
+         {
+            truckType   =   "voron_grad"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinVoronGrad"
+         },
+         {
+            truckType   =   "royal_bm17"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinRoyalBM17"
+         }
+      ]
+      regions   =   [
+         "us_03"
+      ]
+      addons   =   [
+         "stuff_bobblehead_walrus",
+         "stuff_bobblehead_parrot",
+         "stuff_hood_default_boar_45318"
+      ]
+      __type   =   "DlcInfo"
+   }
+   expansion   =   {
+      name   =   "UI_DLC_NAME_EXPANSION"
+      desc   =   "UI_DLC_NAME_EXPANSION_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseason4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgseason4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason4"
+      seasonpassId   =   "seasonpass_1"
+      dlcTruck   =   {
+         zikz_605r   =   {
+            __value   =   "dlcstoreImgZiKZ605R"
+         }
+         khan_317_sentinel   =   {
+            __value   =   "dlcstoreImgKhan317Sentinel"
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "zikz_5368"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinZiKZ5368"
+         },
+         {
+            truckType   =   "azov_64131"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinAzov64131"
+         },
+         {
+            truckType   =   "tuz_420_tatarin"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinTUZ420Tatarin"
+         }
+      ]
+      regions   =   [
+         "ru_04"
+      ]
+      __type   =   "DlcInfo"
+   }
+   cat681_hx520   =   {
+      name   =   "UI_DLC_NAME_DLC12"
+      desc   =   "UI_DLC_NAME_DLC12_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBanneranniversary"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimganniversarydlc"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      dlcTruck   =   {
+         cat_ct681   =   {
+            __value   =   "dlcstoreImgCAT681"
+         }
+         international_hx_520   =   {
+            __value   =   "dlcstoreImgInternationalHX520"
+         }
+      }
+      trucksToAdd   =   {
+         cat_ct681   =   {
+            __value   =   1
+         }
+         international_hx_520   =   {
+            __value   =   1
+         }
+      }
+      __type   =   "DlcInfo"
+   }
+   gmc_brigadier8000   =   {
+      name   =   "UI_DLC_NAME_DLC18"
+      desc   =   "UI_DLC_NAME_DLC18_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerbrigadier"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimggmcbrigadier"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      dlcTruck   =   {
+         gmc_8000   =   {
+            __value   =   "dlcstoreImgGMCBrigadier"
+         }
+      }
+      trucksToAdd   =   {
+         gmc_8000   =   {
+            __value   =   1
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "gmc_8000"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinGMCBrigadier"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   burning_bright_vinyl_skins   =   {
+      name   =   "UI_DLC_NAME_DLC20"
+      desc   =   "UI_DLC_NAME_DLC20_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerburningwrap"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgburningbrightvinylwrappack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgBurningBrightVinylWrapPack"
+      seasonpassId   =   "seasonpass_2"
+      truckSkins   =   [
+         {
+            truckType   =   "azov_5319"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinAzov5319"
+            uiName   =   ""
+         },
+         {
+            truckType   =   "azov_73210"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinAzov73210"
+         },
+         {
+            truckType   =   "yar_87"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinYAR87"
+         },
+         {
+            truckType   =   "voron_ae4380"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinVoronAE4380"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   tatra805_tatra_t813   =   {
+      name   =   "UI_DLC_NAME_DLC13"
+      desc   =   "UI_DLC_NAME_DLC13_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannertatra"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgtatradualpack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgTatraDualPack"
+      seasonpassId   =   "seasonpass_2"
+      dlcTruck   =   {
+         tatra_805   =   {
+            __value   =   "dlcstoreImgTatra805"
+         }
+         tatra_t813   =   {
+            __value   =   "dlcstoreImgTatra813"
+         }
+      }
+      trucksToAdd   =   {
+         tatra_805   =   {
+            __value   =   1
+         }
+         tatra_t813   =   {
+            __value   =   1
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "tatra_t813"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinTatraT813"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   seasonpass_2   =   {
+      name   =   "UI_DLC_NAME_SEASONPASS_2"
+      desc   =   "UI_DLC_NAME_SEASONPASS_2_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBanneryear2pass"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgyear2pass"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      isHidden   =   True
+      isSeasonpass   =   True
+      __type   =   "DlcInfo"
+   }
+   rostov_region   =   {
+      name   =   "UI_DLC_NAME_BUILD_AND_DISPATCH"
+      desc   =   "UI_DLC_NAME_BUILD_AND_DISPATCH_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseason5"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgseason5"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason5"
+      seasonpassId   =   "seasonpass_2"
+      dlcTruck   =   {
+         tatra_phoenix   =   {
+            __value   =   "dlcstoreImgTatraPhoenix"
+         }
+         tatra_force_t815_7   =   {
+            __value   =   "dlcstoreImgTatraForce"
+         }
+      }
+      regions   =   [
+         "ru_05"
+      ]
+      __type   =   "DlcInfo"
+   }
+   jeep_wrangler_jeep_cj7   =   {
+      name   =   "UI_DLC_NAME_DLC19"
+      desc   =   "UI_DLC_NAME_DLC19_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerjeep"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgjeepdualpack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      dlcTruck   =   {
+         jeep_wrangler   =   {
+            __value   =   "dlcstoreImgJeepWranglerRubicon"
+         }
+         jeep_cj7_renegade   =   {
+            __value   =   "dlcstoreImgJeepCJ7Renegade"
+         }
+      }
+      trucksToAdd   =   {
+         jeep_wrangler   =   {
+            __value   =   1
+         }
+         jeep_cj7_renegade   =   {
+            __value   =   1
+         }
+      }
+      __type   =   "DlcInfo"
+   }
+   haul_and_hustle   =   {
+      name   =   "UI_DLC_NAME_HAUL_AND_HUSTLE"
+      desc   =   "UI_DLC_NAME_HAUL_AND_HUSTLE_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseason6"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgseason6"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason6"
+      seasonpassId   =   "seasonpass_2"
+      dlcTruck   =   {
+         aramatsu_forester   =   {
+            __value   =   "dlcstoreImgAramatsuForester"
+         }
+         tayga_6455b   =   {
+            __value   =   "dlcstoreImgTayga6455b"
+         }
+      }
+      regions   =   [
+         "us_06"
+      ]
+      __type   =   "DlcInfo"
+   }
+   step_3364_crocodile   =   {
+      name   =   "UI_DLC_NAME_STEP_3364_CROCODILE"
+      desc   =   "UI_DLC_NAME_STEP_3364_CROCODILE_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannercrocodile"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgcrocodilepack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      dlcTruck   =   {
+         step_3364_crocodile   =   {
+            __value   =   "dlcstoreImgStep3364Crocodile"
+         }
+      }
+      trucksToAdd   =   {
+         step_3364_crocodile   =   {
+            __value   =   1
+         }
+      }
+      __type   =   "DlcInfo"
+   }
+   landrover_defender   =   {
+      name   =   "UI_DLC_NAME_DLC21"
+      desc   =   "UI_DLC_NAME_DLC21_DESC"
+      bannerImage   =   {
+         type   =   {
+            symbol   =   "banner_landrover"
+            __type   =   "UiImgLibBannerlandrover"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            symbol   =   "dlcstorePreviewImgLandRoverDualPack"
+            __type   =   "UiImgLibDlcstorepreviewimglandroverdualpack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgLandRoverDualPack"
+      seasonpassId   =   ""
+      dlcTruck   =   {
+         land_rover_defender_90   =   {
+            __value   =   "dlcstoreImgLandRoverDefender90"
+         }
+         land_rover_defender_110   =   {
+            __value   =   "dlcstoreImgLandRoverDefender110"
+         }
+      }
+      trucksToAdd   =   {
+         land_rover_defender_90   =   {
+            __value   =   1
+         }
+         land_rover_defender_110   =   {
+            __value   =   1
+         }
+      }
+      __type   =   "DlcInfo"
+   }
+   compete_and_conquer   =   {
+      name   =   "UI_DLC_NAME_COMPETE_AND_CONQUER"
+      desc   =   "UI_DLC_NAME_COMPETE_AND_CONQUER_DESC"
+      bannerImage   =   {
+         type   =   {
+            symbol   =   "banner_season_7"
+            __type   =   "UiImgLibBannerseason7"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            symbol   =   "dlcstorePreviewImgSeason7"
+            __type   =   "UiImgLibDlcstorepreviewimgseason7"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason7"
+      seasonpassId   =   "seasonpass_2"
+      dlcTruck   =   {
+         gor_by4   =   {
+            __value   =   "dlcstoreImgGorBy"
+         }
+         azov_43_191_sprinter   =   {
+            __value   =   "dlcstoreImgAzovSprinter"
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "gor_by4"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinGorBy"
+         },
+         {
+            truckType   =   "azov_43_191_sprinter"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinAzovSprinter"
+         }
+      ]
+      regions   =   [
+         "us_07"
+      ]
+      __type   =   "DlcInfo"
+   }
+   rezvani_hercules   =   {
+      name   =   "UI_DLC_NAME_REZVANI_HERCULES"
+      desc   =   "UI_DLC_NAME_REZVANI_HERCULES_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerrezvanihercules"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgrezvanihercules"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgRezvaniHercules"
+      seasonpassId   =   ""
+      dlcTruck   =   {
+         rezvani_hercules_6x6   =   {
+            __value   =   "dlcstoreImgRezvaniHercules"
+         }
+      }
+      trucksToAdd   =   {
+         rezvani_hercules_6x6   =   {
+            __value   =   1
+         }
+      }
+      __type   =   "DlcInfo"
+   }
+   western_star_47X_57X   =   {
+      name   =   "UI_DLC_NAME_WESTERN_STAR_WOLF_PACK"
+      desc   =   "UI_DLC_NAME_WESTERN_STAR_WOLF_PACK_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerwolfpack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgwolfpack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgWolfPack"
+      dlcTruck   =   {
+         western_star_nf1430   =   {
+            __value   =   "dlcstoreImgWs1430"
+         }
+         western_star_nf1424   =   {
+            __value   =   "dlcstoreImgWs1424"
+         }
+         western_star_57x   =   {
+            __value   =   "dlcstoreImgWs57x"
+         }
+      }
+      trucksToAdd   =   {
+         western_star_nf1430   =   {
+            __value   =   1
+         }
+         western_star_nf1424   =   {
+            __value   =   1
+         }
+         western_star_57x   =   {
+            __value   =   1
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "western_star_nf1424"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinWs1424"
+         },
+         {
+            truckType   =   "western_star_57x"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinWs57x"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   grand_harvest   =   {
+      name   =   "UI_DLC_NAME_GRAND_HARVEST"
+      desc   =   "UI_DLC_NAME_GRAND_HARVEST_DESC"
+      bannerImage   =   {
+         type   =   {
+            symbol   =   "banner_season_8"
+            __type   =   "UiImgLibBannerseason8"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            symbol   =   "dlcstorePreviewImgSeason8"
+            __type   =   "UiImgLibDlcstorepreviewimgseason8"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSeason8"
+      seasonpassId   =   "seasonpass_2"
+      dlcTruck   =   {
+         kirovets_k7m   =   {
+            __value   =   "dlcstoreImgKirovetsK7M"
+         }
+         kirovets_k700   =   {
+            __value   =   "dlcstoreImgKirovetsK700"
+         }
+         step_39331_pike   =   {
+            __value   =   "dlcstoreImgStepPike"
+         }
+      }
+      truckSkins   =   [
+         {
+            truckType   =   "step_39331_pike"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinStepPike"
+         }
+      ]
+      regions   =   [
+         "ru_08"
+      ]
+      __type   =   "DlcInfo"
+   }
+   instant_reward   =   {
+      name   =   "UI_DLC_NAME_INSTANT_REWARD"
+      desc   =   "UI_DLC_NAME_INSTANT_REWARD_DESC"
+      bannerImage   =   {
+         type   =   {
+            symbol   =   "banner_save_the_day"
+            __type   =   "UiImgLibBannersavetheday"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            symbol   =   "dlcstorePreviewImgSaveTheDayVinylWrapPack"
+            __type   =   "UiImgLibDlcstorepreviewimgsavethedayvinylwrappack"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      detailsItemImage   =   "dlcpagePreviewImgSaveTheDayVinylWrapPack"
+      seasonpassId   =   "seasonpass_3"
+      isHidden   =   False
+      unavailableToBuy   =   False
+      truckSkins   =   [
+         {
+            truckType   =   "freightliner_m916a1"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinFreightlinerM916"
+         },
+         {
+            truckType   =   "freightliner_114sd"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinFreightliner114SD"
+         },
+         {
+            truckType   =   "international_hx_520"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinInternationalHX520"
+         },
+         {
+            truckType   =   "chevrolet_kodiakc70"
+            skinId   =   33
+            storeImage   =   "dlcstoreSkinChevroletKodiakC70DLC12"
+         }
+      ]
+      __type   =   "DlcInfo"
+   }
+   seasonpass_3   =   {
+      name   =   "UI_DLC_NAME_SEASONPASS_3"
+      desc   =   "UI_DLC_NAME_SEASONPASS_3_DESC"
+      bannerImage   =   {
+         type   =   {
+            symbol   =   "banner_year3pass"
+            __type   =   "UiImgLibBanneryear3pass"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            symbol   =   "dlcstorePreviewImgYear3Pass"
+            __type   =   "UiImgLibDlcstorepreviewimgyear3pass"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      isSeasonpass   =   True
+      __type   =   "DlcInfo"
+   }
+   phase_9   =   {
+      name   =   "UI_DLC_NAME_PHASE_9"
+      desc   =   "UI_DLC_NAME_PHASE_9_DESC"
+      seasonpassId   =   "seasonpass_3"
+      dlcTruck   =   {
+         zikz_566a   =   {
+         }
+         derry_special_15c177   =   {
+         }
+      }
+      regions   =   [
+         "us_09"
+      ]
+      __type   =   "DlcInfo"
+   }
+}
+dlcOrder   =   [
+   "phase_9",
+   "seasonpass_3",
+   "instant_reward",
+   "grand_harvest",
+   "rezvani_hercules",
+   "western_star_47X_57X",
+   "compete_and_conquer",
+   "step_3364_crocodile",
+   "landrover_defender",
+   "haul_and_hustle",
+   "rostov_region",
+   "jeep_wrangler_jeep_cj7",
+   "tatra805_tatra_t813",
+   "seasonpass_2",
+   "expansion",
+   "cat681_hx520",
+   "gmc_brigadier8000",
+   "burning_bright_vinyl_skins",
+   "locate_and_deliver",
+   "seasonpass_1",
+   "expand_and_explore",
+   "chevroletapache",
+   "westernstar49x",
+   "search_and_recover",
+   "chevrolet_kodiakc70skin",
+   "chevroletck1500skin",
+   "white_western_star4964skin",
+   "khan39marshall",
+   "sabertooth",
+   "pre_order"
+]
+__type   =   "object"

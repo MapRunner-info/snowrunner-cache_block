@@ -1,0 +1,80 @@
+uiDesc   =   "RU_02_02_FLAG_2_CNT_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         sslModule   =   "game.missions.task_settings"
+         zones   =   [
+            {
+               uiDesc   =   "RU_02_02_FLAG_2_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FLAG_2_1"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_FLAG_2_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FLAG_2_2"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_FLAG_2_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FLAG_2_3"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_FLAG_2_4_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FLAG_2_4"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_FLAG_2_5_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FLAG_2_5"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_FLAG_2_CNT_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_ru_02_02 || RU_02_02_FLAG_2_START_CNT"
+   map   =   "level_ru_02_02"
+   zoneLocal   =   "RU_02_02_FLAG_2_START_CNT"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ContestRewards   =   {
+      timeSettings   =   {
+         GOLD   =   {
+            timeLimit   =   360
+            xp   =   170
+            money   =   2950
+            __type   =   "ContestResultRewards"
+         }
+         SILVER   =   {
+            timeLimit   =   480
+            xp   =   90
+            money   =   1450
+            __type   =   "ContestResultRewards"
+         }
+         BRONZE   =   {
+            timeLimit   =   0
+            xp   =   60
+            money   =   850
+            __type   =   "ContestResultRewards"
+         }
+      }
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+__type   =   "ContestSettings"

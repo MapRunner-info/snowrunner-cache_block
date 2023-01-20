@@ -1,0 +1,13 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   repair   =   {
+      text   =   "UI_ACCEPT"
+      __type   =   "NavButtonDesc"
+   }
+   close   =   {
+      text   =   "UI_CLOSE"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

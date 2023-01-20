@@ -1,0 +1,13 @@
+useBg   =   False
+centerAllign   =   True
+btns   =   {
+   close   =   {
+      text   =   "UI_CLOSE"
+      __type   =   "NavButtonDesc"
+   }
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

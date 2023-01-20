@@ -1,0 +1,11 @@
+content   =   {
+   tfCont   =   {
+      tf   =   {
+         isHtml   =   True
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiTrialsTrialslirtf"
+   }
+   __type   =   "UiTrialsTrialslircontent"
+}
+__type   =   "UiTrialsTrialslir"

@@ -1,0 +1,99 @@
+view   =   {
+   navBtnTabL   =   {
+      uiInputName   =   "TabLeft"
+      __type   =   "CustomNavigationButtonView"
+   }
+   navBtnTabR   =   {
+      uiInputName   =   "TabRight"
+      __type   =   "CustomNavigationButtonView"
+   }
+   __type   =   "UiTruckWarehouseView"
+}
+navPanels   =   {
+   default   =   {
+      useBg   =   True
+      btns   =   {
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         sell   =   {
+            uiInputName   =   "Sell"
+            __type   =   "NavButtonDesc"
+         }
+         deploy   =   {
+            uiInputName   =   "Deploy"
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            uiInputName   =   "Navigation"
+            hideWithCustomSteeringWheelPreset   =   True
+            __type   =   "NavButtonDesc"
+         }
+         modsOnlyOn   =   {
+            uiInputName   =   "ToggleModTrucksOnly"
+            __type   =   "NavButtonDesc"
+         }
+         modsOnlyOff   =   {
+            uiInputName   =   "ToggleModTrucksOnly"
+            __type   =   "NavButtonDesc"
+         }
+         warehouse   =   {
+            uiInputName   =   "Warehouse"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "UiTruckWarehouseNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "UiWarehouseScreenState"
+}
+inputScreen   =   {
+   name   =   "UiTruckWarehouse"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      TabLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      TabRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkActionMr"
+      }
+      Sell   =   {
+         inputLink   =   "UI.TruckSell"
+         __type   =   "InputLinkActionMr"
+      }
+      Deploy   =   {
+         inputLink   =   "UI.TruckDeploy"
+         __type   =   "InputLinkActionMr"
+      }
+      Navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      ToggleModTrucksOnly   =   {
+         inputLink   =   "UI.ToggleModTrucksOnly"
+         __type   =   "InputLinkActionMr"
+      }
+      Warehouse   =   {
+         inputLink   =   "UI.TruckDeploy"
+         __type   =   "InputLinkActionMr"
+      }
+      HidePolygonTool   =   {
+         inputLink   =   "UI.HidePolygonTool"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

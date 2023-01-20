@@ -1,0 +1,58 @@
+uiDesc   =   "RU_02_02_HUB_RECOVERY_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "RU_02_02_RAILWAY_OILTANK"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_OILTANK_TARGET"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "RU_02_02_OILTANK_TARGET_01_DESC"
+            globalZoneSpawnId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_TRAILER_SPAWN"
+               __type   =   "null"
+            }
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_ru_02_02"
+   modelTag   =   "RU_02_02_SERVICE_OILTANKER"
+   stagesProgress   =   {
+      stage_hidden   =   {
+      }
+      stage_visible   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "RU_02_02_HUB_RECOVERY_REW"
+rewards   =   {
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "RU_02_02_GAS_03"
+            mapId   =   "level_ru_02_02"
+            props   =   {
+               ZonePropertyFuelStation   =   {
+                  pricePerLiter   =   6
+               }
+            }
+         }
+      }
+   }
+   ObjectiveRewardExperience   =   {
+      amount   =   290
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2700
+   }
+}
+employer   =   "TransTaymir"
+region   =   "ru_02"
+__type   =   "ContractSettings"

@@ -1,0 +1,7 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiSettingsSettingstextclip"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "UiOneSettingView"

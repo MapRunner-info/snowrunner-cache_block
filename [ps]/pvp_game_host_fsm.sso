@@ -1,0 +1,226 @@
+states   =   {
+   Lobby   =   {
+      sslModule   =   "network.matchmaking.fsm.host.pvp_game_host_fsm"
+      isInitial   =   False
+      links   =   {
+         ready   =   {
+            toState   =   "StartingServer"
+            viewData   =   {
+               joints   =   [
+                  [
+                     2626,
+                     4392.276
+                  ],
+                  [
+                     2732,
+                     4397.649
+                  ]
+               ]
+               labelX   =   -14.73756
+               labelY   =   11.97426
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   2458.266
+         y   =   4333.335
+         breakPoints   =   [
+            "activateNode",
+            "deactivateNode"
+         ]
+      }
+      sslClass   =   "PvpGameHostFsmContentStatesLobby"
+      __type   =   "GameHostFsmStateLobby"
+   }
+   StartingServer   =   {
+      sslModule   =   "network.matchmaking.fsm.host.pvp_game_host_fsm"
+      isInitial   =   False
+      links   =   {
+         to_lobby   =   {
+            toState   =   "Lobby"
+            viewData   =   {
+               joints   =   [
+                  [
+                     2732,
+                     4382.629
+                  ],
+                  [
+                     2626,
+                     4377.257
+                  ]
+               ]
+               labelX   =   -23.52641
+               labelY   =   -25.14893
+               breakPoints   =   [
+                  "transitionNode"
+               ]
+            }
+            __type   =   "SslLink"
+         }
+         server_ready   =   {
+            toState   =   "Ingame"
+            viewData   =   {
+               joints   =   [
+                  [
+                     2865,
+                     4388.237
+                  ],
+                  [
+                     2959,
+                     4391.4
+                  ]
+               ]
+               labelX   =   -41.91187
+               labelY   =   6.985312
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   2731.574
+         y   =   4346.35
+         breakPoints   =   [
+            "activateNode",
+            "deactivateNode"
+         ]
+      }
+      sslClass   =   "PvpGameHostFsmContentStatesStartingserver"
+      __type   =   "GameHostFsmStateStartingServer"
+   }
+   Idle   =   {
+      isInitial   =   False
+      links   =   {
+         to_game_lobby   =   {
+            toState   =   "Lobby"
+            viewData   =   {
+               joints   =   [
+                  [
+                     2361,
+                     4361.734
+                  ],
+                  [
+                     2458,
+                     4367.772
+                  ]
+               ]
+               labelX   =   -41.04236
+               labelY   =   8.255407
+               breakPoints   =   [
+                  "transitionNode"
+               ]
+            }
+            __type   =   "SslLink"
+         }
+         to_ingame   =   {
+            toState   =   "Ingame"
+            viewData   =   {
+               joints   =   [
+                  [
+                     2361,
+                     4367.228
+                  ],
+                  [
+                     2378.84,
+                     4435.176
+                  ],
+                  [
+                     2956.612,
+                     4458.835
+                  ],
+                  [
+                     2995.742,
+                     4436
+                  ]
+               ]
+               labelX   =   -272.6982
+               labelY   =   24.90394
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   2240.736
+         y   =   4317.917
+         breakPoints   =   [
+            "activateNode",
+            "deactivateNode"
+         ]
+      }
+      __type   =   "GameHostFsmStateIdle"
+   }
+   Initial   =   {
+      isInitial   =   True
+      links   =   {
+         start   =   {
+            toState   =   "Idle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     2168,
+                     4295.979
+                  ],
+                  [
+                     2241,
+                     4330.021
+                  ]
+               ]
+               labelX   =   -18.58994
+               labelY   =   11.89756
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   2047.794
+         y   =   4216.015
+      }
+      __type   =   "GameHostFsmState"
+   }
+   Ingame   =   {
+      sslModule   =   "network.matchmaking.fsm.host.pvp_game_host_fsm"
+      links   =   {
+         to_lobby   =   {
+            toState   =   "Lobby"
+            viewData   =   {
+               joints   =   [
+                  [
+                     2959,
+                     4375.949
+                  ],
+                  [
+                     2919.373,
+                     4316.391
+                  ],
+                  [
+                     2561.725,
+                     4305.214
+                  ],
+                  [
+                     2553.64,
+                     4333
+                  ]
+               ]
+               labelX   =   100.5885
+               labelY   =   -48.89718
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   2958.734
+         y   =   4354.434
+      }
+      sslClass   =   "PvpGameHostFsmContentStatesIngame"
+      __type   =   "GameHostFsmStateIngame"
+   }
+}
+name   =   "PvpHost"
+logCategory   =   "app/client/mm/game_session/fsm/host"
+isNeedToLogOwnersName   =   False
+__type   =   "GameHostFsm"

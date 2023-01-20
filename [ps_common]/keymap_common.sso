@@ -1,0 +1,3546 @@
+layers   =   {
+   Debug   =   {
+      sections   =   {
+         Camera   =   {
+            commands   =   {
+               SwitchCamera   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    41
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1,
+                                    11
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    11,
+                                    1
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2,
+                                    4
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    11,
+                                    1
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               SendParamsCamera   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    74
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               SwitchGameContext   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    61
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    7
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    7
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    7
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    7
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               SwitchGameContextWhilePressed   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               LockOnCharacter   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    62
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    6
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    6
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    6
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    6
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ToggleRenderCameraCDT   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    72
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+               FlyCameraGoToPlayer   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCameraCommandsFlycameragotoplayer"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                        },
+                        {
+                        },
+                        {
+                        },
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    20
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  closeOnActivation   =   True
+                  __type   =   "InputActionHoldDbg"
+               }
+               FlyCameraIncreaseFov   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCameraCommandsFlycameraincreasefov"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                        },
+                        {
+                        },
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    33,
+                                    13
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  tuner   =   {
+                     __type   =   "CameraFovTuner"
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+               FlyCameraDecreaseFov   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCameraCommandsFlycameradecreasefov"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    33,
+                                    12
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  tuner   =   {
+                     __type   =   "CameraFovTuner"
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         Tools   =   {
+            commands   =   {
+               ActivateWorldEditor   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    88
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               StartStopMorphemeReplay   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    87
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ActivateBugReporter   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    59
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ActivateDebugMenu   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    60
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1,
+                                    0
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1,
+                                    0
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3,
+                                    10
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1,
+                                    0
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ActivateSslConsole   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsToolsCommandsActivatesslconsole"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    65
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ActivateDeactivateUIEditor   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    64
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         MatchmakingDebugUi   =   {
+            commands   =   {
+               ShowProfileInfo   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsShowprofileinfo"
+                  description   =   "Xbox user profile information"
+                  __type   =   "InputActionHoldDbg"
+               }
+               ShowFriendsList   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsShowfriendslist"
+                  description   =   "List of current user friends"
+                  __type   =   "InputActionHoldDbg"
+               }
+               ShowProfilesList   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsShowprofileslist"
+                  description   =   "List of requested profiles (for friends)"
+                  __type   =   "InputActionHoldDbg"
+               }
+               ShowPresenceList   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsShowpresencelist"
+                  description   =   "List of requested presence states (for friends)"
+                  __type   =   "InputActionHoldDbg"
+               }
+               ShowMatchmakingState   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsShowmatchmakingstate"
+                  __type   =   "InputActionHoldDbg"
+               }
+               SearchMatch   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsSearchmatch"
+                  __type   =   "InputActionHoldDbg"
+               }
+               CancelSearchMatch   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsCancelsearchmatch"
+                  __type   =   "InputActionHoldDbg"
+               }
+               StartSingleMatch   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsStartsinglematch"
+                  __type   =   "InputActionHoldDbg"
+               }
+               LeaveMatch   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsLeavematch"
+                  __type   =   "InputActionHoldDbg"
+               }
+               SetSessProp   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsSetsessprop"
+                  __type   =   "InputActionHoldDbg"
+               }
+               SetUserProp   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsSetuserprop"
+                  __type   =   "InputActionHoldDbg"
+               }
+               SearchPlayers   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsSearchplayers"
+                  __type   =   "InputActionHoldDbg"
+               }
+               StopSearchPlayers   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsStopsearchplayers"
+                  __type   =   "InputActionHoldDbg"
+               }
+               InviteFriend   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsInvitefriend"
+                  __type   =   "InputActionHoldDbg"
+               }
+               LeaveParty   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsLeaveparty"
+                  __type   =   "InputActionHoldDbg"
+               }
+               SetPartyLeader   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsSetpartyleader"
+                  __type   =   "InputActionHoldDbg"
+               }
+               KickPartyMember   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsKickpartymember"
+                  __type   =   "InputActionHoldDbg"
+               }
+               TogglePartyJoinable   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMatchmakingdebuguiCommandsTogglepartyjoinable"
+                  __type   =   "InputActionHoldDbg"
+               }
+            }
+            description   =   "Shows matchmaking information"
+            __type   =   "KeymapSectionDbg"
+         }
+         Common   =   {
+            commands   =   {
+               SaveSslProfileDump   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsSavesslprofiledump"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    42,
+                                    31
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157,
+                                    54,
+                                    31
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+               SaveSslMemoryDump   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    42,
+                                    32
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157,
+                                    54,
+                                    32
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+               SaveCVandSslProfileDumps   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsSavecvandsslprofiledumps"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    42,
+                                    30
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157,
+                                    54,
+                                    30
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+               RevertActiveCamera   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    73
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+               Wireframe   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    82
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "render/config/wireframe"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               MuteMusic   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsMutemusic"
+                  dbgVarPath   =   "sound/Play filter/Enable filter"
+                  muteByFilterDbgVarPath   =   "sound/Play filter/Mute by filter"
+                  filterDbgVarPath   =   "sound/Play filter/Filter wildcard"
+                  filter   =   "~*music*"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               SwitchUIRender   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    67
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  closeOnActivation   =   False
+                  dbgVarPath   =   "ui/render UI"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               CreateIactor   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsCreateiactor"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    26
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+               CreateTPL   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsCreatetpl"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    27
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  shootrayCastDistance   =   30
+                  __type   =   "InputActionHoldDbg"
+               }
+               ParticleWireframe   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsParticlewireframe"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    79
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "render/config/particle wireframe"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               SwitchOnscreenLog   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    68
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    0,
+                                    11
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3,
+                                    11
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    0,
+                                    11
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ToggleVisibilityDebug   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    47
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "render/debug/visibility/visualize/Debug mode"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               CameraFreezeVisibility   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    33
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  shortcutExecuteTime   =   0.15
+                  dbgVarPath   =   "render/debug/visibility/visualize/camera/Freeze visibility (ctrl + f)"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               SwitchOccluderVisMode   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    24
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157,
+                                    24
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "render/debug/visibility/visualize/occluders/Occluder vis mode (ctrl + o)"
+                  __type   =   "InputActionStringListDbgVarSwitcher"
+               }
+               SwitchObjectVisMode   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    48
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157,
+                                    48
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "render/debug/visibility/visualize/objects/Object vis mode (ctrl + b)"
+                  __type   =   "InputActionStringListDbgVarSwitcher"
+               }
+               StartCvDumpCollection   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsStartcvdumpcollection"
+                  __type   =   "InputActionHoldDbg"
+               }
+               StopCvDumpCollection   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsStopcvdumpcollection"
+                  __type   =   "InputActionHoldDbg"
+               }
+               ToggleDbgDrawCameraCDTGeom   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsCommonCommandsToggledbgdrawcameracdtgeom"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    35
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "game/camera/Show collision"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               ShowDIPsStatistics   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    44
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "statistics/DIPs/show DIPs statistics"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               ZPrepassDIPsStatistics   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    2
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "statistics/DIPs/details/show DIPs stat 1"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+            }
+            __type   =   "KeymapSectionDbg"
+         }
+         Havok   =   {
+            commands   =   {
+               havokSetEndPoint   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/set TO point"
+                  __type   =   "InputActionHoldDbgVarTrigger"
+               }
+               havokSetStartPoint   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    48
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/set FROM point"
+                  __type   =   "InputActionHoldDbgVarTrigger"
+               }
+               havokSetCursorPoint   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    34
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/set cursor point"
+                  __type   =   "InputActionHoldDbgVarTrigger"
+               }
+               havokShowNavmesh   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    50
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/show navmesh"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+               havokAddDebugBoundVolume   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    0
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/Debug Bound Volumes/add"
+                  __type   =   "InputActionHoldDbgVarTrigger"
+               }
+               havokIncreaseDebugBoundVolumeSize   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    36
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/Debug Bound Volumes/increase size"
+                  __type   =   "InputActionHoldDbgVarTrigger"
+               }
+               havokDecreaseDebugBoundVolumeSize   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    37
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/Debug Bound Volumes/decrease size"
+                  __type   =   "InputActionHoldDbgVarTrigger"
+               }
+               havokClearDebugBoundVolume   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  dbgVarPath   =   "AI/Havok/NavMesh/Debug Bound Volumes/clear"
+                  __type   =   "InputActionHoldDbgVarTrigger"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         Keymap   =   {
+            commands   =   {
+               ShowActiveLayers   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsKeymapCommandsShowactivelayers"
+                  dbgVarPath   =   "Common SSL/Keymap/Show Active Layers"
+                  __type   =   "InputActionHoldDbgVarSwitcher"
+               }
+            }
+            __type   =   "KeymapSectionDbg"
+         }
+         IntegrationStudioMacros   =   {
+            commands   =   {
+               Macro0   =   {
+                  slot   =   0
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro1   =   {
+                  slot   =   1
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro2   =   {
+                  slot   =   2
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro3   =   {
+                  slot   =   3
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro4   =   {
+                  slot   =   4
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro5   =   {
+                  slot   =   5
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro6   =   {
+                  slot   =   6
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro7   =   {
+                  slot   =   7
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro8   =   {
+                  slot   =   8
+                  __type   =   "InputActionHoldMacro"
+               }
+               Macro9   =   {
+                  slot   =   9
+                  __type   =   "InputActionHoldMacro"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         SslConsole   =   {
+            commands   =   {
+               Slot1   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot2   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot3   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot4   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot5   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot6   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot7   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot8   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+               Slot9   =   {
+                  __type   =   "InputActionHoldDbg"
+               }
+            }
+            __type   =   "SslConsoleKeymapSection"
+         }
+         Maya   =   {
+            commands   =   {
+               SetupScreenshotCameraPosToAutotest   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersDebugSectionsMayaCommandsSetupscreenshotcamerapostoautotest"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    78
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHoldDbg"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         ImGui   =   {
+            __type   =   "KeymapSectionDbgUiSystem"
+         }
+      }
+      __type   =   "KeymapLayerDbg"
+   }
+   WorldEditor   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               Deactivate   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    88
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               SwitchGameContext   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               SwitchCamera   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    41
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Ctrl   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               MouseClick   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    0
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               SwitchPrecise   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    14
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ForceSaveTransform   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    31
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    184,
+                                    31
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               MorphemeReplayStartRecord   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    87
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               TeleportToPointer   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    46
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    184,
+                                    46
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               EnableSelecting   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    16
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    184,
+                                    16
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               EnableMoving   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    17
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    184,
+                                    17
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               EnableRotating   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    18
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    184,
+                                    18
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               EnableScaling   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    19
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    184,
+                                    19
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               SwitchWorldAxis   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    45
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    184,
+                                    45
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ShowHelp   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    59
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ShowMenu   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    60
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Undo   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    44
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Redo   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    21
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               DeleteSelected   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    49
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      isProfile   =   False
+      __type   =   "KeymapLayerDbg"
+   }
+   BugReporter   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               Send   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    59
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               ShowIcModifier   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerDbg"
+   }
+   DebugConsole   =   {
+      sections   =   {
+         DebugButton   =   {
+            commands   =   {
+               Click   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    0
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Activate   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    28
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    10
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    8
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    8
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    8
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionTap"
+               }
+               Left   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    203
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    4
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    4
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    4
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    4
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Right   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    205
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    5
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    5
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    5
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    5
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Execute   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29,
+                                    28
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157,
+                                    28
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Close   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         Menu   =   {
+            commands   =   {
+               Up   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    200
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Down   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    208
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Cancel   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    14
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    9
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    9
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    9
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    9
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         Numbers   =   {
+            commands   =   {
+               Num0   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    11
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num1   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num2   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num3   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    4
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num4   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    5
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num5   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    6
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num6   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    7
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num7   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    8
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num8   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    9
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Num9   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    10
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         DebugUI   =   {
+            commands   =   {
+               HighlightNext   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    208
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    37
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               HighlightPrevious   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    200
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    36
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSectionDbg"
+         }
+      }
+      __type   =   "KeymapLayerDbg"
+   }
+   FlyCamera   =   {
+      sections   =   {
+         Movement   =   {
+            commands   =   {
+               Movement   =   {
+                  forward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    17
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    72
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    34
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    34
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    34
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    34
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  backward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    31
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    76
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    35
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    35
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    35
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    35
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  left   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    30
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    75
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  right   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    77
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionVector"
+               }
+               Rotation   =   {
+                  forward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    34
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    38
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    38
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    38
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    38
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  backward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    35
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    39
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    39
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    39
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    39
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  left   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    37
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    37
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    37
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    37
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  right   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    36
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xbox_one"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    36
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_ds4"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    36
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_stadia"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    36
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionRotate"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerFlyCamera"
+   }
+   MayaCamera   =   {
+      __type   =   "KeymapLayerFlyCamera"
+   }
+   Game   =   {
+      __type   =   "KeymapLayer"
+   }
+   UI   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               Escape   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionTap"
+               }
+               RightArrow   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    205
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionTap"
+               }
+               LeftArrow   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    203
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionTap"
+               }
+               UpArrow   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    200
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionTap"
+               }
+               DownArrow   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    208
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionTap"
+               }
+               Enter   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    28
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               MouseWheelUp   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    36
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               MouseWheelDown   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    37
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayer"
+   }
+   UnfocusedMode   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               ActivateDeactivate   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersUnfocusedmodeSectionsCommonCommandsActivatedeactivate"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    66
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  mouseClickLink   =   {
+                     inputLink   =   "UnfocusedMode.Click"
+                     __type   =   "InputLinkAction"
+                  }
+                  __type   =   "InputActionTapDbg"
+               }
+               Click   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    0
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerDbg"
+   }
+   HandCamera   =   {
+      sections   =   {
+         Movement   =   {
+            commands   =   {
+               UpDownMovement   =   {
+                  forward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    18
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  backward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    46
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    3
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionVector"
+               }
+               Roll   =   {
+                  left   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    5
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  right   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    19
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    4
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionVector"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+         Common   =   {
+            commands   =   {
+               SwitchCamera   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    53
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               WideAngle   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    2
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    13
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Zoom   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "gamepad_xenon"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    15
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerFlyCamera"
+   }
+   DbgThirdPersonCamera   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               Rotation   =   {
+                  forward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    34
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  backward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    35
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  left   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    33
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    30
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  right   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    32
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  mouseSettings   =   {
+                     sensitivity   =   2
+                  }
+                  __type   =   "InputActionRotate"
+               }
+               Zoom   =   {
+                  forward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    17
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  backward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    31
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionVector"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerDbg"
+   }
+   Permanent   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               Quit   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersPermanentSectionsCommonCommandsQuit"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    56,
+                                    62
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Screenshot   =   {
+                  sslModule   =   "extensions.keymap.keymap_common"
+                  sslClass   =   "KeymapCommonContentLayersPermanentSectionsCommonCommandsScreenshot"
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    183
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerPermanent"
+   }
+   SimpleCamera   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               SwitchPauseMode   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionTap"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerFlyCamera"
+   }
+   UIEditor   =   {
+      sections   =   {
+         Common   =   {
+            commands   =   {
+               Click   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    0
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               RClick   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "mouse"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    1
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Ctrl   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    29
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    157
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Shift   =   {
+                  cmd   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    42
+                                 ]
+                              },
+                              {
+                                 keys   =   [
+                                    54
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionHold"
+               }
+               Arrows   =   {
+                  forward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    200
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  backward   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    208
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  left   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    203
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  right   =   {
+                     devices   =   [
+                        {
+                           deviceType   =   "keyboard"
+                           shortcuts   =   [
+                              {
+                                 keys   =   [
+                                    205
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+                  __type   =   "InputActionVector"
+               }
+            }
+            __type   =   "KeymapSection"
+         }
+      }
+      __type   =   "KeymapLayerDbg"
+   }
+}
+__type   =   "KeymapBase"

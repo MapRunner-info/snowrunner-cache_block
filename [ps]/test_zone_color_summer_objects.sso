@@ -1,0 +1,28 @@
+tasksSettings   =   {
+   COLORTEST_VISIT_DAMAGED_ROAD_TSK   =   {
+      uiDesc   =   "COLORTEST_VISIT_DAMAGED_ROAD_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "COLORTEST_VISIT_DAMAGED_ROAD_0_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_zone_color_summer || COLORTEST_ZONETOVISIT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "COLORTEST_VISIT_DAMAGED_ROAD_REW"
+      taskGiverZone   =   {
+         globalZoneId   =   "test_zone_color_summer || COLORTEST_TASKGIVER"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

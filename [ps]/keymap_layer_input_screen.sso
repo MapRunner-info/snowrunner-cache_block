@@ -1,0 +1,6 @@
+sections   =   {
+   auto   =   {
+      __type   =   "KeymapSection"
+   }
+}
+__type   =   "KeymapLayer"

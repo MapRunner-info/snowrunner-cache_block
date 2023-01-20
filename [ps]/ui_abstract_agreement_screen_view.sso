@@ -1,0 +1,7 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiAgreementLibLiscenseagreementscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ScreenViewBase"

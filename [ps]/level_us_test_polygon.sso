@@ -1,0 +1,53 @@
+zoneDesc   =   {
+   US_POLYGON_GARAGE_ENTRANCE   =   {
+      props   =   {
+         ZonePropertyGarageEntrance   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   US_POLYGON_GARAGE_EXIT   =   {
+      props   =   {
+         ZonePropertyGarageExit   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   US_POLYGON_TRAILER_GARAGE   =   {
+      props   =   {
+         ZonePropertyTrailerAttach   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   US_POLYGON_FUEL_STATION   =   {
+      props   =   {
+         ZonePropertyFuelStation   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   US_POLYGON_REPAIR_STATION   =   {
+      props   =   {
+         ZonePropertyAutoRepairAndRestore   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   US_POLYGON_PICKUP   =   {
+      props   =   {
+         ZonePropertyCargoLoadingAllCargo   =   {
+            platformId   =   "US_POLYGON_PICKUP_MANUAL"
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   US_POLYGON_PICKUP_MANUAL   =   {
+      props   =   {
+         ZonePropertyManualLoading   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

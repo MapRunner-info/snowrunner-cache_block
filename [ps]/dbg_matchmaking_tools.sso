@@ -1,0 +1,21 @@
+showProfileInfoInputLink   =   {
+   inputLink   =   "DebugDBG.ShowProfileInfo"
+   __type   =   "InputLinkActionMr"
+}
+showFriendsListInputLink   =   {
+   inputLink   =   "DebugDBG.ShowFriendsList"
+   __type   =   "InputLinkActionMr"
+}
+showProfileListInputLink   =   {
+   inputLink   =   "DebugDBG.ShowProfilesList"
+   __type   =   "InputLinkActionMr"
+}
+showPresenceListInputLink   =   {
+   inputLink   =   "DebugDBG.ShowPresenceList"
+   __type   =   "InputLinkActionMr"
+}
+showMatchmakingStateInputLink   =   {
+   inputLink   =   "DebugDBG.ShowMatchmakingState"
+   __type   =   "InputLinkActionMr"
+}
+__type   =   "object"

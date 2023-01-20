@@ -1,0 +1,245 @@
+navPanels   =   {
+   default   =   {
+      view   =   {
+         __type   =   "HudNavigationPanelView"
+      }
+      btns   =   {
+         craneMode   =   {
+            uiInputName   =   "StartCraneMode"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         cargoManagement   =   {
+            uiInputName   =   "StartCargoManagement"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         trailerGarage   =   {
+            uiInputName   =   "OpenGarage"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         startSeismicWork   =   {
+            uiInputName   =   "StartSeismicVibration"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "HudNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "HudScreenState"
+}
+cargoPopup   =   {
+   __type   =   "PopupCargoUiController"
+}
+trailerPopup   =   {
+   __type   =   "PopupTrailerUiController"
+}
+garageTrailerPopup   =   {
+   view   =   {
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiIconsLibPopupgarageimg"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      __type   =   "PopupUiView"
+   }
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            accept   =   {
+               uiInputName   =   "Accept"
+               input   =   {
+                  __type   =   "InputLinkHoldMr"
+               }
+               __type   =   "NavButtonDesc"
+            }
+         }
+         __type   =   "PopupNavigationPanel"
+      }
+   }
+   id   =   "ENTER_GARAGE_WITH_TRAILER"
+   inputScreen   =   {
+      name   =   "Garage Trailer Popup"
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   "Popups.Accept"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "PopupWithInputScreenUiController"
+}
+garageWinchCranePopup   =   {
+   view   =   {
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiIconsLibPopupgarageimg"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      __type   =   "PopupUiView"
+   }
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            accept   =   {
+               text   =   "UI_OK"
+               uiInputName   =   "Accept"
+               input   =   {
+                  __type   =   "InputLinkHoldMr"
+               }
+               __type   =   "NavButtonDesc"
+            }
+         }
+         __type   =   "PopupNavigationPanel"
+      }
+   }
+   id   =   "ENTER_GARAGE_WITH_WINCH"
+   inputScreen   =   {
+      name   =   "Garage Trailer Popup"
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   "Popups.Accept"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "PopupWithInputScreenUiController"
+}
+garageNetworkPopup   =   {
+   view   =   {
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiIconsLibPopupgarageimg"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      __type   =   "PopupUiView"
+   }
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            accept   =   {
+               text   =   "UI_OK"
+               uiInputName   =   "Accept"
+               input   =   {
+                  __type   =   "InputLinkHoldMr"
+               }
+               __type   =   "NavButtonDesc"
+            }
+         }
+         __type   =   "PopupNavigationPanel"
+      }
+   }
+   id   =   "ENTER_GARAGE_WITH_NOT_NET_OWNED_TRUCK"
+   inputScreen   =   {
+      name   =   "Garage Trailer Popup"
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   "Popups.Accept"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "PopupWithInputScreenUiController"
+}
+cargoAboveWarningPopup   =   {
+   __type   =   "CargoAboveWarningPopupUiController"
+}
+failWarningPopup   =   {
+   __type   =   "PopupContestFailWarningController"
+}
+taskPopup   =   {
+   __type   =   "PopupTaskUiController"
+}
+contestPopup   =   {
+   id   =   "TAKE_CONTEST"
+   __type   =   "PopupContestUiController"
+}
+trialPopup   =   {
+   __type   =   "PopupTrialUiController"
+}
+upgradePopup   =   {
+   id   =   "UPGRADE_GIVER"
+   __type   =   "UpgradePopupUiController"
+}
+zoneInfoPopup   =   {
+   view   =   {
+      __type   =   "PopupWithEmbeddedBtnView"
+   }
+   navPanels   =   {
+      PopupNavigationPanel   =   {
+         btns   =   {
+            accept   =   {
+               uiInputName   =   "accept"
+               input   =   {
+                  __type   =   "InputLinkHoldMr"
+               }
+               __type   =   "NavButtonDesc"
+            }
+         }
+      }
+   }
+   id   =   "BLOCKED_GATEWAY"
+   __type   =   "PopupLockedGatewayController"
+}
+storehousePopup   =   {
+   __type   =   "PopupStorehouseUiController"
+}
+gatewayBlockedZonePopup   =   {
+   __type   =   "PopupGatewayZoneBlockedUiController"
+}
+resupplyRepairPartsPopup   =   {
+   __type   =   "PopupResupplyUiController"
+}
+resupplyRepairNoAddonPopup   =   {
+   view   =   {
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiIconsLibResupplyimg40"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      __type   =   "PopupUiView"
+   }
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            accept   =   {
+               text   =   "UI_ACCEPT"
+               uiInputName   =   "Accept"
+               __type   =   "NavButtonDesc"
+            }
+         }
+         __type   =   "PopupNavigationPanel"
+      }
+   }
+   id   =   "RESUPPLY_REPAIR_PARTS_NO_ADDON"
+   inputScreen   =   {
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   "Popups.Accept"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "PopupWithInputScreenUiController"
+}
+actionSound   =   "ui/ui_click_approve"
+__type   =   "ScreenControllerBase"

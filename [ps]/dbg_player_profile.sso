@@ -1,0 +1,17 @@
+addCurrInput   =   {
+   inputLink   =   "DebugDBG.AddCurrency"
+   __type   =   "InputLinkActionMr"
+}
+addExpInput   =   {
+   inputLink   =   "DebugDBG.AddExperience"
+   __type   =   "InputLinkTapMr"
+}
+removeCurrInput   =   {
+   inputLink   =   "DebugDBG.RemoveCurrency"
+   __type   =   "InputLinkActionMr"
+}
+unlockAllItemInput   =   {
+   inputLink   =   "DebugDBG.UnlockAllItem"
+   __type   =   "InputLinkActionMr"
+}
+__type   =   "object"

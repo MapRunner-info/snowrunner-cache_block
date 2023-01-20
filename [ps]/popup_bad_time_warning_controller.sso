@@ -1,0 +1,29 @@
+view   =   {
+   message   =   "UI_HUD_BAD_TIME_WARNING_TEXT"
+   header   =   "UI_HUD_WARNING_HEADER"
+   __type   =   "PopupCollisionWarningView"
+}
+navPanels   =   {
+   PopupCollisionWarningNavigationPanel   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+id   =   "BAD_TIME_WARNING"
+priority   =   "LOW"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "BadTimeWarning"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

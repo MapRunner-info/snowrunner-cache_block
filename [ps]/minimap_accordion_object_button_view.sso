@@ -1,0 +1,5 @@
+uiObject   =   {
+   visible   =   False
+   __type   =   "UiMinimapObjectbtn"
+}
+__type   =   "object"

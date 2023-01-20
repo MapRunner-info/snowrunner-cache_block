@@ -1,0 +1,4 @@
+excludedProps   =   [
+   "WATCHPOINT"
+]
+__type   =   "object"

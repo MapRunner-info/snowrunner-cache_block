@@ -1,0 +1,121 @@
+view   =   {
+   iconDesc   =   {
+      type   =   {
+         __type   =   "UiIconsLibRepairimg40"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   switchTargetLeft   =   {
+      desc   =   {
+         uiInputName   =   "TargetLeft"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   switchTargetRight   =   {
+      desc   =   {
+         uiInputName   =   "TargetRight"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   switchSourceLeft   =   {
+      desc   =   {
+         uiInputName   =   "SourceLeft"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   switchSourceRight   =   {
+      desc   =   {
+         uiInputName   =   "SourceRight"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   __type   =   "PopupRepairUiViewNew"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_REPAIR"
+            uiInputName   =   "Repair"
+            __type   =   "NavButtonDesc"
+         }
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupRepairNavigationPanel"
+   }
+}
+id   =   "REPAIR"
+repairTruckRange   =   15
+truckGarnish   =   {
+   __type   =   "MarkerOnTrucksGarnish"
+}
+inputScreen   =   {
+   priority   =   "LOW"
+   name   =   "PopupRefuelUiControllerNew"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Repair   =   {
+         inputLink   =   "Popups.RefuelRepair"
+         __type   =   "InputLinkActionMr"
+      }
+      TargetLeft   =   {
+         inputLink   =   "Popups.triggerLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      TargetRight   =   {
+         inputLink   =   "Popups.triggerRight"
+         __type   =   "InputLinkActionMr"
+      }
+      SourceLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      SourceRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkActionMr"
+      }
+      BlockFunctions   =   {
+         inputLink   =   "Truck.Functions"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+repairIconName   =   {
+   SOURCE   =   {
+      __value   =   "Source"
+   }
+   TARGET   =   {
+      __value   =   "Target"
+   }
+   FORBIDDEN   =   {
+      __value   =   "None"
+   }
+   WHEELS   =   {
+      __value   =   "WheelParts"
+   }
+   HEALTH   =   {
+      __value   =   "Health"
+   }
+   REPAIR_PARTS   =   {
+      __value   =   "RepairParts"
+   }
+   SUBSOURCE   =   {
+      __value   =   "Subsource"
+   }
+   SUBTARGET   =   {
+      __value   =   "Subtarget"
+   }
+}
+__type   =   "PopupWithoutMoveUiController"

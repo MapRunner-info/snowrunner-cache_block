@@ -1,0 +1,151 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	dofParams = {
+		__type = "section"
+		__viewType = {
+			__caption = "DOF params"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "true"
+			}
+         coc_diameter = {
+				__type = "float"
+				__defaultValue = 0.05
+				__viewType {
+					__caption = "Circle of confusion diameter in screen height"
+					__hint = "Range: (0 - 0.1)"
+					__wrappable = false
+					__type = "slider"
+					__min = 0.01
+					__max = 0.1
+               __step = 0.005
+				}
+			}
+			dynamicFocus = {
+				__type = "section"
+				__viewType = {
+					__caption = "Dynamic focus"
+					__hint = "Overrides DistFocus according to z-buffer value under cursor."
+					__expand = true
+				}
+				__members = {
+					enabled = {
+						__viewType {
+							__wrappable = false
+							__caption = "Dynamic Dist focus"
+						}
+						__type = "bool"
+					}
+					adaptationTime = {
+						__type = "float"
+						__viewType {
+							__caption = "Adaptation time, s"
+							__hint = "Defines transition time during which focussing occurs."
+							__wrappable = false
+							__min = 0.05
+							__max = 20
+						}
+					}
+				}
+			}
+			dist_focus = {
+				__type = "float"
+				__defaultValue = 20
+				__viewType {
+					__caption = "Dist focus"
+					__hint = "Range: (0 - 10000), clamped in a range [distNear; distFar] "
+					__wrappable = false
+					__min = 0
+					__max = 10000
+				}
+			}
+			dist_near = {
+				__type = "float"
+				__defaultValue = -10000
+				__viewType {
+					__caption = "Dist near"
+					__hint = "Range: (-10000 - 10000)"
+					__wrappable = false
+					__min = -10000
+					__max = 10000
+				}
+			}
+			range_near = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType {
+					__caption = "Range focus(near)"
+					__hint = "Range: (0 - 5000), together with distFocus clamped in a range [distNear, distFar]"
+					__wrappable = false
+					__min = 0
+					__max = 5000
+				}
+			}
+			dist_far = {
+				__type = "float"
+				__defaultValue = 200
+				__viewType {
+					__caption = "Dist far"
+					__hint = "Range: (0 - 300000)"
+					__wrappable = false
+					__min = 0
+					__max = 300000
+				}
+			}
+			range_far = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType {
+					__caption = "Range focus(far)"
+					__hint = "Range: (0 - 5000), together with distFocus clamped in a range [distNear, distFar]"
+					__wrappable = false
+					__min = 0
+					__max = 280000
+				}
+			}
+			blend_factor = {
+				__type = "float"
+				__defaultValue = 0.8
+				__viewType {
+					__caption = "Blend factor"
+					__hint = "Range: (0 - 1)"
+					__wrappable = false
+					__type = "slider"
+					__min = 0
+					__max = 1
+				}
+			}
+			cinematicDOF = {
+				__type = "bool"
+				__defaultValue = "false"
+				__viewType {
+					__caption = "Cinematic DOF"
+					__hint = "Use cinematic DOF (higher quality and higher perfomance impact)"
+					__wrappable = false
+				}
+			}
+         cinematicDOFquality = {
+				__type = "int"
+				__defaultValue = "1"
+				__viewType {
+					__caption = "Cinematic DOF quality"
+					__hint = "Defines number of circles in disc samples"
+					__wrappable = false
+               __type = "slider"
+  					__min = 1
+					__max = 3
+				}
+			}
+		}
+	}
+}

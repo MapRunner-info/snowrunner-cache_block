@@ -1,0 +1,44 @@
+uiObjectDesc   =   {
+   type   =   {
+      listContainer   =   {
+         list   =   {
+            lirsData   =   {
+               UiListItemData   =   {
+               }
+            }
+            lir   =   {
+               __type   =   "CustomScenariosListLir"
+            }
+            __type   =   "UiModsLibCustomscenarioslist"
+         }
+         __type   =   "UiModsLibCustomscenarioslistcontainer"
+      }
+      details   =   {
+         desc   =   {
+            focusable   =   False
+            __type   =   "UiModsLibModdetailsdesctext"
+         }
+         __type   =   "UiModsLibModdetailscontainer"
+      }
+      __type   =   "UiModsLibCustomscenariosmainscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+inputScreen   =   {
+   inputsLinks   =   {
+      Start   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      ChangeDifficultyLeft   =   {
+         inputLink   =   "UI.UiListLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      ChangeDifficultyRight   =   {
+         inputLink   =   "UI.UiListRight"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenViewBase"

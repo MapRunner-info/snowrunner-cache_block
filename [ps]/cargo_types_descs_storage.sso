@@ -1,0 +1,4 @@
+rootNodeName   =   "CargoType"
+classType   =   "cargo_types"
+uiDescNodeName   =   "UiDesc"
+__type   =   "XmlDescStorageBase"

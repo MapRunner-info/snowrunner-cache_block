@@ -1,0 +1,74 @@
+uiDesc   =   "US_02_02_MILL_DELIVERY_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_02_MILL_DELIVERY_ACTION_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_02_MILL_DELIVERY_ACTION_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_02_MILL_DELIVERY_ACTION_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrels"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_02_MILL_DELIVERY_ACTION_4_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoPipesSmall"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_02_01_OIL_DELIVERY_02_OBJ"
+]
+description   =   "US_02_02_MILL_DELIVERY_OBJ_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   450
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3300
+   }
+}
+employer   =   "MorrisonMining"
+region   =   "us_02"
+__type   =   "ContractSettings"

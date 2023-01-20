@@ -1,0 +1,75 @@
+background   =   {
+   __type   =   "UiMinimapMarkerselectionbgoriginal"
+}
+screenMarker   =   {
+   visible   =   False
+   __type   =   "UiScreenMarker"
+}
+uiObject   =   {
+   mouseEnabled   =   False
+   tutorialArrow   =   {
+      mouseEnabled   =   False
+      __type   =   "UiMovieClip"
+   }
+   markerInfIconAttach   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "UiMinimapMarkerimgcont"
+   }
+   markerInf   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      markerInfName   =   {
+         tf   =   {
+            isHtml   =   True
+            __type   =   "UiLabel"
+         }
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerinfmarkerinfname"
+      }
+      __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerinf"
+   }
+   markerBg   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      markerBgButtonMove   =   {
+         mouseEnabled   =   False
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbgmarkerbgbuttonmove"
+      }
+      markerBgMove   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbgmarkerbgmove"
+      }
+      __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkerbg"
+   }
+   markerArrow   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "UiMovieClip"
+   }
+   markerAnten   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranten"
+   }
+   markerAnim   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranim"
+   }
+   markerAnchor   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkeranchor"
+   }
+   markerSfx   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "UiMinimapAutoclassminimapmarkeruniversalmarkersfx"
+   }
+   __type   =   "UiMinimapMinimapmarkeruniversal"
+}
+antena   =   {
+   __type   =   "UiMinimapMarkerselectionantenoriginal"
+}
+__type   =   "object"

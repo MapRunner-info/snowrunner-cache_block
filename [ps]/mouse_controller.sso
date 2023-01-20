@@ -1,0 +1,7 @@
+mouse   =   {
+   __type   =   "UiDefaultMouse"
+}
+altMouse   =   {
+   __type   =   "UiMinimapCursor"
+}
+__type   =   "object"

@@ -1,0 +1,35 @@
+uiDesc   =   "RU_02_02_WOODEN_PLANKS_DELIVERY_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "RU_02_02_WOODEN_PLANKS_DELIVERY_ACTION_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_RAILWAY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   5
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_WOODEN_PLANKS_DELIVERY_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   260
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2750
+   }
+}
+employer   =   "TransTaymir"
+region   =   "ru_02"
+__type   =   "ContractSettings"

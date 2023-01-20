@@ -1,0 +1,39 @@
+trialsSettings   =   {
+   TRIAL_03_03_SCOUTING_CNT   =   {
+      uiDesc   =   "TRIALS_03_03_SCOUTING_CNT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "TRIALS_03_03_SCOUTING_CNT_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_03_03 || TRIAL_03_03_FINISH_ZONE"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     truckUid   =   "TRIAL_03_03_FINISH_ZONE"
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "TRIAL_03_03_SCOUTING_CNT_REW"
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardItem   =   {
+                  itemName   =   "stuff_bobblehead_tiger"
+               }
+            }
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_03_03 || TRIAL_03_03_TASK_GIVER_ZONE"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

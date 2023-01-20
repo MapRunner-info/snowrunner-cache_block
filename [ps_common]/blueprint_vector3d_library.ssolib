@@ -1,0 +1,69 @@
+classes   =   {
+   Vector3dOperationBase   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Vector3dScalarOperation   =   {
+      __type   =   "BlueprintVector3dLibraryVector3doperationbase"
+   }
+   Vector3dVectorOperation   =   {
+      __type   =   "BlueprintVector3dLibraryVector3doperationbase"
+   }
+   Vector3dSubtract   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dvectoroperation"
+   }
+   Vector3dAdd   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dvectoroperation"
+   }
+   Vector3dScale   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Vector3dAngle   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dAngleAxis   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dAngleXZ   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dAngleYZ   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dAngleXY   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dDist   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dDistSquare   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dCreate   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Vector3dCrossproduct   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dvectoroperation"
+   }
+   Vector3dDotproduct   =   {
+      __type   =   "BlueprintVector3dLibraryVector3dscalaroperation"
+   }
+   Vector3dCompare   =   {
+      __type   =   "BlueprintVector3dLibraryVector3doperationbase"
+   }
+   Vector3dNormalize   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Vector3dToString   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Vector3dBreak   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+}
+__type   =   "ssl_object_lib"

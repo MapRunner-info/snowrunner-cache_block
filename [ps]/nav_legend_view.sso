@@ -1,0 +1,11 @@
+uiObjectDesc   =   {
+   type   =   {
+      custom_nav_panel   =   {
+         visible   =   False
+         __type   =   "UiNavigationLegendAutoclassnavigationlegendcustomnavpanel"
+      }
+      __type   =   "UiNavigationLegendNavigationlegend"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ScreenViewBase"

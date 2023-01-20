@@ -1,0 +1,49 @@
+particlesCollection   =   {
+   Foliage   =   {
+      __value   =   [
+         "dust_small",
+         "fragments_twigs",
+         "fragments_leaves"
+      ]
+   }
+   FoliageAutumn   =   {
+      __value   =   [
+         "dust_small_autumn",
+         "fragments_twigs_autumn",
+         "fragments_leaves_autumn"
+      ]
+   }
+   FoliageNeedles   =   {
+      __value   =   [
+         "dust_small_needles",
+         "fragments_twigs_needles",
+         "fragments_leaves_needles"
+      ]
+   }
+   FoliageSnow   =   {
+      __value   =   [
+         "snow_splash_small",
+         "fragments_twigs_snow"
+      ]
+   }
+   AshDust   =   {
+      __value   =   [
+         "",
+         "",
+         "fragments_ash_dust"
+      ]
+   }
+   DryTwigs   =   {
+      __value   =   [
+         "dust_small_needles",
+         "fragments_twigs"
+      ]
+   }
+   Sparks   =   {
+      __value   =   [
+         "",
+         "fragments_sparks"
+      ]
+   }
+}
+__type   =   "object"

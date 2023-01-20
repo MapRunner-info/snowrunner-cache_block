@@ -1,0 +1,696 @@
+classes   =   {
+   Animpopupcrossplaykey   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "animPopUpCrossplayKey"
+      sslClass   =   "UiCrossplayLibAnimpopupcrossplaykey"
+      popUp   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   765
+         y   =   354
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCrossplayLibPopupcrossplaykey"
+      }
+      __type   =   "UiContainer"
+   }
+   Animpopupcrossplayreport   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "animPopUpCrossplayReport"
+      sslClass   =   "UiCrossplayLibAnimpopupcrossplayreport"
+      popUp   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   765
+         y   =   354
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCrossplayLibPopupcrossplayreport"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplayblocked   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayBlocked"
+      sslClass   =   "UiCrossplayLibCrossplayblocked"
+      blockedHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaylistheader"
+      }
+      blockedList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaylist"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplayheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayHeader"
+      sslClass   =   "UiCrossplayLibCrossplayheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaylir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "crossplayLir"
+      username   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   27
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiCrossplayLibCrossplaylirnametf"
+      }
+      online   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   27
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiCrossplayLibCrossplaylironline"
+      }
+      ststus   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   160
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCrossplayLibCrossplaylirstatustf"
+      }
+      platformIcon   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   546
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCrossplayLibCrossplayplatformiconattach"
+      }
+      userIcon   =   {
+         symbol   =   ""
+         x   =   27
+         y   =   10
+         scaleX   =   100.0031
+         scaleY   =   100.0031
+         __type   =   "UiCrossplayLibCrossplayusericonattach"
+      }
+      __type   =   "UiListItem"
+   }
+   Crossplaylirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Crossplaylirnametf   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayLirNameTf"
+      sslClass   =   "UiCrossplayLibCrossplaylirnametf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaylironline   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayLirOnline"
+      sslClass   =   "UiCrossplayLibCrossplaylironline"
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaylironlinetf"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaylironlinetf   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayLirOnlineTf"
+      sslClass   =   "UiCrossplayLibCrossplaylironlinetf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaylirstatustf   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayLirStatusTf"
+      sslClass   =   "UiCrossplayLibCrossplaylirstatustf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaylist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "crossplayList"
+      __type   =   "UiScrollingList"
+   }
+   Crossplaylistheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayListHeader"
+      sslClass   =   "UiCrossplayLibCrossplaylistheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaymainscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayMainScreen"
+      sslClass   =   "UiCrossplayLibCrossplaymainscreen"
+      blocked   =   {
+         symbol   =   ""
+         x   =   969
+         y   =   252
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplayblocked"
+      }
+      recent   =   {
+         symbol   =   ""
+         x   =   349
+         y   =   252
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplayrecent"
+      }
+      profileWidgetAttach   =   {
+         symbol   =   ""
+         x   =   1475
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplayuniversalattach"
+      }
+      tabPanel   =   {
+         symbol   =   ""
+         x   =   1160
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaytabpanel"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaypanelnavbtnattach"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   57
+         y   =   40
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplayheader"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaypanelnavbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayPanelNavBtnAttach"
+      sslClass   =   "UiCrossplayLibCrossplaypanelnavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Crossplaypaneltabbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "crossplayPanelTabBtn"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiCrossplayLibCrossplaytabtext"
+      }
+      __type   =   "UiButton"
+   }
+   Crossplayplatformiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayPlatformIconAttach"
+      sslClass   =   "UiCrossplayLibCrossplayplatformiconattach"
+      __type   =   "UiContainer"
+   }
+   Crossplayrecent   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayRecent"
+      sslClass   =   "UiCrossplayLibCrossplayrecent"
+      recentHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaylistheader"
+      }
+      recentList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaylist"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaytabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayTabPanel"
+      sslClass   =   "UiCrossplayLibCrossplaytabpanel"
+      navAttachR   =   {
+         symbol   =   ""
+         x   =   624
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaypanelnavbtnattach"
+      }
+      navAttachL   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaypanelnavbtnattach"
+      }
+      btnsContainer   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaypanelnavbtnattach"
+      }
+      tab0   =   {
+         symbol   =   ""
+         x   =   99
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaypaneltabbtn"
+      }
+      tab1   =   {
+         symbol   =   ""
+         x   =   359
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibCrossplaypaneltabbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplaytabtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayTabText"
+      sslClass   =   "UiCrossplayLibCrossplaytabtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Crossplayuniversalattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayUniversalAttach"
+      sslClass   =   "UiCrossplayLibCrossplayuniversalattach"
+      __type   =   "UiContainer"
+   }
+   Crossplayusericonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "crossplayUserIconAttach"
+      sslClass   =   "UiCrossplayLibCrossplayusericonattach"
+      __type   =   "UiContainer"
+   }
+   Popupcrossplaybg   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayBg"
+      sslClass   =   "UiCrossplayLibPopupcrossplaybg"
+      __type   =   "UiContainer"
+   }
+   Popupcrossplaybtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayBtnAttach"
+      sslClass   =   "UiCrossplayLibPopupcrossplaybtnattach"
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayHeader"
+      sslClass   =   "UiCrossplayLibPopupcrossplayheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayheader2   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayHeader2"
+      sslClass   =   "UiCrossplayLibPopupcrossplayheader2"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayinner   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayInner"
+      sslClass   =   "UiCrossplayLibPopupcrossplayinner"
+      __type   =   "UiContainer"
+   }
+   Popupcrossplaykey   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayKey"
+      sslClass   =   "UiCrossplayLibPopupcrossplaykey"
+      icon   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplayheader2"
+      }
+      actionBtnAttach   =   {
+         symbol   =   ""
+         x   =   270
+         y   =   258
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplaybtnattach"
+      }
+      backBtnAttach   =   {
+         symbol   =   ""
+         x   =   270
+         y   =   247
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplaybtnattach"
+      }
+      keyContent   =   {
+         symbol   =   ""
+         x   =   35
+         y   =   70
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplayreportcontent"
+      }
+      popUpCommonBg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   70.6268
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplaylistlirtfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayListLirTfCont"
+      sslClass   =   "UiCrossplayLibPopupcrossplaylistlirtfcont"
+      tf   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplaylistlirtftext"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplaylistlirtftext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "popUpCrossplayListLirTfText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Popupcrossplayrecoverybg   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayRecoveryBg"
+      sslClass   =   "UiCrossplayLibPopupcrossplayrecoverybg"
+      bg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -350
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplaybg"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayreport   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayReport"
+      sslClass   =   "UiCrossplayLibPopupcrossplayreport"
+      icon   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   -20
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplayheader"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   10
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCrossplayLibPopupcrossplayreporttext"
+      }
+      optionsList   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   57
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplayreportlist"
+      }
+      iconAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   170
+         y   =   150
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiCrossplayLibPopupcrossplayreporticonattach"
+      }
+      spinner   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   165
+         y   =   145
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCrossplayLibPopupcrossplayspinner"
+      }
+      actionBtnAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   195
+         y   =   295
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplaybtnattach"
+      }
+      popupBg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   103.595
+         __type   =   "UiCrossplayLibPopupcrossplayrecoverybg"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayreportcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayReportContent"
+      sslClass   =   "UiCrossplayLibPopupcrossplayreportcontent"
+      textInput   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   126
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplayreportinputlinetext"
+      }
+      titleCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplayreporttitletext"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCrossplayLibPopupcrossplayreportdesctext"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayreportdesctext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "popUpCrossplayReportDescText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Popupcrossplayreporticonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayReportIconAttach"
+      sslClass   =   "UiCrossplayLibPopupcrossplayreporticonattach"
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayreportinputlinetext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "popUpCrossplayReportInputLineText"
+      __type   =   "UiTextInput"
+   }
+   Popupcrossplayreportlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "popUpCrossplayReportList"
+      __type   =   "UiScrollingList"
+   }
+   Popupcrossplayreportlistlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "popUpCrossplayReportListLir"
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   25
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiCrossplayLibPopupcrossplaylistlirtfcont"
+      }
+      __type   =   "UiListItem"
+   }
+   Popupcrossplayreportlistlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Popupcrossplayreporttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayReportText"
+      sslClass   =   "UiCrossplayLibPopupcrossplayreporttext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayreporttitletext   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplayReportTitleText"
+      sslClass   =   "UiCrossplayLibPopupcrossplayreporttitletext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupcrossplayspinner   =   {
+      sslModule   =   "ui.autogen_libs.ui_crossplay_lib"
+      symbol   =   "popUpCrossplaySpinner"
+      sslClass   =   "UiCrossplayLibPopupcrossplayspinner"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

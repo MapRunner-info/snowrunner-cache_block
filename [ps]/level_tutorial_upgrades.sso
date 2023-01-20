@@ -1,0 +1,59 @@
+indexInRegion   =   0
+zoneDesc   =   {
+   UPG_GARAGE   =   {
+      props   =   {
+         ZonePropertyGarageEntrance   =   {
+         }
+         ZonePropertyRecovery   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   UPG_GARAGE_EXIT   =   {
+      props   =   {
+         ZonePropertyGarageExit   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   UPG_ALLWHEELS   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE1_TSK   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE2_TSK   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE3_TSK   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE1_TARGET   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE2_TARGET   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE2_TARGET2   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE3_TARGET   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE4_TSK   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE4_TARGET   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE5_TSK   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE5_CARGO_A   =   {
+      __type   =   "ZoneSettings"
+   }
+   UPG_STAGE5_CARGO_UNLOAD   =   {
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

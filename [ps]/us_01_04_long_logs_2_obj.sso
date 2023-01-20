@@ -1,0 +1,47 @@
+uiDesc   =   "US_01_04_LONG_LOGS_2_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_LONG_LOGS_2_ST1"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_QUARRY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsLong"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_LONG_LOGS_2_ST2"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_DRILLING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsLong"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+requiredRank   =   0
+description   =   "US_01_04_LONG_LOGS_2_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   1030
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   9600
+   }
+}
+employer   =   "AttecaTownship"
+region   =   "us_01"
+__type   =   "ContractSettings"

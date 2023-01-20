@@ -1,0 +1,9 @@
+timeToShowSec   =   10
+pcInputs   =   "|MC_PC_mouse_left_click|+|MC_PC_mouse_middle_click_dir|,[MC_PC/L][MC_PC/R]"
+xboxInputs   =   "|stickRUdlr|,|stickLLeftRight|"
+ps4Inputs   =   "|MC_PS4_R_Udlr|,|MC_PS4_LS_LeftRight|"
+swInputs   =   "|MC_Wheel_Stick_Neutral|,|MC_Wheel|"
+nx64Inputs   =   "|MC_Switch_RS|,|MC_Switch_LS_LeftRight|"
+stadiaInputs   =   "|MC_Stadia_RS|,|MC_Stadia_LS_LeftRight|"
+zoneIdToLeave   =   "US_01_01_START_TUTOR"
+__type   =   "TutorialStageRepeatable"

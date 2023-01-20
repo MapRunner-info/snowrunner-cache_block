@@ -1,0 +1,52 @@
+cont   =   {
+   verticalAlign   =   2
+   manual_loading   =   {
+      visible   =   False
+      __type   =   "UiNavigationLegendAutoclassnavigationlegendmanualloading"
+   }
+   __type   =   "UiNavigationLegendNavigationlegend"
+}
+hints   =   [
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   },
+   {
+   }
+]
+closeInputScreen   =   {
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "object"

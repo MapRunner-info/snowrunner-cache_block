@@ -1,0 +1,16 @@
+scaleRange   =   [
+   1,
+   1
+]
+opacityRange   =   [
+   1,
+   1
+]
+brightnessRange   =   [
+   1,
+   1
+]
+emissionType   =   {
+   __type   =   "EmissionTypeConstFlow"
+}
+__type   =   "object"

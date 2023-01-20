@@ -1,0 +1,8 @@
+navPanels   =   {
+   HudNavigationCinematicPanel   =   {
+   }
+}
+state   =   {
+   __type   =   "CinematicScreenState"
+}
+__type   =   "ScreenControllerBase"

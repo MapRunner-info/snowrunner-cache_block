@@ -1,0 +1,50 @@
+view   =   {
+   __type   =   "PopupLocalGamesListView"
+}
+navPanels   =   {
+   PopupLocalGamesNavigationPanel   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         back   =   {
+            text   =   "UI_BACK"
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+state   =   {
+   __type   =   "ScreenState"
+}
+id   =   "COMPATIBLE_ADDONS"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "LocalGamesList"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Up",
+      "Right",
+      "Left",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+METALDETECTOR_ICON   =   "metalDetectorImg30"
+SEISMIC_VIBRATOR_ICON   =   "seismicVibratorImg30"
+__type   =   "PopupUiController"

@@ -1,0 +1,4 @@
+state   =   {
+   __type   =   "ScreenState"
+}
+__type   =   "ComponentUiControllerBase"

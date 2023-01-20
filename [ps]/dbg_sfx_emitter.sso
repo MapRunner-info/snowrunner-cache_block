@@ -1,0 +1,60 @@
+reloadActionLink   =   {
+   inputLink   =   "DebugDBG.ReloadSfx"
+   __type   =   "InputLinkTapMr"
+}
+spawnActionLink   =   {
+   inputLink   =   "DebugDBG.SpawnSfx"
+   __type   =   "InputLinkTapMr"
+}
+SfxName   =   "test"
+SpawnDistance   =   15
+actionLink   =   {
+   inputLink   =   "DebugDBG.SpawnSfx"
+   __type   =   "InputLinkTapMr"
+}
+reloadLink   =   {
+   inputLink   =   "DebugDBG.ClearAndReloadLevel"
+   __type   =   "InputLinkTapMr"
+}
+sfx   =   {
+   isStarted   =   True
+   particleEmitters   =   {
+      fire   =   {
+         particle   =   "engine_fire"
+         offset   =   {
+            minRadius   =   {
+               x   =   0
+               y   =   0
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            maxRadius   =   {
+               x   =   5
+               y   =   0
+               z   =   5
+               __type   =   "Vector3d"
+            }
+            __type   =   "EmissionVectorEllipsoid"
+         }
+         velocity   =   {
+            min   =   {
+               y   =   1
+               __type   =   "Vector3d"
+            }
+            max   =   {
+               y   =   5
+               __type   =   "Vector3d"
+            }
+            __type   =   "EmissionVectorBox"
+         }
+         emissionType   =   {
+            min   =   150
+            max   =   150
+            __type   =   "EmissionTypeConstFlow"
+         }
+         __type   =   "ParticleEmitter"
+      }
+   }
+   __type   =   "MrSfx"
+}
+__type   =   "object"

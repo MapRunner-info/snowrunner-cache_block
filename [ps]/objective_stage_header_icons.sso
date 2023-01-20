@@ -1,0 +1,21 @@
+icons   =   {
+   FIND   =   {
+      __value   =   "minimapTaskFind20"
+   }
+   CARGO_DELIVERY   =   {
+      __value   =   "minimapTaskLoading20"
+   }
+   TRUCK_DELIVERY   =   {
+      __value   =   "minimapTaskLoading20"
+   }
+   REPAIR   =   {
+      __value   =   "minimapTaskRepair20"
+   }
+   MISC   =   {
+      __value   =   "minimapTaskMisc20"
+   }
+   CHANGE_TRUCK   =   {
+      __value   =   "minimapTaskFind20"
+   }
+}
+__type   =   "object"

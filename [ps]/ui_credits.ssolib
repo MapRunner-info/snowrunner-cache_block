@@ -1,0 +1,199 @@
+classes   =   {
+   Amdlogocont   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "amdLogoCont"
+      sslClass   =   "UiCreditsAmdlogocont"
+      __type   =   "UiContainer"
+   }
+   Attachnavpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "attachNavPanel"
+      sslClass   =   "UiCreditsAttachnavpanel"
+      __type   =   "UiContainer"
+   }
+   Creditscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsContainer"
+      sslClass   =   "UiCreditsCreditscontainer"
+      __type   =   "UiContainer"
+   }
+   Creditscontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsContent"
+      sslClass   =   "UiCreditsCreditscontent"
+      __type   =   "UiAccordion"
+   }
+   Creditsheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsHeader"
+      sslClass   =   "UiCreditsCreditsheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditslefttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsLeftText"
+      sslClass   =   "UiCreditsCreditslefttext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditslogo   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsLogo"
+      sslClass   =   "UiCreditsCreditslogo"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditsrightext   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsRighText"
+      sslClass   =   "UiCreditsCreditsrightext"
+      tf   =   {
+         x   =   9
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditssubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsSubHeader"
+      sslClass   =   "UiCreditsCreditssubheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditstextcenter   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsTextCenter"
+      sslClass   =   "UiCreditsCreditstextcenter"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditstextcentersmall   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsTextCenterSmall"
+      sslClass   =   "UiCreditsCreditstextcentersmall"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditstextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsTextCont"
+      sslClass   =   "UiCreditsCreditstextcont"
+      rightCont   =   {
+         symbol   =   ""
+         x   =   960
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCreditsCreditsrightext"
+      }
+      leftCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCreditsCreditslefttext"
+      }
+      __type   =   "UiContainer"
+   }
+   Creditstitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "creditsTitle"
+      sslClass   =   "UiCreditsCreditstitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Crerditsscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "crerditsScreen"
+      sslClass   =   "UiCreditsCrerditsscreen"
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCreditsAttachnavpanel"
+      }
+      credits   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCreditsCreditscontent"
+      }
+      __type   =   "UiContainer"
+   }
+   Focuslogocont   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "focusLogoCont"
+      sslClass   =   "UiCreditsFocuslogocont"
+      __type   =   "UiContainer"
+   }
+   Havoklogocont   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "havokLogoCont"
+      sslClass   =   "UiCreditsHavoklogocont"
+      __type   =   "UiContainer"
+   }
+   Mwarecompcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "mwareCompCont"
+      sslClass   =   "UiCreditsMwarecompcont"
+      __type   =   "UiContainer"
+   }
+   Sabellogocont   =   {
+      sslModule   =   "ui.autogen_libs.ui_credits"
+      symbol   =   "sabelLogoCont"
+      sslClass   =   "UiCreditsSabellogocont"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

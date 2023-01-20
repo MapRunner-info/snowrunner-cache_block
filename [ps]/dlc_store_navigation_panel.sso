@@ -1,0 +1,16 @@
+useOffset   =   False
+btns   =   {
+   Select   =   {
+      text   =   "UI_DLC_STORE_SHOW_DETAILS"
+      __type   =   "NavButtonDesc"
+   }
+   Back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   ShowInStore   =   {
+      text   =   "UI_DLC_STORE_SHOW_IN_STORE"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

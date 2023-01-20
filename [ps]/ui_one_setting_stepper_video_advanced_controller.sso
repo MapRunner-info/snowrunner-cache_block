@@ -1,0 +1,11 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_HEADER_SLIDER"
+presetUiNames   =   [
+   "UI_SETTING_LOW",
+   "UI_SETTING_MEDIUM",
+   "UI_SETTING_HIGH",
+   "UI_SETTING_ULTRA"
+]
+__type   =   "UiOneSettingStepperVideoController"

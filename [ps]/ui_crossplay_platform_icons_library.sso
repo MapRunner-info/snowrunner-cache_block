@@ -1,0 +1,104 @@
+iconsDesc   =   {
+   PC_STEAM   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconsteam"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   PC_DIESEL   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconegs"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   DURANGO   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconxbox"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ORBIS   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconps"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   NINTENDO   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconswitch"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   WINSTORE   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconms"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   SCARLETT   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconxbox"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   PROSPERO   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconps"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   GGP   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconstadia"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   DEFAULT_CONSOLE   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconconsole"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   DEFAULT_PC   =   {
+      type   =   {
+         __type   =   "UiIconsLibCrossplayiconpc"
+      }
+      __type   =   "UiContainerDesc"
+   }
+}
+icons   =   {
+   PC_STEAM   =   {
+      __value   =   "crossplayIconSteam"
+   }
+   PC_DIESEL   =   {
+      __value   =   "crossplayIconEGS"
+   }
+   DURANGO   =   {
+      __value   =   "crossplayIconXbox"
+   }
+   ORBIS   =   {
+      __value   =   "crossplayIconPS"
+   }
+   NINTENDO   =   {
+      __value   =   "crossplayIconSwitch"
+   }
+   WINSTORE   =   {
+      __value   =   "crossplayIconMS"
+   }
+   SCARLETT   =   {
+      __value   =   "crossplayIconXbox"
+   }
+   PROSPERO   =   {
+      __value   =   "crossplayIconPS"
+   }
+   GGP   =   {
+      __value   =   "crossplayIconStadia"
+   }
+   DEFAULT_CONSOLE   =   {
+      __value   =   "crossplayIconConsole"
+   }
+   DEFAULT_PC   =   {
+      __value   =   "crossplayIconPC"
+   }
+}
+__type   =   "object"

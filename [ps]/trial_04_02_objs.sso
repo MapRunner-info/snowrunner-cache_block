@@ -1,0 +1,42 @@
+trialsSettings   =   {
+   TRIAL_04_02_TSK   =   {
+      uiDesc   =   "TRIAL_04_02_TSK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "TRIAL_04_02_STAGE_01_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_04_02 || TRIAL_04_02_STATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerSmallSpecial"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "TRIAL_04_02_TSK_REW"
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardTrialPartItem   =   {
+               }
+            }
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_04_02 || TRIAL_04_02_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

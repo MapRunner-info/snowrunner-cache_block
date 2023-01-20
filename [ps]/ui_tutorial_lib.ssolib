@@ -1,0 +1,620 @@
+classes   =   {
+   Bulletpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "bulletPoint"
+      sslClass   =   "UiTutorialLibBulletpoint"
+      __type   =   "UiContainer"
+   }
+   Mr2demologo   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "mr2DemoLogo"
+      sslClass   =   "UiTutorialLibMr2demologo"
+      __type   =   "UiContainer"
+   }
+   Tuorialsplashheadertf   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tuorialSplashHeaderTf"
+      sslClass   =   "UiTutorialLibTuorialsplashheadertf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutawd   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutAWD"
+      sslClass   =   "UiTutorialLibTutawd"
+      __type   =   "UiContainer"
+   }
+   Tutdamage   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutDamage"
+      sslClass   =   "UiTutorialLibTutdamage"
+      __type   =   "UiContainer"
+   }
+   Tutdamagealt   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutDamageAlt"
+      sslClass   =   "UiTutorialLibTutdamagealt"
+      __type   =   "UiContainer"
+   }
+   Tutgearauto   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutGearAuto"
+      sslClass   =   "UiTutorialLibTutgearauto"
+      __type   =   "UiContainer"
+   }
+   Tutgearautoalt   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutGearAutoAlt"
+      sslClass   =   "UiTutorialLibTutgearautoalt"
+      __type   =   "UiContainer"
+   }
+   Tutgearlow   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutGearLow"
+      sslClass   =   "UiTutorialLibTutgearlow"
+      __type   =   "UiContainer"
+   }
+   Tutgearlowalt   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutGearLowAlt"
+      sslClass   =   "UiTutorialLibTutgearlowalt"
+      __type   =   "UiContainer"
+   }
+   Tutgps   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutGPS"
+      sslClass   =   "UiTutorialLibTutgps"
+      __type   =   "UiContainer"
+   }
+   Tutoriahintlembeddedtext   =   {
+      symbol   =   "tutoriaHintlEmbeddedText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Tutorialarrowindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialArrowIndicator"
+      sslClass   =   "UiTutorialLibTutorialarrowindicator"
+      __type   =   "UiContainer"
+   }
+   Tutorialattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialAttachPoint"
+      sslClass   =   "UiTutorialLibTutorialattachpoint"
+      __type   =   "UiContainer"
+   }
+   Tutorialcenter   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialCenter"
+      sslClass   =   "UiTutorialLibTutorialcenter"
+      popUp   =   {
+         x   =   765
+         y   =   238
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopup"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialembe   =   {
+      symbol   =   "tutorialEmbe"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Tutorialgearboximg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialGearBoxImg"
+      sslClass   =   "UiTutorialLibTutorialgearboximg"
+      __type   =   "UiContainer"
+   }
+   Tutorialhininvitetbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHinInvitetBg"
+      sslClass   =   "UiTutorialLibTutorialhininvitetbg"
+      __type   =   "UiContainer"
+   }
+   Tutorialhint   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHint"
+      sslClass   =   "UiTutorialLibTutorialhint"
+      hintStripe   =   {
+         x   =   13
+         y   =   21
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhintstripe"
+      }
+      hintIcon   =   {
+         x   =   40
+         y   =   45
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhinticonattach"
+      }
+      hintText   =   {
+         x   =   100
+         y   =   45
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutoriahintlembeddedtext"
+      }
+      navPanelAttach   =   {
+         x   =   230
+         y   =   259
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhintnavattach"
+      }
+      navPanelBg   =   {
+         x   =   13
+         y   =   262
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhintnavpanelbg"
+      }
+      alertBg   =   {
+         x   =   -6
+         y   =   0
+         scaleX   =   100
+         scaleY   =   268.2922
+         animated   =   True
+         colorMode   =   3
+         alpha   =   0
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhintalertbg"
+      }
+      invitetBg   =   {
+         x   =   -6
+         y   =   0
+         scaleX   =   100
+         scaleY   =   268.2922
+         animated   =   True
+         colorMode   =   3
+         alpha   =   0
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhininvitetbg"
+      }
+      hintBg   =   {
+         x   =   -6
+         y   =   0
+         scaleX   =   100
+         scaleY   =   268.2922
+         animated   =   True
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhintbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialhintalertbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHintAlertBg"
+      sslClass   =   "UiTutorialLibTutorialhintalertbg"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHintAnim"
+      sslClass   =   "UiTutorialLibTutorialhintanim"
+      hintContent   =   {
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         colorMode   =   3
+         alpha   =   0
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialhint"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialhintbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHintBg"
+      sslClass   =   "UiTutorialLibTutorialhintbg"
+      __type   =   "UiContainer"
+   }
+   Tutorialhinticonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHintIconAttach"
+      sslClass   =   "UiTutorialLibTutorialhinticonattach"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintnavattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHintNavAttach"
+      sslClass   =   "UiTutorialLibTutorialhintnavattach"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintnavpanelbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHintNavPanelBg"
+      sslClass   =   "UiTutorialLibTutorialhintnavpanelbg"
+      __type   =   "UiContainer"
+   }
+   Tutorialhintstripe   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHintStripe"
+      sslClass   =   "UiTutorialLibTutorialhintstripe"
+      __type   =   "UiContainer"
+   }
+   Tutorialhtmltext   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialHtmlText"
+      sslClass   =   "UiTutorialLibTutorialhtmltext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialleft   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialLeft"
+      sslClass   =   "UiTutorialLibTutorialleft"
+      popUp   =   {
+         x   =   380
+         y   =   238
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopup"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialplaceholderimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPlaceholderImg"
+      sslClass   =   "UiTutorialLibTutorialplaceholderimg"
+      __type   =   "UiContainer"
+   }
+   Tutorialpopup   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopUp"
+      sslClass   =   "UiTutorialLibTutorialpopup"
+      header   =   {
+         x   =   -24
+         y   =   -45
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupheader"
+      }
+      btn   =   {
+         x   =   0
+         y   =   554
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupbtn"
+      }
+      imgAttach   =   {
+         x   =   17
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupimgattach"
+      }
+      embeddedTxt   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialembe"
+      }
+      bg   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         colorMode   =   4
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupbg"
+      }
+      shadow   =   {
+         x   =   -29
+         y   =   -28
+         scaleX   =   98.4619
+         scaleY   =   99.9969
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupshadow"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialpopupanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopupAnim"
+      sslClass   =   "UiTutorialLibTutorialpopupanim"
+      content   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         colorMode   =   3
+         alpha   =   0
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopup"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialpopupbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopUpBg"
+      sslClass   =   "UiTutorialLibTutorialpopupbg"
+      tutorialMask   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupmask"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialpopupbtn   =   {
+      symbol   =   "tutorialPopUpBtn"
+      attachPoint   =   {
+         x   =   170
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialattachpoint"
+      }
+      tfCont   =   {
+         x   =   210
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         colorMode   =   3
+         alpha   =   80
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupbtntext"
+      }
+      __type   =   "UiButton"
+   }
+   Tutorialpopupbtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopUpBtnText"
+      sslClass   =   "UiTutorialLibTutorialpopupbtntext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialpopupheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopUpHeader"
+      sslClass   =   "UiTutorialLibTutorialpopupheader"
+      tf   =   {
+         x   =   25
+         y   =   25
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialpopupimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopUpImgAttach"
+      sslClass   =   "UiTutorialLibTutorialpopupimgattach"
+      __type   =   "UiContainer"
+   }
+   Tutorialpopupmask   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopUpMask"
+      sslClass   =   "UiTutorialLibTutorialpopupmask"
+      __type   =   "UiContainer"
+   }
+   Tutorialpopupshadow   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialPopUpShadow"
+      sslClass   =   "UiTutorialLibTutorialpopupshadow"
+      __type   =   "UiContainer"
+   }
+   Tutorialright   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialRight"
+      sslClass   =   "UiTutorialLibTutorialright"
+      popUp   =   {
+         x   =   1180
+         y   =   238
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopup"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialsplashattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialSplashAttachPoint"
+      sslClass   =   "UiTutorialLibTutorialsplashattachpoint"
+      __type   =   "UiContainer"
+   }
+   Tutorialsplashbtn   =   {
+      symbol   =   "tutorialSplashBtn"
+      attachPoint   =   {
+         x   =   0
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialattachpoint"
+      }
+      tfCont   =   {
+         x   =   40
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         colorMode   =   3
+         alpha   =   80
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopupbtntext"
+      }
+      __type   =   "UiButton"
+   }
+   Tutorialsplashdesc   =   {
+      symbol   =   "tutorialSplashDesc"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Tutorialsplashheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialSplashHeader"
+      sslClass   =   "UiTutorialLibTutorialsplashheader"
+      tfCont   =   {
+         x   =   500
+         y   =   26
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTuorialsplashheadertf"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialsplashlineimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialSplashLineImg"
+      sslClass   =   "UiTutorialLibTutorialsplashlineimg"
+      __type   =   "UiContainer"
+   }
+   Tutorialsplashscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialSplashScreen"
+      sslClass   =   "UiTutorialLibTutorialsplashscreen"
+      header   =   {
+         x   =   0
+         y   =   85
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashheader"
+      }
+      img0   =   {
+         x   =   370
+         y   =   190
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashattachpoint"
+      }
+      img1   =   {
+         x   =   970
+         y   =   190
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashattachpoint"
+      }
+      desc   =   {
+         x   =   370
+         y   =   540
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashdesc"
+      }
+      line   =   {
+         x   =   333
+         y   =   702
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashlineimg"
+      }
+      btn   =   {
+         x   =   960
+         y   =   910
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashbtn"
+      }
+      textContainer   =   {
+         x   =   450
+         y   =   712
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashtextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialsplashscreenanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialSplashScreenAnim"
+      sslClass   =   "UiTutorialLibTutorialsplashscreenanim"
+      content   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         animated   =   True
+         colorMode   =   3
+         alpha   =   0
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialsplashscreen"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutorialsplashtextcont   =   {
+      symbol   =   "tutorialSplashTextCont"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Tutorialtopright   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutorialTopRight"
+      sslClass   =   "UiTutorialLibTutorialtopright"
+      popUp   =   {
+         x   =   1400
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         symbol   =   ""
+         __type   =   "UiTutorialLibTutorialpopup"
+      }
+      __type   =   "UiContainer"
+   }
+   Tutwinch1   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutWinch1"
+      sslClass   =   "UiTutorialLibTutwinch1"
+      __type   =   "UiContainer"
+   }
+   Tutwinch2   =   {
+      sslModule   =   "ui.autogen_libs.ui_tutorial_lib"
+      symbol   =   "tutWinch2"
+      sslClass   =   "UiTutorialLibTutwinch2"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

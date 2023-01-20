@@ -1,0 +1,28 @@
+inputScreen   =   {
+   name   =   "ExploringController"
+   inputsLinks   =   {
+      OpenPlayerProfile   =   {
+         inputLink   =   "Exploration.PlayerProfile"
+         __type   =   "InputLinkActionMr"
+      }
+      HudVisibility   =   {
+         inputLink   =   "Exploration.ToggleHudVisibility"
+         __type   =   "InputLinkActionMr"
+      }
+      HidePolygonTool   =   {
+         inputLink   =   "UI.HidePolygonTool"
+         __type   =   "InputLinkActionMr"
+      }
+      ToggleCamera   =   {
+         inputLink   =   "Truck.ToggleCamera"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+toggleCameraHoldListener   =   {
+   holdTimeSec   =   0.3
+   uiInputName   =   "ToggleCamera"
+   __type   =   "UiInputHoldListener"
+}
+__type   =   "object"

@@ -1,0 +1,3 @@
+timeToShowSec   =   10
+resetTimeSec   =   10
+__type   =   "TutorialStageRepeatable"

@@ -1,0 +1,32 @@
+view   =   {
+   __type   =   "SystemMessageUiView"
+}
+navPanels   =   {
+   SystemMessageNavigationPanel   =   {
+      btns   =   {
+         accept   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+id   =   "SYSTEM_MESSAGE"
+priority   =   "HIGH"
+disableInputs   =   True
+inputScreen   =   {
+   priority   =   "SYSTEM"
+   name   =   "SYSTEM MESSAGE"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "SystemMessageBaseUiController"

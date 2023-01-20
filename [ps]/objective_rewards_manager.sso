@@ -1,0 +1,125 @@
+truckReward   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   100
+   }
+}
+trailerReward   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   30
+   }
+}
+watchpointReward   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   50
+   }
+}
+garageFeatureRewardsDescs   =   {
+   SLOTS   =   {
+      uiDesc   =   "UI_GARAGE_FEATURE_SLOTS"
+      uiIcon30x30   =   "GarageMenuSlotIcon30"
+      uiIcon40x40   =   "GarageMenuSlotIcon"
+      __type   =   "GarageFeatureRewardDesc"
+   }
+   CUSTOMIZATION   =   {
+      uiDesc   =   "UI_GARAGE_FEATURE_CUSTOMIZATION"
+      uiIcon30x30   =   "GarageMenuCustomizeIcon30"
+      uiIcon40x40   =   "GarageMenuCustomizeIcon40"
+      __type   =   "GarageFeatureRewardDesc"
+   }
+   STORE   =   {
+      uiDesc   =   "UI_GARAGE_FEATURE_STORE"
+      uiIcon30x30   =   "GarageMenuStoreIcon30"
+      uiIcon40x40   =   "GarageMenuStoreIcon40"
+      __type   =   "GarageFeatureRewardDesc"
+   }
+   REPAIR   =   {
+      uiDesc   =   "UI_GARAGE_FEATURE_REPAIR"
+      uiIcon30x30   =   "upgradeImg30"
+      uiIcon40x40   =   "upgradeImg40"
+      __type   =   "GarageFeatureRewardDesc"
+   }
+}
+zoneDescs   =   {
+   CARGO_LOADING   =   {
+      minimapText   =   "UI_REWARD_OPEN_LOADING"
+      popupText   =   "UI_REWARD_POPUP_OPEN_LOADING"
+      uiIcon30x30   =   "townStorage30"
+      uiIcon40x40   =   "townStorage"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   GARAGE_ENTRANCE   =   {
+      minimapText   =   "UI_REWARD_OPEN_GARAGE"
+      popupText   =   "UI_REWARD_POPUP_OPEN_GARAGE"
+      uiIcon30x30   =   "garageImg30"
+      uiIcon40x40   =   "garageImg40"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   GATEWAY   =   {
+      minimapText   =   "UI_REWARD_OPEN_GATEWAY"
+      popupText   =   "UI_REWARD_POPUP_OPEN_GATEWAY"
+      uiIcon30x30   =   "gatewayImg30"
+      uiIcon40x40   =   "gatewayImg40"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   TRAILER_ATTACH   =   {
+      minimapText   =   "UI_REWARD_OPEN_TRAILER"
+      popupText   =   "UI_REWARD_POPUP_OPEN_TRAILER"
+      uiIcon30x30   =   "trailerShopImg30"
+      uiIcon40x40   =   "trailerStoreImg40"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   WATCHPOINT   =   {
+      minimapText   =   "UI_REWARD_OPEN_WATCHPOINT"
+      popupText   =   "UI_REWARD_POPUP_OPEN_WATCHPOINT"
+      uiIcon30x30   =   "watchTowerImg30"
+      uiIcon40x40   =   "watchTowerImg40"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   FUEL_STATION   =   {
+      minimapText   =   "UI_REWARD_OPEN_FUEL"
+      popupText   =   "UI_REWARD_POPUP_OPEN_FUEL"
+      uiIcon30x30   =   "fuelStationImg30"
+      uiIcon40x40   =   "fuelStationImg40"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   AUTO_RESTORE   =   {
+      minimapText   =   "UI_REWARD_OPEN_RESTORE"
+      popupText   =   "UI_REWARD_POPUP_OPEN_RESTORE"
+      uiIcon30x30   =   "serviceHubImg30"
+      uiIcon40x40   =   "serviceHubImg"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   STOREHOUSE_CRAFT   =   {
+      minimapText   =   "UI_REWARD_OPEN_CRAFT"
+      popupText   =   "UI_REWARD_POPUP_OPEN_CRAFT"
+      uiIcon30x30   =   "minimapMarkCraft30"
+      uiIcon40x40   =   "minimapMarkCraft30"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   RESUPPLY_REPAIR   =   {
+      minimapText   =   "UI_REWARD_OPEN_RESUPPLY"
+      popupText   =   "UI_REWARD_POPUP_OPEN_RESUPPLY"
+      uiIcon30x30   =   "resupplyImg30"
+      uiIcon40x40   =   "resupplyImg40"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   ENERGY   =   {
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+   WATER_STATION   =   {
+      minimapText   =   "UI_REWARD_OPEN_WATER_STATION"
+      popupText   =   "UI_REWARD_POPUP_OPEN_WATER_STATION"
+      uiIcon30x30   =   "fuelStationImg30"
+      uiIcon40x40   =   "fuelStationImg40"
+      __type   =   "ObjectiveRewardOpenZoneDesc"
+   }
+}
+commonZoneDesc   =   {
+   minimapText   =   "UI_REWARD_OPEN_ZONE"
+   popupText   =   "UI_REWARD_OPEN_ZONE"
+   uiIcon30x30   =   "markerImg30"
+   uiIcon40x40   =   "markerImg"
+   isCommon   =   True
+   __type   =   "ObjectiveRewardOpenZoneDesc"
+}
+__type   =   "object"

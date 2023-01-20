@@ -1,0 +1,13 @@
+inputScreen   =   {
+   priority   =   "VERY_HIGH"
+   name   =   "CinematicCamera"
+   inputsLinks   =   {
+      Skip   =   {
+         inputLink   =   "Exploration.SkipCinematic"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "object"

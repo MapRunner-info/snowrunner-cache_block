@@ -1,0 +1,39 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         optionsList   =   {
+            lir   =   {
+               __type   =   "PopupLocalGameListLir"
+            }
+            __type   =   "UiPopupLibModbrowserpopupmorelist"
+         }
+         optionsListLong   =   {
+            focusable   =   False
+            enabled   =   False
+            __type   =   "UiPopupLibModbrowserpopupmorelistlong"
+         }
+         __type   =   "UiPopupLibModbrowserpopupmore"
+      }
+      __type   =   "UiPopupLibAnimmodbrowserpopupmore"
+   }
+   __type   =   "UiObjectDesc"
+}
+headerIcon   =   "codexIconDamage40"
+headerText   =   "UI_LOCAL_GAMES_LIST_HEADER"
+headerSearchingText   =   "UI_LOCAL_GAMES_SEARCHING_HEADER"
+gamesList   =   {
+   uiInputScreen   =   {
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   ""
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+__type   =   "PopupViewBase"

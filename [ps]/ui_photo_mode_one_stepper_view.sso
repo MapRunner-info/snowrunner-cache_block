@@ -1,0 +1,7 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPhotoModePhotosettingslirstepper"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "UiPhotoModeOneSettingView"

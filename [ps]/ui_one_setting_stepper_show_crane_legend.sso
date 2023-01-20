@@ -1,0 +1,4 @@
+header   =   "UI_SETTINGS_SHOW_CRANE_LEGEND"
+desc   =   "UI_SETTINGS_SHOW_CRANE_LEGEND_DESC"
+defaultStepperIndex   =   1
+__type   =   "UiOneSettingStepperOnOff"

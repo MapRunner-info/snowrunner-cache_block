@@ -1,0 +1,5 @@
+initialObjectiveIds   =   [
+   "US_01_01_EXPLORING_WATCHTOWER_OBJ",
+   "US_01_01_EXPLORING_TRUCK_OBJ"
+]
+__type   =   "TutorialStage"

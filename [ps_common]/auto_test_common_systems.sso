@@ -1,0 +1,12 @@
+tasks   =   {
+   CheckFsmBasics   =   {
+      startOnLevelLoaded   =   False
+      startByQueue   =   False
+      startAfterInit   =   True
+      __type   =   "AutoTestTaskCheckFsmBasics"
+   }
+   CheckWeightedRandom   =   {
+      __type   =   "AutoTestTaskCheckWeightedRandom"
+   }
+}
+__type   =   "AutoTestBase"

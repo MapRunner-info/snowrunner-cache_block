@@ -1,0 +1,228 @@
+employers   =   {
+   Husky   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_HUSKY"
+      iconLinkageLogo   =   "EmployersHuskyImg40"
+      iconLinkageBackground   =   "EmployersHuskyBgImg300"
+      __type   =   "EmployerDesc"
+   }
+   GarlicOil   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_GARLIC"
+      iconLinkageLogo   =   "EmployersLukoilImg40"
+      iconLinkageBackground   =   "EmployersLukoilBgImg300"
+      __type   =   "EmployerDesc"
+   }
+   WoodyWoodpecker   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_WOODY"
+      iconLinkageLogo   =   "EmployersBrentImg40"
+      iconLinkageBackground   =   "EmployersBrentBgImg300"
+      __type   =   "EmployerDesc"
+   }
+   AttecaTownship   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_ATTECA"
+      iconLinkageLogo   =   "companyLogo_3_40"
+      iconLinkageBackground   =   "companyLogo_3_200"
+      __type   =   "EmployerDesc"
+   }
+   HuskyForwarding   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_HUSKY_FORWARDING"
+      iconLinkageLogo   =   "companyLogo_4_40"
+      iconLinkageBackground   =   "companyLogo_4_200"
+      __type   =   "EmployerDesc"
+   }
+   DysonDiesel   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_DYSON"
+      iconLinkageLogo   =   "companyLogo_5_40"
+      iconLinkageBackground   =   "companyLogo_5_200"
+      __type   =   "EmployerDesc"
+   }
+   MorrisonMining   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_MORRISON"
+      iconLinkageLogo   =   "companyLogo_0_40"
+      iconLinkageBackground   =   "companyLogo_0_200"
+      __type   =   "EmployerDesc"
+   }
+   BlackBird   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_BLACK_BIRD"
+      iconLinkageLogo   =   "companyLogo_1_40"
+      iconLinkageBackground   =   "companyLogo_1_200"
+      __type   =   "EmployerDesc"
+   }
+   GREnterprise   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_GRE"
+      iconLinkageLogo   =   "companyLogo_2_40"
+      iconLinkageBackground   =   "companyLogo_2_200"
+      __type   =   "EmployerDesc"
+   }
+   TaigaOil   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_TAIGA"
+      iconLinkageLogo   =   "companyLogo_6_40"
+      iconLinkageBackground   =   "companyLogo_6_200"
+      __type   =   "EmployerDesc"
+   }
+   Voronoe12   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_VORONOE"
+      iconLinkageLogo   =   "companyLogo_7_40"
+      iconLinkageBackground   =   "companyLogo_7_200"
+      __type   =   "EmployerDesc"
+   }
+   TransTaymir   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_TRANS_TAYMIR"
+      iconLinkageLogo   =   "companyLogo_8_40"
+      iconLinkageBackground   =   "companyLogo_8_200"
+      __type   =   "EmployerDesc"
+   }
+   KolaExpedition   =   {
+      uiName   =   "UI_CONTRACT_GIVER_KOLA_EXPEDITION"
+      iconLinkageLogo   =   "companyLogo_9_40"
+      iconLinkageBackground   =   "companyLogo_9_200"
+      __type   =   "EmployerDesc"
+   }
+   SeverMotorRepairs   =   {
+      uiName   =   "UI_CONTRACT_GIVER_SEVMOT_REPAIRS"
+      iconLinkageLogo   =   "companyLogo_11_40"
+      iconLinkageBackground   =   "companyLogo_11_200"
+      __type   =   "EmployerDesc"
+   }
+   KolskyRegionalGov   =   {
+      uiName   =   "UI_CONTRACT_GIVER_KOLSKY_REGGOV"
+      iconLinkageLogo   =   "companyLogo_10_40"
+      iconLinkageBackground   =   "companyLogo_10_200"
+      __type   =   "EmployerDesc"
+   }
+   GoldhorseMining   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_GOLD"
+      iconLinkageLogo   =   "companyLogo_12_40"
+      iconLinkageBackground   =   "companyLogo_12_200"
+      __type   =   "EmployerDesc"
+   }
+   GreenLake   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_GREENLAKE"
+      iconLinkageLogo   =   "companyLogo_13_40"
+      iconLinkageBackground   =   "companyLogo_13_200"
+      __type   =   "EmployerDesc"
+   }
+   Nonagon   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_NONAGON"
+      iconLinkageLogo   =   "companyLogo_14_40"
+      iconLinkageBackground   =   "companyLogo_14_200"
+      __type   =   "EmployerDesc"
+   }
+   Stonecreek   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_STONECREEK"
+      iconLinkageLogo   =   "companyLogo_15_40"
+      iconLinkageBackground   =   "companyLogo_15_200"
+      __type   =   "EmployerDesc"
+   }
+   Maneuver29Agency   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_MANEUVER_29"
+      iconLinkageLogo   =   "companyLogo_18_40"
+      iconLinkageBackground   =   "companyLogo_18_200"
+      __type   =   "EmployerDesc"
+   }
+   AmurRegionalGov   =   {
+      uiName   =   "UI_CONTRACT_GIVER_AMUR_REGGOV"
+      iconLinkageLogo   =   "companyLogo_16_40"
+      iconLinkageBackground   =   "companyLogo_16_200"
+      __type   =   "EmployerDesc"
+   }
+   AmurFuelCompany   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_AMUR_FUEL"
+      iconLinkageLogo   =   "companyLogo_17_40"
+      iconLinkageBackground   =   "companyLogo_17_200"
+      __type   =   "EmployerDesc"
+   }
+   Tatra   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_Tatra"
+      iconLinkageLogo   =   "companyLogo_19_40"
+      iconLinkageBackground   =   "companyLogo_19_200"
+      __type   =   "EmployerDesc"
+   }
+   RostovRegionalGov   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_RostovRegionalGov"
+      iconLinkageLogo   =   "companyLogo_20_40"
+      iconLinkageBackground   =   "companyLogo_20_200"
+      __type   =   "EmployerDesc"
+   }
+   WestRailways   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_WestRailways"
+      iconLinkageLogo   =   "companyLogo_21_40"
+      iconLinkageBackground   =   "companyLogo_21_200"
+      __type   =   "EmployerDesc"
+   }
+   EvansGarage   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_EvansGarage"
+      iconLinkageLogo   =   "companyLogo_22_40"
+      iconLinkageBackground   =   "companyLogo_22_200"
+      __type   =   "EmployerDesc"
+   }
+   DustyWoodwork   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_DustyWoodwork"
+      iconLinkageLogo   =   "companyLogo_23_40"
+      iconLinkageBackground   =   "companyLogo_23_200"
+      __type   =   "EmployerDesc"
+   }
+   YellowRockForestry   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_YellowRockForestry"
+      iconLinkageLogo   =   "companyLogo_24_40"
+      iconLinkageBackground   =   "companyLogo_24_200"
+      __type   =   "EmployerDesc"
+   }
+   OffRroadCup_Stage_1   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_Stage_1"
+      iconLinkageLogo   =   "circuitRace_40"
+      iconLinkageBackground   =   "circuitRace_200"
+      sortId   =   1
+      __type   =   "EmployerDesc"
+   }
+   OffRroadCup_Stage_2   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_Stage_2"
+      iconLinkageLogo   =   "climbRace_40"
+      iconLinkageBackground   =   "climbRace_200"
+      sortId   =   2
+      __type   =   "EmployerDesc"
+   }
+   OffRroadCup_Stage_3   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_Stage_3"
+      iconLinkageLogo   =   "orientationRace_40"
+      iconLinkageBackground   =   "orientationRace_200"
+      sortId   =   3
+      __type   =   "EmployerDesc"
+   }
+   SunsailsTechnologies   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_SunsailsTechnologies"
+      iconLinkageLogo   =   "sunsailsTechnologies_40"
+      iconLinkageBackground   =   "sunsailsTechnologies_200"
+      __type   =   "EmployerDesc"
+   }
+   Kolari   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_Kolari"
+      iconLinkageLogo   =   "kolari_40"
+      iconLinkageBackground   =   "kolari_200"
+      __type   =   "EmployerDesc"
+   }
+   HarvestCorp   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_HarvestCorp"
+      iconLinkageLogo   =   "rusCrop_40"
+      iconLinkageBackground   =   "ruscrop_200"
+      __type   =   "EmployerDesc"
+   }
+   OntarioFireStationDepartment   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_OntarioFireStationDepartment"
+      iconLinkageLogo   =   "ontarioFireDept_40"
+      iconLinkageBackground   =   "ontarioFireDept_200"
+      __type   =   "EmployerDesc"
+   }
+   OntarioAdministration   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_OntarioAdministration"
+      iconLinkageLogo   =   "ontarioTownHall_40"
+      iconLinkageBackground   =   "ontarioTownHall_200"
+      __type   =   "EmployerDesc"
+   }
+   WeymouthMiningLTD   =   {
+      uiName   =   "UI_CONTRACT_GIVER_COMPANY_WeymouthMiningLTD"
+      iconLinkageLogo   =   "ontarioGoldMine_40"
+      iconLinkageBackground   =   "ontarioGoldMine_200"
+      __type   =   "EmployerDesc"
+   }
+}
+__type   =   "object"

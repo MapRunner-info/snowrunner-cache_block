@@ -1,0 +1,76 @@
+uiDesc   =   "US_01_02_RESOURCES_FOR_WINTER_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_RESOURCES_FOR_WINTER_VEH"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_LOGISTICS_BASE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoVehiclesSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      truckDelivery   =   [
+         {
+            truckId   =   "SERVICE_OIL_TRAILER"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_LOGISTICS_BASE"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_02_RESOURCES_FOR_WINTER_TRAILER"
+            afterStageFinished   =   "DESTROY"
+         }
+      ]
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_DRILLING_RECOVERY_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_02_RESOURCES_FOR_WINTER_OBJ_REW"
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+rewards   =   {
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "US_01_02_LOGISTICS_BASE"
+            mapId   =   "level_us_01_02"
+            props   =   {
+               ZonePropertyCargoLoading   =   {
+                  cargosSettings   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                     }
+                  ]
+                  platformId   =   "US_01_02_LOGISTICS_BASE_MANUAL"
+               }
+            }
+         }
+         ZonePropertiesSettingsObjectiveReward_1   =   {
+            zoneId   =   "US_01_02_REPAIR_ZONE"
+            mapId   =   "level_us_01_02"
+            props   =   {
+               ZonePropertyAutoRepairAndRestore   =   {
+               }
+            }
+            __type   =   "ZonePropertiesSettingsObjectiveReward"
+         }
+      }
+   }
+   ObjectiveRewardExperience   =   {
+      amount   =   420
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   5000
+   }
+}
+__type   =   "ContractSettings"

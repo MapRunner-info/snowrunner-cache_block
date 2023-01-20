@@ -1,0 +1,48 @@
+camera   =   {
+   fov   =   60
+   __type   =   "Camera"
+}
+inputMovementLink   =   {
+   inputLink   =   "FlyCamera.Movement"
+   __type   =   "InputLinkVector"
+}
+inputRotationLink   =   {
+   inputLink   =   "FlyCamera.Rotation"
+   __type   =   "InputLinkVector"
+}
+inputAccelerationLink   =   {
+   inputLink   =   "FlyCamera.Acceleration"
+   __type   =   "InputLinkAction"
+}
+inputMotionScaleLink   =   {
+   inputLink   =   "FlyCamera.MotionScale"
+   __type   =   "InputLinkVector"
+}
+inputSendParamsCameraLink   =   {
+   inputLink   =   "FlyCamera.SendParamsCamera"
+   __type   =   "InputLinkAction"
+}
+inputUpLink   =   {
+   inputLink   =   "FlyCamera.Up"
+   __type   =   "InputLinkAction"
+}
+inputDownLink   =   {
+   inputLink   =   "FlyCamera.Down"
+   __type   =   "InputLinkAction"
+}
+accelerationScale   =   20
+defaultSpeed   =   10
+speedStep   =   0.5
+switchGameContextInputLink   =   {
+   inputLink   =   "Debug.SwitchGameContext"
+   __type   =   "InputLinkHold"
+}
+switchGameContextWhilePressedInputLink   =   {
+   inputLink   =   "Debug.SwitchGameContextWhilePressed"
+   __type   =   "InputLinkHold"
+}
+lockOnCharacterInputLink   =   {
+   inputLink   =   "Debug.LockOnCharacter"
+   __type   =   "InputLinkHold"
+}
+__type   =   "object"

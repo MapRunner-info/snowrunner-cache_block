@@ -1,0 +1,1716 @@
+classes   =   {
+   AutoClassColorcostcontainerCost   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclasscolorcostcontainercost"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassColorlirdlciconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclasscolorlirdlcicontxt"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassColorlirmodiconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclasscolorlirmodicontxt"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassColorlirpreiconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclasscolorlirpreicontxt"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCustomizepanelsubheaderHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclasscustomizepanelsubheaderheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCustomizescreenTruckinfo   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclasscustomizescreentruckinfo"
+      infoPanelAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizescreenattach"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassDecalslistheaderHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclassdecalslistheaderheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTuningbtnTuningtxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclasstuningbtntuningtxt"
+      header   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   20
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiCustomizationLibTuningbtnheader"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   20
+         y   =   21
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibTuningbtntextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassVisuallirHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclassvisuallirheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassVisuallistheaderHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   ""
+      sslClass   =   "UiCustomizationLibAutoclassvisuallistheaderheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Addondlcmarkcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "addonDlcMarkContainer"
+      sslClass   =   "UiCustomizationLibAddondlcmarkcontainer"
+      dlcMarkItem   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibDlcmark"
+      }
+      __type   =   "UiContainer"
+   }
+   Colorclip0   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorClip0"
+      sslClass   =   "UiCustomizationLibColorclip0"
+      __type   =   "UiContainer"
+   }
+   Colorclip1   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorClip1"
+      sslClass   =   "UiCustomizationLibColorclip1"
+      __type   =   "UiContainer"
+   }
+   Colorclip2   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorClip2"
+      sslClass   =   "UiCustomizationLibColorclip2"
+      __type   =   "UiContainer"
+   }
+   Colorcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorContainer"
+      sslClass   =   "UiCustomizationLibColorcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   67
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColortilelist"
+      }
+      __type   =   "UiContainer"
+   }
+   Colorcostcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorCostContainer"
+      sslClass   =   "UiCustomizationLibColorcostcontainer"
+      cost   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibAutoclasscolorcostcontainercost"
+      }
+      currencyIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   59
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibCurrencyiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Colordefaultimgcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorDefaultImgContainer"
+      sslClass   =   "UiCustomizationLibColordefaultimgcontainer"
+      __type   =   "UiContainer"
+   }
+   Colorimgcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorImgContainer"
+      sslClass   =   "UiCustomizationLibColorimgcontainer"
+      dlcAttach   =   {
+         symbol   =   ""
+         x   =   85
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColorlirdlcattach"
+      }
+      color2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColorclip2"
+      }
+      color1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColorclip1"
+      }
+      color0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColorclip0"
+      }
+      __type   =   "UiContainer"
+   }
+   Colorlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "colorLir"
+      status   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   75
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibItemstatus"
+      }
+      colorImg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColorimgcontainer"
+      }
+      colorCostCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   61
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColorcostcontainer"
+      }
+      __type   =   "UiListItem"
+   }
+   Colorlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Colorlirdlcattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorLirDlcAttach"
+      sslClass   =   "UiCustomizationLibColorlirdlcattach"
+      __type   =   "UiContainer"
+   }
+   Colorlirdlcicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorLirDlcIcon"
+      sslClass   =   "UiCustomizationLibColorlirdlcicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -22.8
+         y   =   -12.6
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiCustomizationLibAutoclasscolorlirdlcicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Colorlirmodicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorLirModIcon"
+      sslClass   =   "UiCustomizationLibColorlirmodicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -22.8
+         y   =   -12.6
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiCustomizationLibAutoclasscolorlirmodicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Colorlirpreicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorLirPreIcon"
+      sslClass   =   "UiCustomizationLibColorlirpreicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -22.8
+         y   =   -12.6
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiCustomizationLibAutoclasscolorlirpreicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Colorshadow   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "colorShadow"
+      sslClass   =   "UiCustomizationLibColorshadow"
+      __type   =   "UiContainer"
+   }
+   Colortilelist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "colorTileList"
+      __type   =   "UiTileList"
+   }
+   Currencyiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "currencyIconAttach"
+      sslClass   =   "UiCustomizationLibCurrencyiconattach"
+      __type   =   "UiContainer"
+   }
+   Customizationpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "customizationPanel"
+      sslClass   =   "UiCustomizationLibCustomizationpanel"
+      panelHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizepanelsubheader"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizepanelheader"
+      }
+      tabBtnR   =   {
+         symbol   =   ""
+         x   =   348
+         y   =   101
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizenavpanelattach"
+      }
+      tabBtnL   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   101
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizenavpanelattach"
+      }
+      btn0   =   {
+         symbol   =   ""
+         x   =   113
+         y   =   101
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizationpaneltab"
+      }
+      btn1   =   {
+         symbol   =   ""
+         x   =   170
+         y   =   101
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizationpaneltab"
+      }
+      btn2   =   {
+         symbol   =   ""
+         x   =   227
+         y   =   101
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizationpaneltab"
+      }
+      btn3   =   {
+         symbol   =   ""
+         x   =   284
+         y   =   101
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizationpaneltab"
+      }
+      content   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   228
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizecontent"
+      }
+      bgImg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   790
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      panelBg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Customizationpanelarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "customizationPanelArrow"
+      arrowIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   5
+         y   =   5
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Customizationpaneltab   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "customizationPanelTab"
+      tabIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Customizecontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "customizeContent"
+      sslClass   =   "UiCustomizationLibCustomizecontent"
+      colors   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibColorcontainer"
+      }
+      decals   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibDecalcontainer"
+      }
+      interior   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibVisualcontainer"
+      }
+      visual   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibVisualcontainer"
+      }
+      tuning   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningcontainer"
+      }
+      tuningView   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemviewcontainer"
+      }
+      wheels   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelscontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Customizecontentlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "customizeContentList"
+      __type   =   "UiScrollingList"
+   }
+   Customizenavpanelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "customizeNavPanelAttach"
+      sslClass   =   "UiCustomizationLibCustomizenavpanelattach"
+      __type   =   "UiContainer"
+   }
+   Customizepanelheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "customizePanelHeader"
+      sslClass   =   "UiCustomizationLibCustomizepanelheader"
+      textField   =   {
+         x   =   0
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Customizepanelsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "customizePanelSubHeader"
+      sslClass   =   "UiCustomizationLibCustomizepanelsubheader"
+      arrowBack   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizationpanelarrow"
+      }
+      header   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibAutoclasscustomizepanelsubheaderheader"
+      }
+      __type   =   "UiContainer"
+   }
+   Customizescreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "customizeScreen"
+      sslClass   =   "UiCustomizationLibCustomizescreen"
+      playerInfoAttach   =   {
+         symbol   =   ""
+         x   =   1520
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizescreenattach"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibCustomizenavpanelattach"
+      }
+      panel   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibCustomizationpanel"
+      }
+      stickerSlotCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   437.9
+         y   =   43.95
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibStickerslotcontainer"
+      }
+      itemInfo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   390
+         y   =   106
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibTuningiteminfocontainer"
+      }
+      truckInfo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   390
+         y   =   590
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibAutoclasscustomizescreentruckinfo"
+      }
+      __type   =   "UiContainer"
+   }
+   Customizescreenattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "customizeScreenAttach"
+      sslClass   =   "UiCustomizationLibCustomizescreenattach"
+      __type   =   "UiContainer"
+   }
+   Decalcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "decalContainer"
+      sslClass   =   "UiCustomizationLibDecalcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibDecalsaccordionlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Decalcosttf   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "decalCostTf"
+      sslClass   =   "UiCustomizationLibDecalcosttf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Decaliconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "decalIconAttach"
+      sslClass   =   "UiCustomizationLibDecaliconattach"
+      __type   =   "UiContainer"
+   }
+   Decallir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "decalLir"
+      currencyIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   370
+         y   =   68.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibCurrencyiconattach"
+      }
+      decalCost   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   140
+         y   =   63
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibDecalcosttf"
+      }
+      iconAttachImg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   125
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibDecaliconattach"
+      }
+      __type   =   "UiListItem"
+   }
+   Decallirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Decalsaccordionlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "decalsAccordionList"
+      sslClass   =   "UiCustomizationLibDecalsaccordionlist"
+      __type   =   "UiAccordion"
+   }
+   Decalslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "decalsList"
+      __type   =   "UiScrollingList"
+   }
+   Decalslistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "decalsListContainer"
+      sslClass   =   "UiCustomizationLibDecalslistcontainer"
+      __type   =   "UiContainer"
+   }
+   Decalslistheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "decalsListHeader"
+      sslClass   =   "UiCustomizationLibDecalslistheader"
+      header   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   22
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibAutoclassdecalslistheaderheader"
+      }
+      __type   =   "UiContainer"
+   }
+   Dlcmark   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "dlcMark"
+      sslClass   =   "UiCustomizationLibDlcmark"
+      __type   =   "UiContainer"
+   }
+   Installbtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "installBtnText"
+      sslClass   =   "UiCustomizationLibInstallbtntext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Installbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "installButton"
+      btnContent   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   20
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   60
+         __type   =   "UiCustomizationLibInstallbtntext"
+      }
+      __type   =   "UiButton"
+   }
+   Itemstatus   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "itemStatus"
+      sslClass   =   "UiCustomizationLibItemstatus"
+      __type   =   "UiContainer"
+   }
+   Stickerslotcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "stickerSlotContainer"
+      sslClass   =   "UiCustomizationLibStickerslotcontainer"
+      slotTextfield   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningaccordionlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningAccordionList"
+      sslClass   =   "UiCustomizationLibTuningaccordionlist"
+      __type   =   "UiAccordion"
+   }
+   Tuningbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "tuningBtn"
+      imgAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiCustomizationLibTuningbtnimgattach"
+      }
+      tuningTxt   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   82
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiCustomizationLibAutoclasstuningbtntuningtxt"
+      }
+      __type   =   "UiButton"
+   }
+   Tuningbtnheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningBtnHeader"
+      sslClass   =   "UiCustomizationLibTuningbtnheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningbtnimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningBtnImgAttach"
+      sslClass   =   "UiCustomizationLibTuningbtnimgattach"
+      __type   =   "UiContainer"
+   }
+   Tuningbtnstripe   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningBtnStripe"
+      sslClass   =   "UiCustomizationLibTuningbtnstripe"
+      __type   =   "UiContainer"
+   }
+   Tuningbtntextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningBtnTextCont"
+      sslClass   =   "UiCustomizationLibTuningbtntextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningContainer"
+      sslClass   =   "UiCustomizationLibTuningcontainer"
+      accList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningaccordionlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitem   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "tuningItem"
+      imgAttach1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   402
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibTuningitemicon"
+      }
+      imgAttach0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibTuningitemicon"
+      }
+      cost   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   302
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibTuningitemcostcont"
+      }
+      status   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   302
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibTuningitemstatuscont"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibTuningitemtextcont"
+      }
+      subHeader   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningsubheadertext"
+      }
+      dlcMarkCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   54.5
+         y   =   17.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibAddondlcmarkcontainer"
+      }
+      __type   =   "UiListItem"
+   }
+   Tuningitemdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Tuningitemattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemAttach"
+      sslClass   =   "UiCustomizationLibTuningitemattach"
+      __type   =   "UiContainer"
+   }
+   Tuningitemcostcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemCostCont"
+      sslClass   =   "UiCustomizationLibTuningitemcostcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemIcon"
+      sslClass   =   "UiCustomizationLibTuningitemicon"
+      __type   =   "UiContainer"
+   }
+   Tuningiteminfocontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemInfoContainer"
+      sslClass   =   "UiCustomizationLibTuningiteminfocontainer"
+      titleTextField   =   {
+         x   =   0
+         y   =   -26
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      wheelsPerfAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   147.65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelsperformanceattach"
+      }
+      suitableTf   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiCustomizationLibTuningsuitablepartstf"
+      }
+      descriptionTextField   =   {
+         x   =   0
+         y   =   92
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      cargoList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   130
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningviewcargolist"
+      }
+      line4   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   412
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatline"
+      }
+      line3   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   382
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatline"
+      }
+      line2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   352
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatline"
+      }
+      line1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   322
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatline"
+      }
+      line0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   292
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatline"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningiteminfocontainerpaneled   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemInfoContainerPaneled"
+      sslClass   =   "UiCustomizationLibTuningiteminfocontainerpaneled"
+      line4   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   136
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatlinepaneled"
+      }
+      line3   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   102
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatlinepaneled"
+      }
+      line2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   68
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatlinepaneled"
+      }
+      line1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatlinepaneled"
+      }
+      line0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatlinepaneled"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemstatline   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemStatLine"
+      sslClass   =   "UiCustomizationLibTuningitemstatline"
+      statText   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstattext"
+      }
+      statValue   =   {
+         symbol   =   ""
+         x   =   180
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatvalue"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemstatlinepaneled   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemStatLinePaneled"
+      sslClass   =   "UiCustomizationLibTuningitemstatlinepaneled"
+      statText   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstattext"
+      }
+      statValue   =   {
+         symbol   =   ""
+         x   =   230
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemstatvalue"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemstattext   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemStatText"
+      sslClass   =   "UiCustomizationLibTuningitemstattext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemstatuscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemStatusCont"
+      sslClass   =   "UiCustomizationLibTuningitemstatuscont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemstatvalue   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemStatValue"
+      sslClass   =   "UiCustomizationLibTuningitemstatvalue"
+      textCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemvaluetxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemtextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemTextCont"
+      sslClass   =   "UiCustomizationLibTuningitemtextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemvaluetxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemValueTxt"
+      sslClass   =   "UiCustomizationLibTuningitemvaluetxt"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningitemviewcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningItemViewContainer"
+      sslClass   =   "UiCustomizationLibTuningitemviewcontainer"
+      desc   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningviewdesc"
+      }
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   145
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningitemattach"
+      }
+      infoCont   =   {
+         symbol   =   ""
+         x   =   25
+         y   =   446
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningiteminfocontainerpaneled"
+      }
+      warningText   =   {
+         symbol   =   ""
+         x   =   75
+         y   =   636
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningviewwarningtf"
+      }
+      installBtn   =   {
+         symbol   =   ""
+         x   =   75
+         y   =   761.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibInstallbutton"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuninglistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningListContainer"
+      sslClass   =   "UiCustomizationLibTuninglistcontainer"
+      __type   =   "UiContainer"
+   }
+   Tuningsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningSubHeader"
+      sslClass   =   "UiCustomizationLibTuningsubheader"
+      textCont   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningsubheadertext"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningsubheadertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningSubHeaderText"
+      sslClass   =   "UiCustomizationLibTuningsubheadertext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningsuitablepartstf   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "tuningSuitablePartsTf"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Tuningviewcargolir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "tuningViewCargoLir"
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningviewcargolirattach"
+      }
+      valContent   =   {
+         symbol   =   ""
+         x   =   300
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningviewcargolirvaltext"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibTuningviewcargolirtext"
+      }
+      __type   =   "UiListItem"
+   }
+   Tuningviewcargolirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Tuningviewcargolirattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningViewCargoLirAttach"
+      sslClass   =   "UiCustomizationLibTuningviewcargolirattach"
+      __type   =   "UiContainer"
+   }
+   Tuningviewcargolirtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningViewCargoLirText"
+      sslClass   =   "UiCustomizationLibTuningviewcargolirtext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningviewcargolirvaltext   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningViewCargoLirValText"
+      sslClass   =   "UiCustomizationLibTuningviewcargolirvaltext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningviewcargolist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "tuningViewCargoList"
+      __type   =   "UiScrollingList"
+   }
+   Tuningviewdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningViewDesc"
+      sslClass   =   "UiCustomizationLibTuningviewdesc"
+      textField   =   {
+         x   =   50
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tuningviewwarningtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "tuningViewWarningTf"
+      sslClass   =   "UiCustomizationLibTuningviewwarningtf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Visualaccordionlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "visualAccordionList"
+      sslClass   =   "UiCustomizationLibVisualaccordionlist"
+      __type   =   "UiAccordion"
+   }
+   Visualbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "visualBtn"
+      status   =   {
+         symbol   =   ""
+         x   =   345
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibItemstatus"
+      }
+      currencyIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   345
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibCurrencyiconattach"
+      }
+      visualCost   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   115
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibVisuallircosttf"
+      }
+      visualName   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibVisuallirtextcont"
+      }
+      __type   =   "UiButton"
+   }
+   Visualcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "visualContainer"
+      sslClass   =   "UiCustomizationLibVisualcontainer"
+      accList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibVisualaccordionlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Visuallir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "visualLir"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibAutoclassvisuallirheader"
+      }
+      status   =   {
+         symbol   =   ""
+         x   =   345
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibItemstatus"
+      }
+      currencyIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   345
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibCurrencyiconattach"
+      }
+      visualCost   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   115
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCustomizationLibVisuallircosttf"
+      }
+      visualName   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   65
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCustomizationLibVisuallirtextcont"
+      }
+      __type   =   "UiListItem"
+   }
+   Visuallirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Visuallircosttf   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "visualLirCostTf"
+      sslClass   =   "UiCustomizationLibVisuallircosttf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Visuallirtextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "visualLirTextCont"
+      sslClass   =   "UiCustomizationLibVisuallirtextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Visuallist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "visualList"
+      __type   =   "UiScrollingList"
+   }
+   Visuallistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "visualListContainer"
+      sslClass   =   "UiCustomizationLibVisuallistcontainer"
+      __type   =   "UiContainer"
+   }
+   Visuallistheader   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "visualListHeader"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   14
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibAutoclassvisuallistheaderheader"
+      }
+      __type   =   "UiButton"
+   }
+   Wheelscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "wheelsContainer"
+      sslClass   =   "UiCustomizationLibWheelscontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelslist"
+      }
+      __type   =   "UiContainer"
+   }
+   Wheelslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "wheelsList"
+      __type   =   "UiScrollingList"
+   }
+   Wheelsperformance   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "wheelsPerformance"
+      sslClass   =   "UiCustomizationLibWheelsperformance"
+      headerTf   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelsperformanceheadertf"
+      }
+      line0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelsperformancetf"
+      }
+      line1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   80
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelsperformancetf"
+      }
+      line2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   110
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelsperformancetf"
+      }
+      line3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   140
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCustomizationLibWheelsperformancetf"
+      }
+      __type   =   "UiContainer"
+   }
+   Wheelsperformanceattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_customization_lib"
+      symbol   =   "wheelsPerformanceAttach"
+      sslClass   =   "UiCustomizationLibWheelsperformanceattach"
+      __type   =   "UiContainer"
+   }
+   Wheelsperformanceheadertf   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "wheelsPerformanceHeaderTf"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Wheelsperformancetf   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "wheelsPerformanceTf"
+      __type   =   "UiEmbeddedClipText"
+   }
+}
+__type   =   "ssl_object_lib"

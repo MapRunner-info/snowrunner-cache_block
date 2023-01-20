@@ -1,0 +1,64 @@
+classes   =   {
+   AutoClassAttachPointWhinchFillHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_truck_attach_points"
+      symbol   =   ""
+      sslClass   =   "UiTruckAttachPointsAutoclassattachpointwhinchfillheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AttachPointTrailerEmpty   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "attach_point_trailer_empty"
+      __type   =   "UiButton"
+   }
+   AttachPointTrailerFill   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "attach_point_trailer_fill"
+      __type   =   "UiButton"
+   }
+   AttachPointWhinchEmpty   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "attach_point_whinch_empty"
+      __type   =   "UiButton"
+   }
+   AttachPointWhinchFill   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "attach_point_whinch_fill"
+      header   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   10
+         scaleX   =   75.9613
+         scaleY   =   75.9613
+         alpha   =   50
+         __type   =   "UiTruckAttachPointsAutoclassattachpointwhinchfillheader"
+      }
+      icon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   6.6
+         y   =   6.6
+         scaleX   =   79.9988
+         scaleY   =   79.9988
+         alpha   =   80
+         __type   =   "UiTruckAttachPointsChangetruckicon"
+      }
+      __type   =   "UiButton"
+   }
+   ChangeTruckIcon   =   {
+      sslModule   =   "ui.autogen_libs.ui_truck_attach_points"
+      symbol   =   "change_truck_icon"
+      sslClass   =   "UiTruckAttachPointsChangetruckicon"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

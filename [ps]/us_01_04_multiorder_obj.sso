@@ -1,0 +1,171 @@
+uiDesc   =   "US_01_04_MULTIORDER_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_MULTIORDER_BASE_1"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_LOGISTICS_BASE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrels"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_LOGISTICS_BASE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoCrateLarge"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_LOGISTICS_BASE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_LOGISTICS_BASE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   },
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_MULTIORDER_FOREST"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_METAL_LOADING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrels"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_METAL_LOADING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoCrateLarge"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_METAL_LOADING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteBlocks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   },
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_MULTIORDER_OLDHOUSE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_OLD_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoVehiclesSpareParts"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_OLD_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrels"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_MULTIORDER_PORT"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_PORT_CARGO"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_PORT_CARGO"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteSlab"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+blockerObjectives   =   [
+   "US_01_04_CARGO_DELIVERING_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_04_MULTIORDER_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   2740
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   32650
+   }
+}
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+__type   =   "ContractSettings"

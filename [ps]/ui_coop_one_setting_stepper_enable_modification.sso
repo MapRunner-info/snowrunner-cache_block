@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneCoopSettingStepperView"
+}
+header   =   "UI_COOP_SETTINGS_ENABLE_MODIFICATIONS"
+desc   =   "UI_COOP_SETTINGS_ENABLE_MODIFICATIONS_DESC"
+__type   =   "UiOneSettingStepperOnOff"

@@ -1,0 +1,11 @@
+editorObjectDesc   =   {
+   type   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "IngameLocator"
+   }
+   __type   =   "IngameLocatorDesc"
+}
+initialCapacity   =   75
+editorMaxCapacity   =   300
+__type   =   "EditorObjectDescPool"

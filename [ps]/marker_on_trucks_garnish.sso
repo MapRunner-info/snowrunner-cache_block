@@ -1,0 +1,92 @@
+iconsDesc   =   {
+   Default   =   {
+      type   =   {
+         __type   =   "UiTruckAttachPointsAttachpointwhinchfill"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Target   =   {
+      type   =   {
+         __type   =   "UiHudLibRemarkerbtntarget"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Subtarget   =   {
+      type   =   {
+         __type   =   "UiHudLibRemarkerbtnsubtarget"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Source   =   {
+      type   =   {
+         __type   =   "UiHudLibRemarkerbtnsource"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Subsource   =   {
+      type   =   {
+         __type   =   "UiHudLibRemarkerbtnsubsource"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   RepairParts   =   {
+      type   =   {
+         __type   =   "UiIconsLibRepairpartsimg20"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   WheelParts   =   {
+      type   =   {
+         __type   =   "UiIconsLibRepairwheelsimg20"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Health   =   {
+      type   =   {
+         __type   =   "UiIconsLibRepairvalueimg20"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Fuel   =   {
+      type   =   {
+         __type   =   "UiIconsLibRefuelvalueimg20"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   None   =   {
+      type   =   {
+         __type   =   "UiHudLibRemarkerbtnnone"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Empty   =   {
+      type   =   {
+         __type   =   "UiHudLibRemarkerbtnempty"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   Water   =   {
+      type   =   {
+         __type   =   "UiIconsLibWaterrefillimg20"
+      }
+      __type   =   "UiObjectDesc"
+   }
+}
+reourceIcons   =   {
+   RepairParts   =   {
+      __value   =   "repairPartsImg20"
+   }
+   WheelParts   =   {
+      __value   =   "repairWheelsImg20"
+   }
+   Health   =   {
+      __value   =   "rePairValueImg20"
+   }
+   Fuel   =   {
+      __value   =   "reFuelValueImg20"
+   }
+   Water   =   {
+      __value   =   "waterRefillImg20"
+   }
+}
+__type   =   "object"

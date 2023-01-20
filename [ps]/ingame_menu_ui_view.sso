@@ -1,0 +1,19 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      menu   =   {
+         btnList   =   {
+            lir   =   {
+               __type   =   "IngameMenuLirItem"
+            }
+            __type   =   "UiExitMenuExitmenubtnlist"
+         }
+         __type   =   "UiExitMenuExitmenudialog"
+      }
+      __type   =   "UiExitMenuExitmenu"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ScreenViewBase"

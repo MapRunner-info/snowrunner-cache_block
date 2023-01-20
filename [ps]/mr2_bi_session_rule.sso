@@ -1,0 +1,18 @@
+sessionTypeStrings   =   {
+   BASE   =   {
+      __value   =   "base"
+   }
+   COOPERATIVE   =   {
+      __value   =   "cooperative"
+   }
+   POLYGON   =   {
+      __value   =   "polygon"
+   }
+   TRIALS   =   {
+      __value   =   "trials"
+   }
+   LOCAL_MOD   =   {
+      __value   =   "localMod"
+   }
+}
+__type   =   "ClientBiEventRule"

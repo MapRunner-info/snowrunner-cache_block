@@ -1,0 +1,23 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         mouseEnabled   =   True
+         mouseChildren   =   True
+         focusable   =   True
+         __type   =   "UiNavigationLegendNavigationpanel"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "NavigationPanelView"
+}
+useBg   =   True
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   SkipCinematic   =   {
+      text   =   "UI_HUD_SKIP_SCENE"
+      uiInputName   =   "Skip"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

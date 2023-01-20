@@ -1,0 +1,37 @@
+uiDesc   =   "US_01_02_FOOD_FOR_WORKERS_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_FOOD_FOR_WORKERS_CRATE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_DRILLING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoCrateLarge"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_FOOD_FOR_WORKERS_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_FOOD_FOR_WORKERS_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   240
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2400
+   }
+}
+__type   =   "TaskSettings"

@@ -1,0 +1,7 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiSaveLibSavemainscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ScreenViewBase"

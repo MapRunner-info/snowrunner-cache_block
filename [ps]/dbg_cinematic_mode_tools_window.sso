@@ -1,0 +1,28 @@
+window   =   {
+   id   =   "DebugTruckPlacementWindow"
+   title   =   "DebugHotkeyWindow"
+   width   =   500
+   heigth   =   600
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   visible   =   False
+   isNoTitlebar   =   True
+   isNoResize   =   True
+   __type   =   "DbgWindow"
+}
+fovSlider   =   {
+   sameLine   =   False
+   focus   =   True
+   label   =   "Fov"
+   maxValue   =   120
+   minValue   =   5
+   value   =   45
+   __type   =   "DbgSliderInt"
+}
+infVisibilityCheckBox   =   {
+   focus   =   True
+   label   =   "Infinite Visibility"
+   __type   =   "DbgCheckbox"
+}
+__type   =   "DbgWindowBase"

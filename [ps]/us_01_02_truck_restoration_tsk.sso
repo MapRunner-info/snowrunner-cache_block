@@ -1,0 +1,30 @@
+uiDesc   =   "US_01_02_TRUCK_RESTORATION_TSK_DESC_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "OLD_TRUCK"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_OLD_TRUCK_PARKZONE"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_02_TRUCK_RESTORATION_TRUCK"
+            afterStageFinished   =   "REWARD"
+         }
+      ]
+   }
+]
+description   =   "US_01_02_TRUCK_RESTORATION_TSK_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_TRUCK_RESTORATION_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   140
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1200
+   }
+}
+__type   =   "TaskSettings"

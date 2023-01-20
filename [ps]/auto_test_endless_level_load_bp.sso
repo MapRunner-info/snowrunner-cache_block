@@ -1,0 +1,366 @@
+autotestFlow   =   {
+   nodes   =   {
+      OnAutotestStart   =   {
+         viewData   =   {
+            x   =   1151.563
+            y   =   3750
+         }
+         OnStart   =   [
+            "Delay/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestStart"
+      }
+      AutotestSuccess   =   {
+         viewData   =   {
+            x   =   3183.402
+            y   =   3644.046
+         }
+         __type   =   "BlueprintNodeAutotestSuccess"
+      }
+      Delay   =   {
+         viewData   =   {
+            x   =   1397.2
+            y   =   3665.168
+         }
+         OnFinish   =   [
+            "CheckUserProfileLoad/Start"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      Delay_1_2   =   {
+         viewData   =   {
+            x   =   2335.978
+            y   =   3634.442
+         }
+         duration   =   {
+            __type   =   "FloatRefParam"
+         }
+         OnFinish   =   [
+            "RepeatEndless/StartIterate"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      Delay_1_2_1   =   {
+         viewData   =   {
+            x   =   3016.786
+            y   =   3643.505
+         }
+         duration   =   {
+            __type   =   "FloatRefParam"
+         }
+         OnFinish   =   [
+            "AutotestSuccess/Success"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      BlueprintLibraryFunction_3   =   {
+         captionVar   =   "LoadAllLevels"
+         viewData   =   {
+            x   =   2277.164
+            y   =   3757.87
+         }
+         logic   =   {
+            nodes   =   {
+               AutotestLog_1   =   {
+                  viewData   =   {
+                     x   =   3733.092
+                     y   =   3898.189
+                  }
+                  OnExit   =   [
+                     "ForEachStringCOROUTINE_1_1/StartIterate"
+                  ]
+                  logRef   =   {
+                     def   =   "LOAD ALL LEVELS"
+                     __type   =   "StringRefParam"
+                  }
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               BlueprintLibraryFunction_1_1   =   {
+                  captionVar   =   "LogRegion"
+                  viewData   =   {
+                     x   =   3769.691
+                     y   =   4096.779
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2500
+                              y   =   4350
+                           }
+                           OnExit   =   [
+                              "../../../ForEachStringCOROUTINE_1/StartIterate"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2250
+                              y   =   4400
+                           }
+                           inputStringA   =   {
+                              def   =   "Check Region "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               GetAllRegions   =   {
+                  viewData   =   {
+                     x   =   3719.691
+                     y   =   3979.152
+                  }
+                  GetAllRegions   =   [
+                     "ForEachStringCOROUTINE_1_1/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllRegions"
+               }
+               ForEachStringCOROUTINE_1_1   =   {
+                  viewData   =   {
+                     x   =   3969.691
+                     y   =   3896.779
+                  }
+                  OnFinish   =   [
+                     "../../../RepeatEndless/ContinueIterate"
+                  ]
+                  OnIteration   =   [
+                     "BlueprintLibraryFunction_1_1/logic/nodes/AutotestLog/Log"
+                  ]
+                  GetString   =   [
+                     "GetAllLevels/regionRef/cb",
+                     "BlueprintLibraryFunction_1_1/logic/nodes/Append/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               BlueprintLibraryFunction_3   =   {
+                  captionVar   =   "LogLoadLevel"
+                  viewData   =   {
+                     x   =   4150
+                     y   =   4203.779
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2450
+                              y   =   4300
+                           }
+                           OnExit   =   [
+                              "../../../LoadLevelMudRunner_1/Load"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2200
+                              y   =   4450
+                           }
+                           inputStringA   =   {
+                              def   =   "Load Level "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               LoadLevelMudRunner_1   =   {
+                  viewData   =   {
+                     x   =   4350
+                     y   =   4200
+                  }
+                  OnExit   =   [
+                     "Delay/Start"
+                  ]
+                  __type   =   "BlueprintNodeMrLoadLevel"
+               }
+               ForEachStringCOROUTINE_1   =   {
+                  viewData   =   {
+                     x   =   3969.691
+                     y   =   4096.779
+                  }
+                  OnFinish   =   [
+                     "ForEachStringCOROUTINE_1_1/ContinueIterate"
+                  ]
+                  OnIteration   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/AutotestLog/Log"
+                  ]
+                  GetString   =   [
+                     "LoadLevelMudRunner_1/level/cb",
+                     "BlueprintLibraryFunction_3/logic/nodes/Append/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               GetAllLevels   =   {
+                  viewData   =   {
+                     x   =   3619.691
+                     y   =   4196.779
+                  }
+                  regionRef   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  GetAllLevels   =   [
+                     "ForEachStringCOROUTINE_1/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllLevels"
+               }
+               Delay   =   {
+                  viewData   =   {
+                     x   =   4592.42
+                     y   =   4200
+                  }
+                  duration   =   {
+                     def   =   5
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "BlueprintLibraryFunction_4_2/logic/nodes/ExecuteDbgVarTrigger_3/Execute"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               BlueprintLibraryFunction_4_2   =   {
+                  captionVar   =   "DumpMemory"
+                  viewData   =   {
+                     x   =   4808.704
+                     y   =   4204.016
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        ExecuteDbgVarTrigger   =   {
+                           viewData   =   {
+                              x   =   2604.332
+                              y   =   3650.957
+                           }
+                           OnExit   =   [
+                              "../../../ForEachStringCOROUTINE_1/ContinueIterate"
+                           ]
+                           name   =   "memory/dump/Memory stats"
+                           __type   =   "BlueprintExecuteDbgvarTrigger"
+                        }
+                        ExecuteDbgVarTrigger_2   =   {
+                           viewData   =   {
+                              x   =   2607.523
+                              y   =   3564.888
+                           }
+                           OnExit   =   [
+                              "ExecuteDbgVarTrigger/Execute"
+                           ]
+                           name   =   "statistics/textures/dump to file"
+                           __type   =   "BlueprintExecuteDbgvarTrigger"
+                        }
+                        ExecuteDbgVarTrigger_3   =   {
+                           viewData   =   {
+                              x   =   2608.681
+                              y   =   3479.192
+                           }
+                           OnExit   =   [
+                              "ExecuteDbgVarTrigger_2/Execute"
+                           ]
+                           name   =   "statistics/memory/dump vertex buffers stats"
+                           __type   =   "BlueprintExecuteDbgvarTrigger"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/ExecuteDbgVarTrigger_3;Execute",
+                     "logic/nodes/ExecuteDbgVarTrigger;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/AutotestLog_1;Log",
+            "logic/nodes/ForEachStringCOROUTINE_1_1;OnFinish"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      MainMenuPressStart   =   {
+         viewData   =   {
+            x   =   1928.437
+            y   =   3635.079
+         }
+         OnSuccess   =   [
+            "Delay_1_2/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskMainMenuPressStart"
+      }
+      CheckUserProfileLoad   =   {
+         viewData   =   {
+            x   =   1603.437
+            y   =   3635.079
+         }
+         OnSuccess   =   [
+            "MainMenuPressStart/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskCheckUserProfileLoad"
+      }
+      RepeatEndless   =   {
+         viewData   =   {
+            x   =   2576.322
+            y   =   3639.751
+         }
+         OnIteration   =   [
+            "AutotestLog/Log"
+         ]
+         OnBreak   =   [
+            "AutotestLog_1/Log"
+         ]
+         __type   =   "BlueprintNodeEndlessRepeat"
+      }
+      AutotestLog   =   {
+         viewData   =   {
+            x   =   2554.687
+            y   =   3930.271
+         }
+         OnExit   =   [
+            "BlueprintLibraryFunction_3/logic/nodes/AutotestLog_1/Log"
+         ]
+         logRef   =   {
+            def   =   "New Iteration Load All Levels"
+            __type   =   "StringRefParam"
+         }
+         __type   =   "BlueprintNodeAutotestLog"
+      }
+      AutotestLog_1   =   {
+         viewData   =   {
+            x   =   2846.583
+            y   =   3645.141
+         }
+         OnExit   =   [
+            "Delay_1_2_1/Start"
+         ]
+         logRef   =   {
+            def   =   "Got break"
+            __type   =   "StringRefParam"
+         }
+         __type   =   "BlueprintNodeAutotestLog"
+      }
+   }
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestBlueprint"

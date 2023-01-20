@@ -1,0 +1,14 @@
+delayBeforeSuccess   =   1000
+dbgEngageAllowedOnPlatform   =   {
+   PC   =   {
+   }
+   DURANGO   =   {
+      __value   =   True
+   }
+   ORBIS   =   {
+      __value   =   True
+   }
+   UNDEFINED   =   {
+   }
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

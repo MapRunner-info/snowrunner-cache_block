@@ -1,0 +1,36 @@
+view   =   {
+   __type   =   "CodexUiView"
+}
+navPanels   =   {
+   default   =   {
+      useBg   =   True
+      btns   =   {
+         Back   =   {
+            uiInputName   =   "Back"
+            clickSound   =   "ui/ui_click_exit"
+            __type   =   "NavButtonDesc"
+         }
+         Select   =   {
+            uiInputName   =   "Select"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "CodexNavigationPanel"
+   }
+}
+inputScreen   =   {
+   name   =   "Codex"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Select   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

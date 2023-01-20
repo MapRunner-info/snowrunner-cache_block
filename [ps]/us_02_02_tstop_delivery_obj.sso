@@ -1,0 +1,60 @@
+uiDesc   =   "US_02_02_TSTOP_DELIVERY_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_02_TSTOP_DELIVERY_ACTION_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_TRUCK_STOP"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoCrateLarge"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_02_TSTOP_DELIVERY_ACTION_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_TRUCK_STOP"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrels"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_02_TSTOP_DELIVERY_ACTION_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_TRUCK_STOP"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerMap   =   "level_us_02_02_new"
+description   =   "US_02_02_TSTOP_DELIVERY_OBJ_REW"
+employer   =   "GREnterprise"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   380
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3300
+   }
+}
+__type   =   "ContractSettings"

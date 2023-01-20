@@ -1,0 +1,84 @@
+view   =   {
+   __type   =   "PopupPackCargoWarningView"
+}
+navPanels   =   {
+   default   =   {
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         accept   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "accept"
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "decline"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PackCargoWarningNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PackCargoWarningState"
+}
+id   =   "PACK_CARGO_WARNING"
+useDefaultAttach   =   True
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PACK CARGO WARNING"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      decline   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+commonWarnings   =   {
+   UNDEFINED   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_UNKNOWN"
+   }
+   OK   =   {
+      __value   =   "(ok)"
+   }
+   NOT_ENOUGH_SLOTS_INITIALLY   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_NOT_ENOUGH_SLOTS_INITIALLY"
+   }
+   NO_CARGO_IN_SLOTS_TO_PACK   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_NO_CARGO_IN_SLOTS"
+   }
+   NOT_ENOUGH_SLOTS_FOR_TOTAL_LOAD   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_NOT_ENOUGH_SPACE"
+   }
+   BLOCKED_BY_CARGO_TERRAIN_MODELS   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_BLOCKED_BY_CARGO"
+   }
+   NEED_TO_POSITION_LOGS   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_NEED_TO_POSITION_LOGS"
+   }
+   NOT_ENOUGH_LOGS   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_NOT_ENOUGH_LOGS"
+   }
+   NEED_TO_POSITION_TRAILER   =   {
+      __value   =   "UI_PACK_CARGO_WARNING_NEED_TO_POSITION_TRAILER"
+   }
+}
+highlightColor   =   {
+   a   =   127
+   r   =   228
+   g   =   58
+   b   =   58
+   __type   =   "Color"
+}
+__type   =   "PopupUiController"

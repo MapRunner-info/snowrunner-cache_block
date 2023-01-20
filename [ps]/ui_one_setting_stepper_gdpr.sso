@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_GDPR"
+desc   =   "UI_SETTINGS_GDPR_DESC"
+__type   =   "UiOneSettingStepperOnOff"

@@ -1,0 +1,54 @@
+contractsSettings   =   {
+   mod_contract_1   =   {
+      uiDesc   =   "Bricks Adventure"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "Every Day is Brick Day"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_repair_and_fuel || FUEL_STATION_2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBricks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_tutorial_objectives || TUT_OBJ_PLANK_DELIVERY_DROP"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBricks"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      description   =   "Tadam"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   200
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   200
+         }
+      }
+      employer   =   "DysonDiesel"
+      region   =   "region_prototype"
+      contractMap   =   "test_repair_and_fuel"
+      __type   =   "ContractSettings"
+   }
+}
+__type   =   "ObjectiveSettingsContainer"

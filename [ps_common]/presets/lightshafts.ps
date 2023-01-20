@@ -1,0 +1,93 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Lightshafts params"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__type = "bool"
+				__defaultValue = true
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			tint = {
+				__wrappable = false
+				__type = "colorARGB"
+				__defaultValue = [255.0, 255.0, 255.0, 255.0]
+				__viewType {
+					__wrappable = false
+					__caption = "Tint"
+				}
+			}
+			depth_clamp = {
+				__type = "float"
+				__defaultValue = 10000.0
+				__viewType	{
+					__caption = "Depth clamp"
+					__wrappable = false
+					__min = 0
+					__max = 50000
+				}
+			}
+			intensity_clamp = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType	{
+					__wrappable = false
+					__min = 0
+					__max = 100000
+					__caption = "Intensity clamp"
+				}
+			}
+			falloff_radius = {
+				__type = "float"
+				__defaultValue = 0.5
+				__viewType	{
+					__wrappable = false
+					__type = "slider"
+					__min = 0
+					__max = 2
+					__step = 0.1
+					__caption = "Falloff Radius"
+				}
+			}
+			intensity = {
+				__type = "float"
+				__defaultValue = 2.0
+				__viewType	{
+					__wrappable = false
+					__type = "slider"
+					__min = 0
+					__max = 1000
+					__caption = "Intensity"
+				}
+			}
+			blur_radius = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType	{
+					__wrappable = false
+					__type = "slider"
+					__min = 0
+					__max = 20
+					__caption = "Blur Radius"
+				}
+			}
+			dont_use_framebuffer = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType = {
+					__type = "bool"
+				}
+			}
+		}
+	}	
+}

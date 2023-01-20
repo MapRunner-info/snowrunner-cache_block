@@ -1,0 +1,76 @@
+trialsSettings   =   {
+   TRIAL_01_01_SCOUTING_CNT   =   {
+      uiDesc   =   "TRIAL_01_01_SCOUTING_CNT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "TRIAL_01_01_ZONE_01_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_01_01 || TRIAL_01_01_ZONE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TRIAL_01_01_ZONE_02_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_01_01 || TRIAL_01_01_ZONE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TRIAL_01_01_ZONE_03_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_01_01 || TRIAL_01_01_ZONE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TRIAL_01_01_ZONE_04_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_01_01 || TRIAL_01_01_ZONE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TRIAL_01_01_ZONE_05_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_01_01 || TRIAL_01_01_ZONE_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "TRIAL_01_01_SCOUTING_CNT_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardItem   =   {
+                  itemName   =   "stuff_bobblehead_joker"
+               }
+            }
+            timeLimit   =   540
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_01_01 || TRIAL_01_01_SCOUTING_TSK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      failReasons   =   {
+         DamageFailReason   =   {
+            maxDamage   =   100
+         }
+         TimeFailReason   =   {
+            timeLimitSec   =   540
+         }
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

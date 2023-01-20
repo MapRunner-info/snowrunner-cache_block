@@ -1,0 +1,5 @@
+view   =   {
+   __type   =   "UiOneSettingStepperViewBase"
+}
+header   =   "UI_HEADER_STEPPER"
+__type   =   "UiOneSettingController"

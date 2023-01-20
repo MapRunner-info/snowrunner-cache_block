@@ -1,0 +1,48 @@
+uiDesc   =   "RU_02_02_RESEARCH_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         __type   =   "VisitAllZonesSettings"
+      }
+      makeActionInZone   =   {
+         zones   =   [
+            {
+               uiDesc   =   "RU_02_02_RESEARCH_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_GA_01"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_RESEARCH_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_GA_02"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_RESEARCH_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_GA_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_RESEARCH_REW"
+recommendedTruck   =   "SEISMIC"
+employer   =   "TaigaOil"
+region   =   "ru_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   570
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   9950
+   }
+}
+__type   =   "ContractSettings"

@@ -1,0 +1,107 @@
+zoneDesc   =   {
+   test_zone_pickup   =   {
+      props   =   {
+         ZonePropertyCargoLoading   =   {
+            cargosSettings   =   [
+               {
+                  name   =   "CargoBarrels"
+               },
+               {
+                  name   =   "CargoBricks"
+               }
+            ]
+            platformId   =   "test_zone_pickup_manual"
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_pickup_manual   =   {
+      props   =   {
+         ZonePropertyManualLoading   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_dropoff   =   {
+      props   =   {
+         ZonePropertyUnloadingCargo   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_garage_entrance   =   {
+      props   =   {
+         ZonePropertyGarageEntrance   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_garage_exit   =   {
+      props   =   {
+         ZonePropertyGarageExit   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_trailer_garage   =   {
+      props   =   {
+         ZonePropertyTrailerAttach   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_repair   =   {
+      props   =   {
+         ZonePropertyAutoRepairAndRestore   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_fuel_station   =   {
+      props   =   {
+         ZonePropertyFuelStation   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_gateway   =   {
+      props   =   {
+         ZonePropertyGateway   =   {
+            levelZoneLink   =   "test_zone_color_summer || COLORTEST_TRANSITION"
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_upgrade   =   {
+      props   =   {
+         ZonePropertyUpgradesGiver   =   {
+            upgrades   =   [
+               ""
+            ]
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_watchpoint   =   {
+      props   =   {
+         ZonePropertyWatchpoint   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_task_giver   =   {
+      props   =   {
+         ZonePropertyTaskGiver   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   test_zone_to_visit   =   {
+      props   =   {
+         ZonePropertyObjectiveZoneToVisit   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

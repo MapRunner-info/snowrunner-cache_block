@@ -1,0 +1,8 @@
+view   =   {
+   title   =   "UI_COOP_FRIENDS_LIST_TITLE"
+   startButtonName   =   "UI_COOP_JOIN_FRIEND"
+   cancelButtonName   =   "UI_COOP_CANCEL_FRIENDS_LIST"
+   isFriendList   =   True
+   __type   =   "UiCoopSettingsBaseView"
+}
+__type   =   "ScreenControllerBase"

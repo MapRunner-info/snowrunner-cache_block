@@ -1,0 +1,7 @@
+lidDesc   =   {
+   type   =   {
+      __type   =   "ListItemDataBase"
+   }
+   __type   =   "ListItemDataDesc"
+}
+__type   =   "SelectableItemsContainerBase"

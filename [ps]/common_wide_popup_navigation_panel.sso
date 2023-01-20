@@ -1,0 +1,17 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      __type   =   "NavButtonDesc"
+   }
+   third_btn   =   {
+      text   =   ""
+      __type   =   "NavButtonDesc"
+   }
+   back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

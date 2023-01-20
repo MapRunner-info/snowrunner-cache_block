@@ -1,0 +1,4 @@
+activationRadius   =   25
+UPDATE_DELAY_S   =   1
+zonePropertyType   =   "TASK_GIVER"
+__type   =   "TutorialStageApproach"

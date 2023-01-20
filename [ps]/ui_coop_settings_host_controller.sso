@@ -1,0 +1,47 @@
+view   =   {
+   __type   =   "UiCoopSettingsBaseView"
+}
+coopSettingsControllersSettings   =   {
+   UiCoopOneSettingStepperSessionPrivacy   =   {
+      controller   =   {
+         __type   =   "UiCoopOneSettingStepperSessionPrivacy"
+      }
+      availablePlatforms   =   {
+         __type   =   "UiSettingScreenPresetPlatforms"
+      }
+      __type   =   "UiOneSettingControllerWithPlatforms"
+   }
+   UiCoopOneSettingStepperPlayersAmount   =   {
+      controller   =   {
+         __type   =   "UiCoopOneSettingStepperPlayersAmount"
+      }
+      availablePlatforms   =   {
+         __type   =   "UiSettingScreenPresetPlatforms"
+      }
+      __type   =   "UiOneSettingControllerWithPlatforms"
+   }
+   UiCoopOneSettingStepperEnableModification   =   {
+      controller   =   {
+         __type   =   "UiCoopOneSettingStepperEnableModification"
+      }
+      availablePlatforms   =   {
+         availablePlatforms   =   {
+            PC   =   {
+               __value   =   True
+            }
+            DURANGO   =   {
+               __value   =   True
+            }
+            ORBIS   =   {
+               __value   =   True
+            }
+            NX64   =   {
+               __value   =   True
+            }
+         }
+         __type   =   "UiSettingScreenPresetPlatforms"
+      }
+      __type   =   "UiOneSettingControllerWithPlatforms"
+   }
+}
+__type   =   "ScreenControllerBase"

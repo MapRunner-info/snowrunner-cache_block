@@ -1,0 +1,68 @@
+uiDesc   =   "US_01_02_MATERIALS_ORDER_DESC"
+stages   =   [
+   {
+      actions   =   {
+         sslModule   =   "game.missions.task_settings"
+         zoneToFill   =   [
+            {
+               sslModule   =   "game.missions.task_settings"
+               uiDesc   =   "US_01_02_MATERIALS_ORDER_BRING_CONCRETE_SLAB_TO_SERVICE_HUB"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_SERVICE_HUB"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteSlab"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               sslModule   =   "game.missions.cargo_unloading_zone_settings"
+               uiDesc   =   "US_01_02_MATERIALS_ORDER_BRING_CONTAINER_SMALL_TO_WAREHOUSE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_PREACHER_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoCrateLarge"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               sslModule   =   "game.missions.task_settings"
+               uiDesc   =   "US_01_02_MATERIALS_ORDER_BRING_CONCRETE_BLOCKS_TO_FARM"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_QUARRY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_TOWN_STORAGE_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_02_MATERIALS_ORDER_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   730
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   5000
+   }
+}
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+contractMap   =   ""
+__type   =   "ContractSettings"

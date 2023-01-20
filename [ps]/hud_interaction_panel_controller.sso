@@ -1,0 +1,35 @@
+repairPopup   =   {
+   __type   =   "PopupRepairUiControllerNew"
+}
+refuelPopup   =   {
+   __type   =   "PopupRefuelUiControllerNew"
+}
+recoveryPopup   =   {
+   priority   =   "MIDDLE"
+   __type   =   "PopupRecoveryUiController"
+}
+failWarningPopup   =   {
+   __type   =   "PopupContestFailWarningController"
+}
+packWarningPopup   =   {
+   __type   =   "PopupPackCargoWarningController"
+}
+packExcludedCargoPopup   =   {
+   view   =   {
+      __type   =   "PopupUiView"
+   }
+   id   =   "PACK_EXCLUDED_CARGO_WARNING"
+   __type   =   "PopupUiController"
+}
+garageWinchCranePopup   =   {
+   __type   =   "PopupGarageWinchCraneController"
+}
+failRecoveryCauseOfPackedTruckPopup   =   {
+   __type   =   "PopupFailRecoveryCausePackedTruckController"
+}
+popupIdForHideFunctionButton   =   [
+   "REPAIR",
+   "REFUEL_STATION",
+   "REFUEL"
+]
+__type   =   "HudHidableController"

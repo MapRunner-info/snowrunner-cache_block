@@ -1,0 +1,25 @@
+dustParticles   =   {
+   DEFAULT   =   {
+      __value   =   "dust_small"
+   }
+   SNOW   =   {
+      __value   =   "dust_small_snow"
+   }
+}
+dirtBurstParticles   =   {
+   DEFAULT   =   {
+      __value   =   "dirt_burst_medium"
+   }
+   SNOW   =   {
+      __value   =   "dirt_burst_medium_snow"
+   }
+}
+dirtBurstSkidParticles   =   {
+   DEFAULT   =   {
+      __value   =   "dirt_burst_medium_skid"
+   }
+   SNOW   =   {
+      __value   =   "dirt_burst_medium_skid_snow"
+   }
+}
+__type   =   "object"

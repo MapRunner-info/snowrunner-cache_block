@@ -1,0 +1,79 @@
+movementInputLink   =   {
+   inputLink   =   "Exploration.TransmissionInput"
+   __type   =   "InputLinkVectorMr"
+}
+mouseScrollInputLink   =   {
+   inputLink   =   "Exploration.TransmissionMouseScroll"
+   __type   =   "InputLinkVectorMr"
+}
+setGearNeutralInputLink   =   {
+   inputLink   =   "Exploration.SetGearNeutral"
+   __type   =   "InputLinkHoldMr"
+}
+setGearHighInputLink   =   {
+   inputLink   =   "Exploration.SetGearHigh"
+   __type   =   "InputLinkHoldMr"
+}
+setGearReverseInputLink   =   {
+   inputLink   =   "Exploration.SetGearReverse"
+   __type   =   "InputLinkHoldMr"
+}
+setGearAutoInputLink   =   {
+   inputLink   =   "Exploration.SetGearAuto"
+   __type   =   "InputLinkHoldMr"
+}
+setGearLow1InputLink   =   {
+   inputLink   =   "Exploration.SetGearLow1"
+   __type   =   "InputLinkHoldMr"
+}
+setGearLow2InputLink   =   {
+   inputLink   =   "Exploration.SetGearLow2"
+   __type   =   "InputLinkHoldMr"
+}
+setGearLow3InputLink   =   {
+   inputLink   =   "Exploration.SetGearLow3"
+   __type   =   "InputLinkHoldMr"
+}
+defaultMoveSpeed   =   8
+magnetRangeSpeed   =   6
+timeoutInCrossedPos   =   200
+angleTolerance   =   27
+transmissionInputScreen   =   {
+   name   =   "HudTransmissionController"
+   inputsLinks   =   {
+      TransmissionUp   =   {
+         inputLink   =   "Exploration.TransmissionUp"
+         __type   =   "InputLinkActionMr"
+      }
+      TransmissionDown   =   {
+         inputLink   =   "Exploration.TransmissionDown"
+         __type   =   "InputLinkActionMr"
+      }
+      TransmissionLeft   =   {
+         inputLink   =   "Exploration.TransmissionLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      TransmissionRight   =   {
+         inputLink   =   "Exploration.TransmissionRight"
+         __type   =   "InputLinkActionMr"
+      }
+      UpTap   =   {
+         inputLink   =   "UI.UiListUpTap"
+         __type   =   "InputLinkActionMr"
+      }
+      DownUp   =   {
+         inputLink   =   "UI.UiListDownTap"
+         __type   =   "InputLinkActionMr"
+      }
+      LeftUp   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      RightUp   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "HudHidableController"

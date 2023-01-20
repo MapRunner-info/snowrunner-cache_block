@@ -1,0 +1,11 @@
+view   =   {
+   __type   =   "NavigationPanelView"
+}
+useBg   =   False
+useOffset   =   True
+offset   =   50
+panelOffset   =   {
+   __type   =   "Vector2d"
+}
+clearance   =   20
+__type   =   "ComponentUiControllerBase"

@@ -1,0 +1,61 @@
+uiDesc   =   "US_01_01_FOOD_DELIVERY_CNT_DESC_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_FOOD_DELIVERY_CNT_CRATE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_DRILLING_SITE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoCrateLarge"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_FARM_DELIVERY_OBJ"
+]
+description   =   "US_01_01_FOOD_DELIVERY_CNT_REWARD_DESC"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_FOOD_DELIVERY_CNT"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ContestRewards   =   {
+      timeSettings   =   {
+         GOLD   =   {
+            timeLimit   =   360
+            xp   =   340
+            money   =   3700
+            __type   =   "ContestResultRewards"
+         }
+         SILVER   =   {
+            timeLimit   =   540
+            xp   =   170
+            money   =   1800
+            __type   =   "ContestResultRewards"
+         }
+         BRONZE   =   {
+            xp   =   100
+            money   =   1050
+            __type   =   "ContestResultRewards"
+         }
+      }
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+failReasons   =   {
+   DamageFailReason   =   {
+      maxDamage   =   200
+   }
+}
+__type   =   "ContestSettings"

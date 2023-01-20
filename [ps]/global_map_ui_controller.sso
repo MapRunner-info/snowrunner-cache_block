@@ -1,0 +1,26 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         regionPanel   =   {
+            list   =   {
+               lir   =   {
+                  __type   =   "RegionMapListLir"
+               }
+               __type   =   "UiRegionMapRegionscreenlist"
+            }
+            __type   =   "UiRegionMapRegionscreenpanel"
+         }
+         __type   =   "UiRegionMapRegionscreen"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "GlobalMapUiView"
+}
+navPanels   =   {
+   RegionMapNavigationPanel   =   {
+   }
+}
+state   =   {
+   __type   =   "RegionMapNavigationPanelState"
+}
+__type   =   "ScreenControllerBase"

@@ -1,0 +1,180 @@
+screenEndDelay   =   0
+levelEffect   =   {
+   level_us_09_01   =   {
+      __value   =   [
+         {
+            name   =   "TestFire"
+            unique_name   =   "river_33"
+            position   =   {
+               x   =   300
+               y   =   15
+               z   =   222.16
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               x   =   0
+               y   =   210
+               z   =   0
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   13
+               y   =   0.1
+               z   =   13
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "TestFire"
+            unique_name   =   "river_26"
+            position   =   {
+               x   =   642.58
+               y   =   13
+               z   =   141.11
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               y   =   0
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   25
+               y   =   3
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "fog_water"
+            unique_name   =   "river_35"
+            position   =   {
+               x   =   -161.42
+               y   =   5
+               z   =   675.29
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               y   =   290
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   7
+               y   =   0.5
+               z   =   3
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "fog_water"
+            unique_name   =   "river_30"
+            position   =   {
+               x   =   -185
+               y   =   6
+               z   =   622
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               x   =   0
+               y   =   120
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   8
+               y   =   0.2
+               z   =   2
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "fog_water"
+            unique_name   =   "river_13"
+            position   =   {
+               x   =   -116.64
+               y   =   15
+               z   =   375.52
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               y   =   0
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   10
+               y   =   0.2
+               z   =   2
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "TestFire"
+            unique_name   =   "river_24"
+            position   =   {
+               x   =   -308.85
+               y   =   25
+               z   =   -586.36
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               y   =   50
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   10
+               y   =   -1
+               z   =   3
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "fog_water_small"
+            unique_name   =   "river_33_1"
+            position   =   {
+               x   =   276
+               y   =   21
+               z   =   219.2
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               x   =   250
+               y   =   210
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   0.5
+               y   =   0.5
+               z   =   0.5
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "fog_water_small"
+            unique_name   =   "river_33_2"
+            position   =   {
+               x   =   274.23
+               y   =   19
+               z   =   224.05
+               __type   =   "Vector3d"
+            }
+            rotation   =   {
+               x   =   240
+               y   =   210
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   0.8
+               y   =   1.5
+               z   =   0.4
+               __type   =   "Vector3d"
+            }
+         }
+      ]
+   }
+}
+platformWithoutLevelSfx   =   [
+   "NX64"
+]
+reloadActionLink   =   {
+   inputLink   =   "DebugDBG.ReloadLevelSfx"
+   __type   =   "InputLinkTapMr"
+}
+__type   =   "object"

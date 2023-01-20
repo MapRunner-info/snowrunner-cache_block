@@ -1,0 +1,154 @@
+sky {
+	__type = "section"
+	__caption = "SKY parameters"
+
+	skyTexture {
+		__type = "section"
+		__caption = "Texture"
+
+		name {
+			__type = "string"
+			__caption = "Name"
+			__defaultValue = "sky_default"
+		}
+		intensity {
+			__type = "float"
+			__caption = "Intensity"
+			__defaultValue = 0.1
+		}
+		rotation {
+			__type = "float"
+			__caption = "Rotation (in degrees)"
+			__defaultValue = 0.0
+		}
+	}
+
+	skyVisibleVertAngle {
+		__type = "float"
+		__caption = "Sky visible vertical angle (in degrees)"
+		__defaultValue = 100
+	}
+
+	sunDirection = {
+		__type = "section"
+		__caption = "Sun direction"
+
+		pitch {
+			__type = "float"
+			__caption = "Height (in degrees above horizon) (-90 - 90)"
+			__defaultValue = 45.0
+		}
+		azimuth {
+			__type = "float"
+			__caption = "Azimuth (in degrees) (-180 - 180)"
+			__defaultValue = 0.0
+		}
+	}
+
+	sunFlare {
+		__type = "section"
+		__caption = "Sun Flare parameters"
+		
+		discColor {
+			__type = "col3hdr"
+			__caption = "Disc color"
+			__defaultValue = [0.0, 0.0, 0.0, 0.0]
+		}
+		discSize {
+			__type = "float"
+			__caption = "Disk size"
+			__defaultValue = 1.0
+		}
+		flareColor {
+			__type = "col3hdr"
+			__caption = "Flare color"
+			__defaultValue = [0.0, 0.0, 0.0, 0.0]
+		}
+		flareSize {
+			__type = "float"
+			__caption = "Flare size"
+			__defaultValue = 1.0
+		}
+		lensFlareIntens {
+			__type = "float"
+			__caption = "Lens effect intensity"
+			__defaultValue = 1.0
+		}			
+		lensFlare {
+			__type = "string"
+			__caption = "Lens effect"
+			__defaultValue = ""
+		}			
+	}
+
+	physicalSky = {
+		__type = "section"
+		__caption = "Physical sky parameters"
+
+		enabled = {
+	        	__type = "bool"
+		        __caption = "Enabled"
+		        __defaultValue = false
+		}
+		earth_radius {
+			__type = "float"
+			__caption = "Earth radius"
+			__defaultValue = 6300
+		}
+		atmosphere_radius {
+			__type = "float"
+			__caption = "Athmosphere Radius"
+			__defaultValue = 6457
+		}
+		view_height {
+			__type = "float"
+			__caption = "Camera height (above sea level)"
+			__defaultValue = 0.0
+		}
+		rayleighK {
+			__type = "float"
+			__caption = "Rayleigh coeff"
+			__defaultValue = 0.005
+		}
+		rayleighH {
+			__type = "float"
+			__caption = "Rayleigh height"
+			__defaultValue = 20
+		}
+		mieK {
+			__type = "float"
+			__caption = "Mie coeff"
+			__defaultValue = 0.0020
+		}
+		mieG {
+			__type = "float"
+			__caption = "Mie phase coeff"
+			__defaultValue = -0.94
+		}
+		mieH {
+			__type = "float"
+			__caption = "Mie height"
+			__defaultValue = 20.0
+		}
+		wavelength {
+			__type = "vec3"
+			__caption = "Red/Green/Blue light wavelength"
+			__defaultValue = [0.650, 0.570, 0.475]
+		}
+		sunColor {
+			__type = "col3hdr"
+			__caption = "Sun Color"
+			__defaultValue = [255,255,255,255]
+			}
+		outscatterFromFog {
+	        	__type = "bool"
+		        __caption = "Apply distance fog to skybox"
+		        __defaultValue = true
+		}
+		outscatterFromFogAmount {
+			__type = "float"
+	        __caption = "Amount of distance fog in skybox"
+	        __defaultValue = 0.8
+		}
+	}
+}

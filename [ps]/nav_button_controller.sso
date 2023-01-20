@@ -1,0 +1,4 @@
+view   =   {
+   __type   =   "NavButtonView"
+}
+__type   =   "ComponentUiControllerBase"

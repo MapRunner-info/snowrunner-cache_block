@@ -1,0 +1,11 @@
+dmgAreaCode   =   [
+   "Engine",
+   "Gearbox",
+   "FuelTank",
+   "Wheel",
+   "Wheels",
+   "Suspension"
+]
+maxDistantionForTruckToProcess   =   100
+commonDestroySfxName   =   "truck_destroy"
+__type   =   "object"

@@ -1,0 +1,24 @@
+cargoes   =   [
+   "cargo_wooden_planks_1",
+   "cargo_barrels_1",
+   "cargo_metal_planks_2",
+   "cargo_service_spare_parts_1",
+   "cargo_pipes_medium_2",
+   "cargo_bags_1",
+   "cargo_service_spare_parts_special_1",
+   "cargo_crate_large_1",
+   "cargo_radioactive_1",
+   "cargo_container_large_4",
+   "cargo_concrete_slab_2",
+   "cargo_container_large_drilling",
+   "cargo_big_drill_4",
+   "cargo_barrels_oil_1",
+   "cargo_vehicles_spare_parts_1",
+   "cargo_pipes_small_2",
+   "cargo_concrete_blocks_1",
+   "cargo_pipe_large_4",
+   "cargo_bricks_1",
+   "cargo_container_small_2",
+   "cargo_container_small_special"
+]
+__type   =   "IntWithStringArrayAchievement"

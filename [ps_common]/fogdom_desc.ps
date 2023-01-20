@@ -1,0 +1,56 @@
+fog {
+	__type = "section"
+    __caption = "Fog parameters"
+
+	density {
+		__type = "float"
+		__caption = "Fog density at sea level"
+		__defaultValue = 0.001
+	}
+	artistTweakDensityOffset {
+		__type = "float"
+		__caption = "Artist tweak density offset"
+		__defaultValue = 0
+	}
+	atmosphereHeight {
+		__type = "float"
+		__caption = "Fog atmosphere height"
+		__defaultValue = 300
+	}
+	atmosphereHeightScale {
+		__type = "float"
+		__caption = "Fog density height scale"
+		__defaultValue = 2
+	}
+	atmosphereCutoffDist {
+		__type = "float"
+		__caption = "Fog atmosphere cutoff distance"
+		__defaultValue = 1500
+	}
+	atmosphereSeaLevel {
+		__type = "float"
+		__caption = "Fog atmosphere sea level"
+		__defaultValue = 0
+	}
+	color {
+		__type = "col4"
+		__caption = "Fog Color"
+		__defaultValue = [255, 183, 84, 60]
+	}
+	colorMultiplier {
+		__type = "float"
+		__caption = "Fog color multiplier"
+		__defaultValue = 0.25
+	}
+	inscatterFromSky {
+        __type = "bool"
+        __caption = "Add skylight to fog"
+        __defaultValue = true
+	}
+	rayleighInscatter {
+		__type = "float"
+		__caption = "Amount of sky light in fog"
+		__defaultValue = 1
+	}
+}
+

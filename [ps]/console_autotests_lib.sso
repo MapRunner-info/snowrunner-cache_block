@@ -1,0 +1,33 @@
+autotestsDescs   =   {
+   AutoTestCheckAllAddonsAndUpgradesBp   =   {
+      type   =   {
+         __type   =   "AutoTestCheckAllAddonsAndUpgradesBp"
+      }
+      __type   =   "AutoTestCheckAllAddonsAndUpgradesBpSslDesc"
+   }
+   AutoTestCheckMinimapBp   =   {
+      type   =   {
+         __type   =   "AutoTestCheckMinimapBp"
+      }
+      __type   =   "AutoTestCheckMinimapSslDesc"
+   }
+   AutoTestCommonSystems   =   {
+      type   =   {
+         __type   =   "AutoTestCommonSystems"
+      }
+      __type   =   "AutoTestCommonSystemsSslDesc"
+   }
+   AutoTestCheckExitToMainMenuBp   =   {
+      type   =   {
+         __type   =   "AutoTestCheckExitToMainMenuBp"
+      }
+      __type   =   "AutoTestExitInMainMenuSslDesc"
+   }
+   AutoTestLevelLoaded   =   {
+      type   =   {
+         __type   =   "AutoTestLevelLoaded"
+      }
+      __type   =   "AutoTestLoadLevelSslDesc"
+   }
+}
+__type   =   "object"

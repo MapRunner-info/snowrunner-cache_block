@@ -1,0 +1,10 @@
+view   =   {
+   uiObjectDesc   =   {
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_MENU_METRIC_SYSTEM"
+desc   =   "UI_SETTINGS_MENU_METRIC_SYSTEM_DESC"
+hardDesc   =   "UI_SETTINGS_MENU_METRIC_SYSTEM_DESC_HARD_MODE"
+__type   =   "UiOneSettingStepperController"

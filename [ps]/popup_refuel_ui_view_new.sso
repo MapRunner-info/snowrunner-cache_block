@@ -1,0 +1,28 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibHudpopupre"
+   }
+   __type   =   "UiObjectDesc"
+}
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibFuelstationaltimg40"
+   }
+   __type   =   "UiContainerDesc"
+}
+switchTargetLeft   =   {
+   __type   =   "NavButtonHolder"
+}
+switchTargetRight   =   {
+   __type   =   "NavButtonHolder"
+}
+switchSourceLeft   =   {
+   __type   =   "NavButtonHolder"
+}
+switchSourceRight   =   {
+   __type   =   "NavButtonHolder"
+}
+__type   =   "RepairRefuelBaseView"

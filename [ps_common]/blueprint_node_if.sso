@@ -1,0 +1,4 @@
+condition   =   {
+   __type   =   "BoolRefParam"
+}
+__type   =   "BluePrintNode"

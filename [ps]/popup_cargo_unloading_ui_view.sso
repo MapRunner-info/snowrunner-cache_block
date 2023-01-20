@@ -1,0 +1,23 @@
+uiObjectDesc   =   {
+   type   =   {
+      unloadingList   =   {
+         lir   =   {
+            __type   =   "PopupCargoUnloadingContractLir"
+         }
+         scrollBar   =   {
+            __type   =   "UiCommonLibDefscrollbars"
+         }
+         __type   =   "UiPopupLibHudcargounloadinglist"
+      }
+      __type   =   "UiPopupLibHudcargomanagementunloading"
+   }
+   __type   =   "UiObjectDesc"
+}
+listAdapter   =   {
+   uiInputScreen   =   {
+      priority   =   "HIGH"
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+__type   =   "PopupViewBase"

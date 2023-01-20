@@ -1,0 +1,4 @@
+view   =   {
+   __type   =   "HudDiffLockIndicatorUiView"
+}
+__type   =   "HudHidableController"

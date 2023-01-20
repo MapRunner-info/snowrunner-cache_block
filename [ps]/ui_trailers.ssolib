@@ -1,0 +1,306 @@
+classes   =   {
+   AutoClassTrailersTrailersHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailerstrailersheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrailersTrailerTypes   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailerstrailertypes"
+      truck_type_special   =   {
+         symbol   =   ""
+         x   =   180
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersTrailertypebutton"
+      }
+      truck_type_offroad   =   {
+         symbol   =   ""
+         x   =   120
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersTrailertypebutton"
+      }
+      truck_type_scout   =   {
+         symbol   =   ""
+         x   =   60
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersTrailertypebutton"
+      }
+      truck_type_all   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersTrailertypebutton"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrailersTrailerTypeHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailerstrailertypeheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrailersCargoSize   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailerscargosize"
+      cargo_type_1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         __type   =   "UiMovieClip"
+      }
+      cargo_type_2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      cargo_type_3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      cargo_type_4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   45
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrailersTrailerName   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailerstrailername"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrailersTrailerDescription   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailerstrailerdescription"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrailerTypeButtonTruckTypeTrailerTypeAll   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailertypebuttontrucktypetrailertypeall"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrailerTypeButtonTruckType   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   ""
+      sslClass   =   "UiTrailersAutoclasstrailertypebuttontrucktype"
+      trailer_type_all   =   {
+         symbol   =   ""
+         x   =   -5
+         y   =   3.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAutoclasstrailertypebuttontrucktypetrailertypeall"
+      }
+      __type   =   "UiContainer"
+   }
+   AttachPointTrailersDialogButton   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   "attach_point_trailers_dialog_button"
+      sslClass   =   "UiTrailersAttachpointtrailersdialogbutton"
+      __type   =   "UiContainer"
+   }
+   AttachPointTrailersHorizontalScrollBar   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   "attach_point_trailers_horizontal_scroll_bar"
+      sslClass   =   "UiTrailersAttachpointtrailershorizontalscrollbar"
+      __type   =   "UiContainer"
+   }
+   AttachPointTrailerImage   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   "attach_point_trailer_image"
+      sslClass   =   "UiTrailersAttachpointtrailerimage"
+      __type   =   "UiContainer"
+   }
+   Trailers   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   "trailers"
+      sslClass   =   "UiTrailersTrailers"
+      arrow_right   =   {
+         symbol   =   ""
+         x   =   400
+         y   =   327
+         scaleX   =   200
+         scaleY   =   200
+         __type   =   "UiTrailersTrailersarrowselector"
+      }
+      arrow_left   =   {
+         symbol   =   ""
+         x   =   -10
+         y   =   327
+         scaleX   =   200
+         scaleY   =   200
+         __type   =   "UiTrailersTrailersarrowselector"
+      }
+      horizontal_scroll_bar_attach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAttachpointtrailershorizontalscrollbar"
+      }
+      trailers_header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAutoclasstrailerstrailersheader"
+      }
+      trailer_types   =   {
+         symbol   =   ""
+         x   =   85
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAutoclasstrailerstrailertypes"
+      }
+      trailer_type_header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAutoclasstrailerstrailertypeheader"
+      }
+      cargo_size   =   {
+         symbol   =   ""
+         x   =   137
+         y   =   470
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAutoclasstrailerscargosize"
+      }
+      trailer_name   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   480
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAutoclasstrailerstrailername"
+      }
+      trailer_image_attach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   150
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAttachpointtrailerimage"
+      }
+      trailer_description   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   550
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAutoclasstrailerstrailerdescription"
+      }
+      accept_button   =   {
+         symbol   =   ""
+         x   =   73.75
+         y   =   664
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrailersAttachpointtrailersdialogbutton"
+      }
+      __type   =   "UiContainer"
+   }
+   TrailersArrowSelector   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "trailers_arrow_selector"
+      __type   =   "UiButton"
+   }
+   TrailersHorizontalScrollBar   =   {
+      sslModule   =   "ui.autogen_libs.ui_trailers"
+      symbol   =   "trailers_horizontal_scroll_bar"
+      sslClass   =   "UiTrailersTrailershorizontalscrollbar"
+      __type   =   "UiContainer"
+   }
+   TrailerTypeButton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "trailer_type_button"
+      truck_type   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiTrailersAutoclasstrailertypebuttontrucktype"
+      }
+      __type   =   "UiButton"
+   }
+}
+__type   =   "ssl_object_lib"

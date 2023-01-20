@@ -1,0 +1,39 @@
+uiDesc   =   "US_01_02_LOST_TRAILER_DESC_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "SCOUT_OILTANK_DR"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_PREACHER_HOUSE"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_02_LOST_TRAILER_TRAILER"
+            afterStageFinished   =   "DESTROY"
+            globalZoneSpawnId   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_LOST_TRAILER"
+               __type   =   "null"
+            }
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_LOST_TRAILER_DESC_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_LOST_TRAILER_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_02_LOST_TRAILER_A_TSK"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   180
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1900
+   }
+}
+recommendedTruck   =   "SCOUT"
+__type   =   "TaskSettings"

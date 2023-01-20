@@ -1,0 +1,99 @@
+uiDesc   =   "US_01_03_POWER_WIRES_1_CONTRACT_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_03_POWER_WIRES_1_CONTRACT_SUB_1_OBJ_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_RESTORE_POWER_WIRES_01"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               model   =   {
+                  levelName   =   "level_us_01_03"
+                  modelTag   =   "power_wires_01"
+                  stagesProgress   =   {
+                     state_start   =   {
+                     }
+                     state_end   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "ModelBuildingSettings"
+               }
+            },
+            {
+               uiDesc   =   "US_01_03_POWER_WIRES_1_CONTRACT_SUB_2_OBJ_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_RESTORE_POWER_WIRES_02"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               model   =   {
+                  levelName   =   "level_us_01_03"
+                  modelTag   =   "power_wires_02"
+                  stagesProgress   =   {
+                     state_start   =   {
+                     }
+                     state_end   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "ModelBuildingSettings"
+               }
+            },
+            {
+               uiDesc   =   "US_01_03_POWER_WIRES_1_CONTRACT_SUB_3_OBJ_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_RESTORE_POWER_WIRES_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               model   =   {
+                  levelName   =   "level_us_01_03"
+                  modelTag   =   "power_wires_03"
+                  stagesProgress   =   {
+                     state_start   =   {
+                     }
+                     state_end   =   {
+                        __value   =   1
+                     }
+                  }
+                  __type   =   "ModelBuildingSettings"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   "US_01_03_POWER_WIRES_1_CONTRACT_BRING_METAL_PLANKS"
+   }
+]
+blockerObjectives   =   [
+   "US_01_02_RESOURCES_FOR_WINTER_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_03_POWER_WIRES_1_CONTRACT_OBJ_REW"
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   610
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   4400
+   }
+}
+__type   =   "ContractSettings"

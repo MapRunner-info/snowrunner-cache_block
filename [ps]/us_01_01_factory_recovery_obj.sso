@@ -1,0 +1,82 @@
+uiDesc   =   "US_01_01_FACTORY_RECOVERY_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_FACTORY_RECOVERY_STAGE_1_BRING"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_FACTORY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBricks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_FACTORY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      truckDelivery   =   [
+         {
+            truckId   =   "FUEL_FACTORY"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+               globalZoneId   =   "level_us_01_01 || US_01_01_FACTORY"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_01_FACTORY_RECOVERY_STAGE_1_BRING"
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_EXPLORE_GARAGE_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_01_FACTORY_RECOVERY_REWARD_DESC"
+rewards   =   {
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "US_01_01_FACTORY"
+            mapId   =   "level_us_01_01"
+            props   =   {
+               ZonePropertyCargoLoading   =   {
+                  cargosSettings   =   [
+                     {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   -1
+                     }
+                  ]
+                  platformId   =   "US_01_01_FACTORY_MANUAL"
+               }
+            }
+         }
+      }
+   }
+   ObjectiveRewardExperience   =   {
+      amount   =   450
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3850
+   }
+}
+employer   =   "DysonDiesel"
+region   =   "us_01"
+__type   =   "ContractSettings"

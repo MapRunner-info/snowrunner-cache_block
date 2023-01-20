@@ -1,0 +1,51 @@
+btns   =   {
+   Back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   Left   =   {
+      text   =   "UI_SHOP_SCROLL_LEFT"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   Right   =   {
+      text   =   "UI_SHOP_SCROLL_RIGHT"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   Select   =   {
+      text   =   "UI_SELECT"
+      __type   =   "NavButtonDesc"
+   }
+   Delete   =   {
+      text   =   "UI_DELETE_SAVE_SLOT"
+      __type   =   "NavButtonDesc"
+   }
+   ImportSave   =   {
+      text   =   "UI_SAVE_SLOT_IMPORT_SAVE"
+      excludedPlatforms   =   [
+         "NX64",
+         "DURANGO",
+         "PC"
+      ]
+      tutorialInputLink   =   {
+         __type   =   "null"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   NGPButton   =   {
+      text   =   "UI_SHOW_SETTINGS"
+      input   =   {
+         inputLink   =   "UI.ShowNGPSettins"
+         __type   =   "null"
+      }
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

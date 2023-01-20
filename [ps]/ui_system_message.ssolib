@@ -1,0 +1,83 @@
+classes   =   {
+   Exclamsignanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_system_message"
+      symbol   =   "exclamSignAnim"
+      sslClass   =   "UiSystemMessageExclamsignanim"
+      __type   =   "UiContainer"
+   }
+   Sysmessagemultilinetext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "sysMessageMultilineText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Sysmessagetitletext   =   {
+      sslModule   =   "ui.autogen_libs.ui_system_message"
+      symbol   =   "sysMessageTitleText"
+      sslClass   =   "UiSystemMessageSysmessagetitletext"
+      tf   =   {
+         x   =   0
+         y   =   -12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Sysmsgbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_system_message"
+      symbol   =   "sysMsgBtnAttach"
+      sslClass   =   "UiSystemMessageSysmsgbtnattach"
+      __type   =   "UiContainer"
+   }
+   Systemmessagecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_system_message"
+      symbol   =   "systemMessageContainer"
+      sslClass   =   "UiSystemMessageSystemmessagecontainer"
+      sysMsgMulitlineText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   580
+         y   =   501
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSystemMessageSysmessagemultilinetext"
+      }
+      sysMsgTitleText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   420
+         y   =   419
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSystemMessageSysmessagetitletext"
+      }
+      actionBtnAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   964
+         y   =   664
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSystemMessageSysmsgbtnattach"
+      }
+      exclamSign   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   901
+         y   =   237
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSystemMessageExclamsignanim"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

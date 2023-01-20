@@ -1,0 +1,21 @@
+cont   =   {
+   __type   =   "UiTutorialLibTutorialsplashscreenanim"
+}
+focusScreen   =   {
+   __type   =   "UiFocusScreen"
+}
+inputScreen   =   {
+   priority   =   "VERY_HIGH"
+   name   =   "Tutorial view large"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.AcceptTutorial"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+bulletPointName   =   "bulletPoint"
+modImagePlaceholder   =   "tutorialShotModPlaceholder"
+__type   =   "TutorialViewBase"

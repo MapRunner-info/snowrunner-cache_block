@@ -1,0 +1,7 @@
+asianFormats   =   [
+   "simplified_chinese",
+   "traditional_chinese",
+   "korean",
+   "japanese"
+]
+__type   =   "object"

@@ -1,0 +1,19 @@
+btns   =   {
+   TakePic   =   {
+      text   =   "PHOTO_MODE_TAKE_PIC"
+      __type   =   "NavButtonDesc"
+   }
+   RestoreDefault   =   {
+      text   =   "PHOTO_MODE_RESTORE_DEFAULT"
+      __type   =   "NavButtonDesc"
+   }
+   HideUI   =   {
+      text   =   "PHOTO_MODE_HIDE_UI"
+      __type   =   "NavButtonDesc"
+   }
+   Back   =   {
+      text   =   "PHOTO_MODE_BACK"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

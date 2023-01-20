@@ -1,0 +1,16 @@
+btns   =   {
+   back   =   {
+      text   =   "UI_BACK"
+      clickSound   =   "ui/ui_click_exit"
+      __type   =   "NavButtonDesc"
+   }
+   up   =   {
+      text   =   "UI_UP"
+      __type   =   "NavButtonDesc"
+   }
+   down   =   {
+      text   =   "UI_DOWN"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

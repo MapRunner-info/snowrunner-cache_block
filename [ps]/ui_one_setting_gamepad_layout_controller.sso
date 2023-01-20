@@ -1,0 +1,5 @@
+view   =   {
+   __type   =   "UiOneSettingGamepadLayoutView"
+}
+header   =   "UI_SETTINGS_CHANGE_GAMEPAD_LAYOUT"
+__type   =   "UiOneSettingController"

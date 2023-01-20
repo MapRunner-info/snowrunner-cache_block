@@ -1,0 +1,59 @@
+uiObjectDesc   =   {
+   type   =   {
+      layoutsList   =   {
+         lir   =   {
+            __type   =   "UiGamepadLayoutViewLirItem"
+         }
+         __type   =   "UiGamepadIconsControllerlayoutslist"
+      }
+      controller   =   {
+         controllerXbox   =   {
+            btnComboWide   =   {
+               isHtml   =   True
+               __type   =   "UiGamepadIconsActiontextcmultiline"
+            }
+            rStick2   =   {
+               isHtml   =   True
+               __type   =   "UiGamepadIconsActiontextlmultiline"
+            }
+            __type   =   "UiGamepadIconsXboxcontrollerlayout"
+         }
+         controllerPs4   =   {
+            btnComboWide   =   {
+               isHtml   =   True
+               __type   =   "UiGamepadIconsActiontextcmultiline"
+            }
+            rStick2   =   {
+               isHtml   =   True
+               __type   =   "UiGamepadIconsActiontextlmultiline"
+            }
+            __type   =   "UiGamepadIconsPs4controllerlayout"
+         }
+         __type   =   "UiGamepadIconsControllerscontainer"
+      }
+      __type   =   "UiGamepadIconsControllerlayoutcontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+presetsList   =   {
+   uiFocusScreen   =   {
+      uiGfxInputToDisable   =   [
+         "Left",
+         "Up",
+         "Right",
+         "Down"
+      ]
+      __type   =   "UiFocusScreen"
+   }
+   uiInputScreen   =   {
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   ""
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+__type   =   "ScreenViewBase"

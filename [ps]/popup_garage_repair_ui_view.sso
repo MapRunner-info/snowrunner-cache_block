@@ -1,0 +1,29 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibGarageanimpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+repairView   =   {
+   priceTf   =   {
+      isHtml   =   True
+      __type   =   "UiPopupLibPopupofferpriccetf"
+   }
+   repairTargetDetails   =   {
+      focusable   =   False
+      enabled   =   False
+      lir   =   {
+         __type   =   "PopupRepairUiViewLirItem"
+      }
+      __type   =   "UiPopupLibPopuprepairtargetdetailslist"
+   }
+   __type   =   "UiPopupLibPopupregarage"
+}
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibUpgradeimg40"
+   }
+   __type   =   "UiContainerDesc"
+}
+moneyIcon   =   "playerProfileCurrency20"
+__type   =   "PopupViewBase"

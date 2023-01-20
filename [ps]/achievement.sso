@@ -1,0 +1,7 @@
+iconDesc   =   {
+   __type   =   "UiContainerDesc"
+}
+imageDesc   =   {
+   __type   =   "UiContainerDesc"
+}
+__type   =   "object"

@@ -1,0 +1,9 @@
+marker   =   {
+   screenMarker   =   {
+      visible   =   True
+      __type   =   "UiScreenMarker"
+   }
+   __type   =   "MinimapMarker"
+}
+type   =   "SPAWN"
+__type   =   "MinimapObjectController"

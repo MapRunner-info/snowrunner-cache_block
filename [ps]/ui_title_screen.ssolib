@@ -1,0 +1,47 @@
+classes   =   {
+   Keycontainer   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "keyContainer"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Presskeycontainer   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "pressKeyContainer"
+      tfCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTitleScreenKeycontainer"
+      }
+      __type   =   "UiButton"
+   }
+   Titlescreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_title_screen"
+      symbol   =   "titleScreen"
+      sslClass   =   "UiTitleScreenTitlescreen"
+      spinner   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   994
+         y   =   736
+         scaleX   =   60.0006
+         scaleY   =   60.0006
+         __type   =   "UiMovieClip"
+      }
+      pressBtnCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   960
+         y   =   774
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiTitleScreenPresskeycontainer"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

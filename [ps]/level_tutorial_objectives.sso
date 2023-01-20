@@ -1,0 +1,152 @@
+indexInRegion   =   0
+zoneDesc   =   {
+   TUT_OBJ_WATCHPOINT_SHORTCUT   =   {
+      props   =   {
+         ZonePropertyWatchpoint   =   {
+            range   =   175
+            cameraPosStart   =   {
+               x   =   -127.4502
+               y   =   39.27817
+               z   =   150.7323
+               __type   =   "Vector3d"
+            }
+            cameraDirStart   =   {
+               x   =   0.57977
+               y   =   0.2156
+               z   =   -0.78574
+               __type   =   "Vector3d"
+            }
+            cameraPosEnd   =   {
+               x   =   -136.4293
+               y   =   55.02633
+               z   =   147.3871
+               __type   =   "Vector3d"
+            }
+            cameraDirEnd   =   {
+               x   =   0.8451
+               y   =   -0.37337
+               z   =   -0.38263
+               __type   =   "Vector3d"
+            }
+            animationTime   =   5000
+            finishDelayTime   =   500
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_WATCHPOINT_UPGRADE   =   {
+      props   =   {
+         ZonePropertyWatchpoint   =   {
+            range   =   175
+            cameraPosStart   =   {
+               x   =   87.90016
+               y   =   29.57932
+               z   =   12.35079
+               __type   =   "Vector3d"
+            }
+            cameraDirStart   =   {
+               x   =   -0.54934
+               y   =   0.20182
+               z   =   -0.81086
+               __type   =   "Vector3d"
+            }
+            cameraPosEnd   =   {
+               x   =   76.07084
+               y   =   49.04387
+               z   =   23.2485
+               __type   =   "Vector3d"
+            }
+            cameraDirEnd   =   {
+               x   =   0.21056
+               y   =   -0.42301
+               z   =   -0.88132
+               __type   =   "Vector3d"
+            }
+            animationTime   =   5000
+            startDelayTime   =   0
+            finishDelayTime   =   500
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_BRIDGE_CONSTRUCTION_A   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_BRIDGE_CONSTRUCTION_TSK_A   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_BRIDGE_CONSTRUCTION_TSK_B   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_STORAGE_PICKUP   =   {
+      props   =   {
+         ZonePropertyCargoLoading   =   {
+            cargosSettings   =   [
+               {
+                  name   =   "CargoWoodenPlanks"
+               }
+            ]
+            platformId   =   "TUT_OBJ_STORAGE_PICKUP_MANUAL"
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_STORAGE_PICKUP_MANUAL   =   {
+      props   =   {
+         ZonePropertyManualLoading   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_PLANK_DELIVERY_DROP   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_TRUCK_RESCUE_TSK   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_TRUCK_RESCUE_DROP   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_ST1_WATCH1   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_ST1_WATCH2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_ST2_TASK2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_ST3_SHORTCUT   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_ST3_TARGET   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_ST5_PICKUP   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_CONTEST_START   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_RECOVER   =   {
+      props   =   {
+         ZonePropertyRecovery   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_FUEL_GAS   =   {
+      props   =   {
+         ZonePropertyFuelStation   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_TRUCK   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUT_OBJ_TRUCK1   =   {
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

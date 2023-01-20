@@ -1,0 +1,10 @@
+sslModule   =   "camera.dbg_camera_manager"
+switchInputLink   =   {
+   inputLink   =   "Debug.SwitchCamera"
+   __type   =   "InputLinkHold"
+}
+sendInputLink   =   {
+   inputLink   =   "Debug.SendParamsCamera"
+   __type   =   "InputLinkHold"
+}
+__type   =   "object"

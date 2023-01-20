@@ -1,0 +1,3 @@
+timeOutMessage   =   "UI_FUTURE_ERROR_CONNECTION_TIME_OUT"
+unknownMessage   =   "UI_FUTURE_ERROR_UNKNOWN_ERROR"
+__type   =   "object"

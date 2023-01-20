@@ -1,0 +1,58 @@
+trailerPrice   =   {
+   isHtml   =   True
+   __type   =   "UiPopupLibPopuptrailerpricetf"
+}
+iconNames   =   {
+   scout_trailer_flatbed_2   =   {
+      __value   =   "trailerImg"
+   }
+   scout_trailer_oiltank_1   =   {
+      __value   =   "tankImg"
+   }
+   semitrailer_curtainside_4   =   {
+      __value   =   "trailerSemiImg"
+   }
+   semitrailer_flatbed_5   =   {
+      __value   =   "trailerSemiImg"
+   }
+   semitrailer_gooseneck_4   =   {
+      __value   =   "trailerSemiImg"
+   }
+   semitrailer_heavy_construction_equipment   =   {
+      __value   =   "tankImg"
+   }
+   semitrailer_m747   =   {
+      __value   =   "trailerSemiImg"
+   }
+   semitrailer_oiltank   =   {
+      __value   =   "tankImg"
+   }
+   semitrailer_sideboard_5   =   {
+      __value   =   "trailerSemiImg"
+   }
+   semitrailer_stepdeck_5   =   {
+      __value   =   "trailerSemiImg"
+   }
+   semitrailer4_cargo_test   =   {
+      __value   =   "trailerSemiImg"
+   }
+   trailer_flatbed_2   =   {
+      __value   =   "trailerImg"
+   }
+   trailer_flatbed_ramps_4   =   {
+      __value   =   "trailerImg"
+   }
+   trailer_oiltank   =   {
+      __value   =   "tankImg"
+   }
+   trailer_service_2   =   {
+      __value   =   "tankImg"
+   }
+   trailer_sideboard_2   =   {
+      __value   =   "trailerImg"
+   }
+}
+repairIcon   =   "repairPartsImg20"
+fuelIcon   =   "cargoLoadTypeLiquid20"
+cargoIcon   =   "cargoLoadTypeUniversal20"
+__type   =   "UiPopupLibPopuptrailerlir"

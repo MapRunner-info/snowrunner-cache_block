@@ -1,0 +1,30 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         sortingBtn   =   {
+            focusable   =   False
+            __type   =   "UiPopupLibModbrowserpopuptabbtn"
+         }
+         filterBtn   =   {
+            focusable   =   False
+            __type   =   "UiPopupLibModbrowserpopuptabbtn"
+         }
+         sortingFilterList   =   {
+            lir   =   {
+               __type   =   "ModBrowserFilterPopupLir"
+            }
+            scrollBar   =   {
+               __type   =   "UiCommonLibDefscrollbars"
+            }
+            __type   =   "UiPopupLibModbrowserpopuplist"
+         }
+         __type   =   "UiPopupLibModbrowserpopup"
+      }
+      __type   =   "UiPopupLibAnimmodbrowserpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+headerIcon   =   "modBrowserFilterAndSortIcon40"
+filterIconName   =   "modBrowserFilterIcon"
+sortIconName   =   "modBrowserSortIcon"
+__type   =   "PopupViewBase"

@@ -1,0 +1,45 @@
+view   =   {
+   iconType   =   "invite"
+   __type   =   "SystemMessageTopNotificationUiView"
+}
+navPanels   =   {
+   SystemMessageNavigationPanel   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_HUD_DIALOG_ACCEPT"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            text   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_DECLINE"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "Decline"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "SystemMessageNavigationPanelTwoButtons"
+   }
+}
+priority   =   "HIGH"
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "SYSTEM INVITE"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      Decline   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "SystemMessageBaseUiController"

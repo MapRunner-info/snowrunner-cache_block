@@ -1,0 +1,49 @@
+uiDesc   =   "US_01_01_EXPLORING_TRUCK_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         sslModule   =   "game.missions.task_settings"
+         zones   =   [
+            {
+               sslModule   =   "game.missions.task_settings"
+               uiDesc   =   "US_01_01_EXPLORING_WATCHTOWER_VISIT_TRUCK_ON_LEVEL_US_01_01"
+               globalZoneId   =   {
+                  sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                  globalZoneId   =   "level_us_01_01 || US_01_01_TRUCK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_EXPLORING_WATCHTOWER_OBJ"
+]
+description   =   "US_01_01_EXPLORING_TRUCK_REWARD_DESC"
+isSilentReward   =   True
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   200
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   650
+   }
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "US_01_01_NEW_RECOVER"
+            mapId   =   "level_us_01_01"
+            props   =   {
+               ZonePropertyRecovery   =   {
+                  priority   =   1
+               }
+            }
+         }
+      }
+   }
+}
+employer   =   "AttecaTownship"
+region   =   "us_01"
+__type   =   "ContractSettings"

@@ -1,0 +1,4 @@
+zonesToShowOnMinimapId   =   [
+   "level_us_02_01 || US_02_01_GARAGE_ENTRANCE"
+]
+__type   =   "TutorialStage"

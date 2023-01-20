@@ -1,0 +1,300 @@
+tasksSettings   =   {
+   TEST_ZONE_SIMPLE_DELIVERY_TASK   =   {
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_SIMPLE_DELIVERY_TASK"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteSlab"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      taskGiverZone   =   {
+         globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_SIMPLE_DELIVERY_TASK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   TEST_ZONE_OBJECT_DECONSTRUCTION   =   {
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_OBJECT_DECONSTRUCTION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteSlab"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "test_contracts_tasks_contests"
+         modelTag   =   "test_rock"
+         stagesProgress   =   {
+            stage_visible   =   {
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_OBJECT_DECONSTRUCTION"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   TEST_ZONE_OBJECT_BUILDING   =   {
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_OBJECT_BUILDING"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteSlab"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "test_contracts_tasks_contests"
+         modelTag   =   "test_bridge_2"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_OBJECT_BUILDING"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   TEST_ZONE_OBJECT_BUILDING_REACH_1   =   {
+      stages   =   [
+         {
+            visitAllZones   =   {
+               mapZoneList   =   {
+                  test_contracts_tasks_contests   =   {
+                     __value   =   [
+                        "TEST_ZONE_OBJECT_BUILDING_REACH_2"
+                     ]
+                  }
+               }
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "test_contracts_tasks_contests"
+         modelTag   =   "test_bridge_1"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_OBJECT_BUILDING_REACH_1"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   TEST_ZONE_EXPLORATION_1   =   {
+      stages   =   [
+         {
+            visitAllZones   =   {
+               mapZoneList   =   {
+                  test_contracts_tasks_contests   =   {
+                     __value   =   [
+                        "TEST_ZONE_EXPLORATION_2"
+                     ]
+                  }
+               }
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      taskGiverZone   =   {
+         globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_EXPLORATION_1"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   TEST_TRUCK_DESTROY_VFX_START   =   {
+      uiDesc   =   "Action After Stage Test"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "TEST_VFX"
+                  globalZoneDeliveryId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "test_contracts_tasks_contests || TEST_TRUCK_DESTROY_VFX_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "stage1 after this free"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneSpawnId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "test_contracts_tasks_contests || TEST_TRUCK_DESTROY_VFX_SPAWN"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+               }
+            ]
+         }
+      ]
+      taskGiverZone   =   {
+         globalZoneId   =   "test_contracts_tasks_contests || TEST_TRUCK_DESTROY_VFX_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      employer   =   "WoodyWoodpecker"
+      region   =   "no_region"
+      __type   =   "TaskSettings"
+   }
+}
+contractsSettings   =   {
+   TEST_ZONE_SIMPLE_DELIVERY_CONTRACT   =   {
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_SIMPLE_DELIVERY_CONTRACT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteSlab"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      employer   =   "Husky"
+      region   =   "no_region"
+      __type   =   "ContractSettings"
+   }
+   TEST_ZONE_TRUCK_DELIVERY_1   =   {
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "chevrolet_kodiakc70"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_TRUCK_DELIVERY_2"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  globalZoneSpawnId   =   {
+                     globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_TRUCK_DELIVERY_1"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+               }
+            ]
+         }
+      ]
+      employer   =   "Husky"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   50
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   50
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+}
+contestSettings   =   {
+   TEST_ZONE_SIMPLE_DELIVERY_CONTEST   =   {
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_SIMPLE_DELIVERY_CONTEST_2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteSlab"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      taskGiverZone   =   {
+         globalZoneId   =   "test_contracts_tasks_contests || TEST_ZONE_SIMPLE_DELIVERY_CONTEST_1"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   30
+                  money   =   50
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   45
+                  money   =   25
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   60
+                  money   =   10
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      __type   =   "ContestSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

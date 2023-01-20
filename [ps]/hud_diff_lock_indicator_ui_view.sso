@@ -1,0 +1,12 @@
+navHint   =   {
+   desc   =   {
+      uiInputName   =   "DiffLock"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+inputScreen   =   {
+   name   =   "HudDiffLockIndicatorUiView"
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "HudHidableView"

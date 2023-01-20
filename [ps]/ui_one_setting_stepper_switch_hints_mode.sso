@@ -1,0 +1,15 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_HINTS_MODE"
+desc   =   "UI_SETTINGS_HINTS_MODE_DESC"
+modes   =   [
+   {
+      uiName   =   "UI_SETTINGS_HINTS_MODE_ALL"
+   },
+   {
+      uiName   =   "UI_SETTINGS_HINTS_MODE_STEERING_WHEEL"
+      overrideDevice   =   "steering_wheel"
+   }
+]
+__type   =   "UiOneSettingStepperController"

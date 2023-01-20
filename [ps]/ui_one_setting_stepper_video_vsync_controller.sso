@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_VSYNC"
+desc   =   "UI_SETTINGS_VSYNC_DESC"
+__type   =   "UiOneSettingStepperVideoController"

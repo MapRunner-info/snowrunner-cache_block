@@ -1,0 +1,54 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         listCont   =   {
+            list   =   {
+               lir   =   {
+                  content   =   {
+                     tfCont   =   {
+                        tf   =   {
+                           isHtml   =   True
+                           __type   =   "UiLabel"
+                        }
+                        __type   =   "UiTrialsTrialslirtf"
+                     }
+                     __type   =   "UiTrialsTrialslircontent"
+                  }
+                  __type   =   "UiTrialsScreenListItemRenderer"
+               }
+               __type   =   "UiTrialsTrialslist"
+            }
+            __type   =   "UiTrialsTrialslistcontainer"
+         }
+         __type   =   "UiTrialsTrialsscreen"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "UiTrialsScreenView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "TrialsNavigationPanel"
+   }
+}
+inputScreen   =   {
+   name   =   "Trials Screen"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Start   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

@@ -1,0 +1,10 @@
+contentContainerDesc   =   {
+   type   =   {
+      lir   =   {
+         __type   =   "UiCommonLibDeflir"
+      }
+      __type   =   "UiCommonLibDeflist"
+   }
+   __type   =   "SslDesc"
+}
+__type   =   "SelectableItemViewBase"

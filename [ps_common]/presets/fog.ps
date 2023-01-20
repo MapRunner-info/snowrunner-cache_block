@@ -1,0 +1,605 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	fog_type = {
+		__type = "section"
+		__viewType = {
+			__caption = "Fog types"
+			__expand = true
+		}
+		__members = {
+			h3FogEnable = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType = {
+					__wrappable = false
+					__caption = "Enable Halo3 fog"
+					__hint = ""
+				}
+			}
+		}
+	}
+
+	h3fog = {
+		__type = "section"
+		__viewType = {
+			__caption = "Halo3 fog"
+			__expand = true
+		}
+		__members = {
+			SunPitch = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__caption = "Sun Pitch"
+					__hint = ""
+					__wrappable = false
+					__min = 0
+					__max = 90
+					__type = "slider"
+				}
+			}
+			SunHeading = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__caption = "Sun Heading"
+					__hint = ""
+					__wrappable = false
+					__min = -180
+					__max = 180
+					__type = "slider"
+				}
+			}
+			SunColor = {
+				__type = "colorARGB"
+				__defaultValue = [111.45, 131.0, 140.0, 255.0]
+				__viewType = {
+					__caption = "Sun Color"
+					__hint = ""
+					__wrappable = false
+				}
+			}
+			SunIntensity = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Sun Intensity"
+					__hint = ""
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			SeaLevel = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Sea Level"
+					__hint = "In world units, set it to lowest height of scenario"
+					__wrappable = false
+					__dynRange = true
+					__dynMin = -100
+					__dynMax = 100
+					__type = "slider"
+				}
+			}
+			RayleignHeightScale = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Rayleign Height Scale"
+					__hint = "Height above sea level where atmosphere is 30% thick"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			MieHeightScale = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Mie Height Scale"
+					__hint = "Height above sea level where atmosphere is 30% thick"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			RayleignMultiplier = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Rayleign Multiplier"
+					__hint = "Control how much scattering from air molecules(small)"
+					__wrappable = false
+                    __dynRange = true
+					__min = 0
+					__max = 1
+                    __valueMapper = "exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+                    __step = 0.0001
+                    __isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			MieMultiplier = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Mie Multiplier"
+					__hint = "Control how much scattering from large particles"
+					__wrappable = false
+                    __dynRange = true
+					__min = 0
+					__max = 1
+                    __valueMapper = "exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+                    __step = 0.0001
+                    __isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			SunPhaseFunction = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Sun Phase Function"
+					__hint = "The angular dependency of scattering(MIE) to the sun"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__type = "slider"
+				}
+			}
+			Desaturation = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Desaturation"
+					__hint = "Increase this to reduce the amount of reddening effect"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__type = "slider"
+				}
+			}
+			DistanceBias = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Distance Bias"
+					__hint = "Push the fog away or pull it"
+					__wrappable = false
+					__dynRange = true
+					__max = 0
+					__dynMin = -100
+					__dynMax = 0
+					__type = "slider"
+				}
+			}
+			MaxFogThickness = {
+				__type = "float"
+				__defaultValue = 1000.0
+				__viewType = {
+					__caption = "Max Fog Thickness"
+					__hint = "The maximum distance for which non-patchy fog still increases in intensity; its effect clamps after that"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 10000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.1
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+		}
+	}
+
+	secondary_fog = {
+		__type = "section"
+		__viewType = {
+			__caption = "Secondary Halo3 fog (behind fog portals)"
+			__expand = true
+		}
+		__members = {
+			SunPitch = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__min = 0
+					__max = 90
+					__type = "slider"
+					__caption = "Sun Pitch"
+					__hint = ""
+				}
+			}
+			SunHeading = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__min = -180
+					__max = 180
+					__type = "slider"
+					__caption = "Sun Heading"
+					__hint = ""
+				}
+			}
+			SunColor = {
+				__type = "colorARGB"
+				__defaultValue = [111.45, 131.0, 140.0, 255.0]
+				__viewType = {
+					__wrappable = false
+					__caption = "Sun Color"
+					__hint = ""
+				}
+			}
+			SunIntensity = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Sun Intensity"
+					__hint = ""
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			SeaLevel = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Sea Level"
+					__hint = "In world units, set it to lowest height of scenario"
+					__wrappable = false
+					__dynRange = true
+					__dynMin = -100
+					__dynMax = 100
+					__type = "slider"
+				}
+			}
+			RayleignHeightScale = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Rayleign Height Scale"
+					__hint = "Height above sea level where atmosphere is 30% thick"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			MieHeightScale = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Mie Height Scale"
+					__hint = "Height above sea level where atmosphere is 30% thick"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			RayleignMultiplier = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Rayleign Multiplier"
+					__hint = "Control how much scattering from air molecules(small)"
+					__wrappable = false
+                    __dynRange = true
+					__min = 0
+					__max = 1
+                    __valueMapper = "exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+                    __step = 0.0001
+                    __isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			MieMultiplier = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Mie Multiplier"
+					__hint = "Control how much scattering from large particles"
+					__wrappable = false
+                    __dynRange = true
+					__min = 0
+					__max = 1
+                    __valueMapper = "exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+                    __step = 0.0001
+                    __isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			SunPhaseFunction = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType = {
+					__caption = "Sun Phase Function"
+					__hint = "The angular dependency of scattering(MIE) to the sun"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__type = "slider"
+				}
+			}
+			Desaturation = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Desaturation"
+					__hint = "Increase this to reduce the amount of reddening effect"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__type = "slider"
+				}
+			}
+			DistanceBias = {
+				__type = "float"
+				__defaultValue = 0.0
+				__viewType = {
+					__caption = "Distance Bias"
+					__hint = "Push the fog away or pull it"
+					__wrappable = false
+					__dynRange = true
+					__max = 0
+					__dynMin = -100
+					__dynMax = 0
+					__type = "slider"
+				}
+			}
+			MaxFogThickness = {
+				__type = "float"
+				__defaultValue = 1000.0
+				__viewType = {
+					__caption = "Max Fog Thickness"
+					__hint = "The maximum distance for which non-patchy fog still increases in intensity; its effect clamps after that"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 10000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.1
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+		}
+	}
+
+params = {
+		__type = "section"
+		__viewType = {
+			__expand = false
+			__caption = "Standard fog"
+		}
+		__members = {
+			density = {
+				__type = "float"
+				__defaultValue = 0.315
+				__viewType = {
+					__caption = "Density"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 25
+					__type = "slider"
+					__step = 0.1
+				}
+			}
+			height = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__caption = "Height"
+					__hint = "Height of the ground plane at wich fog has density equal to Density parameter (m)"
+					__wrappable = false
+					__dynRange = true
+					__dynMin = 0
+					__dynMax = 500
+					__type = "slider"
+				}
+			}
+			upperFalloff = {
+				__type = "float"
+				__defaultValue = 1.63
+				__viewType = {
+					__caption = "Upper falloff scale"
+					__hint = "Controls how fast fog will decrease above Height. Range:  (0 - ...)"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 10
+					__type = "slider"
+				}
+			}
+			lowerFalloff = {
+				__type = "float"
+				__defaultValue = 0.16
+				__viewType = {
+					__caption = "Lower falloff scale"
+					__hint = "Controls how fast fog will decrease below Height. Range:  (0 - ...)"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 10
+					__type = "slider"
+				}
+			}
+			densityStart = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__caption = "Start distance from camera"
+					__hint = "Removes fog closer to camera than this distance (m)"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 100
+					__type = "slider"
+				}
+			}
+			opacityClamp = {
+				__type = "float"
+				__defaultValue = 0.82
+				__viewType = {
+					__caption = "Maximum opacity"
+					__hint = "Fog opacity will be clamped by this value. Range: (0 - 1)"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__type = "slider"
+				}
+			}
+			color = {
+				__viewType = {
+					__wrappable = false
+					__caption = "Color"
+					__hint = "Main color of the fog"
+				}
+				__type = "colorARGB"
+				__defaultValue = [111.45, 131.0, 140.0, 255.0]
+			}
+			colorIntensity = {
+				__type = "float"
+				__defaultValue = 13.5
+				__viewType = {
+					__caption = "Color intensity"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			sunColor = {
+				__viewType = {
+					__wrappable = false
+					__caption = "Inscatter color"
+					__hint = "Additional color of the fog around the sun"
+				}
+				__type = "colorARGB"
+				__defaultValue = [255.0, 245.17, 200.0, 255.0]
+			}
+			sunColorIntensity = {
+				__type = "float"
+				__defaultValue = 2.3
+				__viewType = {
+					__caption = "Inscatter color intensity"
+					__wrappable = false
+					__dynRange = true
+					__min = 0
+					__dynMin = 0
+					__dynMax = 1000
+					__valueMapper = "l+exp"
+					__splitOffset = 0.5
+					__splitValue = 0.05
+					__isTicksVisible = true
+					__type = "slider"
+				}
+			}
+			sunAngle = {
+				__type = "float"
+				__defaultValue = 27
+				__viewType = {
+					__caption = "Inscatter angle"
+					__hint = "Controls the size of the spot of additional color around the sun. Range: (0 - 180 deg.)"
+					__wrappable = false
+					__min = 0
+					__max = 180
+					__type = "slider"
+				}
+			}
+			inscatterFromSky = {
+				__viewType = {
+					__wrappable = false
+					__caption = "Use physical model"
+					__hint = " deprecated"
+				}
+				__type = "bool"
+				__defaultValue = false
+			}
+			inscatterAmount = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__caption = "Amount of sky light in fog"
+					__hint = "(deprecated)"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__type = "slider"
+				}
+			}
+		}
+	}
+	
+}

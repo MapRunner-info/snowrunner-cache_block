@@ -1,0 +1,49 @@
+view   =   {
+   iconDesc   =   {
+      type   =   {
+         __type   =   "UiIconsLibPopupwarningimg"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   __type   =   "PopupTrailerDeletionConfirmView"
+}
+navPanels   =   {
+   PopupTrailerDeletionConfirmNavigationPanel   =   {
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         accept   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "accept"
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "decline"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+id   =   "TRAILER_DELETE_CONFIRMATION"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "TRAILER DELETION"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      decline   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

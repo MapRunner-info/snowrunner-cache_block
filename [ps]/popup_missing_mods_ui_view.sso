@@ -1,0 +1,19 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         modsList   =   {
+            lir   =   {
+               __type   =   "PopupMissingModsLir"
+            }
+            __type   =   "UiPopupLibPopupmodsshortlist"
+         }
+         __type   =   "UiPopupLibModlistpopup"
+      }
+      __type   =   "UiPopupLibAnimmodlistpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+header   =   "UI_POPUP_MISSING_MODS_HEADER"
+desc   =   "UI_POPUP_MISSING_MODS_DESC,"
+headerIcon   =   "popupWarningImg"
+__type   =   "PopupViewBase"

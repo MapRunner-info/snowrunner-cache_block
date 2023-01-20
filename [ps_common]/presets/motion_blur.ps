@@ -1,0 +1,95 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	motionBlurParams = {
+		__type = "section"
+		__viewType = {
+			__caption = "Motion blur params"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			scale = {
+				__type = "float"
+				__defaultValue = 0.1
+				__viewType {
+					__type = "slider"
+					__caption = "Scale"
+					__wrappable = false
+					__min = 0.001
+					__max = 1
+					__step = 0.001
+				}
+			}
+			maxOffset = {
+				__type = "float"
+				__defaultValue = 0.05
+				__viewType {
+					__type = "slider"
+					__caption = "Max screen offset(% of screen size)"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__step = 0.005
+				}
+			}
+			respLin = {
+				__type = "float"
+				__defaultValue = 0.5
+				__viewType {
+					__type = "slider"
+					__caption = "Sensitivity to linear translation"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__step = 0.01
+				}
+			}
+			respAng = {
+				__type = "float"
+				__defaultValue = 0.5
+				__viewType {
+					__type = "slider"
+					__caption = "Sensitivity to rotation"
+					__wrappable = false
+					__min = 0
+					__max = 1
+					__step = 0.01
+				}
+			}
+			scaleObject = {
+				__type = "float"
+				__defaultValue = 0.5
+				__viewType {
+					__type = "slider"
+					__caption = "Scale of object MB (cinematic MB only)"
+					__wrappable = false
+					__min = 0.05
+					__max = 1.0
+					__step = 0.05
+				}
+			}
+			scaleCamera = {
+				__type = "float"
+				__defaultValue = 0.5
+				__viewType {
+					__type = "slider"
+					__caption = "Scale of camera MB (cinematic MB only)"
+					__wrappable = false
+					__min = 0.05
+					__max = 1.0
+					__step = 0.05
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,89 @@
+unlockedOnMap   =   {
+   tuz_16_actaeon   =   {
+      __value   =   "level_ru_03_01"
+   }
+   tuz_108_warthog   =   {
+      __value   =   "level_ru_03_02"
+   }
+   ank_mk38   =   {
+      __value   =   "level_us_02_04_new"
+   }
+   gmc_9500   =   {
+      __value   =   "level_us_01_01"
+   }
+   international_scout_800   =   {
+      __value   =   "level_us_01_01"
+   }
+   pacific_p16   =   {
+      __value   =   "level_us_01_04_new"
+   }
+   royal_bm17   =   {
+      __value   =   "level_us_02_01"
+   }
+   tuz_420_tatarin   =   {
+      __value   =   "level_ru_02_03"
+   }
+   cat_th357   =   {
+      __value   =   "level_us_04_01"
+   }
+   paystar_5600ts   =   {
+      __value   =   "level_us_03_02"
+   }
+   pacific_p512   =   {
+      __value   =   "level_us_03_01"
+   }
+   khan_317_sentinel   =   {
+      __value   =   "level_ru_04_01"
+   }
+   zikz_605r   =   {
+      __value   =   "level_ru_04_02"
+   }
+}
+unlockedByObjective   =   {
+   derry_longhorn_3194   =   {
+      __value   =   "US_02_03_DERRY_LONGHORN_TSK"
+   }
+   ford_f750   =   {
+      __value   =   "RU_03_01_FOREIGNER_TSK"
+   }
+   cat_745c   =   {
+      __value   =   "US_02_02_WORKING_STIFF_TSK"
+   }
+   dan_96320   =   {
+      __value   =   "RU_02_01_HTRUCK_REFUEL_TSK"
+   }
+   hummer_h2   =   {
+      __value   =   "US_02_01_HUMMER_TSK"
+   }
+   step_310e   =   {
+      __value   =   "RU_02_03_TASK_FIND_THE_TRUCK_OBJ"
+   }
+   tayga_6436   =   {
+      __value   =   "RU_02_02_DAMAGED_TRUCK_04_TSK"
+   }
+   tuz_166   =   {
+      __value   =   "RU_02_02_STUCK_TRUCK_03_TSK"
+   }
+   tuz_420_tatarin   =   {
+      __value   =   "RU_02_04_RECOVER_APC_TSK"
+   }
+   ws_4964_white   =   {
+      __value   =   "US_01_02_TRUCK_RESTORATION_TSK"
+   }
+   cat_770g   =   {
+      __value   =   "US_04_01_TSK_CAT"
+   }
+   tatra_force_t815_7   =   {
+      __value   =   "RU_05_02_DELIVERY_02"
+   }
+   tatra_phoenix   =   {
+      __value   =   "RU_05_01_TRACK_TATRA"
+   }
+   tayga_6455b   =   {
+      __value   =   "US_06_01_MILL_LOGS"
+   }
+   aramatsu_forester   =   {
+      __value   =   "US_06_01_TSK_11"
+   }
+}
+__type   =   "object"

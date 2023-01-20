@@ -1,0 +1,8 @@
+import math.vector_2d
+
+[brand("terrain", ".ssl")]
+class Terrain
+   [public] native func GetWetnessAt(pos : Vector2d) : float
+end
+
+native func MrGetTerrain() : Terrain

@@ -1,0 +1,23 @@
+btns   =   {
+   back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   invite   =   {
+      text   =   "UI_INVITE"
+      __type   =   "NavButtonDesc"
+   }
+   kick   =   {
+      text   =   "UI_KICK_PLAYER"
+      __type   =   "NavButtonDesc"
+   }
+   profile   =   {
+      text   =   "UI_SHOW_PLAYER_PROFILE"
+      __type   =   "NavButtonDesc"
+   }
+   copy   =   {
+      text   =   "UI_COPY_INVITE_CODE"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

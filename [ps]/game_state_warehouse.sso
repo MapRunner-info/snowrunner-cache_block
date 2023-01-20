@@ -1,0 +1,6 @@
+inputScreen   =   {
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+idx   =   "WAREHOUSE"
+__type   =   "GameStateBase"

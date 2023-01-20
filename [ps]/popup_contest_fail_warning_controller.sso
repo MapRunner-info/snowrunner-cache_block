@@ -1,0 +1,37 @@
+view   =   {
+   __type   =   "PopupContestFailWarningView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         cancel   =   {
+            uiInputName   =   "Cancel"
+            __type   =   "NavButtonDesc"
+         }
+         ok   =   {
+            uiInputName   =   "Ok"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupContestFailWarningNavigationPanel"
+   }
+}
+id   =   "OBJECTIVE_FAIL_WARNING"
+priority   =   "MIDDLE"
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "PopupContestFailWarning"
+   inputsLinks   =   {
+      Cancel   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Ok   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

@@ -1,0 +1,13 @@
+setting   =   {
+   isAllContentUnlocked   =   False
+   isRegionMapEnabled   =   True
+   isMinimapEnabled   =   True
+   isMinimapTabsEnabed   =   True
+   isRecoverEnabled   =   True
+   isPlayerProfileAvailable   =   True
+   __type   =   "GameSystemsSetting"
+}
+tutorialSys   =   {
+   __type   =   "TutorialSystem"
+}
+__type   =   "object"

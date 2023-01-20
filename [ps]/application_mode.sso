@@ -1,0 +1,246 @@
+fsm   =   {
+   states   =   {
+      ConnectFsmStateInitial   =   {
+         links   =   {
+            LoadLastLevel   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        1850.176,
+                        1763
+                     ],
+                     [
+                        1851.365,
+                        2115
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            DebugLoadLevel   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        1865.176,
+                        1763
+                     ],
+                     [
+                        1866.365,
+                        2115
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            Menu   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        1963,
+                        1761.107
+                     ],
+                     [
+                        2140.768,
+                        1852
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+         }
+      }
+      ConnectFsmStateMenu   =   {
+         links   =   {
+            StartSingleGame   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2140.304,
+                        1932
+                     ],
+                     [
+                        1895.028,
+                        2115
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            TryConnect   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2317,
+                        1889.816
+                     ],
+                     [
+                        2851,
+                        1794.899
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            TitleScreen   =   {
+               viewData   =   {
+                  labelX   =   9
+                  labelY   =   4
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+         }
+      }
+      ConnectFsmStateIngame   =   {
+         links   =   {
+            LeaveGameSession   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2899.513,
+                        2181
+                     ],
+                     [
+                        2317,
+                        1919.545
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            OnDisconnected   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2862.881,
+                        2181
+                     ],
+                     [
+                        2308.119,
+                        1932
+                     ]
+                  ]
+                  labelX   =   -9.84326
+                  labelY   =   24.60815
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   2848.584
+            y   =   2180.623
+         }
+         __type   =   "ConnectFsmStateMuliplayerIngame"
+      }
+      ConnectFsmStateConnect   =   {
+         links   =   {
+            OnFailed   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2851,
+                        1779.663
+                     ],
+                     [
+                        2317,
+                        1874.581
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            TryJoin   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2956.406,
+                        1801
+                     ],
+                     [
+                        2957.094,
+                        1869
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            OnGameSessionStop   =   {
+               toState   =   "ConnectFsmStateMenu"
+               viewData   =   {
+                  labelX   =   -18
+                  labelY   =   -98
+                  connectorIndex   =   1
+               }
+               __type   =   "SslLink"
+            }
+         }
+      }
+      ConnectFsmStateSingle   =   {
+         links   =   {
+            LeaveGameSession   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        1920.112,
+                        2115
+                     ],
+                     [
+                        2165.388,
+                        1932
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+         }
+      }
+      ConnectFsmStateJoin   =   {
+         links   =   {
+            OnJoined   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2956.795,
+                        1949
+                     ],
+                     [
+                        2952.705,
+                        2181
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            OnDisconnected   =   {
+               viewData   =   {
+                  joints   =   [
+                     [
+                        2864,
+                        1906.848
+                     ],
+                     [
+                        2317,
+                        1894.256
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+            FSMLink   =   {
+               toState   =   "ConnectFsmStateJoin"
+               __type   =   "SslLink"
+            }
+         }
+      }
+   }
+   __type   =   "ConnectFsm"
+}
+ksivaProvider   =   {
+   copyKsivaToClipboardInput   =   {
+      inputLink   =   "Permanent.CopyKsiva"
+      __type   =   "InputLinkHoldMr"
+   }
+   __type   =   "DbgKsivaCopyToClipboard"
+}
+__type   =   "object"

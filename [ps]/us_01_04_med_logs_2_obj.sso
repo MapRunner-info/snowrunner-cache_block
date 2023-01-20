@@ -1,0 +1,83 @@
+uiDesc   =   "US_01_04_MED_LOGS_2_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_2_ST1"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_LUMBER_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsMedium"
+                  count   =   3
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_2_ST1"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_LUMBER_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsLong"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_2_ST2"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FORESTER_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsMedium"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_2_ST3"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_NORTON_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsLong"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_2_ST4"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_HERMIT_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsMedium"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+requiredRank   =   0
+description   =   "US_01_04_MED_LOGS_2_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   1850
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   17250
+   }
+}
+employer   =   "AttecaTownship"
+region   =   "us_01"
+__type   =   "ContractSettings"

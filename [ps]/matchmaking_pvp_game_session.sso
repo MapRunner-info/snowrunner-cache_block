@@ -1,0 +1,7 @@
+gameFsm   =   {
+   __type   =   "PvpGameLobbyFsm"
+}
+hostFsm   =   {
+   __type   =   "PvpGameHostFsm"
+}
+__type   =   "MatchmakingGameSession"

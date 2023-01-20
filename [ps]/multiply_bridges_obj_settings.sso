@@ -1,0 +1,54 @@
+contractsSettings   =   {
+   repair_test_truck   =   {
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "test_multiple_buildings_task || task_zone_left"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  truckId   =   "test_truck_id"
+               }
+            ]
+         },
+         {
+            repairTruck   =   [
+               {
+                  truckId   =   "test_truck_id"
+               }
+            ]
+         }
+      ]
+      __type   =   "ContractSettings"
+   }
+   findZones   =   {
+      uiDesc   =   "FIND ZONES"
+      stages   =   [
+         {
+            makeActionInZone   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "Find Left"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_multiple_buildings_task || task_zone_left"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "Find Right"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_multiple_buildings_task || task_zone_middle"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            uiDesc   =   "Stage Unique"
+         }
+      ]
+      __type   =   "ContractSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

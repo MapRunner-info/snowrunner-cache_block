@@ -1,0 +1,144 @@
+view   =   {
+   __type   =   "PopupTrailerUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "LoadingCargoPopupNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupTrailerScreenState"
+}
+id   =   "TRAILER"
+expIcon   =   "playerProfileStar20"
+sellWarning   =   {
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            accept   =   {
+               uiInputName   =   "accept"
+               __type   =   "NavButtonDesc"
+            }
+            decline   =   {
+               uiInputName   =   "decline"
+               __type   =   "NavButtonDesc"
+            }
+         }
+         __type   =   "PopupTrailerWarningNavigationPanel"
+      }
+   }
+   inputScreen   =   {
+      name   =   "PopupTrailerSellWarning"
+      inputsLinks   =   {
+         decline   =   {
+            inputLink   =   "Popups.Back"
+            __type   =   "InputLinkHoldMr"
+         }
+         accept   =   {
+            inputLink   =   "Popups.Accept"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      blockAll   =   True
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "PopupTrailerWarningController"
+}
+attachWarning   =   {
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            accept   =   {
+               uiInputName   =   "accept"
+               __type   =   "NavButtonDesc"
+            }
+         }
+         __type   =   "PopupNavigationPanel"
+      }
+   }
+   inputScreen   =   {
+      name   =   "PopupTrailerAttachWarning"
+      inputsLinks   =   {
+         accept   =   {
+            inputLink   =   "Popups.Accept"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      blockAll   =   True
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "PopupTrailerWarningController"
+}
+destroyWarning   =   {
+   navPanels   =   {
+      default   =   {
+         btns   =   {
+            accept   =   {
+               uiInputName   =   "accept"
+               __type   =   "NavButtonDesc"
+            }
+            decline   =   {
+               uiInputName   =   "decline"
+               __type   =   "NavButtonDesc"
+            }
+         }
+         __type   =   "PopupTrailerWarningNavigationPanel"
+      }
+   }
+   inputScreen   =   {
+      name   =   "PopupTrailerDestroyWarning"
+      inputsLinks   =   {
+         accept   =   {
+            inputLink   =   "Popups.Accept"
+            __type   =   "InputLinkHoldMr"
+         }
+         decline   =   {
+            inputLink   =   "Popups.Back"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      blockAll   =   True
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "PopupTrailerWarningController"
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupTrailer"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Buy   =   {
+         inputLink   =   "Popups.AcceptBuySellTrailer"
+         __type   =   "InputLinkHoldMr"
+      }
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+availableAddonColor   =   {
+   a   =   134
+   r   =   111
+   g   =   255
+   b   =   80
+   __type   =   "Color"
+}
+conflictingAddonColor   =   {
+   a   =   194
+   r   =   255
+   g   =   0
+   __type   =   "Color"
+}
+__type   =   "PopupUiController"

@@ -1,0 +1,43 @@
+view   =   {
+   iconDesc   =   {
+      type   =   {
+         __type   =   "UiIconsLibPopupwarningimg"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   __type   =   "PopupUiView"
+}
+navPanels   =   {
+   SimpleNavigationPanelController   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "accept"
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            text   =   "UI_DECLINE"
+            uiInputName   =   "decline"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+id   =   "SPAWN_CARGO_WARNING_CARGO_WILL_BE_DESTROYED"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "SPAWN CARGO WARNING"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      decline   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

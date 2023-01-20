@@ -1,0 +1,3 @@
+timeoutMs   =   10000
+minBandwidth   =   256
+__type   =   "object"

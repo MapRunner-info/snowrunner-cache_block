@@ -1,0 +1,150 @@
+settings   =   {
+   BaseMode   =   {
+      RandomSeed   =   -1
+      maxContestAttempts   =   0
+      overrideStartingProfileData   =   {
+         __type   =   "PersistentProfileData"
+      }
+      truckAvailabilityLevel   =   0
+      truckAvailability   =   "STANDART_AVAILABILITY"
+      ranNumToDisableTrailerStore   =   -1
+      vehicleStorageSlots   =   0
+      isDLCVehiclesAvailable   =   True
+      truckPricingFactor   =   1
+      addonPricingFactor   =   1
+      addonSellingFactor   =   1
+      tyreAvailability   =   "STANDART_AVAILABILITY"
+      trailerPricingFactor   =   1
+      fuelPriceFactor   =   0
+      garageRepairePriceFactor   =   0
+      repairPointsCostFactor   =   1
+      repairPointsRequiredFactor   =   1
+      contractsPayoutsFactor   =   1
+      tasksAndContestsPayoutsFactor   =   1
+      regionTravellingPriceFactor   =   0
+      regionRepairePointsFactor   =   1
+      recoveryPriceFactor   =   0
+      timeSettingsNight   =   1
+      timeSettingsDay   =   1
+      loadingPriceFactor   =   0
+      teleportationPrice   =   0
+      __type   =   "GameDifficultySettings"
+   }
+   HardMode   =   {
+      maxContestAttempts   =   5
+      startingLevelState   =   "GARAGE"
+      zonePropsToDisable   =   [
+         "AUTO_RESTORE"
+      ]
+      truckAvailabilityLevel   =   0
+      truckAvailability   =   "STANDART_AVAILABILITY"
+      startingTruck   =   ""
+      vehicleStorageSlots   =   0
+      truckPricingFactor   =   1
+      truckSellingFactor   =   0.5
+      addonPricingFactor   =   1
+      addonSellingFactor   =   0.5
+      tyreAvailability   =   "STANDART_AVAILABILITY"
+      trailerPricingFactor   =   1
+      trailerSellingFactor   =   -1
+      trailerStoreAviability   =   "STANDART_AVIABILITY"
+      fuelPriceFactor   =   1
+      isGarageRefuelAvailable   =   False
+      repairPointsCostFactor   =   1
+      repairPointsRequiredFactor   =   1
+      contractsPayoutsFactor   =   1
+      tasksAndContestsPayoutsFactor   =   1
+      regionTravellingPriceFactor   =   1
+      recoveryPriceFactor   =   1
+      timeSettingsNight   =   1
+      timeSettingsDay   =   1
+      isAbleToSkipTime   =   False
+      teleportationPrice   =   0
+      isMapMarkerAsInHardMode   =   True
+      __type   =   "GameDifficultySettings"
+   }
+   NewGamePlusMode   =   {
+      recoveryPrice   =   {
+         Undefined   =   {
+         }
+         ALL   =   {
+         }
+         HIGHWAY   =   {
+            __value   =   2500
+         }
+         HEAVY_DUTY   =   {
+            __value   =   5000
+         }
+         HEAVY   =   {
+            __value   =   8000
+         }
+         OFFROAD   =   {
+            __value   =   5000
+         }
+         SCOUT   =   {
+            __value   =   2000
+         }
+      }
+      fullRepairPrice   =   {
+         Undefined   =   {
+         }
+         ALL   =   {
+         }
+         HIGHWAY   =   {
+            __value   =   1500
+         }
+         HEAVY_DUTY   =   {
+            __value   =   2500
+         }
+         HEAVY   =   {
+            __value   =   5000
+         }
+         OFFROAD   =   {
+            __value   =   2500
+         }
+         SCOUT   =   {
+            __value   =   1500
+         }
+      }
+      sellMultiplier   =   1
+      deployPrice   =   {
+         Map   =   {
+            __value   =   1000
+         }
+         Region   =   {
+            __value   =   3500
+         }
+      }
+      startingLevelState   =   "GARAGE"
+      overrideStartingProfileData   =   {
+         money   =   123456
+         trucksInWarehouse   =   [
+            {
+            },
+            {
+               type   =   "gor_by4"
+            }
+         ]
+         rank   =   10
+         __type   =   "PersistentProfileData"
+      }
+      startingGarageStatus   =   {
+         level_us_01_01   =   {
+            __value   =   "OPENED"
+            __type   =   "MapGarageStatus"
+         }
+      }
+      recoverOnStart   =   True
+      truckAvailabilityLevel   =   0
+      truckAvailability   =   "STANDART_AVAILABILITY"
+      isDLCVehiclesAvailable   =   False
+      trailerStoreAviability   =   "ONE_STORE_ON_MAP_AVAILABLE"
+      recoveryPriceFactor   =   1
+      disableZones   =   [
+         ""
+      ]
+      startingMoney   =   25000
+      __type   =   "GameDifficultySettings"
+   }
+}
+__type   =   "GameDifficultyManagerBase"

@@ -1,0 +1,34 @@
+clearAllObjectivesActionLink   =   {
+   inputLink   =   "DebugDBG.ResetAllObjectives"
+   __type   =   "InputLinkHoldMr"
+}
+completeCurrentObjectiveActionLink   =   {
+   inputLink   =   "DebugDBG.CompleteCurrentObjective"
+   __type   =   "InputLinkHoldMr"
+}
+finishOneSubstageInTrackedObjectiveActionLink   =   {
+   inputLink   =   "DebugDBG.FinishOneSubstageInTrackedObjective"
+   __type   =   "InputLinkTapMr"
+}
+makeAllObjectivesAvailableActionLink   =   {
+   inputLink   =   "DebugDBG.MakeAllObjectivesAvailable"
+   __type   =   "InputLinkTapMr"
+}
+failCurrentObjectiveActionLink   =   {
+   inputLink   =   "DebugDBG.FailCurrentObjective"
+   __type   =   "InputLinkTapMr"
+}
+openTakeTaskWindowActionLink   =   {
+   inputLink   =   "DebugDBG.OpenTakeTaskWindow"
+   __type   =   "InputLinkTapMr"
+}
+activateAllTasksForCurrentLevelActionLink   =   {
+   inputLink   =   "DebugDBG.ActivateAllTasksForCurrentLevel"
+   __type   =   "InputLinkTapMr"
+}
+links   =   [
+   {
+      inputLink   =   "DebugDBG.ShowObjectivesLoca"
+   }
+]
+__type   =   "object"

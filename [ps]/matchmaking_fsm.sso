@@ -1,0 +1,628 @@
+states   =   {
+   ReadyToSearch   =   {
+      sslModule   =   "network.matchmaking.fsm.matchmaking_fsm"
+      isInitial   =   False
+      links   =   {
+         searching_match   =   {
+            toState   =   "SearchForMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4374,
+                     3011.721
+                  ],
+                  [
+                     4474,
+                     3014.216
+                  ]
+               ]
+               labelX   =   -49.784
+               labelY   =   -23.696
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         switching_party   =   {
+            toState   =   "SwitchingParty"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4332.623,
+                     2970
+                  ],
+                  [
+                     4558.19,
+                     2216
+                  ]
+               ]
+               labelX   =   -107.25
+               labelY   =   -23.5
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         wait_party_match   =   {
+            toState   =   "WaitPartyMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4374,
+                     3003.173
+                  ],
+                  [
+                     4648,
+                     2913.38
+                  ]
+               ]
+               labelX   =   -52.25
+               labelY   =   16.75
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         intermediate   =   {
+            toState   =   "Intermediate"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4350.414,
+                     3050
+                  ],
+                  [
+                     4617,
+                     3185.962
+                  ]
+               ]
+               labelX   =   -121
+               labelY   =   -36
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4235.812
+         y   =   2970
+         breakPoints   =   [
+            "activateNode",
+            "deactivateNode"
+         ]
+      }
+      sslClass   =   "MatchmakingFsmContentStatesReadytosearch"
+      __type   =   "MatchmakingFsmState"
+   }
+   InMatch   =   {
+      sslModule   =   "network.matchmaking.fsm.matchmaking_fsm"
+      isInitial   =   False
+      links   =   {
+         intermediate   =   {
+            toState   =   "Intermediate"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4870.158,
+                     3051
+                  ],
+                  [
+                     4730.342,
+                     3161
+                  ]
+               ]
+               labelX   =   59.5
+               labelY   =   -28.5
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         switching_party   =   {
+            toState   =   "SwitchingParty"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4919.824,
+                     2971
+                  ],
+                  [
+                     4588.438,
+                     2216
+                  ]
+               ]
+               labelX   =   -33
+               labelY   =   -163.5
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         wait_party_match   =   {
+            toState   =   "WaitPartyMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4888.947,
+                     2971
+                  ],
+                  [
+                     4792,
+                     2904.922
+                  ]
+               ]
+               labelX   =   18.33531
+               labelY   =   -8.447959
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4861
+         y   =   2971
+         breakPoints   =   [
+            "activateNode",
+            "deactivateNode"
+         ]
+      }
+      sslClass   =   "MatchmakingFsmContentStatesInmatch"
+      __type   =   "MatchmakingFsmState"
+   }
+   Idle   =   {
+      sslModule   =   "network.matchmaking.fsm.matchmaking_fsm"
+      isInitial   =   True
+      links   =   {
+         ready_to_search   =   {
+            toState   =   "ReadyToSearch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     3887,
+                     2801
+                  ],
+                  [
+                     4236,
+                     2975.5
+                  ]
+               ]
+               labelX   =   9
+               labelY   =   -13
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         switching_party   =   {
+            toState   =   "SwitchingParty"
+            viewData   =   {
+               joints   =   [
+                  [
+                     3887,
+                     2721.928
+                  ],
+                  [
+                     4505.592,
+                     2216
+                  ]
+               ]
+               labelX   =   0
+               labelY   =   0
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         wait_party_match   =   {
+            toState   =   "WaitPartyMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     3887,
+                     2777.92
+                  ],
+                  [
+                     4648,
+                     2865.695
+                  ]
+               ]
+               labelX   =   -55
+               labelY   =   -23
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         in_match   =   {
+            toState   =   "InMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     3887,
+                     2773.328
+                  ],
+                  [
+                     4793.502,
+                     2808.5
+                  ],
+                  [
+                     4895.815,
+                     2971
+                  ]
+               ]
+               labelX   =   -360.8439
+               labelY   =   -90.05188
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   3767.438
+         y   =   2718.938
+      }
+      sslClass   =   "MatchmakingFsmContentStatesIdle"
+      __type   =   "MatchmakingFsmState"
+   }
+   SearchForMatch   =   {
+      sslModule   =   "network.matchmaking.fsm.matchmaking_fsm"
+      links   =   {
+         in_match   =   {
+            toState   =   "InMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4617,
+                     3015.048
+                  ],
+                  [
+                     4861,
+                     3011.799
+                  ]
+               ]
+               labelX   =   -31
+               labelY   =   -24.44
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         intermediate   =   {
+            toState   =   "Intermediate"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4574.473,
+                     3056
+                  ],
+                  [
+                     4650.527,
+                     3161
+                  ]
+               ]
+               labelX   =   13.25
+               labelY   =   -25
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         switching_party   =   {
+            toState   =   "SwitchingParty"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4545.929,
+                     2976
+                  ],
+                  [
+                     4554.071,
+                     2216
+                  ]
+               ]
+               labelX   =   -91.75
+               labelY   =   -4.25
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         wait_party_match   =   {
+            toState   =   "WaitPartyMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4594.655,
+                     2976
+                  ],
+                  [
+                     4670.845,
+                     2914
+                  ]
+               ]
+               labelX   =   -2
+               labelY   =   2
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4474
+         y   =   2976
+      }
+      sslClass   =   "MatchmakingFsmContentStatesSearchformatch"
+      __type   =   "MatchmakingFsmState"
+   }
+   Intermediate   =   {
+      sslModule   =   "network.matchmaking.fsm.matchmaking_fsm"
+      links   =   {
+         ready_to_search   =   {
+            toState   =   "ReadyToSearch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4617,
+                     3169.124
+                  ],
+                  [
+                     4374,
+                     3045.191
+                  ]
+               ]
+               labelX   =   22.5
+               labelY   =   -1.75
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         intermediate   =   {
+            toState   =   "Intermediate"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4665.037,
+                     3241
+                  ],
+                  [
+                     4702.362,
+                     3288.424
+                  ],
+                  [
+                     4647.89,
+                     3288.424
+                  ],
+                  [
+                     4665.037,
+                     3241
+                  ]
+               ]
+               labelX   =   25.824
+               labelY   =   -16.288
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         switching_party   =   {
+            toState   =   "SwitchingParty"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4674.622,
+                     3161
+                  ],
+                  [
+                     4559.378,
+                     2216
+                  ]
+               ]
+               labelX   =   -90
+               labelY   =   3.75
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         wait_party_match   =   {
+            toState   =   "WaitPartyMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4699.569,
+                     3161
+                  ],
+                  [
+                     4730.161,
+                     2914
+                  ]
+               ]
+               labelX   =   -1
+               labelY   =   25
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         in_match   =   {
+            toState   =   "InMatch"
+            viewData   =   {
+               labelX   =   0
+               labelY   =   0
+               connectorIndex   =   1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4616.969
+         y   =   3160.842
+      }
+      sslClass   =   "MatchmakingFsmContentStatesIntermediate"
+      __type   =   "MatchmakingFsmState"
+   }
+   WaitPartyMatch   =   {
+      sslModule   =   "network.matchmaking.fsm.matchmaking_fsm"
+      links   =   {
+         in_match   =   {
+            toState   =   "InMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4778.686,
+                     2914
+                  ],
+                  [
+                     4862.314,
+                     2971
+                  ]
+               ]
+               labelX   =   -75.92271
+               labelY   =   -20.65813
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         switching_party   =   {
+            toState   =   "SwitchingParty"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4725.932,
+                     2834
+                  ],
+                  [
+                     4579.4,
+                     2216
+                  ]
+               ]
+               labelX   =   30.15065
+               labelY   =   -131.3761
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         ready_to_search   =   {
+            toState   =   "ReadyToSearch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4648,
+                     2897.595
+                  ],
+                  [
+                     4374,
+                     2987.388
+                  ]
+               ]
+               labelX   =   -44
+               labelY   =   -31
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         intermediate   =   {
+            toState   =   "Intermediate"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4715.046,
+                     2914
+                  ],
+                  [
+                     4684.454,
+                     3161
+                  ]
+               ]
+               labelX   =   0
+               labelY   =   -4
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4647.75
+         y   =   2834.375
+      }
+      sslClass   =   "MatchmakingFsmContentStatesWaitpartymatch"
+      __type   =   "MatchmakingFsmState"
+   }
+   SwitchingParty   =   {
+      sslModule   =   "network.matchmaking.fsm.matchmaking_fsm"
+      links   =   {
+         wait_party_match   =   {
+            toState   =   "WaitPartyMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4563.984,
+                     2216
+                  ],
+                  [
+                     4710.516,
+                     2834
+                  ]
+               ]
+               labelX   =   -62
+               labelY   =   112
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         ready_to_search   =   {
+            toState   =   "ReadyToSearch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4542.534,
+                     2216
+                  ],
+                  [
+                     4316.966,
+                     2970
+                  ]
+               ]
+               labelX   =   -63.75
+               labelY   =   -137.25
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         in_match   =   {
+            toState   =   "InMatch"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4572.057,
+                     2216
+                  ],
+                  [
+                     4903.443,
+                     2971
+                  ]
+               ]
+               labelX   =   -210.2942
+               labelY   =   -69.15667
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         intermediate   =   {
+            toState   =   "Intermediate"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4544.267,
+                     2216
+                  ],
+                  [
+                     4659.511,
+                     3161
+                  ]
+               ]
+               labelX   =   -32
+               labelY   =   -310
+               connectorIndex   =   1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4486.462
+         y   =   2136.259
+      }
+      sslClass   =   "MatchmakingFsmContentStatesSwitchingparty"
+      __type   =   "MatchmakingFsmState"
+   }
+}
+name   =   "Matchmaking"
+logCategory   =   "app/client/mm/fsm"
+isNeedToLogOwnersName   =   False
+__type   =   "OwnedFsm"

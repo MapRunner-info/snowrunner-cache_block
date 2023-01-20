@@ -1,0 +1,9 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   OpenShop   =   {
+      text   =   "UI_OPEN_MARKETPLACE"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

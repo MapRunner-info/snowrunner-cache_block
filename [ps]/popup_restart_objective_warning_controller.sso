@@ -1,0 +1,29 @@
+view   =   {
+   __type   =   "PopupRestartObjectiveWarningView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupRestartObjectiveWarningNavigationPanel"
+   }
+}
+id   =   "RESTART_OBJECTIVE"
+priority   =   "MIDDLE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "ShopPurchaseWarning"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

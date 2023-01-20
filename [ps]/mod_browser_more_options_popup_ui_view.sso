@@ -1,0 +1,87 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         optionsList   =   {
+            lir   =   {
+               __type   =   "ModBrowserMoreOptionsPopupLir"
+            }
+            scrollBar   =   {
+               __type   =   "UiCommonLibDefscrollbars"
+            }
+            __type   =   "UiPopupLibModbrowserpopupmorelist"
+         }
+         optionsListLong   =   {
+            mouseEnabled   =   False
+            mouseChildren   =   False
+            focusable   =   False
+            enabled   =   False
+            __type   =   "UiPopupLibModbrowserpopupmorelistlong"
+         }
+         __type   =   "UiPopupLibModbrowserpopupmore"
+      }
+      __type   =   "UiPopupLibAnimmodbrowserpopupmore"
+   }
+   __type   =   "UiObjectDesc"
+}
+headerIcon   =   "modBrowserMoreIcon40"
+extraOptionSettings   =   {
+   VOTE_UP   =   {
+      uiName   =   "UI_MOD_BROWSER_MORE_OPTIONS_VOTE_UP"
+      uiIcon   =   "modBrowserRatingLikeIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   VOTE_DOWN   =   {
+      uiName   =   "UI_MOD_BROWSER_MORE_OPTIONS_VOTE_DOWN"
+      uiIcon   =   "modBrowserRatingDislikeIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   BROWSE   =   {
+      uiName   =   "UI_BROWSE"
+      uiIcon   =   "modBrowserBrowseIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   GUIDES   =   {
+      uiName   =   "UI_MODS_GUIDES"
+      uiIcon   =   "modBrowserGuidesIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   CLEAN_UP   =   {
+      uiName   =   "UI_MOD_BROWSER_MORE_OPTIONS_CLEAN_UP"
+      uiIcon   =   "modBrowserCleanupIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   LOGOUT   =   {
+      uiName   =   "UI_MODS_LOG_OUT"
+      uiIcon   =   "modBrowserLogoutIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   POLYGON   =   {
+      uiName   =   "UI_MODS_CHOOSE_PLAYGROUND_BTN"
+      uiIcon   =   "modBrowserPolygonIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   REPORT   =   {
+      uiName   =   "UI_MOD_BROWSER_MORE_OPTIONS_REPORT"
+      uiIcon   =   "modBrowserReportIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   ENABLE_ALL   =   {
+      uiName   =   "UI_MOD_BROWSER_MORE_OPTIONS_ENABLE_ALL"
+      uiIcon   =   "modBrowserSwitchAllIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   DISABLE_ALL   =   {
+      uiName   =   "UI_MOD_BROWSER_MORE_OPTIONS_DISABLE_ALL"
+      uiIcon   =   "modBrowserSwitchAllIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+   REDOWNLOAD   =   {
+      uiName   =   "UI_MOD_BROWSER_MORE_OPTIONS_REDOWNLOAD"
+      uiIcon   =   "modBrowserRenewIcon"
+      __type   =   "ModBrowserExtraOptionSettings"
+   }
+}
+__type   =   "PopupViewBase"

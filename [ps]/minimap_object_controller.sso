@@ -1,0 +1,32 @@
+marker   =   {
+   anchor   =   {
+      __type   =   "UiMinimapMarkerselectionanchorbuildingoriginal"
+   }
+   selectionAnim   =   {
+      __type   =   "UiMinimapMarkerselectionanimbuildingoriginal"
+   }
+   selectionSfx   =   {
+      __type   =   "UiMinimapMarkerselectionsfxbuildingoriginal"
+   }
+   __type   =   "MinimapMarker"
+}
+accountMoneyIcon   =   "playerProfileCurrency20"
+popupController   =   {
+   priority   =   "VERY_HIGH"
+   disableInputs   =   False
+   __type   =   "CommonWidePopupUiController"
+}
+popupPurchaseWarning   =   {
+   view   =   {
+      uiObjectDesc   =   {
+         type   =   {
+            __type   =   "UiPopupLibMenuanimcontextpopup"
+         }
+         __type   =   "UiObjectDesc"
+      }
+      __type   =   "CommonWidePopupUiView"
+   }
+   priority   =   "VERY_HIGH"
+   __type   =   "CommonWidePopupUiController"
+}
+__type   =   "object"

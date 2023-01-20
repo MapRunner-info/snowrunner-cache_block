@@ -1,0 +1,124 @@
+tasksSettings   =   {
+   testfarm_farm_large   =   {
+      uiDesc   =   "testfarm_farm_large_desc"
+      stages   =   [
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "test_farming || TESTFARM_FARM_LARGE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Cultivator"
+               neededState   =   "FIELD_STATE_PLOWED"
+               tolerance   =   0.98
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "test_farming || TESTFARM_FARM_LARGE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN"
+               tolerance   =   0.99
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "test_farming || TESTFARM_FARM_LARGE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Harvester"
+               neededState   =   "FIELD_STATE_COMPLETE"
+               tolerance   =   0.98
+               __type   =   "FarmingActionSettings"
+            }
+         }
+      ]
+      description   =   "testfarm_farm_large_rew"
+      taskGiverZone   =   {
+         globalZoneId   =   "test_farming || TESTFARM_FARM_LARGE_GIVER"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+   testfarm_farm_medium   =   {
+      uiDesc   =   "testfarm_farm_medium_desc"
+      stages   =   [
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "test_farming || TESTFARM_FARM_MEDIUM"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Cultivator"
+               neededState   =   "FIELD_STATE_PLOWED"
+               tolerance   =   0
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "test_farming || TESTFARM_FARM_MEDIUM"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_SOWN"
+               __type   =   "FarmingActionSettings"
+            }
+         }
+      ]
+      model   =   {
+         __type   =   "null"
+      }
+      requiredRank   =   0
+      description   =   "testfarm_farm_medium_rew"
+      taskGiverZone   =   {
+         globalZoneId   =   "test_farming || TESTFARM_FARM_MEDIUM_GIVER"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+   testfarm_farm_small   =   {
+      uiDesc   =   "testfarm_farm_small_desc"
+      stages   =   [
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "test_farming || TESTFARM_FARM_SMALL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Planter"
+               neededState   =   "FIELD_STATE_PLOWED"
+               __type   =   "FarmingActionSettings"
+            }
+         },
+         {
+            farmingInfo   =   {
+               farmingZone   =   {
+                  globalZoneId   =   "test_farming || TESTFARM_FARM_SMALL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               requiredTrailer   =   "Cultivator"
+               neededState   =   "FIELD_STATE_SOWN"
+               __type   =   "FarmingActionSettings"
+            }
+         }
+      ]
+      description   =   "testfarm_farm_small_rew"
+      taskGiverZone   =   {
+         globalZoneId   =   "test_farming || TESTFARM_FARM_SMALL_GIVER"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

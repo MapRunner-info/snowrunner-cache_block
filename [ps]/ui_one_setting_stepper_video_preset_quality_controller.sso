@@ -1,0 +1,14 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_VISUAL_QUALITY_PRESET"
+desc   =   "UI_SETTINGS_VISUAL_QUALITY_PRESET_DESC"
+settingName   =   "VisualQualityPreset"
+presetUiNames   =   [
+   "UI_SETTING_LOW",
+   "UI_SETTING_MEDIUM",
+   "UI_SETTING_HIGH",
+   "UI_SETTING_ULTRA"
+]
+customUiText   =   "UI_SETTING_CUSTOM"
+__type   =   "UiOneSettingStepperVideoController"

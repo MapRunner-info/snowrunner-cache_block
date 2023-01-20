@@ -1,0 +1,99 @@
+uiDesc   =   "US_01_04_BUILD_A_BRIDGE_OBJ_3_DESC"
+stages   =   [
+   {
+      actions   =   {
+         sslModule   =   "game.missions.task_settings"
+         zoneToFill   =   [
+            {
+               sslModule   =   "game.missions.task_settings"
+               uiDesc   =   "US_01_04_BUILD_A_BRIDGE_OBJ_3_SUB_0_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_REBUILD_PATCH_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_BUILD_A_BRIDGE_OBJ_3_SUB_0_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_REBUILD_PATCH_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteSlab"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   },
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_BUILD_A_BRIDGE_OBJ_3_SUB_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_REBUILD_PATCH_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_BUILD_A_BRIDGE_OBJ_3_SUB_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_REBUILD_PATCH_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteBlocks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_04_new"
+   modelTag   =   "bridge_metal_1"
+   stagesProgress   =   {
+      build_stage_0   =   {
+      }
+      build_stage_1   =   {
+         __value   =   1
+      }
+      build_complete   =   {
+         __value   =   2
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "US_01_04_BUILD_A_BRIDGE_OBJ_3_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_04_new || US_01_04_REBUILD_PATCH_03_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_04_REBUILD_PATCH_03_TSK_ADD"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   640
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   6000
+   }
+}
+__type   =   "TaskSettings"

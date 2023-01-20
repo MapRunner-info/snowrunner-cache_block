@@ -1,0 +1,23 @@
+alwaysSendElementSelected   =   True
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+uiInputScreen   =   {
+   name   =   "UiListAdapter"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "object"

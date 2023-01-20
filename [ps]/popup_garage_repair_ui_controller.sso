@@ -1,0 +1,39 @@
+view   =   {
+   __type   =   "PopupGarageRepairUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         repair   =   {
+            uiInputName   =   "Repair"
+            __type   =   "NavButtonDesc"
+         }
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupGarageRepairNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupGarageRepairState"
+}
+disableInputs   =   True
+inputScreen   =   {
+   priority   =   "VERY_HIGH"
+   name   =   "PopupGarageRepair"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkHoldMr"
+      }
+      Repair   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

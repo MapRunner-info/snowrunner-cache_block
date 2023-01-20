@@ -1,0 +1,12 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   close   =   {
+      __type   =   "NavButtonDesc"
+   }
+   deploy   =   {
+      text   =   "UI_DEPLOY"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

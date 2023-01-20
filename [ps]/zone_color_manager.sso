@@ -1,0 +1,219 @@
+zoneColors   =   {
+   WATCHPOINT   =   {
+      a   =   240
+      r   =   60
+      g   =   150
+      b   =   255
+      __type   =   "Color"
+   }
+   GATEWAY   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   CARGO_LOADING   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   CARGO_UNLOADING   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   TRUCK_CARGO_SPAWNER   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   GARAGE_ENTRANCE   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   GARAGE_EXIT   =   {
+      a   =   180
+      r   =   255
+      g   =   0
+      b   =   0
+      __type   =   "Color"
+   }
+   TASK_GIVER   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   UPGRADES_GIVER   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   TRAILER_ATTACH   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   OBJECTIVE_TRUCK_DELIVERY   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   ZONE_TO_VISIT   =   {
+      a   =   240
+      r   =   0
+      g   =   150
+      b   =   255
+      __type   =   "Color"
+   }
+   FUEL_STATION   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   MANUAL_LOADING   =   {
+      a   =   150
+      r   =   255
+      g   =   0
+      b   =   0
+      __type   =   "Color"
+   }
+   AUTO_RESTORE   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   ZONE_TO_FIND   =   {
+      a   =   240
+      r   =   0
+      g   =   150
+      b   =   255
+      __type   =   "Color"
+   }
+   UPGRADE_STATION   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   ZONE_TO_RESEACH   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   STOREHOUSE_CRAFT   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   LIVING_AREA   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   CARGO_UNLOADING_PLATFORM   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   GATEWAY_OUT   =   {
+      a   =   127
+      r   =   13
+      g   =   142
+      b   =   0
+      __type   =   "Color"
+   }
+   GATEWAY_OUT_WINCH   =   {
+      a   =   127
+      r   =   255
+      g   =   96
+      b   =   0
+      __type   =   "Color"
+   }
+   ENERGY   =   {
+      a   =   180
+      r   =   235
+      g   =   255
+      b   =   15
+      __type   =   "Color"
+   }
+   RESUPPLY_REPAIR   =   {
+      a   =   180
+      r   =   235
+      g   =   255
+      b   =   15
+      __type   =   "Color"
+   }
+   CARGO_UNLOADING_BLOCKER   =   {
+      a   =   127
+      r   =   255
+      g   =   96
+      __type   =   "Color"
+   }
+   FARMING_AREA   =   {
+      a   =   180
+      r   =   235
+      g   =   255
+      b   =   15
+      __type   =   "Color"
+   }
+   AUTO_REFUEL   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   COOP_TASK_GIVER   =   {
+      a   =   180
+      r   =   235
+      g   =   250
+      b   =   15
+      __type   =   "Color"
+   }
+   WATER_STATION   =   {
+      a   =   255
+      r   =   86
+      g   =   186
+      b   =   255
+      __type   =   "Color"
+   }
+}
+defaultZoneColor   =   {
+   a   =   127
+   r   =   255
+   g   =   0
+   b   =   210
+   __type   =   "Color"
+}
+__type   =   "object"

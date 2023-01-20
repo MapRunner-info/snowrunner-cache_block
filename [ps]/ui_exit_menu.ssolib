@@ -1,0 +1,785 @@
+classes   =   {
+   AutoClassExitmenudialogbuttonLirHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclassexitmenudialogbuttonlirheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassExitMenuBgplateHardmodeindicatorHardmodetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclassexitmenubgplatehardmodeindicatorhardmodetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassExitMenuBgplateHardmodeindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclassexitmenubgplatehardmodeindicator"
+      hardModeText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1035
+         y   =   -13
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuAutoclassexitmenubgplatehardmodeindicatorhardmodetext"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassExitMenuBgplate   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclassexitmenubgplate"
+      hardModeIndicator   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuAutoclassexitmenubgplatehardmodeindicator"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassPartycheckboxCheckboxtxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclasspartycheckboxcheckboxtxt"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassPartyfriendlistFriendsheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclasspartyfriendlistfriendsheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassPartymanagementcontCrossplatformkey   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclasspartymanagementcontcrossplatformkey"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassPartyplayerPlayertruckname   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclasspartyplayerplayertruckname"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassPartyplayerPlayername   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclasspartyplayerplayername"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AttachPointExitMenuDialog   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "attach_point_exit_menu_dialog"
+      sslClass   =   "UiExitMenuAttachpointexitmenudialog"
+      __type   =   "UiContainer"
+   }
+   Exitmenubg   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "exitMenuBg"
+      sslClass   =   "UiExitMenuExitmenubg"
+      __type   =   "UiContainer"
+   }
+   Exitmenubtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "exitMenuBtnAttach"
+      sslClass   =   "UiExitMenuExitmenubtnattach"
+      __type   =   "UiContainer"
+   }
+   Exitmenubtnlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "exitMenuBtnList"
+      __type   =   "UiScrollingList"
+   }
+   Exitmenudialogbutton   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "exitMenuDialogButton"
+      lir_header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   40
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuAutoclassexitmenudialogbuttonlirheader"
+      }
+      textCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   40
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuExitmenudialogbuttontext"
+      }
+      __type   =   "UiListItem"
+   }
+   Exitmenudialogbuttondata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Exitmenudialogbuttontext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "exitMenuDialogButtonText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Exitmenuheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "exitMenuHeader"
+      sslClass   =   "UiExitMenuExitmenuheader"
+      tf   =   {
+         x   =   0
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Exitnavpanelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "exitNavPanelAttach"
+      sslClass   =   "UiExitMenuExitnavpanelattach"
+      __type   =   "UiContainer"
+   }
+   Exitspinnerattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "exitSpinnerAttach"
+      sslClass   =   "UiExitMenuExitspinnerattach"
+      __type   =   "UiContainer"
+   }
+   ExitMenu   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "exit_menu"
+      sslClass   =   "UiExitMenuExitmenu"
+      partyFriendListAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuExitnavpanelattach"
+      }
+      partyManagement   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   350
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuExitnavpanelattach"
+      }
+      menu   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   765
+         y   =   342
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuExitmenudialog"
+      }
+      bgPlate   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -200
+         y   =   325
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuAutoclassexitmenubgplate"
+      }
+      __type   =   "UiContainer"
+   }
+   ExitMenuDialog   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "exit_menu_dialog"
+      sslClass   =   "UiExitMenuExitmenudialog"
+      header   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuExitmenuheader"
+      }
+      actionBtnAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   199
+         y   =   347
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuExitnavpanelattach"
+      }
+      btnList   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuExitmenubtnlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Friendlistplayername   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "friendListPlayerName"
+      sslClass   =   "UiExitMenuFriendlistplayername"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Partycheckbox   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "partyCheckBox"
+      checkBox   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -59
+         y   =   8.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMovieClip"
+      }
+      checkBoxTxt   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -665
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiExitMenuAutoclasspartycheckboxcheckboxtxt"
+      }
+      __type   =   "UiButton"
+   }
+   Partycrossplatformkeybutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "partyCrossplatformKeyButton"
+      textCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartycrossplatformkeytfembeded"
+      }
+      __type   =   "UiButton"
+   }
+   Partycrossplatformkeytfembeded   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "partyCrossplatformKeyTfEmbeded"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Partyfriendlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyFriendList"
+      sslClass   =   "UiExitMenuPartyfriendlist"
+      friendsHeader   =   {
+         symbol   =   ""
+         x   =   46
+         y   =   168
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuAutoclasspartyfriendlistfriendsheader"
+      }
+      spinnerAttach   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   195
+         y   =   500
+         scaleX   =   50
+         scaleY   =   50
+         __type   =   "UiExitMenuExitspinnerattach"
+      }
+      friendlistList   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   228
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuPartyfriendlistlist"
+      }
+      friendlistBtn1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   50
+         y   =   983
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuExitnavpanelattach"
+      }
+      friendlistBtn0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   934
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuExitnavpanelattach"
+      }
+      friendListBgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuExitnavpanelattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyfriendlistlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "partyFriendlistLir"
+      playerAva   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   31
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerOnline   =   {
+         sslModule   =   "ui.ui_gfx"
+         symbol   =   ""
+         x   =   396
+         y   =   13
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerName   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   70
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuFriendlistplayername"
+      }
+      __type   =   "UiListItem"
+   }
+   Partyfriendlistlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Partyfriendlistlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "partyFriendlistList"
+      __type   =   "UiScrollingList"
+   }
+   Partymanagementcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyManagementCont"
+      sslClass   =   "UiExitMenuPartymanagementcont"
+      checkBoxBtnAttach   =   {
+         symbol   =   ""
+         x   =   1787
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      crossplatformKeyBtn   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartycrossplatformkeybutton"
+      }
+      crossplatformKey   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuAutoclasspartymanagementcontcrossplatformkey"
+      }
+      checkBoxWinch   =   {
+         symbol   =   ""
+         x   =   1820
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartycheckbox"
+      }
+      switcherPublicPrivate   =   {
+         symbol   =   ""
+         x   =   717
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyswitcher"
+      }
+      player0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   370
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyplayerattachpoint"
+      }
+      player1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   680
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyplayerattachpoint"
+      }
+      player2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   990
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyplayerattachpoint"
+      }
+      player3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   1300
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyplayerattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyplayer   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "partyPlayer"
+      lockImg   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   55
+         y   =   55
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   10
+         __type   =   "UiMovieClip"
+      }
+      microImg   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   55
+         y   =   120
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      platformImg   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   10
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      starImg   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   10
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      truckImg   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   100
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerAvatar   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiExitMenuPartyplayeravatarattach"
+      }
+      playerAvatarDefault   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiExitMenuPartyplayerdefaultavatar"
+      }
+      spinnerAttach   =   {
+         symbol   =   ""
+         x   =   45
+         y   =   45
+         scaleX   =   60.0006
+         scaleY   =   60.0006
+         __type   =   "UiExitMenuPartyplayerspinnerattach"
+      }
+      playerBg   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerTruckName   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -50
+         y   =   183
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiExitMenuAutoclasspartyplayerplayertruckname"
+      }
+      playerName   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -80
+         y   =   157
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuAutoclasspartyplayerplayername"
+      }
+      playerNameEmbeded   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -80
+         y   =   157
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPlayernametfembeded"
+      }
+      __type   =   "UiButton"
+   }
+   Partyplayerattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyPlayerAttachPoint"
+      sslClass   =   "UiExitMenuPartyplayerattachpoint"
+      __type   =   "UiContainer"
+   }
+   Partyplayeravaloading   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyPlayerAvaLoading"
+      sslClass   =   "UiExitMenuPartyplayeravaloading"
+      loadingAnim   =   {
+         symbol   =   ""
+         x   =   55
+         y   =   55
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerAvatar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyplayeravatarattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyplayeravalock   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyPlayerAvaLock"
+      sslClass   =   "UiExitMenuPartyplayeravalock"
+      lockImg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   55
+         y   =   55
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   10
+         __type   =   "UiMovieClip"
+      }
+      playerAvatar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyplayeravatarattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyplayeravatarattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyPlayerAvatarAttach"
+      sslClass   =   "UiExitMenuPartyplayeravatarattach"
+      __type   =   "UiContainer"
+   }
+   Partyplayerdefaultavatar   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyPlayerDefaultAvatar"
+      sslClass   =   "UiExitMenuPartyplayerdefaultavatar"
+      __type   =   "UiContainer"
+   }
+   Partyplayerspinner   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyPlayerSpinner"
+      sslClass   =   "UiExitMenuPartyplayerspinner"
+      __type   =   "UiContainer"
+   }
+   Partyplayerspinnerattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partyPlayerSpinnerAttach"
+      sslClass   =   "UiExitMenuPartyplayerspinnerattach"
+      __type   =   "UiContainer"
+   }
+   Partyswitcher   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   "partySwitcher"
+      sslClass   =   "UiExitMenuPartyswitcher"
+      rightBtnAttach   =   {
+         symbol   =   ""
+         x   =   353
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      leftBtnAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      switcherPrivate   =   {
+         symbol   =   ""
+         x   =   194
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyswitcherbtn"
+      }
+      switcherPublic   =   {
+         symbol   =   ""
+         x   =   48
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiExitMenuPartyswitcherbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyswitcherbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "partySwitcherBtn"
+      __type   =   "UiButton"
+   }
+   Playernametfembeded   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "playerNameTfEmbeded"
+      __type   =   "UiEmbeddedClipText"
+   }
+}
+__type   =   "ssl_object_lib"

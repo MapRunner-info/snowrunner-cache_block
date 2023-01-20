@@ -1,0 +1,42 @@
+enableScaleformMouse   =   False
+inputScreen   =   {
+   name   =   "PlayerProfile"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "UI.Toggle"
+         __type   =   "InputLinkHoldMr"
+      }
+      TabLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      TabRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      RegionLeft   =   {
+         inputLink   =   "Popups.triggerLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      RegionRight   =   {
+         inputLink   =   "Popups.triggerRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      ExitProfile   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      CargoSlotLeft   =   {
+         inputLink   =   "UI.CargoStepBtnL"
+         __type   =   "InputLinkHoldMr"
+      }
+      CargoSlotRight   =   {
+         inputLink   =   "UI.CargoStepBtnR"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+idx   =   "PLAYER_PROFILE"
+__type   =   "GameStateBase"

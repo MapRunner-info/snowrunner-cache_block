@@ -1,0 +1,10 @@
+fadeWrapper   =   {
+   __type   =   "null"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiMainMenuRedlynxprossavesynch"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ComponentUiViewBase"

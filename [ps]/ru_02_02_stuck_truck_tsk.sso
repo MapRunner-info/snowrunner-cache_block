@@ -1,0 +1,42 @@
+uiDesc   =   "RU_02_02_STUCK_TRUCK_TSK_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "RU_02_02_STUCK_TRUCK_01_TRK"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_STUCK_TRUCK_TARGET"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "RU_02_02_STUCK_TRUCK_01_TRUCK_DESC"
+            afterStageFinished   =   "DESTROY"
+            globalZoneSpawnId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_STUCK_TRUCK_SPAWN"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+         }
+      ]
+      visitAllZones   =   {
+         __type   =   "null"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_STUCK_TRUCK_TSK_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_ru_02_02 || RU_02_02_STUCK_TRUCK_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "RU_02_02_STUCK_TRUCK_01_02_TSK"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   240
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2350
+   }
+}
+desc   =   "RU_02_02_STUCK_TRUCK_TSK_DESC"
+__type   =   "TaskSettings"

@@ -1,0 +1,6 @@
+showSound   =   "ui/ui_tab_appearance"
+acceptSound   =   "ui/ui_click_exit"
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+__type   =   "object"

@@ -1,0 +1,4 @@
+radius   =   350
+radiusTransp   =   350
+fuelCostsPerActivation   =   20
+__type   =   "object"

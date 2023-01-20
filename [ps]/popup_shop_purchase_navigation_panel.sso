@@ -1,0 +1,17 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   close   =   {
+      text   =   "UI_CLOSE"
+      __type   =   "NavButtonDesc"
+   }
+   buy   =   {
+      text   =   "UI_PURCHASE"
+      __type   =   "NavButtonDesc"
+   }
+   buy_and_set   =   {
+      text   =   "UI_PURCHASE_AND_SET"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

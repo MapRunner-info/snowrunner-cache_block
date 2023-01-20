@@ -1,0 +1,48 @@
+view   =   {
+   __type   =   "UpgradePopupUiView"
+}
+navPanels   =   {
+   UpgradePopupNavigationNanel   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_OK"
+            uiInputName   =   "accept"
+            __type   =   "NavButtonDesc"
+         }
+         show_list   =   {
+            uiInputName   =   "show_list"
+            __type   =   "NavButtonDesc"
+         }
+         hide_list   =   {
+            uiInputName   =   "hide_list"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+state   =   {
+   __type   =   "PopupUpgradeState"
+}
+disableInputs   =   True
+useDefaultAttach   =   False
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupUpgrade"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      show_list   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkHoldMr"
+      }
+      hide_list   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

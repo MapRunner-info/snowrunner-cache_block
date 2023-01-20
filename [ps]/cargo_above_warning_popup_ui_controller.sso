@@ -1,0 +1,37 @@
+view   =   {
+   __type   =   "CargoAboveWarningPopupUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         Yes   =   {
+            uiInputName   =   "Yes"
+            __type   =   "NavButtonDesc"
+         }
+         No   =   {
+            uiInputName   =   "No"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "CargoAboveWarningPopupNavigationPanel"
+   }
+}
+id   =   "CARGO_ABOVE_WARNING"
+priority   =   "HIGH"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupCargoAboveWarning"
+   inputsLinks   =   {
+      Yes   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      No   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

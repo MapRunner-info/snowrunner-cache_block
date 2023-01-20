@@ -1,0 +1,39 @@
+view   =   {
+   iconDesc   =   {
+      type   =   {
+         __type   =   "UiIconsLibPopupgarageimg"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   __type   =   "PopupUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_OK"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "accept"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupNavigationPanel"
+   }
+}
+id   =   "ENTER_GARAGE_WITH_WINCH"
+useDefaultAttach   =   True
+inputScreen   =   {
+   priority   =   "VERY_LOW"
+   name   =   "PACK CARGO WARNING"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

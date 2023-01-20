@@ -1,0 +1,8 @@
+view   =   {
+   inputScreen   =   {
+      blockAll   =   True
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiCoopJoinSearchView"
+}
+__type   =   "ScreenControllerBase"

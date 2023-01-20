@@ -1,0 +1,2375 @@
+tasksSettings   =   {
+   US_09_01_WATER_TOWER_TASK_01   =   {
+      uiDesc   =   "US_09_01_WATER_TOWER_TASK_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesSmall"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "WATER_TOWER_09_01_03"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_09_01_GARAGE_RESTORE_CONTRACT"
+      ]
+      description   =   "US_09_01_WATER_TOWER_TASK_01_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_WTS_05"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        stationUIName   =   "UI_COMMON_WATER_TOWER"
+                        pricePerLiter   =   0
+                        waterCapacity   =   3500
+                        sharedZones   =   [
+                           {
+                              globalZoneId   =   "level_us_09_01 || US_09_01_WTS_06"
+                           }
+                        ]
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_WATER_TOWER_TASK_02   =   {
+      uiDesc   =   "US_09_01_WATER_TOWER_TASK_02_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_02_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoForkliftCaravanContainer2"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_02_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_02_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "WATER_TOWER_09_01_04"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_09_01_GARAGE_RESTORE_CONTRACT"
+      ]
+      description   =   "US_09_01_WATER_TOWER_TASK_02_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_WTS_06"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        stationUIName   =   "UI_COMMON_WATER_TOWER"
+                        pricePerLiter   =   0
+                        waterCapacity   =   3500
+                        sharedZones   =   [
+                           {
+                              globalZoneId   =   "level_us_09_01 || US_09_01_WTS_05"
+                           }
+                        ]
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_02"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_WATER_TOWER_TASK_03   =   {
+      uiDesc   =   "US_09_01_WATER_TOWER_TASK_03_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_03_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoForkliftCaravanContainer2"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_03_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_03_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "WATER_TOWER_09_01_05"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_09_01_GARAGE_RESTORE_CONTRACT",
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+      ]
+      description   =   "US_09_01_WATER_TOWER_TASK_03_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_WTS_07"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        stationUIName   =   "UI_COMMON_WATER_TOWER"
+                        pricePerLiter   =   0
+                        waterCapacity   =   3500
+                        sharedZones   =   [
+                           {
+                              globalZoneId   =   "level_us_09_01 || US_09_01_WTS_08"
+                           }
+                        ]
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_03"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_WATER_TOWER_TASK_04   =   {
+      uiDesc   =   "US_09_01_WATER_TOWER_TASK_04_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_04_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_TASK_04_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_DEL_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesSmall"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "WATER_TOWER_09_01_06"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_09_01_GARAGE_RESTORE_CONTRACT",
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+      ]
+      description   =   "US_09_01_WATER_TOWER_TASK_04_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_WTS_08"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        stationUIName   =   "UI_COMMON_WATER_TOWER"
+                        pricePerLiter   =   0
+                        waterCapacity   =   3500
+                        sharedZones   =   [
+                           {
+                              globalZoneId   =   "level_us_09_01 || US_09_01_WTS_07"
+                           }
+                        ]
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_WT_ADD_04"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_PORT_RESOURCES_DELIVERY_TASK   =   {
+      uiDesc   =   "US_09_01_PORT_RESOURCES_DELIVERY_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_PORT_RESOURCES_DELIVERY_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_PORT_RESOURCES_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoForkliftCaravanContainer2"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_PORT_RESOURCES_DELIVERY_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_PORT_RESOURCES_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteBlocks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "US_09_01_PORT_RESOURCES_DELIVERY_TASK_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   5550
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   630
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_PORT_RESOURCES"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_RANGER_SCOUT_EVACUATION_TASK   =   {
+      uiDesc   =   "US_09_01_RANGER_SCOUT_EVACUATION_TASK_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RANGER_SCOUT"
+                  truckUiName   =   ""
+                  afterStageFinished   =   "DETACH"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_RANGER_SCOUT_REPAIR"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_09_01_RANGER_SCOUT_EVACUATION_TASK_S_01"
+               }
+            ]
+         },
+         {
+            repairTruck   =   [
+               {
+                  truckId   =   "RANGER_SCOUT"
+                  truckUiName   =   ""
+                  afterStageFinished   =   "DETACH"
+                  uiDesc   =   "US_09_01_RANGER_SCOUT_EVACUATION_TASK_S_02"
+               }
+            ]
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RANGER_SCOUT"
+                  afterStageFinished   =   "REWARD"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_RANGER_SCOUT_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_09_01_RANGER_SCOUT_EVACUATION_TASK_S_03"
+               }
+            ]
+         }
+      ]
+      description   =   "US_09_01_RANGER_SCOUT_EVACUATION_TASK_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   3950
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   410
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_RANGER_SCOUT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_TRAILERS_LOST_STUFF_TASK   =   {
+      uiDesc   =   "US_09_01_TRAILERS_LOST_STUFF_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_TRAILERS_LOST_STUFF_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_TRAILERS_LOST_STUFF_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerSmall"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_TRAILERS_LOST_STUFF_SPAWN_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoContainerSmall"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_TRAILERS_LOST_STUFF_SPAWN_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoContainerSmall"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      description   =   "US_09_01_TRAILERS_LOST_STUFF_TASK_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   7150
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   620
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_TRAILERS_LOST_STUFF"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_BRIDGE_TASK   =   {
+      uiDesc   =   "US_09_01_BRIDGE_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_BRIDGE_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_BRIDGE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_BRIDGE_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_BRIDGE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteBlocks"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "US_09_01_BRIDGE_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "Bridge_09"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+            build_complete   =   {
+               __value   =   2
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "US_09_01_BRIDGE_TASK_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   4350
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   450
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_BRIDGE_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "US_09_01_BRIDGE_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   US_09_01_LOST_BOAT_TASK   =   {
+      uiDesc   =   "US_09_01_LOST_BOAT_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_LOST_BOAT_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOST_BOAT_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_BOAT_SPAWN_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_BOAT_SPAWN_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_BOAT_SPAWN_03"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoBarrelsChemicals"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      description   =   "US_09_01_LOST_BOAT_TASK_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   9600
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   800
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_LOST_BOAT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_WORKER_SCOUT_EVACUATION_TASK   =   {
+      uiDesc   =   "US_09_01_WORKER_SCOUT_EVACUATION_TASK_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "WORKER_SCOUT"
+                  afterStageFinished   =   "REWARD"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_WORKER_SCOUT_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_09_01_WORKER_SCOUT_EVACUATION_TASK_S"
+               }
+            ]
+         }
+      ]
+      description   =   "US_09_01_WORKER_SCOUT_EVACUATION_TASK_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   5450
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   440
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_WORKER_SCOUT_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "US_09_01_WORKER_SCOUT_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   US_09_01_SEEMAN_TASK   =   {
+      uiDesc   =   "US_09_01_SEEMAN_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_SEEMAN_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_SEEMAN_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_SEEMAN_TASK_S"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_us_09_01 || US_09_01_SEEMAN_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoBags2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "US_09_01_SEEMAN_TASK_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   7700
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   780
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_SEEMAN"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_LOST_MECHANISM_TASK   =   {
+      uiDesc   =   "US_09_01_LOST_MECHANISM_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_LOST_MECHANISM_TASK_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOST_MECHANISM_DELIVERY_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOST_MECHANISM_TASK_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOST_MECHANISM_DELIVERY_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOST_MECHANISM_TASK_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOST_MECHANISM_DELIVERY_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_MECHANISM_SPAWN_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_MECHANISM_SPAWN_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_MECHANISM_SPAWN_03"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT"
+      ]
+      description   =   "US_09_01_LOST_MECHANISM_TASK_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   8100
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   660
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_LOST_MECHANISM"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_MINE_GARBAGE_TASK   =   {
+      uiDesc   =   "US_09_01_MINE_GARBAGE_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_MINE_GARBAGE_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_MINE_GARBAGE_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoTrash"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_MINE_GARBAGE_SPAWN_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoTrash"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_MINE_GARBAGE_SPAWN_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoTrash"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+      ]
+      description   =   "US_09_01_MINE_GARBAGE_TASK_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_REPAIR_STATION"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyAutoRepairAndRestore   =   {
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5300
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   550
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_MINE_GARBAGE"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_BAGS_DELIVERY_TASK   =   {
+      uiDesc   =   "US_09_01_BAGS_DELIVERY_TASK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_BAGS_DELIVERY_TASK_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_BAGS_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "TRAILER_BAGS_09"
+                  afterStageFinished   =   "REWARD"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_BAGS_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_09_01_BAGS_DELIVERY_TASK_S"
+               }
+            ]
+         }
+      ]
+      description   =   "US_09_01_BAGS_DELIVERY_TASK_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   3950
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   410
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_BAGS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_LOST_RADIOACTIVE_DELIVERY_TASK   =   {
+      uiDesc   =   "US_09_01_LOST_RADIOACTIVE_DELIVERY_TASK_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_LOST_RADIOACTIVE_DELIVERY_TASK_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE_VISIT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_LOST_RADIOACTIVE_DELIVERY_TASK_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoRadioactive"
+                        count   =   5
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE_SPAWN_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE_SPAWN_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE_SPAWN_03"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE_SPAWN_04"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE_SPAWN_05"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoRadioactive"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      description   =   "US_09_01_LOST_RADIOACTIVE_DELIVERY_TASK_REW"
+      recommendedTruck   =   "CRANE"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   17700
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1260
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_LOST_RADIOACTIVE"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_09_01_TOURIST_CAMPING_TASK   =   {
+      uiDesc   =   "US_09_01_TOURIST_CAMPING_TASK_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_TOURIST_CAMPING_TASK_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_TOURIST_CAMPING_SCOUT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_TOURIST_CAMPING_TASK_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_TOURIST_CAMPING_SCOUT_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_TOURIST_CAMPING_TASK_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_TOURIST_CAMPING_SCOUT_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "US_09_01_TOURIST_CAMPING_TASK_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   9400
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   550
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_TOURIST_CAMPING"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+}
+contractsSettings   =   {
+   US_09_01_GARAGE_RESTORE_CONTRACT   =   {
+      uiDesc   =   "US_09_01_GARAGE_RESTORE_CONTRACT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_GARAGE_RESTORE_CONTRACT_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_GARAGE_RESTORE"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_GARAGE_RESTORE_CONTRACT_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_GARAGE_RESTORE"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_GARAGE_RESTORE_CONTRACT_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_GARAGE_RESTORE"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBricks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_GARAGE_RESTORE_CONTRACT_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_GARAGE_RESTORE"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "GARAGE_09"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "US_09_01_GARAGE_RESTORE_CONTRACT_REW"
+      rewards   =   {
+         ObjectiveRewardsUpgradeGarage   =   {
+            zone   =   "level_us_09_01 || US_09_01_GARAGE_ENTRANCE"
+            feature   =   "CUSTOMIZATION"
+         }
+         ObjectiveRewardsUpgradeGarage_1   =   {
+            zone   =   "level_us_09_01 || US_09_01_GARAGE_ENTRANCE"
+            feature   =   "STORE"
+            __type   =   "ObjectiveRewardsUpgradeGarage"
+         }
+         ObjectiveRewardsUpgradeGarage_2   =   {
+            zone   =   "level_us_09_01 || US_09_01_GARAGE_ENTRANCE"
+            feature   =   "REPAIR"
+            __type   =   "ObjectiveRewardsUpgradeGarage"
+         }
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_TRAILER_STORE"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyTrailerAttach   =   {
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   10550
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1150
+         }
+      }
+      employer   =   "OntarioAdministration"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_LOG_HOUSE_CONTRACT_01   =   {
+      uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_01_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks2"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_01_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsLong"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_01_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks4"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_01_S_04"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsShort"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_02_LUMBER_MILL_REPAIR_CONTRACT"
+      ]
+      description   =   "US_09_01_LOG_HOUSE_CONTRACT_01_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   17950
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1500
+         }
+      }
+      employer   =   "OntarioAdministration"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_LOG_HOUSE_CONTRACT_02   =   {
+      uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_02_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_02_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks4"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_02_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_02_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks2"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_LOG_HOUSE_CONTRACT_02_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_LOG_HOUSE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsShort"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_02_LUMBER_MILL_REPAIR_CONTRACT"
+      ]
+      description   =   "US_09_01_LOG_HOUSE_CONTRACT_02_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   21800
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1730
+         }
+      }
+      employer   =   "OntarioAdministration"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT   =   {
+      uiDesc   =   "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT_S_04"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_TRANSIT_02"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyGateway   =   {
+                        cameraPos   =   {
+                           x   =   -824.98
+                           y   =   90.13
+                           z   =   411.77
+                           __type   =   "Vector3d"
+                        }
+                        cameraDir   =   {
+                           x   =   0.68
+                           y   =   -0.45
+                           z   =   0.58
+                           __type   =   "Vector3d"
+                        }
+                        animationTime   =   8000
+                        startDelayTime   =   3000
+                        levelZoneLink   =   "level_us_09_02 || US_09_02_TRANSIT_02"
+                        extraZoneToPlaceTrucks   =   "level_us_09_01 || US_09_01_TRANSIT_02_OUT"
+                        extraZoneToPlaceWinch   =   "level_us_09_01 || US_09_01_TRANSIT_02_OUT"
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2000
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   120
+         }
+      }
+      employer   =   "OntarioFireStationDepartment"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_FIRE_STATION_VEHICLE_CONTRACT   =   {
+      uiDesc   =   "US_09_01_FIRE_STATION_VEHICLE_CONTRACT_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "FIRE_STATION_TRUCK_09"
+                  truckUiName   =   ""
+                  afterStageFinished   =   "DO_NOTHING"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_FIRE_STATION_VEHICLE"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_09_01_FIRE_STATION_VEHICLE_CONTRACT_S_01"
+               }
+            ]
+            repairTruck   =   [
+               {
+                  truckId   =   "FIRE_STATION_TRUCK_09"
+                  afterStageFinished   =   "REWARD"
+                  uiDesc   =   "US_09_01_FIRE_STATION_VEHICLE_CONTRACT_S_02"
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_GARAGE_RESTORE_CONTRACT",
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+      ]
+      description   =   "US_09_01_FIRE_STATION_VEHICLE_CONTRACT_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   4200
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   370
+         }
+      }
+      employer   =   "OntarioFireStationDepartment"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_WATER_TOWER_CONTRACT_01   =   {
+      uiDesc   =   "US_09_01_WATER_TOWER_CONTRACT_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_CONTRACT_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_GEN_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoForkliftCaravanContainer2"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_CONTRACT_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_GEN_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "WATER_TOWER_09_01_01"
+         stagesProgress   =   {
+            state_start   =   {
+               __value   =   0
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_09_01_GARAGE_RESTORE_CONTRACT"
+      ]
+      description   =   "US_09_01_WATER_TOWER_CONTRACT_01_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_WTS_03"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        stationUIName   =   "UI_COMMON_WATER_TOWER"
+                        pricePerLiter   =   0
+                        stationType   =   "PICK_UP"
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   500
+         }
+      }
+      employer   =   "OntarioFireStationDepartment"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_WATER_TOWER_CONTRACT_02   =   {
+      uiDesc   =   "US_09_01_WATER_TOWER_CONTRACT_02_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_CONTRACT_02_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_GEN_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoForkliftCaravanContainer2"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_TOWER_CONTRACT_02_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WT_GEN_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesSmall"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_09_01"
+         modelTag   =   "WATER_TOWER_09_01_02"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_09_01_GARAGE_RESTORE_CONTRACT"
+      ]
+      description   =   "US_09_01_WATER_TOWER_CONTRACT_02_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_WTS_04"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        pricePerLiter   =   0
+                        stationType   =   "PICK_UP"
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   500
+         }
+      }
+      employer   =   "OntarioFireStationDepartment"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_WATER_DELIVERY_WAREHOUSE_CONTRACT   =   {
+      uiDesc   =   "US_09_01_WATER_DELIVERY_CONTRACT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_DELIVERY_CONTRACT_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WATER_DELIVERY_WH_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWater"
+                        count   =   3800
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_01"
+                        modelTag   =   "SMOKE_01"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   1
+                           }
+                           stage_hidden   =   {
+                           }
+                        }
+                        unloadBlockedZoneId   =   {
+                           globalZoneId   =   "level_us_09_01 || US_09_01_CR_MT_01"
+                           __type   =   "null"
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_DELIVERY_CONTRACT_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WATER_DELIVERY_WH_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWater"
+                        count   =   3800
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_01"
+                        modelTag   =   "SMOKE_02"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   1
+                           }
+                           stage_hidden   =   {
+                           }
+                        }
+                        unloadBlockedZoneId   =   {
+                           globalZoneId   =   "level_us_09_01 || US_09_01_CR_MT_02"
+                           __type   =   "null"
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_DELIVERY_CONTRACT_S_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WATER_DELIVERY_WH_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWater"
+                        count   =   3800
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_01"
+                        modelTag   =   "SMOKE_03"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   1
+                           }
+                           stage_hidden   =   {
+                           }
+                        }
+                        unloadBlockedZoneId   =   {
+                           globalZoneId   =   "level_us_09_01 || US_09_01_CR_MT_03"
+                           __type   =   "null"
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_FIRE_STATION_VEHICLE_CONTRACT",
+         "US_09_01_WATER_TOWER_CONTRACT_01",
+         "US_09_01_WATER_TOWER_CONTRACT_02"
+      ]
+      description   =   "US_09_01_WATER_DELIVERY_CONTRACT_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_CR_MT_01"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoMetalPlanks"
+                              count   =   1
+                           },
+                           {
+                              name   =   "CargoMetalRoll"
+                              count   =   1
+                           }
+                        ]
+                        platformId   =   "US_09_01_CR_MT_01_MANUAL"
+                        modelBuildingSetting   =   {
+                           levelName   =   "level_us_09_01"
+                           modelTag   =   "BURNT_STORAGE_01"
+                           stagesProgress   =   {
+                              state_start   =   {
+                              }
+                              state_end   =   {
+                                 __value   =   1
+                              }
+                           }
+                           __type   =   "ModelBuildingSettings"
+                        }
+                     }
+                  }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "US_09_01_CR_MT_01_MANUAL"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyManualLoading   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_2   =   {
+                  zoneId   =   "US_09_01_CR_MT_02"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoMetalPlanks"
+                              count   =   1
+                           },
+                           {
+                              name   =   "CargoMetalRoll"
+                              count   =   1
+                           }
+                        ]
+                        platformId   =   "US_09_01_CR_MT_02_MANUAL"
+                        modelBuildingSetting   =   {
+                           levelName   =   "level_us_09_01"
+                           modelTag   =   "BURNT_STORAGE_02"
+                           stagesProgress   =   {
+                              state_start   =   {
+                              }
+                              state_end   =   {
+                                 __value   =   1
+                              }
+                           }
+                           __type   =   "ModelBuildingSettings"
+                        }
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_3   =   {
+                  zoneId   =   "US_09_01_CR_MT_02_MANUAL"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyManualLoading   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_4   =   {
+                  zoneId   =   "US_09_01_CR_MT_03"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoMetalPlanks"
+                              count   =   1
+                           },
+                           {
+                              name   =   "CargoMetalRoll"
+                              count   =   1
+                           }
+                        ]
+                        platformId   =   "US_09_01_CR_MT_03_MANUAL"
+                        modelBuildingSetting   =   {
+                           levelName   =   "level_us_09_01"
+                           modelTag   =   "BURNT_STORAGE_03"
+                           stagesProgress   =   {
+                              state_start   =   {
+                              }
+                              state_end   =   {
+                                 __value   =   1
+                              }
+                           }
+                           __type   =   "ModelBuildingSettings"
+                        }
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_5   =   {
+                  zoneId   =   "US_09_01_CR_MT_03_MANUAL"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyManualLoading   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   14250
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1890
+         }
+      }
+      employer   =   "OntarioFireStationDepartment"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT   =   {
+      uiDesc   =   "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WATER_DELIVERY_RAILWAY_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWater"
+                        count   =   5400
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_01"
+                        modelTag   =   "SMOKE_05"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   1
+                           }
+                           stage_hidden   =   {
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_WATER_DELIVERY_RAILWAY_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWater"
+                        count   =   5400
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_01"
+                        modelTag   =   "SMOKE_04"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   1
+                           }
+                           stage_hidden   =   {
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_WATER_DELIVERY_WAREHOUSE_CONTRACT"
+      ]
+      description   =   "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_PARTS_RESUPPLY_02"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyResupplyRepairParts   =   {
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   23400
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   2660
+         }
+      }
+      employer   =   "OntarioFireStationDepartment"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_BURNED_LOGS_CLEARING_CONTRACT   =   {
+      uiDesc   =   "US_09_01_BURNED_LOGS_CLEARING_CONTRACT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_BURNED_LOGS_CLEARING_CONTRACT_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_02 || US_09_02_BL_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium_Burnt"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+      ]
+      description   =   "US_09_01_BURNED_LOGS_CLEARING_CONTRACT_REW"
+      recommendedTruck   =   "LOGS"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   8400
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   840
+         }
+      }
+      employer   =   "OntarioFireStationDepartment"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT   =   {
+      uiDesc   =   "US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "GOLD_TRUCK_01"
+                  truckUiName   =   ""
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_TRUCK_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT_S_01"
+               },
+               {
+                  truckId   =   "GOLD_TRUCK_02"
+                  truckUiName   =   ""
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_09_02 || US_09_02_GOLD_TRUCK_DELIVERY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT_S_02"
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+      ]
+      description   =   "US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   9700
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   890
+         }
+      }
+      employer   =   "WeymouthMiningLTD"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_RAILWAY_DELIVERY_CONTRACT   =   {
+      uiDesc   =   "US_09_01_RAILWAY_DELIVERY_CONTRACT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_RAILWAY_DELIVERY_CONTRACT_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_RAILWAY_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoIronRoad"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT"
+      ]
+      description   =   "US_09_01_RAILWAY_DELIVERY_CONTRACT_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_09_01_RAILWAY_STORAGE"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoMetalPlanks"
+                           },
+                           {
+                              name   =   "CargoMetalRoll"
+                           },
+                           {
+                              name   =   "CargoConcreteBlocks"
+                           },
+                           {
+                              name   =   "CargoBricks"
+                           },
+                           {
+                              name   =   "CargoServiceSpareParts"
+                           },
+                           {
+                              name   =   "CargoBags"
+                           },
+                           {
+                              name   =   "CargoPipesSmall"
+                           }
+                        ]
+                        platformId   =   "US_09_01_RAILWAY_STORAGE_MANUAL"
+                     }
+                  }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "US_09_01_RAILWAY_STORAGE_MANUAL"
+                  mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyManualLoading   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   9100
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1040
+         }
+      }
+      employer   =   "WeymouthMiningLTD"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+   US_09_01_GOLD_DELIVERY_CONTRACT   =   {
+      uiDesc   =   "US_09_01_GOLD_DELIVERY_CONTRACT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_GOLD_DELIVERY_CONTRACT_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoGold"
+                        count   =   8
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_09_01_RAILWAY_DELIVERY_CONTRACT"
+      ]
+      description   =   "US_09_01_GOLD_DELIVERY_CONTRACT_REW"
+      recommendedTruck   =   "NONE"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   25200
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   2450
+         }
+      }
+      employer   =   "WeymouthMiningLTD"
+      region   =   "us_09"
+      __type   =   "ContractSettings"
+   }
+}
+contestSettings   =   {
+   US_09_01_BARRELS_EXPRESS_DELIVERY_CONTEST   =   {
+      uiDesc   =   "US_09_01_BARRELS_EXPRESS_DELIVERY_CONTEST_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_09_01_BARRELS_EXPRESS_DELIVERY_CONTEST_S_01"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_BARRELS_EXPRESS_DELIVERY_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrels"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "US_09_01_BARRELS_EXPRESS_DELIVERY_CONTEST_S_02"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_09_01 || US_09_01_BARRELS_EXPRESS_DELIVERY_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrels"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "US_09_01_BARRELS_EXPRESS_DELIVERY_CONTEST_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   700
+                  xp   =   480
+                  money   =   4500
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   760
+                  xp   =   320
+                  money   =   3000
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   820
+                  xp   =   260
+                  money   =   1500
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   7050
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   560
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_09_01 || US_09_01_BARRELS_EXPRESS"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

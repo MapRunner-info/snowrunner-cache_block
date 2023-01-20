@@ -1,0 +1,72 @@
+inputsList   =   [
+   {
+      inputLink   =   "UI.Accept"
+   },
+   {
+      inputLink   =   "UI.HideUi"
+   },
+   {
+      inputLink   =   "UI.AcceptTap"
+   },
+   {
+      inputLink   =   "Popups.Accept"
+   },
+   {
+      inputLink   =   "Popups.Back"
+   },
+   {
+      inputLink   =   "Popups.AcceptTap"
+   },
+   {
+      inputLink   =   "Gamepad.GamepadA"
+   },
+   {
+      inputLink   =   "Gamepad.GamepadB"
+   },
+   {
+      inputLink   =   "UI.TruckDeploy"
+   },
+   {
+      inputLink   =   "Popups.Close"
+   },
+   {
+      inputLink   =   "Popups.Load"
+   },
+   {
+      inputLink   =   "Truck.CloseFunctions"
+   },
+   {
+      inputLink   =   "UI.InviteToParty"
+   },
+   {
+      inputLink   =   "UI.FocusSubstage"
+   },
+   {
+      inputLink   =   "Popups.AcceptBuySellTrailer"
+   },
+   {
+      inputLink   =   "Exploration.SkipCinematic"
+   },
+   {
+      inputLink   =   "Popups.RefuelRepair"
+   },
+   {
+      inputLink   =   "Truck.StopRemoveCargo"
+   },
+   {
+      inputLink   =   "Truck.RemoveCargo"
+   },
+   {
+      inputLink   =   "Crane.AttachCargo"
+   },
+   {
+      inputLink   =   "Crane.ExitAdvance"
+   },
+   {
+      inputLink   =   "UI.Back"
+   },
+   {
+      inputLink   =   "UI.TakePic"
+   }
+]
+__type   =   "object"

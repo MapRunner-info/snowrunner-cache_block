@@ -1,0 +1,22 @@
+commands   =   {
+   ShowDebugMenu   =   {
+      sslModule   =   "extensions.keymap.keymap_sections.keymap_section_dbg_ui_system"
+      sslClass   =   "KeymapSectionDbgUiSystemContentCommandsShowdebugmenu"
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "keyboard"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        63
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+}
+__type   =   "KeymapSectionDbg"

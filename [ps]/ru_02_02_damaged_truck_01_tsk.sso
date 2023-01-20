@@ -1,0 +1,33 @@
+uiDesc   =   "RU_02_02_DAMAGED_TRUCK_01_TSK_DESC"
+stages   =   [
+   {
+      repairTruck   =   [
+         {
+            truckId   =   "RU_02_02_DAMAGED_TRUCK_01_TRK"
+            afterStageFinished   =   "DESTROY"
+            uiDesc   =   "RU_02_02_DAMAGED_TRUCK_01_TRUCK_DESC"
+            globalZoneSpawnId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_DAMAGED_TRUCK_01_SPAWN"
+               __type   =   "null"
+            }
+            truckDamageState   =   0
+            truckFuelState   =   0
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_DAMAGED_TRUCK_01_TSK_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   290
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3150
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_ru_02_02 || RU_02_02_DAMAGED_TRUCK_01_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

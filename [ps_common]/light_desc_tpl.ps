@@ -1,0 +1,122 @@
+light   =   {
+	__type   =   "section"
+	__caption   =   ""
+	name   =   {
+		__type   =   "string"
+		__caption   =   "Name"
+		__defaultValue   =   ""
+		__disable   =   True
+	}
+	light_type   =   {
+		__type   =   "enum"
+		__caption   =   "Type"
+		__list   =   [
+			"point",
+			"spot",
+			"directional"
+		]
+		__defaultValue   =   ""
+	}
+	color   =   {
+		__type   =   "col4"
+		__caption   =   "Color"
+		__defaultValue   =   [
+			0,
+			0,
+			0,
+			0
+		]
+	}
+	color_mult   =   {
+		__type   =   "float"
+		__caption   =   "Color Multiplier"
+		__defaultValue   =   0
+	}
+	color_mult_2   =   {
+		__type   =   "float"
+		__caption   =   "Color Multiplier (2)"
+		__defaultValue   =   1
+	}
+	radius   =   {
+		__type   =   "float"
+		__caption   =   "Radius"
+		__defaultValue   =   0
+	}
+	radius_2   =   {
+		__type   =   "float"
+		__caption   =   "Radius (2)"
+		__defaultValue   =   0
+	}
+	spot_angle   =   {
+		__type   =   "float"
+		__caption   =   "Spot Angle"
+		__defaultValue   =   0
+	}
+	SMParams   =   {
+		__type   =   "section"
+		__caption   =   "Shadow Params"
+		__hint   =   "Shadow parameters"
+		smResolution   =   {
+			__type   =   "enum"
+			__caption   =   "Resolution"
+			__list   =   [
+				"super_extra",
+				"extra",
+				"high",
+				"mid",
+				"low"
+			]
+			__defaultValue   =   "high"
+		}
+		pssmDist   =   {
+			__type   =   "float"
+			__caption   =   "Directional light max distance"
+			__defaultValue   =   75
+		}
+		numSplits   =   {
+			__type   =   "int"
+			__caption   =   "Num splits"
+			__defaultValue   =   -1
+		}
+		penumbraLightSize   =   {
+			__type   =   "float"
+			__caption   =   "Penumbra light size (meters)"
+			__defaultValue   =   0
+		}
+		filterRadiusMin   =   {
+			__type   =   "float"
+			__caption   =   "Min filter radius (texels)"
+			__defaultValue   =   2.5
+		}
+		filterRadiusMax   =   {
+			__type   =   "float"
+			__caption   =   "Max filter radius (meters)"
+			__defaultValue   =   0.25
+		}
+		nearPlaneSM   =   {
+			__type   =   "float"
+			__caption   =   "Near Plane"
+			__defaultValue   =   -1
+		}
+		attenuationStartRadius   =   {
+			__type   =   "float"
+			__caption   =   "Attenuation start radius"
+			__defaultValue   =   0
+		}
+		resolutionReduceSpeed   =   {
+			__type   =   "float"
+			__caption   =   "Resolution reduce speed"
+			__defaultValue   =   1
+		}
+		distVisFactor   =   {
+			__type   =   "float"
+			__caption   =   "Distance vis factor"
+			__defaultValue   =   1
+		}
+		excludeGrass   =   {
+			__type   =   "bool"
+			__caption   =   "Disable shadow cast from grass objects"
+			__defaultValue   =   0
+		}
+	}
+}

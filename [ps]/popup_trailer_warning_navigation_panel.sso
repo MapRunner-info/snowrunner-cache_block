@@ -1,0 +1,13 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      __type   =   "NavButtonDesc"
+   }
+   decline   =   {
+      text   =   "UI_DECLINE"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

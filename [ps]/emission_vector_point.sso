@@ -1,0 +1,4 @@
+pos   =   {
+   __type   =   "Vector3d"
+}
+__type   =   "EmissionVectorBase"

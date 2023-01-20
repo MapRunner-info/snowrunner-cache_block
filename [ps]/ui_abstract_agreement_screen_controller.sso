@@ -1,0 +1,46 @@
+view   =   {
+   __type   =   "UiAbstractAgreementScreenView"
+}
+navPanels   =   {
+   UiEndUserLicenseAgreementNavigationPanel   =   {
+      useBg   =   False
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         accept   =   {
+            uiInputName   =   "accept"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            uiInputName   =   "refuse"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "UiAbstractAgreementNavigationPanel"
+   }
+}
+scrollInput   =   {
+   inputLink   =   "UI.ScrollText"
+   __type   =   "InputLinkVectorMr"
+}
+inputScreen   =   {
+   name   =   "Agreement"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      refuse   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

@@ -1,0 +1,79 @@
+view   =   {
+   __type   =   "MainMenuUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_HUD_DIALOG_ACCEPT"
+            uiInputName   =   "Accept"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         showUserPicker   =   {
+            uiInputName   =   "ChangeAcc"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            uiInputName   =   "Navigation"
+            hideWithCustomSteeringWheelPreset   =   True
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         redlynxShowPros   =   {
+            text   =   "UI_REDLYNX_SHOW_PROS"
+            uiInputName   =   "RedlynxShowPros"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "MainMenuNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "MainMenuNavigationPanelState"
+}
+inputScreen   =   {
+   name   =   "Main Menu"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      ChangeAcc   =   {
+         inputLink   =   "UI.ShowUserPicker"
+         __type   =   "InputLinkHoldMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      RedlynxShowPros   =   {
+         inputLink   =   "UI.RedlynxShowPros"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+coopJoining   =   {
+   view   =   {
+      header   =   "UI_COOP_JOINING_HEADER"
+      __type   =   "UiCoopJoinSearchView"
+   }
+   __type   =   "UiCoopJoinSearchController"
+}
+__type   =   "ScreenControllerBase"

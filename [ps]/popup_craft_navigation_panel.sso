@@ -1,0 +1,6 @@
+btns   =   {
+   close   =   {
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

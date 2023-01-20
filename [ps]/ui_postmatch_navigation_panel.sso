@@ -1,0 +1,12 @@
+btns   =   {
+   accept   =   {
+      text   =   "UI_OK"
+      clickSound   =   "ui/ui_click_exit"
+      tutorialInputLink   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

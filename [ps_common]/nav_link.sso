@@ -1,0 +1,28 @@
+edgeA1   =   {
+   x   =   -1
+   z   =   -1
+   __type   =   "Vector3d"
+}
+edgeA2   =   {
+   x   =   -1
+   z   =   1
+   __type   =   "Vector3d"
+}
+edgeB1   =   {
+   x   =   1
+   z   =   -1
+   __type   =   "Vector3d"
+}
+edgeB2   =   {
+   x   =   1
+   z   =   1
+   __type   =   "Vector3d"
+}
+debugColor   =   {
+   a   =   255
+   r   =   255
+   g   =   255
+   b   =   255
+   __type   =   "Color"
+}
+__type   =   "object"

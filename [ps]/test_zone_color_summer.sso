@@ -1,0 +1,88 @@
+indexInRegion   =   -1
+zoneDesc   =   {
+   COLORTEST_WATCHPOINT   =   {
+      props   =   {
+         ZonePropertyWatchpoint   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_GASSTATION   =   {
+      props   =   {
+         ZonePropertyFuelStation   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_CARGOLOADING   =   {
+      props   =   {
+         ZonePropertyCargoLoading   =   {
+            cargosSettings   =   [
+               {
+                  name   =   "CargoBags"
+               }
+            ]
+            platformId   =   "COLORTEST_MANUALLOAD"
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_MANUALLOAD   =   {
+      props   =   {
+         ZonePropertyManualLoading   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_TRANSITION   =   {
+      props   =   {
+         ZonePropertyGateway   =   {
+            levelZoneLink   =   "test_zone_color_winter || test_zone_gateway"
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_GARAGEENT   =   {
+      props   =   {
+         ZonePropertyGarageEntrance   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_GARAGEEXIT   =   {
+      props   =   {
+         ZonePropertyGarageExit   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_TRAILERSTORE   =   {
+      props   =   {
+         ZonePropertyTrailerAttach   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_TASKGIVER   =   {
+      props   =   {
+         ZonePropertyTaskGiver   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_ZONETOVISIT   =   {
+      props   =   {
+         ZonePropertyZoneToFind   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   COLORTEST_UPGRADE   =   {
+      props   =   {
+         ZonePropertyUpgradesGiver   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

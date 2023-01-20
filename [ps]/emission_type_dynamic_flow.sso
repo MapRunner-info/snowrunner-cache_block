@@ -1,0 +1,4 @@
+spline   =   {
+   __type   =   "SplineLinear1d"
+}
+__type   =   "EmissionTypeBaseContinuous"

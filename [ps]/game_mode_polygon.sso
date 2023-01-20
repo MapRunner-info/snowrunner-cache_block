@@ -1,0 +1,8 @@
+setting   =   {
+   isAllContentUnlocked   =   True
+   isRegionMapEnabled   =   False
+   isRecoverEnabled   =   False
+   isPlayerProfileAvailable   =   False
+   __type   =   "GameSystemsSetting"
+}
+__type   =   "GameModeMasterBase"

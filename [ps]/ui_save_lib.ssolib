@@ -1,0 +1,715 @@
+classes   =   {
+   AutoClassSaveslotcontentHardmodeindicatorNgplustext   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   ""
+      sslClass   =   "UiSaveLibAutoclasssaveslotcontenthardmodeindicatorngplustext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassSaveslotcontentHardmodeindicatorHardmodetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   ""
+      sslClass   =   "UiSaveLibAutoclasssaveslotcontenthardmodeindicatorhardmodetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassSaveslotcontentHardmodeindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   ""
+      sslClass   =   "UiSaveLibAutoclasssaveslotcontenthardmodeindicator"
+      ngPlusText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   -15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSaveLibAutoclasssaveslotcontenthardmodeindicatorngplustext"
+      }
+      hardModeText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   -15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSaveLibAutoclasssaveslotcontenthardmodeindicatorhardmodetext"
+      }
+      __type   =   "UiContainer"
+   }
+   Lvplaceholder   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvplaceholder"
+      sslClass   =   "UiSaveLibLvplaceholder"
+      __type   =   "UiContainer"
+   }
+   Lvru0201save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0201save"
+      sslClass   =   "UiSaveLibLvru0201save"
+      __type   =   "UiContainer"
+   }
+   Lvru0202save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0202save"
+      sslClass   =   "UiSaveLibLvru0202save"
+      __type   =   "UiContainer"
+   }
+   Lvru0203save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0203save"
+      sslClass   =   "UiSaveLibLvru0203save"
+      __type   =   "UiContainer"
+   }
+   Lvru0204save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0204save"
+      sslClass   =   "UiSaveLibLvru0204save"
+      __type   =   "UiContainer"
+   }
+   Lvru0301save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0301save"
+      sslClass   =   "UiSaveLibLvru0301save"
+      __type   =   "UiContainer"
+   }
+   Lvru0302save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0302save"
+      sslClass   =   "UiSaveLibLvru0302save"
+      __type   =   "UiContainer"
+   }
+   Lvru0401save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0401save"
+      sslClass   =   "UiSaveLibLvru0401save"
+      __type   =   "UiContainer"
+   }
+   Lvru0402save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0402save"
+      sslClass   =   "UiSaveLibLvru0402save"
+      __type   =   "UiContainer"
+   }
+   Lvru0403save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0403save"
+      sslClass   =   "UiSaveLibLvru0403save"
+      __type   =   "UiContainer"
+   }
+   Lvru0404save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0404save"
+      sslClass   =   "UiSaveLibLvru0404save"
+      __type   =   "UiContainer"
+   }
+   Lvru0501save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0501save"
+      sslClass   =   "UiSaveLibLvru0501save"
+      __type   =   "UiContainer"
+   }
+   Lvru0502save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0502save"
+      sslClass   =   "UiSaveLibLvru0502save"
+      __type   =   "UiContainer"
+   }
+   Lvru0801save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0801save"
+      sslClass   =   "UiSaveLibLvru0801save"
+      __type   =   "UiContainer"
+   }
+   Lvru0802save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0802save"
+      sslClass   =   "UiSaveLibLvru0802save"
+      __type   =   "UiContainer"
+   }
+   Lvru0803save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0803save"
+      sslClass   =   "UiSaveLibLvru0803save"
+      __type   =   "UiContainer"
+   }
+   Lvru0804save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvru0804save"
+      sslClass   =   "UiSaveLibLvru0804save"
+      __type   =   "UiContainer"
+   }
+   Lvus0101save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0101save"
+      sslClass   =   "UiSaveLibLvus0101save"
+      __type   =   "UiContainer"
+   }
+   Lvus0102save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0102save"
+      sslClass   =   "UiSaveLibLvus0102save"
+      __type   =   "UiContainer"
+   }
+   Lvus0103save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0103save"
+      sslClass   =   "UiSaveLibLvus0103save"
+      __type   =   "UiContainer"
+   }
+   Lvus0104save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0104save"
+      sslClass   =   "UiSaveLibLvus0104save"
+      __type   =   "UiContainer"
+   }
+   Lvus0201save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0201save"
+      sslClass   =   "UiSaveLibLvus0201save"
+      __type   =   "UiContainer"
+   }
+   Lvus0202save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0202save"
+      sslClass   =   "UiSaveLibLvus0202save"
+      __type   =   "UiContainer"
+   }
+   Lvus0203save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0203save"
+      sslClass   =   "UiSaveLibLvus0203save"
+      __type   =   "UiContainer"
+   }
+   Lvus0204save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0204save"
+      sslClass   =   "UiSaveLibLvus0204save"
+      __type   =   "UiContainer"
+   }
+   Lvus0301save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0301save"
+      sslClass   =   "UiSaveLibLvus0301save"
+      __type   =   "UiContainer"
+   }
+   Lvus0302save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0302save"
+      sslClass   =   "UiSaveLibLvus0302save"
+      __type   =   "UiContainer"
+   }
+   Lvus0401save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0401save"
+      sslClass   =   "UiSaveLibLvus0401save"
+      __type   =   "UiContainer"
+   }
+   Lvus0402save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0402save"
+      sslClass   =   "UiSaveLibLvus0402save"
+      __type   =   "UiContainer"
+   }
+   Lvus0601save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0601save"
+      sslClass   =   "UiSaveLibLvus0601save"
+      __type   =   "UiContainer"
+   }
+   Lvus0602save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0602save"
+      sslClass   =   "UiSaveLibLvus0602save"
+      __type   =   "UiContainer"
+   }
+   Lvus0701save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0701save"
+      sslClass   =   "UiSaveLibLvus0701save"
+      __type   =   "UiContainer"
+   }
+   Saveheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveHeader"
+      sslClass   =   "UiSaveLibSaveheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Savemainscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveMainScreen"
+      sslClass   =   "UiSaveLibSavemainscreen"
+      header   =   {
+         symbol   =   ""
+         x   =   38
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveheader"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSavepanelnavbtnattach"
+      }
+      prevBtnAttach   =   {
+         symbol   =   ""
+         x   =   109
+         y   =   494
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveuniversalattach"
+      }
+      offline   =   {
+         symbol   =   ""
+         x   =   43
+         y   =   115
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveoffline"
+      }
+      slot0   =   {
+         symbol   =   ""
+         x   =   178
+         y   =   279
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslot"
+      }
+      slot1   =   {
+         symbol   =   ""
+         x   =   578
+         y   =   279
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslot"
+      }
+      slot2   =   {
+         symbol   =   ""
+         x   =   978
+         y   =   279
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslot"
+      }
+      slot3   =   {
+         symbol   =   ""
+         x   =   1377.95
+         y   =   279
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslot"
+      }
+      nextBtnAttach   =   {
+         symbol   =   ""
+         x   =   1780
+         y   =   494
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveuniversalattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveoffline   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveOffline"
+      sslClass   =   "UiSaveLibSaveoffline"
+      lbl   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveofflinelabel"
+      }
+      txt   =   {
+         symbol   =   ""
+         x   =   316.05
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveofflinetext"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveofflinebg   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveOfflineBg"
+      sslClass   =   "UiSaveLibSaveofflinebg"
+      __type   =   "UiContainer"
+   }
+   Saveofflinelabel   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveOfflineLabel"
+      sslClass   =   "UiSaveLibSaveofflinelabel"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      bg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   77
+         __type   =   "UiSaveLibSaveofflinebg"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveofflinetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveOfflineText"
+      sslClass   =   "UiSaveLibSaveofflinetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Savepanelnavbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "savePanelNavBtnAttach"
+      sslClass   =   "UiSaveLibSavepanelnavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Saveprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveProgress"
+      sslClass   =   "UiSaveLibSaveprogress"
+      __type   =   "UiContainer"
+   }
+   Saveslot   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "saveSlot"
+      title   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   10
+         y   =   -48
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiSaveLibSaveslottitletext"
+      }
+      selection   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -4
+         y   =   -4
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSaveLibSaveslotselection"
+      }
+      warning   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslotwarning"
+      }
+      content   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiSaveLibSaveslotcontent"
+      }
+      __type   =   "UiButton"
+   }
+   Saveslotbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotBg"
+      sslClass   =   "UiSaveLibSaveslotbg"
+      __type   =   "UiContainer"
+   }
+   Saveslotcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotContent"
+      sslClass   =   "UiSaveLibSaveslotcontent"
+      progressTf   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   402
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiSaveLibSaveslotprogresstf"
+      }
+      progress   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   125
+         y   =   375
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveprogress"
+      }
+      title3line   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   169
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslottitle3line"
+      }
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   169
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslottitle"
+      }
+      date   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   260
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslotdate"
+      }
+      plus   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   120
+         y   =   370
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSaveLibSaveslotplus"
+      }
+      hardModeIndicator   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   332
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibAutoclasssaveslotcontenthardmodeindicator"
+      }
+      poster   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveuniversalattach"
+      }
+      bg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslotbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveslotdate   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotDate"
+      sslClass   =   "UiSaveLibSaveslotdate"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Savesloterrortext   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotErrorText"
+      sslClass   =   "UiSaveLibSavesloterrortext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Savesloterrortextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotErrorTextCont"
+      sslClass   =   "UiSaveLibSavesloterrortextcont"
+      str1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSaveLibSaveslotwarningtext"
+      }
+      str2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSaveLibSavesloterrortext"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveslotplus   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotPlus"
+      sslClass   =   "UiSaveLibSaveslotplus"
+      __type   =   "UiContainer"
+   }
+   Saveslotprogresstf   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotProgressTf"
+      sslClass   =   "UiSaveLibSaveslotprogresstf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveslotselection   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotSelection"
+      sslClass   =   "UiSaveLibSaveslotselection"
+      __type   =   "UiContainer"
+   }
+   Saveslotshade   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotShade"
+      sslClass   =   "UiSaveLibSaveslotshade"
+      __type   =   "UiContainer"
+   }
+   Saveslottitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotTitle"
+      sslClass   =   "UiSaveLibSaveslottitle"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveslottitle3line   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotTitle3Line"
+      sslClass   =   "UiSaveLibSaveslottitle3line"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveslottitletext   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotTitleText"
+      sslClass   =   "UiSaveLibSaveslottitletext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveslotwarning   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotWarning"
+      sslClass   =   "UiSaveLibSaveslotwarning"
+      errorTextCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSaveLibSavesloterrortextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveslotwarningtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveSlotWarningText"
+      sslClass   =   "UiSaveLibSaveslotwarningtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Saveuniversalattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "saveUniversalAttach"
+      sslClass   =   "UiSaveLibSaveuniversalattach"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

@@ -1,0 +1,77 @@
+fadeWrapper   =   {
+   fadeInAnimName   =   "fade_in"
+   fadeOutAnimName   =   "fade_out"
+   __type   =   "null"
+}
+uiObjectDesc   =   {
+   type   =   {
+      panel   =   {
+         content   =   {
+            truckSlot   =   {
+               status   =   {
+                  visible   =   False
+                  __type   =   "UiTrucksLibTrucklirstatus"
+               }
+               truckColor   =   {
+                  __type   =   "UiTrucksLibTruckcolorcont"
+               }
+               __type   =   "UiTrucksLibTruckslotbtn"
+            }
+            list   =   {
+               isSmoothScroll   =   True
+               lir   =   {
+                  isAutoSizeEnabled   =   True
+                  truckColor   =   {
+                     __type   =   "UiTrucksLibTruckcolorcont"
+                  }
+                  __type   =   "UiTruckWarehouseViewLir"
+               }
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiTrucksLibTruckslist"
+            }
+            __type   =   "UiTrucksLibTruckcontent"
+         }
+         __type   =   "UiTrucksLibTruckspanel"
+      }
+      __type   =   "UiTrucksLibTrucksscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+navBtnTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+trucksList   =   {
+   alwaysSendElementSelected   =   True
+   uiFocusScreen   =   {
+      uiGfxInputToDisable   =   [
+         "Return",
+         "Up",
+         "Down"
+      ]
+      __type   =   "UiFocusScreen"
+   }
+   uiInputScreen   =   {
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   ""
+            __type   =   "InputLinkActionMr"
+         }
+         Left   =   {
+            inputLink   =   ""
+            __type   =   "InputLinkActionMr"
+         }
+         Right   =   {
+            inputLink   =   ""
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+__type   =   "ScreenViewBase"

@@ -1,0 +1,5 @@
+activationRadius   =   50
+UPDATE_DELAY_S   =   1
+zonePropertyType   =   "GARAGE_ENTRANCE"
+zoneName   =   "level_us_01_01 || US_01_01_GARAGE_ENTRANCE"
+__type   =   "TutorialStageApproach"

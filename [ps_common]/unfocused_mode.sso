@@ -1,0 +1,9 @@
+switchModeLink   =   {
+   inputLink   =   "UnfocusedMode.ActivateDeactivate"
+   __type   =   "InputLinkAction"
+}
+mouseClickLink   =   {
+   inputLink   =   "UnfocusedMode.Click"
+   __type   =   "InputLinkAction"
+}
+__type   =   "object"

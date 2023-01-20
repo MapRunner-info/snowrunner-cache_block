@@ -1,0 +1,55 @@
+useBg   =   True
+btns   =   {
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      forceShow   =   True
+      input   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   showUserPicker   =   {
+      text   =   "UI_SHOW_ACCOUNT_PICKER"
+      excludedPlatforms   =   [
+         "PC",
+         "ORBIS",
+         "UNDEFINED",
+         "NX64",
+         "GGP",
+         "OSX"
+      ]
+      input   =   {
+         inputLink   =   "UI.ShowUserPicker"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   navigation   =   {
+      text   =   "UI_NAVIGATION"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      hideWithCustomSteeringWheelPreset   =   True
+      input   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+   back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   redlynxShowPros   =   {
+      text   =   "UI_REDLYNX_SHOW_PROS"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

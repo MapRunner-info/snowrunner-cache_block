@@ -1,0 +1,55 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	enabled = {
+		__viewType {
+			__wrappable = false
+			__caption = "Enabled"
+		}
+		__type = "bool"
+		__defaultValue = "false"
+	}	
+	fade = {
+		__type = "float"
+		__defaultValue = 1.0
+		__viewType = {
+			__type = "slider"
+			__caption = "Fade"
+			__min = 0.001
+			__max = 1.0
+			__step = 0.001
+		}
+	}	
+	fadeSize = {
+		__type = "float"
+		__defaultValue = 2.0
+		__viewType = {
+			__type = "slider"
+			__caption = "Fade size"
+			__min = 0.001
+			__max = 10.0
+		}
+	}
+	blur = {
+		__type = "float"
+		__defaultValue = 1.0
+		__viewType = {
+			__type = "slider"
+			__caption = "Blur"
+			__min = 0.001
+			__max = 10.0
+		}
+	}
+	blurSize = {
+		__type = "float"
+		__defaultValue = 1.0
+		__viewType = {
+			__type = "slider"
+			__caption = "Blur size"
+			__min = 0.001
+			__max = 10.0
+		}
+	}
+}

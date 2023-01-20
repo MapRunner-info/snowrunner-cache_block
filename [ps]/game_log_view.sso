@@ -1,0 +1,20 @@
+uiAnimatedQueue   =   {
+   __type   =   "UiGfxAnimatedQueue"
+}
+uiLogsPool   =   {
+   editorObjectDesc   =   {
+      type   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiHudLibAnimeventlog"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   initialCapacity   =   10
+   __type   =   "GameLogsPool"
+}
+dbgAddMessageInputLink   =   {
+   inputLink   =   "DebugDBG.AddGameLog"
+   __type   =   "InputLinkTapMr"
+}
+__type   =   "object"

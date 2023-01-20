@@ -1,0 +1,27 @@
+view   =   {
+   __type   =   "UiPostmatchView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "UiPostmatchNavigationPanel"
+   }
+}
+inputScreen   =   {
+   name   =   "UiPostmatch"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

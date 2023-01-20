@@ -1,0 +1,108 @@
+toggleFlyCamInput   =   {
+   cmd   =   {
+      devices   =   [
+         {
+            deviceType   =   "gamepad_xenon"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     13,
+                     10,
+                     12
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_xbox_one"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     13,
+                     10,
+                     12
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_ds4"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     13,
+                     10,
+                     12
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "keyboard"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     42,
+                     56,
+                     18
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+   __type   =   "InputActionHold"
+}
+repairInput   =   {
+   cmd   =   {
+      devices   =   [
+         {
+            deviceType   =   "gamepad_xenon"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     13,
+                     11
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_xbox_one"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     13,
+                     11
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_ds4"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     13,
+                     11
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "keyboard"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     42,
+                     56,
+                     16
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+   __type   =   "InputActionHold"
+}
+__type   =   "object"

@@ -1,0 +1,50 @@
+uiDesc   =   "RU_02_02_GORLAG_CLEANING_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "RU_02_02_GORLAG_CLEANING_ACTION_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_RAILWAY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoRadioactive"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_GORLAG_CLEANING_ACTION_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FACTORY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoRadioactive"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "RU_02_02_RESEARCH"
+]
+description   =   "RU_02_02_GORLAG_CLEANING_REW"
+employer   =   "Voronoe12"
+region   =   "ru_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   730
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   6900
+   }
+}
+__type   =   "ContractSettings"

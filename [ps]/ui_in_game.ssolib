@@ -1,0 +1,805 @@
+classes   =   {
+   AutoClassCargoLoadingDialogCargoLoadingHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclasscargoloadingdialogcargoloadingheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCargoLoadingDialogMutualInGameDialogHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclasscargoloadingdialogmutualingamedialogheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCargoLoadingDialogMutualInGameDialogTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclasscargoloadingdialogmutualingamedialogtxt"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCargoLoadingDialogMutualCargoLoadingHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclasscargoloadingdialogmutualcargoloadingheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCargoLoadingSlotButtonCargoSlotCargoSize   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclasscargoloadingslotbuttoncargoslotcargosize"
+      cargo_type_1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         __type   =   "UiMovieClip"
+      }
+      cargo_type_2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      cargo_type_3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      cargo_type_4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   45
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCargoLoadingSlotButtonCargoSlotCargoName   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclasscargoloadingslotbuttoncargoslotcargoname"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCargoLoadingSlotButtonCargoSlot   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclasscargoloadingslotbuttoncargoslot"
+      cargo_size   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclasscargoloadingslotbuttoncargoslotcargosize"
+      }
+      cargo_name   =   {
+         symbol   =   ""
+         x   =   -12.5
+         y   =   100.15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclasscargoloadingslotbuttoncargoslotcargoname"
+      }
+      cargo_icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassInGameLocators   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclassingamelocators"
+      locators_attach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiInGameAttachpointlocators"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassInGameDialogOneButtonInGameDialogHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclassingamedialogonebuttoningamedialogheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassInGameDialogOneButtonInGameDialogTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclassingamedialogonebuttoningamedialogtxt"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassInGameDialogTwoButtosInGameDialogHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclassingamedialogtwobuttosingamedialogheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassInGameDialogTwoButtosInGameDialogTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclassingamedialogtwobuttosingamedialogtxt"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassStatuscontainerTfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclassstatuscontainertfcont"
+      tf   =   {
+         x   =   -100
+         y   =   -21.9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassStatusmarkerArrowtop   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   ""
+      sslClass   =   "UiInGameAutoclassstatusmarkerarrowtop"
+      arrow   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AttachPointCargoLoadingDialog   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "attach_point_cargo_loading_dialog"
+      sslClass   =   "UiInGameAttachpointcargoloadingdialog"
+      __type   =   "UiContainer"
+   }
+   AttachPointLocators   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "attach_point_locators"
+      sslClass   =   "UiInGameAttachpointlocators"
+      __type   =   "UiContainer"
+   }
+   CargoLoadingDialog   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "cargo_loading_dialog"
+      sslClass   =   "UiInGameCargoloadingdialog"
+      cargo_loading_header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclasscargoloadingdialogcargoloadingheader"
+      }
+      cargo_slot_1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   155
+         y   =   92
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   92
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   92
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   92
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_5   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   92
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cancel_button   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   200
+         y   =   277
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      accept_button   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   277
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      single_button   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   115
+         y   =   277
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   CargoLoadingDialogMutual   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "cargo_loading_dialog_mutual"
+      sslClass   =   "UiInGameCargoloadingdialogmutual"
+      in_game_dialog_header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclasscargoloadingdialogmutualingamedialogheader"
+      }
+      in_game_dialog_txt   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclasscargoloadingdialogmutualingamedialogtxt"
+      }
+      dialog_accept_button   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   115
+         y   =   177
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      cargo_loading_header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   240
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclasscargoloadingdialogmutualcargoloadingheader"
+      }
+      cargo_slot_1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   155
+         y   =   302
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   302
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   302
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   302
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cargo_slot_5   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   155
+         y   =   302
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameCargoloadingslotbutton"
+      }
+      cancel_button   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   200
+         y   =   487
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      accept_button   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   487
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      single_button   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   115
+         y   =   487
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   CargoLoadingSlotButton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "cargo_loading_slot_button"
+      cargo_slot   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiInGameAutoclasscargoloadingslotbuttoncargoslot"
+      }
+      __type   =   "UiButton"
+   }
+   Damagecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "damageContainer"
+      sslClass   =   "UiInGameDamagecontainer"
+      damageNumbersCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -235
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameDamagenumberscontainer"
+      }
+      damageIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiInGameVehicledamageiconcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Damagenumberscontainer   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "damageNumbersContainer"
+      __type   =   "UiEmbeddedClipText"
+   }
+   InGame   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "in_game"
+      sslClass   =   "UiInGameIngame"
+      locators   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclassingamelocators"
+      }
+      __type   =   "UiContainer"
+   }
+   InGameContentAttach   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "in_game_content_attach"
+      sslClass   =   "UiInGameIngamecontentattach"
+      __type   =   "UiContainer"
+   }
+   InGameDialogOneButton   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "in_game_dialog_one_button"
+      sslClass   =   "UiInGameIngamedialogonebutton"
+      in_game_dialog_header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclassingamedialogonebuttoningamedialogheader"
+      }
+      in_game_dialog_txt   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclassingamedialogonebuttoningamedialogtxt"
+      }
+      accept_button   =   {
+         symbol   =   ""
+         x   =   115
+         y   =   177
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   InGameDialogTwoButtos   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "in_game_dialog_two_buttos"
+      sslClass   =   "UiInGameIngamedialogtwobuttos"
+      in_game_dialog_header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclassingamedialogtwobuttosingamedialogheader"
+      }
+      in_game_dialog_txt   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameAutoclassingamedialogtwobuttosingamedialogtxt"
+      }
+      cancel_button   =   {
+         symbol   =   ""
+         x   =   200
+         y   =   177
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      accept_button   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   177
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   InGameLayer   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "in_game_layer"
+      sslClass   =   "UiInGameIngamelayer"
+      content_attach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiInGameIngamecontentattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Locator   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "locator"
+      sslClass   =   "UiInGameLocator"
+      locator_icon   =   {
+         symbol   =   ""
+         x   =   -20
+         y   =   -80
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      markerAnten   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Phantommodetextdescription   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "phantomModeTextdescription"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Statechangecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "stateChangeContainer"
+      sslClass   =   "UiInGameStatechangecontainer"
+      stateTextCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   22
+         y   =   18.4
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameStatetextcontainer"
+      }
+      statusIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -33.6
+         y   =   -64.6
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiInGameVehstatusiconcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Statetextcontainer   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "stateTextContainer"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Statusbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "statusBg"
+      sslClass   =   "UiInGameStatusbg"
+      __type   =   "UiContainer"
+   }
+   Statuscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "statusContainer"
+      sslClass   =   "UiInGameStatuscontainer"
+      tfCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiInGameAutoclassstatuscontainertfcont"
+      }
+      bgCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameStatusbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Statusmarker   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "StatusMarker"
+      sslClass   =   "UiInGameStatusmarker"
+      arrowTop   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameAutoclassstatusmarkerarrowtop"
+      }
+      statusCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -35
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameStatuscontainer"
+      }
+      attach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -19
+         y   =   -19
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Vehicledamageiconcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "vehicleDamageIconContainer"
+      sslClass   =   "UiInGameVehicledamageiconcontainer"
+      __type   =   "UiContainer"
+   }
+   Vehstatephantomcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "vehStatePhantomContainer"
+      sslClass   =   "UiInGameVehstatephantomcontainer"
+      stateTextCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   22
+         y   =   18.4
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGameStatetextcontainer"
+      }
+      phantomDescText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -246
+         y   =   40
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiInGamePhantommodetextdescription"
+      }
+      statusIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -33.6
+         y   =   -64.6
+         scaleX   =   50
+         scaleY   =   50
+         alpha   =   0
+         __type   =   "UiInGameVehstatusiconcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Vehstatusiconcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_in_game"
+      symbol   =   "vehStatusIconContainer"
+      sslClass   =   "UiInGameVehstatusiconcontainer"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

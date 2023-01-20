@@ -1,0 +1,34 @@
+uiObjectDesc   =   {
+   type   =   {
+      modal   =   {
+         visible   =   True
+         enabled   =   True
+         __type   =   "UiPopupLibPopuptrailermodal"
+      }
+      trailerList   =   {
+         lir   =   {
+            __type   =   "PopupTrailerLir"
+         }
+         scrollBar   =   {
+            __type   =   "UiCommonLibDefscrollbars"
+         }
+         __type   =   "UiPopupLibPopuptrailerlist"
+      }
+      warningTf   =   {
+         tf   =   {
+            isHtml   =   True
+            __type   =   "UiLabel"
+         }
+         __type   =   "UiPopupLibHuppopupwarning"
+      }
+      __type   =   "UiPopupLibPopuptrailer"
+   }
+   __type   =   "UiObjectDesc"
+}
+headerIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibTrailerstoreimg40"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "PopupViewBase"

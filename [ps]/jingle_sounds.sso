@@ -1,0 +1,245 @@
+objectiveFinishedJingles   =   {
+   us_01   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_michigan_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_michigan_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_michigan_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   us_02   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_alaska_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_alaska_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_alaska_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   ru_02   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_taymyr_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_taymyr_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_taymyr_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   ru_03   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_kola_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_kola_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_kola_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   no_region   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_taymyr_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_taymyr_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_taymyr_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   us_04   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_yukon_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_yukon_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_yukon_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   us_03   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_wisconsin_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_wisconsin_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_wisconsin_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   ru_04   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_amur_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_amur_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_amur_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   ru_05   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_don_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_don_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_don_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   us_06   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_maine_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_maine_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_maine_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   us_07   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_tenn_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_tenn_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_tenn_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+   ru_08   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_belozersk_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_belozersk_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_belozersk_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
+}
+gatewayJingles   =   {
+   us_01   =   {
+      __value   =   "music_jingle_michigan_level_intro"
+   }
+   us_02   =   {
+      __value   =   "music_jingle_alaska_level_intro"
+   }
+   ru_02   =   {
+      __value   =   "music_jingle_taymyr_level_intro"
+   }
+   ru_03   =   {
+      __value   =   "music_jingle_kola_level_intro"
+   }
+   us_04   =   {
+      __value   =   "music_jingle_yukon_level_intro"
+   }
+   us_03   =   {
+      __value   =   "music_jingle_wisconsin_level_intro"
+   }
+   ru_04   =   {
+      __value   =   "music_jingle_amur_level_intro"
+   }
+   ru_05   =   {
+      __value   =   "music_jingle_don_level_intro"
+   }
+   us_06   =   {
+      __value   =   "music_jingle_maine_level_intro"
+   }
+   us_07   =   {
+      __value   =   "music_jingle_tenn_level_intro"
+   }
+   ru_08   =   {
+      __value   =   "music_jingle_belozersk_level_intro"
+   }
+}
+watchpointJingles   =   {
+   us_01   =   {
+      __value   =   "music_jingle_michigan_watchtower"
+   }
+   us_02   =   {
+      __value   =   "music_jingle_alaska_watchtower"
+   }
+   ru_02   =   {
+      __value   =   "music_jingle_taymyr_watchtower"
+   }
+   ru_03   =   {
+      __value   =   "music_jingle_kola_watchtower"
+   }
+   us_04   =   {
+      __value   =   "music_jingle_yukon_watchtower"
+   }
+   us_03   =   {
+      __value   =   "music_jingle_wisconsin_watchtower"
+   }
+   ru_04   =   {
+      __value   =   "music_jingle_amur_watchtower"
+   }
+   ru_05   =   {
+      __value   =   "music_jingle_don_watchtower"
+   }
+   us_06   =   {
+      __value   =   "music_jingle_maine_watchtower"
+   }
+   US_06_02_BIG_WATCHTOWER   =   {
+      __value   =   "music_jingle_maine_watchtower_spec"
+   }
+   us_07   =   {
+      __value   =   "music_jingle_tenn_watchtower"
+   }
+   ru_08   =   {
+      __value   =   "music_jingle_belozersk_watchtower"
+   }
+}
+trialFinishJingle   =   "music_jingle_trial"
+__type   =   "object"

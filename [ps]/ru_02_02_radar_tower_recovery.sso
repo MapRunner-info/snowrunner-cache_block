@@ -1,0 +1,155 @@
+uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_1_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_RADAR_TOWER"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_1_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_RADAR_TOWER"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_2_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_RADAR_TOWER"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoContainerSmall"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_ru_02_02"
+   modelTag   =   "RU_02_02_TOWER"
+   stagesProgress   =   {
+      state_start   =   {
+      }
+      state_end   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+blockerObjectives   =   [
+   "RU_02_02_RESEARCH"
+]
+description   =   "RU_02_02_RADAR_TOWER_RECOVERY_REW"
+rewards   =   {
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "RU_02_02_MAP_TRANSITION_01"
+            mapId   =   "level_ru_02_02"
+            props   =   {
+               ZonePropertyGateway   =   {
+                  cameraPos   =   {
+                     x   =   -903.259
+                     y   =   118.8677
+                     z   =   875.6844
+                     __type   =   "Vector3d"
+                  }
+                  cameraDir   =   {
+                     x   =   0.44787
+                     y   =   -0.48655
+                     z   =   -0.75012
+                     __type   =   "Vector3d"
+                  }
+                  animationTime   =   8000
+                  startDelayTime   =   3000
+                  levelZoneLink   =   "level_ru_02_01_crop || RU_02_01_TRAN_02N"
+                  extraZoneToPlaceTrucks   =   "level_ru_02_02 || MAP_TRANSITION_RU_02_02A_OUT"
+                  extraZoneToPlaceWinch   =   "level_ru_02_02 || MAP_TRANSITION_RU_02_02A_OUT_WINCH"
+               }
+            }
+         }
+         ZonePropertiesSettingsObjectiveReward_1   =   {
+            zoneId   =   "RU_02_02_MAP_TRANSITION_02"
+            mapId   =   "level_ru_02_02"
+            props   =   {
+               ZonePropertyGateway   =   {
+                  cameraPos   =   {
+                     x   =   -677.1333
+                     y   =   96.668
+                     z   =   -910.524
+                     __type   =   "Vector3d"
+                  }
+                  cameraDir   =   {
+                     x   =   0.65565
+                     y   =   -0.4068
+                     z   =   0.63611
+                     __type   =   "Vector3d"
+                  }
+                  animationTime   =   8000
+                  startDelayTime   =   3000
+                  levelZoneLink   =   "level_ru_02_01_crop || RU_02_01_TRAN_02S"
+                  extraZoneToPlaceTrucks   =   "level_ru_02_02 || MAP_TRANSITION_RU_02_02C_OUT"
+                  extraZoneToPlaceWinch   =   "level_ru_02_02 || MAP_TRANSITION_RU_02_02C_OUT_WINCH"
+               }
+            }
+            __type   =   "ZonePropertiesSettingsObjectiveReward"
+         }
+         ZonePropertiesSettingsObjectiveReward_2   =   {
+            zoneId   =   "RU_02_02_MAP_TRANSITION_03"
+            mapId   =   "level_ru_02_02"
+            props   =   {
+               ZonePropertyGateway   =   {
+                  cameraPos   =   {
+                     x   =   -960.9601
+                     y   =   71.27112
+                     z   =   -271.6093
+                     __type   =   "Vector3d"
+                  }
+                  cameraDir   =   {
+                     x   =   0.6419
+                     y   =   -0.31711
+                     z   =   -0.69814
+                     __type   =   "Vector3d"
+                  }
+                  animationTime   =   8000
+                  startDelayTime   =   3000
+                  levelZoneLink   =   "level_ru_02_01_crop || RU_02_01_TRAN_02M"
+                  extraZoneToPlaceTrucks   =   "level_ru_02_02 || MAP_TRANSITION_RU_02_02B_OUT"
+                  extraZoneToPlaceWinch   =   "level_ru_02_02 || MAP_TRANSITION_RU_02_02B_OUT_WINCH"
+               }
+            }
+            __type   =   "ZonePropertiesSettingsObjectiveReward"
+         }
+      }
+   }
+   ObjectiveRewardExperience   =   {
+      amount   =   710
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   6150
+   }
+}
+employer   =   "TaigaOil"
+region   =   "ru_02"
+__type   =   "ContractSettings"

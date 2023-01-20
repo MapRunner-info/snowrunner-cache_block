@@ -1,0 +1,49 @@
+view   =   {
+   __type   =   "PopupCompatibleAddonsView"
+}
+navPanels   =   {
+   AllButtonsNavigationPanel   =   {
+      btns   =   {
+         close   =   {
+            text   =   "UI_MAP_CLOSE"
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      order   =   [
+         "close"
+      ]
+   }
+}
+state   =   {
+   __type   =   "ScreenState"
+}
+id   =   "COMPATIBLE_ADDONS"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "CompatibleAddons"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Up",
+      "Right",
+      "Left",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+METALDETECTOR_ICON   =   "metalDetectorImg30"
+SEISMIC_VIBRATOR_ICON   =   "seismicVibratorImg30"
+TOWING_PLATFORM_ICON   =   "towingPlatform30"
+SHORT_LOG_ICON   =   "loggingImg30"
+MEDIUM_LOG_ICON   =   "loggingImg30"
+LONG_LOG_ICON   =   "loggingImg30"
+__type   =   "PopupUiController"

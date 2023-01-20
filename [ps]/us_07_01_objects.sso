@@ -1,0 +1,4146 @@
+tasksSettings   =   {
+   US_07_01_BRIDGE_RESTORE_03   =   {
+      uiDesc   =   "US_07_01_BRIDGE_RESTORE_03_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_BRIDGE_RESTORE_03_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_BRIDGE_RESTORE_03a"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_07_01"
+                        modelTag   =   "restore_03"
+                        stagesProgress   =   {
+                           build_stage_0   =   {
+                           }
+                           build_stage_1   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                     additionalUnloadZones   =   [
+                        "US_07_01_BRIDGE_RESTORE_03b"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "restore_03"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "null"
+      }
+      description   =   "US_07_01_BRIDGE_RESTORE_03_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   3750
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   320
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_BRIDGE_RESTORE_03a"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "US_07_01_BRIDGE_RESTORE_03b"
+      ]
+      __type   =   "TaskSettings"
+   }
+   US_07_01_DELIVER_RACING_01   =   {
+      uiDesc   =   "US_07_01_DELIVER_RACING_01_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RACING_1"
+                  truckUiName   =   "RACING_1_S"
+                  afterStageFinished   =   "REWARD"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_GARAGE"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_DELIVER_RACING_01_S"
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_CIRCUIT_RACE_1"
+      ]
+      description   =   "US_07_01_DELIVER_RACING_01_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   6100
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   540
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_DELIVER_RACING_01_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "US_07_01_DELIVER_RACING_01_01"
+      ]
+      __type   =   "TaskSettings"
+   }
+   US_07_01_ROCK_01   =   {
+      uiDesc   =   "US_07_01_ROCK_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_ROCK_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ROCK_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_07_01"
+                        modelTag   =   "rock_1"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "null"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "rock_1"
+         stagesProgress   =   {
+            stage_visible   =   {
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_EXTREME_SLOPE"
+      ]
+      description   =   "US_07_01_ROCK_01_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   1800
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   180
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_ROCK_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_07_01_ROCK_02   =   {
+      uiDesc   =   "US_07_01_ROCK_02_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_ROCK_02_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ROCK_02_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "US_07_01_ROCK_02_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "rock_2"
+         stagesProgress   =   {
+            stage_visible   =   {
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "US_07_01_ROCK_02_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   6600
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   620
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_ROCK_02_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "US_07_01_ROCK_02_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   US_07_01_DELIVER_BUGGY_01   =   {
+      uiDesc   =   "US_07_01_DELIVER_BUGGY_01_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "BUGGY_01"
+                  truckUiName   =   "BUGGY_01_S"
+                  afterStageFinished   =   "REWARD"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_GARAGE"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_DELIVER_BUGGY_01_S"
+               }
+            ]
+         }
+      ]
+      description   =   "US_07_01_DELIVER_BUGGY_01_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   4250
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   420
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_DELIVER_BUGGY_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_07_01_RESTORE_TECH_ZONE_01   =   {
+      uiDesc   =   "US_07_01_RESTORE_TECH_ZONE_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_RESTORE_TECH_ZONE_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RESTORE_TECH_ZONE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoVehiclesSpareParts"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "US_07_01_RESTORE_TECH_ZONE_01_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_07_01_FUEL_03"
+                  mapId   =   "level_us_07_01"
+                  props   =   {
+                     ZonePropertyFuelStation   =   {
+                        pricePerLiter   =   6
+                     }
+                  }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "US_07_01_RESTORE_TECH_ZONE_01"
+                  mapId   =   "level_us_07_01"
+                  props   =   {
+                     ZonePropertyAutoRepairAndRestore   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6600
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   640
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_RESTORE_TECH_ZONE_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_07_01_RESTORE_TECH_ZONE_03   =   {
+      uiDesc   =   "US_07_01_RESTORE_TECH_ZONE_03_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_RESTORE_TECH_ZONE_03_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RESTORE_TECH_ZONE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoVehiclesSpareParts"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "US_07_01_RESTORE_TECH_ZONE_02_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_07_01_FUEL_01"
+                  mapId   =   "level_us_07_01"
+                  props   =   {
+                     ZonePropertyFuelStation   =   {
+                        pricePerLiter   =   6
+                     }
+                  }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "US_07_01_RESTORE_TECH_ZONE_03"
+                  mapId   =   "level_us_07_01"
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4250
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   480
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_RESTORE_TECH_ZONE_03"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_07_01_CAREER_START_LIGHT   =   {
+      uiDesc   =   "US_07_01_CAREER_START_LIGHT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_CAREER"
+      ]
+      description   =   "US_07_01_CAREER_START_LIGHT_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   50
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_07_01_CAREER_START_MEDIUM   =   {
+      uiDesc   =   "US_07_01_CAREER_START_MEDIUM_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_MEDIUM_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_MEDIUM_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_LIGHT_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_CAREER"
+      ]
+      description   =   "US_07_01_CAREER_START_MEDIUM_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   1000
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   100
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_MEDIUM"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   US_07_01_CAREER_START_HARD   =   {
+      uiDesc   =   "US_07_01_CAREER_START_HARD_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_HARD_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_HARD_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_HARD_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_CAREER"
+      ]
+      description   =   "US_07_01_CAREER_START_HARD_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   1500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   200
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START_HARD"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+}
+contractsSettings   =   {
+   US_07_01_RENEWAL_ELECTRICITY   =   {
+      uiDesc   =   "US_07_01_RENEWAL_ELECTRICITY_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "GEN_01"
+                  truckUiName   =   "GEN_01_S"
+                  afterStageFinished   =   "REWARD"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_RENEWAL_ELECTRICITY_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_RENEWAL_ELECTRICITY_S"
+               }
+            ]
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_RENEWAL_ELECTRICITY_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RENEWAL_ELECTRICITY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrels"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "US_07_01_RENEWAL_ELECTRICITY_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "US_07_01_GEN_01_01"
+                  mapId   =   "level_us_07_01"
+                  props   =   {
+                     ZonePropertyStorehouseCraft   =   {
+                        craftSettings   =   [
+                           {
+                              name   =   "CargoMetalPlanks"
+                              energy   =   200
+                           },
+                           {
+                              name   =   "CargoWoodenPlanks2"
+                              energy   =   100
+                           },
+                           {
+                              name   =   "CargoServiceSparePartsSpecial"
+                              energy   =   250
+                           },
+                           {
+                              name   =   "CargoVehiclesSpareParts"
+                              energy   =   250
+                           },
+                           {
+                              name   =   "CargoCrateLarge"
+                              energy   =   250
+                           }
+                        ]
+                        platformId   =   "US_07_01_GEN_01_MANUAL"
+                        energyZoneId   =   {
+                           globalZoneId   =   "level_us_07_01 || US_07_01_GEN_01_02"
+                           __type   =   "ZoneGlobalIdentificator"
+                        }
+                     }
+                  }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "US_07_01_GEN_01_02"
+                  mapId   =   "level_us_07_01"
+                  props   =   {
+                     ZonePropertyEnergy   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_2   =   {
+                  zoneId   =   "US_07_01_TRAILER_STORE_01"
+                  mapId   =   "level_us_07_01"
+                  props   =   {
+                     ZonePropertyTrailerAttach   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+            }
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4600
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   460
+         }
+      }
+      employer   =   "OffRroadCup_Stage_1"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_TRACK_RESTORATION   =   {
+      uiDesc   =   "US_07_01_TRACK_RESTORATION_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_TRACK_RESTORATION_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_TRACK_RESTORATION_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks2"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "board_2"
+         stagesProgress   =   {
+            stage_hidden   =   {
+               __value   =   0
+            }
+            stage_visible   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_RENEWAL_ELECTRICITY"
+      ]
+      description   =   "US_07_01_TRACK_RESTORATION_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   7350
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   570
+         }
+      }
+      employer   =   "OffRroadCup_Stage_1"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_RESTORATION_SOLAR_STATION   =   {
+      uiDesc   =   "US_07_01_RESTORATION_SOLAR_STATION_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_RESTORATION_SOLAR_STATION_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RESTORATION_SOLAR_STATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_RESTORATION_SOLAR_STATION_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RESTORATION_SOLAR_STATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoSolarPanel"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_07_01"
+                        modelTag   =   "solar"
+                        stagesProgress   =   {
+                           build_stage_0   =   {
+                           }
+                           build_stage_1   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_SPAWN_01a"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoSolarPanel"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_SPAWN_01b"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoSolarPanel"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_SPAWN_01c"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoSolarPanel"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_SPAWN_01d"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoSolarPanel"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "solar"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+         }
+         unloadBlockedZoneId   =   {
+            __type   =   "null"
+         }
+         __type   =   "null"
+      }
+      blockerObjectives   =   [
+         "US_07_01_RENEWAL_ELECTRICITY"
+      ]
+      description   =   "US_07_01_RESTORATION_SOLAR_STATION_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   7500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   950
+         }
+      }
+      employer   =   "OffRroadCup_Stage_1"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_EVACUATION   =   {
+      uiDesc   =   "US_07_01_EVACUATION_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "EVA_02"
+                  truckUiName   =   "EVA_02_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_EVACUATION_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_EVACUATION_02_S"
+               },
+               {
+                  truckId   =   "EVA_03"
+                  truckUiName   =   "EVA_03_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_EVACUATION_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_EVACUATION_02_S"
+               }
+            ]
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "EVA_01"
+                  truckUiName   =   "EVA_01_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_EVACUATION_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_EVACUATION_01_S"
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_RESTORATION_SOLAR_STATION"
+      ]
+      description   =   "US_07_01_EVACUATION_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   14150
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1380
+         }
+      }
+      employer   =   "OffRroadCup_Stage_1"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_PREPARATION_TRAILS   =   {
+      uiDesc   =   "US_07_01_PREPARATION_TRAILS_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_BRIDGE_DESTROY_02_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_BRIDGE_DESTROY_02a"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoCrateLarge"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_07_01"
+                        modelTag   =   "destroy_02"
+                        __type   =   "ModelBuildingSettings"
+                     }
+                     additionalUnloadZones   =   [
+                        "US_07_01_BRIDGE_DESTROY_02b"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "destroy_02"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_RENEWAL_ELECTRICITY",
+         "US_07_01_CIRCUIT_RACE_1"
+      ]
+      description   =   "US_07_01_PREPARATION_TRAILS_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   4200
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   320
+         }
+      }
+      employer   =   "OffRroadCup_Stage_2"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_EXTREME_DESCENT   =   {
+      uiDesc   =   "US_07_01_EXTREME_DESCENT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_DELIVERY_SPECIAL",
+         "US_07_01_EXTREME_SLOPE"
+      ]
+      description   =   "US_07_01_EXTREME_DESCENT_REW"
+      minimapList   =   "TINY"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   200
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1000
+         }
+      }
+      employer   =   "OffRroadCup_Stage_2"
+      region   =   "us_07"
+      failReasons   =   {
+         ChangeTruckFailReason   =   {
+         }
+         RecoveryFailReason   =   {
+         }
+         GarageFailReason   =   {
+         }
+         TimeFailReason   =   {
+            timeLimitSec   =   150
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   US_07_01_CONNECTION   =   {
+      uiDesc   =   "US_07_01_CONNECTION_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_CONNECTION_01_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CONNECTION_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "CONNECT"
+                  truckUiName   =   "CONNECT_S"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_CONNECTION_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_CONNECTION_01_S"
+               }
+            ]
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "radio_1"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_RENEWAL_ELECTRICITY",
+         "US_07_01_CAREER"
+      ]
+      description   =   "US_07_01_CONNECTION_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   11740
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1770
+         }
+      }
+      employer   =   "OffRroadCup_Stage_3"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_ORIENTEERING   =   {
+      uiDesc   =   "US_07_01_ORIENTEERING_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ORIENTEERING_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ORIENTEERING_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ORIENTEERING_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ORIENTEERING_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ORIENTEERING_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ORIENTEERING_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_ORIENTEERING_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_DELIVER_RIDER_1",
+         "US_07_01_CONNECTION"
+      ]
+      description   =   "US_07_01_ORIENTEERING_REW"
+      minimapList   =   "TINY"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1500
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   9000
+         }
+      }
+      employer   =   "OffRroadCup_Stage_3"
+      region   =   "us_07"
+      failReasons   =   {
+         RecoveryFailReason   =   {
+         }
+         GarageFailReason   =   {
+         }
+         ChangeTruckFailReason   =   {
+         }
+         TimeFailReason   =   {
+            timeLimitSec   =   1280
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   US_07_01_RACE_HEROES   =   {
+      uiDesc   =   "US_07_01_RACE_HEROES_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_10"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_11"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_12"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_13"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_14"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_15"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_16"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_17"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_18"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_19"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_20"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_21"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_22"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_23"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_24"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_25"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_26"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_27"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_28"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_29"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_30"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "win_01"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   32
+            }
+         }
+         unloadBlockedZoneId   =   {
+            globalZoneId   =   "level_us_07_01 || US_07_01_RACE_HEROES_FINISH"
+            __type   =   "null"
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_CAREER",
+         "US_07_01_CIRCUIT_RACE_1",
+         "US_07_01_EXTREME_DESCENT",
+         "US_07_01_EXTREME_SLOPE",
+         "US_07_01_ORIENTEERING"
+      ]
+      description   =   "US_07_01_RACE_HEROES_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   19850
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1140
+         }
+      }
+      employer   =   "OffRroadCup_Stage_3"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_DELIVERY_SPECIAL   =   {
+      uiDesc   =   "US_07_01_DELIVERY_SPECIAL_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "US_07_01_DELIVERY_SPECIAL_S"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_DELIVERY_SPECIAL"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "SPEC_01"
+                  truckUiName   =   "SPEC_01_S"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_DELIVERY_SPECIAL"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_DELIVERY_SPECIAL_S"
+               }
+            ]
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "special_1"
+         stagesProgress   =   {
+            stage_hidden   =   {
+            }
+            stage_visible   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_PREPARATION_TRAILS"
+      ]
+      description   =   "US_07_01_DELIVERY_SPECIAL_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   3800
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   420
+         }
+      }
+      employer   =   "OffRroadCup_Stage_2"
+      region   =   "us_07"
+      contractMap   =   ""
+      __type   =   "ContractSettings"
+   }
+   US_07_01_QUALIFICATION_01   =   {
+      uiDesc   =   "US_07_01_QUALIFICATION_01_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_EVACUATION"
+      ]
+      description   =   "US_07_01_QUALIFICATION_01_REW"
+      minimapList   =   "TINY"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   350
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   3500
+         }
+      }
+      employer   =   "OffRroadCup_Stage_1"
+      region   =   "us_07"
+      failReasons   =   {
+         ChangeTruckFailReason   =   {
+         }
+         RecoveryFailReason   =   {
+         }
+         GarageFailReason   =   {
+         }
+         TimeFailReason   =   {
+            timeLimitSec   =   500
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   US_07_01_DELIVER_RIDER_1   =   {
+      uiDesc   =   "US_07_01_DELIVER_RIDER_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RIDER_01"
+                  truckUiName   =   "RIDER_01_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_DELIVER_RIDER_04"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_DELIVER_RIDER_SUB_01_S"
+               },
+               {
+                  truckId   =   "RIDER_04"
+                  truckUiName   =   "RIDER_04_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_DELIVER_RIDER_04"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_DELIVER_RIDER_SUB_04_S"
+               }
+            ]
+            isForceSearchCargoOnMap   =   True
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RIDER_02"
+                  truckUiName   =   "RIDER_02_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_DELIVER_RIDER_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_DELIVER_RIDER_SUB_02_S"
+               }
+            ]
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "RIDER_03"
+                  truckUiName   =   "RIDER_03_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_DELIVER_RIDER_03"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_DELIVER_RIDER_SUB_03_S"
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_CONNECTION"
+      ]
+      description   =   "US_07_01_DELIVER_RIDER_REW"
+      recommendedTruck   =   "NONE"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   11350
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1240
+         }
+      }
+      employer   =   "OffRroadCup_Stage_3"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+   US_07_01_CIRCUIT_RACE_1   =   {
+      uiDesc   =   "US_07_01_CIRCUIT_RACE_1_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            needToStartTimer   =   True
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "intro_02"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   11
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_QUALIFICATION_01",
+         "US_07_01_TRACK_RESTORATION"
+      ]
+      description   =   "US_07_01_CIRCUIT_RACE_1_REW"
+      minimapList   =   "TINY"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   1400
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   360
+         }
+      }
+      isNeedRaceMusic   =   False
+      employer   =   "OffRroadCup_Stage_1"
+      region   =   "us_07"
+      failReasons   =   {
+         GarageFailReason   =   {
+         }
+         RecoveryFailReason   =   {
+         }
+         ChangeTruckFailReason   =   {
+         }
+         TimeFailReason   =   {
+            timeLimitSec   =   180
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   US_07_01_CAREER   =   {
+      uiDesc   =   "US_07_01_CAREER_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_us_07_01"
+         modelTag   =   "intro_01"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   3
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "US_07_01_DELIVERY_SPECIAL",
+         "US_07_01_EXTREME_SLOPE",
+         "US_07_01_EXTREME_DESCENT"
+      ]
+      description   =   "US_07_01_CAREER_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   500
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   50
+         }
+      }
+      employer   =   "OffRroadCup_Stage_2"
+      region   =   "us_07"
+      failReasons   =   {
+         ChangeTruckFailReason   =   {
+         }
+         GarageFailReason   =   {
+         }
+         RecoveryFailReason   =   {
+         }
+         TimeFailReason   =   {
+            timeLimitSec   =   300
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   US_07_01_EXTREME_SLOPE   =   {
+      uiDesc   =   "US_07_01_EXTREME_SLOPE_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_DELIVERY_SPECIAL"
+      ]
+      description   =   "US_07_01_EXTREME_SLOPE_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   950
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   100
+         }
+      }
+      employer   =   "OffRroadCup_Stage_2"
+      region   =   "us_07"
+      failReasons   =   {
+         ChangeTruckFailReason   =   {
+         }
+         GarageFailReason   =   {
+         }
+         RecoveryFailReason   =   {
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   US_07_01_CAREER_SCOUT   =   {
+      uiDesc   =   "US_07_01_CAREER_SCOUT_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "CAREER_01"
+                  truckUiName   =   "CAREER_01_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_SCOUT_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_CAREER_SCOUT_01_S"
+               }
+            ]
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "CAREER_02"
+                  truckUiName   =   "CAREER_02_S"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_us_07_01 || US_07_01_CAREER_SCOUT_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_07_01_CAREER_SCOUT_02_S"
+               }
+            ]
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_RENEWAL_ELECTRICITY",
+         "US_07_01_CIRCUIT_RACE_1"
+      ]
+      description   =   "US_07_01_CAREER_SCOUT_REW"
+      rewards   =   {
+         ObjectiveRewardMoney   =   {
+            amount   =   4450
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   560
+         }
+      }
+      employer   =   "OffRroadCup_Stage_2"
+      region   =   "us_07"
+      __type   =   "ContractSettings"
+   }
+}
+contestSettings   =   {
+   US_07_01_CIRCUIT_RACE   =   {
+      uiDesc   =   "US_07_01_CIRCUIT_RACE_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_01_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               sslModule   =   "game.missions.task_settings"
+               zones   =   [
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_02_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT_03_03"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "US_07_01_CIRCUIT_RACE_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   360
+                  xp   =   740
+                  money   =   3600
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   420
+                  xp   =   400
+                  money   =   2400
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   350
+                  money   =   1000
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      isCoop   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_RACE_START_COOP"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      pvpCoopOn   =   True
+      __type   =   "ContestSettings"
+   }
+   US_07_01_WORKOUT   =   {
+      uiDesc   =   "US_07_01_WORKOUT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_WORKOUT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_WORKOUT_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_WORKOUT_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_TRACK_RESTORATION"
+      ]
+      description   =   "US_07_01_WORKOUT_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   10
+                  xp   =   30
+                  money   =   100
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   15
+                  xp   =   20
+                  money   =   50
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   10
+                  money   =   20
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_WORKOUT_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   US_07_01_PARKOUR   =   {
+      uiDesc   =   "US_07_01_PARKOUR_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_PARKOUR_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_PARKOUR_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_PARKOUR_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_PARKOUR_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_DELIVERY_SPECIAL"
+      ]
+      description   =   "US_07_01_PARKOUR_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   60
+                  xp   =   200
+                  money   =   600
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   90
+                  xp   =   100
+                  money   =   300
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  xp   =   50
+                  money   =   100
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_PARKOUR_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   US_07_01_EXTREME_DESCENT_01   =   {
+      uiDesc   =   "US_07_01_EXTREME_DESCENT_01_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "US_07_01_EXTREME_DESCENT_01_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   90
+                  xp   =   200
+                  money   =   900
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   110
+                  xp   =   160
+                  money   =   700
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  xp   =   100
+                  money   =   450
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      isCoop   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_START_COOP"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      pvpCoopOn   =   True
+      __type   =   "ContestSettings"
+   }
+   US_07_01_QUALIFICATION   =   {
+      uiDesc   =   "US_07_01_QUALIFICATION_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "US_07_01_QUALIFICATION_01_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   300
+                  xp   =   600
+                  money   =   3000
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   330
+                  xp   =   400
+                  money   =   2000
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   250
+                  money   =   1000
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      isCoop   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_START_COOP"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      pvpCoopOn   =   True
+      __type   =   "ContestSettings"
+   }
+   US_07_01_QUALIFICATION_01_START_SOLO   =   {
+      uiDesc   =   "US_07_01_QUALIFICATION_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_QUALIFICATION_01"
+      ]
+      description   =   "US_07_01_QUALIFICATION_01_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   360
+                  xp   =   350
+                  money   =   3500
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   400
+                  xp   =   250
+                  money   =   2500
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  xp   =   150
+                  money   =   1500
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_QUALIFICATION_01_START_SOLO"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      failReasons   =   {
+         TimeFailReason   =   {
+            timeLimitSec   =   500
+         }
+      }
+      __type   =   "ContestSettings"
+   }
+   US_07_01_RACE_START_SOLO   =   {
+      uiDesc   =   "US_07_01_CIRCUIT_RACE_1_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_START"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_START"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            needToStartTimer   =   True
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_05"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_06"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_07"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_08"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_09"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_RACE_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_CIRCUIT_RACE_1"
+      ]
+      description   =   "US_07_01_CIRCUIT_RACE_1_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   120
+                  xp   =   360
+                  money   =   1500
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   140
+                  xp   =   180
+                  money   =   800
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  xp   =   100
+                  money   =   600
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_RACE_START_SOLO"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      failReasons   =   {
+         TimeFailReason   =   {
+            timeLimitSec   =   180
+         }
+      }
+      needToStartTimerInGiverZone   =   False
+      __type   =   "ContestSettings"
+   }
+   US_07_01_EXTREME_SLOPE_SOLO   =   {
+      uiDesc   =   "US_07_01_EXTREME_SLOPE_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_EXTREME_SLOPE"
+      ]
+      description   =   "US_07_01_EXTREME_SLOPE_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   180
+                  xp   =   400
+                  money   =   1800
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   240
+                  xp   =   300
+                  money   =   1000
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   300
+                  xp   =   200
+                  money   =   700
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_SLOPE_SOLO"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      failReasons   =   {
+         TimeFailReason   =   {
+            timeLimitSec   =   360
+         }
+      }
+      __type   =   "ContestSettings"
+   }
+   US_07_01_EXTREME_DESCENT_START_SOLO   =   {
+      uiDesc   =   "US_07_01_EXTREME_DESCENT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_CHECKPOINT"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         },
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "UI_COMMON_RACE_FINISH"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_FINISH"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "US_07_01_EXTREME_DESCENT"
+      ]
+      description   =   "US_07_01_EXTREME_DESCENT_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   90
+                  xp   =   180
+                  money   =   900
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   110
+                  xp   =   100
+                  money   =   600
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  xp   =   60
+                  money   =   300
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      isNeedRaceMusic   =   True
+      taskGiverZone   =   {
+         globalZoneId   =   "level_us_07_01 || US_07_01_EXTREME_DESCENT_START_SOLO"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      failReasons   =   {
+         TimeFailReason   =   {
+            timeLimitSec   =   250
+         }
+      }
+      __type   =   "ContestSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

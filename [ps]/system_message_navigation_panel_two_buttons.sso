@@ -1,0 +1,17 @@
+btns   =   {
+   accept   =   {
+      input   =   {
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   decline   =   {
+      text   =   "UI_DECLINE"
+      input   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "SystemMessageNavigationPanel"

@@ -1,0 +1,91 @@
+view   =   {
+   __type   =   "UiRecentPlayersAndBlackListView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         report   =   {
+            uiInputName   =   "Report"
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            uiInputName   =   "Navigation"
+            __type   =   "NavButtonDesc"
+         }
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         block   =   {
+            uiInputName   =   "Block"
+            __type   =   "NavButtonDesc"
+         }
+         unblock   =   {
+            uiInputName   =   "Block"
+            __type   =   "NavButtonDesc"
+         }
+         profile   =   {
+            uiInputName   =   "Block"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "UiRecentPlayersAndBlackListNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "UiRecentPlayersAndBlackState"
+}
+navBtnTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+inputScreen   =   {
+   priority   =   "LOW"
+   name   =   "UiRecentPlayersAndBlackListController"
+   inputsLinks   =   {
+      Report   =   {
+         inputLink   =   "UI.ReportPlayer"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkActionMr"
+      }
+      TabLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      TabRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkActionMr"
+      }
+      Block   =   {
+         inputLink   =   "UI.BlockUnblockPlayer"
+         __type   =   "InputLinkActionMr"
+      }
+      blockLeftInput   =   {
+         inputLink   =   "UI.UiListLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      blockLeftInputTap   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      blockRightInput   =   {
+         inputLink   =   "UI.UiListRight"
+         __type   =   "InputLinkActionMr"
+      }
+      blockRightInputTap   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

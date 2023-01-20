@@ -1,0 +1,33 @@
+classes   =   {
+   delay   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      duration   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   schedule   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      period   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      startDelay   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   retriggerableDelay   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   WaitOneFrame   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+}
+__type   =   "ssl_object_lib"

@@ -1,0 +1,1193 @@
+classes   =   {
+   AutoClassRegionmetaitemMetaitemname   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   ""
+      sslClass   =   "UiRegionMapAutoclassregionmetaitemmetaitemname"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassRegionmetaprogressMetaheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   ""
+      sslClass   =   "UiRegionMapAutoclassregionmetaprogressmetaheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Gotoobtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "goTooBtn"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   55
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapGotoobtntext"
+      }
+      garageImgAttach   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   20
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellimgattach30"
+      }
+      __type   =   "UiButton"
+   }
+   Gotoobtncontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "goTooBtnContainer"
+      sslClass   =   "UiRegionMapGotoobtncontainer"
+      goGarageBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiRegionMapGotoobtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Gotoobtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "goTooBtnText"
+      sslClass   =   "UiRegionMapGotoobtntext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtnbgimage   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnBgImage"
+      sslClass   =   "UiRegionMapMapbtnbgimage"
+      __type   =   "UiContainer"
+   }
+   Mapbtnbgimage0   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnBgImage0"
+      sslClass   =   "UiRegionMapMapbtnbgimage0"
+      bgImgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnbgimageattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtnbgimage1   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnBgImage1"
+      sslClass   =   "UiRegionMapMapbtnbgimage1"
+      bgImgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnbgimageattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtnbgimage2   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnBgImage2"
+      sslClass   =   "UiRegionMapMapbtnbgimage2"
+      bgImgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnbgimageattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtnbgimage3   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnBgImage3"
+      sslClass   =   "UiRegionMapMapbtnbgimage3"
+      bgImgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnbgimageattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtnbgimageattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnBgImageAttach"
+      sslClass   =   "UiRegionMapMapbtnbgimageattach"
+      __type   =   "UiContainer"
+   }
+   Mapbtnimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnImgAttach"
+      sslClass   =   "UiRegionMapMapbtnimgattach"
+      __type   =   "UiContainer"
+   }
+   Mapbtnimgattach30   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnImgAttach30"
+      sslClass   =   "UiRegionMapMapbtnimgattach30"
+      __type   =   "UiContainer"
+   }
+   Mapbtninfo   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnInfo"
+      sslClass   =   "UiRegionMapMapbtninfo"
+      infoLine0   =   {
+         symbol   =   ""
+         x   =   18
+         y   =   52
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocontainercargo"
+      }
+      infoLine1   =   {
+         symbol   =   ""
+         x   =   18
+         y   =   121
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocontainertrucks"
+      }
+      goGarageBtn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapGotoobtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtnprogressbar   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnProgressBar"
+      sslClass   =   "UiRegionMapMapbtnprogressbar"
+      __type   =   "UiContainer"
+   }
+   Mapbtntextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnTextCont"
+      sslClass   =   "UiRegionMapMapbtntextcont"
+      header   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtntextheader"
+      }
+      value   =   {
+         symbol   =   ""
+         x   =   295
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtntextprogress"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtntextheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnTextHeader"
+      sslClass   =   "UiRegionMapMapbtntextheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbtntextprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapBtnTextProgress"
+      sslClass   =   "UiRegionMapMapbtntextprogress"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "mapButton"
+      imgAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   350
+         y   =   190
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      bar   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnprogressbar"
+      }
+      textCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtntextcont"
+      }
+      mapInfo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -20
+         y   =   -20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiRegionMapMapbtninfo"
+      }
+      imgAttachBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      __type   =   "UiButton"
+   }
+   Mapbutton0   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "mapButton0"
+      mapInfo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -20
+         y   =   -20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiRegionMapMapbtninfo"
+      }
+      mapLockAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   320
+         y   =   167
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      mapHeader   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtntextheader"
+      }
+      imgAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   320
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      imgAttachBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -43
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      bgImage   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -10
+         y   =   -15
+         scaleX   =   105.5542
+         scaleY   =   105.5542
+         __type   =   "UiRegionMapMapbtnbgimage0"
+      }
+      __type   =   "UiButton"
+   }
+   Mapbutton1   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "mapButton1"
+      mapInfo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -20
+         y   =   -20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiRegionMapMapbtninfo"
+      }
+      mapLockAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   325
+         y   =   172
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      mapHeader   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtntextheader"
+      }
+      imgAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   320
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      imgAttachBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      bgImage   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -10
+         y   =   -15
+         scaleX   =   105.5542
+         scaleY   =   105.5542
+         __type   =   "UiRegionMapMapbtnbgimage1"
+      }
+      __type   =   "UiButton"
+   }
+   Mapbutton2   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "mapButton2"
+      mapInfo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -20
+         y   =   -20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiRegionMapMapbtninfo"
+      }
+      mapLockAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   325
+         y   =   172
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      mapHeader   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtntextheader"
+      }
+      imgAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   320
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      imgAttachBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -43
+         y   =   150
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      bgImage   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -10
+         y   =   -15
+         scaleX   =   105.5542
+         scaleY   =   105.5542
+         __type   =   "UiRegionMapMapbtnbgimage2"
+      }
+      __type   =   "UiButton"
+   }
+   Mapbutton3   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "mapButton3"
+      mapInfo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -20
+         y   =   -20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiRegionMapMapbtninfo"
+      }
+      mapLockAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   325
+         y   =   172
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      mapHeader   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtntextheader"
+      }
+      imgAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   320
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      imgAttachBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach"
+      }
+      bgImage   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -10
+         y   =   -15
+         scaleX   =   105.5542
+         scaleY   =   105.5542
+         __type   =   "UiRegionMapMapbtnbgimage3"
+      }
+      __type   =   "UiButton"
+   }
+   Mapinfocellcargo   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapInfoCellCargo"
+      sslClass   =   "UiRegionMapMapinfocellcargo"
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellimgattach20"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapinfocellimgattach20   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapInfoCellImgAttach20"
+      sslClass   =   "UiRegionMapMapinfocellimgattach20"
+      __type   =   "UiContainer"
+   }
+   Mapinfocellimgattach30   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapInfoCellImgAttach30"
+      sslClass   =   "UiRegionMapMapinfocellimgattach30"
+      __type   =   "UiContainer"
+   }
+   Mapinfocelltruck   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapInfoCellTruck"
+      sslClass   =   "UiRegionMapMapinfocelltruck"
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellimgattach30"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapinfocontainercargo   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapInfoContainerCargo"
+      sslClass   =   "UiRegionMapMapinfocontainercargo"
+      textCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfotext"
+      }
+      info0   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellcargo"
+      }
+      info1   =   {
+         symbol   =   ""
+         x   =   37
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellcargo"
+      }
+      info2   =   {
+         symbol   =   ""
+         x   =   72
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellcargo"
+      }
+      info3   =   {
+         symbol   =   ""
+         x   =   107
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellcargo"
+      }
+      info4   =   {
+         symbol   =   ""
+         x   =   142
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellcargo"
+      }
+      info5   =   {
+         symbol   =   ""
+         x   =   177
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocellcargo"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapinfocontainertrucks   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapInfoContainerTrucks"
+      sslClass   =   "UiRegionMapMapinfocontainertrucks"
+      textCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfotext"
+      }
+      info0   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocelltruck"
+      }
+      info1   =   {
+         symbol   =   ""
+         x   =   37
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocelltruck"
+      }
+      info2   =   {
+         symbol   =   ""
+         x   =   72
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocelltruck"
+      }
+      info3   =   {
+         symbol   =   ""
+         x   =   107
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocelltruck"
+      }
+      info4   =   {
+         symbol   =   ""
+         x   =   142
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocelltruck"
+      }
+      info5   =   {
+         symbol   =   ""
+         x   =   177
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapinfocelltruck"
+      }
+      __type   =   "UiContainer"
+   }
+   Mapinfotext   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapInfoText"
+      sslClass   =   "UiRegionMapMapinfotext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Maptransition   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "mapTransition"
+      sslClass   =   "UiRegionMapMaptransition"
+      lockAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   195
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Regioncontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionContainer"
+      sslClass   =   "UiRegionMapRegioncontainer"
+      regionInfoHeader   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   45
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionmapinfoheader"
+      }
+      regionInfoTittle   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   50
+         y   =   110
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionmapinfotittle"
+      }
+      regionInfo   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiRegionMapRegionmapinfo"
+      }
+      metaProgress   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionmetaprogress"
+      }
+      mapBtn0   =   {
+         symbol   =   ""
+         x   =   720
+         y   =   400
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbutton0"
+      }
+      mapBtn1   =   {
+         symbol   =   ""
+         x   =   1190
+         y   =   350
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbutton1"
+      }
+      mapBtn2   =   {
+         symbol   =   ""
+         x   =   755
+         y   =   690
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbutton2"
+      }
+      mapBtn3   =   {
+         symbol   =   ""
+         x   =   1225
+         y   =   640
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbutton3"
+      }
+      transition01   =   {
+         symbol   =   ""
+         x   =   940
+         y   =   500
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMaptransition"
+      }
+      transition02   =   {
+         symbol   =   ""
+         x   =   970
+         y   =   450
+         scaleX   =   100
+         scaleY   =   99.9985
+         rotation   =   89.9982
+         __type   =   "UiRegionMapMaptransition"
+      }
+      transition13   =   {
+         symbol   =   ""
+         x   =   1345
+         y   =   400
+         scaleX   =   100
+         scaleY   =   99.9985
+         rotation   =   89.9982
+         __type   =   "UiRegionMapMaptransition"
+      }
+      transition23   =   {
+         symbol   =   ""
+         x   =   975
+         y   =   750
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMaptransition"
+      }
+      transition12   =   {
+         symbol   =   ""
+         x   =   1016
+         y   =   754
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         rotation   =   -45.0004
+         __type   =   "UiRegionMapMaptransition"
+      }
+      transition03   =   {
+         symbol   =   ""
+         x   =   1023
+         y   =   478
+         scaleX   =   99.9954
+         scaleY   =   99.9954
+         rotation   =   45.0004
+         __type   =   "UiRegionMapMaptransition"
+      }
+      bg   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionscreenbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionhint   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionHint"
+      sslClass   =   "UiRegionMapRegionhint"
+      hint   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiRegionMapRegionhinttf"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionhintstripe   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionHintStripe"
+      sslClass   =   "UiRegionMapRegionhintstripe"
+      __type   =   "UiContainer"
+   }
+   Regionhinttf   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "regionHintTf"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Regionlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "regionLir"
+      lirCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiRegionMapRegionlircontent"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionlirheader"
+      }
+      __type   =   "UiListItem"
+   }
+   Regionlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Regionlircontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionLirContent"
+      sslClass   =   "UiRegionMapRegionlircontent"
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   7.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionlirimg"
+      }
+      textField   =   {
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionlirheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionLirHeader"
+      sslClass   =   "UiRegionMapRegionlirheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionlirimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionLirImg"
+      sslClass   =   "UiRegionMapRegionlirimg"
+      __type   =   "UiContainer"
+   }
+   Regionmapinfo   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionMapInfo"
+      sslClass   =   "UiRegionMapRegionmapinfo"
+      textFeild   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionmapinfoheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionMapInfoHeader"
+      sslClass   =   "UiRegionMapRegionmapinfoheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionmapinfotittle   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionMapInfoTittle"
+      sslClass   =   "UiRegionMapRegionmapinfotittle"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionmetaitem   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionMetaItem"
+      sslClass   =   "UiRegionMapRegionmetaitem"
+      metaItemMask   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      metaItemIconAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      metaItemName   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   105
+         y   =   33
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapAutoclassregionmetaitemmetaitemname"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionmetaprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionMetaProgress"
+      sslClass   =   "UiRegionMapRegionmetaprogress"
+      metaHeader   =   {
+         symbol   =   ""
+         x   =   55
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapAutoclassregionmetaprogressmetaheader"
+      }
+      regionMetaIcon   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapMapbtnimgattach30"
+      }
+      metaItem0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionmetaitem"
+      }
+      metaItem1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   195
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionmetaitem"
+      }
+      metaItem2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   300
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionmetaitem"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionScreen"
+      sslClass   =   "UiRegionMapRegionscreen"
+      tutorialAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionscreenap"
+      }
+      regionHintContent   =   {
+         symbol   =   ""
+         x   =   712
+         y   =   179
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionhint"
+      }
+      tabsAttach   =   {
+         symbol   =   ""
+         x   =   760
+         y   =   39
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegiontabsattach"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionscreenap"
+      }
+      region   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegioncontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionscreenap   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionScreenAp"
+      sslClass   =   "UiRegionMapRegionscreenap"
+      __type   =   "UiContainer"
+   }
+   Regionscreenbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionScreenBg"
+      sslClass   =   "UiRegionMapRegionscreenbg"
+      __type   =   "UiContainer"
+   }
+   Regionscreenheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionScreenHeader"
+      sslClass   =   "UiRegionMapRegionscreenheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionscreenlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "regionScreenList"
+      __type   =   "UiScrollingList"
+   }
+   Regionscreenpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionScreenPanel"
+      sslClass   =   "UiRegionMapRegionscreenpanel"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiRegionMapRegionscreenlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Regiontabsattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_region_map"
+      symbol   =   "regionTabsAttach"
+      sslClass   =   "UiRegionMapRegiontabsattach"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

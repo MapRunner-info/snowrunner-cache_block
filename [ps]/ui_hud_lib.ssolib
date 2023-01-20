@@ -1,0 +1,3722 @@
+classes   =   {
+   AutoClassCargoSlotCargoIcon   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasscargoslotcargoicon"
+      iconAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   7
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibProfileattachpoint"
+      }
+      bg1   =   {
+         symbol   =   ""
+         x   =   -1
+         y   =   -1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCargoslotbg1"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCompassbarlineTf   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasscompassbarlinetf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCompassbarlinemTf   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasscompassbarlinemtf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCutsceneheaderHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasscutsceneheaderheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCutsceneheaderDesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasscutsceneheaderdesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassDatasavecontSavingtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassdatasavecontsavingtext"
+      tf   =   {
+         x   =   -158.1
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassDatasavecontGearsspinner   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassdatasavecontgearsspinner"
+      gears   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassDatasavecontGearsspinnershadow   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassdatasavecontgearsspinnershadow"
+      gears   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassForklifthintHintTextfield   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassforklifthinthinttextfield"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassFuelcounterTf0   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassfuelcountertf0"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassFuelpermincontTfcont0   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassfuelperminconttfcont0"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassFuelpermincontTfcont1   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassfuelperminconttfcont1"
+      tf   =   {
+         x   =   15
+         y   =   -8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassFunctionscontOptionpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassfunctionscontoptionpanel"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibOptionpanellist"
+      }
+      bg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   121.9543
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibFuncpanelbackdrop"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudremarkerArrowtop   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudremarkerarrowtop"
+      arrow   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentContractCurrentContractHeaderContCurrentContractHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentcontractcurrentcontractheadercontcurrentcontractheader"
+      textField   =   {
+         x   =   -166.95
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentContractCurrentContractHeaderCont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentcontractcurrentcontractheadercont"
+      current_contract_header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -345
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentcontractcurrentcontractheadercontcurrentcontractheader"
+      }
+      current_contract_pin   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -40
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      contestTimeCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -66
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibContesttimecontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentContractOldCurrentContractHeaderContCurrentContractHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentcontractoldcurrentcontractheadercontcurrentcontractheader"
+      textField   =   {
+         x   =   -166.95
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentContractOldCurrentContractHeaderCont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentcontractoldcurrentcontractheadercont"
+      current_contract_header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -345
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentcontractoldcurrentcontractheadercontcurrentcontractheader"
+      }
+      current_contract_pin   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -40
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      contestTimeCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -66
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibContesttimecontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentContractOldCongratulationsTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentcontractoldcongratulationstxt"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentLoadingCargoHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentloadingcargoheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentLoadingCargoCap   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentloadingcargocap"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentLoadingTrailerHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentloadingtrailerheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudCurrentLoadingTrailerCap   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudcurrentloadingtrailercap"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudHintHintTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudhinthinttxt"
+      textField   =   {
+         x   =   -290
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudInteractionOptionInteractionOption   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudinteractionoptioninteractionoption"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudInteractionTittleInteractionTittle   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudinteractiontittleinteractiontittle"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudTransmissionStatusText   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudtransmissionstatustext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudTransmissionStatus   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudtransmissionstatus"
+      text   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudtransmissionstatustext"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudTransmissionLinks   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudtransmissionlinks"
+      link_l_up   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      link_l_down   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudTransmissionLinksExp   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudtransmissionlinksexp"
+      link_l_up   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      link_l_down   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudTransmissionPasses   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudtransmissionpasses"
+      pass_h   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      pass_r   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      pass_n   =   {
+         symbol   =   ""
+         x   =   100
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      pass_a   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      pass_l   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudTransmissionEnds   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudtransmissionends"
+      end_l_down   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   80
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      end_l_up   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      end_l_down_ex   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   105
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      end_l_up_ex   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudTransmissionWays   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclasshudtransmissionways"
+      way_n_right   =   {
+         symbol   =   ""
+         x   =   70
+         y   =   61
+         scaleX   =   100
+         scaleY   =   85.6705
+         rotation   =   -89.9965
+         __type   =   "UiMovieClip"
+      }
+      way_n_left   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   61
+         scaleX   =   100
+         scaleY   =   85.7727
+         rotation   =   -89.9956
+         __type   =   "UiMovieClip"
+      }
+      way_n_up   =   {
+         symbol   =   ""
+         x   =   59
+         y   =   20
+         scaleX   =   100
+         scaleY   =   85.7697
+         __type   =   "UiMovieClip"
+      }
+      way_r_down   =   {
+         symbol   =   ""
+         x   =   59
+         y   =   70
+         scaleX   =   100
+         scaleY   =   85.7147
+         __type   =   "UiMovieClip"
+      }
+      way_l_down   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   70
+         scaleX   =   100
+         scaleY   =   28.5736
+         __type   =   "UiMovieClip"
+      }
+      way_l_up   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   40
+         scaleX   =   100
+         scaleY   =   28.5736
+         __type   =   "UiMovieClip"
+      }
+      way_l_down_ex   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   70
+         scaleX   =   100
+         scaleY   =   100.0031
+         __type   =   "UiMovieClip"
+      }
+      way_l_up_ex   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100.0031
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassRemarkerbtnHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassremarkerbtnheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassVehiclemoduletextcontTf0   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassvehiclemoduletextconttf0"
+      tf0   =   {
+         x   =   -10.25
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      tf1   =   {
+         x   =   -10.25
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassVehiclewheelsTfwheelcountcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   ""
+      sslClass   =   "UiHudLibAutoclassvehiclewheelstfwheelcountcontainer"
+      tf0   =   {
+         x   =   -10.25
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      tf1   =   {
+         x   =   -10.25
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AddonIconFunctions   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "addon_icon_functions"
+      sslClass   =   "UiHudLibAddoniconfunctions"
+      __type   =   "UiContainer"
+   }
+   Animeventlog   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "animEventLog"
+      sslClass   =   "UiHudLibAnimeventlog"
+      log   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -800
+         y   =   48
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibEventlog"
+      }
+      __type   =   "UiContainer"
+   }
+   Attachiconcompassbar   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "attachIconCompassBar"
+      sslClass   =   "UiHudLibAttachiconcompassbar"
+      __type   =   "UiContainer"
+   }
+   AttachPointTruckCargo   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "attach_point_truck_cargo"
+      sslClass   =   "UiHudLibAttachpointtruckcargo"
+      __type   =   "UiContainer"
+   }
+   Badconnectionattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "badConnectionAttach"
+      sslClass   =   "UiHudLibBadconnectionattach"
+      __type   =   "UiContainer"
+   }
+   Brakebtnimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "brakeBtnImg"
+      sslClass   =   "UiHudLibBrakebtnimg"
+      __type   =   "UiContainer"
+   }
+   Cargocapacityanimcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "cargoCapacityAnimContainer"
+      sslClass   =   "UiHudLibCargocapacityanimcontainer"
+      currentLoad   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibHudcurrentloading"
+      }
+      __type   =   "UiContainer"
+   }
+   Cargoslotbg1   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "cargoSlotBg1"
+      sslClass   =   "UiHudLibCargoslotbg1"
+      __type   =   "UiContainer"
+   }
+   Cargovaluetf   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "cargoValueTf"
+      sslClass   =   "UiHudLibCargovaluetf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   CargoSlot   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "cargo_slot"
+      sslClass   =   "UiHudLibCargoslot"
+      cargo_icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasscargoslotcargoicon"
+      }
+      __type   =   "UiContainer"
+   }
+   Comapssbarmarkericon   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "comapssBarMarkerIcon"
+      sslClass   =   "UiHudLibComapssbarmarkericon"
+      __type   =   "UiContainer"
+   }
+   Compassbarattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "compassBarAttach"
+      sslClass   =   "UiHudLibCompassbarattach"
+      __type   =   "UiContainer"
+   }
+   Compassbarbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "compassBarBg"
+      sslClass   =   "UiHudLibCompassbarbg"
+      __type   =   "UiContainer"
+   }
+   Compassbarline   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "compassBarLine"
+      sslClass   =   "UiHudLibCompassbarline"
+      tf   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -15
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   35
+         __type   =   "UiHudLibAutoclasscompassbarlinetf"
+      }
+      __type   =   "UiContainer"
+   }
+   Compassbarlinem   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "compassBarLineM"
+      sslClass   =   "UiHudLibCompassbarlinem"
+      tf   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -15
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibAutoclasscompassbarlinemtf"
+      }
+      __type   =   "UiContainer"
+   }
+   Compassbarlines   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "compassBarLineS"
+      sslClass   =   "UiHudLibCompassbarlines"
+      __type   =   "UiContainer"
+   }
+   Compassbarmaker   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "compassBarMaker"
+      sslClass   =   "UiHudLibCompassbarmaker"
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   -20
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibComapssbarmarkericon"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   -20
+         y   =   39
+         scaleX   =   100
+         scaleY   =   100.0031
+         __type   =   "UiHudLibCompassbarmarkertext"
+      }
+      __type   =   "UiContainer"
+   }
+   Compassbarmarkertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "compassBarMarkerText"
+      sslClass   =   "UiHudLibCompassbarmarkertext"
+      tf   =   {
+         x   =   0
+         y   =   -5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Comppasbar180   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "comppasBar180"
+      sslClass   =   "UiHudLibComppasbar180"
+      __type   =   "UiContainer"
+   }
+   Comppasbarl   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "comppasBarL"
+      sslClass   =   "UiHudLibComppasbarl"
+      scaleLineM   =   {
+         symbol   =   ""
+         x   =   108
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCompassbarlinem"
+      }
+      scaleLine   =   {
+         symbol   =   ""
+         x   =   12
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCompassbarline"
+      }
+      __type   =   "UiContainer"
+   }
+   Comppasbarr   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "comppasBarR"
+      sslClass   =   "UiHudLibComppasbarr"
+      scaleLineM   =   {
+         symbol   =   ""
+         x   =   64
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCompassbarlinem"
+      }
+      scaleLine   =   {
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCompassbarline"
+      }
+      __type   =   "UiContainer"
+   }
+   Contesttimecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "contestTimeContainer"
+      sslClass   =   "UiHudLibContesttimecontainer"
+      rewardTrophyIcon   =   {
+         symbol   =   ""
+         x   =   33
+         y   =   7
+         scaleX   =   100.0046
+         scaleY   =   100
+         __type   =   "UiHudLibContesttriphyicon"
+      }
+      contestTimeCounter   =   {
+         symbol   =   ""
+         x   =   -67
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibContesttimer"
+      }
+      __type   =   "UiContainer"
+   }
+   Contesttimer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "contestTimer"
+      sslClass   =   "UiHudLibContesttimer"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contesttriphyicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "contestTriphyIcon"
+      sslClass   =   "UiHudLibContesttriphyicon"
+      __type   =   "UiContainer"
+   }
+   Cutsceneheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "cutSceneHeader"
+      sslClass   =   "UiHudLibCutsceneheader"
+      header   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibAutoclasscutsceneheaderheader"
+      }
+      desc   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   3
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibAutoclasscutsceneheaderdesc"
+      }
+      __type   =   "UiContainer"
+   }
+   Cutsceneheaderap   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "cutSceneHeaderAp"
+      sslClass   =   "UiHudLibCutsceneheaderap"
+      __type   =   "UiContainer"
+   }
+   Damagebar   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "damageBar"
+      sslClass   =   "UiHudLibDamagebar"
+      progress   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   277
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibDamagebarprogress"
+      }
+      __type   =   "UiContainer"
+   }
+   Damagebarprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "damageBarProgress"
+      sslClass   =   "UiHudLibDamagebarprogress"
+      __type   =   "UiContainer"
+   }
+   Damagebarprogressmask   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "damageBarProgressMask"
+      sslClass   =   "UiHudLibDamagebarprogressmask"
+      __type   =   "UiContainer"
+   }
+   Damgebarline   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "damgeBarLine"
+      sslClass   =   "UiHudLibDamgebarline"
+      __type   =   "UiContainer"
+   }
+   Datasavecont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "dataSaveCont"
+      sslClass   =   "UiHudLibDatasavecont"
+      savingText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   158.1
+         y   =   -2.95
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibAutoclassdatasavecontsavingtext"
+      }
+      gearsSpinner   =   {
+         animated   =   True
+         colorMode   =   4
+         symbol   =   ""
+         x   =   404.9
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassdatasavecontgearsspinner"
+      }
+      gearsSpinnerShadow   =   {
+         animated   =   True
+         colorMode   =   4
+         symbol   =   ""
+         x   =   405.7
+         y   =   1.8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassdatasavecontgearsspinnershadow"
+      }
+      __type   =   "UiContainer"
+   }
+   Defaulthud   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "defaultHud"
+      sslClass   =   "UiHudLibDefaulthud"
+      badConnectAttach   =   {
+         symbol   =   ""
+         x   =   1831
+         y   =   25
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibBadconnectionattach"
+      }
+      navPanelHintAnim   =   {
+         symbol   =   ""
+         x   =   959
+         y   =   908
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibNavpanelhintanimation"
+      }
+      hudNavPanel   =   {
+         symbol   =   ""
+         x   =   950
+         y   =   910
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibNavpanelattachpoint"
+      }
+      popupLayer   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPopuplayercontainer"
+      }
+      raceStartAttach   =   {
+         symbol   =   ""
+         x   =   904
+         y   =   343
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudracestartattach"
+      }
+      dataSaveContainer   =   {
+         symbol   =   ""
+         x   =   1415
+         y   =   608
+         scaleX   =   100.0015
+         scaleY   =   100
+         __type   =   "UiHudLibDatasavecont"
+      }
+      cutSceneHeaderAttach   =   {
+         symbol   =   ""
+         x   =   92
+         y   =   72
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCutsceneheaderap"
+      }
+      hint   =   {
+         symbol   =   ""
+         x   =   560
+         y   =   220
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudhint"
+      }
+      damageBarAttach   =   {
+         symbol   =   ""
+         x   =   555
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCompassbarattach"
+      }
+      compass   =   {
+         symbol   =   ""
+         x   =   960
+         y   =   40
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudcompass"
+      }
+      playerInfoAttach   =   {
+         symbol   =   ""
+         x   =   1530
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibProfileattachpoint"
+      }
+      current_contract   =   {
+         symbol   =   ""
+         x   =   1860
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudcurrentcontract"
+      }
+      hudTruckStatsAnimCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   28
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudtruckstatsanimcontainer"
+      }
+      cargoLoadAnimCont   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   204
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCargocapacityanimcontainer"
+      }
+      logAttach   =   {
+         symbol   =   ""
+         x   =   1822
+         y   =   540
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudlogattach"
+      }
+      leftHudPanelContainer   =   {
+         symbol   =   ""
+         x   =   7
+         y   =   400
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibLefthudpanelcont"
+      }
+      rightHudPanelContainer   =   {
+         symbol   =   ""
+         x   =   1640
+         y   =   694
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRighthudpanelcont"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibNavpanelap"
+      }
+      hudPlacement   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibDefhudplacement"
+      }
+      __type   =   "UiContainer"
+   }
+   Defhudplacement   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "defHudPlacement"
+      sslClass   =   "UiHudLibDefhudplacement"
+      __type   =   "UiContainer"
+   }
+   Defrostericon   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "defRosterIcon"
+      sslClass   =   "UiHudLibDefrostericon"
+      __type   =   "UiContainer"
+   }
+   Diffbtnimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "diffBtnImg"
+      sslClass   =   "UiHudLibDiffbtnimg"
+      __type   =   "UiContainer"
+   }
+   Eventlog   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "eventLog"
+      sslClass   =   "UiHudLibEventlog"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibEventlogtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Eventlogtext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "eventLogText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Forklifthint   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "forkLiftHint"
+      sslClass   =   "UiHudLibForklifthint"
+      pc_button_icon_2   =   {
+         symbol   =   ""
+         x   =   180
+         y   =   0
+         scaleX   =   100
+         scaleY   =   99.9786
+         __type   =   "UiMovieClip"
+      }
+      pc_button_icon_1   =   {
+         symbol   =   ""
+         x   =   220
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      hint_textfield   =   {
+         symbol   =   ""
+         x   =   -16
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassforklifthinthinttextfield"
+      }
+      __type   =   "UiContainer"
+   }
+   Forklifthintcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "forkLiftHintContainer"
+      sslClass   =   "UiHudLibForklifthintcontainer"
+      forkLiftHint1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibForklifthint"
+      }
+      forkLiftHint2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   45
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibForklifthint"
+      }
+      forkLiftHint3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibForklifthint"
+      }
+      __type   =   "UiContainer"
+   }
+   Fuelbarcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "fuelBarContainer"
+      sslClass   =   "UiHudLibFuelbarcontainer"
+      __type   =   "UiContainer"
+   }
+   Fuelcounter   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "fuelCounter"
+      sslClass   =   "UiHudLibFuelcounter"
+      tf0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassfuelcountertf0"
+      }
+      __type   =   "UiContainer"
+   }
+   Fuelmetercontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "fuelMeterContainer"
+      sslClass   =   "UiHudLibFuelmetercontainer"
+      fuelPerMin   =   {
+         symbol   =   ""
+         x   =   155
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibFuelpermincont"
+      }
+      counter   =   {
+         symbol   =   ""
+         x   =   49
+         y   =   -2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibFuelcounter"
+      }
+      fuelTankBarCont   =   {
+         symbol   =   ""
+         x   =   52
+         y   =   38
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibFueltankbarcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Fuelpermincont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "fuelPerMinCont"
+      sslClass   =   "UiHudLibFuelpermincont"
+      tfCont0   =   {
+         symbol   =   ""
+         x   =   -13
+         y   =   -6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassfuelperminconttfcont0"
+      }
+      tfCont1   =   {
+         symbol   =   ""
+         x   =   39.5
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassfuelperminconttfcont1"
+      }
+      dangerIcon   =   {
+         symbol   =   ""
+         x   =   -3
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   FuelTankBarContainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "fuel_tank_bar_container"
+      sslClass   =   "UiHudLibFueltankbarcontainer"
+      tankBar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibFuelbarcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Functionscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "functionsCont"
+      sslClass   =   "UiHudLibFunctionscont"
+      funcBtn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   450
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudfuncbtn"
+      }
+      optionPanel   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassfunctionscontoptionpanel"
+      }
+      __type   =   "UiContainer"
+   }
+   FuncPanelBackdrop   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "func_panel_backdrop"
+      sslClass   =   "UiHudLibFuncpanelbackdrop"
+      __type   =   "UiContainer"
+   }
+   Gearboxcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "gearBoxContainer"
+      sslClass   =   "UiHudLibGearboxcontainer"
+      buttonAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   207
+         y   =   41
+         scaleX   =   75
+         scaleY   =   75
+         alpha   =   70
+         __type   =   "UiHudLibNavbuttonattach"
+      }
+      transmission   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   46
+         y   =   41
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudtransmission"
+      }
+      __type   =   "UiContainer"
+   }
+   Hinttextsub   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "hintTextSub"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Hinttextsubrwrd   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "hintTextSubRwrd"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Holdbtnhintcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "holdBtnHintContainer"
+      sslClass   =   "UiHudLibHoldbtnhintcontainer"
+      holdBtnAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -16
+         y   =   75
+         scaleX   =   75
+         scaleY   =   75
+         alpha   =   0
+         __type   =   "UiHudLibHoldbtnattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Holdbtnhintcontainerold   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "holdBtnHintContainerOld"
+      sslClass   =   "UiHudLibHoldbtnhintcontainerold"
+      holdBtnAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -16
+         y   =   64
+         scaleX   =   75
+         scaleY   =   75
+         alpha   =   0
+         __type   =   "UiHudLibHoldbtnattach"
+      }
+      __type   =   "UiContainer"
+   }
+   HoldbtnAttach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "holdBtn_attach"
+      sslClass   =   "UiHudLibHoldbtnattach"
+      __type   =   "UiContainer"
+   }
+   Hudbrakebtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "hudBrakeBtn"
+      buttonAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   207
+         y   =   8
+         scaleX   =   75
+         scaleY   =   75
+         alpha   =   70
+         __type   =   "UiHudLibNavbuttonattach"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibHudbtntext"
+      }
+      iconContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   162
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibBrakebtnimg"
+      }
+      btnBg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibHudbtnbg"
+      }
+      __type   =   "UiButton"
+   }
+   Hudbtnbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudBtnBg"
+      sslClass   =   "UiHudLibHudbtnbg"
+      __type   =   "UiContainer"
+   }
+   Hudbtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudBtnText"
+      sslClass   =   "UiHudLibHudbtntext"
+      tf   =   {
+         x   =   2
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudbtntextcentred   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudBtnTextCentred"
+      sslClass   =   "UiHudLibHudbtntextcentred"
+      tf   =   {
+         x   =   -22
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudcompass   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudCompass"
+      sslClass   =   "UiHudLibHudcompass"
+      markerAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAttachiconcompassbar"
+      }
+      bar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   49
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCompassbarattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Huddiffbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "hudDiffBtn"
+      buttonAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   207.1
+         y   =   8.1
+         scaleX   =   75
+         scaleY   =   75
+         alpha   =   70
+         __type   =   "UiHudLibNavbuttonattach"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibHudbtntext"
+      }
+      iconContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   163
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibDiffbtnimg"
+      }
+      btnBg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibHudbtnbg"
+      }
+      __type   =   "UiButton"
+   }
+   Hudfuncbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "hudFuncBtn"
+      buttonAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -31.9
+         y   =   9.1
+         scaleX   =   75
+         scaleY   =   75
+         alpha   =   70
+         __type   =   "UiHudLibNavbuttonattach"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   26
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibHudbtntextcentred"
+      }
+      __type   =   "UiButton"
+   }
+   Hudlogattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudLogAttach"
+      sslClass   =   "UiHudLibHudlogattach"
+      __type   =   "UiContainer"
+   }
+   Hudpartyroster   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudPartyRoster"
+      sslClass   =   "UiHudLibHudpartyroster"
+      rosterItem2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibPartyrosteritem"
+      }
+      rosterItem1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   74
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibPartyrosteritem"
+      }
+      rosterItem0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   148
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibPartyrosteritem"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudracestartattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudRaceStartAttach"
+      sslClass   =   "UiHudLibHudracestartattach"
+      __type   =   "UiContainer"
+   }
+   Hudremarker   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudReMarker"
+      sslClass   =   "UiHudLibHudremarker"
+      arrowTop   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   20
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibAutoclasshudremarkerarrowtop"
+      }
+      reMarkerAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   40
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRemarker"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudtooltipactionbtn   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudTooltipActionBtn"
+      sslClass   =   "UiHudLibHudtooltipactionbtn"
+      btnAttach   =   {
+         symbol   =   ""
+         x   =   128
+         y   =   -106.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudtooltipattach"
+      }
+      bg   =   {
+         symbol   =   ""
+         x   =   -22
+         y   =   -120
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudtooltipattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudTooltipAttach"
+      sslClass   =   "UiHudLibHudtooltipattach"
+      __type   =   "UiContainer"
+   }
+   Hudtruckstatsanimcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudTruckStatsAnimContainer"
+      sslClass   =   "UiHudLibHudtruckstatsanimcontainer"
+      hudTruckStats   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -28
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibHudtruckstatscontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudtruckstatscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hudTruckStatsContainer"
+      sslClass   =   "UiHudLibHudtruckstatscontainer"
+      truckStatsAttach   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   106
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTruckstatisticsattach"
+      }
+      truckNameCont   =   {
+         symbol   =   ""
+         x   =   140
+         y   =   37
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTrucknamecontainer"
+      }
+      truckTypeAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   102
+         y   =   42.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibTrucktypeimageattach"
+      }
+      truckImgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   32
+         scaleX   =   57.0877
+         scaleY   =   56.6254
+         __type   =   "UiHudLibTruckimgageattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudwdbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "hudWdBtn"
+      buttonAttach   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   207
+         y   =   8
+         scaleX   =   75
+         scaleY   =   75
+         alpha   =   70
+         __type   =   "UiHudLibNavbuttonattach"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibHudbtntext"
+      }
+      iconContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   164
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibWdbtnimg"
+      }
+      btnBg   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibHudbtnbg"
+      }
+      __type   =   "UiButton"
+   }
+   HudCurrentContract   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_current_contract"
+      sslClass   =   "UiHudLibHudcurrentcontract"
+      current_contract_header_cont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentcontractcurrentcontractheadercont"
+      }
+      current_contract_description   =   {
+         symbol   =   ""
+         x   =   -450
+         y   =   52
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTextfieldsmallrightbigglow"
+      }
+      __type   =   "UiContainer"
+   }
+   HudCurrentContractOld   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_current_contract_old"
+      sslClass   =   "UiHudLibHudcurrentcontractold"
+      current_contract_header_cont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentcontractoldcurrentcontractheadercont"
+      }
+      current_contract_status   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   52
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      congratulations_txt   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -340
+         y   =   45
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibAutoclasshudcurrentcontractoldcongratulationstxt"
+      }
+      current_contract_description   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -450
+         y   =   82
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTextfieldsmallrightbigglow"
+      }
+      __type   =   "UiContainer"
+   }
+   HudCurrentContractStatus   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_current_contract_status"
+      sslClass   =   "UiHudLibHudcurrentcontractstatus"
+      __type   =   "UiContainer"
+   }
+   HudCurrentLoading   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_current_loading"
+      sslClass   =   "UiHudLibHudcurrentloading"
+      cargo_header   =   {
+         symbol   =   ""
+         x   =   4
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentloadingcargoheader"
+      }
+      cargo_cap   =   {
+         symbol   =   ""
+         x   =   155
+         y   =   -1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentloadingcargocap"
+      }
+      cargo_header_bg   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      truck_cargo_attach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAttachpointtruckcargo"
+      }
+      trailer_header   =   {
+         symbol   =   ""
+         x   =   223
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentloadingtrailerheader"
+      }
+      trailer_cap   =   {
+         symbol   =   ""
+         x   =   374
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudcurrentloadingtrailercap"
+      }
+      trailer_header_bg   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   219
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      trailer_cargo_attach   =   {
+         symbol   =   ""
+         x   =   219
+         y   =   33
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAttachpointtruckcargo"
+      }
+      __type   =   "UiContainer"
+   }
+   HudHint   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_hint"
+      sslClass   =   "UiHudLibHudhint"
+      rankUpContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   346
+         y   =   -96
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRankupcont"
+      }
+      taskfail   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   350
+         y   =   -85
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibHudhinttaskfailicon"
+      }
+      hint_txt   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibAutoclasshudhinthinttxt"
+      }
+      hintTxtSub   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   111
+         y   =   65
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibHinttextsub"
+      }
+      hintTxtSubReward   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   111
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibHinttextsubrwrd"
+      }
+      __type   =   "UiContainer"
+   }
+   HudHintIconAttach40   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_hint_icon_attach_40"
+      sslClass   =   "UiHudLibHudhinticonattach40"
+      __type   =   "UiContainer"
+   }
+   HudHintTaskfailIcon   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_hint_taskfail_icon"
+      sslClass   =   "UiHudLibHudhinttaskfailicon"
+      icon_attach_40   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   39
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudhinticonattach40"
+      }
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   27
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudhinttaskfailiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   HudHintTaskfailIconAttach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_hint_taskfail_icon_attach"
+      sslClass   =   "UiHudLibHudhinttaskfailiconattach"
+      __type   =   "UiContainer"
+   }
+   HudInteractionContainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_interaction_container"
+      sslClass   =   "UiHudLibHudinteractioncontainer"
+      __type   =   "UiContainer"
+   }
+   HudInteractionOption   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "hud_interaction_option"
+      interaction_option   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiHudLibAutoclasshudinteractionoptioninteractionoption"
+      }
+      __type   =   "UiButton"
+   }
+   HudInteractionTittle   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_interaction_tittle"
+      sslClass   =   "UiHudLibHudinteractiontittle"
+      interaction_tittle   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiHudLibAutoclasshudinteractiontittleinteractiontittle"
+      }
+      __type   =   "UiContainer"
+   }
+   HudTransmission   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_transmission"
+      sslClass   =   "UiHudLibHudtransmission"
+      runner   =   {
+         symbol   =   ""
+         x   =   60
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudtransmissionrunner"
+      }
+      attach_l_up_exp   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_l   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_l_down_exp   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_r   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_h   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_n   =   {
+         symbol   =   ""
+         x   =   100
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_a   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_l_up   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   25
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      attach_l_down   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   75
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      status   =   {
+         symbol   =   ""
+         x   =   -6.5
+         y   =   123
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudtransmissionstatus"
+      }
+      links   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   32.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudtransmissionlinks"
+      }
+      links_exp   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   7.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudtransmissionlinksexp"
+      }
+      passes   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudtransmissionpasses"
+      }
+      ends   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudtransmissionends"
+      }
+      ways   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclasshudtransmissionways"
+      }
+      gamepad_hint_attach   =   {
+         symbol   =   ""
+         x   =   -6.5
+         y   =   93.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      gamepad_hint_attach_exp   =   {
+         symbol   =   ""
+         x   =   93.5
+         y   =   93.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   HudTransmissionRunner   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "hud_transmission_runner"
+      sslClass   =   "UiHudLibHudtransmissionrunner"
+      runner_height   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Iconattachanimcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "iconAttachAnimCont"
+      sslClass   =   "UiHudLibIconattachanimcont"
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRankiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Imgengine   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "imgEngine"
+      sslClass   =   "UiHudLibImgengine"
+      __type   =   "UiContainer"
+   }
+   Imgsuspension   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "imgSuspension"
+      sslClass   =   "UiHudLibImgsuspension"
+      __type   =   "UiContainer"
+   }
+   Imgtank   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "imgTank"
+      sslClass   =   "UiHudLibImgtank"
+      __type   =   "UiContainer"
+   }
+   Imgtransmission   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "imgTransmission"
+      sslClass   =   "UiHudLibImgtransmission"
+      __type   =   "UiContainer"
+   }
+   Imgwheels   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "imgWheels"
+      sslClass   =   "UiHudLibImgwheels"
+      __type   =   "UiContainer"
+   }
+   Lefthudpanelcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "leftHudPanelCont"
+      sslClass   =   "UiHudLibLefthudpanelcont"
+      functionsContainer   =   {
+         symbol   =   ""
+         x   =   37
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibFunctionscont"
+      }
+      partyRoster   =   {
+         symbol   =   ""
+         x   =   38
+         y   =   242
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudpartyroster"
+      }
+      truckStatusContainer   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   347
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTruckstatuscont"
+      }
+      panelPlacement   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   516
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibLefthudpanelplacement"
+      }
+      __type   =   "UiContainer"
+   }
+   Lefthudpanelplacement   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "leftHudPanelPlacement"
+      sslClass   =   "UiHudLibLefthudpanelplacement"
+      __type   =   "UiContainer"
+   }
+   Leveltextcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "levelTextContainer"
+      sslClass   =   "UiHudLibLeveltextcontainer"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Navbuttonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "navButtonAttach"
+      sslClass   =   "UiHudLibNavbuttonattach"
+      __type   =   "UiContainer"
+   }
+   Navpanelap   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "navPanelAp"
+      sslClass   =   "UiHudLibNavpanelap"
+      __type   =   "UiContainer"
+   }
+   Navpanelattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "navPanelAttachPoint"
+      sslClass   =   "UiHudLibNavpanelattachpoint"
+      __type   =   "UiContainer"
+   }
+   Navpanelhintanimation   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "navPanelHintAnimation"
+      sslClass   =   "UiHudLibNavpanelhintanimation"
+      __type   =   "UiContainer"
+   }
+   OperateIconFunctions   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "operate_icon_functions"
+      sslClass   =   "UiHudLibOperateiconfunctions"
+      __type   =   "UiContainer"
+   }
+   Optionbtncheckbox   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "optionBtnCheckBox"
+      sslClass   =   "UiHudLibOptionbtncheckbox"
+      __type   =   "UiContainer"
+   }
+   Optionbtnheadingtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "optionBtnHeadingText"
+      sslClass   =   "UiHudLibOptionbtnheadingtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Optionbtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "optionBtnText"
+      sslClass   =   "UiHudLibOptionbtntext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Optionlistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "optionListContainer"
+      sslClass   =   "UiHudLibOptionlistcontainer"
+      __type   =   "UiContainer"
+   }
+   Optionpanelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "optionPanelAttach"
+      sslClass   =   "UiHudLibOptionpanelattach"
+      __type   =   "UiContainer"
+   }
+   Optionpanellist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "optionPanelList"
+      __type   =   "UiScrollingList"
+   }
+   Optionpanelseparator   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "optionPanelSeparator"
+      sslClass   =   "UiHudLibOptionpanelseparator"
+      __type   =   "UiContainer"
+   }
+   Optionspanellir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "optionsPanelLir"
+      subHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibOptionspanelsubheader"
+      }
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibOptionbtntext"
+      }
+      checkBox   =   {
+         symbol   =   ""
+         x   =   208
+         y   =   3.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibOptionbtncheckbox"
+      }
+      bg   =   {
+         sslModule   =   "ui.ui_gfx"
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   120.1904
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiListItem"
+   }
+   Optionspanellirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Optionspanelsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "optionsPanelSubHeader"
+      sslClass   =   "UiHudLibOptionspanelsubheader"
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   3
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibOptionpanelattach"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibOptionbtnheadingtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyrosterattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterAttach"
+      sslClass   =   "UiHudLibPartyrosterattach"
+      __type   =   "UiContainer"
+   }
+   Partyrosteritem   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterItem"
+      sslClass   =   "UiHudLibPartyrosteritem"
+      platformIcon   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -34
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiHudLibPartyrosterattach"
+      }
+      connectionIndicator   =   {
+         symbol   =   ""
+         x   =   -34
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPartyrosterattach"
+      }
+      voiceIndicator   =   {
+         symbol   =   ""
+         x   =   54
+         y   =   46
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPartyrostervoiceclip"
+      }
+      playerIcon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPartyrosterplayericon"
+      }
+      spinnerAttach   =   {
+         symbol   =   ""
+         x   =   12
+         y   =   12
+         scaleX   =   39.9994
+         scaleY   =   39.9994
+         __type   =   "UiHudLibPartyrosterspinnerattach"
+      }
+      iconDefault   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerName   =   {
+         symbol   =   ""
+         x   =   75
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPartyrosterplayername"
+      }
+      playerTruck   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   75
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibPartyrosterplayertruck"
+      }
+      truckTypeIcon   =   {
+         symbol   =   ""
+         x   =   75
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPartyrosterattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyrosterplayericon   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterPlayerIcon"
+      sslClass   =   "UiHudLibPartyrosterplayericon"
+      __type   =   "UiContainer"
+   }
+   Partyrosterplayername   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterPlayerName"
+      sslClass   =   "UiHudLibPartyrosterplayername"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyrosterplayertruck   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterPlayerTruck"
+      sslClass   =   "UiHudLibPartyrosterplayertruck"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Partyrosterspinner   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterSpinner"
+      sslClass   =   "UiHudLibPartyrosterspinner"
+      __type   =   "UiContainer"
+   }
+   Partyrosterspinnerattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterSpinnerAttach"
+      sslClass   =   "UiHudLibPartyrosterspinnerattach"
+      __type   =   "UiContainer"
+   }
+   Partyrostervoiceclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "partyRosterVoiceClip"
+      sslClass   =   "UiHudLibPartyrostervoiceclip"
+      __type   =   "UiContainer"
+   }
+   Popupanimattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "popUpAnimAttach"
+      sslClass   =   "UiHudLibPopupanimattach"
+      popUp   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibPopupattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   Popupattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "popUpAttachPoint"
+      sslClass   =   "UiHudLibPopupattachpoint"
+      __type   =   "UiContainer"
+   }
+   Popuplayercontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "popUpLayerContainer"
+      sslClass   =   "UiHudLibPopuplayercontainer"
+      popupAnimAttach   =   {
+         symbol   =   ""
+         x   =   770
+         y   =   260
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPopupanimattach"
+      }
+      popupAnimAttachCargo   =   {
+         symbol   =   ""
+         x   =   1258
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPopupanimattach"
+      }
+      popupAnimAttachRepair   =   {
+         symbol   =   ""
+         x   =   1258
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPopupanimattach"
+      }
+      popupAttach   =   {
+         symbol   =   ""
+         x   =   770
+         y   =   260
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPopupattachpoint"
+      }
+      popupAttachCargo   =   {
+         symbol   =   ""
+         x   =   1258
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPopupattachpoint"
+      }
+      popupAttachRepair   =   {
+         symbol   =   ""
+         x   =   1258
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibPopupattachpoint"
+      }
+      placement   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Profileattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "profileAttachPoint"
+      sslClass   =   "UiHudLibProfileattachpoint"
+      __type   =   "UiContainer"
+   }
+   Racestartanimation   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "raceStartAnimation"
+      sslClass   =   "UiHudLibRacestartanimation"
+      __type   =   "UiContainer"
+   }
+   Rankiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "rankIconAttach"
+      sslClass   =   "UiHudLibRankiconattach"
+      __type   =   "UiContainer"
+   }
+   Rankupcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "rankUpCont"
+      sslClass   =   "UiHudLibRankupcont"
+      levelTextCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   38
+         y   =   44
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibLeveltextcontainer"
+      }
+      iconAttachAnimContainer   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1
+         y   =   -6
+         scaleX   =   74.9908
+         scaleY   =   74.9908
+         alpha   =   0
+         __type   =   "UiHudLibIconattachanimcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Remarker   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarker"
+      sslClass   =   "UiHudLibRemarker"
+      iconAttachPoint0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   -40
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      iconAttachPoint1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -40
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      iconAttachPoint2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -40
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      iconAttachPoint3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -40
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      iconAttachPoint4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -40
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      iconAttachPoint5   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -40
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Remarkerbtn   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtn"
+      sslClass   =   "UiHudLibRemarkerbtn"
+      header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   50
+         y   =   -10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassremarkerbtnheader"
+      }
+      value   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   50
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRemarkervalue"
+      }
+      btnAttachPoint   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Remarkerbtnempty   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnEmpty"
+      sslClass   =   "UiHudLibRemarkerbtnempty"
+      __type   =   "UiContainer"
+   }
+   Remarkerbtnnone   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnNone"
+      sslClass   =   "UiHudLibRemarkerbtnnone"
+      __type   =   "UiContainer"
+   }
+   Remarkerbtnsource   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnSource"
+      sslClass   =   "UiHudLibRemarkerbtnsource"
+      __type   =   "UiContainer"
+   }
+   Remarkerbtnsubnone   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnSubNone"
+      sslClass   =   "UiHudLibRemarkerbtnsubnone"
+      __type   =   "UiContainer"
+   }
+   Remarkerbtnsubsource   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnSubSource"
+      sslClass   =   "UiHudLibRemarkerbtnsubsource"
+      __type   =   "UiContainer"
+   }
+   Remarkerbtnsubtarget   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnSubTarget"
+      sslClass   =   "UiHudLibRemarkerbtnsubtarget"
+      __type   =   "UiContainer"
+   }
+   Remarkerbtntaboo   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnTaboo"
+      sslClass   =   "UiHudLibRemarkerbtntaboo"
+      __type   =   "UiContainer"
+   }
+   Remarkerbtntarget   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "reMarkerBtnTarget"
+      sslClass   =   "UiHudLibRemarkerbtntarget"
+      __type   =   "UiContainer"
+   }
+   Remarkervalue   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "reMarkerValue"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Righthudpanelcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "rightHudPanelCont"
+      sslClass   =   "UiHudLibRighthudpanelcont"
+      holdBtnHintCont   =   {
+         symbol   =   ""
+         x   =   223
+         y   =   79
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHoldbtnhintcontainer"
+      }
+      hintAnim   =   {
+         symbol   =   ""
+         x   =   8
+         y   =   -80
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRighthudpanelhintanim"
+      }
+      forkLiftHintCont   =   {
+         symbol   =   ""
+         x   =   -54.45
+         y   =   186
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibForklifthintcontainer"
+      }
+      gearBox   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   146
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibGearboxcontainer"
+      }
+      diffBtn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   104
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHuddiffbtn"
+      }
+      wdBtn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   56
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudwdbtn"
+      }
+      brakeBtn   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibHudbrakebtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Righthudpanelhint   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "rightHudPanelHint"
+      sslClass   =   "UiHudLibRighthudpanelhint"
+      hintTextCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRightpanelhinttextcontainer"
+      }
+      bg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibRighthudpaneltextbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Righthudpanelhintanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "rightHudPanelHintAnim"
+      sslClass   =   "UiHudLibRighthudpanelhintanim"
+      hint   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibRighthudpanelhint"
+      }
+      __type   =   "UiContainer"
+   }
+   Righthudpaneltextbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "rightHudPanelTextBg"
+      sslClass   =   "UiHudLibRighthudpaneltextbg"
+      __type   =   "UiContainer"
+   }
+   Rightpanelhinttextcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "rightPanelHintTextContainer"
+      sslClass   =   "UiHudLibRightpanelhinttextcontainer"
+      tf   =   {
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Textfieldsmallrightbigglow   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "textfieldSmallRightBigGlow"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Truckdmgmarker   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckDmgMarker"
+      sslClass   =   "UiHudLibTruckdmgmarker"
+      truckDmgModulePart   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   48
+         y   =   -10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTruckdmgmodulepartname"
+      }
+      partImg   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   22
+         y   =   18
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTruckdmgpart"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   48
+         y   =   22
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTruckdmgtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckdmgmodulepartname   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckDmgModulePartName"
+      sslClass   =   "UiHudLibTruckdmgmodulepartname"
+      tf   =   {
+         x   =   0
+         y   =   -2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckdmgpart   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckDmgPart"
+      sslClass   =   "UiHudLibTruckdmgpart"
+      __type   =   "UiContainer"
+   }
+   Truckdmgtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckDmgText"
+      sslClass   =   "UiHudLibTruckdmgtext"
+      dmgValue   =   {
+         symbol   =   ""
+         x   =   1
+         y   =   -8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibTruckdmgvalue"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckdmgvalue   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckDmgValue"
+      sslClass   =   "UiHudLibTruckdmgvalue"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckimgageattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckImgageAttach"
+      sslClass   =   "UiHudLibTruckimgageattach"
+      __type   =   "UiContainer"
+   }
+   Truckmarkerpartimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckMarkerPartImg"
+      sslClass   =   "UiHudLibTruckmarkerpartimg"
+      __type   =   "UiContainer"
+   }
+   Trucknamecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckNameContainer"
+      sslClass   =   "UiHudLibTrucknamecontainer"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckstatisticsattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckStatisticsAttach"
+      sslClass   =   "UiHudLibTruckstatisticsattach"
+      __type   =   "UiContainer"
+   }
+   Truckstatuscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckStatusCont"
+      sslClass   =   "UiHudLibTruckstatuscont"
+      wheels   =   {
+         symbol   =   ""
+         x   =   36
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclewheels"
+      }
+      tank   =   {
+         symbol   =   ""
+         x   =   86
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehicletank"
+      }
+      engine   =   {
+         symbol   =   ""
+         x   =   136
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehicleengine"
+      }
+      transmission   =   {
+         symbol   =   ""
+         x   =   186
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehicletransmission"
+      }
+      suspension   =   {
+         symbol   =   ""
+         x   =   236
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclesuspension"
+      }
+      fuelMeter   =   {
+         symbol   =   ""
+         x   =   38
+         y   =   185
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibFuelmetercontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucktypeimageattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truckTypeImageAttach"
+      sslClass   =   "UiHudLibTrucktypeimageattach"
+      __type   =   "UiContainer"
+   }
+   TruckCargo   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "truck_cargo"
+      sslClass   =   "UiHudLibTruckcargo"
+      slot_1   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibCargoslot"
+      }
+      slot_2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibCargoslot"
+      }
+      slot_3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibCargoslot"
+      }
+      slot_4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibCargoslot"
+      }
+      slot_5   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibCargoslot"
+      }
+      slot_6   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibCargoslot"
+      }
+      slot_7   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibCargoslot"
+      }
+      slot_8   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiHudLibCargoslot"
+      }
+      cargoValue   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   45
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   60
+         __type   =   "UiHudLibCargovaluetf"
+      }
+      __type   =   "UiContainer"
+   }
+   Universalspinner   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "universalSpinner"
+      sslClass   =   "UiHudLibUniversalspinner"
+      __type   =   "UiContainer"
+   }
+   Vehicleengine   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicleEngine"
+      sslClass   =   "UiHudLibVehicleengine"
+      rapair   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1.85
+         y   =   -5.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      warning   =   {
+         symbol   =   ""
+         x   =   -5
+         y   =   28
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemodulebar"
+      }
+      img   =   {
+         symbol   =   ""
+         x   =   23
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibImgengine"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   4
+         y   =   47
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemoduletextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Vehiclemodulebar   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicleModuleBar"
+      sslClass   =   "UiHudLibVehiclemodulebar"
+      __type   =   "UiContainer"
+   }
+   Vehiclemoduletextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicleModuleTextCont"
+      sslClass   =   "UiHudLibVehiclemoduletextcont"
+      tf0   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   -5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassvehiclemoduletextconttf0"
+      }
+      __type   =   "UiContainer"
+   }
+   Vehiclesuspension   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicleSuspension"
+      sslClass   =   "UiHudLibVehiclesuspension"
+      rapair   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1.85
+         y   =   -5.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      warning   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -5
+         y   =   28
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      bar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemodulebar"
+      }
+      img   =   {
+         symbol   =   ""
+         x   =   23
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibImgsuspension"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   4
+         y   =   47
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemoduletextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Vehicletank   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicleTank"
+      sslClass   =   "UiHudLibVehicletank"
+      rapair   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1.85
+         y   =   -5.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      warning   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -5
+         y   =   28
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      bar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemodulebar"
+      }
+      img   =   {
+         symbol   =   ""
+         x   =   23
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibImgtank"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   4
+         y   =   47
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemoduletextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Vehicletransmission   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicleTransmission"
+      sslClass   =   "UiHudLibVehicletransmission"
+      rapair   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1.85
+         y   =   -5.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      warning   =   {
+         symbol   =   ""
+         x   =   -5
+         y   =   28
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemodulebar"
+      }
+      img   =   {
+         symbol   =   ""
+         x   =   23
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibImgtransmission"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   3.75
+         y   =   47
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemoduletextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Vehiclewheels   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicleWheels"
+      sslClass   =   "UiHudLibVehiclewheels"
+      rapair   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1.85
+         y   =   -5.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      warning   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -5
+         y   =   28
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      bar   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibVehiclemodulebar"
+      }
+      tfWheelCountContainer   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   42
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibAutoclassvehiclewheelstfwheelcountcontainer"
+      }
+      img   =   {
+         symbol   =   ""
+         x   =   23
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiHudLibImgwheels"
+      }
+      __type   =   "UiContainer"
+   }
+   VehicleIconFunctions   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "vehicle_icon_functions"
+      sslClass   =   "UiHudLibVehicleiconfunctions"
+      __type   =   "UiContainer"
+   }
+   Wdbtnimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_hud_lib"
+      symbol   =   "wdBtnImg"
+      sslClass   =   "UiHudLibWdbtnimg"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

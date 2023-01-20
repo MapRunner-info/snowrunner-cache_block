@@ -1,0 +1,10 @@
+defaultSpeedForMaxVolume   =   2
+speedForMaxVolume   =   {
+   train   =   {
+      __value   =   2
+   }
+   trailer_train_rocket   =   {
+      __value   =   2
+   }
+}
+__type   =   "object"

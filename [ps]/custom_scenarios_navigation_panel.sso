@@ -1,0 +1,28 @@
+useBg   =   True
+btns   =   {
+   Back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   navigation   =   {
+      text   =   "UI_NAVIGATION"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      hideWithCustomSteeringWheelPreset   =   True
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+   ChangeDifficulty   =   {
+      text   =   "UI_CUSTOM_SCENARIO_CHANGE_DIFFICULTY"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      hideWithCustomSteeringWheelPreset   =   True
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

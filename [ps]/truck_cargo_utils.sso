@@ -1,0 +1,19 @@
+cargoAutoloadCountSettings   =   [
+   {
+      name   =   "CargoLogsMedium"
+      autoloadCount   =   3
+   },
+   {
+      name   =   "CargoLogsLong"
+      autoloadCount   =   3
+   },
+   {
+      name   =   "CargoLogsShort"
+      autoloadCount   =   3
+   },
+   {
+      name   =   "CargoLogsMedium_Burnt"
+      autoloadCount   =   3
+   }
+]
+__type   =   "object"

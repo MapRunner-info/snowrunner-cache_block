@@ -1,0 +1,8 @@
+gameLogView   =   {
+   uiAnimatedQueue   =   {
+      placingType   =   1
+      __type   =   "UiGfxAnimatedQueue"
+   }
+   __type   =   "GameLogView"
+}
+__type   =   "HudControllerMrBase"

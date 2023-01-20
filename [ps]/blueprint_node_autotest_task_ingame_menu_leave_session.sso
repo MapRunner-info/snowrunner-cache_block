@@ -1,0 +1,7 @@
+delayBeforeStart   =   1000
+delayBeforeSuccess   =   1000
+beforeMainMenu   =   2000
+beforeConfirm   =   1000
+before_main_menu   =   3000
+before_inter_main_menu   =   1000
+__type   =   "BlueprintNodeAutotestTaskBase"

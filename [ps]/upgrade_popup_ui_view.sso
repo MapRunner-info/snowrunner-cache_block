@@ -1,0 +1,59 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         itemReward   =   {
+            itemRewardAvailability   =   {
+               tf   =   {
+                  isHtml   =   True
+                  __type   =   "UiLabel"
+               }
+               __type   =   "UiPopupLibItemrewardhint"
+            }
+            truckList   =   {
+               editable   =   False
+               isHtml   =   True
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiPopupLibItemrewardtrucklist"
+            }
+            __type   =   "UiPopupLibAutoclasshudpopuprewarditemreward"
+         }
+         __type   =   "UiPopupLibHudpopupreward"
+      }
+      __type   =   "UiPopupLibHudanimpopupreward"
+   }
+   __type   =   "UiObjectDesc"
+}
+showSound   =   "ui\\ui_upgrade"
+hideSound   =   ""
+currentTruckColor   =   {
+   a   =   255
+   r   =   163
+   g   =   199
+   b   =   107
+   __type   =   "Color"
+}
+ownedTruckColor   =   {
+   a   =   255
+   r   =   255
+   g   =   255
+   b   =   255
+   __type   =   "Color"
+}
+unownedTruckColor   =   {
+   a   =   255
+   r   =   103
+   g   =   105
+   b   =   105
+   __type   =   "Color"
+}
+unavailableTruckColor   =   {
+   a   =   255
+   r   =   233
+   g   =   116
+   b   =   78
+   __type   =   "Color"
+}
+headerIconName   =   "upgradeCreatePopupImg"
+__type   =   "PopupViewBase"

@@ -1,0 +1,506 @@
+craneNavPanel   =   {
+   view   =   {
+      uiObjectDesc   =   {
+         type   =   {
+            verticalAlign   =   2
+            __type   =   "UiNavigationLegendNavigationlegend"
+         }
+         __type   =   "UiObjectDesc"
+      }
+      __type   =   "NavLegendView"
+   }
+   sectionDescs   =   [
+      {
+         type   =   {
+            view   =   {
+               text   =   "UI_CRANE_CONTROL"
+               __type   =   "NavLegendSectionView"
+            }
+            hintDescs   =   [
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_CARGO_ATTACH_DETACH"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.AttachCargo"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.AttachCargo"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     __type   =   "NavLegendHintController"
+                  }
+               },
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_ANCHOR"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.EnableAnchor"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.EnableAnchor"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     excludedDevices   =   [
+                        "steering_wheel",
+                        "farm_sideboard"
+                     ]
+                     id   =   "anchors"
+                     __type   =   "NavLegendHintController"
+                  }
+               }
+            ]
+            __type   =   "NavLegendSectionController"
+         }
+      },
+      {
+         type   =   {
+            view   =   {
+               text   =   "UI_CRANE_MOVEMENT"
+               __type   =   "NavLegendSectionView"
+            }
+            hintDescs   =   [
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_PULL_PUSH_ARROW"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.MoveDown"
+                        },
+                        {
+                           inputLink   =   "Crane.MoveUp"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.moveYPlane"
+                           __type   =   "InputLinkMr"
+                        }
+                        isVector   =   True
+                        order   =   [
+                           "BACKWARD",
+                           "FORWARD"
+                        ]
+                        craneMoveYByAxis   =   True
+                        inputLinkAxis   =   {
+                           inputLink   =   "Crane.MoveYAxis"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     __type   =   "NavLegendHintController"
+                  }
+               },
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_MOVE_HORIZONTALY"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.FakeMoveF"
+                        },
+                        {
+                           inputLink   =   "Crane.FakeMoveL"
+                        },
+                        {
+                           inputLink   =   "Crane.FakeMoveD"
+                        },
+                        {
+                           inputLink   =   "Crane.FakeMoveR"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.moveXZplane"
+                           __type   =   "InputLinkMr"
+                        }
+                        isVector   =   True
+                        order   =   [
+                           "FORWARD",
+                           "BACKWARD",
+                           "LEFT",
+                           "RIGHT"
+                        ]
+                        craneMoveXZByAxis   =   True
+                        inputLinkAxis   =   {
+                           inputLink   =   "Crane.MoveXAxis"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     iconXbox   =   "xb_LAXIS_UDLR"
+                     iconPS4   =   "ps_LAXIS_UDLR"
+                     iconNX   =   "nx_LAXIS_UDLR"
+                     iconStadia   =   "stadia_LAXIS_UDLR"
+                     __type   =   "NavLegendHintController"
+                  }
+               }
+            ]
+            __type   =   "NavLegendSectionController"
+         }
+      },
+      {
+         type   =   {
+            __type   =   "NavLegendChangingSectionController"
+         }
+      },
+      {
+         type   =   {
+            sslModule   =   "ui.components.nav_legend.nav_legend_section_controller"
+            view   =   {
+               text   =   "UI_CRANE_MODE"
+               __type   =   "NavLegendSectionView"
+            }
+            hintDescs   =   [
+               {
+                  sslModule   =   "ui.components.nav_legend.nav_legend_hint_controller"
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_EXIT"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.ExitAdvance"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.ExitAdvance"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     __type   =   "NavLegendHintController"
+                  }
+               },
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_HIDE_NAV_LEGEND"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.HideNavLegend"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.HideNavLegend"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     excludedDevices   =   [
+                        "steering_wheel",
+                        "farm_sideboard"
+                     ]
+                     __type   =   "NavLegendHintController"
+                  }
+               }
+            ]
+            __type   =   "NavLegendSectionController"
+         }
+      }
+   ]
+   __type   =   "NavLegendController"
+}
+logCraneNavPanel   =   {
+   view   =   {
+      uiObjectDesc   =   {
+         type   =   {
+            verticalAlign   =   2
+            __type   =   "UiNavigationLegendNavigationlegend"
+         }
+         __type   =   "UiObjectDesc"
+      }
+      __type   =   "NavLegendView"
+   }
+   sectionDescs   =   [
+      {
+         type   =   {
+            view   =   {
+               text   =   "UI_CRANE_CONTROL"
+               __type   =   "NavLegendSectionView"
+            }
+            hintDescs   =   [
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_ANCHOR"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.EnableAnchor"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.EnableAnchor"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     id   =   "anchors"
+                     __type   =   "NavLegendHintController"
+                  }
+               }
+            ]
+            __type   =   "NavLegendSectionController"
+         }
+      },
+      {
+         type   =   {
+            view   =   {
+               text   =   "UI_CRANE_MOVEMENT"
+               __type   =   "NavLegendSectionView"
+            }
+            hintDescs   =   [
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_PULL_PUSH_ARROW"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.MoveDown"
+                        },
+                        {
+                           inputLink   =   "Crane.MoveUp"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.moveYPlane"
+                           __type   =   "InputLinkMr"
+                        }
+                        isVector   =   True
+                        order   =   [
+                           "BACKWARD",
+                           "FORWARD"
+                        ]
+                        craneMoveYByAxis   =   True
+                        inputLinkAxis   =   {
+                           inputLink   =   "Crane.MoveYAxis"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     __type   =   "NavLegendHintController"
+                  }
+               },
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_MOVE_HORIZONTALY"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.FakeMoveF"
+                        },
+                        {
+                           inputLink   =   "Crane.FakeMoveL"
+                        },
+                        {
+                           inputLink   =   "Crane.FakeMoveD"
+                        },
+                        {
+                           inputLink   =   "Crane.FakeMoveR"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.moveXZplane"
+                           __type   =   "InputLinkMr"
+                        }
+                        isVector   =   True
+                        order   =   [
+                           "FORWARD",
+                           "BACKWARD",
+                           "LEFT",
+                           "RIGHT"
+                        ]
+                        craneMoveXZByAxis   =   True
+                        inputLinkAxis   =   {
+                           inputLink   =   "Crane.MoveXAxis"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     iconXbox   =   "xb_LAXIS_UDLR"
+                     iconPS4   =   "ps_LAXIS_UDLR"
+                     iconNX   =   "nx_LAXIS_UDLR"
+                     iconStadia   =   "stadia_LAXIS_UDLR"
+                     __type   =   "NavLegendHintController"
+                  }
+               }
+            ]
+            __type   =   "NavLegendSectionController"
+         }
+      },
+      {
+         type   =   {
+            view   =   {
+               text   =   "UI_LOG_CRANE_GRABBER"
+               __type   =   "NavLegendSectionView"
+            }
+            hintDescs   =   [
+               {
+                  type   =   {
+                     sslModule   =   "ui.components.nav_legend.nav_legend_hint_controller"
+                     view   =   {
+                        sslModule   =   "ui.components.nav_legend.nav_legend_hint_view"
+                        text   =   "UI_LOG_CRANE_GRABBER_ACTIVATE"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           sslModule   =   "input.input_links_mr"
+                           inputLink   =   "Crane.AttachCargo"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        sslModule   =   "ui.components.nav_legend.nav_legend_hint_controller"
+                        inputLink   =   {
+                           sslModule   =   "input.input_links_mr"
+                           inputLink   =   "Crane.AttachCargo"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     __type   =   "NavLegendHintController"
+                  }
+               },
+               {
+                  type   =   {
+                     sslModule   =   "ui.components.nav_legend.nav_legend_hint_controller"
+                     view   =   {
+                        sslModule   =   "ui.components.nav_legend.nav_legend_hint_view"
+                        text   =   "UI_LOG_CRANE_GRABBER_ROTATION"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           sslModule   =   "input.input_links_mr"
+                           inputLink   =   "Crane.TurnCounterClockwise"
+                        },
+                        {
+                           sslModule   =   "input.input_links_mr"
+                           inputLink   =   "Crane.TurnClockwise"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        sslModule   =   "ui.components.nav_legend.nav_legend_hint_controller"
+                        inputLink   =   {
+                           sslModule   =   "input.input_links_mr"
+                           inputLink   =   "Crane.WinchActions"
+                           __type   =   "InputLinkMr"
+                        }
+                        isVector   =   True
+                        order   =   [
+                           "RIGHT",
+                           "LEFT"
+                        ]
+                        craneCargoRotationAxis   =   True
+                        inputLinkAxis   =   {
+                           sslModule   =   "input.input_links_mr"
+                           inputLink   =   "Crane.CargoRotationAxis"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     __type   =   "NavLegendHintController"
+                  }
+               }
+            ]
+            __type   =   "NavLegendSectionController"
+         }
+      },
+      {
+         type   =   {
+            view   =   {
+               text   =   "UI_CRANE_MODE"
+               __type   =   "NavLegendSectionView"
+            }
+            hintDescs   =   [
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_CRANE_EXIT"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.ExitAdvance"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.ExitAdvance"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     __type   =   "NavLegendHintController"
+                  }
+               },
+               {
+                  type   =   {
+                     view   =   {
+                        text   =   "UI_HIDE_NAV_LEGEND"
+                        __type   =   "NavLegendHintView"
+                     }
+                     inputs   =   [
+                        {
+                           inputLink   =   "Crane.HideNavLegend"
+                        }
+                     ]
+                     steeringWheelInputDesc   =   {
+                        inputLink   =   {
+                           inputLink   =   "Crane.HideNavLegend"
+                           __type   =   "InputLinkMr"
+                        }
+                        __type   =   "NavLegendHintControllerInput"
+                     }
+                     excludedDevices   =   [
+                        "steering_wheel",
+                        "farm_sideboard"
+                     ]
+                     __type   =   "NavLegendHintController"
+                  }
+               }
+            ]
+            __type   =   "NavLegendSectionController"
+         }
+      }
+   ]
+   __type   =   "NavLegendController"
+}
+customNavLegend   =   {
+   __type   =   "CustomNavigationLegendController"
+}
+__type   =   "HudTruckControllerBase"

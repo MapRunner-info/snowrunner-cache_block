@@ -1,0 +1,54 @@
+uiObject   =   {
+   line0   =   {
+      isHtml   =   True
+      __type   =   "UiCustomizationLibWheelsperformancetf"
+   }
+   line1   =   {
+      isHtml   =   True
+      __type   =   "UiCustomizationLibWheelsperformancetf"
+   }
+   line2   =   {
+      isHtml   =   True
+      __type   =   "UiCustomizationLibWheelsperformancetf"
+   }
+   line3   =   {
+      isHtml   =   True
+      __type   =   "UiCustomizationLibWheelsperformancetf"
+   }
+   __type   =   "UiCustomizationLibWheelsperformance"
+}
+limitPoorToAverage   =   0.6
+limitAverageToGood   =   1.3
+limitGoodToExellent   =   2
+limitPoorToAverageScout   =   0.6
+limitAverageToGoodScout   =   1.1
+limitGoodToExellentScout   =   1.5
+ratingDesc   =   {
+   POOR   =   {
+      __value   =   "UI_GARAGE_CUSTOMIZATION_PERFORMANCE_POOR"
+   }
+   AVERAGE   =   {
+      __value   =   "UI_GARAGE_CUSTOMIZATION_PERFORMANCE_AVERAGE"
+   }
+   GOOD   =   {
+      __value   =   "UI_GARAGE_CUSTOMIZATION_PERFORMANCE_GOOD"
+   }
+   EXELLENT   =   {
+      __value   =   "UI_GARAGE_CUSTOMIZATION_PERFORMANCE_EXCELLENT"
+   }
+}
+ratingColor   =   {
+   POOR   =   {
+      __value   =   "ff6920"
+   }
+   AVERAGE   =   {
+      __value   =   "d1c4aa"
+   }
+   GOOD   =   {
+      __value   =   "f0f179"
+   }
+   EXELLENT   =   {
+      __value   =   "ffdd3d"
+   }
+}
+__type   =   "object"

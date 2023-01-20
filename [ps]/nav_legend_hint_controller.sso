@@ -1,0 +1,10 @@
+view   =   {
+   __type   =   "NavLegendHintView"
+}
+steeringWheelInputDesc   =   {
+   inputLink   =   {
+      __type   =   "InputLinkMr"
+   }
+   __type   =   "NavLegendHintControllerInput"
+}
+__type   =   "ComponentUiControllerBase"

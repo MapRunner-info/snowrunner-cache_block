@@ -1,0 +1,147 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Last Life (12)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Layer 1 Distort"
+							__hint = "texture0"
+							__hidden = true
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+ 
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+					floatParam01 = {
+						__viewType {
+							__caption = "Desaturation Amount"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+					floatParam02 = {
+						__viewType {
+							__caption = "Vignette Start Radius"
+							__hint = "Range: [0 - 3]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 3.0
+						}
+						__type = "float"
+					}
+					floatParam03 = {
+						__viewType {
+							__caption = "Vignette End Radius"
+							__hint = "Range: [0 - 3]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 3.0
+						}
+						__type = "float"
+					}
+					floatParam04 = {
+						__viewType {
+							__caption = "Vignette Multiply"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+					floatParam05 = {
+						__viewType {
+							__caption = "Vignette Blur"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+										
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+							__hidden = true
+						}
+					}
+
+				}
+			}
+
+		}
+	}
+}

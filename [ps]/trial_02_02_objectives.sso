@@ -1,0 +1,60 @@
+trialsSettings   =   {
+   TRIAL_02_02_SEARCH_CNT   =   {
+      uiDesc   =   "TRIAL_02_02_SEARCH_CNT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "TRIAL_02_02_SEARCH_CNT_0_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_02_02 || TRIAL_02_02_TOWER_1"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TRIAL_02_02_SEARCH_CNT_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_02_02 || TRIAL_02_02_TOWER_2"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TRIAL_02_02_SEARCH_CNT_2_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_02_02 || TRIAL_02_02_TOWER_3"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TRIAL_02_02_SEARCH_CNT_3_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_02_02 || TRIAL_02_02_TOWER_4"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      blockerMap   =   "level_trial_02_02"
+      description   =   "TRIAL_02_02_SEARCH_CNT_REW"
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardItem   =   {
+                  itemName   =   "stuff_pendant_emblem"
+               }
+            }
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_02_02 || TRIAL_02_02_SEARCH_CNT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

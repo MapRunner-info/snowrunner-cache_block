@@ -1,0 +1,763 @@
+data   =   {
+   no_region   =   {
+      mapDescs   =   {
+         test_zone_color_summer   =   {
+            __type   =   "TestZoneColorSummer"
+         }
+         test_zone_color_winter   =   {
+            __type   =   "TestZoneColorWinter"
+         }
+         test_farming   =   {
+            __type   =   "TestFarming"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   us_01   =   {
+      mapDescs   =   {
+         level_us_01_01   =   {
+            __type   =   "LevelUs01_01"
+         }
+         level_us_01_02   =   {
+            __type   =   "LevelUs01_02"
+         }
+         level_us_01_04_new   =   {
+            __type   =   "LevelUs01_04New"
+         }
+         level_us_01_03   =   {
+            __type   =   "LevelUs01_03"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   us_02   =   {
+      mapDescs   =   {
+         level_us_02_01   =   {
+            __type   =   "LevelUs02_01"
+         }
+         level_us_02_02_new   =   {
+            __type   =   "LevelUs02_02New"
+         }
+         level_us_02_03_new   =   {
+            __type   =   "LevelUs02_03New"
+         }
+         level_us_02_04_new   =   {
+            __type   =   "LevelUs02_04New"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   ru_02   =   {
+      indexOfHubMap   =   1
+      mapDescs   =   {
+         level_ru_02_01_crop   =   {
+            __type   =   "LevelRu02_01Crop"
+         }
+         level_ru_02_02   =   {
+            __type   =   "LevelRu02_02"
+         }
+         level_ru_02_03   =   {
+            __type   =   "LevelRu02_03"
+         }
+         level_ru_02_04   =   {
+            __type   =   "LevelRu02_04"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   us_03   =   {
+      mapDescs   =   {
+         level_us_03_01   =   {
+            __type   =   "LevelUs03_01"
+         }
+         level_us_03_02   =   {
+            __type   =   "LevelUs03_02"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   ru_03   =   {
+      mapDescs   =   {
+         level_ru_03_01   =   {
+            __type   =   "LevelRu03_01"
+         }
+         level_ru_03_02   =   {
+            __type   =   "LevelRu03_02"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   tutorial_upgrades   =   {
+      mapDescs   =   {
+         level_tutorial_upgrades   =   {
+            __type   =   "LevelTutorialUpgrades"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   tutorial_truck   =   {
+      mapDescs   =   {
+         level_tutorial_track   =   {
+            __type   =   "LevelTutorialTrack"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   tutorial_objectives   =   {
+      mapDescs   =   {
+         level_tutorial_objectives   =   {
+            __type   =   "LevelTutorialObjectives"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   polygon   =   {
+      mapDescs   =   {
+         level_ru_test_polygon   =   {
+            zoneDesc   =   {
+               RU_POLYGON_GARAGE   =   {
+                  props   =   {
+                     ZonePropertyGarageEntrance   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               RU_POLYGON_GARAGE_EXIT   =   {
+                  props   =   {
+                     ZonePropertyGarageExit   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               RU_POLYGON_TRAILER_GARAGE   =   {
+                  props   =   {
+                     ZonePropertyTrailerAttach   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               RU_POLYGON_CARGO_LOADING   =   {
+                  props   =   {
+                     ZonePropertyCargoLoadingAllCargo   =   {
+                        platformId   =   "RU_POLYGON_CARGO_LOADING_MANUAL"
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               RU_POLYGON_CARGO_LOADING_MANUAL   =   {
+                  props   =   {
+                     ZonePropertyManualLoading   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               RU_POLYGON_REPAIR   =   {
+                  props   =   {
+                     ZonePropertyAutoRepairAndRestore   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               RU_POLYGON_FUEL   =   {
+                  props   =   {
+                     ZonePropertyFuelStation   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         level_us_test_polygon   =   {
+            __type   =   "LevelUsTestPolygon"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   trials   =   {
+      mapDescs   =   {
+         level_trial_01_01   =   {
+            __type   =   "LevelTrial01_01"
+         }
+         level_trial_01_02   =   {
+            __type   =   "LevelTrial01_02"
+         }
+         level_trial_02_02   =   {
+            __type   =   "LevelTrial02_02"
+         }
+         level_trial_02_01   =   {
+            __type   =   "LevelTrial02_01"
+         }
+         level_trial_03_02   =   {
+            __type   =   "LevelTrial03_02"
+         }
+         level_trial_03_03   =   {
+            __type   =   "LevelTrial03_03"
+         }
+         level_trial_03_01   =   {
+            __type   =   "LevelTrial03_01"
+         }
+         level_trial_04_02   =   {
+            __type   =   "LevelTrial04_02"
+         }
+         level_trial_04_01   =   {
+            __type   =   "LevelTrial04_01"
+         }
+         level_trial_05_01   =   {
+            isNeedToBeCloacked   =   False
+            __type   =   "LevelTrial05_01"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   us_04   =   {
+      mapDescs   =   {
+         level_us_04_02   =   {
+            __type   =   "LevelUs04_02"
+         }
+         level_us_04_01   =   {
+            indexInRegion   =   0
+            __type   =   "LevelUs04_01"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   ru_04   =   {
+      mapDescs   =   {
+         level_ru_04_03   =   {
+            __type   =   "LevelRu04_03"
+         }
+         level_ru_04_01   =   {
+            __type   =   "LevelRu04_01"
+         }
+         level_ru_04_02   =   {
+            __type   =   "LevelRu04_02"
+         }
+         level_ru_04_04   =   {
+            __type   =   "LevelRu04_04"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   ru_05   =   {
+      mapDescs   =   {
+         level_ru_05_02   =   {
+            indexInRegion   =   1
+            __type   =   "LevelRu05_02"
+         }
+         level_ru_05_01   =   {
+            indexInRegion   =   0
+            __type   =   "LevelRu05_01"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   us_06   =   {
+      mapDescs   =   {
+         level_us_06_02   =   {
+            __type   =   "LevelUs06_02"
+         }
+         level_us_06_01   =   {
+            __type   =   "LevelUs06_01"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   us_07   =   {
+      mapDescs   =   {
+         level_us_07_01   =   {
+            indexInRegion   =   0
+            __type   =   "LevelUs07_01"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   ru_08   =   {
+      mapDescs   =   {
+         level_ru_08_01   =   {
+            indexInRegion   =   0
+            isNeedToBeCloacked   =   True
+            __type   =   "LevelRu08_01"
+         }
+         level_ru_08_02   =   {
+            __type   =   "LevelRu08_02"
+         }
+         level_ru_08_03   =   {
+            zoneDesc   =   {
+               RU_08_03_UPGRADE_GIVER_01   =   {
+                  props   =   {
+                     ZonePropertyUpgradesGiver   =   {
+                        upgrades   =   [
+                           "wheels_extend_kirovets_k7m_tire_1"
+                        ]
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "LevelRu08_03"
+         }
+         level_ru_08_04   =   {
+            __type   =   "LevelRu08_04"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+   us_09   =   {
+      mapDescs   =   {
+         level_us_09_01   =   {
+            __type   =   "LevelUs09_01"
+         }
+         level_us_09_02   =   {
+            __type   =   "LevelUs09_02"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+}
+regions   =   [
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_MICHIGAN_NAME"
+         uiDesc   =   "UI_REGION_MICHIGAN_DESC"
+         mapBackground   =   "michiganBg"
+         mapIcon   =   "profileRegionMichiganImg"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "us_01"
+      country   =   "US"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_ALASKA_NAME"
+         uiDesc   =   "UI_REGION_ALASKA_DESC"
+         mapBackground   =   "alaskaBg"
+         mapIcon   =   "profileRegionAlaskaImg"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "us_02"
+      country   =   "US"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_TAIMYR_NAME"
+         uiDesc   =   "UI_REGION_TAIMYR_DESC"
+         mapBackground   =   "taymirBg"
+         mapIcon   =   "profileRegionTaimyrImg"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "ru_02"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_WKOLSKIY_NAME"
+         uiDesc   =   "UI_REGION_KOLSKIY_DESC"
+         mapBackground   =   "kolaBg"
+         mapIcon   =   "profileRegionKolaImg"
+         dlcStoreImage   =   "dlcstoreRegionImgKola"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "ru_03"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_YUKON_NAME"
+         uiDesc   =   "UI_REGION_YUKON_DESC"
+         mapBackground   =   "yukonBg"
+         mapIcon   =   "profileRegionYukonImg"
+         dlcStoreImage   =   "dlcstoreRegionImgYukon"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "us_04"
+      country   =   "US"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_WISCONSIN_NAME"
+         uiDesc   =   "UI_REGION_WISCONSIN_DESC"
+         mapBackground   =   "wisconsinBg"
+         mapIcon   =   "profileRegionWisconsinImg"
+         dlcStoreImage   =   "dlcstoreRegionImgWisconsin"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "us_03"
+      country   =   "US"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_AMUR_NAME"
+         uiDesc   =   "UI_REGION_AMUR_DESC"
+         mapBackground   =   "amurBg"
+         mapIcon   =   "profileRegionAmurImg"
+         dlcStoreImage   =   "dlcstoreRegionImgAmur"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "ru_04"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_ROSTOV_NAME"
+         uiDesc   =   "UI_REGION_ROSTOV_DESC"
+         mapBackground   =   "rostovBg"
+         mapIcon   =   "profileRegionRostovImg"
+         dlcStoreImage   =   "dlcstoreRegionImgRostov"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "ru_05"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_MAINE_NAME"
+         uiDesc   =   "UI_REGION_MAINE_DESC"
+         mapBackground   =   "maineBg"
+         mapIcon   =   "profileRegionMaine"
+         dlcStoreImage   =   "dlcstoreRegionImgMaine"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "us_06"
+      country   =   "US"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_TENNESSEE_NAME"
+         uiDesc   =   "UI_REGION_TENNESSEE_DESC"
+         mapBackground   =   "TennesseeBg"
+         mapIcon   =   "profileRegionTennesseeImg"
+         dlcStoreImage   =   "dlcstoreRegionImgTennessee"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "us_07"
+      country   =   "US"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_BELOZERSK_NAME"
+         uiDesc   =   "UI_REGION_BELOZERSK_DESC"
+         mapBackground   =   "whitelakesBg"
+         mapIcon   =   "profileRegionCentralAsia"
+         dlcStoreImage   =   "dlcstoreRegionOutlineCentralAsia"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "ru_08"
+      country   =   "CAS"
+   },
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_ONTARIO_NAME"
+         uiDesc   =   "UI_REGION_ONTARIO_DESC"
+         mapBackground   =   "ontarioBg"
+         mapIcon   =   "profileRegionOntario"
+         dlcStoreImage   =   "dlcstoreRegionImgOntario"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "us_09"
+      country   =   "US"
+   }
+]
+countries   =   {
+   US   =   {
+      __value   =   "UI_COUNTRY_USA"
+   }
+   RU   =   {
+      __value   =   "UI_COUNTRY_RUSSIA"
+   }
+   CAS   =   {
+      __value   =   "UI_COUNTRY_CENTRAL_ASIA"
+   }
+}
+startingLevel   =   "level_us_01_01"
+debugData   =   {
+   no_region   =   {
+      mapDescs   =   {
+         test_garage01   =   {
+            zoneDesc   =   {
+               garage_entrance_0   =   {
+                  isForCoop   =   True
+                  props   =   {
+                     ZonePropertyGarageEntrance   =   {
+                        initialState   =   {
+                           slots   =   True
+                           customization   =   True
+                           store   =   True
+                           repair   =   True
+                           __type   =   "GarageFeaturesInitialState"
+                        }
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               trailer_garage_0   =   {
+                  isForCoop   =   True
+                  props   =   {
+                     ZonePropertyTrailerAttach   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               water_load   =   {
+                  isForCoop   =   True
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        stationUIName   =   "UI_WATER_STATION_LOAD"
+                        stationType   =   "PICK_UP"
+                        water   =   10000
+                        waterCapacity   =   10000
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               water_unload   =   {
+                  isForCoop   =   True
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        stationUIName   =   "UI_WATER_STATION_UNLOAD"
+                        pricePerLiter   =   0
+                        stationType   =   "DROP"
+                        waterCapacity   =   10000
+                        sharedZones   =   [
+                           {
+                              globalZoneId   =   "test_garage01 || water_unload"
+                           },
+                           {
+                              globalZoneId   =   "test_garage01 || water_transit"
+                           }
+                        ]
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               fuel_station   =   {
+                  isForCoop   =   True
+                  props   =   {
+                     ZonePropertyFuelStation   =   {
+                        pricePerLiter   =   0
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               water_transit   =   {
+                  isForCoop   =   True
+                  __type   =   "ZoneSettings"
+               }
+               water_transit_01   =   {
+                  isForCoop   =   True
+                  __type   =   "ZoneSettings"
+               }
+               task_water   =   {
+                  isForCoop   =   True
+                  props   =   {
+                     ZonePropertyTaskGiver   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               task_give_water_zone   =   {
+                  isForCoop   =   True
+                  props   =   {
+                     ZonePropertyTaskGiver   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         test_cargo   =   {
+            zoneDesc   =   {
+               truck_spawn   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_04   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_03   =   {
+                  props   =   {
+                     ZonePropertyGateway   =   {
+                        levelZoneLink   =   "test_multiple_buildings_task || bridge_right"
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_02   =   {
+                  props   =   {
+                     ZonePropertyGarageEntrance   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_05   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_01   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_06   =   {
+                  __type   =   "ZoneSettings"
+               }
+               trailer_garage   =   {
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         test_bridge   =   {
+            zoneDesc   =   {
+               truck_spawn   =   {
+                  props   =   {
+                     PropertyCargoTruckSpawner   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               loading_area   =   {
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoServiceSpareParts"
+                           },
+                           {
+                              name   =   "CargoContainerSmall"
+                           }
+                        ]
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               objective_area_01   =   {
+                  __type   =   "ZoneSettings"
+               }
+               objective_area_02   =   {
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         test_multiplayer_pvp   =   {
+            zoneDesc   =   {
+               upgrade_spawn_9   =   {
+                  props   =   {
+                     ZonePropertyUpgradesGiver   =   {
+                        upgrades   =   [
+                           ""
+                        ]
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               upgrade_spawn_4   =   {
+                  props   =   {
+                     ZonePropertyUpgradesGiver   =   {
+                        upgrades   =   [
+                           ""
+                        ]
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               upgrade_station   =   {
+                  props   =   {
+                     ZonePropertyUpgradeStation   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         test_cargo_loading   =   {
+            zoneDesc   =   {
+               cargo_area_01   =   {
+                  props   =   {
+                     ZonePropertyCargoLoadingAllCargo   =   {
+                        platformId   =   "cargo_area_02"
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_finite   =   {
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoPipesSmall"
+                              count   =   2
+                           }
+                        ]
+                        platformId   =   "cargo_area_finite_platform"
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_finite_platform   =   {
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         test_repair_and_fuel   =   {
+            zoneDesc   =   {
+               GARAGE_ENTRANCE   =   {
+                  props   =   {
+                     ZonePropertyGarageEntrance   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               REPAIR_CARGO_PICKUP_ZONE   =   {
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoVehiclesSpareParts"
+                           }
+                        ]
+                        platformId   =   "REPAIR_CARGO_PLATFORM"
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               FUEL_STATION_1   =   {
+                  props   =   {
+                     ZonePropertyFuelStation   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               FUEL_STATION_2   =   {
+                  props   =   {
+                     ZonePropertyFuelStation   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               AUTO_REPAIR_AND_RESUPPLY   =   {
+                  props   =   {
+                     ZonePropertyAutoRepairAndRestore   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               REPAIR_CARGO_PLATFORM   =   {
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         test_contracts_tasks_contests   =   {
+            __type   =   "TestContractsTasksContests"
+         }
+         test_multiple_buildings_task   =   {
+            __type   =   "MapWithZonesDesc"
+         }
+         test_seismograph   =   {
+            __type   =   "TestSeismograph"
+         }
+         test_vfx_destroy_truck   =   {
+            __type   =   "TestVfxDestroyTruck"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+}
+__type   =   "ZoneDescStorageContainerBase"

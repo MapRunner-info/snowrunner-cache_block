@@ -1,0 +1,301 @@
+truckTrottleWheelLink   =   {
+   inputLink   =   "Truck.WheelThrottle"
+   __type   =   "InputLinkActionAxisMr"
+}
+truckBrakeWheelInputLink   =   {
+   inputLink   =   "Truck.WheelBrake"
+   __type   =   "InputLinkActionAxisMr"
+}
+steeringWheelInputLink   =   {
+   inputLink   =   "Truck.SteeringWheel"
+   __type   =   "InputLinkActionAxisMr"
+}
+clutchPedalInputLink   =   {
+   inputLink   =   "Truck.ClutchPedal"
+   __type   =   "InputLinkActionAxisMr"
+}
+truckMovementLink   =   {
+   inputLink   =   "Truck.truckMovement"
+   __type   =   "InputLinkVectorMr"
+}
+cinematicModekMovementLink   =   {
+   inputLink   =   "Truck.cinematicMovement"
+   __type   =   "InputLinkVectorMr"
+}
+commonInputScreen   =   {
+   name   =   "Truck"
+   inputsLinks   =   {
+      Functions   =   {
+         inputLink   =   "Truck.Functions"
+         __type   =   "InputLinkActionMr"
+      }
+      Handbrake   =   {
+         inputLink   =   "Truck.Handbrake"
+         __type   =   "InputLinkHoldMr"
+      }
+      Honk   =   {
+         inputLink   =   "Truck.Honk"
+         __type   =   "InputLinkHoldMr"
+      }
+      QuickWinch   =   {
+         inputLink   =   "Truck.QuickWinch"
+         __type   =   "InputLinkActionMr"
+      }
+      Clutch   =   {
+         inputLink   =   "Truck.ClutchMode"
+         __type   =   "InputLinkHoldMr"
+      }
+      AWDSolo   =   {
+         inputLink   =   "Truck.AwdSolo"
+         __type   =   "InputLinkActionMr"
+      }
+      DiffLockSolo   =   {
+         inputLink   =   "Truck.DiffLockSolo"
+         __type   =   "InputLinkActionMr"
+      }
+      HeadlightSolo   =   {
+         inputLink   =   "Truck.HeadlightSolo"
+         __type   =   "InputLinkActionMr"
+      }
+      EngineSolo   =   {
+         inputLink   =   "Truck.EngineSolo"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+functionsInputScreen   =   {
+   name   =   "Functions"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Truck.CloseFunctions"
+         __type   =   "InputLinkActionMr"
+      }
+      Down   =   {
+         inputLink   =   "UI.GamepadDPadDown"
+         __type   =   "InputLinkHoldMr"
+      }
+      CloseHold   =   {
+         inputLink   =   "Truck.CloseFunctionHold"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+clutchInputScreen   =   {
+   name   =   "Clutch"
+   inputsLinks   =   {
+      AWD   =   {
+         inputLink   =   "Truck.Awd"
+         __type   =   "InputLinkHoldMr"
+      }
+      DiffLock   =   {
+         inputLink   =   "Truck.DiffLock"
+         __type   =   "InputLinkHoldMr"
+      }
+      Headlights   =   {
+         inputLink   =   "Truck.Headlights"
+         __type   =   "InputLinkHoldMr"
+      }
+      Engine   =   {
+         inputLink   =   "Truck.Engine"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+pcInputScreen   =   {
+   name   =   "Keyboard Truck Screen"
+   inputsLinks   =   {
+      pcAWD   =   {
+         inputLink   =   "Truck.Awd"
+         __type   =   "InputLinkHoldMr"
+      }
+      pcDiffLock   =   {
+         inputLink   =   "Truck.DiffLock"
+         __type   =   "InputLinkHoldMr"
+      }
+      pcHeadlights   =   {
+         inputLink   =   "Truck.Headlights"
+         __type   =   "InputLinkHoldMr"
+      }
+      pcEngine   =   {
+         inputLink   =   "Truck.Engine"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+craneInputScreen   =   {
+   name   =   "Crane"
+   inputsLinks   =   {
+      EnableAnchor   =   {
+         inputLink   =   "Crane.EnableAnchor"
+         __type   =   "InputLinkActionMr"
+      }
+      Exit   =   {
+         inputLink   =   "Crane.ExitAdvance"
+         __type   =   "InputLinkHoldMr"
+      }
+      AttachCargo   =   {
+         inputLink   =   "Crane.AttachCargo"
+         __type   =   "InputLinkHoldMr"
+      }
+      pull   =   {
+         inputLink   =   "Crane.WinchPull"
+         __type   =   "InputLinkHoldMr"
+      }
+      push   =   {
+         inputLink   =   "Crane.WinchPush"
+         __type   =   "InputLinkHoldMr"
+      }
+      turnLeft   =   {
+         inputLink   =   "Crane.TurnClockwise"
+         __type   =   "InputLinkHoldMr"
+      }
+      turnRight   =   {
+         inputLink   =   "Crane.TurnCounterClockwise"
+         __type   =   "InputLinkHoldMr"
+      }
+      MoveLeft   =   {
+         inputLink   =   "Crane.FakeMoveF"
+         __type   =   "InputLinkHoldMr"
+      }
+      MoveRight   =   {
+         inputLink   =   "Crane.FakeMoveL"
+         __type   =   "InputLinkHoldMr"
+      }
+      MoveUp   =   {
+         inputLink   =   "Crane.FakeMoveD"
+         __type   =   "InputLinkHoldMr"
+      }
+      MoveDown   =   {
+         inputLink   =   "Crane.FakeMoveR"
+         __type   =   "InputLinkHoldMr"
+      }
+      pullCrane   =   {
+         inputLink   =   "Crane.MoveDown"
+         __type   =   "InputLinkHoldMr"
+      }
+      pushCrane   =   {
+         inputLink   =   "Crane.MoveUp"
+         __type   =   "InputLinkHoldMr"
+      }
+      fakeBlockFunctions   =   {
+         inputLink   =   "Truck.Functions"
+         __type   =   "InputLinkActionMr"
+      }
+      HideLegend   =   {
+         inputLink   =   "Crane.HideNavLegend"
+         __type   =   "InputLinkHoldMr"
+      }
+      tapleft   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      tapright   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+      tapup   =   {
+         inputLink   =   "UI.UiListUpTap"
+         __type   =   "InputLinkActionMr"
+      }
+      tapdown   =   {
+         inputLink   =   "UI.UiListDownTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+craneMoveXZLink   =   {
+   inputLink   =   "Crane.moveXZplane"
+   __type   =   "InputLinkVectorMr"
+}
+craneMoveYLink   =   {
+   inputLink   =   "Crane.moveYPlane"
+   __type   =   "InputLinkVectorMr"
+}
+craneWinchActionsLink   =   {
+   inputLink   =   "Crane.WinchActions"
+   __type   =   "InputLinkVectorMr"
+}
+craneMoveZAxisLink   =   {
+   inputLink   =   "Crane.MoveZAxis"
+   __type   =   "InputLinkActionAxisMr"
+}
+craneMoveXAxisLink   =   {
+   inputLink   =   "Crane.MoveXAxis"
+   __type   =   "InputLinkActionAxisMr"
+}
+craneMoveYAxisLink   =   {
+   inputLink   =   "Crane.MoveYAxis"
+   __type   =   "InputLinkActionAxisMr"
+}
+craneCargoRotationAxisLink   =   {
+   inputLink   =   "Crane.CargoRotationAxis"
+   __type   =   "InputLinkActionAxisMr"
+}
+cinematicModeInputScreen   =   {
+   inputsLinks   =   {
+      InputLinkHoldMr_1   =   {
+         inputLink   =   "Gamepad.GamepadRB"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkHoldMr_2   =   {
+         inputLink   =   "Gamepad.GamepadLB"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkHoldMr_3   =   {
+         inputLink   =   "Gamepad.GamepadX"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkHoldMr_4   =   {
+         inputLink   =   "Gamepad.GamepadY"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkHoldMr_5   =   {
+         inputLink   =   "Gamepad.GamepadA"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkHoldMr_6   =   {
+         inputLink   =   "Gamepad.GamepadB"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkHoldMr   =   {
+         inputLink   =   "Gamepad.GamepadLT"
+      }
+      InputLinkHoldMr_7   =   {
+         inputLink   =   "Gamepad.GamepadRT"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkActionMr   =   {
+         inputLink   =   "Gamepad.GamepadDPadUp"
+      }
+      InputLinkActionMr_1   =   {
+         inputLink   =   "Gamepad.GamepadDPadDown"
+         __type   =   "InputLinkActionMr"
+      }
+      InputLinkActionMr_2   =   {
+         inputLink   =   "Gamepad.GamepadDPadRight"
+         __type   =   "InputLinkActionMr"
+      }
+      InputLinkActionMr_3   =   {
+         inputLink   =   "Gamepad.GamepadDPadLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      InputLinkHoldMr_8   =   {
+         inputLink   =   "Gamepad.GamepadLeftStickPress"
+         __type   =   "InputLinkHoldMr"
+      }
+      InputLinkHoldMr_9   =   {
+         inputLink   =   "Gamepad.GamepadRightStickPress"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+delayBeforeTurningOffEngineSec   =   240
+__type   =   "object"

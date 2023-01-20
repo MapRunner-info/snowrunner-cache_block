@@ -1,0 +1,16 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiMainMenuBannercontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+navBtnTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+__type   =   "ComponentUiViewBase"

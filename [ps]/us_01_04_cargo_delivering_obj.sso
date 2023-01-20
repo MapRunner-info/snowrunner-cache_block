@@ -1,0 +1,131 @@
+uiDesc   =   "US_01_04_CARGO_DELIVERING_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            sslModule   =   "game.missions.task_settings"
+            truckId   =   "us_01_04_special"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+               globalZoneId   =   "level_us_01_02 || US_01_02_DRILLING"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_04_CARGO_DELIVERING_STAGE_0_DESC"
+         }
+      ]
+      uiDesc   =   "US_01_04_CARGO_DELIVERING_BRING_CONTAINER_TO_WAREHOUSE"
+   },
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_CARGO_DELIVERING_METAL"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_DRILLING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   },
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_CARGO_DELIVERING_BIG"
+               globalZoneId   =   {
+                  sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                  globalZoneId   =   "level_us_01_02 || US_01_02_DRILLING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                  name   =   "CargoBigDrill"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_02"
+   modelTag   =   "DRILLING_SITE_01_02"
+   stagesProgress   =   {
+      build_stage_0   =   {
+      }
+      build_stage_1   =   {
+         __value   =   1
+      }
+      build_stage_2   =   {
+         __value   =   2
+      }
+      build_complete   =   {
+         __value   =   3
+      }
+   }
+   unloadBlockedZoneId   =   {
+      globalZoneId   =   "level_us_01_02 || US_01_02_DRILL_BUFFER_ZONE"
+      __type   =   "ZoneGlobalIdentificator"
+   }
+   __type   =   "ModelBuildingSettings"
+}
+blockerObjectives   =   [
+   "US_01_03_CARGO_PORT_OBJ",
+   "US_01_01_EXPLORE_GARAGE_OBJ"
+]
+requiredRank   =   8
+description   =   "US_01_04_CARGO_DELIVERING_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   1180
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   11000
+   }
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "US_01_04_LOST_SHIP"
+            mapId   =   "level_us_01_04_new"
+            props   =   {
+               ZonePropertyCargoLoading   =   {
+                  cargosSettings   =   [
+                     {
+                        name   =   "CargoContainerLarge"
+                     }
+                  ]
+               }
+            }
+         }
+         ZonePropertiesSettingsObjectiveReward_1   =   {
+            zoneId   =   "US_01_02_QUARRY"
+            mapId   =   "level_us_01_02"
+            props   =   {
+               ZonePropertyCargoLoading   =   {
+                  cargosSettings   =   [
+                     {
+                        name   =   "CargoBags"
+                     }
+                  ]
+                  platformId   =   ""
+               }
+            }
+            __type   =   "ZonePropertiesSettingsObjectiveReward"
+         }
+      }
+   }
+}
+employer   =   "DysonDiesel"
+region   =   "us_01"
+contractMap   =   ""
+__type   =   "ContractSettings"

@@ -1,0 +1,54 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         metaItem   =   {
+            isAnimationStopEventEnabled   =   True
+            __type   =   "UiPopupLibAutoclasshudpopuprewardmetaitem"
+         }
+         itemReward   =   {
+            truckListHeader   =   {
+               visible   =   False
+               focusable   =   False
+               enabled   =   False
+               __type   =   "UiPopupLibItemrewardtrucklistheader"
+            }
+            truckListEmbed   =   {
+               y   =   0
+               isHtml   =   True
+               __type   =   "UiPopupLibItemrewardtrucklistembed"
+            }
+            __type   =   "UiPopupLibAutoclasshudpopuprewarditemreward"
+         }
+         __type   =   "UiPopupLibHudpopupreward"
+      }
+      itemReward   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiPopupLibAutoclasshudpopuprewarditemreward"
+      }
+      __type   =   "UiPopupLibHudanimpopupreward"
+   }
+   __type   =   "UiObjectDesc"
+}
+cupIconDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibCupimg80colored"
+   }
+   __type   =   "UiContainerDesc"
+}
+moneyIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilecurrency40"
+   }
+   __type   =   "UiContainerDesc"
+}
+expIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilestar40"
+   }
+   __type   =   "UiContainerDesc"
+}
+accountMoneyIcon   =   "playerProfileCurrency20"
+multipleRewardsIcon   =   "multipleRewardsAltAlt40"
+regionalProgressGeneralIcon   =   "regionIcon20"
+__type   =   "PopupViewBase"

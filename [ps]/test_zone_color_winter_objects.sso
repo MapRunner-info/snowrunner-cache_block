@@ -1,0 +1,31 @@
+tasksSettings   =   {
+   test_zone_color_winter_task   =   {
+      uiDesc   =   "test_zone_color_winter"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_zone_color_winter || test_zone_dropoff"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrels"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      taskGiverZone   =   {
+         globalZoneId   =   "test_zone_color_winter || test_zone_task_giver"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

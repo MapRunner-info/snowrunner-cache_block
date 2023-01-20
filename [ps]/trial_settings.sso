@@ -1,0 +1,9 @@
+rewards   =   {
+   TrialRewards   =   {
+      __type   =   "ObjectiveRewardsTrial"
+   }
+}
+taskGiverZone   =   {
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "ObjectiveWithFailReasonSettings"

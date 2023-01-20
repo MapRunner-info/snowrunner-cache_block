@@ -1,0 +1,9 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_HEADER_SLIDER"
+valueUiNames   =   [
+   "UI_OPTION_STEPPER_OFF",
+   "UI_OPTION_STEPPER_ON"
+]
+__type   =   "UiOneSettingStepperVideoController"

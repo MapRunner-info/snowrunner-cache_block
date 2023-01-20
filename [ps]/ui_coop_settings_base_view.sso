@@ -1,0 +1,50 @@
+uiObjectDesc   =   {
+   type   =   {
+      menuList   =   {
+         lir   =   {
+            mouseChildren   =   True
+            __type   =   "UiCoopSettingLirItem"
+         }
+         __type   =   "UiMainMenuMenuaddlist"
+      }
+      __type   =   "UiMainMenuMenuaddcontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+inputScreen   =   {
+   name   =   "MainMenuCoopHostSettingsView"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+coopSettingsList   =   {
+   alwaysSendElementSelected   =   True
+   uiFocusScreen   =   {
+      uiGfxInputToDisable   =   [
+         "Left",
+         "Up",
+         "Right",
+         "Down"
+      ]
+      __type   =   "UiFocusScreen"
+   }
+   uiInputScreen   =   {
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   ""
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+__type   =   "ScreenViewBase"

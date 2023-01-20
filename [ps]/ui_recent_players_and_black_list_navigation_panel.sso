@@ -1,0 +1,34 @@
+useBg   =   True
+btns   =   {
+   report   =   {
+      text   =   "UI_REPORT"
+      __type   =   "NavButtonDesc"
+   }
+   navigation   =   {
+      text   =   "UI_NAVIGATION"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      hideWithCustomSteeringWheelPreset   =   True
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+   back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   block   =   {
+      text   =   "UI_BLOCK"
+      __type   =   "NavButtonDesc"
+   }
+   unblock   =   {
+      text   =   "UI_UNBLOCK"
+      __type   =   "NavButtonDesc"
+   }
+   profile   =   {
+      text   =   "UI_SHOW_PLAYER_PROFILE"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

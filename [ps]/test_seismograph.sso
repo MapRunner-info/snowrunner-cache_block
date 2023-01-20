@@ -1,0 +1,29 @@
+zoneDesc   =   {
+   TEST_SEISM_GARAGE_ENT   =   {
+      props   =   {
+         ZonePropertyGarageEntrance   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TEST_SEISM_GARAGE_EXIT   =   {
+      props   =   {
+         ZonePropertyGarageExit   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TEST_SEISM_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_SEISM_02   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_SEISM_03   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_SEISM_04   =   {
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

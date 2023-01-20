@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_CROSSPLAY"
+desc   =   "UI_SETTINGS_CROSSPLAY_DESC"
+__type   =   "UiOneSettingStepperOnOff"

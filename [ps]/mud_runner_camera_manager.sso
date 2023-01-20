@@ -1,0 +1,5 @@
+flyCameraLink   =   {
+   inputLink   =   "DebugDBG.FlyCamera"
+   __type   =   "InputLinkActionMr"
+}
+__type   =   "object"

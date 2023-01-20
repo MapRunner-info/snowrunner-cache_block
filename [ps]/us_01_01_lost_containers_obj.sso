@@ -1,0 +1,55 @@
+uiDesc   =   "US_01_01_LOST_CONTAINERS_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_LOST_CONTAINERS_BRING_CONTAINER_TO_WAREHOUSE_ON_US_01_01"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_WAREHOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSparePartsSpecial"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      spawnCargoOnStageActive   =   [
+         {
+            needToBeDiscoveredByMetallodetector   =   False
+            zone   =   {
+               globalZoneId   =   "level_us_01_01 || US_01_01_LOST_CONTAINERS_A"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoServiceSparePartsSpecial"
+                  count   =   1
+               }
+            ]
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_EXPLORE_GARAGE_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_01_LOST_CONTAINERS_REWARD_DESC"
+recommendedTruck   =   "CRANE"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   210
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1300
+   }
+}
+employer   =   "AttecaTownship"
+region   =   "us_01"
+__type   =   "ContractSettings"

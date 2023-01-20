@@ -1,0 +1,53 @@
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "Left",
+      "Up",
+      "Right",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+uiInputScreen   =   {
+   name   =   "UiListAdapter"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Left   =   {
+         inputLink   =   "UI.UiListLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      Right   =   {
+         inputLink   =   "UI.UiListRight"
+         __type   =   "InputLinkActionMr"
+      }
+      Up   =   {
+         inputLink   =   "UI.UiListUp"
+         __type   =   "InputLinkActionMr"
+      }
+      Down   =   {
+         inputLink   =   "UI.UiListDown"
+         __type   =   "InputLinkActionMr"
+      }
+      LeftTap   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      RightTap   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+      UpTap   =   {
+         inputLink   =   "UI.UiListUpTap"
+         __type   =   "InputLinkActionMr"
+      }
+      DownTap   =   {
+         inputLink   =   "UI.UiListDownTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "object"

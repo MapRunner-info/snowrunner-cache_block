@@ -1,0 +1,60 @@
+uiDesc   =   "US_02_03_TOWN_DELIVERY_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_03_TOWN_DELIVERY_ACTION_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_TOWN"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteBlocks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_03_TOWN_DELIVERY_ACTION_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_TOWN"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoPipesSmall"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_03_TOWN_DELIVERY_ACTION_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_TOWN"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerMap   =   "level_us_02_03_new"
+description   =   "US_02_03_TOWN_DELIVERY_OBJ_REW"
+employer   =   "GREnterprise"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   620
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   6350
+   }
+}
+__type   =   "ContractSettings"

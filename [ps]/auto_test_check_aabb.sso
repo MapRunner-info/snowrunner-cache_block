@@ -1,0 +1,1747 @@
+autotestFlow   =   {
+   nodes   =   {
+      OnAutotestStart   =   {
+         viewData   =   {
+            x   =   2685.15
+            y   =   1103.98
+         }
+         OnStart   =   [
+            "CheckUserProfileLoad/Start"
+         ]
+         ignoreLevelLoaded   =   True
+         __type   =   "BlueprintNodeAutotestStart"
+      }
+      MainMenuPressStart   =   {
+         viewData   =   {
+            x   =   3547.381
+            y   =   1104.686
+         }
+         OnSuccess   =   [
+            "WaitLevelLoaded/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskMainMenuPressStart"
+      }
+      BlueprintLibraryFunction   =   {
+         captionVar   =   "LoadEachLevelAndDo"
+         viewData   =   {
+            x   =   4628.533
+            y   =   1019.966
+         }
+         logic   =   {
+            nodes   =   {
+               BlueprintLibraryFunction_2   =   {
+                  captionVar   =   "LogLoadLevelFinished"
+                  viewData   =   {
+                     x   =   5732.047
+                     y   =   1064.306
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2450
+                              y   =   4300
+                           }
+                           OnExit   =   [
+                              "../../../ForEachStringCOROUTINE_1/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2200
+                              y   =   4450
+                           }
+                           inputStringA   =   {
+                              def   =   "Finished on level "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               ConcatenateStrings   =   {
+                  viewData   =   {
+                     x   =   4968.125
+                     y   =   1594.872
+                  }
+                  inputStringA   =   {
+                     def   =   "Failed load level "
+                     __type   =   "StringRefParam"
+                  }
+                  GetString   =   [
+                     "AutotestFail/failMsg/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryConcatenatestrings"
+               }
+               AutotestFail   =   {
+                  viewData   =   {
+                     x   =   5234.053
+                     y   =   1584.308
+                  }
+                  __type   =   "BlueprintNodeAutotestFail"
+               }
+               BlueprintLibraryFunction_1_1   =   {
+                  captionVar   =   "LogRegionFinished"
+                  viewData   =   {
+                     x   =   5163.631
+                     y   =   1184.782
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2500
+                              y   =   4350
+                           }
+                           OnExit   =   [
+                              "../../../ForEachStringCOROUTINE_1_1/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2250
+                              y   =   4400
+                           }
+                           inputStringA   =   {
+                              def   =   "Finished Region "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               WaitLevelLoaded   =   {
+                  viewData   =   {
+                     x   =   5300.345
+                     y   =   1423.387
+                  }
+                  OnSuccess   =   [
+                     "SkipCinematic/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskWaitLevelLoaded"
+               }
+               SkipCinematic   =   {
+                  viewData   =   {
+                     x   =   5674.04
+                     y   =   1427.212
+                  }
+                  OnSuccess   =   [
+                     "../../../BlueprintLibraryFunction_1/logic/nodes/SetBPString/Set"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskSkipCinematic"
+               }
+               UnlockAllGateways   =   {
+                  viewData   =   {
+                     x   =   4420.364
+                     y   =   963.8579
+                  }
+                  OnExit   =   [
+                     "ForEachStringCOROUTINE_1_1/StartIterate"
+                  ]
+                  __type   =   "BlueprintNodeUnlockAllGateways"
+               }
+               BlueprintLibraryFunction_1   =   {
+                  captionVar   =   "LogRegion"
+                  viewData   =   {
+                     x   =   4628.685
+                     y   =   1229.084
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2500
+                              y   =   4350
+                           }
+                           OnExit   =   [
+                              "../../../ForEachStringCOROUTINE_1/StartIterate"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2250
+                              y   =   4400
+                           }
+                           inputStringA   =   {
+                              def   =   "Check Region "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               GetAllRegions   =   {
+                  viewData   =   {
+                     x   =   4520.653
+                     y   =   1074.229
+                  }
+                  GetAllRegions   =   [
+                     "ForEachStringCOROUTINE_1_1/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllRegions"
+               }
+               ForEachStringCOROUTINE_1_1   =   {
+                  viewData   =   {
+                     x   =   4770.653
+                     y   =   991.8558
+                  }
+                  OnFinish   =   [
+                     "../../../AutotestSuccess_1/Success"
+                  ]
+                  OnIteration   =   [
+                     "BlueprintLibraryFunction_1/logic/nodes/AutotestLog/Log"
+                  ]
+                  GetString   =   [
+                     "GetAllLevels/regionRef/cb",
+                     "BlueprintLibraryFunction_1/logic/nodes/Append/inputStringB/cb",
+                     "BlueprintLibraryFunction_1_1/logic/nodes/Append/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               BlueprintLibraryFunction   =   {
+                  captionVar   =   "LogLoadLevel"
+                  viewData   =   {
+                     x   =   4841.023
+                     y   =   1498.782
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2450
+                              y   =   4300
+                           }
+                           OnExit   =   [
+                              "../../../LoadLevelMudRunner_1/Load"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2200
+                              y   =   4450
+                           }
+                           inputStringA   =   {
+                              def   =   "Load Level "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+               }
+               LoadLevelMudRunner_1   =   {
+                  viewData   =   {
+                     x   =   5066.165
+                     y   =   1432.679
+                  }
+                  OnLevelLoaded   =   [
+                     "WaitLevelLoaded/Start"
+                  ]
+                  OnLevelFailed   =   [
+                     "AutotestFail/Fail"
+                  ]
+                  __type   =   "BlueprintNodeMrLoadLevel"
+               }
+               ForEachStringCOROUTINE_1   =   {
+                  viewData   =   {
+                     x   =   4840.024
+                     y   =   1231.919
+                  }
+                  OnFinish   =   [
+                     "BlueprintLibraryFunction_1_1/logic/nodes/AutotestLog/Log"
+                  ]
+                  OnIteration   =   [
+                     "String/SetValue"
+                  ]
+                  GetString   =   [
+                     "LoadLevelMudRunner_1/level/cb",
+                     "BlueprintLibraryFunction/logic/nodes/Append/inputStringB/cb",
+                     "BlueprintLibraryFunction_2/logic/nodes/Append/inputStringB/cb",
+                     "ConcatenateStrings/inputStringB/cb",
+                     "String/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               GetAllLevels   =   {
+                  viewData   =   {
+                     x   =   4478.685
+                     y   =   1329.084
+                  }
+                  regionRef   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  GetAllLevels   =   [
+                     "ForEachStringCOROUTINE_1/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllLevels"
+               }
+               String   =   {
+                  viewData   =   {
+                     x   =   4904.782
+                     y   =   1376.16
+                  }
+                  OnExit   =   [
+                     "BlueprintLibraryFunction/logic/nodes/AutotestLog/Log"
+                  ]
+                  GetValue   =   [
+                     "../../../BlueprintLibraryFunction_1/logic/nodes/SetBPString/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeStringVar"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/BlueprintLibraryFunction_2;logic/nodes/AutotestLog/Log;Continue;Log",
+            "logic/nodes/UnlockAllGateways;UnlockTruck;Start;UnlockTruck",
+            "logic/nodes/SkipCinematic;OnSuccess;OnLevelLoaded;OnLevelLoaded",
+            "logic/nodes/String;GetValue;GetLevelName;GetValue",
+            "logic/nodes/ForEachStringCOROUTINE_1_1;OnFinish"
+         ]
+      }
+      AutotestSuccess_1   =   {
+         viewData   =   {
+            x   =   5130.641
+            y   =   997.6378
+         }
+         __type   =   "BlueprintNodeAutotestSuccess"
+      }
+      BlueprintLibraryFunction_2   =   {
+         captionVar   =   "GetAndLogConfigVars"
+         viewData   =   {
+            x   =   3256.117
+            y   =   1109.505
+         }
+         logic   =   {
+            nodes   =   {
+               AutotestLog   =   {
+                  viewData   =   {
+                     x   =   3872.572
+                     y   =   1098.762
+                  }
+                  OnExit   =   [
+                     "AutotestLog_2/Log"
+                  ]
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               ConcatenateStrings   =   {
+                  viewData   =   {
+                     x   =   3573.037
+                     y   =   1097.27
+                  }
+                  inputStringA   =   {
+                     def   =   "JsonPath: "
+                     __type   =   "StringRefParam"
+                  }
+                  GetString   =   [
+                     "AutotestLog/logRef/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryConcatenatestrings"
+               }
+               AutotestLog_2   =   {
+                  viewData   =   {
+                     x   =   3872.177
+                     y   =   1195.716
+                  }
+                  OnExit   =   [
+                     "AutotestLog_3/Log"
+                  ]
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               AutotestLog_3   =   {
+                  viewData   =   {
+                     x   =   3875.302
+                     y   =   1303.528
+                  }
+                  OnExit   =   [
+                     "../../../MainMenuPressStart/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               ConcatenateStrings_2   =   {
+                  viewData   =   {
+                     x   =   3561.223
+                     y   =   1187.997
+                  }
+                  inputStringA   =   {
+                     def   =   "NeedWriteJson: "
+                     __type   =   "StringRefParam"
+                  }
+                  GetString   =   [
+                     "AutotestLog_2/logRef/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryConcatenatestrings"
+               }
+               ConcatenateStrings_3   =   {
+                  viewData   =   {
+                     x   =   3561.223
+                     y   =   1284.247
+                  }
+                  inputStringA   =   {
+                     def   =   "NeedDelayedSelfCheck: "
+                     __type   =   "StringRefParam"
+                  }
+                  GetString   =   [
+                     "AutotestLog_3/logRef/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryConcatenatestrings"
+               }
+               SetBPString_2   =   {
+                  viewData   =   {
+                     x   =   2886.589
+                     y   =   1086.259
+                  }
+                  string   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "jsonPath"
+                  OnExit   =   [
+                     "SetBPBool/Set"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetConfigVarString_1   =   {
+                  viewData   =   {
+                     x   =   2509.902
+                     y   =   1106.259
+                  }
+                  name   =   {
+                     def   =   "Debug.Autotests.AabbTest.JsonPath"
+                     __type   =   "StringRefParam"
+                  }
+                  Get   =   [
+                     "SetBPString_2/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetCfgVarString"
+               }
+               SetBPBool   =   {
+                  viewData   =   {
+                     x   =   2900.402
+                     y   =   1180.822
+                  }
+                  OnExit   =   [
+                     "SetBPBool_1/Set"
+                  ]
+                  bool   =   {
+                     __type   =   "BoolRefParam"
+                  }
+                  name   =   "needWriteJson"
+                  __type   =   "BlueprintLibrarySetbool"
+               }
+               GetConfigVarBool_1_1   =   {
+                  viewData   =   {
+                     x   =   2508.402
+                     y   =   1201.759
+                  }
+                  name   =   {
+                     def   =   "Debug.Autotests.AabbTest.NeedWriteJson"
+                     __type   =   "StringRefParam"
+                  }
+                  Get   =   [
+                     "SetBPBool/bool/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetCfgVarBool"
+               }
+               SetBPBool_1   =   {
+                  viewData   =   {
+                     x   =   2905.402
+                     y   =   1272.759
+                  }
+                  OnExit   =   [
+                     "SetBPString_2_1/Set"
+                  ]
+                  bool   =   {
+                     __type   =   "BoolRefParam"
+                  }
+                  name   =   "needDelayedSelfCheck"
+                  __type   =   "BlueprintLibrarySetbool"
+               }
+               GetConfigVarBool_2_1   =   {
+                  viewData   =   {
+                     x   =   2482.402
+                     y   =   1298.759
+                  }
+                  name   =   {
+                     def   =   "Debug.Autotests.AabbTest.NeedDelayedSelfCheck"
+                     __type   =   "StringRefParam"
+                  }
+                  Get   =   [
+                     "SetBPBool_1/bool/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetCfgVarBool"
+               }
+               GetBPBool   =   {
+                  viewData   =   {
+                     x   =   3328.371
+                     y   =   1191.899
+                  }
+                  name   =   "needWriteJson"
+                  Bool   =   [
+                     "ConcatenateStrings_2/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintLibraryGetbool"
+               }
+               GetBPString_2   =   {
+                  viewData   =   {
+                     x   =   3337.323
+                     y   =   1087.837
+                  }
+                  name   =   "jsonPath"
+                  GetString   =   [
+                     "ConcatenateStrings/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               GetBPBool_1   =   {
+                  viewData   =   {
+                     x   =   3286.374
+                     y   =   1278.412
+                  }
+                  name   =   "needDelayedSelfCheck"
+                  Bool   =   [
+                     "ConcatenateStrings_3/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintLibraryGetbool"
+               }
+               SetBPString_2_1   =   {
+                  viewData   =   {
+                     x   =   2920.807
+                     y   =   1366.511
+                  }
+                  string   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "forcedLevel"
+                  OnExit   =   [
+                     "AutotestLog_1/Log"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetConfigVarString_1_1   =   {
+                  viewData   =   {
+                     x   =   2527.182
+                     y   =   1404.199
+                  }
+                  name   =   {
+                     def   =   "Debug.Autotests.AabbTest.ForcedLevel"
+                     __type   =   "StringRefParam"
+                  }
+                  Get   =   [
+                     "SetBPString_2_1/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetCfgVarString"
+               }
+               AutotestLog_1   =   {
+                  viewData   =   {
+                     x   =   3878.369
+                     y   =   995.7864
+                  }
+                  OnExit   =   [
+                     "AutotestLog/Log"
+                  ]
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               ConcatenateStrings_1   =   {
+                  viewData   =   {
+                     x   =   3578.834
+                     y   =   994.2944
+                  }
+                  inputStringA   =   {
+                     def   =   "forcedLevel: "
+                     __type   =   "StringRefParam"
+                  }
+                  GetString   =   [
+                     "AutotestLog_1/logRef/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryConcatenatestrings"
+               }
+               GetBPString_2_1   =   {
+                  viewData   =   {
+                     x   =   3343.12
+                     y   =   984.8615
+                  }
+                  name   =   "forcedLevel"
+                  GetString   =   [
+                     "ConcatenateStrings_1/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/SetBPString_2;Set",
+            "logic/nodes/AutotestLog_3;OnExit"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      CheckUserProfileLoad   =   {
+         viewData   =   {
+            x   =   2905.663
+            y   =   1111.572
+         }
+         OnSuccess   =   [
+            "BlueprintLibraryFunction_2/logic/nodes/SetBPString_2/Set"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskCheckUserProfileLoad"
+      }
+      WaitLevelLoaded   =   {
+         viewData   =   {
+            x   =   3922.76
+            y   =   1099.063
+         }
+         OnSuccess   =   [
+            "If/Input"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskWaitLevelLoaded"
+      }
+      GetBPString_2_1   =   {
+         viewData   =   {
+            x   =   3866.936
+            y   =   1280.395
+         }
+         name   =   "forcedLevel"
+         GetString   =   [
+            "IsEqualStrings/inputStringA/cb",
+            "Append/inputStringB/cb",
+            "LoadLevelMudRunner_1/level/cb"
+         ]
+         __type   =   "BlueprintNodeGetBpString"
+      }
+      If   =   {
+         viewData   =   {
+            x   =   4311.491
+            y   =   1116.85
+         }
+         OnTrue   =   [
+            "BlueprintLibraryFunction/logic/nodes/UnlockAllGateways/UnlockTruck"
+         ]
+         OnFalse   =   [
+            "AutotestLog/Log"
+         ]
+         __type   =   "BlueprintNodeIf"
+      }
+      IsEqualStrings   =   {
+         viewData   =   {
+            x   =   4128.076
+            y   =   1226.971
+         }
+         IsEqualStrings   =   [
+            "If/condition/cb"
+         ]
+         __type   =   "BlueprintStringLibraryIsequalstrings"
+      }
+      BlueprintLibraryFunction_1   =   {
+         captionVar   =   "CheckLevel"
+         viewData   =   {
+            x   =   5165.555
+            y   =   1113.657
+         }
+         logic   =   {
+            nodes   =   {
+               GetAllTruckGlobalIds   =   {
+                  viewData   =   {
+                     x   =   4988.809
+                     y   =   1528.992
+                  }
+                  GetTruckInfo   =   [
+                     "ForEachStringCOROUTINE/arrayString/cb",
+                     "ArrayStringCount/value/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllTrucks"
+               }
+               Delay_1_1_1   =   {
+                  viewData   =   {
+                     x   =   5771.075
+                     y   =   1494.821
+                  }
+                  duration   =   {
+                     def   =   0.1
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "CheckSavedTruckAabb/Check"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               ForEachStringCOROUTINE   =   {
+                  viewData   =   {
+                     x   =   5318.214
+                     y   =   1501.218
+                  }
+                  OnFinish   =   [
+                     "ForceSave/Save"
+                  ]
+                  OnIteration   =   [
+                     "SetBPString_1/Set"
+                  ]
+                  GetString   =   [
+                     "SetBPString_1/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               BlueprintLibraryFunction_1   =   {
+                  captionVar   =   "Check Level"
+                  viewData   =   {
+                     x   =   5039.407
+                     y   =   1339.59
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        GetCurrentLevelMudRunner   =   {
+                           viewData   =   {
+                              x   =   4272.838
+                              y   =   1342.658
+                           }
+                           GetCurrentLevel   =   [
+                              "IsEqualStrings/inputStringA/cb",
+                              "ConcatenateStrings/inputStringB/cb"
+                           ]
+                           __type   =   "BlueprintNodeMrGetCurrentLevel"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   4723.575
+                              y   =   1299.001
+                           }
+                           OnTrue   =   [
+                              "../../../ForEachStringCOROUTINE/StartIterate"
+                           ]
+                           OnFalse   =   [
+                              "AutotestFail/Fail"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                        IsEqualStrings   =   {
+                           viewData   =   {
+                              x   =   4533.916
+                              y   =   1223.602
+                           }
+                           IsEqualStrings   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryIsequalstrings"
+                        }
+                        AutotestFail   =   {
+                           viewData   =   {
+                              x   =   5274.541
+                              y   =   1235.604
+                           }
+                           failMsg   =   {
+                              def   =   ""
+                              __type   =   "StringRefParam"
+                           }
+                           __type   =   "BlueprintNodeAutotestFail"
+                        }
+                        ConcatenateStrings   =   {
+                           viewData   =   {
+                              x   =   4963.291
+                              y   =   1326.854
+                           }
+                           inputStringA   =   {
+                              def   =   "Loaded level: "
+                              __type   =   "StringRefParam"
+                           }
+                           GetString   =   [
+                              "ConcatenateStrings_2/inputStringA/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                        ConcatenateStrings_1   =   {
+                           viewData   =   {
+                              x   =   4941.633
+                              y   =   1441.14
+                           }
+                           inputStringA   =   {
+                              def   =   " Awaited level: "
+                              __type   =   "StringRefParam"
+                           }
+                           GetString   =   [
+                              "ConcatenateStrings_2/inputStringB/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                        ConcatenateStrings_2   =   {
+                           viewData   =   {
+                              x   =   5208.291
+                              y   =   1376.854
+                           }
+                           GetString   =   [
+                              "AutotestFail/failMsg/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/If;Input",
+                     "logic/nodes/IsEqualStrings;inputStringB;requestedLevel;Requested Level",
+                     "logic/nodes/ConcatenateStrings_1;inputStringB;requestedLevel;RequestedLevel",
+                     "logic/nodes/If;OnTrue"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               Delay_1_1_2_1   =   {
+                  viewData   =   {
+                     x   =   6332.901
+                     y   =   1877.728
+                  }
+                  duration   =   {
+                     def   =   0.1
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "ForEachStringCOROUTINE/ContinueIterate"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               ReadAabbJson   =   {
+                  viewData   =   {
+                     x   =   5688.588
+                     y   =   1120.674
+                  }
+                  OnExit   =   [
+                     "BlueprintNodeCheckAabbTruckCountMatch/Start"
+                  ]
+                  GetData   =   [
+                     "CheckSavedTruckAabb/dataParam/cb",
+                     "BlueprintNodeCheckAabbTruckCountMatch/trucksData/cb",
+                     "BlueprintLibraryFunction_4/logic/nodes/WriteAabbJson/dataParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeReadAabbJson"
+               }
+               SetBPString   =   {
+                  viewData   =   {
+                     x   =   5431.292
+                     y   =   1120.018
+                  }
+                  string   =   {
+                     def   =   ""
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "levelName"
+                  OnExit   =   [
+                     "ReadAabbJson/Read"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetBPString   =   {
+                  viewData   =   {
+                     x   =   4813.938
+                     y   =   1377.052
+                  }
+                  name   =   "levelName"
+                  GetString   =   [
+                     "BlueprintLibraryFunction_1/logic/nodes/IsEqualStrings/inputStringB/cb",
+                     "BlueprintLibraryFunction_1/logic/nodes/ConcatenateStrings_1/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               GetBPString_1   =   {
+                  viewData   =   {
+                     x   =   5979.841
+                     y   =   1521.201
+                  }
+                  name   =   "levelName"
+                  GetString   =   [
+                     "CheckSavedTruckAabb/levelNameParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               SetBPString_1   =   {
+                  viewData   =   {
+                     x   =   5563.534
+                     y   =   1503.295
+                  }
+                  string   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "globalId"
+                  OnExit   =   [
+                     "Delay_1_1_1/Start"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetBPString_1_2   =   {
+                  viewData   =   {
+                     x   =   5983.123
+                     y   =   1443.545
+                  }
+                  name   =   "globalId"
+                  GetString   =   [
+                     "CheckSavedTruckAabb/globalIdParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               BlueprintLibraryFunction_3   =   {
+                  captionVar   =   "DelayedSelfCheckIfNeeded"
+                  viewData   =   {
+                     x   =   6835.788
+                     y   =   1494.063
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        Delay_1   =   {
+                           viewData   =   {
+                              x   =   6935.1
+                              y   =   1394.465
+                           }
+                           duration   =   {
+                              def   =   1
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "CheckSavedTruckAabb_1_1/Check"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   6691.317
+                              y   =   1409.746
+                           }
+                           OnTrue   =   [
+                              "Delay_1/Start"
+                           ]
+                           OnFalse   =   [
+                              "../../../Delay_1_1_2_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                        GetBPString_1_1   =   {
+                           viewData   =   {
+                              x   =   6918.105
+                              y   =   1570.212
+                           }
+                           name   =   "levelName"
+                           GetString   =   [
+                              "CheckSavedTruckAabb_1_1/levelNameParam/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpString"
+                        }
+                        GetBPString_1_2_1   =   {
+                           viewData   =   {
+                              x   =   6922.652
+                              y   =   1492.915
+                           }
+                           name   =   "globalId"
+                           GetString   =   [
+                              "CheckSavedTruckAabb_1_1/globalIdParam/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpString"
+                        }
+                        GetBPBool_1_1   =   {
+                           viewData   =   {
+                              x   =   6393.974
+                              y   =   1428.388
+                           }
+                           name   =   "needDelayedSelfCheck"
+                           Bool   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                        CheckSavedTruckAabb_1_1   =   {
+                           viewData   =   {
+                              x   =   7241.344
+                              y   =   1454.529
+                           }
+                           OnFinished   =   [
+                              "../../../Delay_1_1_2_1/Start"
+                           ]
+                           isDoubleCheckParam   =   {
+                              def   =   True
+                              __type   =   "BoolRefParam"
+                           }
+                           isNeedToWriteParam   =   {
+                              __type   =   "BoolRefParam"
+                           }
+                           dataParam   =   {
+                              __type   =   "SaveTruckCheckDataRefParam"
+                           }
+                           __type   =   "BlueprintNodeCheckTruckSavedAabb"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/If;Input;Start;Input",
+                     "logic/nodes/If;OnFalse;OnFalse;OnFalse",
+                     "logic/nodes/CheckSavedTruckAabb_1_1;OnFinished",
+                     "logic/nodes/CheckSavedTruckAabb_1_1;dataParam"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintLibraryFunction_4   =   {
+                  captionVar   =   "WriteJsonIfNeeded"
+                  viewData   =   {
+                     x   =   5318.706
+                     y   =   1771.155
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        WriteAabbJson   =   {
+                           viewData   =   {
+                              x   =   6370.887
+                              y   =   1994.642
+                           }
+                           dataParam   =   {
+                              __type   =   "SaveTruckCheckDataRefParam"
+                           }
+                           OnExit   =   [
+                              "../../../../../../BlueprintLibraryFunction/logic/nodes/BlueprintLibraryFunction_2/logic/nodes/AutotestLog/Log"
+                           ]
+                           __type   =   "BlueprintNodeWriteAabbJson"
+                        }
+                        If_1   =   {
+                           viewData   =   {
+                              x   =   6040.789
+                              y   =   1989.86
+                           }
+                           OnTrue   =   [
+                              "WriteAabbJson/Write"
+                           ]
+                           OnFalse   =   [
+                              "../../../../../../BlueprintLibraryFunction/logic/nodes/BlueprintLibraryFunction_2/logic/nodes/AutotestLog/Log"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                        GetBPBool_2   =   {
+                           viewData   =   {
+                              x   =   5822.208
+                              y   =   2004.569
+                           }
+                           name   =   "needWriteJson"
+                           Bool   =   [
+                              "If_1/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/WriteAabbJson;dataParam",
+                     "logic/nodes/If_1;Input",
+                     "logic/nodes/WriteAabbJson;OnExit",
+                     "logic/nodes/If_1;OnFalse"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintNodeCheckAabbTruckCountMatch   =   {
+                  viewData   =   {
+                     x   =   5985.421
+                     y   =   1127.696
+                  }
+                  OnFinished   =   [
+                     "BlueprintLibraryFunction_1/logic/nodes/If/Input"
+                  ]
+                  trucksData   =   {
+                     __type   =   "SaveTruckCheckDataRefParam"
+                  }
+                  levelNameParam   =   {
+                     __type   =   "StringRefParam"
+                  }
+               }
+               GetBPString_1_1   =   {
+                  viewData   =   {
+                     x   =   5770.929
+                     y   =   1295.922
+                  }
+                  name   =   "levelName"
+                  GetString   =   [
+                     "BlueprintNodeCheckAabbTruckCountMatch/levelNameParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               ArrayStringCount   =   {
+                  viewData   =   {
+                     x   =   5444.015
+                     y   =   1306.843
+                  }
+                  value   =   {
+                     __type   =   "StringArrayRefParam"
+                  }
+                  Get   =   [
+                     "BlueprintNodeCheckAabbTruckCountMatch/truckCountParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetArrayStringCount"
+               }
+               CheckSavedTruckAabb   =   {
+                  viewData   =   {
+                     x   =   6285.604
+                     y   =   1425.418
+                  }
+                  OnFinished   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/If/Input"
+                  ]
+                  isNeedToWriteParam   =   {
+                     __type   =   "BoolRefParam"
+                  }
+                  dataParam   =   {
+                     __type   =   "SaveTruckCheckDataRefParam"
+                  }
+                  GetCheckData   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/CheckSavedTruckAabb_1_1/dataParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeCheckTruckSavedAabb"
+               }
+               GetBPBool_2   =   {
+                  viewData   =   {
+                     x   =   6074.036
+                     y   =   1616.994
+                  }
+                  name   =   "needWriteJson"
+                  Bool   =   [
+                     "CheckSavedTruckAabb/isNeedToWriteParam/cb"
+                  ]
+                  __type   =   "BlueprintLibraryGetbool"
+               }
+               ForceSave   =   {
+                  viewData   =   {
+                     x   =   5276.21
+                     y   =   1645.775
+                  }
+                  reason   =   {
+                     def   =   "aabb test level completed"
+                     __type   =   "StringRefParam"
+                  }
+                  OnSuccess   =   [
+                     "BlueprintLibraryFunction_4/logic/nodes/If_1/Input"
+                  ]
+                  OnFailed   =   [
+                     "BlueprintLibraryFunction_4/logic/nodes/If_1/Input"
+                  ]
+                  __type   =   "BlueprintNodeForceSave"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/SetBPString;Set",
+            "logic/nodes/SetBPString;string",
+            "logic/nodes/BlueprintLibraryFunction_4;logic/nodes/WriteAabbJson/OnExit",
+            "logic/nodes/BlueprintLibraryFunction_4;logic/nodes/If_1/OnFalse"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      BlueprintLibraryFunction_1_1   =   {
+         captionVar   =   "CheckLevel"
+         viewData   =   {
+            x   =   5601.084
+            y   =   1294.031
+         }
+         logic   =   {
+            nodes   =   {
+               GetAllTruckGlobalIds   =   {
+                  viewData   =   {
+                     x   =   4988.809
+                     y   =   1528.992
+                  }
+                  GetTruckInfo   =   [
+                     "ForEachStringCOROUTINE/arrayString/cb",
+                     "ArrayStringCount/value/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllTrucks"
+               }
+               Delay_1_1_1   =   {
+                  viewData   =   {
+                     x   =   5810.617
+                     y   =   1520.084
+                  }
+                  duration   =   {
+                     def   =   0.1
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "CheckSavedTruckAabb/Check"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               ForEachStringCOROUTINE   =   {
+                  viewData   =   {
+                     x   =   5277.573
+                     y   =   1504.513
+                  }
+                  OnFinish   =   [
+                     "ForceSave/Save"
+                  ]
+                  OnIteration   =   [
+                     "SetBPString_1/Set"
+                  ]
+                  GetString   =   [
+                     "SetBPString_1/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               BlueprintLibraryFunction_1   =   {
+                  captionVar   =   "Check Level"
+                  viewData   =   {
+                     x   =   5039.407
+                     y   =   1339.59
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        GetCurrentLevelMudRunner   =   {
+                           viewData   =   {
+                              x   =   4272.838
+                              y   =   1342.658
+                           }
+                           GetCurrentLevel   =   [
+                              "IsEqualStrings/inputStringA/cb",
+                              "ConcatenateStrings/inputStringB/cb"
+                           ]
+                           __type   =   "BlueprintNodeMrGetCurrentLevel"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   4723.575
+                              y   =   1299.001
+                           }
+                           OnTrue   =   [
+                              "../../../ForEachStringCOROUTINE/StartIterate"
+                           ]
+                           OnFalse   =   [
+                              "AutotestFail/Fail"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                        IsEqualStrings   =   {
+                           viewData   =   {
+                              x   =   4533.916
+                              y   =   1223.602
+                           }
+                           IsEqualStrings   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryIsequalstrings"
+                        }
+                        AutotestFail   =   {
+                           viewData   =   {
+                              x   =   5274.541
+                              y   =   1235.604
+                           }
+                           failMsg   =   {
+                              def   =   ""
+                              __type   =   "StringRefParam"
+                           }
+                           __type   =   "BlueprintNodeAutotestFail"
+                        }
+                        ConcatenateStrings   =   {
+                           viewData   =   {
+                              x   =   4963.291
+                              y   =   1326.854
+                           }
+                           inputStringA   =   {
+                              def   =   "Loaded level: "
+                              __type   =   "StringRefParam"
+                           }
+                           GetString   =   [
+                              "ConcatenateStrings_2/inputStringA/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                        ConcatenateStrings_1   =   {
+                           viewData   =   {
+                              x   =   4941.633
+                              y   =   1441.14
+                           }
+                           inputStringA   =   {
+                              def   =   " Awaited level: "
+                              __type   =   "StringRefParam"
+                           }
+                           GetString   =   [
+                              "ConcatenateStrings_2/inputStringB/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                        ConcatenateStrings_2   =   {
+                           viewData   =   {
+                              x   =   5208.291
+                              y   =   1376.854
+                           }
+                           GetString   =   [
+                              "AutotestFail/failMsg/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/If;Input",
+                     "logic/nodes/IsEqualStrings;inputStringB;requestedLevel;Requested Level",
+                     "logic/nodes/ConcatenateStrings_1;inputStringB;requestedLevel;RequestedLevel",
+                     "logic/nodes/If;OnTrue"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               Delay_1_1_2_1   =   {
+                  viewData   =   {
+                     x   =   6332.901
+                     y   =   1877.728
+                  }
+                  duration   =   {
+                     def   =   0.1
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "ForEachStringCOROUTINE/ContinueIterate"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               ReadAabbJson   =   {
+                  viewData   =   {
+                     x   =   5688.588
+                     y   =   1120.674
+                  }
+                  OnExit   =   [
+                     "BlueprintNodeCheckAabbTruckCountMatch/Start"
+                  ]
+                  GetData   =   [
+                     "CheckSavedTruckAabb/dataParam/cb",
+                     "BlueprintNodeCheckAabbTruckCountMatch/trucksData/cb",
+                     "BlueprintLibraryFunction_4/logic/nodes/WriteAabbJson/dataParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeReadAabbJson"
+               }
+               SetBPString   =   {
+                  viewData   =   {
+                     x   =   5431.292
+                     y   =   1120.018
+                  }
+                  string   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "levelName"
+                  OnExit   =   [
+                     "ReadAabbJson/Read"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetBPString   =   {
+                  viewData   =   {
+                     x   =   4813.938
+                     y   =   1377.052
+                  }
+                  name   =   "levelName"
+                  GetString   =   [
+                     "BlueprintLibraryFunction_1/logic/nodes/IsEqualStrings/inputStringB/cb",
+                     "BlueprintLibraryFunction_1/logic/nodes/ConcatenateStrings_1/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               GetBPString_1   =   {
+                  viewData   =   {
+                     x   =   5979.841
+                     y   =   1521.201
+                  }
+                  name   =   "levelName"
+                  GetString   =   [
+                     "CheckSavedTruckAabb/levelNameParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               SetBPString_1   =   {
+                  viewData   =   {
+                     x   =   5592.092
+                     y   =   1517.574
+                  }
+                  string   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "globalId"
+                  OnExit   =   [
+                     "Delay_1_1_1/Start"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetBPString_1_2   =   {
+                  viewData   =   {
+                     x   =   5983.123
+                     y   =   1443.545
+                  }
+                  name   =   "globalId"
+                  GetString   =   [
+                     "CheckSavedTruckAabb/globalIdParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               BlueprintLibraryFunction_3   =   {
+                  captionVar   =   "DelayedSelfCheckIfNeeded"
+                  viewData   =   {
+                     x   =   6835.788
+                     y   =   1494.063
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        Delay_1   =   {
+                           viewData   =   {
+                              x   =   6935.1
+                              y   =   1394.465
+                           }
+                           duration   =   {
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "CheckSavedTruckAabb_1_1/Check"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   6691.317
+                              y   =   1409.746
+                           }
+                           OnTrue   =   [
+                              "Delay_1/Start"
+                           ]
+                           OnFalse   =   [
+                              "../../../Delay_1_1_2_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                        GetBPString_1_1   =   {
+                           viewData   =   {
+                              x   =   6918.105
+                              y   =   1570.212
+                           }
+                           name   =   "levelName"
+                           GetString   =   [
+                              "CheckSavedTruckAabb_1_1/levelNameParam/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpString"
+                        }
+                        GetBPString_1_2_1   =   {
+                           viewData   =   {
+                              x   =   6922.652
+                              y   =   1492.915
+                           }
+                           name   =   "globalId"
+                           GetString   =   [
+                              "CheckSavedTruckAabb_1_1/globalIdParam/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpString"
+                        }
+                        GetBPBool_1_1   =   {
+                           viewData   =   {
+                              x   =   6393.974
+                              y   =   1428.388
+                           }
+                           name   =   "needDelayedSelfCheck"
+                           Bool   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                        CheckSavedTruckAabb_1_1   =   {
+                           viewData   =   {
+                              x   =   7241.344
+                              y   =   1454.529
+                           }
+                           OnFinished   =   [
+                              "../../../Delay_1_1_2_1/Start"
+                           ]
+                           isDoubleCheckParam   =   {
+                              def   =   True
+                              __type   =   "BoolRefParam"
+                           }
+                           isNeedToWriteParam   =   {
+                              __type   =   "BoolRefParam"
+                           }
+                           dataParam   =   {
+                              __type   =   "SaveTruckCheckDataRefParam"
+                           }
+                           __type   =   "BlueprintNodeCheckTruckSavedAabb"
+                        }
+                        GetBPBool_2   =   {
+                           viewData   =   {
+                              x   =   6948.507
+                              y   =   1658.952
+                           }
+                           name   =   "needWriteJson"
+                           Bool   =   [
+                              "CheckSavedTruckAabb_1_1/isNeedToWriteParam/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/If;Input;Start;Input",
+                     "logic/nodes/If;OnFalse;OnFalse;OnFalse",
+                     "logic/nodes/CheckSavedTruckAabb_1_1;OnFinished",
+                     "logic/nodes/CheckSavedTruckAabb_1_1;dataParam"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintLibraryFunction_4   =   {
+                  captionVar   =   "WriteJsonIfNeeded"
+                  viewData   =   {
+                     x   =   5301.132
+                     y   =   1870.011
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        WriteAabbJson   =   {
+                           viewData   =   {
+                              x   =   6461.914
+                              y   =   1980.735
+                           }
+                           dataParam   =   {
+                              __type   =   "SaveTruckCheckDataRefParam"
+                           }
+                           OnExit   =   [
+                              "../../../../../../AutotestSuccess_1/Success"
+                           ]
+                           __type   =   "BlueprintNodeWriteAabbJson"
+                        }
+                        If_1   =   {
+                           viewData   =   {
+                              x   =   6040.789
+                              y   =   1989.86
+                           }
+                           OnTrue   =   [
+                              "WriteAabbJson/Write"
+                           ]
+                           OnFalse   =   [
+                              "../../../../../../AutotestSuccess_1/Success"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                        GetBPBool_2   =   {
+                           viewData   =   {
+                              x   =   5822.208
+                              y   =   2004.569
+                           }
+                           name   =   "needWriteJson"
+                           Bool   =   [
+                              "If_1/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/WriteAabbJson;dataParam",
+                     "logic/nodes/If_1;Input",
+                     "logic/nodes/WriteAabbJson;OnExit",
+                     "logic/nodes/If_1;OnFalse"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintNodeCheckAabbTruckCountMatch   =   {
+                  viewData   =   {
+                     x   =   5985.421
+                     y   =   1127.696
+                  }
+                  OnFinished   =   [
+                     "BlueprintLibraryFunction_1/logic/nodes/If/Input"
+                  ]
+                  trucksData   =   {
+                     __type   =   "SaveTruckCheckDataRefParam"
+                  }
+                  levelNameParam   =   {
+                     __type   =   "StringRefParam"
+                  }
+               }
+               GetBPString_1_1   =   {
+                  viewData   =   {
+                     x   =   5770.929
+                     y   =   1295.922
+                  }
+                  name   =   "levelName"
+                  GetString   =   [
+                     "BlueprintNodeCheckAabbTruckCountMatch/levelNameParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               ArrayStringCount   =   {
+                  viewData   =   {
+                     x   =   5444.015
+                     y   =   1306.843
+                  }
+                  value   =   {
+                     __type   =   "StringArrayRefParam"
+                  }
+                  Get   =   [
+                     "BlueprintNodeCheckAabbTruckCountMatch/truckCountParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetArrayStringCount"
+               }
+               CheckSavedTruckAabb   =   {
+                  viewData   =   {
+                     x   =   6285.604
+                     y   =   1425.418
+                  }
+                  OnFinished   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/If/Input"
+                  ]
+                  isNeedToWriteParam   =   {
+                     __type   =   "BoolRefParam"
+                  }
+                  dataParam   =   {
+                     __type   =   "SaveTruckCheckDataRefParam"
+                  }
+                  GetCheckData   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/CheckSavedTruckAabb_1_1/dataParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeCheckTruckSavedAabb"
+               }
+               ForceSave   =   {
+                  viewData   =   {
+                     x   =   5280.096
+                     y   =   1683.942
+                  }
+                  reason   =   {
+                     def   =   "aabb test level completed"
+                     __type   =   "StringRefParam"
+                  }
+                  OnSuccess   =   [
+                     "BlueprintLibraryFunction_4/logic/nodes/If_1/Input"
+                  ]
+                  OnFailed   =   [
+                     "BlueprintLibraryFunction_4/logic/nodes/If_1/Input"
+                  ]
+                  __type   =   "BlueprintNodeForceSave"
+               }
+               GetBPBool_2   =   {
+                  viewData   =   {
+                     x   =   6161.57
+                     y   =   1618.934
+                  }
+                  name   =   "needWriteJson"
+                  Bool   =   [
+                     "CheckSavedTruckAabb/isNeedToWriteParam/cb"
+                  ]
+                  __type   =   "BlueprintLibraryGetbool"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/SetBPString;Set",
+            "logic/nodes/SetBPString;string",
+            "logic/nodes/BlueprintLibraryFunction_4;logic/nodes/WriteAabbJson/OnExit",
+            "logic/nodes/BlueprintLibraryFunction_4;logic/nodes/If_1/OnFalse"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      AutotestLog   =   {
+         viewData   =   {
+            x   =   4466.398
+            y   =   1214.639
+         }
+         OnExit   =   [
+            "LoadLevelMudRunner_1/Load"
+         ]
+         __type   =   "BlueprintNodeAutotestLog"
+      }
+      Append   =   {
+         viewData   =   {
+            x   =   4118.11
+            y   =   1416.228
+         }
+         inputStringA   =   {
+            def   =   "Started with forced level: "
+            __type   =   "StringRefParam"
+         }
+         Append   =   [
+            "AutotestLog/logRef/cb"
+         ]
+         __type   =   "BlueprintStringLibraryAppend"
+      }
+      WaitLevelLoaded_1   =   {
+         viewData   =   {
+            x   =   4825.089
+            y   =   1294.654
+         }
+         OnSuccess   =   [
+            "SkipCinematic/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskWaitLevelLoaded"
+      }
+      SkipCinematic   =   {
+         viewData   =   {
+            x   =   5198.784
+            y   =   1298.479
+         }
+         OnSuccess   =   [
+            "BlueprintLibraryFunction_1_1/logic/nodes/SetBPString/Set"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskSkipCinematic"
+      }
+      LoadLevelMudRunner_1   =   {
+         viewData   =   {
+            x   =   4590.909
+            y   =   1303.946
+         }
+         OnLevelLoaded   =   [
+            "WaitLevelLoaded_1/Start"
+         ]
+         __type   =   "BlueprintNodeMrLoadLevel"
+      }
+      GetBPString_2_1_1   =   {
+         viewData   =   {
+            x   =   5459.661
+            y   =   1456.983
+         }
+         name   =   "forcedLevel"
+         GetString   =   [
+            "BlueprintLibraryFunction_1_1/logic/nodes/SetBPString/string/cb"
+         ]
+         __type   =   "BlueprintNodeGetBpString"
+      }
+   }
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestBlueprint"

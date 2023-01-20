@@ -1,0 +1,5 @@
+delayBeforeSuccess   =   1000
+suspensionNameRef   =   {
+   __type   =   "StringRefParam"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

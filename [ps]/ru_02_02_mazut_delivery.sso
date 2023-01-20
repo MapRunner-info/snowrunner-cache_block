@@ -1,0 +1,59 @@
+uiDesc   =   "RU_02_02_MAZUT_DELIVERY_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "RU_02_02_MAZUT_DELIVERY_1_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FACTORY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_MAZUT_DELIVERY_1_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_VILLAGE_DROPOFF"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "RU_02_02_MAZUT_DELIVERY_1_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_FARM"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_MAZUT_DELIVERY_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   560
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   5750
+   }
+}
+employer   =   "TransTaymir"
+region   =   "ru_02"
+__type   =   "ContractSettings"

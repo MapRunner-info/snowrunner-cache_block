@@ -1,0 +1,10 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibMenuanimcontextpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "PopupViewBase"

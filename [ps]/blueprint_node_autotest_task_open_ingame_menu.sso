@@ -1,0 +1,25 @@
+delayBeforeStart   =   1000
+delayBeforeSuccess   =   1000
+escapeTool   =   {
+   inputLink   =   "Exploration.Menu"
+   __type   =   "InputLinkHoldMr"
+}
+beforeIngameMenuOpen   =   2000
+InputActionKey   =   {
+   cmd   =   {
+      devices   =   [
+         {
+            deviceType   =   "keyboard"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     1
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+   __type   =   "InputActionTap"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

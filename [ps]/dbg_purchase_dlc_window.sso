@@ -1,0 +1,9 @@
+window   =   {
+   id   =   "DebugShowDlcPurchaseWindow"
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   __type   =   "DbgWindow"
+}
+maxMenuPosition   =   25
+__type   =   "DbgWindowBase"

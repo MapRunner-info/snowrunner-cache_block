@@ -1,0 +1,522 @@
+states   =   {
+   HudStateIngame   =   {
+      screenDesc   =   {
+         type   =   {
+            mouseEnabled   =   False
+            badConnectAttach   =   {
+               verticalAlign   =   1
+               __type   =   "UiHudLibBadconnectionattach"
+            }
+            navPanelHintAnim   =   {
+               verticalAlign   =   2
+               __type   =   "UiHudLibNavpanelhintanimation"
+            }
+            hudNavPanel   =   {
+               verticalAlign   =   2
+               __type   =   "UiHudLibNavpanelattachpoint"
+            }
+            popupLayer   =   {
+               mouseEnabled   =   False
+               placement   =   {
+                  mouseEnabled   =   False
+                  __type   =   "UiMovieClip"
+               }
+               __type   =   "UiHudLibPopuplayercontainer"
+            }
+            cutSceneHeaderAttach   =   {
+               mouseEnabled   =   False
+               mouseChildren   =   False
+               verticalAlign   =   1
+               __type   =   "UiHudLibCutsceneheaderap"
+            }
+            hint   =   {
+               mouseEnabled   =   False
+               mouseChildren   =   False
+               verticalAlign   =   1
+               __type   =   "UiHudLibHudhint"
+            }
+            damageBarAttach   =   {
+               verticalAlign   =   1
+               __type   =   "UiHudLibCompassbarattach"
+            }
+            compass   =   {
+               visible   =   False
+               __type   =   "UiHudLibHudcompass"
+            }
+            playerInfoAttach   =   {
+               verticalAlign   =   1
+               __type   =   "UiHudLibProfileattachpoint"
+            }
+            current_contract   =   {
+               mouseEnabled   =   False
+               mouseChildren   =   False
+               verticalAlign   =   1
+               __type   =   "UiHudLibHudcurrentcontract"
+            }
+            hudTruckStatsAnimCont   =   {
+               verticalAlign   =   1
+               __type   =   "UiHudLibHudtruckstatsanimcontainer"
+            }
+            cargoLoadAnimCont   =   {
+               mouseEnabled   =   False
+               mouseChildren   =   False
+               verticalAlign   =   1
+               currentLoad   =   {
+                  __type   =   "UiHudLibHudcurrentloading"
+               }
+               __type   =   "UiHudLibCargocapacityanimcontainer"
+            }
+            leftHudPanelContainer   =   {
+               mouseEnabled   =   False
+               verticalAlign   =   2
+               functionsContainer   =   {
+                  mouseEnabled   =   False
+                  funcBtn   =   {
+                     focusable   =   False
+                     __type   =   "UiHudLibHudfuncbtn"
+                  }
+                  optionPanel   =   {
+                     mouseEnabled   =   False
+                     list   =   {
+                        mouseEnabled   =   False
+                        lir   =   {
+                           __type   =   "HudInteractonLirItem"
+                        }
+                        __type   =   "UiHudLibOptionpanellist"
+                     }
+                     __type   =   "UiHudLibAutoclassfunctionscontoptionpanel"
+                  }
+                  __type   =   "UiHudLibFunctionscont"
+               }
+               partyRoster   =   {
+                  mouseEnabled   =   False
+                  mouseChildren   =   False
+                  __type   =   "UiHudLibHudpartyroster"
+               }
+               truckStatusContainer   =   {
+                  mouseEnabled   =   False
+                  mouseChildren   =   False
+                  __type   =   "UiHudLibTruckstatuscont"
+               }
+               panelPlacement   =   {
+                  mouseEnabled   =   False
+                  __type   =   "UiHudLibLefthudpanelplacement"
+               }
+               __type   =   "UiHudLibLefthudpanelcont"
+            }
+            rightHudPanelContainer   =   {
+               mouseEnabled   =   False
+               verticalAlign   =   2
+               forkLiftHintCont   =   {
+                  mouseEnabled   =   False
+                  forkLiftHint1   =   {
+                     mouseEnabled   =   False
+                     hint_textfield   =   {
+                        mouseEnabled   =   False
+                        mouseChildren   =   False
+                        __type   =   "UiHudLibAutoclassforklifthinthinttextfield"
+                     }
+                     __type   =   "UiHudLibForklifthint"
+                  }
+                  forkLiftHint2   =   {
+                     mouseEnabled   =   False
+                     hint_textfield   =   {
+                        mouseEnabled   =   False
+                        mouseChildren   =   False
+                        __type   =   "UiHudLibAutoclassforklifthinthinttextfield"
+                     }
+                     __type   =   "UiHudLibForklifthint"
+                  }
+                  forkLiftHint3   =   {
+                     mouseEnabled   =   False
+                     hint_textfield   =   {
+                        mouseEnabled   =   False
+                        mouseChildren   =   False
+                        __type   =   "UiHudLibAutoclassforklifthinthinttextfield"
+                     }
+                     __type   =   "UiHudLibForklifthint"
+                  }
+                  __type   =   "UiHudLibForklifthintcontainer"
+               }
+               gearBox   =   {
+                  mouseEnabled   =   False
+                  mouseChildren   =   False
+                  __type   =   "UiHudLibGearboxcontainer"
+               }
+               diffBtn   =   {
+                  focusable   =   False
+                  toggle   =   True
+                  __type   =   "UiHudLibHuddiffbtn"
+               }
+               wdBtn   =   {
+                  focusable   =   False
+                  toggle   =   True
+                  __type   =   "UiHudLibHudwdbtn"
+               }
+               brakeBtn   =   {
+                  focusable   =   False
+                  toggle   =   True
+                  __type   =   "UiHudLibHudbrakebtn"
+               }
+               __type   =   "UiHudLibRighthudpanelcont"
+            }
+            navPanel   =   {
+               verticalAlign   =   2
+               __type   =   "UiHudLibNavpanelap"
+            }
+            hudPlacement   =   {
+               mouseEnabled   =   False
+               __type   =   "UiHudLibDefhudplacement"
+            }
+            current_loading   =   {
+               verticalAlign   =   1
+               __type   =   "UiHudLibHudcurrentloading"
+            }
+            __type   =   "UiHudLibDefaulthud"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uid   =   "ingame"
+      hudControllersManager   =   {
+         layerType   =   "HUD_INGAME"
+         controllersDescs   =   {
+            DiffLockSolo   =   {
+               type   =   {
+                  view   =   {
+                     navHint   =   {
+                        desc   =   {
+                           uiInputName   =   "DiffLockSolo"
+                           __type   =   "NavButtonDesc"
+                        }
+                        __type   =   "NavButtonHolder"
+                     }
+                     inputScreen   =   {
+                        inputsLinks   =   {
+                           DiffLockSolo   =   {
+                              inputLink   =   "Truck.DiffLockSolo"
+                              __type   =   "InputLinkActionMr"
+                           }
+                        }
+                        __type   =   "SslUiInputScreenMr"
+                     }
+                     __type   =   "HudDiffLockIndicatorUiView"
+                  }
+                  __type   =   "HudDiffLockIndicatorController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            DiffLock   =   {
+               type   =   {
+                  view   =   {
+                     inputScreen   =   {
+                        inputsLinks   =   {
+                           DiffLock   =   {
+                              inputLink   =   "Truck.DiffLock"
+                              __type   =   "InputLinkActionMr"
+                           }
+                        }
+                        __type   =   "SslUiInputScreenMr"
+                     }
+                     __type   =   "HudDiffLockIndicatorUiView"
+                  }
+                  __type   =   "HudDiffLockIndicatorController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            pcDiffLock   =   {
+               type   =   {
+                  view   =   {
+                     navHint   =   {
+                        desc   =   {
+                           uiInputName   =   "pcDiffLock"
+                           __type   =   "NavButtonDesc"
+                        }
+                        __type   =   "NavButtonHolder"
+                     }
+                     inputScreen   =   {
+                        name   =   "HudDiffLockIndicatorUiViewPC"
+                        inputsLinks   =   {
+                           pcDiffLock   =   {
+                              inputLink   =   "Truck.DiffLock"
+                              __type   =   "InputLinkActionMr"
+                           }
+                        }
+                        __type   =   "SslUiInputScreenMr"
+                     }
+                     __type   =   "HudDiffLockIndicatorUiView"
+                  }
+                  __type   =   "HudDiffLockIndicatorController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            AWDSolo   =   {
+               type   =   {
+                  view   =   {
+                     navHint   =   {
+                        desc   =   {
+                           uiInputName   =   "AWDSolo"
+                           __type   =   "NavButtonDesc"
+                        }
+                        __type   =   "NavButtonHolder"
+                     }
+                     inputScreen   =   {
+                        name   =   "Truck.AwdSolo"
+                        inputsLinks   =   {
+                           AWDSolo   =   {
+                              inputLink   =   "Truck.AwdSolo"
+                              __type   =   "InputLinkActionMr"
+                           }
+                        }
+                        __type   =   "SslUiInputScreenMr"
+                     }
+                     __type   =   "HudAwdIndicatorUiView"
+                  }
+                  __type   =   "HudAwdIndicatorController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            pcAWD   =   {
+               type   =   {
+                  view   =   {
+                     inputScreen   =   {
+                        name   =   "Truck.pcAwd"
+                        inputsLinks   =   {
+                           pcAWD   =   {
+                              inputLink   =   "Truck.Awd"
+                              __type   =   "InputLinkActionMr"
+                           }
+                        }
+                        __type   =   "SslUiInputScreenMr"
+                     }
+                     __type   =   "HudAwdIndicatorUiView"
+                  }
+                  __type   =   "HudAwdIndicatorController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            AWD   =   {
+               type   =   {
+                  view   =   {
+                     navHint   =   {
+                        desc   =   {
+                           uiInputName   =   "AWD"
+                           __type   =   "NavButtonDesc"
+                        }
+                        __type   =   "NavButtonHolder"
+                     }
+                     inputScreen   =   {
+                        name   =   "Truck.AWD"
+                        inputsLinks   =   {
+                           AWD   =   {
+                              inputLink   =   "Truck.Awd"
+                              __type   =   "InputLinkActionMr"
+                           }
+                        }
+                        __type   =   "SslUiInputScreenMr"
+                     }
+                     __type   =   "HudAwdIndicatorUiView"
+                  }
+                  __type   =   "HudAwdIndicatorController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            Handbrake   =   {
+               type   =   {
+                  __type   =   "HudHandbrakeIndicatorController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            TruckState   =   {
+               type   =   {
+                  __type   =   "HudTruckStateIndicationController"
+               }
+               flashAttachPointName   =   "leftHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            CurrentObjective   =   {
+               type   =   {
+                  __type   =   "HudCurrentObjectiveController"
+               }
+               flashAttachPointName   =   "hud_current_contract"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            Hint   =   {
+               type   =   {
+                  __type   =   "HudHintController"
+               }
+               flashAttachPointName   =   "hud_hint"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            Interaction   =   {
+               type   =   {
+                  __type   =   "HudInteractionPanelController"
+               }
+               flashAttachPointName   =   "leftHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            Transmission   =   {
+               type   =   {
+                  __type   =   "HudTransmissionController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            TrailerAttach   =   {
+               type   =   {
+                  __type   =   "HudTrailerAttachController"
+               }
+               flashAttachPointName   =   "hud_hint"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            CargoSlots   =   {
+               type   =   {
+                  __type   =   "HudCargoSlotsUiController"
+               }
+               flashAttachPointName   =   "cargoCapacityAnimContainer"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            FuelMeter   =   {
+               type   =   {
+                  __type   =   "HudFuelBarController"
+               }
+               flashAttachPointName   =   "leftHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            GameLog   =   {
+               type   =   {
+                  __type   =   "HudGameLogController"
+               }
+               flashAttachPointName   =   "hudLogAttach"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            navPanel   =   {
+               type   =   {
+                  __type   =   "HudNavigationPanelController"
+               }
+               flashAttachPointName   =   "navPanelAttachPoint"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            rightHint   =   {
+               type   =   {
+                  __type   =   "HudRightPanelHintController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            rightPanel   =   {
+               type   =   {
+                  __type   =   "HudRightPanelController"
+               }
+               flashAttachPointName   =   "rightHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            TruckStats   =   {
+               type   =   {
+                  __type   =   "HudTruckStatsUiController"
+               }
+               flashAttachPointName   =   "hudTruckStatsAnimContainer"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            leftPanel   =   {
+               type   =   {
+                  __type   =   "HudLeftPanelController"
+               }
+               flashAttachPointName   =   "leftHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            damageBar   =   {
+               type   =   {
+                  __type   =   "DamageBarController"
+               }
+               flashAttachPointName   =   "compassBarAttach"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            playersStatus   =   {
+               type   =   {
+                  __type   =   "HudPlayersStatusPanelUiController"
+               }
+               flashAttachPointName   =   "leftHudPanelCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            saveNotifier   =   {
+               type   =   {
+                  __type   =   "HudNotifierController"
+               }
+               flashAttachPointName   =   "dataSaveCont"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+            qosNotifier   =   {
+               type   =   {
+                  __type   =   "HudQosNotifierController"
+               }
+               flashAttachPointName   =   "badConnectionAttach"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+         }
+         __type   =   "HudControllersManagerMr"
+      }
+   }
+   HudStateEmpty   =   {
+      screenDesc   =   {
+         type   =   {
+            __type   =   "UiContainer"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uid   =   "empty"
+      __type   =   "HudStateBase"
+   }
+   HudStateCinematic   =   {
+      hudControllersManager   =   {
+         layerType   =   "HUD_CINEMATIC"
+         controllersDescs   =   {
+            cinematicNavPanel   =   {
+               flashAttachPointName   =   "navPanelAttachPoint"
+               __type   =   "HudControllerDescMr"
+            }
+            cutSceneInfoController   =   {
+               type   =   {
+                  __type   =   "HudCutSceneInfoController"
+               }
+               flashAttachPointName   =   "cutSceneHeaderAp"
+               isEnabled   =   True
+               __type   =   "HudControllerDescMr"
+            }
+         }
+         __type   =   "HudControllersManagerMr"
+      }
+   }
+}
+__type   =   "object"

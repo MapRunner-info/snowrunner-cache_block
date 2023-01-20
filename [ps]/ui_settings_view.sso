@@ -1,0 +1,62 @@
+fadeWrapper   =   {
+   fadeInAnimName   =   "fadeIn"
+   fadeOutAnimName   =   "fadeOut"
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      fade   =   {
+         mouseEnabled   =   False
+         __type   =   "UiSettingsSettingsfade"
+      }
+      list   =   {
+         lir   =   {
+            mouseChildren   =   True
+            __type   =   "UiSettingLirItem"
+         }
+         scrollBar   =   {
+            __type   =   "UiCommonLibDefscrollbars"
+         }
+         __type   =   "UiSettingsSettingslist"
+      }
+      __type   =   "UiSettingsSettingsscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+settingsList   =   {
+   alwaysSendElementSelected   =   True
+   uiFocusScreen   =   {
+      uiGfxInputToDisable   =   [
+         "Return",
+         "Up",
+         "Down"
+      ]
+      __type   =   "UiFocusScreen"
+   }
+   uiInputScreen   =   {
+      inputsLinks   =   {
+         Accept   =   {
+            inputLink   =   "UI.AcceptTap"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+listLineDesc   =   {
+   type   =   {
+      __type   =   "UiSettingsSettingsheaderclip"
+   }
+   __type   =   "UiObjectDesc"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "ScreenViewBase"

@@ -1,0 +1,5 @@
+inputScreen   =   {
+   name   =   "EULA"
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "UiAbstractAgreementScreenController"

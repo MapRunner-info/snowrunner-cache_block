@@ -1,0 +1,42 @@
+bannerImage   =   {
+   type   =   {
+      __type   =   "UiDlcstoreLibDlcstoreitemplaceholder"
+   }
+   __type   =   "UiContainerDesc"
+}
+bigBannerImage   =   {
+   type   =   {
+      __type   =   "UiDlcstoreLibDlcpagepreviewplaceholder"
+   }
+   __type   =   "UiContainerDesc"
+}
+stickers   =   {
+   sticker_inside_1x1   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_inside_1x2   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_inside_1x4   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_door_l_1x1   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_door_r_1x1   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_capote_1x1   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_roof_1x1   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_glass_top   =   {
+      __type   =   "DlcInfoSticker"
+   }
+   sticker_glass_bottom   =   {
+      __type   =   "DlcInfoSticker"
+   }
+}
+__type   =   "object"

@@ -1,0 +1,310 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Rain Params (9)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+			
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = false
+						}
+						__type = "bool"
+						__defaultValue = true
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Path Distort Texture"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion"
+						}
+						__type = "float"
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Turbidity"
+						}
+						__type = "float"
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Path Noise"
+						}
+						__type = "float"
+					}
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Path Tex Tile"
+						}
+						__type = "float"
+					}
+					
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Edge Width"
+						}
+						__type = "float"
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Edge Distortion"
+						}
+						__type = "float"
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Darken Strength"
+						}
+						__type = "float"
+					}
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Darken Power"
+						}
+						__type = "float"
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Lighten Strength"
+						}
+						__type = "float"
+					}
+					floatParam10 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Lighten Power"
+						}
+						__type = "float"
+					}
+					floatParam11 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Helmet K2"
+						}
+						__type = "float"
+					}
+					floatParam12 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Helmet K3"
+						}
+						__type = "float"
+					}
+					floatParam13 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Radial Start"
+						}
+						__type = "float"
+					}
+					floatParam14 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Radial End"
+						}
+						__type = "float"
+					}
+					floatParam15 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Radial Min"
+						}
+						__type = "float"
+					}
+					floatParam16 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Radial Max"
+						}
+						__type = "float"
+					}
+					floatParam17 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Tile Min"
+						}
+						__type = "float"
+					}
+					floatParam18 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Tile Max"
+						}
+						__type = "float"
+					}
+					floatParam19 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Speed Min"
+						}
+						__type = "float"
+					}
+					floatParam20 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Speed Max"
+						}
+						__type = "float"
+					}
+					floatParam21 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flow Spread"
+						}
+						__type = "float"
+					}
+					floatParam22 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Rotate Spread"
+						}
+						__type = "float"
+					}
+					floatParam23 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Meta Width"
+						}
+						__type = "float"
+					}
+					floatParam24 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Meta Depth"
+						}
+						__type = "float"
+					}
+					floatParam25 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Decay Rate"
+						}
+						__type = "float"
+					}
+					floatParam26 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Norm Delta"
+						}
+						__type = "float"
+					}
+					
+					floatParam27 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Norm Strength"
+						}
+						__type = "float"
+					}
+					
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+						}
+					}
+					  
+					colorParam01 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam01"
+							__hint = ""
+							__wrappable = false
+						}
+					}
+					
+					colorParam02 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam02"
+							__hint = ""
+							__wrappable = false
+						}
+					}
+					
+					colorParam03 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam03"
+							__hint = ""
+							__wrappable = false
+						}
+					}
+				}
+			}	
+			
+		}
+	}
+}

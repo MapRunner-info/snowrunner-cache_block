@@ -1,0 +1,37 @@
+view   =   {
+   __type   =   "PopupRetainWarningView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            text   =   "UI_REFUSE"
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         sell   =   {
+            text   =   "UI_UNSELECT"
+            uiInputName   =   "Retain"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupShopSellNavigationPanel"
+   }
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupWarehouseRetainWarning"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Retain   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

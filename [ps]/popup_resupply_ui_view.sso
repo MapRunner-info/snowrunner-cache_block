@@ -1,0 +1,42 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibHudpopupre"
+   }
+   __type   =   "UiObjectDesc"
+}
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibResupplyimg40"
+   }
+   __type   =   "UiContainerDesc"
+}
+moneyIcon   =   "playerProfileCurrency20"
+partsIcon   =   "repairPartsImg20"
+wheelsIcon   =   "repairWheelsImg20"
+tabBtnLeft   =   {
+   __type   =   "NavButtonHolder"
+}
+tabBtnRight   =   {
+   __type   =   "NavButtonHolder"
+}
+incrPartsButton   =   {
+   __type   =   "CustomHoldButtonView"
+}
+decrPartsButton   =   {
+   __type   =   "CustomHoldButtonView"
+}
+resupplyView   =   {
+   switcher   =   {
+      valueSparePartsTf   =   {
+         isHtml   =   True
+         __type   =   "UiPopupLibHudpopupreswitchertfbold"
+      }
+      valueSpareWheelsTf   =   {
+         isHtml   =   True
+         __type   =   "UiPopupLibHudpopupreswitchertfbold"
+      }
+      __type   =   "UiPopupLibHudpopuprepairsourceswitcher"
+   }
+   __type   =   "UiPopupLibPopupresupply"
+}
+__type   =   "RepairRefuelBaseView"

@@ -1,0 +1,232 @@
+pc_sm50  =    {
+   id    =    "PC"
+   vendor    =    "ANY"
+   api_version = "DX11"
+   dxn    =    Yes
+    tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    Yes
+   compiler_targets    =    {
+      vs    =    "vs_5_0"
+      ps    =    "ps_5_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = Yes
+		},
+		{
+			debug = No
+			qualityLow = No
+		},
+		{
+			debug = Yes
+			qualityLow = No
+		}
+   ]
+}
+nx64 = {
+   id             = "NX64"
+   vendor         = "ANY"
+   api_version    = "NX64"
+   dxn            = Yes
+   tess_support   = Yes
+   z_sample_dot   = No
+   z_sample_float = No
+   fetch4         = Yes
+   compiler_targets = {
+      vs = "vs_nvn"
+      ps = "ps_nvn"
+      gs = "gs_nvn"
+      cs = "cs_nvn"
+      hs = "hs_nvn"
+      ds = "ds_nvn"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = Yes
+		},
+		{
+			debug = No
+			qualityLow = No
+		},
+		{
+			debug = Yes
+			qualityLow = No
+		}
+   ]
+}
+durango  =    {
+   id    =    "DURANGO"
+   vendor    =    "ANY"
+   api_version = "DX11"
+   dxn    =    Yes
+   tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    No
+   compiler_targets    =    {
+      vs    =    "vs_5_0"
+      ps    =    "ps_5_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = No
+		}
+   ]
+}
+orbis  =    {
+   id    =    "ORBIS"
+   vendor    =    "ANY"
+   api_version = "DX11"
+   dxn    =    Yes
+   tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    No
+   compiler_targets    =    {
+      vs    =    "vs_5_0"
+      ps    =    "ps_5_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = No
+		}
+   ]
+}
+prospero  =    {
+   id    =    "PROSPERO"
+   vendor    =    "ANY"
+   api_version = "DX11"
+   dxn    =    Yes
+   tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    No
+   compiler_targets    =    {
+      vs    =    "vs_5_0"
+      ps    =    "ps_5_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = No
+		}
+   ]
+}
+scarlett  =    {
+   id    =    "SCARLETT"
+   vendor    =    "ANY"
+   api_version = "DX11"
+   dxn    =    Yes
+   tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    No
+   compiler_targets    =    {
+      vs    =    "vs_6_0"
+      ps    =    "ps_6_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = No
+		}
+   ]
+}
+ggp  =    {
+   id    =    "GGP"
+   vendor    =    "ANY"
+   api_version = "DX11"
+   dxn    =    Yes
+   tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    No
+   compiler_targets    =    {
+      vs    =    "vs_5_0"
+      ps    =    "ps_5_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = No
+		}
+   ]
+}
+osx  =    {
+   id    =    "OSX"
+   vendor    =    "ANY"
+   api_version = "Metal"
+   dxn    =    Yes
+   tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    No
+   compiler_targets    =    {
+      vs    =    "vs_5_0"
+      ps    =    "ps_5_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = No
+		}
+   ]
+}
+ios  =    {
+   id    =    "IOS"
+   vendor    =    "ANY"
+   api_version = "Metal"
+   dxn    =    Yes
+   tess_support = Yes
+   z_sample_dot    =    No
+   z_sample_float    =    No
+   fetch4    =    No
+   compiler_targets    =    {
+      vs    =    "vs_5_0"
+      ps    =    "ps_5_0"
+      gs    =    "gs_5_0"
+      cs    =    "cs_5_0"
+      hs    =    "hs_5_0"
+      ds    =    "ds_5_0"
+   }
+   options = [
+		{
+			debug = No
+			qualityLow = No
+		}
+   ]
+}

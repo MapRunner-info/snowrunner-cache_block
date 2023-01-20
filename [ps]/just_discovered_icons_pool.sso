@@ -1,0 +1,8 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibTasknotify20"
+   }
+   __type   =   "JustDiscoveredIconDesc"
+}
+editorMaxCapacity   =   200
+__type   =   "EditorObjectDescPool"

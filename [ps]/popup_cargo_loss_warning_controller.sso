@@ -1,0 +1,38 @@
+view   =   {
+   __type   =   "PopupCargoLossWarningView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         sell   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "Sell"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupShopSellNavigationPanel"
+   }
+}
+id   =   "CARGO_LOSS_WARNING"
+priority   =   "MIDDLE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupWarehouseSellWarning"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Sell   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

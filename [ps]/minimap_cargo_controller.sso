@@ -1,0 +1,14 @@
+marker   =   {
+   anchor   =   {
+      __type   =   "UiMinimapMarkerselectionanchortruckoriginal"
+   }
+   selectionAnim   =   {
+      __type   =   "UiMinimapMarkerselectionanimtruckoriginal"
+   }
+   selectionSfx   =   {
+      __type   =   "UiMinimapMarkerselectionsfxtruckoriginal"
+   }
+   __type   =   "MinimapMarker"
+}
+type   =   "CARGO"
+__type   =   "MinimapObjectController"

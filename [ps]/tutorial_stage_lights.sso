@@ -1,0 +1,10 @@
+delayBeforeRestartSec   =   600
+clutchInput   =   {
+   inputLink   =   "Truck.ClutchMode"
+   __type   =   "InputLinkMr"
+}
+lightInput   =   {
+   inputLink   =   "Truck.Headlights"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "TutorialStageRepeatable"

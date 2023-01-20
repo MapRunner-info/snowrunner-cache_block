@@ -1,0 +1,4 @@
+truckRef   =   {
+   __type   =   "TruckRef"
+}
+__type   =   "BluePrintNode"

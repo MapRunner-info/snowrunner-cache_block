@@ -1,0 +1,2 @@
+state   =   "IN_ZONE_NOT_READY"
+__type   =   "RacesClientFsmStateBase"

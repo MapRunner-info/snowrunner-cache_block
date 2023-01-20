@@ -1,0 +1,8 @@
+view   =   {
+   __type   =   "UiOneSettingSliderView"
+}
+header   =   "UI_HEADER_SLIDER"
+maxValue   =   1
+defaultValue   =   0.5
+stepInterval   =   0.1
+__type   =   "UiOneSettingController"

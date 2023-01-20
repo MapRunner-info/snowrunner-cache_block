@@ -1,0 +1,84 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	ssaoParams = {
+		__type = "section"
+		__viewType = {
+			__caption = "SSAO params"
+			__expand = true
+		}
+		__members = {
+			  enabled = {
+					__viewType {
+						__wrappable = false
+						__caption = "Enabled"
+					}
+					__type = "bool"
+					__defaultValue = "true"
+			  }
+			  gamma = {
+					__type = "float"
+					__defaultValue = 3.0
+					__viewType {
+						__type = "slider"
+						__caption = "Gamma"
+						__wrappable = false
+						__min = 0.1
+						__max = 20
+						__step = 0.1
+					}
+			  }
+			  ambient = {
+					__type = "float"
+					__defaultValue = 0.1
+					__viewType {
+						__type = "slider"
+						__caption = "Ambient"
+						__wrappable = false
+						__min = 0
+						__max = 1
+						__step = 0.01
+					}
+			  }
+			  gammaLightProbe = {
+					__type = "float"
+					__defaultValue = 3.0
+					__viewType {
+						__type = "slider"
+						__caption = "Gamma for lightprobe geometry"
+						__wrappable = false
+						__min = 0.1
+						__max = 20
+						__step = 0.1
+					}
+			  }
+			  ambientLightProbe = {
+					__type = "float"
+					__defaultValue = 0.1
+					__viewType {
+						__type = "slider"
+						__caption = "Ambient for lightprobe geometry"
+						__wrappable = false
+						__min = 0
+						__max = 1
+						__step = 0.01
+					}
+			  }
+			  amountInDirectLight = {
+					__type = "float"
+					__defaultValue = 0.0
+					__viewType {
+						__type = "slider"
+						__caption = "SSAO part applied to shadowed lights"
+						__wrappable = false
+						__min = 0
+						__max = 1
+						__step = 0.01
+					}
+			  }			  
+			  
+		}
+	}
+}

@@ -1,0 +1,85 @@
+autotestFlow   =   {
+   nodes   =   {
+      OnAutotestStart   =   {
+         viewData   =   {
+            x   =   1050
+            y   =   3800
+         }
+         OnStart   =   [
+            "CheckUserProfileLoad/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestStart"
+      }
+      AutotestSuccess   =   {
+         viewData   =   {
+            x   =   3193.249
+            y   =   3798.811
+         }
+         __type   =   "BlueprintNodeAutotestSuccess"
+      }
+      InGamePressEscape   =   {
+         viewData   =   {
+            x   =   2401.87
+            y   =   3801.595
+         }
+         OnSuccess   =   [
+            "InGameMenuLeaveSession/Start"
+         ]
+         ignoreTaskFail   =   False
+         delayBeforeStart   =   5000
+         beforeIngameMenuOpen   =   2000
+         __type   =   "BlueprintNodeAutotestTaskOpenIngameMenu"
+      }
+      InGameMenuLeaveSession   =   {
+         viewData   =   {
+            x   =   2852.549
+            y   =   3800.903
+         }
+         OnSuccess   =   [
+            "AutotestSuccess/Success"
+         ]
+         beforeMainMenu   =   2000
+         before_main_menu   =   5000
+         __type   =   "BlueprintNodeAutotestTaskIngameMenuLeaveSession"
+      }
+      CheckUserProfileLoad   =   {
+         viewData   =   {
+            x   =   1225
+            y   =   3800
+         }
+         OnSuccess   =   [
+            "MainMenuPressNewGame/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskCheckUserProfileLoad"
+      }
+      WaitLevelLoaded   =   {
+         viewData   =   {
+            x   =   1891.674
+            y   =   3807.803
+         }
+         OnSuccess   =   [
+            "InGamePressEscape/Start"
+         ]
+         delayBeforeStart   =   500
+         expectedLevel   =   {
+            def   =   "level_us_01_01"
+            __type   =   "StringRefParam"
+         }
+         __type   =   "BlueprintNodeAutotestTaskWaitLevelLoaded"
+      }
+      MainMenuPressNewGame   =   {
+         viewData   =   {
+            x   =   1569.705
+            y   =   3808.99
+         }
+         OnSuccess   =   [
+            "WaitLevelLoaded/Start"
+         ]
+         delayBeforeStart   =   2000
+         delayBeforeSuccess   =   3000
+         __type   =   "BlueprintNodeAutotestTaskMainMenuPressNewGame"
+      }
+   }
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestBlueprint"

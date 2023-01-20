@@ -1,0 +1,17 @@
+navHint   =   {
+   desc   =   {
+      uiInputName   =   "Handbrake"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+inputScreen   =   {
+   inputsLinks   =   {
+      Handbrake   =   {
+         inputLink   =   "Truck.Handbrake"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "HudHidableView"

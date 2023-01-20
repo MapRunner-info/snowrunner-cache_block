@@ -1,0 +1,5 @@
+inputScreen   =   {
+   priority   =   "HIGH"
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

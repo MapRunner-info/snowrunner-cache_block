@@ -1,0 +1,7 @@
+enableLegacy   =   True
+inputScreen   =   {
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+idx   =   "SLOT_MENU"
+__type   =   "GameStateBase"

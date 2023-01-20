@@ -1,0 +1,162 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Anarki Ability Params (1)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Texture"
+							__hint = "texture0"
+							__hidden = true
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					
+					floatParam00 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Plasma Scale"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Plasma Speed"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Plasma Hue Shift"
+						}
+						__type = "float"
+						__defaultValue = 0.2
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Plasma Saturation"
+						}
+						__type = "float"
+						__defaultValue = 0.6
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Plasma Value Gamma 1"
+						}
+						__type = "float"
+						__defaultValue = 0.7
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Plasma Value Gamma 1"
+						}
+						__type = "float"
+						__defaultValue = 0.6
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Chroma Power"
+						}
+						__type = "float"
+						__defaultValue = 0.02
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Chroma Speed"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Chroma Radial Start"
+						}
+						__type = "float"
+						__defaultValue = 0.0
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Chroma Radial End"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+							__hidden = true
+						}
+					}
+				}
+			}	
+
+		}
+	}
+}

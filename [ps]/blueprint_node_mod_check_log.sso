@@ -1,0 +1,7 @@
+message   =   {
+   __type   =   "StringRefParam"
+}
+modId   =   {
+   __type   =   "IntRefParam"
+}
+__type   =   "BluePrintNode"

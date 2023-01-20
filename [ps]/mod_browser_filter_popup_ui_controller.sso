@@ -1,0 +1,58 @@
+view   =   {
+   __type   =   "ModBrowserFilterPopupUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         Reset   =   {
+            uiInputName   =   "Reset"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "ModBrowserFilterPopupNavigationPanel"
+   }
+}
+id   =   "MOD_BROWSER_FILTER"
+prevTabBtn   =   {
+   desc   =   {
+      uiInputName   =   "PrevTab"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+nextTabBtn   =   {
+   desc   =   {
+      uiInputName   =   "NextTab"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "Mod Browser Filter Popup"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      PrevTab   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      NextTab   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkActionMr"
+      }
+      Reset   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

@@ -1,0 +1,8 @@
+screenDesc   =   {
+   __type   =   "UiContainerDesc"
+}
+uid   =   "ingame"
+hudControllersManager   =   {
+   __type   =   "HudControllersManagerMr"
+}
+__type   =   "HudStateControllersBase"

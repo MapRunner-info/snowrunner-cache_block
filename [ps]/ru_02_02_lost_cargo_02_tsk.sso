@@ -1,0 +1,58 @@
+uiDesc   =   "RU_02_02_LOST_CARGO_02_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "RU_02_02_LOST_CARGO_02_ZONE_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_VILLAGE_DROPOFF"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBricks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               cargos   =   {
+                  CargoServiceSparePartsTown   =   {
+                     count   =   1
+                     __type   =   "CargoPack"
+                  }
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      spawnCargoOnStageActive   =   [
+         {
+            zone   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_LOST_CARGO_02_SPAWN"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBricks"
+                  count   =   1
+               }
+            ]
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_LOST_CARGO_02_TSK_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_ru_02_02 || RU_02_02_LOST_CARGO_02_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   200
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2250
+   }
+}
+recommendedTruck   =   "CRANE"
+__type   =   "TaskSettings"

@@ -1,0 +1,5 @@
+moneyRef   =   {
+   def   =   0
+   __type   =   "IntRefParam"
+}
+__type   =   "BluePrintNode"

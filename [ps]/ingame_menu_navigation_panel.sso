@@ -1,0 +1,23 @@
+btns   =   {
+   back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   navigation   =   {
+      text   =   "UI_NAVIGATION"
+      useAnim   =   False
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   photo_mode   =   {
+      view   =   {
+         text   =   "UI_PHOTO_MODE"
+         __type   =   "NavButtonView"
+      }
+      __type   =   "NavButtonController"
+   }
+}
+__type   =   "NavigationPanelController"

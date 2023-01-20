@@ -1,0 +1,24 @@
+uiObjectDesc   =   {
+   type   =   {
+      menuList   =   {
+         lir   =   {
+            mouseChildren   =   True
+            __type   =   "UiCoopSettingLitItem"
+         }
+         __type   =   "UiMainMenuMenuaddlist"
+      }
+      __type   =   "UiMainMenuMenuaddsearchingcontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+inputScreen   =   {
+   name   =   "MainMenuCoopHostSettingsView"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenViewBase"

@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneCoopSettingStepperView"
+}
+header   =   "UI_COOP_SETTINGS_PLAYER_AMOUNT"
+desc   =   "UI_COOP_SETTINGS_PLAYER_AMOUNT_DESC"
+__type   =   "UiOneSettingStepperController"

@@ -1,0 +1,1427 @@
+inputs   =   {
+   SteeringWheel   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_STEERING_WHEEL"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.SteeringWheel"
+         }
+      ]
+      canMapAxis   =   True
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   Throttle   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_THROTTLE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.WheelThrottle"
+         }
+      ]
+      canMapAxis   =   True
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   Brake   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_BRAKE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.WheelBrake"
+         }
+      ]
+      canMapAxis   =   True
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   Clutch   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CLUTCH_PEDAL"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.ClutchPedal"
+         }
+      ]
+      canMapAxis   =   True
+      clutchPedal   =   True
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   Headlights   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HEADLIGHTS"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.HeadlightSolo"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   Honk   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HONK"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.Honk"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   AWD   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_AWD"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.AwdSolo"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   DiffLock   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DIFF_LOCK"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.DiffLockSolo"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   Handbrake   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HANDBRAKE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.Handbrake"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   QuickWinch   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_QUICK_WINCH"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.QuickWinch"
+         },
+         {
+            inputLink   =   "Truck.PullWinch"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   StartEngine   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ENGINE"
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   Minimap   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.ShowMinimap"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   FunctionMenu   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FUNCTIONS"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.Functions"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   IngameMenu   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_INGAME_MENU"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.ToggleMenu"
+         },
+         {
+            inputLink   =   "Exploration.Menu"
+         },
+         {
+            inputLink   =   "UI.ShowMenu"
+         }
+      ]
+      gameContexts   =   [
+         "GAME",
+         "UI"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   OpenPlayerProfile   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_PLAYER_PROFILE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.PlayerProfile"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   DpadUp   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_UP"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.GamepadDPadUp"
+         },
+         {
+            inputLink   =   "Gamepad.GamepadDPadUp"
+         },
+         {
+            inputLink   =   "Exploration.TransmissionUp"
+         },
+         {
+            inputLink   =   "Truck.SelectTopWinchPoint"
+         }
+      ]
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Exploration.TransmissionInput"
+               __type   =   "InputLinkVectorMr"
+            }
+         }
+      ]
+      simulateInput   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "keyboard"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           200
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_WAREHOUSE",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "MINIMAP",
+         "TUTORIAL",
+         "FUNCTION_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   DpadDown   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_DOWN"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.GamepadDPadDown"
+         },
+         {
+            inputLink   =   "Gamepad.GamepadDPadDown"
+         },
+         {
+            inputLink   =   "Exploration.TransmissionDown"
+         },
+         {
+            inputLink   =   "Truck.SelectBottomWinchPoint"
+         }
+      ]
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Exploration.TransmissionInput"
+               __type   =   "InputLinkVectorMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      simulateInput   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "keyboard"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           208
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_WAREHOUSE",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "MINIMAP",
+         "TUTORIAL",
+         "FUNCTION_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   DpadLeft   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_LEFT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.GamepadDPadLeft"
+         },
+         {
+            inputLink   =   "Gamepad.GamepadDPadLeft"
+         },
+         {
+            inputLink   =   "Exploration.TransmissionLeft"
+         },
+         {
+            inputLink   =   "Truck.SelectLeftWinchPoint"
+         }
+      ]
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Exploration.TransmissionInput"
+               __type   =   "InputLinkVectorMr"
+            }
+            direction   =   "LEFT"
+         }
+      ]
+      simulateInput   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "keyboard"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           203
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_WAREHOUSE",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "TUTORIAL"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   DpadRight   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_RIGHT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.GamepadDPadRight"
+         },
+         {
+            inputLink   =   "Gamepad.GamepadDPadRight"
+         },
+         {
+            inputLink   =   "Exploration.TransmissionRight"
+         },
+         {
+            inputLink   =   "Truck.SelectRightWinchPoint"
+         }
+      ]
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Exploration.TransmissionInput"
+               __type   =   "InputLinkVectorMr"
+            }
+            direction   =   "RIGHT"
+         }
+      ]
+      simulateInput   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "keyboard"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           205
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_WAREHOUSE",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "TUTORIAL"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   UIAccept   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_ACCEPT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.Accept"
+         },
+         {
+            inputLink   =   "Gamepad.GamepadA"
+         },
+         {
+            inputLink   =   "Popups.Accept"
+         },
+         {
+            inputLink   =   "Popups.Load"
+         },
+         {
+            inputLink   =   "Popups.RefuelRepair"
+         },
+         {
+            inputLink   =   "Exploration.SkipCinematic"
+         },
+         {
+            inputLink   =   "UI.Enter"
+         },
+         {
+            inputLink   =   "UI.Accept"
+         },
+         {
+            inputLink   =   "UI.AcceptTap"
+         },
+         {
+            inputLink   =   "UI.TruckDeploy"
+         },
+         {
+            inputLink   =   "UI.FocusSubstage"
+         },
+         {
+            inputLink   =   "UI.InviteToParty"
+         },
+         {
+            inputLink   =   "UI.ShowPlayerProfile"
+         },
+         {
+            inputLink   =   "Gamepad.Enter"
+         },
+         {
+            inputLink   =   "Gamepad.Accept"
+         },
+         {
+            inputLink   =   "Popups.AcceptTap"
+         },
+         {
+            inputLink   =   "Popups.AcceptBuySellTrailer"
+         },
+         {
+            inputLink   =   "Truck.RemoveCargo"
+         }
+      ]
+      simulateInput   =   {
+         __type   =   "InputActionHold"
+      }
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "MINIMAP",
+         "TUTORIAL",
+         "FUNCTION_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   UIDecline   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_DECLINE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.Back"
+         },
+         {
+            inputLink   =   "Gamepad.Back"
+         },
+         {
+            inputLink   =   "Popups.Back"
+         },
+         {
+            inputLink   =   "Truck.ReleaseWinch"
+         },
+         {
+            inputLink   =   "Popups.Close"
+         },
+         {
+            inputLink   =   "Truck.CloseFunctions"
+         },
+         {
+            inputLink   =   "Truck.StopRemoveCargo"
+         }
+      ]
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_WAREHOUSE",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "CRANE",
+         "MINIMAP",
+         "TUTORIAL",
+         "FUNCTION_MENU",
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   UITabLeft   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_LEFT"
+      simulateInput   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "keyboard"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           16
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_WAREHOUSE",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "MINIMAP",
+         "TUTORIAL"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   UITabRight   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_RIGHT"
+      simulateInput   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "keyboard"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           18
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      gameContexts   =   [
+         "UI",
+         "GARAGE_SLOT_MENU",
+         "GARAGE_WAREHOUSE",
+         "GARAGE_GLOBAL_MAP",
+         "GARAGE_SHOP",
+         "GARAGE_CUSTOMISATION",
+         "MINIMAP",
+         "TUTORIAL"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   TruckCameraRotationX   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_CAMERA_ROTATION_X"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "DriveCamera.WheelCameraRotationX"
+         },
+         {
+            inputLink   =   "UI.WheelCameraRotationX"
+         }
+      ]
+      canMapAxis   =   True
+      truckCameraRotationInputs   =   True
+      minimapCameraRotationInputs   =   True
+      customizationCameraRotationInputs   =   True
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   TruckCameraRotationY   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_CAMERA_ROTATION_Y"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "DriveCamera.WheelCameraRotationY"
+         },
+         {
+            inputLink   =   "UI.WheelCameraRotationY"
+         }
+      ]
+      canMapAxis   =   True
+      truckCameraRotationInputs   =   True
+      minimapCameraZoomInputs   =   True
+      customizationCameraRotationInputs   =   True
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   TruckCameraZoom   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_CAMERA_ZOOM"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "DriveCamera.WheelCameraZoom"
+         }
+      ]
+      canMapAxis   =   True
+      truckCameraZoomInputs   =   True
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapCameraMovementX   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_CAMERA_MOVEMENT_X"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.WheelMinimapMovementX"
+         }
+      ]
+      canMapAxis   =   True
+      minimapCameraMovementInputs   =   True
+      customizationCameraZoomInputs   =   True
+      gameContexts   =   [
+         "UI"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapCameraMovementY   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_CAMERA_MOVEMENT_Y"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.WheelMinimapMovementY"
+         }
+      ]
+      canMapAxis   =   True
+      minimapCameraMovementInputs   =   True
+      gameContexts   =   [
+         "UI"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GearHigh   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_HIGH"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.SetGearHigh"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GearAuto   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_AUTO"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.SetGearAuto"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GearNeutral   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_NEUTRAL"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.SetGearNeutral"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GearLow1   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW1"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.SetGearLow1"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GearLow2   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW2"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.SetGearLow2"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GearLow3   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW3"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.SetGearLow3"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GearReverse   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_REVERSE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.SetGearReverse"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CraneWinchLift   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_LIFT"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchActions"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CRANE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CraneWinchLower   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_LOWER"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchActions"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CRANE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CraneWinchRotateLeft   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_LEFT"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchActions"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "LEFT"
+         }
+      ]
+      gameContexts   =   [
+         "CRANE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CraneWinchRotateRight   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_RIGHT"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Crane.WinchActions"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "RIGHT"
+         }
+      ]
+      gameContexts   =   [
+         "CRANE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CraneArrowLift   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_ARROW_LIFT"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Crane.moveYPlane"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CRANE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CraneArrowLower   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_ARROW_LOWER"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "Crane.moveYPlane"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CRANE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageGlobalMap   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GARAGE_GLOBAL_MAP"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.GoToGlobalMap"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_SLOT_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GaragePlayerProfile   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_PLAYER_PROFILE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.PlayerProfile"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_SLOT_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageLocalMap   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.LocalMap"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_SLOT_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageRetain   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_RETAIN"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.TruckRetain"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_SLOT_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageWarehouseSellTruck   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_SELL_TRUCK"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.TruckSell"
+         },
+         {
+            inputLink   =   "UI.AddonInstall"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_WAREHOUSE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageWarehouseDeployTruck   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_DEPLOY"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.TruckDeploy"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_WAREHOUSE"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageShopSwapDescAndStats   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_SWAP_DESC_AND_STATS"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.SwapDescAndStatsVisibility"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_SHOP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageShopPreviewTruck   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_PREVIEW"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.TruckPreview"
+         },
+         {
+            inputLink   =   "UI.ExtraTruckPurchase"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_SHOP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   GarageGlobalMapGoToGarage   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GLOBAL_MAP_GO_TO_GARAGE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.GlobalMapGoToGarage"
+         }
+      ]
+      gameContexts   =   [
+         "GARAGE_GLOBAL_MAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapSkipTime   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_SKIP_TIME"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.SkipTime"
+         }
+      ]
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapAcceptContract   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_ACCEPT_CONTRACT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.AcceptContract"
+         }
+      ]
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapRestartContract   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_RESTART_CONTRACT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.RestartContract"
+         }
+      ]
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapGlobalMap   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_GLOBAL_MAP"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.GoToRegionalMap"
+         }
+      ]
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapGoToPlayer   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_GO_TO_PLAYER"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.MoveToPlayer"
+         }
+      ]
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapAddPathPoint   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_ADD_PATH_POINT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.PlacePathMarker"
+         }
+      ]
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   MinimapClearPathPoint   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_CLEAR_PATH_POINT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.ClearPath"
+         }
+      ]
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   TutorialAccept   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TUTORIAL_ACCEPT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "UI.AcceptTutorial"
+         }
+      ]
+      gameContexts   =   [
+         "TUTORIAL"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   PopupOpen   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_POPUP_OPEN"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Exploration.StartCargoManagement"
+         }
+      ]
+      gameContexts   =   [
+         "UI"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   UILeft2   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_LEFT2"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Popups.triggerLeft"
+         }
+      ]
+      gameContexts   =   [
+         "UI"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   UIRight2   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_RIGHT2"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Popups.triggerRight"
+         }
+      ]
+      gameContexts   =   [
+         "UI"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   ToggleGameCamera   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TOGGLE_CAMERA_WITH_SHOW_HUD"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.ToggleCamera"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   ShowDamage   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_SHOW_DAMAGE"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Truck.ShowDamageMarkers"
+         }
+      ]
+      gameContexts   =   [
+         "FUNCTION_MENU"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   PopupAdditionalButton   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_POPUP_ADDITIONAL_BUTTON"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "Popups.Details"
+         }
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CameraRotateStepLeft   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ROTATE_STEP_LEFT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "DriveCamera.RotateStepLeft"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CameraRotateStepRight   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ROTATE_STEP_RIGHT"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "DriveCamera.RotateStepRight"
+         }
+      ]
+      gameContexts   =   [
+         "GAME"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction1   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_1"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_1"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction2   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_2"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_2"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction3   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_3"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_3"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction4   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_4"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_4"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction5   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_5"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_5"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction6   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_6"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_6"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction7   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_7"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_7"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction8   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_8"
+      targetInputsToRemap   =   [
+         {
+            inputLink   =   "CustomAddons.action_8"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction9Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_FORWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_9_vector"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction9Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_BACKWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_9_vector"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction10Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_FORWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_10_vector"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction10Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_BACKWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_10_vector"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction11Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_FORWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_11_vector"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction11Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_BACKWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_11_vector"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction12Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_FORWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_12_vector"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction12Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_BACKWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_12_vector"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction13Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_FORWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_13_vector"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction13Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_BACKWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_13_vector"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction14Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_FORWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_14_vector"
+               __type   =   "InputLinkMr"
+            }
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+   CustomAddonAction14Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_BACKWARD"
+      targetInputsToRemapInVector   =   [
+         {
+            inputLink   =   {
+               inputLink   =   "CustomAddons.action_14_vector"
+               __type   =   "InputLinkMr"
+            }
+            direction   =   "BACKWARD"
+         }
+      ]
+      gameContexts   =   [
+         "CUSTOM_ADDON_ACTION"
+      ]
+      __type   =   "SteeringWheelInputDescription"
+   }
+}
+__type   =   "object"

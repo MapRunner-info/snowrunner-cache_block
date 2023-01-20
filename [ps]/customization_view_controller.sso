@@ -1,0 +1,122 @@
+view   =   {
+   __type   =   "CustomizationView"
+}
+navPanels   =   {
+   CustomizationNavigationPanel   =   {
+      btns   =   {
+         navigation   =   {
+            uiInputName   =   "Navigation"
+            hideWithCustomSteeringWheelPreset   =   True
+            __type   =   "NavButtonDesc"
+         }
+         OpenPopup   =   {
+            uiInputName   =   "OpenPopup"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+state   =   {
+   __type   =   "CustomizationScreenState"
+}
+inputScreen   =   {
+   priority   =   "VERY_LOW"
+   name   =   "CustomizationView"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Install   =   {
+         inputLink   =   "UI.AddonInstall"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      NextTab   =   {
+         inputLink   =   "UI.TabBarNextTab"
+         __type   =   "InputLinkHoldMr"
+      }
+      PrevTab   =   {
+         inputLink   =   "UI.TabBarPrevTab"
+         __type   =   "InputLinkHoldMr"
+      }
+      Navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      OpenPopup   =   {
+         inputLink   =   "UI.OpenCompatiblityPopup"
+         __type   =   "InputLinkHoldMr"
+      }
+      SlotNext   =   {
+         inputLink   =   "UI.CustomizationStickerSlotNext"
+         __type   =   "InputLinkActionMr"
+      }
+      SlotPrev   =   {
+         inputLink   =   "UI.CustomizationStickerSlotPrev"
+         __type   =   "InputLinkActionMr"
+      }
+      HidePolygonTool   =   {
+         inputLink   =   "UI.HidePolygonTool"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Left",
+      "Right",
+      "Return",
+      "Home",
+      "Escape"
+   ]
+   __type   =   "UiFocusScreen"
+}
+popupInputScreen   =   {
+   name   =   "CustomizationViewPopups"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+expIcon   =   "playerProfileStar20"
+highlightColor   =   {
+   a   =   150
+   r   =   140
+   g   =   185
+   b   =   80
+   __type   =   "Color"
+}
+wrongRimsColor   =   {
+   a   =   194
+   r   =   255
+   g   =   86
+   b   =   27
+   __type   =   "Color"
+}
+stickerSlotName   =   [
+   "UI_CUSTOMISATION_STICKER_SLOT_0",
+   "UI_CUSTOMISATION_STICKER_SLOT_1",
+   "UI_CUSTOMISATION_STICKER_SLOT_2",
+   "UI_CUSTOMISATION_STICKER_SLOT_3",
+   "UI_CUSTOMISATION_STICKER_SLOT_4",
+   "UI_CUSTOMISATION_STICKER_SLOT_5",
+   "UI_CUSTOMISATION_STICKER_SLOT_6",
+   "UI_CUSTOMISATION_STICKER_SLOT_7",
+   "UI_CUSTOMISATION_STICKER_SLOT_8",
+   "UI_CUSTOMISATION_STICKER_SLOT_9",
+   "UI_CUSTOMISATION_STICKER_SLOT_10"
+]
+__type   =   "ScreenControllerBase"

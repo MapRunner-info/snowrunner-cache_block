@@ -1,0 +1,503 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         focusable   =   False
+         __type   =   "UiNavigationLegendNavigationpanel"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "NavigationPanelView"
+}
+useBg   =   True
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   craneMode   =   {
+      text   =   "UI_HUD_NAV_PANEL_CRANE_MODE"
+      uiInputName   =   "StartCraneMode"
+      __type   =   "NavButtonDesc"
+   }
+   cargoManagement   =   {
+      text   =   "UI_HUD_NAV_PANEL_CARGO_MANAGEMENT"
+      uiInputName   =   "StartCargoManagement"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "StartCargoManagement"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   trailerGarage   =   {
+      text   =   "UI_HUD_NAV_PANEL_TRAILER_GARAGE"
+      uiInputName   =   "OpenGarage"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "OpenGarage"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   startSeismicWork   =   {
+      text   =   "UI_START_SEISMIC_VIBRATION"
+      uiInputName   =   "StartSeismicVibration"
+      __type   =   "NavButtonDesc"
+   }
+   pullWinch   =   {
+      text   =   "UI_HUD_NAV_PANEL_PULL_WINCH"
+      uiInputName   =   "pullWinch"
+      __type   =   "NavButtonDesc"
+   }
+   releaseWinch   =   {
+      text   =   "UI_HUD_NAV_PANEL_RELEASE_WINCH"
+      uiInputName   =   "releaseWinch"
+      __type   =   "NavButtonDesc"
+   }
+   goToGarage   =   {
+      text   =   "UI_HUD_NAV_PANEL_GET_TO_GARAGE"
+      uiInputName   =   "goToGarage"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "goToGarage"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   goToLevel   =   {
+      text   =   "UI_HUD_NAV_PANEL_GO_TO_LEVEL"
+      uiInputName   =   "goToLevel"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "goToLevel"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   refuelStation   =   {
+      text   =   "UI_HUD_NAV_PANEL_OPEN_REFUEL_STATION"
+      uiInputName   =   "refuelStation"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "refuelStation"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   fillWaterStation   =   {
+      text   =   "UI_HUD_NAV_PANEL_OPEN_FILL_WATER_STATION"
+      uiInputName   =   "fillWaterStation"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "fillWaterStation"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   taskGiver   =   {
+      text   =   "UI_HUD_NAV_PANEL_SHOW_TASK"
+      uiInputName   =   "taskGiver"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "taskGiver"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   contestGiver   =   {
+      text   =   "UI_HUD_NAV_PANEL_SHOW_CONTEST"
+      uiInputName   =   "contestGiver"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "contestGiver"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   upgradeGiver   =   {
+      text   =   "UI_HUD_NAV_PANEL_GET_UPGRADE"
+      uiInputName   =   "upgradeGiver"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "upgradeGiver"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   showInfo   =   {
+      text   =   "UI_HUD_SHOW_ZONE_INFO"
+      uiInputName   =   "showInfo"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "showInfo"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   stopRemoveCargo   =   {
+      text   =   "UI_HUD_NAV_PANEL_STOP_REMOVE_CARGO"
+      uiInputName   =   "stopRemoveCargo"
+      __type   =   "NavButtonDesc"
+   }
+   selectCargoForRemove   =   {
+      text   =   "UI_HUD_NAV_PANEL_REMOVE_CARGO"
+      uiInputName   =   "selectCargoForRemove"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   showWTAnim   =   {
+      text   =   "UI_HUD_SHOW_WATCHTOWER_ANIM"
+      uiInputName   =   "showWTAnim"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "showWTAnim"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   back   =   {
+      text   =   "UI_BACK"
+      uiInputName   =   "back"
+      __type   =   "NavButtonDesc"
+   }
+   selectWinchPoint   =   {
+      text   =   "UI_SELECT_WINCH_POINT"
+      uiInputName   =   "selectWinchPoint"
+      __type   =   "NavButtonDesc"
+   }
+   toggleDamageMarkers   =   {
+      text   =   ""
+      uiInputName   =   "toggleDamageMarkers"
+      __type   =   "NavButtonDesc"
+   }
+   startMetallodetection   =   {
+      text   =   "UI_START_METAL_DETECTION"
+      uiInputName   =   "startMetallodetection"
+      __type   =   "NavButtonDesc"
+   }
+   showCraneLegend   =   {
+      text   =   "UI_SHOW_NAV_LEGEND"
+      uiInputName   =   "showCraneLegend"
+      __type   =   "NavButtonDesc"
+   }
+   openStorehouse   =   {
+      text   =   "UI_HUD_NAV_PANEL_OPEN_STOREHOUSE"
+      uiInputName   =   "openStorehouse"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "openStorehouse"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   openCraft   =   {
+      text   =   "UI_HUD_NAV_PANEL_OPEN_CRAFT"
+      uiInputName   =   "openCraft"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "openCraft"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   resupplyRepairs   =   {
+      text   =   "UI_HUD_NAV_PANEL_RESUPPLY_REPAIR_PARTS"
+      uiInputName   =   "resupplyRepairs"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         uiInputName   =   "resupplyRepairs"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   toggleWinchEngine   =   {
+      text   =   "UI_WINCH_ENGINT_TURN_ON"
+      uiInputName   =   "toggleWinchEngine"
+      holdDesc   =   {
+         holdTimeSec   =   1
+         waitTimeSec   =   0
+         uiInputName   =   "toggleWinchEngine"
+         __type   =   "NavBtnHoldDesc"
+      }
+      __type   =   "NavButtonDesc"
+   }
+}
+inputScreens   =   {
+   craneMode   =   {
+      name   =   "HUD NAV PANEL Ui Input Screen Crane"
+      inputsLinks   =   {
+         StartCraneMode   =   {
+            inputLink   =   "Crane.TurnOn"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   cargoManagement   =   {
+      name   =   "HUD NAV PANEL Ui Input Screen Cargo"
+      inputsLinks   =   {
+         StartCargoManagement   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   trailerGarage   =   {
+      name   =   "HUD NAV PANEL Ui Input Screen Trailer Garage"
+      inputsLinks   =   {
+         OpenGarage   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   startSeismicWork   =   {
+      name   =   "HUD NAV PANEL Ui Input Screen Seismic Work"
+      inputsLinks   =   {
+         StartSeismicVibration   =   {
+            inputLink   =   "Exploration.StartSeismicVibration"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   pullWinch   =   {
+      name   =   "HUD NAV PANEL Pull Winch Input Screen"
+      inputsLinks   =   {
+         pullWinch   =   {
+            inputLink   =   "Truck.PullWinch"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   releaseWinch   =   {
+      name   =   "HUD NAV PANEL Release Winch Input Screen"
+      inputsLinks   =   {
+         releaseWinch   =   {
+            inputLink   =   "Truck.ReleaseWinch"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   goToGarage   =   {
+      name   =   "HUD NAV PANEL Go To Garage Input Screen"
+      inputsLinks   =   {
+         goToGarage   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   goToLevel   =   {
+      name   =   "HUD NAV PANEL Go To Level Input Screen"
+      inputsLinks   =   {
+         goToLevel   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   refuelStation   =   {
+      name   =   "HUD NAV PANEL Refuel Station Input Screen"
+      inputsLinks   =   {
+         refuelStation   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   fillWaterStation   =   {
+      name   =   "HUD NAV PANEL Fill Water Station Input Screen"
+      inputsLinks   =   {
+         fillWaterStation   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   taskGiver   =   {
+      name   =   "HUD NAV PANEL task giver"
+      inputsLinks   =   {
+         taskGiver   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   contestGiver   =   {
+      name   =   "HUD NAV PANEL contest giver"
+      inputsLinks   =   {
+         contestGiver   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   upgradeGiver   =   {
+      name   =   "HUD NAV PANEL upgrade giver"
+      inputsLinks   =   {
+         upgradeGiver   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   showInfo   =   {
+      name   =   "Show Zone Info Input Screen"
+      inputsLinks   =   {
+         showInfo   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   stopRemoveCargo   =   {
+      name   =   "HUD NAV PANEL stop remove cargo"
+      inputsLinks   =   {
+         stopRemoveCargo   =   {
+            inputLink   =   "Truck.StopRemoveCargo"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   selectCargoForRemove   =   {
+      name   =   "HUD NAV PANEL select cargo for remove"
+      inputsLinks   =   {
+         selectCargoForRemove   =   {
+            inputLink   =   "Truck.RemoveCargo"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   showWTAnim   =   {
+      name   =   "HUD NAV PANEL show WT Anim"
+      inputsLinks   =   {
+         showWTAnim   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   back   =   {
+      name   =   "HUD NAV PANEL back"
+      inputsLinks   =   {
+         back   =   {
+            inputLink   =   "UI.Back"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   selectWinchPoint   =   {
+      name   =   "HUD NAV PANEL selectWinchPoint"
+      inputsLinks   =   {
+         selectWinchPoint   =   {
+            inputLink   =   "UI.Accept"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   toggleDamageMarkers   =   {
+      name   =   "HUD NAV PANEL toggleDamageMarkers"
+      inputsLinks   =   {
+         toggleDamageMarkers   =   {
+            inputLink   =   "Truck.ShowDamageMarkers"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   startMetallodetection   =   {
+      name   =   "HUD NAV PANEL startMetallodetection"
+      inputsLinks   =   {
+         startMetallodetection   =   {
+            inputLink   =   "Exploration.StartMetallodetection"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   showCraneLegend   =   {
+      name   =   "HUD NAV PANEL showCraneLegend"
+      inputsLinks   =   {
+         showCraneLegend   =   {
+            inputLink   =   "Crane.HideNavLegend"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   openStorehouse   =   {
+      name   =   "HUD_NAV_PANEL_OPEN_STOREHOUSE"
+      inputsLinks   =   {
+         openStorehouse   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   openCraft   =   {
+      name   =   "HUD_NAV_PANEL_OPEN_CRAFT"
+      inputsLinks   =   {
+         openCraft   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   resupplyRepairs   =   {
+      name   =   "HUD NAV PANEL Resupply Repair Input Screen"
+      inputsLinks   =   {
+         resupplyRepairs   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkHoldMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   toggleWinchEngine   =   {
+      name   =   "HUD NAV PANEL Winch engine"
+      inputsLinks   =   {
+         toggleWinchEngine   =   {
+            inputLink   =   "Exploration.StartCargoManagement"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+}
+__type   =   "NavigationPanelController"

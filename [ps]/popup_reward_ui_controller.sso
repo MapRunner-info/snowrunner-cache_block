@@ -1,0 +1,43 @@
+view   =   {
+   __type   =   "PopupRewardUiView"
+}
+navPanels   =   {
+   PopupNavigationPanel   =   {
+      btns   =   {
+         accept   =   {
+            uiInputName   =   "Accept"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         toggleList   =   {
+            uiInputName   =   "ToggleList"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupRewardNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupRewardState"
+}
+id   =   "OBJECTIVE_COMPLETED"
+priority   =   "LOW"
+useDefaultAttach   =   False
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "Reward Popup"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      ToggleList   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

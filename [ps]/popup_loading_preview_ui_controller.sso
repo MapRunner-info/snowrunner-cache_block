@@ -1,0 +1,17 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         unloadingList   =   {
+            lir   =   {
+               __type   =   "PopupCargoLoadingPreviewLir"
+            }
+            __type   =   "UiPopupLibHudcargounloadinglist"
+         }
+         __type   =   "UiPopupLibHudcargomanagementunloading"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "PopupCargoUnloadingUiView"
+}
+id   =   "LOADING_PREVIEW"
+__type   =   "PopupCargoContentControllerBase"

@@ -1,0 +1,32 @@
+navigatorInputScreen   =   {
+   priority   =   "VERY_LOW"
+   inputsLinks   =   {
+      Up   =   {
+         inputLink   =   "UI.ModBrowserUp"
+         __type   =   "InputLinkActionMr"
+      }
+      Down   =   {
+         inputLink   =   "UI.ModBrowserDown"
+         __type   =   "InputLinkActionMr"
+      }
+      Left   =   {
+         inputLink   =   "UI.ModBrowserLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      Right   =   {
+         inputLink   =   "UI.ModBrowserRight"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+focusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Up",
+      "Down",
+      "Left",
+      "Right"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "object"

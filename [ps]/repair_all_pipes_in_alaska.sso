@@ -1,0 +1,7 @@
+pipes   =   [
+   "US_02_01_PIPELINE_OBJ",
+   "US_02_02_PIPELINE_OBJ",
+   "US_02_03_PIPELINE_OBJ",
+   "US_02_04_PIPELINE_BUILDING_CNT"
+]
+__type   =   "IntWithStringArrayAchievement"

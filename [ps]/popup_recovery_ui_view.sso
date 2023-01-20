@@ -1,0 +1,21 @@
+uiObjectDesc   =   {
+   type   =   {
+      recoveryCost   =   {
+         price   =   {
+            isHtml   =   True
+            __type   =   "UiPopupLibRecoverypricetf"
+         }
+         __type   =   "UiPopupLibHudpopuprecoverycont"
+      }
+      __type   =   "UiPopupLibHudpopuprecovery"
+   }
+   __type   =   "UiObjectDesc"
+}
+accountMoneyIcon   =   "playerProfileCurrency20"
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPopupgarageimg"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "PopupViewBase"

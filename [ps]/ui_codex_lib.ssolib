@@ -1,0 +1,570 @@
+classes   =   {
+   AutoClassCodexbtnTuningtxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   ""
+      sslClass   =   "UiCodexLibAutoclasscodexbtntuningtxt"
+      header   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiCodexLibCodexbtnheader"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   21
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCodexLibCodexbtntextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCodexdetailsHeadertf   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   ""
+      sslClass   =   "UiCodexLibAutoclasscodexdetailsheadertf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCodexdetailsstepbtnLabelselected   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   ""
+      sslClass   =   "UiCodexLibAutoclasscodexdetailsstepbtnlabelselected"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCodexdetailsstepbtnLabelnormal   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   ""
+      sslClass   =   "UiCodexLibAutoclasscodexdetailsstepbtnlabelnormal"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCodexpanelsubheaderHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   ""
+      sslClass   =   "UiCodexLibAutoclasscodexpanelsubheaderheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCodexstepscontainerStepslabeltf   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   ""
+      sslClass   =   "UiCodexLibAutoclasscodexstepscontainerstepslabeltf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexaccordionlist   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexAccordionList"
+      sslClass   =   "UiCodexLibCodexaccordionlist"
+      __type   =   "UiAccordion"
+   }
+   Codexbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "codexBtn"
+      imgAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMovieClip"
+      }
+      tuningTxt   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   102
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiCodexLibAutoclasscodexbtntuningtxt"
+      }
+      __type   =   "UiButton"
+   }
+   Codexbtnheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexBtnHeader"
+      sslClass   =   "UiCodexLibCodexbtnheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexbtnstripe   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexBtnStripe"
+      sslClass   =   "UiCodexLibCodexbtnstripe"
+      __type   =   "UiContainer"
+   }
+   Codexbtntextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexBtnTextCont"
+      sslClass   =   "UiCodexLibCodexbtntextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexContainer"
+      sslClass   =   "UiCodexLibCodexcontainer"
+      accList   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexaccordionlist"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexContent"
+      sslClass   =   "UiCodexLibCodexcontent"
+      codex   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexcontentlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "codexContentList"
+      __type   =   "UiScrollingList"
+   }
+   Codexdetails   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexDetails"
+      sslClass   =   "UiCodexLibCodexdetails"
+      headerTf   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibAutoclasscodexdetailsheadertf"
+      }
+      embeddedTxt   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   60
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiCodexLibCodexdetailsembeddedtext"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexnavpanelattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexdetailsdescription   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexDetailsDescription"
+      sslClass   =   "UiCodexLibCodexdetailsdescription"
+      embeddedTxt   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexdetailsembeddedtext"
+      }
+      bg   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   169.2352
+         scaleY   =   55.0003
+         __type   =   "UiCodexLibCodexdetailsdescriptionbg"
+      }
+      shadow   =   {
+         symbol   =   ""
+         x   =   -30
+         y   =   -30
+         scaleX   =   158.2428
+         scaleY   =   58.5571
+         __type   =   "UiCodexLibCodexdetailsdescriptionshadow"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexdetailsdescriptionbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexDetailsDescriptionBg"
+      sslClass   =   "UiCodexLibCodexdetailsdescriptionbg"
+      tutorialMask   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexdetailsdescriptionmask"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexdetailsdescriptionmask   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexDetailsDescriptionMask"
+      sslClass   =   "UiCodexLibCodexdetailsdescriptionmask"
+      __type   =   "UiContainer"
+   }
+   Codexdetailsdescriptionshadow   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexDetailsDescriptionShadow"
+      sslClass   =   "UiCodexLibCodexdetailsdescriptionshadow"
+      __type   =   "UiContainer"
+   }
+   Codexdetailsembeddedtext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "codexDetailsEmbeddedText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Codexdetailsstepbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "codexDetailsStepBtn"
+      labelSelected   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCodexLibAutoclasscodexdetailsstepbtnlabelselected"
+      }
+      labelNormal   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   80
+         __type   =   "UiCodexLibAutoclasscodexdetailsstepbtnlabelnormal"
+      }
+      __type   =   "UiButton"
+   }
+   Codexitem   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "codexItem"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCodexLibCodexitemtextcont"
+      }
+      subHeader   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexsubheadertext"
+      }
+      __type   =   "UiListItem"
+   }
+   Codexitemdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Codexitemtextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexItemTextCont"
+      sslClass   =   "UiCodexLibCodexitemtextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexlistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexListContainer"
+      sslClass   =   "UiCodexLibCodexlistcontainer"
+      __type   =   "UiContainer"
+   }
+   Codexnavpanelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexNavPanelAttach"
+      sslClass   =   "UiCodexLibCodexnavpanelattach"
+      __type   =   "UiContainer"
+   }
+   Codexpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexPanel"
+      sslClass   =   "UiCodexLibCodexpanel"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexpanelheader"
+      }
+      content   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexcontent"
+      }
+      panelBg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexpanelarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "codexPanelArrow"
+      arrowIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   5
+         y   =   5
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Codexpanelheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexPanelHeader"
+      sslClass   =   "UiCodexLibCodexpanelheader"
+      textField   =   {
+         x   =   0
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexpanelsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexPanelSubHeader"
+      sslClass   =   "UiCodexLibCodexpanelsubheader"
+      arrowBack   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexpanelarrow"
+      }
+      header   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibAutoclasscodexpanelsubheaderheader"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexpaneltab   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "codexPanelTab"
+      tabIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Codexscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexScreen"
+      sslClass   =   "UiCodexLibCodexscreen"
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexnavpanelattach"
+      }
+      details   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   541
+         y   =   140
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCodexLibCodexdetails"
+      }
+      panel   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiCodexLibCodexpanel"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexstepscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexStepsContainer"
+      sslClass   =   "UiCodexLibCodexstepscontainer"
+      stepsAttach   =   {
+         symbol   =   ""
+         x   =   207
+         y   =   -3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      stepsLabelTf   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibAutoclasscodexstepscontainerstepslabeltf"
+      }
+      prevStepAttach   =   {
+         symbol   =   ""
+         x   =   170
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexnavpanelattach"
+      }
+      nextStepAttach   =   {
+         symbol   =   ""
+         x   =   320
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexnavpanelattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexSubHeader"
+      sslClass   =   "UiCodexLibCodexsubheader"
+      textCont   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCodexLibCodexsubheadertext"
+      }
+      __type   =   "UiContainer"
+   }
+   Codexsubheadertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_codex_lib"
+      symbol   =   "codexSubHeaderText"
+      sslClass   =   "UiCodexLibCodexsubheadertext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

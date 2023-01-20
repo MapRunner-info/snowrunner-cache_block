@@ -1,0 +1,7 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_TARGET_DISPLAY"
+desc   =   "UI_SETTINGS_TARGET_DISPLAY_DESC"
+settingName   =   "Output"
+__type   =   "UiOneSettingStepperVideoController"

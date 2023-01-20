@@ -1,0 +1,36 @@
+view   =   {
+   __type   =   "PopupSettingsGdprView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupSettingsInputOverrideWarningNavigationPanel"
+   }
+}
+id   =   "SETTINGS_GDPR"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupSettingsGdpr"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

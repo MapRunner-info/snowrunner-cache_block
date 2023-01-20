@@ -1,0 +1,36 @@
+uiDesc   =   "RU_02_02_LOST_CARGO_01_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "RU_02_02_LOST_CARGO_01_OILTANK"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_LOST_CARGO_01_TARGET"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "RU_02_02_LOST_CARGO_01_TRUCK_DESC"
+            afterStageFinished   =   "DESTROY"
+            globalZoneSpawnId   =   {
+               globalZoneId   =   "level_ru_02_02 || RU_02_02_LOST_CARGO_01_SPAWN"
+               __type   =   "null"
+            }
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_LOST_CARGO_01_TSK_REW"
+recommendedTruck   =   "OFFROAD"
+taskGiverZone   =   {
+   globalZoneId   =   "level_ru_02_02 || RU_02_02_LOST_CARGO_01_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   220
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2300
+   }
+}
+__type   =   "TaskSettings"

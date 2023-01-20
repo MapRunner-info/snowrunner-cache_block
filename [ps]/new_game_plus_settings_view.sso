@@ -1,0 +1,51 @@
+uiObjectDesc   =   {
+   type   =   {
+      mouseEnabled   =   True
+      mouseChildren   =   True
+      visible   =   True
+      focusable   =   True
+      enabled   =   True
+      header   =   {
+         tf   =   {
+            text   =   ""
+            __type   =   "UiLabel"
+         }
+         __type   =   "UiNewgameplusLibNewgameplusheader"
+      }
+      tileList   =   {
+         isCreateAllLirs   =   True
+         lir   =   {
+            mouseChildren   =   True
+            stepperAttach   =   {
+               isEnableHandleInput   =   False
+               __type   =   "UiNewgameplusLibNewgameplusnavattach"
+            }
+            bg   =   {
+               alpha   =   80
+               __type   =   "UiMovieClip"
+            }
+            __type   =   "NewGamePlusLir"
+         }
+         __type   =   "UiNewgameplusLibNewgamepluslist"
+      }
+      __type   =   "UiNewgameplusLibNewgameplusscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+newGamePlusSettingsList   =   {
+   uiFocusScreen   =   {
+      uiGfxInputToDisable   =   [
+         "Return",
+         "Up",
+         "Down"
+      ]
+      __type   =   "UiFocusScreen"
+   }
+   uiInputScreen   =   {
+      blockAll   =   False
+      __type   =   "SslUiInputScreenMr"
+   }
+   disableAcceptInput   =   True
+   __type   =   "UiTileListAdapter"
+}
+__type   =   "ScreenViewBase"

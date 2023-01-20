@@ -1,0 +1,5 @@
+type   =   "chevrolet_ck1500"
+addons   =   [
+   ""
+]
+__type   =   "object"

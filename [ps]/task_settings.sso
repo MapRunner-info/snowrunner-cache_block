@@ -1,0 +1,8 @@
+stages   =   [
+   {
+   }
+]
+taskGiverZone   =   {
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "ObjectiveSettingsGiverZoneBase"

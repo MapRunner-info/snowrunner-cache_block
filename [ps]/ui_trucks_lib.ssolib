@@ -1,0 +1,1295 @@
+classes   =   {
+   AutoClassTrucklirminidlciconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   ""
+      sslClass   =   "UiTrucksLibAutoclasstrucklirminidlcicontxt"
+      tf   =   {
+         x   =   -50
+         y   =   -14.15
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrucklirminimodiconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   ""
+      sslClass   =   "UiTrucksLibAutoclasstrucklirminimodicontxt"
+      tf   =   {
+         x   =   -50
+         y   =   -14.15
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrucklirminipreiconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   ""
+      sslClass   =   "UiTrucksLibAutoclasstrucklirminipreicontxt"
+      tf   =   {
+         x   =   -50
+         y   =   -14.15
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Garageattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "garageAttachPoint"
+      sslClass   =   "UiTrucksLibGarageattachpoint"
+      __type   =   "UiContainer"
+   }
+   Lockediconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "lockedIconAttach"
+      sslClass   =   "UiTrucksLibLockediconattach"
+      __type   =   "UiContainer"
+   }
+   Statlinebartype   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "statLineBarType"
+      sslClass   =   "UiTrucksLibStatlinebartype"
+      textCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiTrucksLibTruckinfostattext"
+      }
+      bar   =   {
+         symbol   =   ""
+         x   =   188
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatbar"
+      }
+      __type   =   "UiContainer"
+   }
+   Statlinetexttype   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "statLineTextType"
+      sslClass   =   "UiTrucksLibStatlinetexttype"
+      textCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiTrucksLibTruckinfostattext"
+      }
+      img   =   {
+         symbol   =   ""
+         x   =   188
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      textCont2   =   {
+         symbol   =   ""
+         x   =   218
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckinfostattext2"
+      }
+      __type   =   "UiContainer"
+   }
+   Statlinetexttypeyellow   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "statLineTextTypeYellow"
+      sslClass   =   "UiTrucksLibStatlinetexttypeyellow"
+      btnAttach   =   {
+         symbol   =   ""
+         x   =   1
+         y   =   -1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucksbtnattach"
+      }
+      btnTextCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   38
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiTrucksLibTruckinfostattext"
+      }
+      textCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   2
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiTrucksLibTruckinfostattextyellow"
+      }
+      img4   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   294
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      img3   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   258
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      img1   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   222
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      img   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   186
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      textCont2   =   {
+         symbol   =   ""
+         x   =   218
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckinfostattext2yellow"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckcolorclip0   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckColorClip0"
+      sslClass   =   "UiTrucksLibTruckcolorclip0"
+      __type   =   "UiContainer"
+   }
+   Truckcolorclip1   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckColorClip1"
+      sslClass   =   "UiTrucksLibTruckcolorclip1"
+      __type   =   "UiContainer"
+   }
+   Truckcolorclip2   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckColorClip2"
+      sslClass   =   "UiTrucksLibTruckcolorclip2"
+      __type   =   "UiContainer"
+   }
+   Truckcolorcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckColorCont"
+      sslClass   =   "UiTrucksLibTruckcolorcont"
+      uniqueSkin   =   {
+         symbol   =   ""
+         x   =   41.5
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibUniqueskiniconattach"
+      }
+      color1   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   41.5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckcolorclip1"
+      }
+      color0   =   {
+         symbol   =   ""
+         x   =   77.5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckcolorclip0"
+      }
+      color2   =   {
+         symbol   =   ""
+         x   =   6
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckcolorclip2"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckContent"
+      sslClass   =   "UiTrucksLibTruckcontent"
+      truckSlot   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   48
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckslotbtn"
+      }
+      separator0   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckpanelseparator"
+      }
+      separator1   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   0
+         y   =   165
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckpanelseparator"
+      }
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   213
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckslist"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckequipmentcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckEquipmentCont"
+      sslClass   =   "UiTrucksLibTruckequipmentcont"
+      statLine4   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   120
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinetexttypeyellow"
+      }
+      statLine3   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinetexttype"
+      }
+      statLine2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinetexttype"
+      }
+      statLine1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinetexttype"
+      }
+      statLine0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinetexttype"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckIconAttach"
+      sslClass   =   "UiTrucksLibTruckiconattach"
+      __type   =   "UiContainer"
+   }
+   Truckinfodesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoDesc"
+      sslClass   =   "UiTrucksLibTruckinfodesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfodivider   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoDivider"
+      sslClass   =   "UiTrucksLibTruckinfodivider"
+      __type   =   "UiContainer"
+   }
+   Truckinfolocked   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoLocked"
+      sslClass   =   "UiTrucksLibTruckinfolocked"
+      iconAttach   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   12
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiTrucksLibLockediconattach"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   588.05
+         y   =   39.7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckinfotext"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfopanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoPanel"
+      sslClass   =   "UiTrucksLibTruckinfopanel"
+      subHeader   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   57
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiTrucksLibTruckinfopanelsubheader"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckinfopanelheader"
+      }
+      locked   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   -448
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiTrucksLibTruckinfolocked"
+      }
+      dividerLine   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckinfodivider"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   420.95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckinfodesc"
+      }
+      truckStats   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatscont"
+      }
+      truckEquipment   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   271
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckequipmentcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfopanelheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoPanelHeader"
+      sslClass   =   "UiTrucksLibTruckinfopanelheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfopanelsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoPanelSubHeader"
+      sslClass   =   "UiTrucksLibTruckinfopanelsubheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfostatbtnbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoStatBtnBg"
+      sslClass   =   "UiTrucksLibTruckinfostatbtnbg"
+      __type   =   "UiContainer"
+   }
+   Truckinfostattext   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoStatText"
+      sslClass   =   "UiTrucksLibTruckinfostattext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfostattext2   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoStatText2"
+      sslClass   =   "UiTrucksLibTruckinfostattext2"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfostattext2yellow   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoStatText2Yellow"
+      sslClass   =   "UiTrucksLibTruckinfostattext2yellow"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfostattextyellow   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckInfoStatTextYellow"
+      sslClass   =   "UiTrucksLibTruckinfostattextyellow"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckinfotext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "truckInfoText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Trucklir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "truckLir"
+      iconAttachContainer   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiTrucksLibTrucktypeattachcont"
+      }
+      header   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   65
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklirheader"
+      }
+      newAttach   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   380
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklirminiiconattach"
+      }
+      status   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   2
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiTrucksLibTrucklirstatus"
+      }
+      cost   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   250
+         y   =   73
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiTrucksLibTrucklircost"
+      }
+      location   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   73
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiTrucksLibTrucklirlocationcontainer"
+      }
+      icon   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckliricon"
+      }
+      truckColor   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   152
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckcolorcont"
+      }
+      __type   =   "UiListItem"
+   }
+   Trucklirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Trucklircost   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirCost"
+      sslClass   =   "UiTrucksLibTrucklircost"
+      icon   =   {
+         symbol   =   ""
+         x   =   100
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckliricon"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   -20
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklircostval"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklircostval   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirCostVal"
+      sslClass   =   "UiTrucksLibTrucklircostval"
+      tf   =   {
+         x   =   -215
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirHeader"
+      sslClass   =   "UiTrucksLibTrucklirheader"
+      tf   =   {
+         x   =   -2
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirheadercopy   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirHeadercopy"
+      sslClass   =   "UiTrucksLibTrucklirheadercopy"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckliricon   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirIcon"
+      sslClass   =   "UiTrucksLibTruckliricon"
+      __type   =   "UiContainer"
+   }
+   Trucklirlocationcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirLocationContainer"
+      sslClass   =   "UiTrucksLibTrucklirlocationcontainer"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucktypeattachcont"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   35
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklirlocationtf"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirlocationtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirLocationTf"
+      sslClass   =   "UiTrucksLibTrucklirlocationtf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirminidlcicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirMiniDlcIcon"
+      sslClass   =   "UiTrucksLibTrucklirminidlcicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -33.35
+         y   =   30.65
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiTrucksLibAutoclasstrucklirminidlcicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirminiiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirMiniIconAttach"
+      sslClass   =   "UiTrucksLibTrucklirminiiconattach"
+      __type   =   "UiContainer"
+   }
+   Trucklirminimodicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirMiniModIcon"
+      sslClass   =   "UiTrucksLibTrucklirminimodicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -33.35
+         y   =   30.65
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiTrucksLibAutoclasstrucklirminimodicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirmininewicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirMiniNewIcon"
+      sslClass   =   "UiTrucksLibTrucklirmininewicon"
+      __type   =   "UiContainer"
+   }
+   Trucklirminipreicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirMiniPreIcon"
+      sslClass   =   "UiTrucksLibTrucklirminipreicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -33.35
+         y   =   30.65
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiTrucksLibAutoclasstrucklirminipreicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirstatus   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckLirStatus"
+      sslClass   =   "UiTrucksLibTrucklirstatus"
+      __type   =   "UiContainer"
+   }
+   Trucknavhintattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckNavHintAttach"
+      sslClass   =   "UiTrucksLibTrucknavhintattach"
+      __type   =   "UiContainer"
+   }
+   Truckpanelseparator   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckPanelSeparator"
+      sslClass   =   "UiTrucksLibTruckpanelseparator"
+      tfCont   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklirheadercopy"
+      }
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   350
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibGarageattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckpanelsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckPanelSubHeader"
+      sslClass   =   "UiTrucksLibTruckpanelsubheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucksbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "trucksBtnAttach"
+      sslClass   =   "UiTrucksLibTrucksbtnattach"
+      __type   =   "UiContainer"
+   }
+   Truckslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "trucksList"
+      __type   =   "UiScrollingList"
+   }
+   Truckslotbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "truckSlotBtn"
+      iconAttachContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucktypeattachcont"
+      }
+      header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   65
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklirheader"
+      }
+      newAttach   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   380
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklirminiiconattach"
+      }
+      status   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   75
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiTrucksLibTrucklirstatus"
+      }
+      cost   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   250
+         y   =   73
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucklircost"
+      }
+      icon   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckliricon"
+      }
+      emptyClip   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckslotbtnemptyslot"
+      }
+      truckColor   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   152
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckcolorcont"
+      }
+      __type   =   "UiButton"
+   }
+   Truckslotbtnemptyslot   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckSlotBtnEmptySlot"
+      sslClass   =   "UiTrucksLibTruckslotbtnemptyslot"
+      textCont   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   112
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckslotemptytext"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckslotemptytext   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckSlotEmptyText"
+      sslClass   =   "UiTrucksLibTruckslotemptytext"
+      tf   =   {
+         x   =   -104.8
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucksnavpanelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "trucksNavPanelAttach"
+      sslClass   =   "UiTrucksLibTrucksnavpanelattach"
+      __type   =   "UiContainer"
+   }
+   Truckspanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "trucksPanel"
+      sslClass   =   "UiTrucksLibTruckspanel"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckspanelheader"
+      }
+      subHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   171
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckpanelsubheader"
+      }
+      tabPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   105
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstabpanel"
+      }
+      content   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   228
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckcontent"
+      }
+      panelBg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckspanelheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "trucksPanelHeader"
+      sslClass   =   "UiTrucksLibTruckspanelheader"
+      textField   =   {
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucksscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "trucksScreen"
+      sslClass   =   "UiTrucksLibTrucksscreen"
+      panel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckspanel"
+      }
+      playerInfoAttach   =   {
+         symbol   =   ""
+         x   =   1530
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibGarageattachpoint"
+      }
+      infoPanel   =   {
+         symbol   =   ""
+         x   =   424
+         y   =   85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckinfopanel"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucksnavpanelattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucksswitchbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "trucksSwitchBtn"
+      __type   =   "UiButton"
+   }
+   Truckstabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "trucksTabPanel"
+      sslClass   =   "UiTrucksLibTruckstabpanel"
+      arrowR   =   {
+         symbol   =   ""
+         x   =   320
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucknavhintattach"
+      }
+      arrowL   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTrucknavhintattach"
+      }
+      btn0   =   {
+         symbol   =   ""
+         x   =   80
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiTrucksLibTrucktab"
+      }
+      btn1   =   {
+         symbol   =   ""
+         x   =   120
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiTrucksLibTrucktab"
+      }
+      btn2   =   {
+         symbol   =   ""
+         x   =   160
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiTrucksLibTrucktab"
+      }
+      btn3   =   {
+         symbol   =   ""
+         x   =   200
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiTrucksLibTrucktab"
+      }
+      btn4   =   {
+         symbol   =   ""
+         x   =   240
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiTrucksLibTrucktab"
+      }
+      btn5   =   {
+         symbol   =   ""
+         x   =   280
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiTrucksLibTrucktab"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckstatbar   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckStatBar"
+      sslClass   =   "UiTrucksLibTruckstatbar"
+      grade   =   {
+         x   =   110
+         y   =   -8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      cell4   =   {
+         symbol   =   ""
+         x   =   82
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatcell"
+      }
+      cell3   =   {
+         symbol   =   ""
+         x   =   62
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatcell"
+      }
+      cell2   =   {
+         symbol   =   ""
+         x   =   42
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatcell"
+      }
+      cell1   =   {
+         symbol   =   ""
+         x   =   22
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatcell"
+      }
+      cell0   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatcell"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckstatbarbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckStatBarBg"
+      sslClass   =   "UiTrucksLibTruckstatbarbg"
+      __type   =   "UiContainer"
+   }
+   Truckstatcell   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckStatCell"
+      sslClass   =   "UiTrucksLibTruckstatcell"
+      part0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatcellpart"
+      }
+      part1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckstatcellpart"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckstatcellpart   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckStatCellPart"
+      sslClass   =   "UiTrucksLibTruckstatcellpart"
+      __type   =   "UiContainer"
+   }
+   Truckstatscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckStatsCont"
+      sslClass   =   "UiTrucksLibTruckstatscont"
+      statLine   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinetexttype"
+      }
+      statLine2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinebartype"
+      }
+      statLine1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinebartype"
+      }
+      statLine0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibStatlinebartype"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucktab   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "truckTab"
+      tabIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Trucktypeattachcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "truckTypeAttachCont"
+      sslClass   =   "UiTrucksLibTrucktypeattachcont"
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrucksLibTruckiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Uniqueskiniconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trucks_lib"
+      symbol   =   "uniqueSkinIconAttach"
+      sslClass   =   "UiTrucksLibUniqueskiniconattach"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

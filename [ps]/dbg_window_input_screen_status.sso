@@ -1,0 +1,12 @@
+dbgWindow   =   {
+   id   =   "InputScreenStatus"
+   title   =   "InputScreenStatus"
+   width   =   1000
+   heigth   =   800
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   visible   =   False
+   __type   =   "DbgWindow"
+}
+__type   =   "object"

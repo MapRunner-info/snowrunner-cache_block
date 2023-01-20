@@ -1,0 +1,4 @@
+repeatChance   =   100
+distToTrailer   =   20
+delayBeforeRestartSec   =   600
+__type   =   "TutorialStageRepeatable"

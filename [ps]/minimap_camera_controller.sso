@@ -1,0 +1,184 @@
+mouseRotateSpeed   =   500
+acceleration   =   25
+dampingByDistanceFactor   =   0.1
+inputLinkKeyboardOrGamepadMove   =   {
+   inputLink   =   "UI.KeyboardMove"
+   __type   =   "InputLinkVectorMr"
+}
+inputLinkKeyboardZoom   =   {
+   inputLink   =   "UI.KeyboardZoom"
+   __type   =   "InputLinkVectorMr"
+}
+inputLinkMouseMove   =   {
+   inputLink   =   "UI.MouseMove"
+   __type   =   "InputLinkRotateMr"
+}
+inputLinkMouseZoom   =   {
+   inputLink   =   "UI.MouseZoom"
+   __type   =   "InputLinkRotateMr"
+}
+inputLinkMouseRotate   =   {
+   inputLink   =   "UI.MouseRotate"
+   __type   =   "InputLinkRotateMr"
+}
+inputLinkGamepadRotateOrZoom   =   {
+   inputLink   =   "UI.GamepadRightStickRotate"
+   direction   =   "Forward"
+   __type   =   "InputLinkRotateMr"
+}
+wheelCameraMovementXLink   =   {
+   inputLink   =   "UI.WheelMinimapMovementX"
+   __type   =   "InputLinkActionAxisMr"
+}
+wheelCameraMovementYLink   =   {
+   inputLink   =   "UI.WheelMinimapMovementY"
+   __type   =   "InputLinkActionAxisMr"
+}
+wheelCameraRotationLink   =   {
+   inputLink   =   "UI.WheelCameraRotationX"
+   __type   =   "InputLinkActionAxisMr"
+}
+wheelCameraZoomLink   =   {
+   inputLink   =   "UI.WheelCameraRotationY"
+   __type   =   "InputLinkActionAxisMr"
+}
+cameraZoomPresets   =   {
+   ZOOM_1x1   =   {
+      maxHeight   =   4.5
+      __type   =   "MinimapCameraZoomPreset"
+   }
+   ZOOM_1x2   =   {
+      minHeight   =   0.2
+      maxHeight   =   9
+      __type   =   "MinimapCameraZoomPreset"
+   }
+   ZOOM_2x2   =   {
+      minHeight   =   0.2
+      maxHeight   =   10
+      __type   =   "MinimapCameraZoomPreset"
+   }
+   ZOOM_TRIAL   =   {
+      maxHeight   =   2.6
+      __type   =   "MinimapCameraZoomPreset"
+   }
+}
+zoomOfLevelPresets   =   {
+   level_us_01_01   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_01_02   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_01_03   =   {
+      __value   =   "ZOOM_1x2"
+      __type   =   "ZoomType"
+   }
+   level_us_01_04_new   =   {
+      __value   =   "ZOOM_1x1"
+      __type   =   "ZoomType"
+   }
+   level_us_01_04_new_GC   =   {
+      __value   =   "ZOOM_1x1"
+      __type   =   "ZoomType"
+   }
+   level_ru_02_01_crop   =   {
+      __value   =   "ZOOM_1x2"
+      __type   =   "ZoomType"
+   }
+   level_ru_02_02   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_ru_02_03   =   {
+      __value   =   "ZOOM_1x1"
+      __type   =   "ZoomType"
+   }
+   level_ru_02_04   =   {
+      __value   =   "ZOOM_1x1"
+      __type   =   "ZoomType"
+   }
+   level_us_02_01   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_02_02_new   =   {
+      __value   =   "ZOOM_1x1"
+      __type   =   "ZoomType"
+   }
+   level_us_02_03_new   =   {
+      __value   =   "ZOOM_1x2"
+      __type   =   "ZoomType"
+   }
+   level_us_02_04_new   =   {
+      __value   =   "ZOOM_1x2"
+      __type   =   "ZoomType"
+   }
+   level_us_02_04_new_GC   =   {
+      __value   =   "ZOOM_1x2"
+      __type   =   "ZoomType"
+   }
+   level_trial_01_01   =   {
+      __value   =   "ZOOM_TRIAL"
+      __type   =   "ZoomType"
+   }
+   level_trial_01_02   =   {
+      __value   =   "ZOOM_TRIAL"
+      __type   =   "ZoomType"
+   }
+   level_ru_03_01   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_ru_03_02   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_trial_02_01   =   {
+      __value   =   "ZOOM_TRIAL"
+      __type   =   "ZoomType"
+   }
+   level_trial_02_02   =   {
+      __value   =   "ZOOM_TRIAL"
+      __type   =   "ZoomType"
+   }
+   level_us_04_01   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_04_02   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_03_01   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_03_02   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_trial_04_01   =   {
+      __value   =   "ZOOM_TRIAL"
+      __type   =   "ZoomType"
+   }
+   level_ru_04_01   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_ru_04_04   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_06_01   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+   level_us_06_02   =   {
+      __value   =   "ZOOM_2x2"
+      __type   =   "ZoomType"
+   }
+}
+rightMouseTapThreshold   =   300
+__type   =   "object"

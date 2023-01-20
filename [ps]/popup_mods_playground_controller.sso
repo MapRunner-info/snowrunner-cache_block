@@ -1,0 +1,54 @@
+view   =   {
+   __type   =   "PopupModsPlaygroundView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "SystemMessageNavigationPanelTwoButtons"
+   }
+}
+id   =   "MODS_CHOOSE_PLAYGROUND"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupPlaygroundSelect"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+blockingScreen   =   {
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "End",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

@@ -1,0 +1,30 @@
+uiObjectDesc   =   {
+   type   =   {
+      craftingList   =   {
+         lir   =   {
+            __type   =   "PopupCraftLir"
+         }
+         __type   =   "UiPopupLibHudcargocraftinglist"
+      }
+      __type   =   "UiPopupLibHudcargomanagementcrafting"
+   }
+   __type   =   "UiObjectDesc"
+}
+tabBtnLeft   =   {
+   desc   =   {
+      uiInputName   =   "SwitchCargoLeft"
+      isButtonWithoutText   =   True
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+tabBtnRight   =   {
+   desc   =   {
+      uiInputName   =   "SwitchCargoRight"
+      isButtonWithoutText   =   True
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+craftSound   =   "ui/ui_craft"
+__type   =   "PopupViewBase"

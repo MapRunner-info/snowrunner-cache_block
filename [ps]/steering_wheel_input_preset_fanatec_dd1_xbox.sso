@@ -1,0 +1,1984 @@
+uiName   =   "UI_STEERING_WHEEL_PRESET_FANATEC_DD1_XBOX"
+deviceInfo   =   {
+   vendorId   =   3767
+   productId   =   6
+   __type   =   "WheelDeviceInfo"
+}
+baseInputType   =   "gamepad_xbox_one"
+inputsToRemap   =   {
+   CameraRotationW   =   {
+      target   =   {
+         inputLink   =   "DriveCamera.CameraRotationW"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CameraRotationS   =   {
+      target   =   {
+         inputLink   =   "DriveCamera.CameraRotationS"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CameraRotationA   =   {
+      target   =   {
+         inputLink   =   "DriveCamera.CameraRotationA"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           139
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CameraRotationD   =   {
+      target   =   {
+         inputLink   =   "DriveCamera.CameraRotationD"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           137
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   Up   =   {
+      target   =   {
+         inputLink   =   "Gamepad.GamepadDPadUp"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   Down   =   {
+      target   =   {
+         inputLink   =   "Gamepad.GamepadDPadDown"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   Left   =   {
+      target   =   {
+         inputLink   =   "Gamepad.GamepadDPadLeft"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           139
+                        ]
+                     }
+                  ]
+               },
+               {
+                  deviceType   =   "gamepad_ds4"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           4
+                        ]
+                     }
+                  ]
+               },
+               {
+                  deviceType   =   "gamepad_xenon"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           4
+                        ]
+                     }
+                  ]
+               },
+               {
+                  deviceType   =   "gamepad_xbox_one"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           4
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   Right   =   {
+      target   =   {
+         inputLink   =   "Gamepad.GamepadDPadRight"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           137
+                        ]
+                     }
+                  ]
+               },
+               {
+                  deviceType   =   "gamepad_ds4"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           5
+                        ]
+                     }
+                  ]
+               },
+               {
+                  deviceType   =   "gamepad_xenon"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           5
+                        ]
+                     }
+                  ]
+               },
+               {
+                  deviceType   =   "gamepad_xbox_one"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           5
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   Enter   =   {
+      target   =   {
+         inputLink   =   "Gamepad.GamepadA"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           1
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   TransmissionInput   =   {
+      target   =   {
+         inputLink   =   "Exploration.TransmissionInput"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         forward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         backward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         left   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           139
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         right   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           137
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionVector"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   TransmissionUp   =   {
+      target   =   {
+         inputLink   =   "Exploration.TransmissionUp"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   TransmissionDown   =   {
+      target   =   {
+         inputLink   =   "Exploration.TransmissionDown"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   WheelThrottle   =   {
+      target   =   {
+         inputLink   =   "Truck.WheelThrottle"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           129
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   WheelBrake   =   {
+      target   =   {
+         inputLink   =   "Truck.WheelBrake"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           133
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   SteeringWheel   =   {
+      target   =   {
+         inputLink   =   "Truck.SteeringWheel"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           128
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   ClutchPedal   =   {
+      target   =   {
+         inputLink   =   "Truck.ClutchPedal"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           134
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   GamepadCameraRotationX   =   {
+      target   =   {
+         inputLink   =   "DriveCamera.WheelCameraRotationX"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           132
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   GamepadCameraRotationY   =   {
+      target   =   {
+         inputLink   =   "DriveCamera.WheelCameraRotationY"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           131
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   MinimapCameraMovementX   =   {
+      target   =   {
+         inputLink   =   "UI.WheelMinimapMovementX"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           132
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   MinimapCameraMovementY   =   {
+      target   =   {
+         inputLink   =   "UI.WheelMinimapMovementY"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           131
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   UIGamepadCameraRotationX   =   {
+      target   =   {
+         inputLink   =   "UI.WheelCameraRotationX"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           132
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   UIGamepadCameraRotationY   =   {
+      target   =   {
+         inputLink   =   "UI.WheelCameraRotationY"
+         __type   =   "InputLinkActionAxisMr"
+      }
+      source   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           131
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionHold"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CraneWinchActions   =   {
+      target   =   {
+         inputLink   =   "Crane.WinchActions"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         forward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           3
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         backward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           0
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         left   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           7
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         right   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           6
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionVector"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CraneMoveYPlane   =   {
+      target   =   {
+         inputLink   =   "Crane.moveYPlane"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         forward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           5
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         backward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           4
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionVector"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CraneMove   =   {
+      target   =   {
+         inputLink   =   "Crane.moveXZplane"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         forward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         backward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         left   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           139
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         right   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           137
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionVector"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CustomActionVector9   =   {
+      target   =   {
+         inputLink   =   "CustomAddons.action_9_vector"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         forward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         backward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionVector"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CustomActionVector10   =   {
+      target   =   {
+         inputLink   =   "CustomAddons.action_10_vector"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         forward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           139
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         backward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           137
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionVector"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+   CustomActionVector11   =   {
+      target   =   {
+         inputLink   =   "CustomAddons.action_11_vector"
+         __type   =   "InputLinkMr"
+      }
+      source   =   {
+         forward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           0
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         backward   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           3
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputActionVector"
+      }
+      __type   =   "SteeringWheelRemapInput"
+   }
+}
+inputsToSimulate   =   {
+   HoldY   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        3
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        11
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        11
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldB   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        2
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        9
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        9
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldA   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        1
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        8
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        8
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldX   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        0
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        10
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        10
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldStart   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        9
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        0
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        0
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldBack   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        8
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        1
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        1
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldL3   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        11
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        6
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        6
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldL2   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        7
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        14
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        14
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldL1   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        5
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        12
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        12
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldR1   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        4
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        13
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        13
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldR2   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        6
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        15
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        15
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldR3   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        10
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        7
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        7
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldDUp   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        136
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        2
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        2
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldDDown   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        138
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        3
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        3
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldDLeft   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        139
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        4
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        4
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   HoldDRight   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        137
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        5
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        5
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   Navigation   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        136,
+                        138
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        38,
+                        3
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        38,
+                        3
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+   Transmission   =   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        136,
+                        137,
+                        138
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xenon"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        37
+                     ]
+                  }
+               ]
+            },
+            {
+               deviceType   =   "gamepad_xbox_one"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        37
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+      __type   =   "InputActionHold"
+   }
+}
+inputIcons   =   {
+   ButtonY   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           3
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_Y_BUTTON"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   ButtonB   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           2
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_B_BUTTON"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   ButtonA   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           1
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_A_BUTTON"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   ButtonX   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           0
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_X_BUTTON"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   Start   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           9
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_START"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   Map   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           8
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_BACK"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   DpadUp   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_DPAD_UP"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   DpadDown   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_DPAD_DOWN"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   DpadLeft   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           139
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_DPAD_LEFT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   DpadRight   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           137
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_DPAD_RIGHT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   GearLeft   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           5
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_GEAR_LEFT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   GearRight   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           4
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_GEAR_RIGHT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   Navigation   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136,
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_NAVIGATION_VERTICAL"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   Transmission   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           136,
+                           137,
+                           138
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "sw_DPAD_ALL"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   ButtonL2   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           7
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_TRIGGER_LEFT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   ButtonL3   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           11
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_THUMB_LEFT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   ButtonR2   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           6
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_TRIGGER_RIGHT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+   ButtonR3   =   {
+      inputCode   =   {
+         cmd   =   {
+            devices   =   [
+               {
+                  deviceType   =   "steering_wheel"
+                  shortcuts   =   [
+                     {
+                        keys   =   [
+                           10
+                        ]
+                     }
+                  ]
+               }
+            ]
+         }
+         __type   =   "InputAction"
+      }
+      icon   =   "xb_THUMB_RIGHT"
+      __type   =   "SteeringWheelInputIcon"
+   }
+}
+hasTruckCameraRotationInputs   =   True
+hasMinimapCameraMovementInputs   =   True
+hasCustomizationCameraRotationInputs   =   True
+invertMinimapCameraMovementX   =   True
+__type   =   "SteeringWheelInputPreset"

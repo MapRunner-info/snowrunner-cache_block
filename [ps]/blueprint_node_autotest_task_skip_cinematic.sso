@@ -1,0 +1,3 @@
+delayBeforeStart   =   500
+delayBeforeSuccess   =   500
+__type   =   "BlueprintNodeAutotestTaskBase"

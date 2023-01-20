@@ -1,0 +1,109 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         __type   =   "UiGarageGaragescreen"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   tabBtns   =   [
+      {
+         desc   =   {
+            uiInputName   =   "SlotLeft"
+            __type   =   "NavButtonDesc"
+         }
+      },
+      {
+         desc   =   {
+            uiInputName   =   "SlotRight"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   ]
+   __type   =   "SlotMenuUiView"
+}
+navPanels   =   {
+   defaultPanel   =   {
+      btns   =   {
+         regionMap   =   {
+            uiInputName   =   "regionMap"
+            __type   =   "NavButtonDesc"
+         }
+         select   =   {
+            uiInputName   =   "select"
+            __type   =   "NavButtonDesc"
+         }
+         ingameMenu   =   {
+            uiInputName   =   "ingameMenu"
+            __type   =   "NavButtonDesc"
+         }
+         profile   =   {
+            uiInputName   =   "profile"
+            __type   =   "NavButtonDesc"
+         }
+         truckRetain   =   {
+            uiInputName   =   "truckRetain"
+            __type   =   "NavButtonDesc"
+         }
+         localMap   =   {
+            uiInputName   =   "localMap"
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            uiInputName   =   "navigation"
+            hideWithCustomSteeringWheelPreset   =   True
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "SlotMenuNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "SlotMenuState"
+}
+inputScreen   =   {
+   name   =   "Slot menu"
+   inputsLinks   =   {
+      regionMap   =   {
+         inputLink   =   "UI.GoToGlobalMap"
+         __type   =   "InputLinkHoldMr"
+      }
+      select   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      ingameMenu   =   {
+         inputLink   =   "UI.ShowMenu"
+         __type   =   "InputLinkHoldMr"
+      }
+      profile   =   {
+         inputLink   =   "UI.PlayerProfile"
+         __type   =   "InputLinkActionMr"
+      }
+      truckRetain   =   {
+         inputLink   =   "UI.TruckRetain"
+         __type   =   "InputLinkHoldMr"
+      }
+      localMap   =   {
+         inputLink   =   "Exploration.ShowMinimap"
+         __type   =   "InputLinkHoldMr"
+      }
+      SlotLeft   =   {
+         inputLink   =   "UI.TabBarPrevTab"
+         __type   =   "InputLinkActionMr"
+      }
+      SlotRight   =   {
+         inputLink   =   "UI.TabBarNextTab"
+         __type   =   "InputLinkActionMr"
+      }
+      navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      HidePolygonTool   =   {
+         inputLink   =   "UI.HidePolygonTool"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

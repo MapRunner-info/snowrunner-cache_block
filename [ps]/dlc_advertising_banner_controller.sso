@@ -1,0 +1,71 @@
+view   =   {
+   __type   =   "DlcAdvertisingBannerView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         OpenShop   =   {
+            uiInputName   =   "OpenShop"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "DlcAdvertisingBannerNavigationPanel"
+   }
+}
+inputScreen   =   {
+   name   =   "DlcAdvertisingBanner"
+   inputsLinks   =   {
+      OpenShop   =   {
+         inputLink   =   "UI.OpenDlcAdvertising"
+         __type   =   "InputLinkActionMr"
+      }
+      TabLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      TabRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+availablePlatformsToShowDLC   =   {
+   availablePlatforms   =   {
+      PC   =   {
+         __value   =   False
+      }
+   }
+   __type   =   "UiSettingScreenPresetPlatforms"
+}
+dlcBundles   =   {
+   season_pass   =   {
+      dlcs   =   [
+         "khan39marshall",
+         "white_western_star4964skin",
+         "chevroletck1500skin",
+         "chevrolet_kodiakc70skin",
+         "search_and_recover",
+         "expand_and_explore",
+         "locate_and_deliver",
+         "expansion"
+      ]
+      name   =   "UID_DLC_SEASON_PASS"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseasonpass"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      availablePlatforms   =   {
+         availablePlatforms   =   {
+            PC   =   {
+               __value   =   False
+            }
+         }
+         __type   =   "UiSettingScreenPresetPlatforms"
+      }
+      __type   =   "DlcAdvertisingBannerSeason"
+   }
+}
+__type   =   "ScreenControllerBase"

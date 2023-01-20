@@ -1,0 +1,6 @@
+truckUnlockRadius   =   15
+truckUnlockTimerPeriodInSec   =   1.1
+objectiveTimerPeriodInSec   =   1.2
+garageUnlockRadius   =   20
+garageUnlockTimerPeriodInSec   =   1.3
+__type   =   "object"

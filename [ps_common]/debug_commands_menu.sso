@@ -1,0 +1,17 @@
+activateInputLink   =   {
+   inputLink   =   "Debug.ActivateDebugMenu"
+   __type   =   "InputLinkAction"
+}
+cancelInputLink   =   {
+   inputLink   =   "DebugConsole.Cancel"
+   __type   =   "InputLinkAction"
+}
+upInputLink   =   {
+   inputLink   =   "DebugConsole.Up"
+   __type   =   "InputLinkAction"
+}
+downInputLink   =   {
+   inputLink   =   "DebugConsole.Down"
+   __type   =   "InputLinkAction"
+}
+__type   =   "object"

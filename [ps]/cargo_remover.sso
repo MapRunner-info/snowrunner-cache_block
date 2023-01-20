@@ -1,0 +1,39 @@
+inputScreen   =   {
+   name   =   "Cargo Remover"
+   inputsLinks   =   {
+      left   =   {
+         inputLink   =   "Truck.SelectLeftWinchPoint"
+         __type   =   "InputLinkHoldMr"
+      }
+      right   =   {
+         inputLink   =   "Truck.SelectRightWinchPoint"
+         __type   =   "InputLinkHoldMr"
+      }
+      top   =   {
+         inputLink   =   "Truck.SelectTopWinchPoint"
+         __type   =   "InputLinkHoldMr"
+      }
+      bottom   =   {
+         inputLink   =   "Truck.SelectBottomWinchPoint"
+         __type   =   "InputLinkHoldMr"
+      }
+      LeftTap   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      RightTap   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+      UpTap   =   {
+         inputLink   =   "UI.UiListUpTap"
+         __type   =   "InputLinkActionMr"
+      }
+      DownTap   =   {
+         inputLink   =   "UI.UiListDownTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "object"

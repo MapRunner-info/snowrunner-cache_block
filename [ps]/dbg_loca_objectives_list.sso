@@ -1,0 +1,40 @@
+list   =   {
+   lidDesc   =   {
+      type   =   {
+         __type   =   "ListItemDataBase"
+      }
+      __type   =   "ListItemDataDesc"
+   }
+   __type   =   "LirItemsList"
+}
+slideListDesc   =   {
+   type   =   {
+      x   =   0
+      lir   =   {
+         textCont   =   {
+            textField   =   {
+               colorTransform   =   {
+                  multiplier   =   {
+                     a   =   255
+                     __type   =   "Color"
+                  }
+                  shift   =   {
+                     a   =   255
+                     r   =   255
+                     g   =   255
+                     b   =   255
+                     __type   =   "Color"
+                  }
+                  __type   =   "UiColorTransform"
+               }
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiCommonLibDeflirtext"
+         }
+         __type   =   "DebugLir"
+      }
+      __type   =   "UiCommonLibDeflist"
+   }
+   __type   =   "SslDesc"
+}
+__type   =   "object"

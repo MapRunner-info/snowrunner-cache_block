@@ -1,0 +1,70 @@
+view   =   {
+   __type   =   "ModBrowserReportPopupUiView"
+}
+navPanels   =   {
+   default   =   {
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         PrevPc   =   {
+            uiInputName   =   "Prev"
+            __type   =   "NavButtonDesc"
+         }
+         PrevConsoles   =   {
+            uiInputName   =   "Prev"
+            __type   =   "NavButtonDesc"
+         }
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         Focus   =   {
+            uiInputName   =   "Focus"
+            excludedPlatforms   =   [
+               "PC"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "ModBrowserReportPopupNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "ModReportScreenState"
+}
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "ModBrowserReportPopup"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Prev   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkActionMr"
+      }
+      Focus   =   {
+         inputLink   =   "UI.ModBrowserSearch"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+reportStages   =   [
+   "REPORT_TYPE",
+   "EMAIL",
+   "DETAILS_AND_CONFIRMATION"
+]
+dmcaStages   =   [
+   "REPORT_TYPE",
+   "BIG_TEXT",
+   "CONTACT",
+   "COUNTRY",
+   "EMAIL",
+   "PENALTY",
+   "SIGNATURE",
+   "DETAILS_AND_CONFIRMATION"
+]
+__type   =   "PopupUiController"

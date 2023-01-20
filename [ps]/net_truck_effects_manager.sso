@@ -1,0 +1,195 @@
+simpleEffectParams   =   {
+   HONK   =   {
+      __type   =   "SoundSyncParams"
+   }
+   HANDBRAKE   =   {
+      disallowed   =   True
+      __type   =   "SoundSyncParams"
+   }
+   HANDBRAKE_OFF   =   {
+      disallowed   =   True
+      __type   =   "SoundSyncParams"
+   }
+   BRAKE_PULL   =   {
+      __type   =   "SoundSyncParams"
+   }
+   BRAKES_SQUEAL_OFF   =   {
+      __type   =   "SoundSyncParams"
+   }
+   GEAR   =   {
+      disallowed   =   True
+      __type   =   "SoundSyncParams"
+   }
+   ENGINE_REV_OUT   =   {
+      __type   =   "SoundSyncParams"
+   }
+   AWD   =   {
+      disallowed   =   True
+      __type   =   "SoundSyncParams"
+   }
+   DIFFLOCK   =   {
+      disallowed   =   True
+      __type   =   "SoundSyncParams"
+   }
+   HEADLIGHT   =   {
+      __type   =   "SoundSyncParams"
+   }
+   ENGINE_START_SOUND_START   =   {
+      __type   =   "SoundSyncParams"
+   }
+   ENGINE_START_SOUND_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   ENGINE_STOP_SOUND_START   =   {
+      __type   =   "SoundSyncParams"
+   }
+   ENGINE_STOP_SOUND_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   ENGINE_ACCEL_FADE_OUT   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   REVERSE_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   MUTE_SOUNDS   =   {
+      __type   =   "SoundSyncParams"
+   }
+   STOP_LOOP_SOUNDS   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WATER_DROPPING   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WATER_DROPPING_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   EXAUST_SHOT   =   {
+      __type   =   "SoundSyncParams"
+   }
+   EXAUST_GURGLE   =   {
+      __type   =   "SoundSyncParams"
+   }
+   EXAUST_GURGLE_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   SPINNING_SOUND_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_MUD_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_EXTRUDE_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_WATER_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_STEER_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_CHAINS_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   RESTORE_CRANE   =   {
+      __type   =   "SoundSyncParams"
+   }
+   GASOLINE_LEAK_START   =   {
+      __type   =   "SoundSyncParams"
+   }
+   GASOLINE_LEAK_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WINCH_START   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WINCH_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   WINCH_PICK   =   {
+      __type   =   "SoundSyncParams"
+   }
+   SEISMIC_START   =   {
+      __type   =   "SoundSyncParams"
+   }
+   SEISMIC_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   SEISMIC_FADE_OUT   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   SEISMIC_READY   =   {
+      __type   =   "SoundSyncParams"
+   }
+   SEISMIC_BEEPING   =   {
+      __type   =   "SoundSyncParams"
+   }
+   GEAR_FAIL   =   {
+      disallowed   =   True
+      __type   =   "SoundSyncParams"
+   }
+   SPECIAL_MOVE_STOP   =   {
+      __type   =   "SoundSyncParams"
+   }
+}
+simpleEffectWithFloatParams   =   {
+   ENGINE_REV_IN   =   {
+      __type   =   "SoundSyncParams"
+   }
+   BRAKES_SQUEAL   =   {
+      __type   =   "SoundSyncParams"
+   }
+   ABRUPT_STOP   =   {
+      reliable   =   True
+      __type   =   "SoundSyncParams"
+   }
+   ENGINE_ACCEL   =   {
+      __type   =   "SoundSyncParams"
+   }
+   CHASSIS_STRESS   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_DAMAGED   =   {
+      __type   =   "SoundSyncParams"
+   }
+   SPINNING_SOUND   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_MUD   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_EXTRUDE   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_WATER   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_STEER   =   {
+      __type   =   "SoundSyncParams"
+   }
+   WHEEL_CHAINS   =   {
+      __type   =   "SoundSyncParams"
+   }
+   SPECIAL_MOVE   =   {
+      __type   =   "SoundSyncParams"
+   }
+}
+maxDistance   =   200
+__type   =   "object"

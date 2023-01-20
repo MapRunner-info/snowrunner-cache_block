@@ -1,0 +1,18 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      input   =   {
+         __type   =   "InputLinkHoldMr"
+      }
+      uiInputName   =   "Accept"
+      __type   =   "NavButtonDesc"
+   }
+   decline   =   {
+      text   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_DECLINE"
+      uiInputName   =   "Decline"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

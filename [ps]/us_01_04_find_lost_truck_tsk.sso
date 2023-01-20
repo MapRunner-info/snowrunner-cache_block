@@ -1,0 +1,33 @@
+uiDesc   =   "US_01_04_FIND_LOST_TRUCK_TSK_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "us_01_04_dropped_car"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_04_new || US_01_04_FIND_LOST_TRUCK_DELIVERY"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_04_FIND_LOST_TRUCK_TSK_SUB_0_DESC"
+            afterStageFinished   =   "DESTROY"
+         }
+      ]
+   }
+]
+description   =   "US_01_04_FIND_LOST_TRUCK_TSK_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_04_new || US_01_04_FIND_LOST_TRUCK_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_04_FIND_LOST_TRUCK_ADD"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   140
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1200
+   }
+}
+__type   =   "TaskSettings"

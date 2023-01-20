@@ -1,0 +1,9 @@
+popup   =   {
+   view   =   {
+      __type   =   "PopupUiView"
+   }
+   priority   =   "VERY_HIGH"
+   disableInputs   =   True
+   __type   =   "PopupUiController"
+}
+__type   =   "object"

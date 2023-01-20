@@ -1,0 +1,1859 @@
+autotestFlow   =   {
+   nodes   =   {
+      OnAutotestStart   =   {
+         viewData   =   {
+            x   =   1400
+            y   =   3800
+         }
+         OnStart   =   [
+            "SetBPFloat/Set"
+         ]
+         __type   =   "BlueprintNodeAutotestStart"
+      }
+      AutotestSuccess   =   {
+         viewData   =   {
+            x   =   4128.341
+            y   =   3720.357
+         }
+         __type   =   "BlueprintNodeAutotestSuccess"
+      }
+      SetBPFloat   =   {
+         viewData   =   {
+            x   =   1550
+            y   =   3900
+         }
+         float   =   {
+            def   =   0.1
+            __type   =   "FloatRefParam"
+         }
+         name   =   "waitTime"
+         OnExit   =   [
+            "SetBPFloat_1/Set"
+         ]
+         __type   =   "BlueprintNodeSetBpFloat"
+      }
+      GetConfigVarFloat   =   {
+         viewData   =   {
+            x   =   1050
+            y   =   3950
+         }
+         name   =   {
+            def   =   "Debug.Autotests.delayBeforeAddonOrUpgradeChanges"
+            __type   =   "StringRefParam"
+         }
+         Get   =   [
+            "SetBPFloat/float/cb"
+         ]
+         __type   =   "BlueprintNodeGetCfgVarFloat"
+      }
+      InGameGoGarage   =   {
+         viewData   =   {
+            x   =   2150
+            y   =   3800
+         }
+         OnSuccess   =   [
+            "BlueprintLibraryFunction/logic/nodes/ForEachStringCOROUTINE_1/StartIterate"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskIngameGoGarage"
+      }
+      Delay   =   {
+         viewData   =   {
+            x   =   1808.138
+            y   =   3914.543
+         }
+         OnFinish   =   [
+            "CheckUserProfileLoad/Start"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      SetBPFloat_1   =   {
+         viewData   =   {
+            x   =   1600.877
+            y   =   4037.106
+         }
+         float   =   {
+            def   =   0.1
+            __type   =   "FloatRefParam"
+         }
+         name   =   "truckAmount"
+         OnExit   =   [
+            "Delay/Start"
+         ]
+         __type   =   "BlueprintNodeSetBpFloat"
+      }
+      GetConfigVarFloat_1   =   {
+         viewData   =   {
+            x   =   1100.877
+            y   =   4087.106
+         }
+         name   =   {
+            def   =   "Debug.Autotests.truckAmountToCheck"
+            __type   =   "StringRefParam"
+         }
+         Get   =   [
+            "SetBPFloat_1/float/cb"
+         ]
+         __type   =   "BlueprintNodeGetCfgVarFloat"
+      }
+      BlueprintLibraryFunction   =   {
+         captionVar   =   "BuyAndCheckAllTrucks"
+         viewData   =   {
+            x   =   2544.159
+            y   =   3800
+         }
+         logic   =   {
+            nodes   =   {
+               BlueprintLibraryFunction_1   =   {
+                  captionVar   =   "CheckAllTrucks"
+                  viewData   =   {
+                     x   =   2716
+                     y   =   4037
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        GarageSlotMenuGoWarehouse   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4200
+                           }
+                           OnSuccess   =   [
+                              "GarageWarehouseSelectTruck/Start"
+                           ]
+                           delayBeforeSuccess   =   100
+                           __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoWarehouse"
+                        }
+                        GarageWarehouseSelectTruck   =   {
+                           viewData   =   {
+                              x   =   3300
+                              y   =   4200
+                           }
+                           OnSuccess   =   [
+                              "GarageWarehouseGoSlotMenu/Start"
+                           ]
+                           delayBeforeSuccess   =   100
+                           __type   =   "BlueprintNodeAutotestTaskGarageWarehouseSelectTruck"
+                        }
+                        GarageWarehouseGoSlotMenu   =   {
+                           viewData   =   {
+                              x   =   3700
+                              y   =   4200
+                           }
+                           OnSuccess   =   [
+                              "GarageSlotMenuGoOut/Start"
+                           ]
+                           delayBeforeSuccess   =   100
+                           __type   =   "BlueprintNodeAutotestTaskGarageWarehouseGoSlotMenu"
+                        }
+                        GarageSlotMenuGoOut   =   {
+                           viewData   =   {
+                              x   =   3000
+                              y   =   4300
+                           }
+                           OnSuccess   =   [
+                              "Delay/Start"
+                           ]
+                           delayBeforeSuccess   =   100
+                           __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoOut"
+                        }
+                        InGameGoGarage   =   {
+                           viewData   =   {
+                              x   =   3950
+                              y   =   4700
+                           }
+                           OnSuccess   =   [
+                              "Pipe/Input"
+                           ]
+                           __type   =   "BlueprintNodeAutotestTaskIngameGoGarage"
+                        }
+                        Pipe   =   {
+                           viewData   =   {
+                              x   =   4300
+                              y   =   4700
+                           }
+                           Output   =   [
+                              "../../../ForEachStringCOROUTINE_1/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintLibraryPipe"
+                        }
+                        Delay   =   {
+                           viewData   =   {
+                              x   =   3350
+                              y   =   4300
+                           }
+                           duration   =   {
+                              def   =   0.1
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "BlueprintLibraryFunction_1/logic/nodes/CurrentTruckTeleport/Teleport"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        BlueprintLibraryFunction_1   =   {
+                           captionVar   =   "TeleportTruckFromGarageEnter"
+                           viewData   =   {
+                              x   =   3550
+                              y   =   4300
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 CurrentTruckTeleport   =   {
+                                    viewData   =   {
+                                       x   =   2950
+                                       y   =   4000
+                                    }
+                                    OnExit   =   [
+                                       "../../../Delay_1/Start"
+                                    ]
+                                    __type   =   "BlueprintNodeCurrentTruckTeleport"
+                                 }
+                                 CurrentTruckGetTransform   =   {
+                                    viewData   =   {
+                                       x   =   2400
+                                       y   =   4050
+                                    }
+                                    GetTransform   =   [
+                                       "Transform3dSetPosition/transform3d/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                                 }
+                                 Vector3dScale   =   {
+                                    viewData   =   {
+                                       x   =   2250
+                                       y   =   4200
+                                    }
+                                    scale   =   {
+                                       def   =   20
+                                       __type   =   "FloatRefParam"
+                                    }
+                                    Vector3d   =   [
+                                       "Vector3dAdd/bVector3d/cb"
+                                    ]
+                                    __type   =   "BlueprintLibraryVector3dscale"
+                                 }
+                                 CurrentTruckGetTransform_1   =   {
+                                    viewData   =   {
+                                       x   =   1690.856
+                                       y   =   4150
+                                    }
+                                    GetTransform   =   [
+                                       "BreakTransform3d/transform3d/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                                 }
+                                 BreakTransform3d   =   {
+                                    viewData   =   {
+                                       x   =   1950
+                                       y   =   4150
+                                    }
+                                    transform3d   =   {
+                                       __type   =   "Transform3dRefParam"
+                                    }
+                                    GetPosition   =   [
+                                       "Vector3dAdd/aVector3d/cb"
+                                    ]
+                                    GetRight   =   [
+                                       "Vector3dScale/vector/cb"
+                                    ]
+                                    __type   =   "BlueprintGeomLibraryBreaktransform3d"
+                                 }
+                                 Transform3dSetPosition   =   {
+                                    viewData   =   {
+                                       x   =   2700
+                                       y   =   4050
+                                    }
+                                    transform3d   =   {
+                                       __type   =   "Transform3dRefParam"
+                                    }
+                                    GetResult   =   [
+                                       "CurrentTruckTeleport/transfrom3dRef/cb"
+                                    ]
+                                    vec   =   {
+                                       def   =   {
+                                          __type   =   "Vector3d"
+                                       }
+                                       __type   =   "Vector3dRefParam"
+                                    }
+                                    __type   =   "BlueprintNodeTransform3dSetPosition"
+                                 }
+                                 Vector3dAdd   =   {
+                                    viewData   =   {
+                                       x   =   2450
+                                       y   =   4150
+                                    }
+                                    aVector3d   =   {
+                                       def   =   {
+                                          __type   =   "Vector3d"
+                                       }
+                                       __type   =   "Vector3dRefParam"
+                                    }
+                                    bVector3d   =   {
+                                       def   =   {
+                                          __type   =   "Vector3d"
+                                       }
+                                       __type   =   "Vector3dRefParam"
+                                    }
+                                    Vector3d   =   [
+                                       "Transform3dSetPosition/vec/cb"
+                                    ]
+                                    __type   =   "BlueprintVector3dLibraryVector3dadd"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/CurrentTruckTeleport;Teleport",
+                              "logic/nodes/CurrentTruckTeleport;OnExit",
+                              "logic/nodes/Vector3dScale;scale;Destination;scale"
+                           ]
+                           __type   =   "BlueprintLibraryFunction"
+                        }
+                        Delay_1   =   {
+                           viewData   =   {
+                              x   =   3850
+                              y   =   4300
+                           }
+                           duration   =   {
+                              def   =   0.1
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "BlueprintLibraryFunction_3/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        BlueprintLibraryFunction_1_1   =   {
+                           captionVar   =   "TeleportTruckFromGarageEnter"
+                           viewData   =   {
+                              x   =   3650
+                              y   =   4700
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 CurrentTruckTeleport   =   {
+                                    viewData   =   {
+                                       x   =   2950
+                                       y   =   4000
+                                    }
+                                    OnExit   =   [
+                                       "../../../InGameGoGarage/Start"
+                                    ]
+                                    __type   =   "BlueprintNodeCurrentTruckTeleport"
+                                 }
+                                 CurrentTruckGetTransform   =   {
+                                    viewData   =   {
+                                       x   =   2400
+                                       y   =   4050
+                                    }
+                                    GetTransform   =   [
+                                       "Transform3dSetPosition/transform3d/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                                 }
+                                 Vector3dScale   =   {
+                                    viewData   =   {
+                                       x   =   2250
+                                       y   =   4200
+                                    }
+                                    scale   =   {
+                                       def   =   -20
+                                       __type   =   "FloatRefParam"
+                                    }
+                                    Vector3d   =   [
+                                       "Vector3dAdd/bVector3d/cb"
+                                    ]
+                                    __type   =   "BlueprintLibraryVector3dscale"
+                                 }
+                                 CurrentTruckGetTransform_1   =   {
+                                    viewData   =   {
+                                       x   =   1690.856
+                                       y   =   4150
+                                    }
+                                    GetTransform   =   [
+                                       "BreakTransform3d/transform3d/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                                 }
+                                 BreakTransform3d   =   {
+                                    viewData   =   {
+                                       x   =   1950
+                                       y   =   4150
+                                    }
+                                    transform3d   =   {
+                                       __type   =   "Transform3dRefParam"
+                                    }
+                                    GetPosition   =   [
+                                       "Vector3dAdd/aVector3d/cb"
+                                    ]
+                                    GetRight   =   [
+                                       "Vector3dScale/vector/cb"
+                                    ]
+                                    __type   =   "BlueprintGeomLibraryBreaktransform3d"
+                                 }
+                                 Transform3dSetPosition   =   {
+                                    viewData   =   {
+                                       x   =   2700
+                                       y   =   4050
+                                    }
+                                    transform3d   =   {
+                                       __type   =   "Transform3dRefParam"
+                                    }
+                                    GetResult   =   [
+                                       "CurrentTruckTeleport/transfrom3dRef/cb"
+                                    ]
+                                    vec   =   {
+                                       def   =   {
+                                          __type   =   "Vector3d"
+                                       }
+                                       __type   =   "Vector3dRefParam"
+                                    }
+                                    __type   =   "BlueprintNodeTransform3dSetPosition"
+                                 }
+                                 Vector3dAdd   =   {
+                                    viewData   =   {
+                                       x   =   2450
+                                       y   =   4150
+                                    }
+                                    aVector3d   =   {
+                                       def   =   {
+                                          __type   =   "Vector3d"
+                                       }
+                                       __type   =   "Vector3dRefParam"
+                                    }
+                                    bVector3d   =   {
+                                       def   =   {
+                                          __type   =   "Vector3d"
+                                       }
+                                       __type   =   "Vector3dRefParam"
+                                    }
+                                    Vector3d   =   [
+                                       "Transform3dSetPosition/vec/cb"
+                                    ]
+                                    __type   =   "BlueprintVector3dLibraryVector3dadd"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/CurrentTruckTeleport;Teleport",
+                              "logic/nodes/CurrentTruckTeleport;OnExit",
+                              "logic/nodes/Vector3dScale;scale;Destination;scale"
+                           ]
+                           __type   =   "BlueprintLibraryFunction"
+                        }
+                        BlueprintLibraryFunction   =   {
+                           captionVar   =   "InstallAllEngines"
+                           viewData   =   {
+                              x   =   3250
+                              y   =   4450
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 ForEachStringCOROUTINE   =   {
+                                    viewData   =   {
+                                       x   =   3228.376
+                                       y   =   4450
+                                    }
+                                    OnFinish   =   [
+                                       "../../../BlueprintLibraryFunction_2/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                                    ]
+                                    OnIteration   =   [
+                                       "InstallEngine/Start"
+                                    ]
+                                    GetString   =   [
+                                       "InstallEngine/engineNameRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeForEachStringCoroutine"
+                                 }
+                                 GetAllTruckEnginesNames   =   {
+                                    viewData   =   {
+                                       x   =   2950
+                                       y   =   4550
+                                    }
+                                    GetTruckEngines   =   [
+                                       "ForEachStringCOROUTINE/arrayString/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetAllTruckEngines"
+                                 }
+                                 GetCurrentTruck   =   {
+                                    viewData   =   {
+                                       x   =   2750
+                                       y   =   4550
+                                    }
+                                    GetCurrentTruck   =   [
+                                       "GetAllTruckEnginesNames/truckRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetCurrentTruck"
+                                 }
+                                 Delay_1_1   =   {
+                                    viewData   =   {
+                                       x   =   3600
+                                       y   =   4750
+                                    }
+                                    duration   =   {
+                                       __type   =   "FloatRefParam"
+                                    }
+                                    OnFinish   =   [
+                                       "ForEachStringCOROUTINE/ContinueIterate"
+                                    ]
+                                    __type   =   "BlueprintTimeLibraryDelay"
+                                 }
+                                 InstallEngine   =   {
+                                    viewData   =   {
+                                       x   =   3500.02
+                                       y   =   4493.185
+                                    }
+                                    OnFinished   =   [
+                                       "Delay_1_1/Start"
+                                    ]
+                                    ignoreTaskFail   =   True
+                                    delayBeforeSuccess   =   0
+                                    __type   =   "BlueprintNodeAutotestTaskInstallEngine"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                              "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                              "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                           ]
+                        }
+                        BlueprintLibraryFunction_2   =   {
+                           captionVar   =   "InstallAllGearboxes"
+                           viewData   =   {
+                              x   =   3500
+                              y   =   4500
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 ForEachStringCOROUTINE   =   {
+                                    viewData   =   {
+                                       x   =   3228.376
+                                       y   =   4450
+                                    }
+                                    OnFinish   =   [
+                                       "../../../BlueprintLibraryFunction_2_1/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                                    ]
+                                    OnIteration   =   [
+                                       "InstallGearbox/Start"
+                                    ]
+                                    GetString   =   [
+                                       "InstallGearbox/gearboxNameRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeForEachStringCoroutine"
+                                 }
+                                 GetCurrentTruck   =   {
+                                    viewData   =   {
+                                       x   =   2750
+                                       y   =   4550
+                                    }
+                                    GetCurrentTruck   =   [
+                                       "GetAllTruckGearboxesNames/truckRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetCurrentTruck"
+                                 }
+                                 Delay_1_1   =   {
+                                    viewData   =   {
+                                       x   =   3600
+                                       y   =   4750
+                                    }
+                                    duration   =   {
+                                       __type   =   "FloatRefParam"
+                                    }
+                                    OnFinish   =   [
+                                       "ForEachStringCOROUTINE/ContinueIterate"
+                                    ]
+                                    __type   =   "BlueprintTimeLibraryDelay"
+                                 }
+                                 GetAllTruckGearboxesNames   =   {
+                                    viewData   =   {
+                                       x   =   2950
+                                       y   =   4550
+                                    }
+                                    GetTruckGearboxes   =   [
+                                       "ForEachStringCOROUTINE/arrayString/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetAllTruckGearboxes"
+                                 }
+                                 InstallGearbox   =   {
+                                    viewData   =   {
+                                       x   =   3500
+                                       y   =   4500
+                                    }
+                                    OnFinished   =   [
+                                       "Delay_1_1/Start"
+                                    ]
+                                    ignoreTaskFail   =   True
+                                    delayBeforeSuccess   =   0
+                                    __type   =   "BlueprintNodeAutotestTaskInstallGearbox"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                              "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                              "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                           ]
+                           __type   =   "BlueprintLibraryFunction"
+                        }
+                        BlueprintLibraryFunction_2_1   =   {
+                           captionVar   =   "InstallAllSuspensions"
+                           viewData   =   {
+                              x   =   3750
+                              y   =   4550
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 ForEachStringCOROUTINE   =   {
+                                    viewData   =   {
+                                       x   =   3228.376
+                                       y   =   4450
+                                    }
+                                    OnFinish   =   [
+                                       "../../../BlueprintLibraryFunction_2_1_1/logic/nodes/InstallTires/Start"
+                                    ]
+                                    OnIteration   =   [
+                                       "InstallSuspension/Start"
+                                    ]
+                                    GetString   =   [
+                                       "InstallSuspension/suspensionNameRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeForEachStringCoroutine"
+                                 }
+                                 GetCurrentTruck   =   {
+                                    viewData   =   {
+                                       x   =   2750
+                                       y   =   4550
+                                    }
+                                    GetCurrentTruck   =   [
+                                       "GetAllTruckSuspensionsNames/truckRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetCurrentTruck"
+                                 }
+                                 Delay_1_1   =   {
+                                    viewData   =   {
+                                       x   =   3600
+                                       y   =   4750
+                                    }
+                                    duration   =   {
+                                       __type   =   "FloatRefParam"
+                                    }
+                                    OnFinish   =   [
+                                       "ForEachStringCOROUTINE/ContinueIterate"
+                                    ]
+                                    __type   =   "BlueprintTimeLibraryDelay"
+                                 }
+                                 GetAllTruckSuspensionsNames   =   {
+                                    viewData   =   {
+                                       x   =   2950
+                                       y   =   4550
+                                    }
+                                    GetTruckSuspensions   =   [
+                                       "ForEachStringCOROUTINE/arrayString/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetAllTruckSuspension"
+                                 }
+                                 InstallSuspension   =   {
+                                    viewData   =   {
+                                       x   =   3500
+                                       y   =   4500
+                                    }
+                                    OnFinished   =   [
+                                       "Delay_1_1/Start"
+                                    ]
+                                    ignoreTaskFail   =   True
+                                    delayBeforeSuccess   =   0
+                                    __type   =   "BlueprintNodeAutotestTaskInstallSuspension"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                              "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                              "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                           ]
+                           __type   =   "BlueprintLibraryFunction"
+                        }
+                        BlueprintLibraryFunction_2_1_1   =   {
+                           captionVar   =   "InstallAllTires"
+                           viewData   =   {
+                              x   =   4000
+                              y   =   4600
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 GetCurrentTruck   =   {
+                                    viewData   =   {
+                                       x   =   3198.75
+                                       y   =   4551.25
+                                    }
+                                    GetCurrentTruck   =   [
+                                       "InstallTires/truckRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetCurrentTruck"
+                                 }
+                                 Delay_1_1   =   {
+                                    viewData   =   {
+                                       x   =   3600
+                                       y   =   4750
+                                    }
+                                    duration   =   {
+                                       __type   =   "FloatRefParam"
+                                    }
+                                    OnFinish   =   [
+                                       "InstallTires/ContinueIterate"
+                                    ]
+                                    __type   =   "BlueprintTimeLibraryDelay"
+                                 }
+                                 InstallTires   =   {
+                                    viewData   =   {
+                                       x   =   3491.474
+                                       y   =   4509.055
+                                    }
+                                    OnFinished   =   [
+                                       "../../../BlueprintLibraryFunction_1_1/logic/nodes/CurrentTruckTeleport/Teleport"
+                                    ]
+                                    ignoreTaskFail   =   True
+                                    delayBeforeSuccess   =   0
+                                    AfterIteration   =   [
+                                       "Delay_1_1/Start"
+                                    ]
+                                    truckRef   =   {
+                                       __type   =   "TruckRef"
+                                    }
+                                    __type   =   "BlueprintNodeAutotestTaskInstallTire"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)",
+                              "logic/nodes/InstallTires;OnFinished",
+                              "logic/nodes/InstallTires;Start"
+                           ]
+                           __type   =   "BlueprintLibraryFunction"
+                        }
+                        BlueprintLibraryFunction_3   =   {
+                           captionVar   =   "InstallAllAddons"
+                           viewData   =   {
+                              x   =   3000
+                              y   =   4400
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 ForEachStringCOROUTINE   =   {
+                                    viewData   =   {
+                                       x   =   3228.376
+                                       y   =   4450
+                                    }
+                                    OnFinish   =   [
+                                       "../../../BlueprintLibraryFunction/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                                    ]
+                                    OnIteration   =   [
+                                       "InstallAddon/Start"
+                                    ]
+                                    GetString   =   [
+                                       "InstallAddon/addonNameRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeForEachStringCoroutine"
+                                 }
+                                 GetCurrentTruck   =   {
+                                    viewData   =   {
+                                       x   =   2750
+                                       y   =   4550
+                                    }
+                                    GetCurrentTruck   =   [
+                                       "GetAllTruckAddonNames/truckRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetCurrentTruck"
+                                 }
+                                 Delay_1_1   =   {
+                                    viewData   =   {
+                                       x   =   3600
+                                       y   =   4750
+                                    }
+                                    duration   =   {
+                                       __type   =   "FloatRefParam"
+                                    }
+                                    OnFinish   =   [
+                                       "ForEachStringCOROUTINE/ContinueIterate"
+                                    ]
+                                    __type   =   "BlueprintTimeLibraryDelay"
+                                 }
+                                 GetAllTruckAddonNames   =   {
+                                    viewData   =   {
+                                       x   =   2950
+                                       y   =   4550
+                                    }
+                                    GetTruckAddons   =   [
+                                       "ForEachStringCOROUTINE/arrayString/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetAllTruckAddons"
+                                 }
+                                 InstallAddon   =   {
+                                    viewData   =   {
+                                       x   =   3500
+                                       y   =   4500
+                                    }
+                                    OnFinished   =   [
+                                       "Delay_1_1/Start"
+                                    ]
+                                    ignoreTaskFail   =   True
+                                    delayBeforeSuccess   =   0
+                                    __type   =   "BlueprintNodeAutotestTaskInstallAddon"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                              "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                              "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                           ]
+                           __type   =   "BlueprintLibraryFunction"
+                        }
+                        GetBPFloat   =   {
+                           viewData   =   {
+                              x   =   2850
+                              y   =   4650
+                           }
+                           name   =   "waitTime"
+                           GetFloat   =   [
+                              "BlueprintLibraryFunction_3/logic/nodes/Delay_1_1/duration/cb",
+                              "BlueprintLibraryFunction/logic/nodes/Delay_1_1/duration/cb",
+                              "BlueprintLibraryFunction_2/logic/nodes/Delay_1_1/duration/cb",
+                              "BlueprintLibraryFunction_2_1/logic/nodes/Delay_1_1/duration/cb",
+                              "BlueprintLibraryFunction_2_1_1/logic/nodes/Delay_1_1/duration/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpFloat"
+                        }
+                        Pipe_1   =   {
+                           viewData   =   {
+                              x   =   1824
+                              y   =   4092
+                           }
+                           Output   =   [
+                              "String/SetValue"
+                           ]
+                           __type   =   "BlueprintLibraryPipe"
+                        }
+                        GarageSlotMenuGoShop   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4100
+                           }
+                           OnSuccess   =   [
+                              "GarageShopBuyTruckConsole/Start"
+                           ]
+                           delayBeforeSuccess   =   100
+                           __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoShop"
+                        }
+                        GarageShopGoSlotMenu   =   {
+                           viewData   =   {
+                              x   =   3700
+                              y   =   4100
+                           }
+                           OnSuccess   =   [
+                              "GarageSlotMenuGoWarehouse/Start"
+                           ]
+                           delayBeforeSuccess   =   100
+                           __type   =   "BlueprintNodeAutotestTaskGarageShopGoSlotMenu"
+                        }
+                        AddMoney   =   {
+                           viewData   =   {
+                              x   =   2781
+                              y   =   4100
+                           }
+                           OnExit   =   [
+                              "GarageSlotMenuGoShop/Start"
+                           ]
+                           moneyRef   =   {
+                              def   =   9999999
+                              __type   =   "IntRefParam"
+                           }
+                           __type   =   "BlueprintNodePlayerAddMoney"
+                        }
+                        AddExperience   =   {
+                           viewData   =   {
+                              x   =   2605.564
+                              y   =   4099.113
+                           }
+                           OnExit   =   [
+                              "AddMoney/AddMoney"
+                           ]
+                           experienceRef   =   {
+                              def   =   9999999
+                              __type   =   "IntRefParam"
+                           }
+                           __type   =   "BlueprintNodePlayerAddExperience"
+                        }
+                        UnlockTruck   =   {
+                           viewData   =   {
+                              x   =   2417.564
+                              y   =   4098.113
+                           }
+                           OnExit   =   [
+                              "AddExperience/AddExperience"
+                           ]
+                           __type   =   "BlueprintNodePlayerUnlockTruck"
+                        }
+                        GarageShopBuyTruckConsole   =   {
+                           viewData   =   {
+                              x   =   3286.862
+                              y   =   4080.598
+                           }
+                           OnSuccess   =   [
+                              "GarageShopGoSlotMenu/Start"
+                           ]
+                           __type   =   "BlueprintNodeAutotestTaskGarageShopBuyTruckConsole"
+                        }
+                        String   =   {
+                           viewData   =   {
+                              x   =   1952.262
+                              y   =   4288.211
+                           }
+                           OnExit   =   [
+                              "AutotestLog/Log"
+                           ]
+                           GetValue   =   [
+                              "UnlockTruck/truckNameRef/cb",
+                              "GarageShopBuyTruckConsole/truckNameRef/cb",
+                              "GarageWarehouseSelectTruck/truckNameRef/cb",
+                              "ConcatenateStrings/inputStringB/cb"
+                           ]
+                           __type   =   "BlueprintNodeStringVar"
+                        }
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2187.218
+                              y   =   4097.306
+                           }
+                           OnExit   =   [
+                              "UnlockTruck/UnlockTruck"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        ConcatenateStrings   =   {
+                           viewData   =   {
+                              x   =   2021.218
+                              y   =   4502.306
+                           }
+                           inputStringA   =   {
+                              def   =   "Start test truck "
+                              __type   =   "StringRefParam"
+                           }
+                           GetString   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/Pipe;Output;Success;Output",
+                     "logic/nodes/Pipe_1;Input",
+                     "logic/nodes/String;string"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               ForEachStringCOROUTINE_1   =   {
+                  viewData   =   {
+                     x   =   2650
+                     y   =   3800
+                  }
+                  OnFinish   =   [
+                     "Pipe/Input"
+                  ]
+                  OnIteration   =   [
+                     "BlueprintLibraryFunction/logic/nodes/SetBPFloat_2/Set"
+                  ]
+                  GetString   =   [
+                     "BlueprintLibraryFunction_1/logic/nodes/String/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               GetAllTrucksNames   =   {
+                  viewData   =   {
+                     x   =   2450
+                     y   =   3927.474
+                  }
+                  GetTruckInfo   =   [
+                     "ForEachStringCOROUTINE_1/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllTrucksName"
+               }
+               BlueprintLibraryFunction   =   {
+                  captionVar   =   "IfWeCheckEnoughtAmountOfTrucks"
+                  viewData   =   {
+                     x   =   2980.772
+                     y   =   3900.886
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        GetBPFloat   =   {
+                           viewData   =   {
+                              x   =   2850
+                              y   =   3950
+                           }
+                           name   =   "truckAmount"
+                           GetFloat   =   [
+                              "FloatSubtract/aFloat/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpFloat"
+                        }
+                        SetBPFloat_2   =   {
+                           viewData   =   {
+                              x   =   3245.877
+                              y   =   3900
+                           }
+                           float   =   {
+                              __type   =   "FloatRefParam"
+                           }
+                           name   =   "truckAmount"
+                           OnExit   =   [
+                              "If/Input"
+                           ]
+                           __type   =   "BlueprintNodeSetBpFloat"
+                        }
+                        FloatSubtract   =   {
+                           viewData   =   {
+                              x   =   3050
+                              y   =   3942.106
+                           }
+                           bFloat   =   {
+                              def   =   1
+                              __type   =   "FloatRefParam"
+                           }
+                           Float   =   [
+                              "SetBPFloat_2/float/cb"
+                           ]
+                           __type   =   "BlueprintMathLibraryFloatsubstract"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   3500
+                              y   =   3900
+                           }
+                           OnTrue   =   [
+                              "../../../Pipe/Input"
+                           ]
+                           OnFalse   =   [
+                              "../../../BlueprintLibraryFunction_1/logic/nodes/Pipe_1/Input"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                        GetBPFloat_1   =   {
+                           viewData   =   {
+                              x   =   3045.877
+                              y   =   4060.106
+                           }
+                           name   =   "truckAmount"
+                           GetFloat   =   [
+                              "FloatCompare/aFloat/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpFloat"
+                        }
+                        FloatCompare   =   {
+                           viewData   =   {
+                              x   =   3296.877
+                              y   =   4055.106
+                           }
+                           BBigger   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintMathLibraryFloatcompare"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/SetBPFloat_2;Set",
+                     "logic/nodes/If;OnTrue",
+                     "logic/nodes/If;OnFalse"
+                  ]
+               }
+               Pipe   =   {
+                  viewData   =   {
+                     x   =   3208.35
+                     y   =   3796.977
+                  }
+                  Output   =   [
+                     "../../../BlueprintLibraryFunction_4_1/logic/nodes/ExecuteDbgVarTrigger_3/Execute"
+                  ]
+                  __type   =   "BlueprintLibraryPipe"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/ForEachStringCOROUTINE_1;StartIterate",
+            "logic/nodes/Pipe;Output"
+         ]
+      }
+      BlueprintLibraryFunction_2   =   {
+         captionVar   =   "ChooseHeavyTruckAndGoOut"
+         viewData   =   {
+            x   =   2800
+            y   =   3800
+         }
+         logic   =   {
+            nodes   =   {
+               GarageSlotMenuGoWarehouse   =   {
+                  viewData   =   {
+                     x   =   2300
+                     y   =   4000
+                  }
+                  OnSuccess   =   [
+                     "GarageWarehouseSelectTruck/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoWarehouse"
+               }
+               GarageWarehouseSelectTruck   =   {
+                  viewData   =   {
+                     x   =   2600
+                     y   =   4000
+                  }
+                  OnSuccess   =   [
+                     "GarageWarehouseGoSlotMenu/Start"
+                  ]
+                  truckNameRef   =   {
+                     def   =   "ws_6900xd_twin"
+                     __type   =   "StringRefParam"
+                  }
+                  __type   =   "BlueprintNodeAutotestTaskGarageWarehouseSelectTruck"
+               }
+               GarageWarehouseGoSlotMenu   =   {
+                  viewData   =   {
+                     x   =   3000
+                     y   =   4000
+                  }
+                  OnSuccess   =   [
+                     "GarageSlotMenuGoOut/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskGarageWarehouseGoSlotMenu"
+               }
+               GarageSlotMenuGoOut   =   {
+                  viewData   =   {
+                     x   =   3350
+                     y   =   4002.997
+                  }
+                  OnSuccess   =   [
+                     "../../../Delay_1/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoOut"
+               }
+               Pipe   =   {
+                  viewData   =   {
+                     x   =   2178.75
+                     y   =   3752.5
+                  }
+                  Output   =   [
+                     "SetBPString/Set"
+                  ]
+                  __type   =   "BlueprintLibraryPipe"
+               }
+               GarageSlotMenuGoShop   =   {
+                  viewData   =   {
+                     x   =   2300
+                     y   =   3900
+                  }
+                  OnSuccess   =   [
+                     "GarageShopBuyTruck/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoShop"
+               }
+               GarageShopBuyTruck   =   {
+                  viewData   =   {
+                     x   =   2600
+                     y   =   3900
+                  }
+                  OnSuccess   =   [
+                     "GarageShopGoSlotMenu/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskGarageShopBuyTruck"
+               }
+               GarageShopGoSlotMenu   =   {
+                  viewData   =   {
+                     x   =   3000
+                     y   =   3900
+                  }
+                  OnSuccess   =   [
+                     "GarageSlotMenuGoWarehouse/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskGarageShopGoSlotMenu"
+               }
+               AddMoney   =   {
+                  viewData   =   {
+                     x   =   2589.5
+                     y   =   3787.75
+                  }
+                  OnExit   =   [
+                     "UnlockTruck/UnlockTruck"
+                  ]
+                  moneyRef   =   {
+                     def   =   999999
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodePlayerAddMoney"
+               }
+               SetBPString   =   {
+                  viewData   =   {
+                     x   =   2300
+                     y   =   3800
+                  }
+                  string   =   {
+                     def   =   "ws_6900xd_twin"
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "truck"
+                  OnExit   =   [
+                     "AddMoney/AddMoney"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetBPString   =   {
+                  viewData   =   {
+                     x   =   2204.899
+                     y   =   4124.356
+                  }
+                  name   =   "truck"
+                  GetString   =   [
+                     "GarageShopBuyTruck/truckNameRef/cb",
+                     "GarageWarehouseSelectTruck/truckNameRef/cb",
+                     "UnlockTruck/truckNameRef/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               AddExperience   =   {
+                  viewData   =   {
+                     x   =   2963.707
+                     y   =   3799.285
+                  }
+                  OnExit   =   [
+                     "GarageSlotMenuGoShop/Start"
+                  ]
+                  experienceRef   =   {
+                     def   =   9999999
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodePlayerAddExperience"
+               }
+               UnlockTruck   =   {
+                  viewData   =   {
+                     x   =   2775.707
+                     y   =   3798.285
+                  }
+                  OnExit   =   [
+                     "AddExperience/AddExperience"
+                  ]
+                  __type   =   "BlueprintNodePlayerUnlockTruck"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/GarageSlotMenuGoOut;OnSuccess",
+            "logic/nodes/Pipe;Input",
+            "logic/nodes/SetBPString;string;Truck;string"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      Delay_1   =   {
+         viewData   =   {
+            x   =   3126.284
+            y   =   3800
+         }
+         duration   =   {
+            __type   =   "FloatRefParam"
+         }
+         OnFinish   =   [
+            "BlueprintLibraryFunction_1/logic/nodes/AutotestLog_1/Log"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      Delay_1_2   =   {
+         viewData   =   {
+            x   =   3604.225
+            y   =   3802.316
+         }
+         duration   =   {
+            __type   =   "FloatRefParam"
+         }
+         OnFinish   =   [
+            "BlueprintLibraryFunction_3/logic/nodes/AutotestLog_1/Log"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      BlueprintLibraryFunction_1   =   {
+         captionVar   =   "InstallAllCargoes"
+         viewData   =   {
+            x   =   3300
+            y   =   3800
+         }
+         logic   =   {
+            nodes   =   {
+               ForEachStringCOROUTINE   =   {
+                  viewData   =   {
+                     x   =   3336.733
+                     y   =   3800
+                  }
+                  OnFinish   =   [
+                     "../../../BlueprintLibraryFunction_4_2/logic/nodes/ExecuteDbgVarTrigger_3/Execute"
+                  ]
+                  OnIteration   =   [
+                     "AutotestLog/Log"
+                  ]
+                  GetString   =   [
+                     "CurrentTruckInstallCargo/addonNameRef/cb",
+                     "Append/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               GetAllCargoesNames   =   {
+                  viewData   =   {
+                     x   =   3110.178
+                     y   =   3916.549
+                  }
+                  GetTruckInfo   =   [
+                     "ForEachStringCOROUTINE/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllCargoesName"
+               }
+               CurrentTruckInstallCargo   =   {
+                  viewData   =   {
+                     x   =   3910.178
+                     y   =   3966.549
+                  }
+                  OnExit   =   [
+                     "Delay_1_1/Start"
+                  ]
+                  __type   =   "BlueprintNodeCurrentTruckInstallCargo"
+               }
+               Delay_1_1   =   {
+                  viewData   =   {
+                     x   =   4160.177
+                     y   =   3966.549
+                  }
+                  OnFinish   =   [
+                     "CurrentTruckUninstallAllCargo/Uninstall"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               CurrentTruckUninstallAllCargo   =   {
+                  viewData   =   {
+                     x   =   4310.177
+                     y   =   3966.549
+                  }
+                  OnExit   =   [
+                     "ForEachStringCOROUTINE/ContinueIterate"
+                  ]
+                  __type   =   "BlueprintNodeCurrentTruckUninstallAllCargo"
+               }
+               AutotestLog   =   {
+                  viewData   =   {
+                     x   =   3760.178
+                     y   =   3966.549
+                  }
+                  OnExit   =   [
+                     "CurrentTruckInstallCargo/Install"
+                  ]
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               Append   =   {
+                  viewData   =   {
+                     x   =   3510.178
+                     y   =   4066.549
+                  }
+                  inputStringA   =   {
+                     def   =   "Started task Instal Cargo "
+                     __type   =   "StringRefParam"
+                  }
+                  Append   =   [
+                     "AutotestLog/logRef/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryAppend"
+               }
+               AutotestLog_1   =   {
+                  viewData   =   {
+                     x   =   3050
+                     y   =   3800
+                  }
+                  OnExit   =   [
+                     "ForEachStringCOROUTINE/StartIterate"
+                  ]
+                  logRef   =   {
+                     def   =   "INSTALL ALL CARGOES"
+                     __type   =   "StringRefParam"
+                  }
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/AutotestLog_1;Log",
+            "logic/nodes/ForEachStringCOROUTINE;OnFinish"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      Delay_1_2_1   =   {
+         viewData   =   {
+            x   =   4004.225
+            y   =   3802.316
+         }
+         duration   =   {
+            __type   =   "FloatRefParam"
+         }
+         OnFinish   =   [
+            "AutotestSuccess/Success"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      BlueprintLibraryFunction_3   =   {
+         captionVar   =   "LoadAllLevels"
+         viewData   =   {
+            x   =   3804.225
+            y   =   3802.316
+         }
+         logic   =   {
+            nodes   =   {
+               AutotestLog_1   =   {
+                  viewData   =   {
+                     x   =   3733.092
+                     y   =   3898.189
+                  }
+                  OnExit   =   [
+                     "ForEachStringCOROUTINE_1_1/StartIterate"
+                  ]
+                  logRef   =   {
+                     def   =   "LOAD ALL LEVELS"
+                     __type   =   "StringRefParam"
+                  }
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               BlueprintLibraryFunction_1_1   =   {
+                  captionVar   =   "LogRegion"
+                  viewData   =   {
+                     x   =   3769.691
+                     y   =   4096.779
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2500
+                              y   =   4350
+                           }
+                           OnExit   =   [
+                              "../../../ForEachStringCOROUTINE_1/StartIterate"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2250
+                              y   =   4400
+                           }
+                           inputStringA   =   {
+                              def   =   "Check Region "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               GetAllRegions   =   {
+                  viewData   =   {
+                     x   =   3719.691
+                     y   =   3979.152
+                  }
+                  GetAllRegions   =   [
+                     "ForEachStringCOROUTINE_1_1/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllRegions"
+               }
+               ForEachStringCOROUTINE_1_1   =   {
+                  viewData   =   {
+                     x   =   3969.691
+                     y   =   3896.779
+                  }
+                  OnFinish   =   [
+                     "../../../Delay_1_2_1/Start"
+                  ]
+                  OnIteration   =   [
+                     "BlueprintLibraryFunction_1_1/logic/nodes/AutotestLog/Log"
+                  ]
+                  GetString   =   [
+                     "GetAllLevels/regionRef/cb",
+                     "BlueprintLibraryFunction_1_1/logic/nodes/Append/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               BlueprintLibraryFunction_3   =   {
+                  captionVar   =   "LogLoadLevel"
+                  viewData   =   {
+                     x   =   4150
+                     y   =   4203.779
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        AutotestLog   =   {
+                           viewData   =   {
+                              x   =   2450
+                              y   =   4300
+                           }
+                           OnExit   =   [
+                              "../../../LoadLevelMudRunner_1/Load"
+                           ]
+                           __type   =   "BlueprintNodeAutotestLog"
+                        }
+                        Append   =   {
+                           viewData   =   {
+                              x   =   2200
+                              y   =   4450
+                           }
+                           inputStringA   =   {
+                              def   =   "Load Level "
+                              __type   =   "StringRefParam"
+                           }
+                           Append   =   [
+                              "AutotestLog/logRef/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryAppend"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/AutotestLog;Log",
+                     "logic/nodes/Append;inputStringB",
+                     "logic/nodes/AutotestLog;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               LoadLevelMudRunner_1   =   {
+                  viewData   =   {
+                     x   =   4350
+                     y   =   4200
+                  }
+                  OnExit   =   [
+                     "Delay/Start"
+                  ]
+                  __type   =   "BlueprintNodeMrLoadLevel"
+               }
+               ForEachStringCOROUTINE_1   =   {
+                  viewData   =   {
+                     x   =   3969.691
+                     y   =   4096.779
+                  }
+                  OnFinish   =   [
+                     "ForEachStringCOROUTINE_1_1/ContinueIterate"
+                  ]
+                  OnIteration   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/AutotestLog/Log"
+                  ]
+                  GetString   =   [
+                     "LoadLevelMudRunner_1/level/cb",
+                     "BlueprintLibraryFunction_3/logic/nodes/Append/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachStringCoroutine"
+               }
+               GetAllLevels   =   {
+                  viewData   =   {
+                     x   =   3619.691
+                     y   =   4196.779
+                  }
+                  regionRef   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  GetAllLevels   =   [
+                     "ForEachStringCOROUTINE_1/arrayString/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetAllLevels"
+               }
+               Delay   =   {
+                  viewData   =   {
+                     x   =   4592.42
+                     y   =   4200
+                  }
+                  duration   =   {
+                     def   =   5
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "BlueprintLibraryFunction_4_2/logic/nodes/ExecuteDbgVarTrigger_3/Execute"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               BlueprintLibraryFunction_4_2   =   {
+                  captionVar   =   "DumpMemory"
+                  viewData   =   {
+                     x   =   4808.704
+                     y   =   4204.016
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        ExecuteDbgVarTrigger   =   {
+                           viewData   =   {
+                              x   =   2604.332
+                              y   =   3650.957
+                           }
+                           OnExit   =   [
+                              "../../../ForEachStringCOROUTINE_1/ContinueIterate"
+                           ]
+                           name   =   "memory/dump/Memory stats"
+                           __type   =   "BlueprintExecuteDbgvarTrigger"
+                        }
+                        ExecuteDbgVarTrigger_2   =   {
+                           viewData   =   {
+                              x   =   2607.523
+                              y   =   3564.888
+                           }
+                           OnExit   =   [
+                              "ExecuteDbgVarTrigger/Execute"
+                           ]
+                           name   =   "statistics/textures/dump to file"
+                           __type   =   "BlueprintExecuteDbgvarTrigger"
+                        }
+                        ExecuteDbgVarTrigger_3   =   {
+                           viewData   =   {
+                              x   =   2608.681
+                              y   =   3479.192
+                           }
+                           OnExit   =   [
+                              "ExecuteDbgVarTrigger_2/Execute"
+                           ]
+                           name   =   "statistics/memory/dump vertex buffers stats"
+                           __type   =   "BlueprintExecuteDbgvarTrigger"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/ExecuteDbgVarTrigger_3;Execute",
+                     "logic/nodes/ExecuteDbgVarTrigger;OnExit"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/AutotestLog_1;Log",
+            "logic/nodes/ForEachStringCOROUTINE_1_1;OnFinish"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      Delay_2   =   {
+         viewData   =   {
+            x   =   2228.437
+            y   =   3635.079
+         }
+         duration   =   {
+            def   =   5
+            __type   =   "FloatRefParam"
+         }
+         OnFinish   =   [
+            "UnlockAllContent/Unlock"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      CheckUserProfileLoad   =   {
+         viewData   =   {
+            x   =   1603.437
+            y   =   3635.079
+         }
+         OnSuccess   =   [
+            "MainMenuPressNewGame/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskCheckUserProfileLoad"
+      }
+      UnlockAllContent   =   {
+         viewData   =   {
+            x   =   2400
+            y   =   3650
+         }
+         OnExit   =   [
+            "BlueprintLibraryFunction_4/logic/nodes/ExecuteDbgVarTrigger_3/Execute"
+         ]
+         __type   =   "BlueprintNodePlayerUnlockAllContent"
+      }
+      BlueprintLibraryFunction_4   =   {
+         captionVar   =   "DumpMemory"
+         viewData   =   {
+            x   =   2633.48
+            y   =   3643.76
+         }
+         logic   =   {
+            nodes   =   {
+               ExecuteDbgVarTrigger   =   {
+                  viewData   =   {
+                     x   =   2604.332
+                     y   =   3650.957
+                  }
+                  OnExit   =   [
+                     "../../../InGameGoGarage/Start"
+                  ]
+                  name   =   "memory/dump/Memory stats"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+               ExecuteDbgVarTrigger_2   =   {
+                  viewData   =   {
+                     x   =   2607.523
+                     y   =   3564.888
+                  }
+                  OnExit   =   [
+                     "ExecuteDbgVarTrigger/Execute"
+                  ]
+                  name   =   "statistics/textures/dump to file"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+               ExecuteDbgVarTrigger_3   =   {
+                  viewData   =   {
+                     x   =   2608.681
+                     y   =   3479.192
+                  }
+                  OnExit   =   [
+                     "ExecuteDbgVarTrigger_2/Execute"
+                  ]
+                  name   =   "statistics/memory/dump vertex buffers stats"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/ExecuteDbgVarTrigger_3;Execute",
+            "logic/nodes/ExecuteDbgVarTrigger;OnExit"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      BlueprintLibraryFunction_4_1   =   {
+         captionVar   =   "DumpMemory"
+         viewData   =   {
+            x   =   2692.061
+            y   =   3929.677
+         }
+         logic   =   {
+            nodes   =   {
+               ExecuteDbgVarTrigger   =   {
+                  viewData   =   {
+                     x   =   2604.332
+                     y   =   3650.957
+                  }
+                  OnExit   =   [
+                     "../../../BlueprintLibraryFunction_2/logic/nodes/Pipe/Input"
+                  ]
+                  name   =   "memory/dump/Memory stats"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+               ExecuteDbgVarTrigger_2   =   {
+                  viewData   =   {
+                     x   =   2607.523
+                     y   =   3564.888
+                  }
+                  OnExit   =   [
+                     "ExecuteDbgVarTrigger/Execute"
+                  ]
+                  name   =   "statistics/textures/dump to file"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+               ExecuteDbgVarTrigger_3   =   {
+                  viewData   =   {
+                     x   =   2608.681
+                     y   =   3479.192
+                  }
+                  OnExit   =   [
+                     "ExecuteDbgVarTrigger_2/Execute"
+                  ]
+                  name   =   "statistics/memory/dump vertex buffers stats"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/ExecuteDbgVarTrigger_3;Execute",
+            "logic/nodes/ExecuteDbgVarTrigger;OnExit"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      BlueprintLibraryFunction_4_2   =   {
+         captionVar   =   "DumpMemory"
+         viewData   =   {
+            x   =   3458.695
+            y   =   3994.528
+         }
+         logic   =   {
+            nodes   =   {
+               ExecuteDbgVarTrigger   =   {
+                  viewData   =   {
+                     x   =   2604.332
+                     y   =   3650.957
+                  }
+                  OnExit   =   [
+                     "../../../Delay_1_2/Start"
+                  ]
+                  name   =   "memory/dump/Memory stats"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+               ExecuteDbgVarTrigger_2   =   {
+                  viewData   =   {
+                     x   =   2607.523
+                     y   =   3564.888
+                  }
+                  OnExit   =   [
+                     "ExecuteDbgVarTrigger/Execute"
+                  ]
+                  name   =   "statistics/textures/dump to file"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+               ExecuteDbgVarTrigger_3   =   {
+                  viewData   =   {
+                     x   =   2608.681
+                     y   =   3479.192
+                  }
+                  OnExit   =   [
+                     "ExecuteDbgVarTrigger_2/Execute"
+                  ]
+                  name   =   "statistics/memory/dump vertex buffers stats"
+                  __type   =   "BlueprintExecuteDbgvarTrigger"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/ExecuteDbgVarTrigger_3;Execute",
+            "logic/nodes/ExecuteDbgVarTrigger;OnExit"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      MainMenuPressNewGame   =   {
+         viewData   =   {
+            x   =   1919.164
+            y   =   3634.536
+         }
+         OnSuccess   =   [
+            "Delay_2/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskMainMenuPressNewGame"
+      }
+   }
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestBlueprint"

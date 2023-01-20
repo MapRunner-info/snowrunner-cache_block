@@ -1,0 +1,9 @@
+midAnim   =   "mid"
+endAnim   =   "end"
+marker   =   {
+   uiObject   =   {
+      __type   =   "UiMinimapMinimapgpspoint"
+   }
+   __type   =   "UiScreenMarker"
+}
+__type   =   "object"

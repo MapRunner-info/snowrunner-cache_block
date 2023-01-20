@@ -1,0 +1,5 @@
+manualLoagingIcon   =   "loadingMarker40"
+energyIcon   =   "generatorIconMarker40"
+livingAreaIcon   =   "craftLivingArea40"
+blockedGatewayIcon   =   "gatewayLockedImg"
+__type   =   "object"

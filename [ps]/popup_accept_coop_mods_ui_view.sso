@@ -1,0 +1,26 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         modsList   =   {
+            lir   =   {
+               __type   =   "PopupAcceptCoopModsLir"
+            }
+            scrollBar   =   {
+               __type   =   "UiCommonLibDefscrollbars"
+            }
+            __type   =   "UiPopupLibPopupmodsshortlist"
+         }
+         spinner   =   {
+            alpha   =   100
+            __type   =   "UiPopupLibModpopupspinner"
+         }
+         __type   =   "UiPopupLibModlistpopup"
+      }
+      __type   =   "UiPopupLibAnimmodlistpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+header   =   "UI_HUD_ACCEPT_COOP_MODS_HEADER"
+desc   =   "UI_HUD_ACCEPT_COOP_MODS_DESC,"
+totalSize   =   "UI_HUD_ACCEPT_COOP_MODS_TOTAL_SIZE"
+__type   =   "PopupViewBase"

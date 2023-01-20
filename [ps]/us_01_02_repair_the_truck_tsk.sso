@@ -1,0 +1,28 @@
+uiDesc   =   "US_01_02_REPAIR_THE_TRUCK_DESC"
+stages   =   [
+   {
+      repairTruck   =   [
+         {
+            truckId   =   "REP_TRUCK"
+            afterStageFinished   =   "DESTROY"
+            uiDesc   =   "US_01_02_REPAIR_THE_TRUCK_REPAIR"
+            truckDamageState   =   100
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_REPAIR_THE_TRUCK_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   180
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1900
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_REPAIR_THE_TRUCK_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

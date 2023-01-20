@@ -1,0 +1,12 @@
+navHint   =   {
+   desc   =   {
+      uiInputName   =   "pcAWD"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+inputScreen   =   {
+   name   =   "Truck.Awd"
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "HudHidableView"

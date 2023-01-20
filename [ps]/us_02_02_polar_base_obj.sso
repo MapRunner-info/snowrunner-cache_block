@@ -1,0 +1,49 @@
+uiDesc   =   "US_02_02_POLAR_BASE_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_02_POLAR_BASE_ACTION_2_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_POLAR_BASE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               sslModule   =   "game.missions.cargo_unloading_zone_settings"
+               uiDesc   =   "US_02_02_POLAR_BASE_ACTION_2_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_02_new || US_02_02_POLAR_BASE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrels"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerMap   =   "level_us_02_02_new"
+description   =   "US_02_02_POLAR_BASE_OBJ_REW"
+employer   =   "GREnterprise"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   260
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2150
+   }
+}
+__type   =   "ContractSettings"

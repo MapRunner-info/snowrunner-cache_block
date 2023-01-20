@@ -1,0 +1,7 @@
+btns   =   {
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

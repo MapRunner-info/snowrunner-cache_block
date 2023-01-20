@@ -1,0 +1,16 @@
+timeToShowSec   =   10
+pcInputs   =   "|MC_PC_space|,[MC_PC/W]"
+xboxInputs   =   "|MC_XB1_RB|,|MC_XB1_RT|"
+ps4Inputs   =   "|MC_PS4_R1|,|MC_PS4_R2|"
+nx64Inputs   =   "|MC_Switch_R|,|MC_Switch_ZR|"
+stadiaInputs   =   "|MC_Stadia_R1|,|MC_Stadia_R2|"
+handbrakeInput   =   {
+   inputLink   =   "Truck.Handbrake"
+   __type   =   "InputLinkActionMr"
+}
+truckMovementLink   =   {
+   inputLink   =   "Truck.truckMovement"
+   __type   =   "InputLinkVectorMr"
+}
+zoneIdToLeave   =   "US_01_01_START_TUTOR"
+__type   =   "TutorialStageRepeatable"

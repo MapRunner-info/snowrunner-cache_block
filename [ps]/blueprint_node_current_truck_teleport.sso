@@ -1,0 +1,4 @@
+transfrom3dRef   =   {
+   __type   =   "Transform3dRefParam"
+}
+__type   =   "BluePrintNode"

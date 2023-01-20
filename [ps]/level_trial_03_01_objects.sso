@@ -1,0 +1,108 @@
+trialsSettings   =   {
+   TRIAL_03_01_SCOUTING_CNT   =   {
+      uiDesc   =   "TRIALS_03_01_DELIVERY_CNT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "TRIALS_03_01_BUILD_A_BRIDGE_BRING_BRICK"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_03_01 || TRIAL_03_01_BRIDGE_END_1"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "TRIAL_03_01_BRIDGE_END_2"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_trial_03_01 || TRIAL_03_01_SPAREPARTS_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_trial_03_01 || TRIAL_03_01_SPAREPARTS_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_trial_03_01 || TRIAL_03_01_SPAREPARTS_03"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_trial_03_01 || TRIAL_03_01_SPAREPARTS_04"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoServiceSparePartsSpecial"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
+         }
+      ]
+      model   =   {
+         levelName   =   "level_trial_03_01"
+         modelTag   =   "bridge_road_broken_01_sn_objective_trial_1"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_complete   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "TRIALS_03_01_DELIVERY_CNT_REW"
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardItem   =   {
+                  itemName   =   "stuff_bobblehead_penguin"
+               }
+            }
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_03_01 || TRIAL_03_01_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

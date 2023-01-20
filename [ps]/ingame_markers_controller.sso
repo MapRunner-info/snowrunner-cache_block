@@ -1,0 +1,61 @@
+layersSettings   =   {
+   DEFAULT   =   {
+      cullingDistance   =   50
+      farMarkersSize   =   1
+      yOffset   =   0
+      __type   =   "LayerMarkersSettings"
+   }
+   INTERACTION_ZONES   =   {
+      isShowOutOfView   =   False
+      cullingDistance   =   50
+      farMarkersSize   =   1
+      isUpdating   =   True
+      yOffset   =   1.5
+      __type   =   "LayerMarkersSettings"
+   }
+   TRUCKS   =   {
+      isShowInView   =   True
+      cullingDistance   =   50
+      farMarkersSize   =   1
+      __type   =   "LayerMarkersSettings"
+   }
+   WAYPOINTS   =   {
+      isCullByDistance   =   False
+      cullingDistance   =   200
+      arrowAngleRushingSpeed   =   10
+      onScreenRotateRadius   =   1
+      farMarkersSize   =   1
+      isUpdating   =   True
+      yOffset   =   3
+      __type   =   "LayerMarkersSettings"
+   }
+   OBJECTIVES   =   {
+      isShowOutOfView   =   True
+      cullingDistance   =   600
+      arrowAngleRushingSpeed   =   10
+      onScreenRotateRadius   =   360
+      farMarkersSize   =   1
+      isUpdating   =   True
+      yOffset   =   1.5
+      __type   =   "LayerMarkersSettings"
+   }
+   DAMAGE_MARKERS   =   {
+      isShowOutOfView   =   True
+      isCullByDistance   =   False
+      isRotatingMarker   =   False
+      __type   =   "LayerMarkersSettings"
+   }
+   TRUCK_STATE_MARKERS   =   {
+      isShowOutOfView   =   False
+      isCullByDistance   =   False
+      visible   =   False
+      isRotatingMarker   =   False
+      nearMarkersSize   =   1.25
+      farMarkersSize   =   0.65
+      distNearMarkersSize   =   6
+      distFarMarkersSize   =   12
+      isUpdating   =   False
+      __type   =   "LayerMarkersSettings"
+   }
+}
+__type   =   "object"

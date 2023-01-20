@@ -1,0 +1,4 @@
+ambientVolumeMultNoDrive   =   1
+ambientVolumeMultDrive   =   1
+musicVolumeMultMuted   =   0.1
+__type   =   "object"

@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneCoopSettingStepperView"
+}
+header   =   "UI_COOP_SETTINGS_SESSION_PRIVACY"
+desc   =   "UI_COOP_SETTINGS_SESSION_PRIVACY_DESC"
+__type   =   "UiOneSettingStepperController"

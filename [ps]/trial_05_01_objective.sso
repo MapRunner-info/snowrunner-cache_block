@@ -1,0 +1,68 @@
+trialsSettings   =   {
+   TRIAL_05_01_TSK   =   {
+      uiDesc   =   "TRIAL_05_01_TSK_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "TRIAL_05_01_TRUCK_01"
+                  afterStageFinished   =   "DESTROY"
+                  mustDestroyAfterSubstage   =   True
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_trial_05_01 || TRIAL_05_01_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "TRIAL_05_01_STAGE_DESC"
+               },
+               {
+                  truckId   =   "TRIAL_05_01_TRUCK_02"
+                  afterStageFinished   =   "DESTROY"
+                  mustDestroyAfterSubstage   =   True
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_trial_05_01 || TRIAL_05_01_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "TRIAL_05_01_STAGE_DESC"
+               },
+               {
+                  truckId   =   "TRIAL_05_01_TRUCK_03"
+                  afterStageFinished   =   "DESTROY"
+                  mustDestroyAfterSubstage   =   True
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_trial_05_01 || TRIAL_05_01_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "TRIAL_05_01_STAGE_DESC"
+               },
+               {
+                  truckId   =   "TRIAL_05_01_TRUCK_04"
+                  afterStageFinished   =   "DESTROY"
+                  mustDestroyAfterSubstage   =   True
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_trial_05_01 || TRIAL_05_01_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "TRIAL_05_01_STAGE_DESC"
+               }
+            ]
+         }
+      ]
+      description   =   "TRIAL_05_01_REW_DESC"
+      isMarkersDisabled   =   True
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardTrialPartItem   =   {
+               }
+            }
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_05_01 || TRIAL_05_01_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

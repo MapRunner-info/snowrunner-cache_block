@@ -1,0 +1,9 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "UiHudLibAnimeventlog"
+   }
+   __type   =   "UiObjectDesc"
+}
+initialCapacity   =   3
+editorMaxCapacity   =   20
+__type   =   "EditorObjectDescPool"

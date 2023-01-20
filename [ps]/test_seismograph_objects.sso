@@ -1,0 +1,45 @@
+contractsSettings   =   {
+   TEST_SEISMOGRAPH_SEARCH_OBJ   =   {
+      uiDesc   =   "TEST_SEISMOGRAPH_SEARCH_DESC"
+      stages   =   [
+         {
+            makeActionInZone   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "TEST_SEISMOGRAPH_SEARCH_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_seismograph || TEST_SEISM_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TEST_SEISMOGRAPH_SEARCH_2_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_seismograph || TEST_SEISM_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TEST_SEISMOGRAPH_SEARCH_3_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_seismograph || TEST_SEISM_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "TEST_SEISMOGRAPH_SEARCH_4_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_seismograph || TEST_SEISM_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "TEST_SEISMOGRAPH_SEARCH_REW"
+      __type   =   "ContractSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

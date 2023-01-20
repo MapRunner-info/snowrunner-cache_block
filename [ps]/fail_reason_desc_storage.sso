@@ -1,0 +1,52 @@
+descs   =   {
+   CHANGE_TRUCK   =   {
+      uiName   =   "UI_CHANGE_TRUCK_FAIL_REASON"
+      uiDescBase   =   "UI_CHANGE_TRUCK_FAIL_DESC"
+      uiIcon60   =   "IconFailChange60"
+      uiIcon   =   "IconFailChange"
+      __type   =   "FailReasonDesc"
+   }
+   RECOVERY   =   {
+      uiName   =   "UI_RECOVERY_FAIL_REASON"
+      uiDescBase   =   "UI_RECOVERY_FAIL_DESC"
+      uiIcon60   =   "IconFailChange60"
+      uiIcon   =   "IconFailRecovery"
+      __type   =   "FailReasonDesc"
+   }
+   GARAGE   =   {
+      uiName   =   "UI_GARAGE_FAIL_REASON"
+      uiDescBase   =   "UI_GARAGE_FAIL_DESC"
+      uiIcon60   =   "IconFailChange60"
+      uiIcon   =   "IconFailGarage"
+      __type   =   "FailReasonDesc"
+   }
+   DAMAGE   =   {
+      uiName   =   "UI_DAMAGE_FAIL_REASON"
+      uiDescBase   =   "UI_DAMAGE_FAIL_DESC"
+      uiIcon60   =   "IconFailDmg60"
+      uiIcon   =   "IconFailDmg"
+      __type   =   "FailReasonDesc"
+   }
+   COCKPIT   =   {
+      uiName   =   "UI_COCKPIT_FAIL_REASON"
+      uiDescBase   =   "UI_COCKPIT_FAIL_DESC"
+      uiIcon60   =   "IconFailFpv60"
+      uiIcon   =   "IconFailFpv"
+      __type   =   "FailReasonDesc"
+   }
+   HOURS   =   {
+      uiName   =   "UI_TIME_FAIL_REASON"
+      uiDescBase   =   "UI_TIME_FAIL_DESC"
+      uiIcon60   =   "IconFailNight60"
+      uiIcon   =   "IconFailNight"
+      __type   =   "FailReasonDesc"
+   }
+   TIME   =   {
+      uiName   =   "UI_TIMER_FAIL_REASON"
+      uiDescBase   =   "UI_TIMER_FAIL_DESC"
+      uiIcon60   =   "contestImg60"
+      uiIcon   =   "contestImg20"
+      __type   =   "FailReasonDesc"
+   }
+}
+__type   =   "object"

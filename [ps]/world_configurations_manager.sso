@@ -1,0 +1,64 @@
+debugConfigs   =   {
+   test_repair_and_fuel   =   {
+      id   =   "test_repair_and_fuel"
+      zoneDescStorage   =   {
+         data   =   {
+            region_prototype   =   {
+               mapDescs   =   {
+                  ddddd   =   {
+                     __type   =   "MapWithZonesDesc"
+                  }
+               }
+               __type   =   "ZoneRegionDesc"
+            }
+         }
+         __type   =   "ZoneDescModPrototype1"
+      }
+      objSettings   =   {
+         contractsSettings   =   {
+            mod_contract_1   =   {
+               contractMap   =   "111"
+               __type   =   "ContractSettings"
+            }
+         }
+         __type   =   "ModeObjectiveSettingsPrototype1"
+      }
+      __type   =   "WorldConfiguration"
+   }
+}
+desc   =   {
+   type   =   {
+      data   =   {
+         fake_region   =   {
+            mapDescs   =   {
+               fake_level   =   {
+                  indexInRegion   =   0
+                  isVanilla   =   False
+                  __type   =   "MapWithZonesDesc"
+               }
+            }
+            __type   =   "ZoneRegionDesc"
+         }
+      }
+      regions   =   [
+         {
+            uiInfo   =   {
+               __type   =   "RegionUiDesc"
+            }
+            name   =   "fake_region"
+            country   =   "US"
+         }
+      ]
+      countries   =   {
+         US   =   {
+            __value   =   "UI_COUNTRY_USA"
+         }
+         RU   =   {
+            __value   =   "UI_COUNTRY_RUSSIA"
+         }
+      }
+      __type   =   "ZoneDescStorageContainerBase"
+   }
+   __type   =   "SslDesc"
+}
+__type   =   "object"

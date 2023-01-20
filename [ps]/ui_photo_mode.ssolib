@@ -1,0 +1,269 @@
+classes   =   {
+   AutoClassPhotosettingssliderTrackfillercontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   ""
+      sslClass   =   "UiPhotoModeAutoclassphotosettingsslidertrackfillercontainer"
+      trackFiller   =   {
+         symbol   =   ""
+         x   =   1
+         y   =   1
+         scaleX   =   100.2747
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Photomodeattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoModeAttachPoint"
+      sslClass   =   "UiPhotoModePhotomodeattachpoint"
+      __type   =   "UiContainer"
+   }
+   Photomodefade   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoModeFade"
+      sslClass   =   "UiPhotoModePhotomodefade"
+      __type   =   "UiContainer"
+   }
+   Photomodelist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "photoModeList"
+      __type   =   "UiScrollingList"
+   }
+   Photomodescreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoModeScreen"
+      sslClass   =   "UiPhotoModePhotomodescreen"
+      fade   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotomodefade"
+      }
+      list   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   54
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotomodelist"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotomodeattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   Photosettingsliderthumb   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "photoSettingSliderThumb"
+      __type   =   "UiButton"
+   }
+   Photosettingslidertrack   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "photoSettingSliderTrack"
+      __type   =   "UiButton"
+   }
+   Photosettingslir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "photoSettingsLir"
+      attach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingslirattach"
+      }
+      attach2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingslirattach"
+      }
+      bgMain   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingslirbg"
+      }
+      __type   =   "UiListItem"
+   }
+   Photosettingslirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Photosettingslirattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsLirAttach"
+      sslClass   =   "UiPhotoModePhotosettingslirattach"
+      __type   =   "UiContainer"
+   }
+   Photosettingslirbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsLirBg"
+      sslClass   =   "UiPhotoModePhotosettingslirbg"
+      __type   =   "UiContainer"
+   }
+   Photosettingslirhighlight   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsLirHighlight"
+      sslClass   =   "UiPhotoModePhotosettingslirhighlight"
+      __type   =   "UiContainer"
+   }
+   Photosettingslirslider   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsLirSlider"
+      sslClass   =   "UiPhotoModePhotosettingslirslider"
+      textCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingslirtextcontainer"
+      }
+      slider   =   {
+         symbol   =   ""
+         x   =   215
+         y   =   12.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingsslider"
+      }
+      __type   =   "UiContainer"
+   }
+   Photosettingslirstepper   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsLirStepper"
+      sslClass   =   "UiPhotoModePhotosettingslirstepper"
+      textCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingslirtextcontainer"
+      }
+      stepper   =   {
+         symbol   =   ""
+         x   =   214
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingsstepper"
+      }
+      __type   =   "UiContainer"
+   }
+   Photosettingslirtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsLirText"
+      sslClass   =   "UiPhotoModePhotosettingslirtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Photosettingslirtextcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsLirTextContainer"
+      sslClass   =   "UiPhotoModePhotosettingslirtextcontainer"
+      tfContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModePhotosettingslirtext"
+      }
+      __type   =   "UiContainer"
+   }
+   Photosettingsslider   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "photoSettingsSlider"
+      sliderTf   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   314
+         y   =   -10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   60
+         __type   =   "UiPhotoModePhotosettingsslidertf"
+      }
+      trackFillerContainer   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   1
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiPhotoModeAutoclassphotosettingsslidertrackfillercontainer"
+      }
+      __type   =   "UiSlider"
+   }
+   Photosettingsslidertf   =   {
+      sslModule   =   "ui.autogen_libs.ui_photo_mode"
+      symbol   =   "photoSettingsSliderTf"
+      sslClass   =   "UiPhotoModePhotosettingsslidertf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Photosettingsstepper   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "photoSettingsStepper"
+      prevBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   9.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiPhotoModePhotosettingsstepperarrow"
+      }
+      nextBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   380
+         y   =   9.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiPhotoModePhotosettingsstepperarrow"
+      }
+      __type   =   "UiOptionStepper"
+   }
+   Photosettingsstepperarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "photoSettingsStepperArrow"
+      __type   =   "UiButton"
+   }
+}
+__type   =   "ssl_object_lib"

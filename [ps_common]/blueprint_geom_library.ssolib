@@ -1,0 +1,313 @@
+classes   =   {
+   NodeCustomGeom   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   ShowGeom   =   {
+      __type   =   "BlueprintGeomLibraryNodecustomgeom"
+   }
+   HideGeom   =   {
+      __type   =   "BlueprintGeomLibraryNodecustomgeom"
+   }
+   ShowObjGeom   =   {
+      nameGeomObjLink   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryNodecustomgeom"
+   }
+   HideObjGeom   =   {
+      nameGeomObjLink   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryNodecustomgeom"
+   }
+   SetRotation   =   {
+      __type   =   "BlueprintGeomLibraryChangeactorgeombase"
+   }
+   SetObjectRotation   =   {
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+   Rotate   =   {
+      __type   =   "BlueprintGeomLibraryChangeactorgeombase"
+   }
+   RotateObject   =   {
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+   SetPosition   =   {
+      position   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryChangeactorgeombase"
+   }
+   SetObjectPosition   =   {
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+   Translate   =   {
+      shift   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryChangeactorgeombase"
+   }
+   TranslateObject   =   {
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+   ChangeActorGeomBase   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   ChangeActorObjectGeomBase   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      objNameLink   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   SetScale   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      objNameLink   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      scaleVec   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   SetObjectLookAt   =   {
+      isLocalTransform   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      position   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+   BlendTransforms   =   {
+      isLocalTransform   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      sourceObj1   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      sourceObj2   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      sourceObj3   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      weight1   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      weight2   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      weight3   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      sourceObj4   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      weight4   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      isUpdateRequired   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+   AddJiggleBehaviour   =   {
+      isLocalTransform   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      smoothSteps   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   3
+         __type   =   "IntRefParam"
+      }
+      length   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0.5
+         __type   =   "FloatRefParam"
+      }
+      yawMin   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      yawMax   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      yawFlexibility   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      pitchMin   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      pitchMax   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      pitchFlexibility   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      rollMin   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      rollMax   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      rollFlexibility   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+   IsHidden   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   SetFollowTracker   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      locator   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      iactorTracker   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   "<OWNER>"
+         __type   =   "ActorRefParam"
+      }
+      offsetVector   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      rotationVector   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   GetIactorTransform3d   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   BreakTransform3d   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   OnShow   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   OnHide   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   GetObjTransform   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      objectNameLink   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "GeomStringRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   NodeGeomCustomizerBase   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   OnGeomCustomizerUpdate   =   {
+      __type   =   "BlueprintGeomLibraryNodegeomcustomizerbase"
+   }
+   CheckGeomCustomizerActiveRegion   =   {
+      region   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   "none"
+         __type   =   "StringRefParam"
+      }
+      __type   =   "BlueprintGeomLibraryNodegeomcustomizerbase"
+   }
+   SetGeomCustomizerRegion   =   {
+      __type   =   "BlueprintGeomLibraryNodegeomcustomizerbase"
+   }
+   GeomCustomizerHideAll   =   {
+      __type   =   "BlueprintGeomLibraryNodegeomcustomizerbase"
+   }
+   GetActorLocation   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   GetScale   =   {
+      __type   =   "BlueprintGeomLibraryNodecustomgeom"
+   }
+   GetScale3D   =   {
+      __type   =   "BlueprintGeomLibraryNodecustomgeom"
+   }
+   IsShown   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   IsVisible   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   OnVisible   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   OnInvisible   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   RotateObjectPrecise   =   {
+      __type   =   "BlueprintGeomLibraryChangeactorobjectgeombase"
+   }
+}
+__type   =   "ssl_object_lib"

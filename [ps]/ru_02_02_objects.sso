@@ -1,0 +1,205 @@
+tasksSettings   =   {
+   RU_02_02_STUCK_TRUCK_02_TSK   =   {
+      __type   =   "Ru02_02StuckTruck02Tsk"
+   }
+   RU_02_02_STUCK_TRUCK_03_TSK   =   {
+      __type   =   "Ru02_02StuckTruck03Tsk"
+   }
+   RU_02_02_STUCK_TRUCK_TSK   =   {
+      __type   =   "Ru02_02StuckTruckTsk"
+   }
+   RU_02_02_STUCK_TRUCK_04_TSK   =   {
+      __type   =   "Ru02_02StuckTruck04Tsk"
+   }
+   RU_02_02_STUCK_TRUCK_05_TSK   =   {
+      __type   =   "Ru02_02StuckTruck05Tsk"
+   }
+   RU_02_02_LOST_CARGO_01_TSK   =   {
+      __type   =   "Ru02_02LostCargo01Tsk"
+   }
+   RU_02_02_LOST_CARGO_02_TSK   =   {
+      __type   =   "Ru02_02LostCargo02Tsk"
+   }
+   RU_02_02_LOST_CARGO_03_TSK   =   {
+      __type   =   "Ru02_02LostCargo03Tsk"
+   }
+   RU_02_02_DAMAGED_TRUCK_01_TSK   =   {
+      __type   =   "Ru02_02DamagedTruck01Tsk"
+   }
+   RU_02_02_DAMAGED_TRUCK_02_TSK   =   {
+      __type   =   "Ru02_02DamagedTruck02Tsk"
+   }
+   RU_02_02_DAMAGED_TRUCK_03_TSK   =   {
+      __type   =   "Ru02_02DamagedTruck03Tsk"
+   }
+   RU_02_02_DAMAGED_TRUCK_04_TSK   =   {
+      __type   =   "Ru02_02DamagedTruck04Tsk"
+   }
+   RU_02_02_LOST_CARGO_04_TSK   =   {
+      __type   =   "Ru02_02LostCargo04Tsk"
+   }
+   RU_02_02_LOST_CARGO_05_TSK   =   {
+      __type   =   "Ru02_02LostCargo05Tsk"
+   }
+}
+contractsSettings   =   {
+   RU_02_02_FARM_SUPPLY   =   {
+      __type   =   "Ru02_02FarmSupply"
+   }
+   RU_02_02_GORLAG_CLEANING   =   {
+      __type   =   "Ru02_02GorlagCleaning"
+   }
+   RU_02_02_HUB_RECOVERY   =   {
+      __type   =   "Ru02_02HubRecovery"
+   }
+   RU_02_02_HUB_RECOVERY_2   =   {
+      __type   =   "Ru02_02HubRecovery2"
+   }
+   RU_02_02_MAZUT_DELIVERY   =   {
+      __type   =   "Ru02_02MazutDelivery"
+   }
+   RU_02_02_RADAR_TOWER_RECOVERY   =   {
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_1_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_02 || RU_02_02_RADAR_TOWER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_1_2_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_02 || RU_02_02_RADAR_TOWER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_2_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_02 || RU_02_02_RADAR_TOWER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerSmall"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   "RU_02_02_RADAR_TOWER_RECOVERY_1_DESC"
+         }
+      ]
+      __type   =   "Ru02_02RadarTowerRecovery"
+   }
+   RU_02_02_RESEARCH   =   {
+      __type   =   "Ru02_02Research"
+   }
+   RU_02_02_WOODEN_PLANKS_DELIVERY   =   {
+      __type   =   "Ru02_02WoodenPlanksDelivery"
+   }
+   RU_02_02_LOG_FARM_SUPPLY_OBJ   =   {
+      uiDesc   =   "RU_02_02_LOG_FARM_SUPPLY_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_02_LOG_FARM_SUPPLY_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_02 || RU_02_02_FARM"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   6
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "RU_02_02_LOG_FARM_SUPPLY_REW"
+      recommendedTruck   =   "LOGS"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1470
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   16800
+         }
+      }
+      employer   =   "TransTaymir"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+   RU_02_02_LOG_LUMBERMILL_RESTOCK_OBJ   =   {
+      uiDesc   =   "RU_02_02_LOG_LUMBERMILL_RESTOCK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_02_LOG_LUMBERMILL_RESTOCK_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_02 || RU_02_02_LUMBER_MILL"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsLong"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "RU_02_02_LOG_LUMBERMILL_RESTOCK_REW"
+      recommendedTruck   =   "LOGS"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1170
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   10150
+         }
+      }
+      employer   =   "TransTaymir"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+}
+contestSettings   =   {
+   RU_02_02_BARRELS_DELIVERY_CNT   =   {
+      __type   =   "Ru02_02BarrelsDeliveryCnt"
+   }
+   RU_02_02_CONTAINER_DELIVERY_CNT   =   {
+      __type   =   "Ru02_02ContainerDeliveryCnt"
+   }
+   RU_02_02_FLAG_1_CNT   =   {
+      __type   =   "Ru02_02Flag1Cnt"
+   }
+   RU_02_02_FLAG_2_CNT   =   {
+      __type   =   "Ru02_02Flag2Cnt"
+   }
+}
+__type   =   "ObjectiveMapSettings"

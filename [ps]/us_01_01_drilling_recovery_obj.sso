@@ -1,0 +1,95 @@
+uiDesc   =   "US_01_01_DRILLING_RECOVERY_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_DRILLING_RECOVERY_METAL"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_DRILLING_SITE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   },
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_DRILLING_RECOVERY_CONT"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_DRILLING_SITE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBigDrill"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   },
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "DRILING_SPECIAL"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+               globalZoneId   =   "level_us_01_01 || US_01_01_DRILLING_SITE"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_01_DRILLING_RECOVERY_BRING_TRAILER"
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_01"
+   modelTag   =   "DRILL_01"
+   stagesProgress   =   {
+      build_stage_0   =   {
+      }
+      build_stage_1   =   {
+         __value   =   1
+      }
+      build_stage_2   =   {
+         __value   =   2
+      }
+      build_complete   =   {
+         __value   =   3
+      }
+   }
+   unloadBlockedZoneId   =   {
+      globalZoneId   =   "level_us_01_01 || US_01_01_DRILL_BUFFER_ZONE"
+      __type   =   "ZoneGlobalIdentificator"
+   }
+   __type   =   "ModelBuildingSettings"
+}
+blockerObjectives   =   [
+   "US_01_01_FACTORY_RECOVERY_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_01_DRILLING_RECOVERY_OBJ_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   740
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   7450
+   }
+}
+employer   =   "DysonDiesel"
+region   =   "us_01"
+__type   =   "ContractSettings"

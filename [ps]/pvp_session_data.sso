@@ -1,0 +1,15 @@
+matchTimer   =   {
+   timings   =   {
+      NORMAL   =   {
+         __value   =   45
+      }
+      JOIN_IN_PROGRESS   =   {
+         __value   =   30
+      }
+      FORCED   =   {
+         __value   =   60
+      }
+   }
+   __type   =   "MatchTimer"
+}
+__type   =   "SessionData"

@@ -1,0 +1,13 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   cancel   =   {
+      text   =   "UI_CLOSE"
+      __type   =   "NavButtonDesc"
+   }
+   ok   =   {
+      text   =   "UI_OK"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

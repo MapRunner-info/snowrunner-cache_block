@@ -1,0 +1,26 @@
+nearPlane   =   0
+fov   =   35
+inputLinkZoom   =   {
+   inputLink   =   "UI.ZoomCustsomizationCamera"
+   __type   =   "InputLinkVectorMr"
+}
+inputLinkRotate   =   {
+   inputLink   =   "UI.RotateCustomizationCamera"
+   __type   =   "InputLinkVectorMr"
+}
+wheelCameraRotationXInputLink   =   {
+   inputLink   =   "UI.WheelCameraRotationX"
+   __type   =   "InputLinkActionAxisMr"
+}
+wheelCameraRotationYInputLink   =   {
+   inputLink   =   "UI.WheelCameraRotationY"
+   __type   =   "InputLinkActionAxisMr"
+}
+wheelCameraZoomInputLink   =   {
+   inputLink   =   "UI.WheelMinimapMovementX"
+   __type   =   "InputLinkActionAxisMr"
+}
+screenShrinkCoef   =   -1.3
+maxVerticalRotation   =   30
+saveYOffset   =   0.2
+__type   =   "MrCameraBase"

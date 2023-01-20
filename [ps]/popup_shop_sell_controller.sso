@@ -1,0 +1,46 @@
+view   =   {
+   __type   =   "PopupShopSellView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         sell   =   {
+            uiInputName   =   "Sell"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupShopSellNavigationPanel"
+   }
+}
+id   =   "PURCHASE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "ShopPurchase"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Sell   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

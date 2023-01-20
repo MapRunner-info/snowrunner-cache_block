@@ -1,0 +1,37 @@
+view   =   {
+   __type   =   "PopupShopPurchaseWarningView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupShopPurchaseWarningNavigationPanel"
+   }
+}
+id   =   "PURCHASE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "ShopPurchaseWarning"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Up",
+      "Down",
+      "Return"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

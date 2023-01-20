@@ -1,0 +1,58 @@
+view   =   {
+   fadeWrapper   =   {
+      __type   =   "FadableUiContainerWrapper"
+   }
+   uiObjectDesc   =   {
+      type   =   {
+         sysMsgMulitlineText   =   {
+            isHtml   =   True
+            __type   =   "UiSystemMessageSysmessagemultilinetext"
+         }
+         sysMsgTitleText   =   {
+            tf   =   {
+               isHtml   =   True
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiSystemMessageSysmessagetitletext"
+         }
+         actionBtnAttach   =   {
+            __type   =   "UiSystemMessageSysmsgbtnattach"
+         }
+         __type   =   "UiSystemMessageSystemmessagecontainer"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   uiFocusScreen   =   {
+      __type   =   "UiFocusScreen"
+   }
+   __type   =   "SystemMessageUiView"
+}
+navPanels   =   {
+   SystemMessageCountdownNavigationPanel   =   {
+   }
+}
+state   =   {
+   __type   =   "CountdownMessageScreenState"
+}
+id   =   "SYSTEM_MESSAGE_REGION_CHANGE_COUNTDOWN"
+disableInputs   =   True
+title   =   "SYSTEM_MESSAGE_REGION_CHANGE_COUNTDOWN_HEADER"
+message   =   "SYSTEM_MESSAGE_REGION_CHANGE_COUNTDOWN_TITLE"
+cbOnAnimStop   =   False
+inputScreen   =   {
+   priority   =   "SYSTEM"
+   name   =   "Region change server"
+   inputsLinks   =   {
+      Decline   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkHoldMr"
+      }
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "SystemMessageBaseUiController"

@@ -1,0 +1,139 @@
+uiObjectDesc   =   {
+   type   =   {
+      fade   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiModsLibModbrowserfade"
+      }
+      browserHeader   =   {
+         inputContainer   =   {
+            clearBtn   =   {
+               focusable   =   False
+               __type   =   "UiModsLibModbrowserheaderclearinputbutton"
+            }
+            searchBtn   =   {
+               focusable   =   False
+               __type   =   "UiModsLibModbrowserheaderinputbutton"
+            }
+            __type   =   "UiModsLibModbrowserheaderinputcontainer"
+         }
+         sortBtn   =   {
+            focusable   =   False
+            __type   =   "UiModsLibModbrowserheaderbutton"
+         }
+         filterBtn   =   {
+            focusable   =   False
+            __type   =   "UiModsLibModbrowserheaderbutton"
+         }
+         __type   =   "UiModsLibModbrowserheader"
+      }
+      browserPagination   =   {
+         prevBtn   =   {
+            focusable   =   False
+            __type   =   "UiModsLibModbrowserdetailspaginationprev"
+         }
+         nextBtn   =   {
+            focusable   =   False
+            __type   =   "UiModsLibModbrowserdetailspaginationnext"
+         }
+         __type   =   "UiModsLibModbrowserpagination"
+      }
+      browserDetails   =   {
+         scrollContainer   =   {
+            scrollUpBtn   =   {
+               focusable   =   False
+               __type   =   "UiModsLibPaginationarrow"
+            }
+            scrollBtn   =   {
+               focusable   =   False
+               __type   =   "UiModsLibPaginationarrow"
+            }
+            __type   =   "UiModsLibModbrowserdetailsscrollcontainer"
+         }
+         mbText   =   {
+            alpha   =   100
+            __type   =   "UiModsLibModbrowserdetailsmbtext"
+         }
+         desc   =   {
+            focusable   =   False
+            isHtml   =   True
+            __type   =   "UiModsLibModbrowserdetailsdesctext"
+         }
+         rating   =   {
+            focusable   =   False
+            dislikeBtn   =   {
+               focusable   =   False
+               __type   =   "UiModsLibModbrowserratingdislikebtn"
+            }
+            likeBtn   =   {
+               focusable   =   False
+               __type   =   "UiModsLibModbrowserratinglikebtn"
+            }
+            __type   =   "UiModsLibModbrowserrating"
+         }
+         __type   =   "UiModsLibModbrowserdetails"
+      }
+      __type   =   "UiModsLibModbrowsermainscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+filterIconName   =   "modBrowserFilterIcon"
+consoleCompatibleIcon   =   "|modBrowserConsoleCompatibleIcon|"
+searchInputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "Mod Browser Search Input"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+scrollInputVectorLink   =   {
+   inputLink   =   "UI.MouseZoom"
+   __type   =   "InputLinkVectorMr"
+}
+modeStatusesLocalization   =   {
+   UNDEFINED   =   {
+      __value   =   "UI_MODE_STATE_UNDEFINED"
+   }
+   NOT_INSTALLED   =   {
+      __value   =   "UI_MODE_STATE_NOT_INSTALLED"
+   }
+   QUEUED   =   {
+      __value   =   "UI_MODE_STATE_QUEUED"
+   }
+   STARTING_DOWNLOAD   =   {
+      __value   =   "UI_MODE_STATE_STARTING_DOWNLOAD"
+   }
+   DOWNLOADING   =   {
+      __value   =   "UI_MODE_STATE_DOWNLOADING"
+   }
+   PAUSING   =   {
+      __value   =   "UI_MODE_STATE_PAUSING"
+   }
+   PAUSED   =   {
+      __value   =   "UI_MODE_STATE_PAUSED"
+   }
+   INSTALLED   =   {
+      __value   =   "UI_MODE_STATE_INSTALLED"
+   }
+   PRIORITIZING_OTHER_DOWNLOAD   =   {
+      __value   =   "UI_MODE_STATE_PRIORITIZING_OTHER_DOWNLOAD"
+   }
+   STARTING_UPLOAD   =   {
+      __value   =   "UI_MODE_STATE_STARTING_UPLOAD"
+   }
+   UPLOADING   =   {
+      __value   =   "UI_MODE_STATE_UPLOADING"
+   }
+   DOWNLOADED   =   {
+      __value   =   "UI_MODE_STATE_DOWNLOADED"
+   }
+   CANCELLING   =   {
+      __value   =   "UI_MODE_STATE_CANCELLING"
+   }
+}
+__type   =   "ScreenViewBase"

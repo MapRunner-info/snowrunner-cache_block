@@ -1,0 +1,23 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      hintContent   =   {
+         navPanelAttach   =   {
+            visible   =   False
+            __type   =   "UiTutorialLibTutorialhintnavattach"
+         }
+         navPanelBg   =   {
+            visible   =   False
+            __type   =   "UiTutorialLibTutorialhintnavpanelbg"
+         }
+         __type   =   "UiTutorialLibTutorialhint"
+      }
+      __type   =   "UiTutorialLibTutorialhintanim"
+   }
+   __type   =   "UiObjectDesc"
+}
+backgroundColor   =   "yellow"
+iconType   =   "warning"
+__type   =   "SystemMessageTopNotificationUiView"

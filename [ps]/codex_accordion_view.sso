@@ -1,0 +1,17 @@
+accordionContentDesc   =   {
+   type   =   {
+      contentButton   =   {
+         __type   =   "CodexAccordionButton"
+      }
+      contentList   =   {
+         lir   =   {
+            __type   =   "CodexAccordionLir"
+         }
+         __type   =   "UiCodexLibCodexcontentlist"
+      }
+      __type   =   "CodexAccordionContent"
+   }
+   __type   =   "SslDesc"
+}
+precreatedItemsSize   =   7
+__type   =   "object"

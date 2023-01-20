@@ -1,0 +1,28 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibHudanimpopuptask"
+   }
+   __type   =   "UiObjectDesc"
+}
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibTaskpopupimg40"
+   }
+   __type   =   "UiContainerDesc"
+}
+expIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilestar40"
+   }
+   __type   =   "UiContainerDesc"
+}
+currencyIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilecurrency40"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "PopupViewBase"

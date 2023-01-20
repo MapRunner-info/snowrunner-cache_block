@@ -1,0 +1,4 @@
+fader   =   {
+   __type   =   "HudFader"
+}
+__type   =   "object"

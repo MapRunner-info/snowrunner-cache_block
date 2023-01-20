@@ -1,0 +1,32 @@
+btns   =   {
+   back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   sell   =   {
+      text   =   "UI_SELL"
+      __type   =   "NavButtonDesc"
+   }
+   deploy   =   {
+      text   =   "UI_DEPLOY"
+      __type   =   "NavButtonDesc"
+   }
+   navigation   =   {
+      text   =   "UI_NAVIGATION"
+      excludedDevices   =   [
+         "keyboard",
+         "mouse"
+      ]
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+   modsOnlyOn   =   {
+      text   =   "MODS_ONLY_ON"
+      __type   =   "NavButtonDesc"
+   }
+   modsOnlyOff   =   {
+      text   =   "MODS_ONLY_OFF"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

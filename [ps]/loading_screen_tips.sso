@@ -1,0 +1,4 @@
+tipsCount   =   31
+tipTpl   =   "UI_LOADING_TIP_"
+tipsOnScreenCount   =   5
+__type   =   "object"

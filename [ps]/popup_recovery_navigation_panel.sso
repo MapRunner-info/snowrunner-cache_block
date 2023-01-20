@@ -1,0 +1,16 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      __type   =   "NavButtonDesc"
+   }
+   refuse   =   {
+      __type   =   "NavButtonDesc"
+   }
+   contest_recover   =   {
+      text   =   "UI_CONTEST_RECOVER"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

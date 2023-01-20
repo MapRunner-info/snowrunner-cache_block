@@ -1,0 +1,18 @@
+commonSfxNames   =   {
+   LOAD   =   {
+      __value   =   "cargo_load_01"
+   }
+   UNLOAD   =   {
+      __value   =   "cargo_unload_01"
+   }
+   PACK   =   {
+      __value   =   "cargo_pack_01"
+   }
+   UNPACK   =   {
+      __value   =   "cargo_unpack_01"
+   }
+}
+winchPullStartSoundName   =   "game/winch_pull_start"
+winchPickSoundName   =   "game/winch_pick"
+destroyTruckSoundName   =   "trucks/common/truck_destroy"
+__type   =   "object"

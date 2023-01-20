@@ -1,0 +1,4 @@
+timeToShowSec   =   15
+distance   =   25
+delayBeforeRestartSec   =   600
+__type   =   "TutorialStageRepeatable"

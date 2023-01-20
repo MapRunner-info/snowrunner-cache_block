@@ -1,0 +1,14 @@
+spline   =   {
+   spline   =   [
+      0,
+      1,
+      1,
+      1,
+      4,
+      10,
+      10,
+      10
+   ]
+   __type   =   "SplineLinear1d"
+}
+__type   =   "object"

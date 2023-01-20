@@ -1,0 +1,5 @@
+startOnLevelLoaded   =   True
+startByQueue   =   False
+startAfterInit   =   False
+delayBeforeSuccess   =   30000
+__type   =   "AutoTestTaskBase"

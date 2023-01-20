@@ -1,0 +1,7 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiNavigationLegendHudmanualloading"
+   }
+   __type   =   "null"
+}
+__type   =   "ComponentUiViewBase"

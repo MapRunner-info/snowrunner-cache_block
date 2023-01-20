@@ -1,0 +1,9 @@
+view   =   {
+   __type   =   "PopupRegionChangeUiView"
+}
+id   =   "CHANGIN_REGIONS"
+priority   =   "VERY_LOW"
+title   =   "SYSTEM_MESSAGE_CHANGIN_REGIONS_HEADER"
+message   =   "SYSTEM_MESSAGE_CHANGIN_REGIONS_TITLE"
+ignoreHide   =   True
+__type   =   "PopupUiController"

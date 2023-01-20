@@ -1,0 +1,14 @@
+btns   =   {
+   ToStore   =   {
+      text   =   "UI_DLC_STORE_SHOW_IN_STORE"
+      __type   =   "NavButtonDesc"
+   }
+   Back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   Preview   =   {
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

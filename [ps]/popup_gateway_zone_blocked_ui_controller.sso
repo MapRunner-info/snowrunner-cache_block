@@ -1,0 +1,44 @@
+view   =   {
+   __type   =   "PopupGatewayZoneBlockedUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         Accept   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         Decline   =   {
+            text   =   "UI_DECLINE"
+            uiInputName   =   "Decline"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      order   =   [
+         "Accept",
+         "Decline"
+      ]
+      __type   =   "AllButtonsNavigationPanel"
+   }
+}
+id   =   "GATEWAY_BLOCKED_ZONE"
+priority   =   "MIDDLE"
+disableInputs   =   True
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "PopupGatewayZoneBlockedUiController"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Decline   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

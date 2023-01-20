@@ -1,0 +1,97 @@
+uiObjectDesc   =   {
+   __type   =   "null"
+}
+contentContainerDesc   =   {
+   type   =   {
+      lir   =   {
+         __type   =   "MinimapContractLir"
+      }
+      __type   =   "UiMinimapMenupanelcontentlist"
+   }
+   __type   =   "null"
+}
+singleLineHeaderDesc   =   {
+   type   =   {
+      textClip   =   {
+         tfCont   =   {
+            isHtml   =   True
+            __type   =   "UiMinimapTaskstagetexts"
+         }
+         __type   =   "UiMinimapTaskstagetextcontl"
+      }
+      __type   =   "UiMinimapTaskstageheaders"
+   }
+   __type   =   "UiObjectDesc"
+}
+twoLineHeaderDesc   =   {
+   type   =   {
+      textClip   =   {
+         tfCont   =   {
+            isHtml   =   True
+            __type   =   "UiMinimapTaskstagetextm"
+         }
+         __type   =   "UiMinimapTaskstagetextcontm"
+      }
+      __type   =   "UiMinimapTaskstageheaderm"
+   }
+   __type   =   "UiObjectDesc"
+}
+threeLineHeaderDesc   =   {
+   type   =   {
+      textClip   =   {
+         tfCont   =   {
+            isHtml   =   True
+            __type   =   "UiMinimapTaskstagetextl"
+         }
+         __type   =   "UiMinimapTaskstagetextconts"
+      }
+      __type   =   "UiMinimapTaskstageheaderl"
+   }
+   __type   =   "UiObjectDesc"
+}
+singleLineTextDesc   =   {
+   type   =   {
+      textClip   =   {
+         tfCont   =   {
+            isHtml   =   True
+            __type   =   "UiMinimapTaskstagetexts"
+         }
+         __type   =   "UiMinimapTaskstagetextcontl"
+      }
+      __type   =   "UiMinimapTaskstagebuttons"
+   }
+   __type   =   "UiObjectDesc"
+}
+twoLineTextDesc   =   {
+   type   =   {
+      textClip   =   {
+         tfCont   =   {
+            isHtml   =   True
+            __type   =   "UiMinimapTaskstagetextm"
+         }
+         __type   =   "UiMinimapTaskstagetextcontm"
+      }
+      __type   =   "UiMinimapTaskstagebuttonm"
+   }
+   __type   =   "UiObjectDesc"
+}
+threeLineTextDesc   =   {
+   type   =   {
+      textClip   =   {
+         tfCont   =   {
+            isHtml   =   True
+            __type   =   "UiMinimapTaskstagetextl"
+         }
+         __type   =   "UiMinimapTaskstagetextconts"
+      }
+      __type   =   "UiMinimapTaskstagebuttonl"
+   }
+   __type   =   "UiObjectDesc"
+}
+spaceDesc   =   {
+   type   =   {
+      __type   =   "UiMinimapTaskstagespaceclip"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "AccordionItemView"

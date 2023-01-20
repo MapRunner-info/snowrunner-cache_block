@@ -1,0 +1,86 @@
+zoneDesc   =   {
+   ZONE_TEST_CARGOCONCRETESLAB   =   {
+      props   =   {
+         ZonePropertyCargoLoading   =   {
+            cargosSettings   =   [
+               {
+                  name   =   "CargoConcreteSlab"
+               }
+            ]
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_WATCHPOINT   =   {
+      props   =   {
+         ZonePropertyWatchpoint   =   {
+            range   =   500
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_SIMPLE_DELIVERY_CONTRACT   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_SIMPLE_DELIVERY_TASK   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_SIMPLE_DELIVERY_CONTEST_1   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_SIMPLE_DELIVERY_CONTEST_2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_OBJECT_DECONSTRUCTION   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_OBJECT_BUILDING_REACH_1   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_OBJECT_BUILDING_REACH_2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_OBJECT_BUILDING   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_EXPLORATION   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_EXPLORATION_1   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_EXPLORATION_2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_REPAIR_A_VEHICLE_1   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_REPAIR_A_VEHICLE_2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_PULL_A_CAR_1   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_PULL_A_CAR_2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_TRUCK_DELIVERY_1   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_TRUCK_DELIVERY_2   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_ZONE_TRUCK_DELIVERY_3   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_TRUCK_DESTROY_VFX_START   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_TRUCK_DESTROY_VFX_FINISH   =   {
+      __type   =   "ZoneSettings"
+   }
+   TEST_TRUCK_DESTROY_VFX_SPAWN   =   {
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

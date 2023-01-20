@@ -1,0 +1,66 @@
+uiObjectDesc   =   {
+   type   =   {
+      fade   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiMovieClip"
+      }
+      header   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcstoreheader"
+      }
+      navPanel   =   {
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcstorenavattach"
+      }
+      navAttachL   =   {
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcstorepanelnavbtnattach"
+      }
+      arrowL   =   {
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcpagearrow"
+      }
+      arrowR   =   {
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcpagearrow"
+      }
+      navAttachR   =   {
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcstorepanelnavbtnattach"
+      }
+      preview   =   {
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcpagepreview"
+      }
+      list   =   {
+         listTitle   =   {
+            mouseEnabled   =   False
+            mouseChildren   =   False
+            focusable   =   False
+            __type   =   "UiDlcstoreLibDlcspagelisttitle"
+         }
+         list   =   {
+            lir   =   {
+               __type   =   "DlcStoreDetailsLir"
+            }
+            scrollBar   =   {
+               __type   =   "UiCommonLibDefscrollbars"
+            }
+            __type   =   "UiDlcstoreLibDlcpagelist"
+         }
+         __type   =   "UiDlcstoreLibDlcpagelistcontainer"
+      }
+      __type   =   "UiDlcstoreLibDlcpagescreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+navBtnPageL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnPageR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+__type   =   "ScreenViewBase"

@@ -1,0 +1,91 @@
+classes   =   {
+   Eulacontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_agreement_lib"
+      symbol   =   "eulaContent"
+      sslClass   =   "UiAgreementLibEulacontent"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -31
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiAgreementLibLicenseheader"
+      }
+      textContainer   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   56
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiAgreementLibLicensetextcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Licenseheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_agreement_lib"
+      symbol   =   "licenseHeader"
+      sslClass   =   "UiAgreementLibLicenseheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Licensescreenattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_agreement_lib"
+      symbol   =   "licenseScreenAttach"
+      sslClass   =   "UiAgreementLibLicensescreenattach"
+      __type   =   "UiContainer"
+   }
+   Licensetextarea   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "licensetextArea"
+      __type   =   "UiTextArea"
+   }
+   Licensetextcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_agreement_lib"
+      symbol   =   "licenseTextContainer"
+      sslClass   =   "UiAgreementLibLicensetextcontainer"
+      textArea   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiAgreementLibLicensetextarea"
+      }
+      __type   =   "UiContainer"
+   }
+   Liscenseagreementscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_agreement_lib"
+      symbol   =   "liscenseAgreementScreen"
+      sslClass   =   "UiAgreementLibLiscenseagreementscreen"
+      content   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   560
+         y   =   302
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiAgreementLibEulacontent"
+      }
+      navPanel   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   960
+         y   =   782
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiAgreementLibLicensescreenattach"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

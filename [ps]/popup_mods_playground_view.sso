@@ -1,0 +1,24 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         focusable   =   True
+         header   =   {
+            tf   =   {
+               text   =   "UI_MODS_PLAYGROUNDS_HEADER"
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiPopupLibHudpopupheader"
+         }
+         playgroundList   =   {
+            lir   =   {
+               __type   =   "ModsPlaygroundListItemRenderer"
+            }
+            __type   =   "UiPopupLibPopupmodsplaygroundselectlist"
+         }
+         __type   =   "UiPopupLibHudpopupmodsplaygroundselect"
+      }
+      __type   =   "UiPopupLibAnimpopupmodspgselect"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "PopupViewBase"

@@ -1,0 +1,5 @@
+inputScreen   =   {
+   name   =   "SystemMessageArgStringUiController"
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "SystemMessageUiController"

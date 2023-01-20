@@ -1,0 +1,9 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "CargoSlotView"
+   }
+   __type   =   "CargoSlotViewDesc"
+}
+initialCapacity   =   10
+editorMaxCapacity   =   120
+__type   =   "EditorObjectDescPool"

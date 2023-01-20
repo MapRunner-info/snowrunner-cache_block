@@ -1,0 +1,107 @@
+ignorableInput   =   [
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        34
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        35
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        33
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        32
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        36
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        37
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+]
+ignorableDevices   =   [
+   "gamepad_xbox_one",
+   "gamepad_xenon",
+   "gamepad_ds4",
+   "gamepad_orbis",
+   "gamepad_nx64",
+   "gamepad_stadia"
+]
+__type   =   "InputMapper"

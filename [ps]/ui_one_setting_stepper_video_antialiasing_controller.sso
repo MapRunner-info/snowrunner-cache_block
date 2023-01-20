@@ -1,0 +1,18 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_ANTIALIASING"
+desc   =   "UI_SETTINGS_ANTIALIASING_DESC"
+settingName   =   "AntialiasingQuality"
+valueUiNames   =   [
+    "UI_OPTION_STEPPER_OFF",
+    "UI_SETTINGS_ANTIALIASING_TAA",
+    "UI_SETTINGS_ANTIALIASING_MSAA_2X",
+    "UI_SETTINGS_ANTIALIASING_MSAA_4X",
+    "UI_SETTINGS_ANTIALIASING_MSAA_8X"
+]
+valueUiNamesOSX   =   [
+    "UI_OPTION_STEPPER_OFF",
+    "UI_SETTINGS_ANTIALIASING_TAA",
+]
+__type   =   "UiOneSettingStepperVideoController"

@@ -1,0 +1,55 @@
+uiDesc   =   "US_01_02_FALLEN_ROCKS_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_FALLEN_ROCKS_MATERIALS"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FALLEN_ROCKS_A_TSK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_01_02_FALLEN_ROCKS_B_TSK"
+               ]
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_02"
+   modelTag   =   "Fallen_rocks"
+   stagesProgress   =   {
+      stage_visible   =   {
+      }
+      stage_hidden   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "US_01_02_FALLEN_ROCKS_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_FALLEN_ROCKS_A_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_02_FALLEN_ROCKS_B_TSK"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   170
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1300
+   }
+}
+__type   =   "TaskSettings"

@@ -1,0 +1,6 @@
+delayBeforeStart   =   0
+delayBeforeSuccess   =   500
+truckNameRef   =   {
+   __type   =   "StringRefParam"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

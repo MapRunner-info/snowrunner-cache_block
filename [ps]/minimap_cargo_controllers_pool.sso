@@ -1,0 +1,9 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "MinimapCargoController"
+   }
+   __type   =   "MinimapCargoControllerDesc"
+}
+initialCapacity   =   5
+editorMaxCapacity   =   120
+__type   =   "EditorObjectDescPool"

@@ -1,0 +1,50 @@
+screenDesc   =   {
+   type   =   {
+      mouseEnabled   =   False
+      compass   =   {
+         visible   =   False
+         __type   =   "UiHudLibHudcompass"
+      }
+      playerInfoAttach   =   {
+         visible   =   False
+         __type   =   "UiHudLibProfileattachpoint"
+      }
+      current_contract   =   {
+         visible   =   False
+         __type   =   "UiHudLibHudcurrentcontract"
+      }
+      current_loading   =   {
+         visible   =   False
+         __type   =   "UiHudLibHudcurrentloading"
+      }
+      logAttach   =   {
+         visible   =   False
+         __type   =   "UiHudLibHudlogattach"
+      }
+      leftHudPanelContainer   =   {
+         visible   =   False
+         __type   =   "UiHudLibLefthudpanelcont"
+      }
+      rightHudPanelContainer   =   {
+         visible   =   False
+         __type   =   "UiHudLibRighthudpanelcont"
+      }
+      __type   =   "UiHudLibDefaulthud"
+   }
+   __type   =   "UiContainerDesc"
+}
+uid   =   "cinematic"
+hudControllersManager   =   {
+   controllersDescs   =   {
+      cinematicNavPanel   =   {
+         type   =   {
+            __type   =   "HudNavigationCinematicPanelController"
+         }
+         flashAttachPointName   =   "navPanelAttachPoint"
+         isEnabled   =   True
+         __type   =   "HudControllerDescMr"
+      }
+   }
+   __type   =   "HudControllersManagerMr"
+}
+__type   =   "HudStateControllersBase"

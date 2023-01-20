@@ -1,0 +1,128 @@
+view   =   {
+   __type   =   "UiTruckCarouselShopView"
+}
+navPanels   =   {
+   default   =   {
+      useBg   =   True
+      btns   =   {
+         purchase   =   {
+            uiInputName   =   "Purchase"
+            __type   =   "NavButtonDesc"
+         }
+         preview   =   {
+            uiInputName   =   "Preview"
+            __type   =   "NavButtonDesc"
+         }
+         scroll   =   {
+            uiInputName   =   "CarouselScroll"
+            __type   =   "NavButtonDesc"
+         }
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         modsOnlyOn   =   {
+            uiInputName   =   "ToggleModTrucksOnly"
+            __type   =   "NavButtonDesc"
+         }
+         modsOnlyOff   =   {
+            uiInputName   =   "ToggleModTrucksOnly"
+            __type   =   "NavButtonDesc"
+         }
+         toStore   =   {
+            uiInputName   =   "ShowDLC"
+            __type   =   "NavButtonDesc"
+         }
+         switchDesc   =   {
+            uiInputName   =   "Swap"
+            __type   =   "NavButtonDesc"
+         }
+         OpenPopup   =   {
+            uiInputName   =   "OpenPopup"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "TruckCarouselShopNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "UiTruckCarouselShopScreenState"
+}
+inputScreen   =   {
+   name   =   "UiTruckCarousel"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      TabLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      TabRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkActionMr"
+      }
+      Purchase   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Preview   =   {
+         inputLink   =   "UI.TruckPreview"
+         __type   =   "InputLinkActionMr"
+      }
+      Left   =   {
+         inputLink   =   "UI.ShopScrollLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      Right   =   {
+         inputLink   =   "UI.ShopScrollRight"
+         __type   =   "InputLinkActionMr"
+      }
+      CarouselScroll   =   {
+         inputLink   =   "UI.NavigationHorizontal"
+         __type   =   "InputLinkActionMr"
+      }
+      MouseScrollLeft   =   {
+         inputLink   =   "UI.MouseWheelDown"
+         __type   =   "InputLinkActionMr"
+      }
+      MouseScrollRight   =   {
+         inputLink   =   "UI.MouseWheelUp"
+         __type   =   "InputLinkActionMr"
+      }
+      Swap   =   {
+         inputLink   =   "UI.SwapDescAndStatsVisibility"
+         __type   =   "InputLinkHoldMr"
+      }
+      OpenPopup   =   {
+         inputLink   =   "UI.OpenCompatiblityPopup"
+         __type   =   "InputLinkHoldMr"
+      }
+      ToggleModTrucksOnly   =   {
+         inputLink   =   "UI.ToggleModTrucksOnly"
+         __type   =   "InputLinkActionMr"
+      }
+      ShowDLC   =   {
+         inputLink   =   "UI.ShowDLC"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return",
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "ScreenControllerBase"

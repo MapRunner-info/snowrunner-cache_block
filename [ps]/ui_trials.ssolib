@@ -1,0 +1,665 @@
+classes   =   {
+   AutoClassTrialsbtnDownoutanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   ""
+      sslClass   =   "UiTrialsAutoclasstrialsbtndownoutanim"
+      btnBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsbtnbginner"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "trialsBtn"
+      btnContent   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   5
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsbtncontent"
+      }
+      downOutAnim   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsAutoclasstrialsbtndownoutanim"
+      }
+      __type   =   "UiButton"
+   }
+   Trialsbtnbginner   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsBtnBgInner"
+      sslClass   =   "UiTrialsTrialsbtnbginner"
+      __type   =   "UiContainer"
+   }
+   Trialsbtncontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsBtnContent"
+      sslClass   =   "UiTrialsTrialsbtncontent"
+      img   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsbtnimg"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   45.5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsbtntext"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsbtnimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsBtnImg"
+      sslClass   =   "UiTrialsTrialsbtnimg"
+      __type   =   "UiContainer"
+   }
+   Trialsbtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsBtnText"
+      sslClass   =   "UiTrialsTrialsbtntext"
+      tf   =   {
+         x   =   -49
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsdesccontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsDescContainer"
+      sslClass   =   "UiTrialsTrialsdesccontainer"
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   28
+         y   =   8
+         scaleX   =   100
+         scaleY   =   95.0577
+         __type   =   "UiTrialsTrialsdescheader"
+      }
+      mapName   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   362
+         y   =   17
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsmapname"
+      }
+      locked   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   70
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiTrialsTrialslockedtext"
+      }
+      descCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   155
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsdesctextcont"
+      }
+      rewardsHeader   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   115
+         y   =   545
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsrewardsheader"
+      }
+      unlockReward   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   100
+         y   =   615
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsunlockcontentattach"
+      }
+      rewardCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   115
+         y   =   565
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsrewardscont"
+      }
+      gradient   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   64
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsimggradient"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   63
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsimgattach"
+      }
+      btn   =   {
+         symbol   =   ""
+         x   =   150
+         y   =   733
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsdescheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsDescHeader"
+      sslClass   =   "UiTrialsTrialsdescheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsdesctext   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsDescText"
+      sslClass   =   "UiTrialsTrialsdesctext"
+      tfText   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsdesctextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsDescTextCont"
+      sslClass   =   "UiTrialsTrialsdesctextcont"
+      descText   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsdesctext"
+      }
+      hint3   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialshintattach"
+      }
+      hint2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   280
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialshintattach"
+      }
+      hint1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   310
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialshintattach"
+      }
+      hint0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   340
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialshintattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsHeader"
+      sslClass   =   "UiTrialsTrialsheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialshint   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsHint"
+      sslClass   =   "UiTrialsTrialshint"
+      txt   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialshinttext"
+      }
+      img   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialshintimgattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialshintattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsHintAttach"
+      sslClass   =   "UiTrialsTrialshintattach"
+      __type   =   "UiContainer"
+   }
+   Trialshintimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsHintImgAttach"
+      sslClass   =   "UiTrialsTrialshintimgattach"
+      __type   =   "UiContainer"
+   }
+   Trialshinttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsHintText"
+      sslClass   =   "UiTrialsTrialshinttext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsImgAttach"
+      sslClass   =   "UiTrialsTrialsimgattach"
+      __type   =   "UiContainer"
+   }
+   Trialsimggradient   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsImgGradient"
+      sslClass   =   "UiTrialsTrialsimggradient"
+      __type   =   "UiContainer"
+   }
+   Trialslir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "trialsLir"
+      content   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   34
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiTrialsTrialslircontent"
+      }
+      __type   =   "UiListItem"
+   }
+   Trialslirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Trialslircontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsLirContent"
+      sslClass   =   "UiTrialsTrialslircontent"
+      iconAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   506
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialshintattach"
+      }
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialslirtf"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialslirtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsLirTf"
+      sslClass   =   "UiTrialsTrialslirtf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "trialsList"
+      __type   =   "UiScrollingList"
+   }
+   Trialslistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsListContainer"
+      sslClass   =   "UiTrialsTrialslistcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialslist"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialslockedtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsLockedText"
+      sslClass   =   "UiTrialsTrialslockedtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsmapname   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsMapName"
+      sslClass   =   "UiTrialsTrialsmapname"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsnavpanelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsNavPanelAttach"
+      sslClass   =   "UiTrialsTrialsnavpanelattach"
+      __type   =   "UiContainer"
+   }
+   Trialsrewardname   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsRewardName"
+      sslClass   =   "UiTrialsTrialsrewardname"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsrewardscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsRewardsCont"
+      sslClass   =   "UiTrialsTrialsrewardscont"
+      unlockReward   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -15
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiTrialsTrialsunlockcontentattach"
+      }
+      itemReward0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   180
+         y   =   42.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsrewrd"
+      }
+      itemReward1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   180
+         y   =   42.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiTrialsTrialsrewrd"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsrewardsheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsRewardsHeader"
+      sslClass   =   "UiTrialsTrialsrewardsheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsrewaritemattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsRewarItemAttach"
+      sslClass   =   "UiTrialsTrialsrewaritemattach"
+      __type   =   "UiContainer"
+   }
+   Trialsrewrd   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsRewrd"
+      sslClass   =   "UiTrialsTrialsrewrd"
+      itemRewardNaming   =   {
+         symbol   =   ""
+         x   =   -180
+         y   =   70
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsrewardname"
+      }
+      imageAttach   =   {
+         symbol   =   ""
+         x   =   -30
+         y   =   0
+         scaleX   =   150
+         scaleY   =   150
+         __type   =   "UiTrialsTrialsrewaritemattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsScreen"
+      sslClass   =   "UiTrialsTrialsscreen"
+      header   =   {
+         symbol   =   ""
+         x   =   45
+         y   =   26
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsheader"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsnavpanelattach"
+      }
+      unlockContentAttach   =   {
+         symbol   =   ""
+         x   =   1507
+         y   =   845
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsunlockcontentattach"
+      }
+      listCont   =   {
+         symbol   =   ""
+         x   =   351
+         y   =   153
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialslistcontainer"
+      }
+      descCont   =   {
+         symbol   =   ""
+         x   =   968
+         y   =   153
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsdesccontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsunlockcontentattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsUnlockContentAttach"
+      sslClass   =   "UiTrialsTrialsunlockcontentattach"
+      __type   =   "UiContainer"
+   }
+   Trialsunlockcontentcheckiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsUnlockContentCheckIconAttach"
+      sslClass   =   "UiTrialsTrialsunlockcontentcheckiconattach"
+      __type   =   "UiContainer"
+   }
+   Trialsunlockcontentcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsUnlockContentContainer"
+      sslClass   =   "UiTrialsTrialsunlockcontentcontainer"
+      checkIconAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   340
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsunlockcontentcheckiconattach"
+      }
+      textContainer   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsunlockcontenttextcontainer"
+      }
+      progress   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsunlockcontentprogress"
+      }
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsunlockcontenticonattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsunlockcontenticonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsUnlockContentIconAttach"
+      sslClass   =   "UiTrialsTrialsunlockcontenticonattach"
+      __type   =   "UiContainer"
+   }
+   Trialsunlockcontentprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsUnlockContentProgress"
+      sslClass   =   "UiTrialsTrialsunlockcontentprogress"
+      __type   =   "UiContainer"
+   }
+   Trialsunlockcontenttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsUnlockContentText"
+      sslClass   =   "UiTrialsTrialsunlockcontenttext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trialsunlockcontenttextcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_trials"
+      symbol   =   "trialsUnlockContentTextContainer"
+      sslClass   =   "UiTrialsTrialsunlockcontenttextcontainer"
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiTrialsTrialsunlockcontenttext"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

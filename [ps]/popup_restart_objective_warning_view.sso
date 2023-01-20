@@ -1,0 +1,15 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      textCont   =   {
+         isHtml   =   True
+         __type   =   "UiPopupLibHudpopupcontexttf"
+      }
+      __type   =   "UiPopupLibHudpopupcontext"
+   }
+   __type   =   "UiObjectDesc"
+}
+headerIcon   =   "popupWarningImg"
+__type   =   "PopupViewBase"

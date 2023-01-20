@@ -1,0 +1,60 @@
+view   =   {
+   __type   =   "IngameMenuUiView"
+}
+navPanels   =   {
+   default   =   {
+      useBg   =   False
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            uiInputName   =   "Navigate"
+            hideWithCustomSteeringWheelPreset   =   True
+            __type   =   "NavButtonDesc"
+         }
+         photo_mode   =   {
+            text   =   "UI_PHOTO_MODE"
+            uiInputName   =   "PhotoMode"
+            forceShowWithActiveTutorial   =   True
+            __type   =   "NavButtonDesc"
+         }
+         party   =   {
+            text   =   "UI_PARTY_MANAGEMENT"
+            uiInputName   =   "party"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "IngameMenuNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "IngameMenuScreenState"
+}
+inputScreen   =   {
+   name   =   "Ingame Menu"
+   inputsLinks   =   {
+      Navigate   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      party   =   {
+         inputLink   =   "UI.Party"
+         __type   =   "InputLinkHoldMr"
+      }
+      PhotoMode   =   {
+         inputLink   =   "UI.PhotoMode"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

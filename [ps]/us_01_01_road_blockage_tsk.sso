@@ -1,0 +1,55 @@
+uiDesc   =   "US_01_01_ROAD_BLOCKAGE_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_ROAD_BLOCKAGE_BRING_METAL_AND_SPARE_TO_BLOCKAGE_ON_US_01_01"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_ROAD_BLOCKAGE_TSK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_01_01_ROAD_BLOCKAGE_A_TSK"
+               ]
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   "US_01_01_ROAD_BLOCKAGE_BRING_METAL_AND_SPARE_TO_BLOCKAGE_ON_US_01_01"
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_01"
+   modelTag   =   "rock_road_blockage_obj"
+   stagesProgress   =   {
+      stage_visible   =   {
+      }
+      stage_hidden   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "US_01_01_ROAD_BLOCKAGE_REWARD_DESC"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   170
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1650
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_ROAD_BLOCKAGE_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_01_ROAD_BLOCKAGE_A_TSK"
+]
+__type   =   "TaskSettings"

@@ -1,0 +1,4 @@
+unlockInfo   =   {
+   __type   =   "TruckUnlockInfo"
+}
+__type   =   "object"

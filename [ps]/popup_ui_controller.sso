@@ -1,0 +1,5 @@
+state   =   {
+   __type   =   "ScreenState"
+}
+useDefaultAttach   =   True
+__type   =   "ScreenControllerBase"

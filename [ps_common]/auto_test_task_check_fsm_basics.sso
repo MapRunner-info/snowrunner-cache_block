@@ -1,0 +1,77 @@
+testFsmDesc   =   {
+   type   =   {
+      states   =   {
+         A   =   {
+            isInitial   =   True
+            links   =   {
+               a_to_b   =   {
+                  toState   =   "B"
+                  viewData   =   {
+                     joints   =   [
+                        [
+                           2096,
+                           4814.125
+                        ],
+                        [
+                           2136,
+                           4816.875
+                        ]
+                     ]
+                     labelX   =   -16.8
+                     labelY   =   -29.6
+                     connectorIndex   =   -1
+                  }
+                  __type   =   "SslLink"
+               }
+            }
+            viewData   =   {
+               x   =   1976.326
+               y   =   4757.698
+            }
+            __type   =   "SslState"
+         }
+         B   =   {
+            isInitial   =   False
+            links   =   {
+               b_to_c   =   {
+                  toState   =   "C"
+                  viewData   =   {
+                     joints   =   [
+                        [
+                           2256,
+                           4821
+                        ],
+                        [
+                           2299,
+                           4821
+                        ]
+                     ]
+                     labelX   =   -17.6
+                     labelY   =   -28
+                     connectorIndex   =   -1
+                  }
+                  __type   =   "SslLink"
+               }
+            }
+            viewData   =   {
+               x   =   2136.192
+               y   =   4780.759
+            }
+            __type   =   "SslState"
+         }
+         C   =   {
+            isInitial   =   False
+            viewData   =   {
+               x   =   2299.104
+               y   =   4780.703
+            }
+            __type   =   "SslState"
+         }
+      }
+      name   =   "TestAbcFsm"
+      logCategory   =   "fsm/test_abc_fsm"
+      __type   =   "SslFsm"
+   }
+   __type   =   "SslDesc"
+}
+__type   =   "AutoTestTaskBase"

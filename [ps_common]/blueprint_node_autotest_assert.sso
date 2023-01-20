@@ -1,0 +1,5 @@
+condition   =   {
+   def   =   True
+   __type   =   "BoolRefParam"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

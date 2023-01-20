@@ -1,0 +1,95 @@
+view   =   {
+   playerStatuses   =   [
+      {
+         view   =   {
+            __type   =   "MenuPlayerStatusUiView"
+         }
+         truckIconSize   =   "BIG"
+      },
+      {
+         view   =   {
+            __type   =   "MenuPlayerStatusUiView"
+         }
+         truckIconSize   =   "BIG"
+      },
+      {
+         view   =   {
+            __type   =   "MenuPlayerStatusUiView"
+         }
+         truckIconSize   =   "BIG"
+      },
+      {
+         view   =   {
+            __type   =   "MenuPlayerStatusUiView"
+         }
+         truckIconSize   =   "BIG"
+      }
+   ]
+   __type   =   "PartyManagerUiView"
+}
+navPanels   =   {
+   default   =   {
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         back   =   {
+            uiInputName   =   "back"
+            __type   =   "NavButtonDesc"
+         }
+         invite   =   {
+            uiInputName   =   "invite"
+            __type   =   "NavButtonDesc"
+         }
+         kick   =   {
+            uiInputName   =   "kick"
+            __type   =   "NavButtonDesc"
+         }
+         profile   =   {
+            uiInputName   =   "invite"
+            __type   =   "NavButtonDesc"
+         }
+         copy   =   {
+            uiInputName   =   "copy"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PartyManagerNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PartyManagerScreenState"
+}
+inputScreen   =   {
+   name   =   "Party Manager"
+   inputsLinks   =   {
+      back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      invite   =   {
+         inputLink   =   "UI.InviteToParty"
+         __type   =   "InputLinkHoldMr"
+      }
+      kick   =   {
+         inputLink   =   "UI.KickPlayer"
+         __type   =   "InputLinkHoldMr"
+      }
+      winchCheckbox   =   {
+         inputLink   =   "UI.WinchCheckbox"
+         __type   =   "InputLinkHoldMr"
+      }
+      copy   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+winchCheckboxNavBtn   =   {
+   desc   =   {
+      uiInputName   =   "winchCheckbox"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+__type   =   "ScreenControllerBase"

@@ -1,0 +1,55 @@
+fadeWrapper   =   {
+   fadeInAnimName   =   "fade_in"
+   fadeOutAnimName   =   "fade_out"
+   __type   =   "null"
+}
+uiObjectDesc   =   {
+   type   =   {
+      list   =   {
+         lir   =   {
+            __type   =   "UiSettingLirItem"
+         }
+         __type   =   "UiSettingsSettingslist"
+      }
+      __type   =   "UiShopLibTruckshopscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+uiCarousel   =   {
+   cycled   =   False
+   speed   =   {
+      spline   =   [
+         0,
+         5,
+         0.5,
+         5,
+         2,
+         25
+      ]
+      __type   =   "SplineLinear1d"
+   }
+   __type   =   "UiCarousel"
+}
+hideEmptyItems   =   True
+notEnoughMoneyColor   =   {
+   a   =   255
+   r   =   255
+   g   =   76
+   b   =   0
+   __type   =   "Color"
+}
+navBtnTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnCompatibleAddons   =   {
+   desc   =   {
+      text   =   "UI_TRUCK_SHOP_COMPATIBLE_ADDONS"
+      uiInputName   =   "OpenPopup"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+__type   =   "ScreenViewBase"

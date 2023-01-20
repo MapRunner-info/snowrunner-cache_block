@@ -1,0 +1,144 @@
+descs   =   {
+   CargoServiceSpareParts   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBarrels   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBricks   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoConcreteBlocks   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoConcreteSlab   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoMetalPlanks   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoWoodenPlanks   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoContainerLarge   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoContainerSmall   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoCrateLarge   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBags   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoPipeLarge   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoPipesMedium   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoPipesSmall   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoVehiclesSpareParts   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoContainerSmallSpecial   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoContainerLargeDrilling   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoRadioactive   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoServiceSparePartsSpecial   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBarrelsOil   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBigDrill   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoMetalRoll   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoForkliftCaravanContainer2   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoLogsMedium   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoLogsLong   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoSequoia   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBags2   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoRailway   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoCellulose   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoRocketEngine   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoRocketPart2   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoRocketPart1   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoLogsShort   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoIronRoad   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBoiler   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoSolarPanel   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoLogsMedium_Burnt   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoGold   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBarrelsChemicals   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoTrash   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoWoodenPlanks2   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoWoodenPlanks4   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoBigbar   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoPotato   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoPotatoGmo   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoStack   =   {
+      __type   =   "CargoDesc"
+   }
+   CargoWater   =   {
+      __type   =   "CargoDesc"
+   }
+}
+__type   =   "object"

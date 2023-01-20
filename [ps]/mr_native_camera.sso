@@ -1,0 +1,54 @@
+wheelCameraRotationXInputLink   =   {
+   inputLink   =   "DriveCamera.WheelCameraRotationX"
+   __type   =   "InputLinkActionAxisMr"
+}
+wheelCameraRotationYInputLink   =   {
+   inputLink   =   "DriveCamera.WheelCameraRotationY"
+   __type   =   "InputLinkActionAxisMr"
+}
+wheelCameraZoomInputLink   =   {
+   inputLink   =   "DriveCamera.WheelCameraZoom"
+   __type   =   "InputLinkActionAxisMr"
+}
+gamepadRotationInputLink   =   {
+   inputLink   =   "DriveCamera.GamepadRotation"
+   __type   =   "InputLinkVectorMr"
+}
+mouseRotationInputLink   =   {
+   inputLink   =   "DriveCamera.MouseRotation"
+   __type   =   "InputLinkVectorMr"
+}
+mouseZoomInputLink   =   {
+   inputLink   =   "DriveCamera.MouseZoom"
+   __type   =   "InputLinkVectorMr"
+}
+gamepadZoomInputLink   =   {
+   inputLink   =   "DriveCamera.GamepadZoom"
+   __type   =   "InputLinkVectorMr"
+}
+rotateStepLeftInputLink   =   {
+   inputLink   =   "DriveCamera.RotateStepLeft"
+   __type   =   "InputLinkHoldMr"
+}
+rotateStepRightInputLink   =   {
+   inputLink   =   "DriveCamera.RotateStepRight"
+   __type   =   "InputLinkHoldMr"
+}
+dpadCameraRotationPower   =   0.6
+wheelCameraWInputLink   =   {
+   inputLink   =   "DriveCamera.CameraRotationW"
+   __type   =   "InputLinkHoldMr"
+}
+wheelCameraSInputLink   =   {
+   inputLink   =   "DriveCamera.CameraRotationS"
+   __type   =   "InputLinkHoldMr"
+}
+wheelCameraAInputLink   =   {
+   inputLink   =   "DriveCamera.CameraRotationA"
+   __type   =   "InputLinkHoldMr"
+}
+wheelCameraDInputLink   =   {
+   inputLink   =   "DriveCamera.CameraRotationD"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "MrCameraBase"

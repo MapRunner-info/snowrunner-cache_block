@@ -1,0 +1,77 @@
+view   =   {
+   tabBtnLeft   =   {
+      desc   =   {
+         uiInputName   =   "PrevTarget"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   tabBtnRight   =   {
+      desc   =   {
+         uiInputName   =   "NextTarget"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   incrPartsButton   =   {
+      uiInputName   =   "IncrParts"
+      waitTimeSec   =   0.02
+      __type   =   "CustomHoldButtonView"
+   }
+   decrPartsButton   =   {
+      uiInputName   =   "DecrParts"
+      waitTimeSec   =   0.02
+      __type   =   "CustomHoldButtonView"
+   }
+   resupplyPartsInputName   =   "ResupplyParts"
+   resupplyWheelsInputName   =   "ResupplyWheels"
+   __type   =   "PopupResupplyUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "LoadingCargoPopupNavigationPanel"
+   }
+}
+id   =   "RESUPPLY_REPAIR_PARTS"
+inputScreen   =   {
+   inputsLinks   =   {
+      NextTarget   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      PrevTarget   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      IncrParts   =   {
+         inputLink   =   "Popups.IncreaseCount"
+         __type   =   "InputLinkHoldMr"
+      }
+      DecrParts   =   {
+         inputLink   =   "Popups.DecreaseCount"
+         __type   =   "InputLinkHoldMr"
+      }
+      ResupplyParts   =   {
+         inputLink   =   "Popups.RefuelRepair"
+         __type   =   "InputLinkHoldMr"
+      }
+      ResupplyWheels   =   {
+         inputLink   =   "Popups.RessuplyWheels"
+         __type   =   "InputLinkHoldMr"
+      }
+      Back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+defaultPartPrice   =   2
+defaultWheelPrice   =   50
+__type   =   "PopupWithoutMoveUiController"

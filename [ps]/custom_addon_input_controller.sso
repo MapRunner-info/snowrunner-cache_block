@@ -1,0 +1,147 @@
+inputScreen   =   {
+   name   =   "Custom addon"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+clutchScreen   =   {
+   name   =   "Custom addon clutch screen"
+   inputsLinks   =   {
+      Clutch   =   {
+         inputLink   =   "Truck.ClutchMode"
+         __type   =   "InputLinkHoldMr"
+      }
+      ClutchPedal   =   {
+         inputLink   =   "Truck.ClutchPedal"
+         __type   =   "InputLinkHoldMr"
+      }
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+actionLinks2   =   {
+   "1"   =   {
+      name   =   "CustomAddonsAction1"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_1"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   "2"   =   {
+      name   =   "CustomAddonsAction2"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_2"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   "3"   =   {
+      name   =   "CustomAddonsAction3"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_3"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   "4"   =   {
+      name   =   "CustomAddonsAction4"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_4"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   "5"   =   {
+      name   =   "CustomAddonsAction5"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_5"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   "6"   =   {
+      name   =   "CustomAddonsAction6"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_6"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   "7"   =   {
+      name   =   "CustomAddonsAction7"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_7"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+   "8"   =   {
+      name   =   "CustomAddonsAction8"
+      inputsLinks   =   {
+         action   =   {
+            inputLink   =   "CustomAddons.action_8"
+            __type   =   "InputLinkActionMr"
+         }
+      }
+      __type   =   "SslUiInputScreenMr"
+   }
+}
+vectorActionsLinks   =   {
+   "9"   =   {
+      inputLink   =   "CustomAddons.action_9_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+   "10"   =   {
+      inputLink   =   "CustomAddons.action_10_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+   "11"   =   {
+      inputLink   =   "CustomAddons.action_11_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+   "12"   =   {
+      inputLink   =   "CustomAddons.action_12_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+   "13"   =   {
+      inputLink   =   "CustomAddons.action_13_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+   "14"   =   {
+      inputLink   =   "CustomAddons.action_14_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+   "16"   =   {
+      inputLink   =   "CustomAddons.action_16_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+   "26"   =   {
+      inputLink   =   "CustomAddons.action_26_vector"
+      __type   =   "InputLinkVectorMr"
+   }
+}
+__type   =   "object"

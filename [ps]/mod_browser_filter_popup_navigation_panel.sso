@@ -1,0 +1,14 @@
+useBg   =   False
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   Back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   Reset   =   {
+      text   =   "UI_RESET_FILTERS"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

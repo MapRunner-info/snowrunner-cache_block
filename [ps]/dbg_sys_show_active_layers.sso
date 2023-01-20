@@ -1,0 +1,5 @@
+input   =   {
+   inputLink   =   "DebugDBG.ShowActiveLayers"
+   __type   =   "InputLinkActionMr"
+}
+__type   =   "object"

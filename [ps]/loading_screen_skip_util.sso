@@ -1,0 +1,5 @@
+skipInputLink   =   {
+   inputLink   =   "UI.SkipLoading"
+   __type   =   "InputLinkTapMr"
+}
+__type   =   "object"

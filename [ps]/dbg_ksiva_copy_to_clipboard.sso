@@ -1,0 +1,5 @@
+copyKsivaToClipboardInput   =   {
+   inputLink   =   "DebugDBG.CopyKsivaToClipboard"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "object"

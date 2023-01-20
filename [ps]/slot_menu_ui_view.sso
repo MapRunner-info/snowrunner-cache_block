@@ -1,0 +1,115 @@
+uiObjectDesc   =   {
+   type   =   {
+      truckSwitch   =   {
+         arrowR   =   {
+            focusable   =   False
+            __type   =   "UiGarageSwitchtruckarrow"
+         }
+         arrowL   =   {
+            focusable   =   False
+            __type   =   "UiGarageSwitchtruckarrow"
+         }
+         __type   =   "UiGarageTruckswitchclip"
+      }
+      garageSlots   =   {
+         slot5   =   {
+            focusable   =   False
+            __type   =   "UiGarageGarageslotbtn"
+         }
+         slot4   =   {
+            focusable   =   False
+            __type   =   "UiGarageGarageslotbtn"
+         }
+         slot3   =   {
+            focusable   =   False
+            __type   =   "UiGarageGarageslotbtn"
+         }
+         slot2   =   {
+            focusable   =   False
+            __type   =   "UiGarageGarageslotbtn"
+         }
+         slot1   =   {
+            focusable   =   False
+            __type   =   "UiGarageGarageslotbtn"
+         }
+         slot0   =   {
+            focusable   =   False
+            __type   =   "UiGarageGarageslotbtn"
+         }
+         __type   =   "UiGarageGarageslotsindicator"
+      }
+      placement   =   {
+         visible   =   False
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiGarageGaragescreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+delayBeforeBtnsSubscription   =   200
+featuresDescs   =   {
+   SLOTS   =   {
+      __value   =   "UI_GARAGE_FEATURE_SLOTS"
+   }
+   CUSTOMIZATION   =   {
+      __value   =   "UI_GARAGE_FEATURE_CUSTOMIZATION"
+   }
+   STORE   =   {
+      __value   =   "UI_GARAGE_FEATURE_STORE"
+   }
+   REPAIR   =   {
+      __value   =   "UI_GARAGE_FEATURE_REPAIR"
+   }
+}
+btnNames   =   [
+   "UI_GARAGE_CUSTOMIZE",
+   "UI_GARAGE_WAREHOUSE",
+   "UI_GARAGE_TRUCK_SHOP",
+   "UI_GARAGE_REPAIR",
+   "UI_GARAGE_OUT"
+]
+btnIconDescs   =   [
+   {
+      type   =   {
+         __type   =   "UiIconsLibGaragemenucustomizeicon40"
+      }
+   },
+   {
+      type   =   {
+         __type   =   "UiIconsLibGaragemenutrucksicon40"
+      }
+   },
+   {
+      type   =   {
+         enabled   =   True
+         __type   =   "UiIconsLibGaragemenustoreicon40"
+      }
+   },
+   {
+      type   =   {
+         __type   =   "UiIconsLibUpgradeimg40"
+      }
+   },
+   {
+      type   =   {
+         __type   =   "UiIconsLibGaragemenuexiticon40"
+      }
+   }
+]
+tabBtns   =   [
+   {
+   },
+   {
+   }
+]
+logView   =   {
+   uiAnimatedQueue   =   {
+      placingType   =   1
+      __type   =   "UiGfxAnimatedQueue"
+   }
+   __type   =   "GameLogView"
+}
+focusScreen   =   {
+   __type   =   "UiFocusScreen"
+}
+__type   =   "ScreenViewBase"

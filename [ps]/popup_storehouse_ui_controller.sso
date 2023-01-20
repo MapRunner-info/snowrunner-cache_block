@@ -1,0 +1,106 @@
+view   =   {
+   tabNavBtns   =   [
+      {
+         desc   =   {
+            uiInputName   =   "PrevTab"
+            isButtonWithoutText   =   True
+            clickSound   =   "ui/ui_main_click_in"
+            __type   =   "NavButtonDesc"
+         }
+      },
+      {
+         desc   =   {
+            uiInputName   =   "NextTab"
+            isButtonWithoutText   =   True
+            clickSound   =   "ui/ui_main_click_in"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   ]
+   useCraftBgState   =   True
+   __type   =   "PopupCargoUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "CargoPopupNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupCargoScreenState"
+}
+id   =   "STOREHOUSE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupStorehouseUiController"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Action   =   {
+         inputLink   =   "Popups.Load"
+         __type   =   "InputLinkHoldMr"
+      }
+      PrevTab   =   {
+         inputLink   =   "Popups.SelectPrevMode"
+         __type   =   "InputLinkHoldMr"
+      }
+      NextTab   =   {
+         inputLink   =   "Popups.SelectNextMode"
+         __type   =   "InputLinkHoldMr"
+      }
+      Clear   =   {
+         inputLink   =   "Popups.Clear"
+         __type   =   "InputLinkHoldMr"
+      }
+      SwitchPlaceLeft   =   {
+         inputLink   =   "Popups.SwitchPlaceLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      SwitchPlaceRight   =   {
+         inputLink   =   "Popups.SwitchPlaceRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      SwitchCargoLeft   =   {
+         inputLink   =   "Popups.SwitchCargoLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      SwitchCargoRight   =   {
+         inputLink   =   "Popups.SwitchCargoRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      Down   =   {
+         inputLink   =   "UI.GamepadDPadDown"
+         __type   =   "InputLinkHoldMr"
+      }
+      Up   =   {
+         inputLink   =   "UI.GamepadDPadUp"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+focusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return"
+   ]
+   __type   =   "UiFocusScreen"
+}
+loadingController   =   {
+   showEmptyCargo   =   False
+   __type   =   "PopupCargoLoadingUiController"
+}
+unloadingController   =   {
+   __type   =   "PopupStorehouseUnloadingUiController"
+}
+craftController   =   {
+   __type   =   "PopupCraftUiController"
+}
+__type   =   "PopupUiController"

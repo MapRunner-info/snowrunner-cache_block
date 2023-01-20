@@ -1,0 +1,14 @@
+window   =   {
+   id   =   "DebugSelectLevel"
+   title   =   "DebugSelectLevel"
+   width   =   500
+   heigth   =   600
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   visible   =   False
+   isNoTitlebar   =   True
+   isNoResize   =   True
+   __type   =   "DbgWindow"
+}
+__type   =   "DbgFlippableWindow"

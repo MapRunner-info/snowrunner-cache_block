@@ -1,0 +1,46 @@
+useBg   =   True
+useOffset   =   False
+btns   =   {
+   Back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   Refresh   =   {
+      text   =   "UI_REFRESH"
+      __type   =   "NavButtonDesc"
+   }
+   Subscribe   =   {
+      text   =   "UI_SUBSCRIBE"
+      __type   =   "NavButtonDesc"
+   }
+   Unsubscribe   =   {
+      text   =   "UI_UNSUBSCRIBE"
+      __type   =   "NavButtonDesc"
+   }
+   Enable   =   {
+      text   =   "UI_ENABLE"
+      __type   =   "NavButtonDesc"
+   }
+   Disable   =   {
+      text   =   "UI_DISABLE"
+      __type   =   "NavButtonDesc"
+   }
+   Filter   =   {
+      text   =   "UI_FILTER_SORT"
+      __type   =   "NavButtonDesc"
+   }
+   Search   =   {
+      text   =   "UI_SEARCH"
+      __type   =   "NavButtonDesc"
+   }
+   More   =   {
+      text   =   "UI_MORE_OPTIONS"
+      __type   =   "NavButtonDesc"
+   }
+   FakeZoom   =   {
+      text   =   "UI_SCROLL_DESCRIPTION"
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

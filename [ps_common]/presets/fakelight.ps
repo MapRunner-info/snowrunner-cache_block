@@ -1,0 +1,47 @@
+__type = "section"
+__viewType = {
+   __type = "rootSection"
+}
+__members   =   {
+   FakeLight = {
+      __type = "section"
+      __viewType = {
+         __expand = true
+         __caption = "Fake light params"
+      }
+      __members = {
+         StartDist = {
+            __type = "float"
+            __defaultValue = 15.0
+            __viewType {
+               __wrappable = false
+               __caption = "Start distance"
+            }
+         }
+         EndDist = {
+            __type = "float"
+            __defaultValue = 45.0
+            __viewType {
+               __wrappable = false
+               __caption = "End distance"
+            }
+         }
+		   IntensityScale = {
+		 	 __type = "float"
+		 	 __defaultValue = 1.0
+              __viewType {
+                 __wrappable = false
+                 __caption = "Global intensity scale to boost/fade fakelight effect"
+              }
+		   }
+         IndirectIntensityClamp = {
+		 	 __type = "float"
+		 	 __defaultValue = 100.0
+              __viewType {
+                 __wrappable = false
+                 __caption = "Upper bound value for fake indirect lighting intensity"
+              }
+		   }
+      }   
+   }
+}

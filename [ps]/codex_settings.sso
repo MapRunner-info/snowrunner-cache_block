@@ -1,0 +1,451 @@
+categories   =   {
+   DRIVING   =   {
+      uiName   =   "CODEX_CATEGORY_DRIVING"
+      uiIcon   =   "codexIconDriving40"
+      poster   =   "codexPosterDriving"
+      __type   =   "CodexCategory"
+   }
+   NAVIGATION   =   {
+      uiName   =   "CODEX_CATEGORY_NAVIGATION"
+      uiIcon   =   "codexIconNavigation40"
+      poster   =   "codexPosterNavigation"
+      __type   =   "CodexCategory"
+   }
+   OBJECTIVES   =   {
+      uiName   =   "CODEX_CATEGORY_OBJECTIVES"
+      uiIcon   =   "codexIconObjectives40"
+      poster   =   "codexPosterObjectives"
+      __type   =   "CodexCategory"
+   }
+   CARGO_OPERATIONS   =   {
+      uiName   =   "CODEX_CATEGORY_CARGO_OPERATIONS"
+      uiIcon   =   "codexIconCargo40"
+      poster   =   "codexPosterCargoOps"
+      __type   =   "CodexCategory"
+   }
+   VEHICLES_AND_UPGRADES   =   {
+      uiName   =   "CODEX_CATEGORY_VEHICLES_AND_UPGRADES"
+      uiIcon   =   "codexIconVehUp40"
+      poster   =   "codexPosterDriving"
+      __type   =   "CodexCategory"
+   }
+   DAMAGE_AND_REPAIR   =   {
+      uiName   =   "CODEX_CATEGORY_DAMAGE_AND_REPAIR"
+      uiIcon   =   "codexIconDamage40"
+      poster   =   "codexPosterDamage"
+      __type   =   "CodexCategory"
+   }
+   OTHER   =   {
+      uiName   =   "CODEX_CATEGORY_OTHER"
+      uiIcon   =   "codexIconOther40"
+      poster   =   "codexPosterOther"
+      __type   =   "CodexCategory"
+   }
+}
+pages   =   {
+   ENGINE_STARTED   =   {
+      uiTitle   =   "CODEX_WELCOME_START_HEADER"
+      uiText   =   "CODEX_WELCOME_ENGINE_STARTED_TEXT"
+      categoryId   =   "DRIVING"
+      pcInputs   =   "|MC_PC_space|,[MC_PC/W],|MC_PC_mouse_left_click|+|MC_PC_mouse_middle_click_dir|,[MC_PC/L][MC_PC/R]"
+      xboxInputs   =   "|MC_XB1_RB|,|MC_XB1_RT|,|stickRUdlr|,|stickLLeftRight|"
+      ps4Inputs   =   "|MC_PS4_R1|,|MC_PS4_R2|,|MC_PS4_R_Udlr|,|MC_PS4_LS_LeftRight|"
+      swInputs   =   "|MC_Wheel_R_Up|,|MC_Wheel_Pedal_Tri_R|,|MC_Wheel_Stick_Neutral|,|MC_Wheel|"
+      nx64Inputs   =   "|MC_Switch_R|,|MC_Switch_ZR|,|MC_Switch_RS|,|MC_Switch_LS_LeftRight|"
+      stadiaInputs   =   "|MC_Stadia_R1|,|MC_Stadia_R2|,|MC_Stadia_RS|,|MC_Stadia_LS_Left_Right|"
+      __type   =   "CodexPageWithSpecialInputs"
+   }
+   FIRST_OPEN_MAP   =   {
+      uiTitle   =   "CODEX_FIRST_OPEN_MAP_HEADER"
+      uiText   =   "CODEX_FIRST_OPEN_MAP_TEXT"
+      categoryId   =   "NAVIGATION"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Exploration.ShowMinimap"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   FIRST_MAP   =   {
+      uiTitle   =   "CODEX_FIRST_MAP_TEXT_HEADER"
+      uiText   =   "CODEX_FIRST_MAP_TEXT"
+      categoryId   =   "NAVIGATION"
+      __type   =   "CodexPage"
+   }
+   LOWGEAR   =   {
+      uiTitle   =   "CODEX_MUD_LOWGEAR_HEADER"
+      uiText   =   "CODEX_MUD_LOWGEAR_TEXT"
+      categoryId   =   "DRIVING"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.ClutchMode"
+         },
+         {
+            inputLink   =   "Truck.MoveTransmission"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   AWD   =   {
+      uiTitle   =   "CODEX_WELCOME_AWD_HEADER"
+      uiText   =   "CODEX_WELCOME_AWD_TEXT"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   ROAD_LOWGEAR   =   {
+      uiTitle   =   "CODEX_ROAD_LOWGEAR_TEXT_HEADER"
+      uiText   =   "CODEX_ROAD_LOWGEAR_TEXT"
+      categoryId   =   "DRIVING"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.ClutchMode"
+         },
+         {
+            inputLink   =   "Truck.MoveTransmission"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   RIVER_APPROACH   =   {
+      uiTitle   =   "CODEX_RIVER_APPROACH_HEADER"
+      uiText   =   "CODEX_RIVER_APPROACH_TEXT"
+      categoryId   =   "DRIVING"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Exploration.Menu"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   WATCHTOWER_OPENED_MAP   =   {
+      uiTitle   =   "CODEX_WATCHTOWER_OPENED_MAP_HEADER"
+      uiText   =   "CODEX_WATCHTOWER_OPENED_MAP_TEXT"
+      categoryId   =   "NAVIGATION"
+      __type   =   "CodexPage"
+   }
+   WAYPOINT_TOOL_MAP   =   {
+      uiTitle   =   "CODEX_WAYPOINT_TOOL_MAP_HEADER"
+      uiText   =   "CODEX_WAYPOINT_TOOL_MAP"
+      categoryId   =   "NAVIGATION"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "UI.PlacePathMarker"
+         },
+         {
+            inputLink   =   "UI.ClearPath"
+         },
+         {
+            inputLink   =   "UI.ClearPath"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   TRUCK_DISCOVERED   =   {
+      uiTitle   =   "CODEX_TYPE_TRUCK_HEADER"
+      uiText   =   "CODEX_TYPE_TRUCK_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Exploration.Menu"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   CHANGE_TRUCK   =   {
+      uiTitle   =   "CODEX_CHANGE_TRUCK_TEXT_HEADER"
+      uiText   =   "CODEX_CHANGE_TRUCK_TEXT"
+      categoryId   =   "NAVIGATION"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.Functions"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   OPEN_MAP_FOR_NEXT_CONTRACT   =   {
+      uiTitle   =   "CODEX_TRUCK_OPEN_MAP_FOR_NEXT_CONTRACT_HEADER"
+      uiText   =   "CODEX_TRUCK_OPEN_MAP_FOR_NEXT_CONTRACT_TEXT"
+      categoryId   =   "OBJECTIVES"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Exploration.ShowMinimap"
+         },
+         {
+            inputLink   =   "UI.MinimapNextTab"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   FIRST_CARGO_LOADING   =   {
+      uiTitle   =   "CODEX_FIRST_CARGO_LOADING_HEADER"
+      uiText   =   "CODEX_FIRST_CARGO_LOADING_TEXT"
+      categoryId   =   "CARGO_OPERATIONS"
+      __type   =   "CodexPage"
+   }
+   FIRST_CARGO_UNLOADING   =   {
+      uiTitle   =   "CODEX_FIRST_CARGO_UNLOADING_HEADER"
+      uiText   =   "CODEX_FIRST_CARGO_UNLOADING_TEXT"
+      categoryId   =   "CARGO_OPERATIONS"
+      __type   =   "CodexPage"
+   }
+   ENTER_GARAGE   =   {
+      uiTitle   =   "CODEX_ENTER_GARAGE_HEADER"
+      uiText   =   "CODEX_ENTER_GARAGE_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   RETAIN_TRUCK   =   {
+      uiTitle   =   "CODEX_GARAGE_RETAIN_HEADER"
+      uiText   =   "CODEX_GARAGE_RETAIN_TEXT"
+      categoryId   =   "NAVIGATION"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "UI.TruckRetain"
+         },
+         {
+            inputLink   =   "UI.GoToGlobalMap"
+         },
+         {
+            inputLink   =   "UI.TabBarNextTab"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   GARAGE_SLOT_CHANGED   =   {
+      uiTitle   =   "CODEX_GARAGE_SLOT_CHANGED_HEADER"
+      uiText   =   "CODEX_GARAGE_SLOT_CHANGED"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   ENTER_CUSTOMIZE   =   {
+      uiTitle   =   "CODEX_ENTER_CUSTOMIZE_HEADER"
+      uiText   =   "CODEX_ENTER_CUSTOMIZE_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   CUSTOMIZE_ENGINE   =   {
+      uiTitle   =   "CODEX_CUSTOMIZE_ENGINE_HEADER"
+      uiText   =   "CODEX_CUSTOMIZE_ENGINE_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   CUSTOMIZE_GEARBOX   =   {
+      uiTitle   =   "CODEX_CUSTOMIZE_GEARBOX_HEADER"
+      uiText   =   "CODEX_CUSTOMIZE_GEARBOX_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   CUSTOMIZE_SUSPENSION   =   {
+      uiTitle   =   "CODEX_CUSTOMIZE_SUSPENSION_HEADER"
+      uiText   =   "CODEX_CUSTOMIZE_SUSPENSION_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   CUSTOMIZE_VISUALS   =   {
+      uiTitle   =   "CODEX_CUSTOMIZE_VISUALS_HEADER"
+      uiText   =   "CODEX_CUSTOMIZE_VISUALS_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   ENTER_TRUCKS_BEFORE_RETAIN   =   {
+      uiTitle   =   "CODEX_ENTER_TRUCKS_BEFORE_MAIN_CHAIN_HEADER"
+      uiText   =   "CODEX_ENTER_TRUCKS_BEFORE_MAIN_CHAIN_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   ENTER_TRUCK_STORE   =   {
+      uiTitle   =   "CODEX_ENTER_TRUCK_STORE_HEADER"
+      uiText   =   "CODEX_ENTER_TRUCK_STORE_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   FUEL_STATION_ON_MAP   =   {
+      uiTitle   =   "CODEX_MAP_FUEL_STATION_TEXT_HEADER"
+      uiText   =   "CODEX_MAP_FUEL_STATION_TEXT"
+      categoryId   =   "NAVIGATION"
+      __type   =   "CodexPage"
+   }
+   STUCK_FIRST_TIME   =   {
+      uiTitle   =   "CODEX_STUCK_FIRST_TIME_HEADER"
+      uiText   =   "CODEX_STUCK_FIRST_TIME_TEXT"
+      categoryId   =   "DRIVING"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.Functions"
+         },
+         {
+            inputLink   =   "Truck.PullWinch"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   STUCK_SECOND_TIME   =   {
+      uiTitle   =   "CODEX_STUCK_SECOND_TIME_TEXT_HEADER"
+      uiText   =   "CODEX_STUCK_SECOND_TIME_TEXT"
+      categoryId   =   "DRIVING"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.Functions"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   STUCK_WITH_DIFFLOCK   =   {
+      uiTitle   =   "CODEX_STUCK_WITH_DIFF_LOCK_HEADER"
+      uiText   =   "CODEX_STUCK_WITH_DIFF_LOCK"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   FIRST_DAMAGE   =   {
+      uiTitle   =   "CODEX_FIRST_DAMAGE_HEADER"
+      uiText   =   "CODEX_FIRST_DAMAGE_TEXT"
+      categoryId   =   "DAMAGE_AND_REPAIR"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.Functions"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   OUT_OF_FUEL   =   {
+      uiTitle   =   "CODEX_OUT_OF_FUEL_HEADER"
+      uiText   =   "CODEX_OUT_OF_FUEL_TEXT"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   FIRST_ENTER_CRANE   =   {
+      uiTitle   =   "CODEX_FIRST_ENTER_CRANE_HEADER"
+      uiText   =   "CODEX_FIRST_ENTER_CRANE_TEXT"
+      categoryId   =   "CARGO_OPERATIONS"
+      __type   =   "CodexPage"
+   }
+   TASKGIVER_DISCOVERED   =   {
+      uiTitle   =   "CODEX_TASKGIVER_DISCOVERED_HEADER"
+      uiText   =   "CODEX_TASKGIVER_DISCOVERED_TEXT"
+      categoryId   =   "OBJECTIVES"
+      __type   =   "CodexPage"
+   }
+   LEVEL_UP   =   {
+      uiTitle   =   "CODEX_LEVEL_UP_HEADER"
+      uiText   =   "CODEX_LEVEL_UP_TEXT"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Exploration.PlayerProfile"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   APPROACH_TRAILER   =   {
+      uiTitle   =   "CODEX_TRAILER_NEAR_TEXT_HEADER"
+      uiText   =   "CODEX_APPROACH_TRAILER"
+      categoryId   =   "CARGO_OPERATIONS"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.Functions"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   REPAIR_POSSIBILITY   =   {
+      uiTitle   =   "CODEX_REPAIR_POSSIBILITY_HEADER"
+      uiText   =   "CODEX_REPAIR_POSSIBILITY_TEXT"
+      categoryId   =   "DAMAGE_AND_REPAIR"
+      emeddedIconInputs   =   [
+         {
+            inputLink   =   "Truck.Functions"
+         }
+      ]
+      __type   =   "CodexPageWithInputs"
+   }
+   TRAILER_STORE_APPROACH   =   {
+      uiTitle   =   "CODEX_APPROACH_TRAILER_STORE_HEADER"
+      uiText   =   "CODEX_APPROACH_TRAILER_STORE"
+      categoryId   =   "CARGO_OPERATIONS"
+      __type   =   "CodexPage"
+   }
+   UPGRADE_POPUP   =   {
+      uiTitle   =   "CODEX_UPGRADE_POPUP_HEADER"
+      uiText   =   "CODEX_UPGRADE_POPUP"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   REGIONAL_CONTRACTS   =   {
+      uiTitle   =   "CODEX_REGIONAL_CONTRACTS_HEADER"
+      uiText   =   "CODEX_REGIONAL_CONTRACTS"
+      categoryId   =   "OBJECTIVES"
+      __type   =   "CodexPage"
+   }
+   RIVER_APPROACH_2   =   {
+      uiTitle   =   "CODEX_RIVER_APPROACH_2_HEADER"
+      uiText   =   "CODEX_RIVER_APPROACH_2_TEXT"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   RIVER_APPROACH_3   =   {
+      uiTitle   =   "CODEX_RIVER_APPROACH_3_HEADER"
+      uiText   =   "CODEX_RIVER_APPROACH_3_TEXT"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   RIVER_APPROACH_4   =   {
+      uiTitle   =   "CODEX_RIVER_APPROACH_4_HEADER"
+      uiText   =   "CODEX_RIVER_APPROACH_4_TEXT"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   RIVER_APPROACH_5   =   {
+      uiTitle   =   "CODEX_RIVER_APPROACH_5_HEADER"
+      uiText   =   "CODEX_RIVER_APPROACH_5_TEXT"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   RIVER_APPROACH_6   =   {
+      uiTitle   =   "CODEX_RIVER_APPROACH_6_HEADER"
+      uiText   =   "CODEX_RIVER_APPROACH_6_TEXT"
+      categoryId   =   "DRIVING"
+      __type   =   "CodexPage"
+   }
+   TRUCK_DISCOVERED_2   =   {
+      uiTitle   =   "CODEX_TYPE_TRUCK_2_HEADER"
+      uiText   =   "CODEX_TYPE_TRUCK_2_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   TRUCK_DISCOVERED_3   =   {
+      uiTitle   =   "CODEX_TYPE_TRUCK_3_HEADER"
+      uiText   =   "CODEX_TYPE_TRUCK_3_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   TRUCK_DISCOVERED_4   =   {
+      uiTitle   =   "CODEX_TYPE_TRUCK_4_HEADER"
+      uiText   =   "CODEX_TYPE_TRUCK_4_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   TRUCK_DISCOVERED_5   =   {
+      uiTitle   =   "CODEX_TYPE_TRUCK_5_HEADER"
+      uiText   =   "CODEX_TYPE_TRUCK_5_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   TRUCK_DISCOVERED_6   =   {
+      uiTitle   =   "CODEX_TYPE_TRUCK_6_HEADER"
+      uiText   =   "CODEX_TYPE_TRUCK_6_TEXT"
+      categoryId   =   "VEHICLES_AND_UPGRADES"
+      __type   =   "CodexPage"
+   }
+   YUKON_ENTER   =   {
+      uiTitle   =   "CODEX_YUKON_ENTER_HEADER"
+      uiText   =   "CODEX_YUKON_ENTER_TEXT"
+      categoryId   =   "OBJECTIVES"
+      __type   =   "CodexPage"
+   }
+   GENERATOR   =   {
+      uiTitle   =   "CODEX_GENERATOR_HEADER"
+      uiText   =   "CODEX_GENERATOR_TEXT"
+      categoryId   =   "OBJECTIVES"
+      __type   =   "CodexPage"
+   }
+}
+__type   =   "object"

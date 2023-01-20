@@ -1,0 +1,1272 @@
+ignoreFailures   =   False
+autotestFlow   =   {
+   nodes   =   {
+      OnAutotestStart   =   {
+         viewData   =   {
+            x   =   5414.106
+            y   =   3840.422
+         }
+         OnStart   =   [
+            "CheckUserProfileLoad/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestStart"
+      }
+      BlueprintLibraryFunction_2   =   {
+         captionVar   =   "GetAndLogConfigVars"
+         viewData   =   {
+            x   =   5969.343
+            y   =   3835.225
+         }
+         logic   =   {
+            nodes   =   {
+               AutotestLog   =   {
+                  viewData   =   {
+                     x   =   3872.572
+                     y   =   1098.762
+                  }
+                  OnExit   =   [
+                     "AutotestLog_2/Log"
+                  ]
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               ConcatenateStrings   =   {
+                  viewData   =   {
+                     x   =   3573.037
+                     y   =   1097.27
+                  }
+                  inputStringA   =   {
+                     def   =   "ModsListPath: "
+                     __type   =   "StringRefParam"
+                  }
+                  GetString   =   [
+                     "AutotestLog/logRef/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryConcatenatestrings"
+               }
+               AutotestLog_2   =   {
+                  viewData   =   {
+                     x   =   3872.177
+                     y   =   1195.716
+                  }
+                  OnExit   =   [
+                     "../../../WaitUserMods/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestLog"
+               }
+               ConcatenateStrings_2   =   {
+                  viewData   =   {
+                     x   =   3561.223
+                     y   =   1187.997
+                  }
+                  inputStringA   =   {
+                     def   =   "ReportPath: "
+                     __type   =   "StringRefParam"
+                  }
+                  GetString   =   [
+                     "AutotestLog_2/logRef/cb"
+                  ]
+                  __type   =   "BlueprintStringLibraryConcatenatestrings"
+               }
+               SetBPString_2   =   {
+                  viewData   =   {
+                     x   =   2886.589
+                     y   =   1086.259
+                  }
+                  string   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "ModsListPath"
+                  OnExit   =   [
+                     "SetBPString_2_1/Set"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetConfigVarString_1   =   {
+                  viewData   =   {
+                     x   =   2509.902
+                     y   =   1106.259
+                  }
+                  name   =   {
+                     def   =   "Debug.Autotests.ModsTest.ModsListPath"
+                     __type   =   "StringRefParam"
+                  }
+                  Get   =   [
+                     "SetBPString_2/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetCfgVarString"
+               }
+               GetBPString_2   =   {
+                  viewData   =   {
+                     x   =   3337.323
+                     y   =   1087.837
+                  }
+                  name   =   "ModsListPath"
+                  GetString   =   [
+                     "ConcatenateStrings/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               GetBPString_2_1   =   {
+                  viewData   =   {
+                     x   =   3317.395
+                     y   =   1192.228
+                  }
+                  name   =   "ReportPath"
+                  GetString   =   [
+                     "ConcatenateStrings_2/inputStringB/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpString"
+               }
+               SetBPString_2_1   =   {
+                  viewData   =   {
+                     x   =   2907.395
+                     y   =   1179.228
+                  }
+                  string   =   {
+                     __type   =   "StringRefParam"
+                  }
+                  name   =   "ReportPath"
+                  OnExit   =   [
+                     "AutotestLog/Log"
+                  ]
+                  __type   =   "BlueprintNodeSetBpString"
+               }
+               GetConfigVarString_1_1   =   {
+                  viewData   =   {
+                     x   =   2520.395
+                     y   =   1206.228
+                  }
+                  name   =   {
+                     def   =   "Debug.Autotests.ModsTest.ReportPath"
+                     __type   =   "StringRefParam"
+                  }
+                  Get   =   [
+                     "SetBPString_2_1/string/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetCfgVarString"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/SetBPString_2;Set",
+            "logic/nodes/AutotestLog_2;OnExit"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      CheckUserProfileLoad   =   {
+         viewData   =   {
+            x   =   5641.62
+            y   =   3837.263
+         }
+         OnSuccess   =   [
+            "BlueprintLibraryFunction_2/logic/nodes/SetBPString_2/Set"
+         ]
+         delayBeforeStart   =   100
+         delayBeforeSuccess   =   100
+         __type   =   "BlueprintNodeAutotestTaskCheckUserProfileLoad"
+      }
+      ReadModsList   =   {
+         viewData   =   {
+            x   =   6384.078
+            y   =   3990.105
+         }
+         modListPathParam   =   {
+            __type   =   "StringRefParam"
+         }
+         GetModList   =   [
+            "ForEachIntCOROUTINE/arrayInt/cb"
+         ]
+         __type   =   "BlueprintNodeReadModsList"
+      }
+      GetBPString_2   =   {
+         viewData   =   {
+            x   =   6124.508
+            y   =   4005.95
+         }
+         name   =   "ModsListPath"
+         GetString   =   [
+            "ReadModsList/modListPathParam/cb"
+         ]
+         __type   =   "BlueprintNodeGetBpString"
+      }
+      ForEachIntCOROUTINE   =   {
+         viewData   =   {
+            x   =   6570.645
+            y   =   3832.548
+         }
+         name   =   "mods to check"
+         OnFinish   =   [
+            "AutotestSuccess/Success"
+         ]
+         OnIteration   =   [
+            "SetBPInt/Set"
+         ]
+         GetInt   =   [
+            "SetBPInt/int/cb"
+         ]
+         __type   =   "BlueprintNodeForEachIntCoroutine"
+      }
+      AutotestSuccess   =   {
+         viewData   =   {
+            x   =   6637.516
+            y   =   3730.85
+         }
+         __type   =   "BlueprintNodeAutotestSuccess"
+      }
+      SetBPInt   =   {
+         viewData   =   {
+            x   =   6967.112
+            y   =   3849.994
+         }
+         int   =   {
+            __type   =   "IntRefParam"
+         }
+         name   =   "modId"
+         OnExit   =   [
+            "If_1/Input"
+         ]
+         __type   =   "BlueprintNodeSetBpInt"
+      }
+      BlueprintLibraryFunction_1   =   {
+         captionVar   =   "DownloadMod"
+         viewData   =   {
+            x   =   7631.294
+            y   =   3869.251
+         }
+         logic   =   {
+            nodes   =   {
+               DownloadMod   =   {
+                  viewData   =   {
+                     x   =   7367.895
+                     y   =   3777.048
+                  }
+                  OnSuccess   =   [
+                     "CloseModBrowser/Start"
+                  ]
+                  OnFailed   =   [
+                     "CloseModBrowser_1/Start"
+                  ]
+                  ignoreTaskFail   =   True
+                  delayBeforeStart   =   100
+                  delayBeforeSuccess   =   100
+                  modIdParam   =   {
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodeAutotestTaskDownloadMod"
+               }
+               BlueprintNodeDeleteMod   =   {
+                  viewData   =   {
+                     x   =   6896.645
+                     y   =   3948.298
+                  }
+                  OnSuccess   =   [
+                     "ForEachIntCOROUTINE/ContinueIterate"
+                  ]
+                  ignoreTaskFail   =   False
+                  delayBeforeStart   =   100
+                  delayBeforeSuccess   =   100
+                  modIdParam   =   {
+                     __type   =   "IntRefParam"
+                  }
+               }
+               GetBPIntByRef   =   {
+                  viewData   =   {
+                     x   =   7160.173
+                     y   =   3711.257
+                  }
+                  nameRef   =   {
+                     def   =   "modId"
+                     __type   =   "StringRefParam"
+                  }
+                  GetInt   =   [
+                     "DownloadMod/modIdParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpIntByRef"
+               }
+               ForEachIntCOROUTINE   =   {
+                  viewData   =   {
+                     x   =   6927.589
+                     y   =   3782.009
+                  }
+                  name   =   "mods to delete"
+                  OnFinish   =   [
+                     "DownloadMod/Start"
+                  ]
+                  OnIteration   =   [
+                     "BlueprintNodeDeleteMod/Start"
+                  ]
+                  GetInt   =   [
+                     "BlueprintNodeDeleteMod/modIdParam/cb"
+                  ]
+                  __type   =   "BlueprintNodeForEachIntCoroutine"
+               }
+               OpenModBrowser   =   {
+                  viewData   =   {
+                     x   =   6625.43
+                     y   =   3600.048
+                  }
+                  OnFinished   =   [
+                     "ForEachIntCOROUTINE/StartIterate"
+                  ]
+                  ignoreTaskFail   =   True
+                  delayBeforeStart   =   1200
+                  delayBeforeSuccess   =   100
+                  __type   =   "BlueprintNodeOpenModBrowser"
+               }
+               CloseModBrowser   =   {
+                  viewData   =   {
+                     x   =   7816.76
+                     y   =   3674.386
+                  }
+                  OnFinished   =   [
+                     "../../../If/Input"
+                  ]
+                  ignoreTaskFail   =   True
+                  delayBeforeSuccess   =   100
+                  __type   =   "BlueprintNodeCloseModBrowser"
+               }
+               CloseModBrowser_1   =   {
+                  viewData   =   {
+                     x   =   7811.199
+                     y   =   3862.648
+                  }
+                  OnFinished   =   [
+                     "../../../FinishModCheck_1_1/Start"
+                  ]
+                  delayBeforeSuccess   =   100
+                  __type   =   "BlueprintNodeCloseModBrowser"
+               }
+               GetUserSubscribedMods   =   {
+                  viewData   =   {
+                     x   =   6674.328
+                     y   =   3791.931
+                  }
+                  GetModList   =   [
+                     "ForEachIntCOROUTINE/arrayInt/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetUserSubscribedMods"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/OpenModBrowser;Start",
+            "logic/nodes/CloseModBrowser;OnFinished;OnSuccess;OnSuccessDownload",
+            "logic/nodes/CloseModBrowser_1;OnFinished;OnFailed;OnFailedDownload"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      If   =   {
+         viewData   =   {
+            x   =   7957.871
+            y   =   3875.41
+         }
+         OnTrue   =   [
+            "BlueprintLibraryFunction_3/logic/nodes/ModCheckLog_2/Log"
+         ]
+         OnFalse   =   [
+            "BlueprintLibraryFunction/logic/nodes/MainMenuPressNewGame/Start"
+         ]
+         __type   =   "BlueprintNodeIf"
+      }
+      IsMapMod   =   {
+         viewData   =   {
+            x   =   7955.148
+            y   =   3773.602
+         }
+         GetIsMapMod   =   [
+            "If/condition/cb"
+         ]
+         __type   =   "BlueprintNodeIsMapMod"
+      }
+      WaitUserMods   =   {
+         viewData   =   {
+            x   =   6199.276
+            y   =   3834.505
+         }
+         OnSuccess   =   [
+            "ForEachIntCOROUTINE/StartIterate"
+         ]
+         delayBeforeSuccess   =   100
+         timeout   =   100000
+         __type   =   "BlueprintNodeWaitUserMods"
+      }
+      FinishModCheck_1_1   =   {
+         viewData   =   {
+            x   =   6833.762
+            y   =   4196.632
+         }
+         OnFinished   =   [
+            "ForEachIntCOROUTINE/ContinueIterate"
+         ]
+         ignoreTaskFail   =   True
+         modIdRef   =   {
+            __type   =   "IntRefParam"
+         }
+         __type   =   "BlueprintNodeFinishModCheck"
+      }
+      BlueprintLibraryFunction   =   {
+         captionVar   =   "StartNewGameAndCheckTrucks"
+         viewData   =   {
+            x   =   8183.167
+            y   =   3929.637
+         }
+         logic   =   {
+            nodes   =   {
+               MainMenuPressNewGame   =   {
+                  viewData   =   {
+                     x   =   7568.282
+                     y   =   3642.353
+                  }
+                  OnSuccess   =   [
+                     "WaitLevelLoaded/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskMainMenuPressNewGame"
+               }
+               WaitLevelLoaded   =   {
+                  viewData   =   {
+                     x   =   7593.531
+                     y   =   3756.201
+                  }
+                  OnSuccess   =   [
+                     "UnlockAllItems/Unlock"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskWaitLevelLoaded"
+               }
+               GetBPIntByRef_1   =   {
+                  viewData   =   {
+                     x   =   7399.39
+                     y   =   4230.307
+                  }
+                  nameRef   =   {
+                     def   =   "modId"
+                     __type   =   "StringRefParam"
+                  }
+                  GetInt   =   [
+                     "FinishModCheck/modIdRef/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpIntByRef"
+               }
+               BlueprintLibraryFunction   =   {
+                  captionVar   =   "CheckModTrucks"
+                  viewData   =   {
+                     x   =   7631.886
+                     y   =   4057.189
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        ForEachStringCOROUTINE   =   {
+                           viewData   =   {
+                              x   =   8992.457
+                              y   =   3831.861
+                           }
+                           OnFinish   =   [
+                              "../../../FinishModCheck/Start"
+                           ]
+                           OnIteration   =   [
+                              "SetBPString/Set"
+                           ]
+                           GetString   =   [
+                              "SetBPString/string/cb"
+                           ]
+                           __type   =   "BlueprintNodeForEachStringCoroutine"
+                        }
+                        SetBPString   =   {
+                           viewData   =   {
+                              x   =   9266.32
+                              y   =   3836.697
+                           }
+                           string   =   {
+                              def   =   ""
+                              __type   =   "StringRefParam"
+                           }
+                           name   =   "truckName"
+                           OnExit   =   [
+                              "BlueprintLibraryFunction/logic/nodes/ModCheckLog/Log"
+                           ]
+                           __type   =   "BlueprintNodeSetBpString"
+                        }
+                        BlueprintLibraryFunction   =   {
+                           captionVar   =   "CheckTruck"
+                           viewData   =   {
+                              x   =   9444.856
+                              y   =   4067.539
+                           }
+                           logic   =   {
+                              nodes   =   {
+                                 GarageShopBuyTruckConsole   =   {
+                                    viewData   =   {
+                                       x   =   10315.01
+                                       y   =   4048.612
+                                    }
+                                    OnSuccess   =   [
+                                       "GarageShopGoSlotMenu/Start"
+                                    ]
+                                    delayBeforeStart   =   100
+                                    __type   =   "BlueprintNodeAutotestTaskGarageShopBuyTruckConsole"
+                                 }
+                                 GarageSlotMenuGoShop   =   {
+                                    viewData   =   {
+                                       x   =   10341
+                                       y   =   3952.916
+                                    }
+                                    OnSuccess   =   [
+                                       "GarageShopBuyTruckConsole/Start"
+                                    ]
+                                    delayBeforeStart   =   100
+                                    delayBeforeSuccess   =   100
+                                    __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoShop"
+                                 }
+                                 InGameGoGarage_1   =   {
+                                    viewData   =   {
+                                       x   =   10323.2
+                                       y   =   3853.104
+                                    }
+                                    OnSuccess   =   [
+                                       "GarageSlotMenuGoShop/Start"
+                                    ]
+                                    delayBeforeStart   =   300
+                                    __type   =   "BlueprintNodeAutotestTaskIngameGoGarage"
+                                 }
+                                 GarageShopGoSlotMenu   =   {
+                                    viewData   =   {
+                                       x   =   10372.17
+                                       y   =   4146.555
+                                    }
+                                    OnSuccess   =   [
+                                       "GarageSlotMenuGoCustomization/Start"
+                                    ]
+                                    delayBeforeStart   =   100
+                                    delayBeforeSuccess   =   100
+                                    __type   =   "BlueprintNodeAutotestTaskGarageShopGoSlotMenu"
+                                 }
+                                 GarageSlotMenuGoOut   =   {
+                                    viewData   =   {
+                                       x   =   10371.17
+                                       y   =   4427.055
+                                    }
+                                    OnSuccess   =   [
+                                       "ModCheckLog_1/Log"
+                                    ]
+                                    delayBeforeStart   =   100
+                                    delayBeforeSuccess   =   300
+                                    __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoOut"
+                                 }
+                                 GetCurrentTruck   =   {
+                                    viewData   =   {
+                                       x   =   9988.916
+                                       y   =   4752.305
+                                    }
+                                    GetCurrentTruck   =   [
+                                       "CheckModTruck/currentTruckRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetCurrentTruck"
+                                 }
+                                 ModCheckLog   =   {
+                                    viewData   =   {
+                                       x   =   10120.6
+                                       y   =   3848.428
+                                    }
+                                    OnExit   =   [
+                                       "InGameGoGarage_1/Start"
+                                    ]
+                                    modId   =   {
+                                       __type   =   "IntRefParam"
+                                    }
+                                    __type   =   "BlueprintNodeModCheckLog"
+                                 }
+                                 ConcatenateStrings   =   {
+                                    viewData   =   {
+                                       x   =   9776.854
+                                       y   =   3931.178
+                                    }
+                                    inputStringA   =   {
+                                       def   =   "Started checking mod truck: "
+                                       __type   =   "StringRefParam"
+                                    }
+                                    GetString   =   [
+                                       "ModCheckLog/message/cb"
+                                    ]
+                                    __type   =   "BlueprintStringLibraryConcatenatestrings"
+                                 }
+                                 GetBPString   =   {
+                                    viewData   =   {
+                                       x   =   9557.883
+                                       y   =   4015.947
+                                    }
+                                    name   =   "truckName"
+                                    GetString   =   [
+                                       "ConcatenateStrings/inputStringB/cb",
+                                       "GarageShopBuyTruckConsole/truckNameRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetBpString"
+                                 }
+                                 GetBPIntByRef_2   =   {
+                                    viewData   =   {
+                                       x   =   9857.333
+                                       y   =   3830.271
+                                    }
+                                    nameRef   =   {
+                                       def   =   "modId"
+                                       __type   =   "StringRefParam"
+                                    }
+                                    GetInt   =   [
+                                       "ModCheckLog/modId/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetBpIntByRef"
+                                 }
+                                 CheckModTruck   =   {
+                                    viewData   =   {
+                                       x   =   10344.07
+                                       y   =   4803.018
+                                    }
+                                    OnSuccess   =   [
+                                       "OpenInteractionPanel_1/Open"
+                                    ]
+                                    delayBeforeStart   =   1000
+                                    currentTruckRef   =   {
+                                       __type   =   "TruckRef"
+                                    }
+                                    neededTruckNameRef   =   {
+                                       __type   =   "StringRefParam"
+                                    }
+                                    modIdRef   =   {
+                                       __type   =   "IntRefParam"
+                                    }
+                                    __type   =   "BlueprintNodeCheckModTruck"
+                                 }
+                                 GetBPString_1_1   =   {
+                                    viewData   =   {
+                                       x   =   9661.133
+                                       y   =   4667.072
+                                    }
+                                    name   =   "truckName"
+                                    GetString   =   [
+                                       "CheckModTruck/neededTruckNameRef/cb",
+                                       "ConcatenateStrings_1/inputStringB/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetBpString"
+                                 }
+                                 ModCheckLog_1   =   {
+                                    viewData   =   {
+                                       x   =   10430.72
+                                       y   =   4551.282
+                                    }
+                                    OnExit   =   [
+                                       "OpenInteractionPanel/Open"
+                                    ]
+                                    modId   =   {
+                                       __type   =   "IntRefParam"
+                                    }
+                                    __type   =   "BlueprintNodeModCheckLog"
+                                 }
+                                 ConcatenateStrings_1   =   {
+                                    viewData   =   {
+                                       x   =   9853.721
+                                       y   =   4543.532
+                                    }
+                                    inputStringA   =   {
+                                       def   =   "Buyed truck and got out of garage, started checking truck: "
+                                       __type   =   "StringRefParam"
+                                    }
+                                    GetString   =   [
+                                       "ModCheckLog_1/message/cb"
+                                    ]
+                                    __type   =   "BlueprintStringLibraryConcatenatestrings"
+                                 }
+                                 GetBPIntByRef_2_1   =   {
+                                    viewData   =   {
+                                       x   =   9935.813
+                                       y   =   4620.737
+                                    }
+                                    nameRef   =   {
+                                       def   =   "modId"
+                                       __type   =   "StringRefParam"
+                                    }
+                                    GetInt   =   [
+                                       "ModCheckLog_1/modId/cb",
+                                       "CheckModTruck/modIdRef/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetBpIntByRef"
+                                 }
+                                 OpenInteractionPanel   =   {
+                                    viewData   =   {
+                                       x   =   10358.18
+                                       y   =   4657.281
+                                    }
+                                    OnExit   =   [
+                                       "CheckModTruck/Start"
+                                    ]
+                                    OnFailed   =   [
+                                       "AutotestAssert/Start"
+                                    ]
+                                    __type   =   "BlueprintNodeOpenInteractionPanel"
+                                 }
+                                 GarageSlotMenuGoCustomization   =   {
+                                    viewData   =   {
+                                       x   =   10365.96
+                                       y   =   4247.052
+                                    }
+                                    OnSuccess   =   [
+                                       "GarageCustomizationGoSlotMenu/Start"
+                                    ]
+                                    delayBeforeStart   =   100
+                                    __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoCustomization"
+                                 }
+                                 GarageCustomizationGoSlotMenu   =   {
+                                    viewData   =   {
+                                       x   =   10379.96
+                                       y   =   4336.052
+                                    }
+                                    OnSuccess   =   [
+                                       "GarageSlotMenuGoOut/Start"
+                                    ]
+                                    delayBeforeStart   =   1000
+                                    __type   =   "BlueprintNodeAutotestTaskGarageCustomizationGoSlotMenu"
+                                 }
+                                 InGameGoGarage   =   {
+                                    viewData   =   {
+                                       x   =   10392.61
+                                       y   =   5075.794
+                                    }
+                                    OnSuccess   =   [
+                                       "GarageSlotMenuGoOut_1/Start"
+                                    ]
+                                    delayBeforeStart   =   300
+                                    delayBeforeSuccess   =   400
+                                    __type   =   "BlueprintNodeAutotestTaskIngameGoGarage"
+                                 }
+                                 GarageSlotMenuGoOut_1   =   {
+                                    viewData   =   {
+                                       x   =   10400.89
+                                       y   =   5152.985
+                                    }
+                                    OnSuccess   =   [
+                                       "../../../ForEachStringCOROUTINE/ContinueIterate"
+                                    ]
+                                    delayBeforeStart   =   500
+                                    delayBeforeSuccess   =   300
+                                    __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoOut"
+                                 }
+                                 OpenInteractionPanel_1   =   {
+                                    viewData   =   {
+                                       x   =   10385.84
+                                       y   =   4928.485
+                                    }
+                                    inputName   =   "Close"
+                                    isOpen   =   False
+                                    checkAttempts   =   7
+                                    OnExit   =   [
+                                       "InGameGoGarage/Start"
+                                    ]
+                                    OnFailed   =   [
+                                       "AutotestAssert_1/Start"
+                                    ]
+                                    __type   =   "BlueprintNodeOpenInteractionPanel"
+                                 }
+                                 GetBPString_1_1_1   =   {
+                                    viewData   =   {
+                                       x   =   10880.78
+                                       y   =   4620.597
+                                    }
+                                    name   =   "truckName"
+                                    GetString   =   [
+                                       "ConcatenateStrings_1_1/inputStringB/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetBpString"
+                                 }
+                                 ConcatenateStrings_1_1   =   {
+                                    viewData   =   {
+                                       x   =   11104.62
+                                       y   =   4595.807
+                                    }
+                                    inputStringA   =   {
+                                       def   =   "Failed to open functions with truck: "
+                                       __type   =   "StringRefParam"
+                                    }
+                                    GetString   =   [
+                                       "AutotestAssert/message/cb"
+                                    ]
+                                    __type   =   "BlueprintStringLibraryConcatenatestrings"
+                                 }
+                                 GetBPString_1_1_1_1   =   {
+                                    viewData   =   {
+                                       x   =   10903.28
+                                       y   =   5009.347
+                                    }
+                                    name   =   "truckName"
+                                    GetString   =   [
+                                       "ConcatenateStrings_1_1_1/inputStringB/cb"
+                                    ]
+                                    __type   =   "BlueprintNodeGetBpString"
+                                 }
+                                 ConcatenateStrings_1_1_1   =   {
+                                    viewData   =   {
+                                       x   =   11145.87
+                                       y   =   4972.057
+                                    }
+                                    inputStringA   =   {
+                                       def   =   "Failed to close functions with truck: "
+                                       __type   =   "StringRefParam"
+                                    }
+                                    GetString   =   [
+                                       "AutotestAssert_1/message/cb"
+                                    ]
+                                    __type   =   "BlueprintStringLibraryConcatenatestrings"
+                                 }
+                                 AutotestAssert   =   {
+                                    viewData   =   {
+                                       x   =   11671.82
+                                       y   =   4708.827
+                                    }
+                                    message   =   {
+                                       __type   =   "StringRefParam"
+                                    }
+                                    __type   =   "BlueprintNodeAutotestAssert"
+                                 }
+                                 AutotestAssert_1   =   {
+                                    viewData   =   {
+                                       x   =   11664.32
+                                       y   =   4823.827
+                                    }
+                                    message   =   {
+                                       __type   =   "StringRefParam"
+                                    }
+                                    __type   =   "BlueprintNodeAutotestAssert"
+                                 }
+                              }
+                              __type   =   "BluePrintFunction"
+                           }
+                           external   =   [
+                              "logic/nodes/ModCheckLog;Log",
+                              "logic/nodes/GarageSlotMenuGoOut_1;OnSuccess"
+                           ]
+                        }
+                        GetAllModTrucksNames   =   {
+                           viewData   =   {
+                              x   =   8360.889
+                              y   =   3862.314
+                           }
+                           GetTruckInfo   =   [
+                              "ForEachStringCOROUTINE/arrayString/cb",
+                              "ArrayStringCount/value/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetAllModTrucksNames"
+                        }
+                        ModCheckLog   =   {
+                           viewData   =   {
+                              x   =   8767.589
+                              y   =   3831.818
+                           }
+                           OnExit   =   [
+                              "ForEachStringCOROUTINE/StartIterate"
+                           ]
+                           __type   =   "BlueprintNodeModCheckLog"
+                        }
+                        GetBPIntByRef_1   =   {
+                           viewData   =   {
+                              x   =   8647.277
+                              y   =   3957.396
+                           }
+                           nameRef   =   {
+                              def   =   "modId"
+                              __type   =   "StringRefParam"
+                           }
+                           GetInt   =   [
+                              "ModCheckLog/modId/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetBpIntByRef"
+                        }
+                        ArrayStringCount   =   {
+                           viewData   =   {
+                              x   =   8396.489
+                              y   =   4057.212
+                           }
+                           value   =   {
+                              __type   =   "StringArrayRefParam"
+                           }
+                           Get   =   [
+                              "ConcatenateStrings/inputStringB/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetArrayStringCount"
+                        }
+                        ConcatenateStrings   =   {
+                           viewData   =   {
+                              x   =   8609.846
+                              y   =   4072.185
+                           }
+                           inputStringA   =   {
+                              def   =   "Started checking mod trucks: "
+                              __type   =   "StringRefParam"
+                           }
+                           GetString   =   [
+                              "ModCheckLog/message/cb"
+                           ]
+                           __type   =   "BlueprintStringLibraryConcatenatestrings"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                     "logic/nodes/ModCheckLog;Log;Start;Start"
+                  ]
+               }
+               FinishModCheck   =   {
+                  viewData   =   {
+                     x   =   7631.881
+                     y   =   4193.372
+                  }
+                  OnSuccess   =   [
+                     "ExitGame/Start"
+                  ]
+                  ignoreTaskFail   =   True
+                  modIdRef   =   {
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodeFinishModCheck"
+               }
+               UnlockAllItems   =   {
+                  viewData   =   {
+                     x   =   7660.913
+                     y   =   3904.4
+                  }
+                  OnExit   =   [
+                     "BlueprintLibraryFunction/logic/nodes/ModCheckLog/Log"
+                  ]
+                  __type   =   "BlueprintNodePlayerUnlockAllItems"
+               }
+               ExitGame   =   {
+                  viewData   =   {
+                     x   =   7638.451
+                     y   =   4381.018
+                  }
+                  OnSuccess   =   [
+                     "../../../AutotestLog/Log"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskIngameExitToMenu"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/MainMenuPressNewGame;Start",
+            "logic/nodes/ExitGame;OnSuccess"
+         ]
+      }
+      AutotestLog   =   {
+         viewData   =   {
+            x   =   8499.279
+            y   =   4065.731
+         }
+         OnExit   =   [
+            "ForEachIntCOROUTINE/ContinueIterate"
+         ]
+         logRef   =   {
+            def   =   "Finished mod"
+            __type   =   "StringRefParam"
+         }
+         __type   =   "BlueprintNodeAutotestLog"
+      }
+      BlueprintLibraryFunction_3   =   {
+         captionVar   =   "StartNewGameCustomScenario"
+         viewData   =   {
+            x   =   8178.961
+            y   =   3820.117
+         }
+         logic   =   {
+            nodes   =   {
+               MainMenuPressNewGameCustomScenario   =   {
+                  viewData   =   {
+                     x   =   7721.538
+                     y   =   3528.113
+                  }
+                  OnSuccess   =   [
+                     "WaitLevelLoaded/Start"
+                  ]
+                  OnFailed   =   [
+                     "ModCheckLog/Log"
+                  ]
+                  ignoreTaskFail   =   True
+                  delayBeforeStart   =   100
+                  delayBeforeSuccess   =   100
+                  GetStartingLevel   =   [
+                     "WaitLevelLoaded/expectedLevel/cb"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskMainMenuPressNewGameCustomScenario"
+               }
+               GetBPIntByRef_1   =   {
+                  viewData   =   {
+                     x   =   7345.755
+                     y   =   3586.704
+                  }
+                  nameRef   =   {
+                     def   =   "modId"
+                     __type   =   "StringRefParam"
+                  }
+                  GetInt   =   [
+                     "MainMenuPressNewGameCustomScenario/modMapIdRef/cb",
+                     "FinishModCheck/modIdRef/cb",
+                     "ModCheckLog_2/modId/cb",
+                     "CheckMapMod/modIdRef/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpIntByRef"
+               }
+               FinishModCheck   =   {
+                  viewData   =   {
+                     x   =   7764.056
+                     y   =   3882.248
+                  }
+                  OnFinished   =   [
+                     "ExitGame/Start"
+                  ]
+                  ignoreTaskFail   =   True
+                  modIdRef   =   {
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodeFinishModCheck"
+               }
+               ExitGame   =   {
+                  viewData   =   {
+                     x   =   7771.824
+                     y   =   3999.202
+                  }
+                  OnSuccess   =   [
+                     "../../../AutotestLog/Log"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskIngameExitToMenu"
+               }
+               WaitLevelLoaded   =   {
+                  viewData   =   {
+                     x   =   7749.685
+                     y   =   3668.462
+                  }
+                  OnSuccess   =   [
+                     "CheckMapMod/Start"
+                  ]
+                  OnFailed   =   [
+                     "ModCheckLog_1/Log"
+                  ]
+                  ignoreTaskFail   =   True
+                  __type   =   "BlueprintNodeAutotestTaskWaitLevelLoaded"
+               }
+               FinishModCheck_1   =   {
+                  viewData   =   {
+                     x   =   8759.359
+                     y   =   3643.531
+                  }
+                  OnFinished   =   [
+                     "ExitGame_1/Start"
+                  ]
+                  ignoreTaskFail   =   True
+                  modIdRef   =   {
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodeFinishModCheck"
+               }
+               GetBPIntByRef_1_1   =   {
+                  viewData   =   {
+                     x   =   8125.359
+                     y   =   3604.533
+                  }
+                  nameRef   =   {
+                     def   =   "modId"
+                     __type   =   "StringRefParam"
+                  }
+                  GetInt   =   [
+                     "ModCheckLog/modId/cb",
+                     "ModCheckLog_1/modId/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpIntByRef"
+               }
+               ModCheckLog   =   {
+                  viewData   =   {
+                     x   =   8340.359
+                     y   =   3496.533
+                  }
+                  OnExit   =   [
+                     "FinishModCheck_1_1/Start"
+                  ]
+                  message   =   {
+                     def   =   "Failed to start new custom scenario"
+                     __type   =   "StringRefParam"
+                  }
+                  isError   =   True
+                  __type   =   "BlueprintNodeModCheckLog"
+               }
+               ModCheckLog_1   =   {
+                  viewData   =   {
+                     x   =   8370.359
+                     y   =   3671.531
+                  }
+                  OnExit   =   [
+                     "FinishModCheck_1/Start"
+                  ]
+                  message   =   {
+                     def   =   "Failed to load level"
+                     __type   =   "StringRefParam"
+                  }
+                  isError   =   True
+                  __type   =   "BlueprintNodeModCheckLog"
+               }
+               ExitGame_1   =   {
+                  viewData   =   {
+                     x   =   9115.359
+                     y   =   3646.531
+                  }
+                  OnSuccess   =   [
+                     "../../../AutotestLog/Log"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskIngameExitToMenu"
+               }
+               FinishModCheck_1_1   =   {
+                  viewData   =   {
+                     x   =   8774.359
+                     y   =   3498.531
+                  }
+                  OnFinished   =   [
+                     "../../../AutotestLog/Log"
+                  ]
+                  ignoreTaskFail   =   True
+                  modIdRef   =   {
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodeFinishModCheck"
+               }
+               GetBPIntByRef_1_1_1   =   {
+                  viewData   =   {
+                     x   =   8542.359
+                     y   =   3591.531
+                  }
+                  nameRef   =   {
+                     def   =   "modId"
+                     __type   =   "StringRefParam"
+                  }
+                  GetInt   =   [
+                     "FinishModCheck_1_1/modIdRef/cb",
+                     "FinishModCheck_1/modIdRef/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpIntByRef"
+               }
+               ModCheckLog_2   =   {
+                  viewData   =   {
+                     x   =   7709.593
+                     y   =   3420.895
+                  }
+                  OnExit   =   [
+                     "MainMenuPressNewGameCustomScenario/Start"
+                  ]
+                  message   =   {
+                     def   =   "Started new game custom scenario"
+                     __type   =   "StringRefParam"
+                  }
+                  __type   =   "BlueprintNodeModCheckLog"
+               }
+               CheckMapMod   =   {
+                  viewData   =   {
+                     x   =   7752.041
+                     y   =   3776.301
+                  }
+                  OnFinished   =   [
+                     "FinishModCheck/Start"
+                  ]
+                  modIdRef   =   {
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodeAutotestTaskCheckMapMod"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/ExitGame;OnSuccess",
+            "logic/nodes/FinishModCheck_1_1;OnFinished;OnFailedNewGame;OnFailedNewGame",
+            "logic/nodes/ExitGame_1;OnSuccess;OnFailedLoadLevel;OnFailedLoadLevel",
+            "logic/nodes/ModCheckLog_2;Log;Start;Start"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      GetBPIntByRef_1   =   {
+         viewData   =   {
+            x   =   7943.292
+            y   =   3669.12
+         }
+         nameRef   =   {
+            def   =   "modId"
+            __type   =   "StringRefParam"
+         }
+         GetInt   =   [
+            "IsMapMod/modIdRef/cb"
+         ]
+         __type   =   "BlueprintNodeGetBpIntByRef"
+      }
+      If_1   =   {
+         viewData   =   {
+            x   =   7197.548
+            y   =   3835.585
+         }
+         OnTrue   =   [
+            "Delay/Start"
+         ]
+         OnFalse   =   [
+            "BlueprintLibraryFunction_1/logic/nodes/OpenModBrowser/Start"
+         ]
+         __type   =   "BlueprintNodeIf"
+      }
+      IsModChecked   =   {
+         viewData   =   {
+            x   =   7198.451
+            y   =   3741.399
+         }
+         IsChecked   =   [
+            "If_1/condition/cb"
+         ]
+         __type   =   "BlueprintNodeIsModChecked"
+      }
+      GetBPIntByRef_1_1   =   {
+         viewData   =   {
+            x   =   7202.965
+            y   =   3643.603
+         }
+         nameRef   =   {
+            def   =   "modId"
+            __type   =   "StringRefParam"
+         }
+         GetInt   =   [
+            "IsModChecked/modIdRef/cb"
+         ]
+         __type   =   "BlueprintNodeGetBpIntByRef"
+      }
+      Delay   =   {
+         viewData   =   {
+            x   =   6926.948
+            y   =   4024.601
+         }
+         duration   =   {
+            def   =   0.1
+            __type   =   "FloatRefParam"
+         }
+         OnFinish   =   [
+            "ForEachIntCOROUTINE/ContinueIterate"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      GetBPIntByRef_1_1_1   =   {
+         viewData   =   {
+            x   =   6598.198
+            y   =   4210.852
+         }
+         nameRef   =   {
+            def   =   "modId"
+            __type   =   "StringRefParam"
+         }
+         GetInt   =   [
+            "FinishModCheck_1_1/modIdRef/cb"
+         ]
+         __type   =   "BlueprintNodeGetBpIntByRef"
+      }
+   }
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestBlueprint"

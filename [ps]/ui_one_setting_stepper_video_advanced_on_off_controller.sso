@@ -1,0 +1,5 @@
+presetUiNames   =   [
+   "UI_OPTION_STEPPER_OFF",
+   "UI_OPTION_STEPPER_ON"
+]
+__type   =   "UiOneSettingStepperVideoAdvancedController"

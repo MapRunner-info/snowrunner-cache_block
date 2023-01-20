@@ -1,0 +1,16 @@
+views   =   {
+   STANDARD   =   {
+      __type   =   "TutorialView"
+   }
+   SITUATIVE   =   {
+      __type   =   "TutorialViewSituative"
+   }
+   LARGE   =   {
+      __type   =   "TutorialViewLarge"
+   }
+   LARGE_LONG_LIST   =   {
+      longBullets   =   True
+      __type   =   "TutorialViewLarge"
+   }
+}
+__type   =   "object"

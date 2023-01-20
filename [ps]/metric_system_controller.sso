@@ -1,0 +1,9 @@
+metricUiNames   =   {
+   SI   =   {
+      __value   =   "UI_METRIC_SYSTEM_SI"
+   }
+   AMERICAN   =   {
+      __value   =   "UI_METRIC_SYSTEM_AMERICAN"
+   }
+}
+__type   =   "object"

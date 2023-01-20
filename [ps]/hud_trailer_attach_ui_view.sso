@@ -1,0 +1,15 @@
+typeNames   =   {
+   ALL   =   {
+      __value   =   "ALL"
+   }
+   SCOUT   =   {
+      __value   =   "SCOUT"
+   }
+   OFFROAD   =   {
+      __value   =   "OFFROAD"
+   }
+   SPECIAL   =   {
+      __value   =   "SPECIAL"
+   }
+}
+__type   =   "object"

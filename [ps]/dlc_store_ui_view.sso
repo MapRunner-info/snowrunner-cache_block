@@ -1,0 +1,126 @@
+uiObjectDesc   =   {
+   type   =   {
+      fade   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiMovieClip"
+      }
+      header   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         focusable   =   False
+         __type   =   "UiDlcstoreLibDlcstoreheader"
+      }
+      tabs   =   {
+         focusable   =   False
+         tab0   =   {
+            focusable   =   False
+            __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+         }
+         tab1   =   {
+            focusable   =   False
+            __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+         }
+         tab2   =   {
+            focusable   =   False
+            __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+         }
+         tab3   =   {
+            focusable   =   False
+            __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+         }
+         tab4   =   {
+            focusable   =   False
+            __type   =   "UiDlcstoreLibDlcstorepaneltabbtn"
+         }
+         __type   =   "UiDlcstoreLibDlcstoretabpanel"
+      }
+      storeContent   =   {
+         featuredListCont   =   {
+            focusable   =   False
+            list   =   {
+               focusable   =   False
+               lir   =   {
+                  __type   =   "DlcStoreListLir"
+               }
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiDlcstoreLibDlcstorefeaturedlist"
+            }
+            __type   =   "UiDlcstoreLibDlcstorefeaturedlistcontainer"
+         }
+         featuredPreview   =   {
+            focusable   =   False
+            __type   =   "UiDlcstoreLibDlcstorefeaturedpreview"
+         }
+         listCont   =   {
+            list   =   {
+               lir   =   {
+                  __type   =   "DlcStoreListLir"
+               }
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiDlcstoreLibDlcstorelist"
+            }
+            __type   =   "UiDlcstoreLibDlcstorelistcontainer"
+         }
+         __type   =   "UiDlcstoreLibDlcstorecontent"
+      }
+      listCont   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         visible   =   False
+         focusable   =   False
+         enabled   =   False
+         __type   =   "UiDlcstoreLibDlcstorelistcontainer"
+      }
+      __type   =   "UiDlcstoreLibDlcstorescreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+navBtnTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+inputScreen   =   {
+   inputsLinks   =   {
+      Left   =   {
+         inputLink   =   "UI.UiListLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      Right   =   {
+         inputLink   =   "UI.UiListRight"
+         __type   =   "InputLinkActionMr"
+      }
+      Up   =   {
+         inputLink   =   "UI.UiListUp"
+         __type   =   "InputLinkActionMr"
+      }
+      Down   =   {
+         inputLink   =   "UI.UiListDown"
+         __type   =   "InputLinkActionMr"
+      }
+      LeftTap   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      RightTap   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+      UpTap   =   {
+         inputLink   =   "UI.UiListUpTap"
+         __type   =   "InputLinkActionMr"
+      }
+      DownTap   =   {
+         inputLink   =   "UI.UiListDownTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenViewBase"

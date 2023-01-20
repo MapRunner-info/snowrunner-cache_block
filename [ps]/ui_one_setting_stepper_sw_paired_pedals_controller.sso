@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_STEERING_WHEEL_PAIRED_PEDALS"
+desc   =   "UI_SETTINGS_STEERING_WHEEL_PAIRED_PEDALS_DESC"
+__type   =   "UiOneSettingStepperOnOff"

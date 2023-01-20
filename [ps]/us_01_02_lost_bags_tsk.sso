@@ -1,0 +1,88 @@
+uiDesc   =   "US_01_02_LOST_BAGS_TSK_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_LOST_BAGS_TSK_BAGS"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_TIM_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBags"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      spawnCargoOnStageActive   =   [
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_DROPPED_BUG_A"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBags"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_DROPPED_BUG_B"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBags"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_DROPPED_BUG_C"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBags"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_DROPPED_BUG_D"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBags"
+                  count   =   1
+               }
+            ]
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_LOST_BAGS_TSK_REW"
+recommendedTruck   =   "CRANE"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_LOST_BAGS_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   330
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2900
+   }
+}
+__type   =   "TaskSettings"

@@ -1,0 +1,8 @@
+view   =   {
+   __type   =   "TitleScreenUiView"
+}
+input   =   {
+   inputLink   =   "Popups.Accept"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "ScreenControllerBase"

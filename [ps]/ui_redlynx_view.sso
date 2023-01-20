@@ -1,0 +1,30 @@
+fadeWrapper   =   {
+   __type   =   "null"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiMainMenuRedlynxcontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+redirectFromRedlynxBannerButton   =   {
+   inputLink   =   "UI.RedlynxShowPros"
+   __type   =   "InputLinkHoldMr"
+}
+newsImageDesc   =   {
+   type   =   {
+      visible   =   False
+      focusable   =   False
+      __type   =   "UiEmbeddedImage"
+   }
+   __type   =   "SslDesc"
+}
+qrImageDesc   =   {
+   type   =   {
+      visible   =   False
+      focusable   =   False
+      __type   =   "UiEmbeddedImage"
+   }
+   __type   =   "SslDesc"
+}
+__type   =   "ComponentUiViewBase"

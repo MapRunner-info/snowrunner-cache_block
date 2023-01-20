@@ -1,0 +1,4 @@
+arrayInt   =   {
+   __type   =   "IntArrayRefParam"
+}
+__type   =   "BluePrintNode"

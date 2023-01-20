@@ -1,0 +1,28 @@
+view   =   {
+   __type   =   "PopupRecentPlayersWarningMaxBlockedPlayersView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupRecentPlayersWarningMaxBlockedPlayersNavigationPanel"
+   }
+}
+id   =   "SETTINGS_CHANGE_INPUT"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupRecentPlayersWarningMaxBlockedPlayersController"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

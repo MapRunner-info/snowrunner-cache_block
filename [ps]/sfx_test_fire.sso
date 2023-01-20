@@ -1,0 +1,32 @@
+isStarted   =   True
+particleEmitters   =   {
+   fire   =   {
+      particle   =   "engine_fire"
+      offset   =   {
+         maxRadius   =   {
+            x   =   3
+            z   =   3
+            __type   =   "Vector3d"
+         }
+         __type   =   "EmissionVectorEllipsoid"
+      }
+      velocity   =   {
+         min   =   {
+            y   =   1
+            __type   =   "Vector3d"
+         }
+         max   =   {
+            y   =   20
+            __type   =   "Vector3d"
+         }
+         __type   =   "EmissionVectorBox"
+      }
+      emissionType   =   {
+         min   =   400
+         max   =   700
+         __type   =   "EmissionTypeConstFlow"
+      }
+      __type   =   "ParticleEmitter"
+   }
+}
+__type   =   "MrSfx"

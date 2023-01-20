@@ -1,0 +1,37 @@
+uiDesc   =   "US_02_03_MAZUT_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_AIRPORT"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   5
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_02_02_DRILLING_PARTS_OBJ"
+]
+description   =   "US_02_03_MAZUT_OBJ_REW"
+employer   =   "GREnterprise"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   260
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2050
+   }
+}
+__type   =   "ContractSettings"

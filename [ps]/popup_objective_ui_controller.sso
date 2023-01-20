@@ -1,0 +1,21 @@
+iconsByType   =   {
+   FIND   =   {
+      __value   =   "compassBarMarkerContractFind"
+   }
+   CARGO_DELIVERY   =   {
+      __value   =   "compassBarMarkerContractLoading"
+   }
+   TRUCK_DELIVERY   =   {
+      __value   =   "compassBarMarkerContractTowing"
+   }
+   REPAIR   =   {
+      __value   =   "compassBarMarkerContractMisc"
+   }
+   MISC   =   {
+      __value   =   "compassBarMarkerContractMisc"
+   }
+   CHANGE_TRUCK   =   {
+      __value   =   "compassBarMarkerContractFind"
+   }
+}
+__type   =   "PopupUiController"

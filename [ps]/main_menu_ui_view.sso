@@ -1,0 +1,29 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      focusable   =   False
+      multiplayerMenuAdd   =   {
+         lir   =   {
+            __type   =   "MainMenuLirItem"
+         }
+         __type   =   "UiMainMenuMenubtnlist"
+      }
+      multiplayerMenu   =   {
+         lir   =   {
+            __type   =   "MainMenuLirItem"
+         }
+         __type   =   "UiMainMenuMenubtnlist"
+      }
+      btnList   =   {
+         lir   =   {
+            __type   =   "MainMenuLirItem"
+         }
+         __type   =   "UiMainMenuMenubtnlist"
+      }
+      __type   =   "UiMainMenuMainmenu"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ScreenViewBase"

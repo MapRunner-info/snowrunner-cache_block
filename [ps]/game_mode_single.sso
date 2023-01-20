@@ -1,0 +1,1105 @@
+saveObjs   =   True
+setting   =   {
+   isTutorialEnabled   =   True
+   __type   =   "GameSystemsSetting"
+}
+tutorialSys   =   {
+   stages   =   {
+      START   =   {
+         type   =   "LARGE"
+         data   =   {
+            header   =   "TUTORIAL_WELCOME_START_HEADER"
+            list   =   [
+               "TUTORIAL_WELCOME_START_FIRST_POINT",
+               "TUTORIAL_WELCOME_START_SECOND_POINT",
+               "TUTORIAL_WELCOME_START_THIRD_POINT"
+            ]
+            iconsList   =   [
+               "tutorialShotMichigan"
+            ]
+            text   =   "TUTORIAL_WELCOME_START_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageWelcomeStart"
+      }
+      ENGINE_STARTED   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            header   =   "TUTORIAL_WELCOME_ENGINE_STARTED_HEADER"
+            text   =   "TUTORIAL_WELCOME_ENGINE_STARTED_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         timeToShowSec   =   7.5
+         __type   =   "TutorialStageWelcomeEngineStarted"
+      }
+      ENGINE_STARTED_SECOND   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            header   =   "TUTORIAL_WELCOME_ENGINE_STARTED_HEADER_SECOND"
+            text   =   "TUTORIAL_WELCOME_ENGINE_STARTED_TEXT_SECOND"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         timeToShowSec   =   5
+         __type   =   "TutorialStageWelcomeEngineStartedSecond"
+      }
+      FIRST_OPEN_MAP   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.ShowMinimap"
+               }
+            ]
+            header   =   "TUTORIAL_FIRST_OPEN_MAP_HEADER"
+            text   =   "TUTORIAL_FIRST_OPEN_MAP_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFirstOpenMap"
+      }
+      FIRST_MAP   =   {
+         data   =   {
+            header   =   "TUTORIAL_FIRST_MAP_HEADER"
+            text   =   "TUTORIAL_FIRST_MAP_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFirstMap"
+      }
+      LOWGEAR   =   {
+         type   =   "STANDARD"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.ClutchMode"
+               },
+               {
+                  inputLink   =   "Truck.MoveTransmission"
+               }
+            ]
+            header   =   "TUTORIAL_MUD_LOWGEAR_HEADER"
+            text   =   "TUTORIAL_MUD_LOWGEAR_TEXT"
+            positionPreset   =   "RIGHT"
+            lonelyIcon   =   "tutGearLow"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageLowGear"
+      }
+      AWD   =   {
+         data   =   {
+            header   =   "TUTORIAL_WELCOME_AWD_HEADER"
+            text   =   "TUTORIAL_WELCOME_AWD_TEXT"
+            positionPreset   =   "RIGHT"
+            lonelyIcon   =   "tutAWD"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageWelcomeAwd"
+      }
+      ROAD_LOWGEAR   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.ClutchMode"
+               },
+               {
+                  inputLink   =   "Truck.MoveTransmission"
+               }
+            ]
+            text   =   "TUTORIAL_ROAD_LOWGEAR_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         timeBeforeRepeatSec   =   180
+         __type   =   "TutorialStageRoadLowGear"
+      }
+      RIVER_APPROACH   =   {
+         type   =   "LARGE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.Menu"
+               }
+            ]
+            header   =   "TUTORIAL_RIVER_APPROACH_HEADER"
+            iconsList   =   [
+               "tutorialShotReadTerrain"
+            ]
+            text   =   "TUTORIAL_RIVER_APPROACH_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageRiverApproach"
+      }
+      WATCHTOWER_APPROACH   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_WATCHTOWER_APPROACH_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageWatchtowerApproach"
+      }
+      WATCHTOWER_OPENED   =   {
+         type   =   "LARGE"
+         data   =   {
+            header   =   "TUTORIAL_WATCHTOWER_OPENED_HEADER"
+            iconsList   =   [
+               "tutorialShotWatchtower1",
+               "tutorialShotWatchtower2"
+            ]
+            text   =   "TUTORIAL_WATCHTOWER_OPENED_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         textIfTruckAlreadyFound   =   "TUTORIAL_WATCHTOWER_OPENED_TEXT_2"
+         __type   =   "TutorialStageWatchtowerOpened"
+      }
+      WATCHTOWER_OPENED_MAP   =   {
+         data   =   {
+            header   =   "TUTORIAL_WATCHTOWER_OPENED_MAP_HEADER"
+            text   =   "TUTORIAL_WATCHTOWER_OPENED_MAP_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageWatchtowerOpenedMinimap"
+      }
+      WAYPOINT_TOOL_MAP   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.PlacePathMarker"
+               },
+               {
+                  inputLink   =   "UI.ClearPath"
+               },
+               {
+                  inputLink   =   "UI.ClearPath"
+               }
+            ]
+            header   =   "TUTORIAL_WAYPOINT_TOOL_MAP_HEADER"
+            text   =   "TUTORIAL_WAYPOINT_TOOL_MAP"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "MINIMAP"
+            lonelyIcon   =   "tutGPS"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageWaypointToolMap"
+      }
+      WAYPOINT_TOOL_MAP_CONTEXT   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.PlacePathMarker"
+               }
+            ]
+            text   =   "TUTORIAL_WAYPOINT_TOOL_MAP_CONTEXT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageWaypointToolMapContext"
+      }
+      WATCHTOWER_OPENED_CONTRACT   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_WATCHTOWER_OPENED_CONTRACT_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "HUD"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         __type   =   "TutorialStageWatchtowerOpenedContract"
+      }
+      TRUCK_DISCOVERED   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.Menu"
+               }
+            ]
+            header   =   "TUTORIAL_TYPE_TRUCK_HEADER"
+            text   =   "TUTORIAL_TYPE_TRUCK_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageObjectiveTruckDiscovered"
+      }
+      CHANGE_TRUCK   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.Functions"
+               }
+            ]
+            text   =   "TUTORIAL_CHANGE_TRUCK_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         __type   =   "TutorialStageChangeTruck"
+      }
+      SELECT_TRUCK   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_SELECT_TRUCK_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         __type   =   "TutorialStageSelectTruck"
+      }
+      OPEN_MAP_FOR_NEXT_CONTRACT   =   {
+         data   =   {
+            header   =   "TUTORIAL_TRUCK_OPEN_MAP_FOR_NEXT_CONTRACT_HEADER"
+            text   =   "TUTORIAL_TRUCK_OPEN_MAP_FOR_NEXT_CONTRACT_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageOpenMapForNextContract"
+      }
+      BRIDGE_OPEN_MAP   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.ShowMinimap"
+               }
+            ]
+            text   =   "TUTORIAL_BRIDGE_OPEN_MAP_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         __type   =   "TutorialStageBridgeOpenMap"
+      }
+      MAP_OPENED_FOR_NEXT_CONTRACT   =   {
+         data   =   {
+            header   =   "TUTORIAL_MAP_OPENED_FOR_NEXT_CONTRACT_HEADER"
+            text   =   "TUTORIAL_MAP_OPENED_FOR_NEXT_CONTRACT_TEXT"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "MINIMAP"
+            additionalTextReqLocalization   =   "|clipboardImg30|"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageMapOpenedForNextContract"
+      }
+      CONTRACTS_OPENED   =   {
+         data   =   {
+            header   =   "TUTORIAL_MAP_CONTRACTS_OPENED_HEADER"
+            text   =   "TUTORIAL_MAP_CONTRACTS_OPENED_TEXT"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "MINIMAP"
+            additionalTextReqLocalization   =   "|companyLogo_3_40|"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageContractsOpened"
+      }
+      EMPLOYER_BUTTON_PRESSED   =   {
+         data   =   {
+            header   =   "TUTORIAL_EMPLOYER_BUTTON_PRESSED_HEADER"
+            text   =   "TUTORIAL_EMPLOYER_BUTTON_PRESSED_TEXT"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "MINIMAP"
+            additionalTextReqLocalization   =   "US_01_01_BUILD_A_BRIDGE_OBJ"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageEmployerButtonPressed"
+      }
+      BUILD_BRIDGE_OPENED   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.AcceptContract"
+               }
+            ]
+            header   =   "TUTORIAL_BUILD_BRIDGE_OPENED_HEADER"
+            text   =   "TUTORIAL_BUILD_BRIDGE_OPENED_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageBuildBridgeOpened"
+      }
+      BUILD_BRIDGE_TRACKED   =   {
+         data   =   {
+            header   =   "TUTORIAL_BUILD_BRIDGE_TRACKED_HEADER"
+            text   =   "TUTORIAL_BUILD_BRIDGE_TRACKED_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            additionalTextReqLocalization   =   "|townStorage|,|constructionHardHatImg|"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageBuildBridgeTracked"
+      }
+      BRIDGE_MISSION   =   {
+         type   =   "LARGE"
+         data   =   {
+            header   =   "TUTORIAL_BRIDGE_MISSION_MAP_HEADER"
+            iconsList   =   [
+               "tutorialShotBridge1",
+               "tutorialShotBridge2"
+            ]
+            text   =   "TUTORIAL_BRIDGE_MISSION_MAP_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageBridgeMission"
+      }
+      FIRST_CARGO_LOADING   =   {
+         data   =   {
+            header   =   "TUTORIAL_FIRST_CARGO_LOADING_HEADER"
+            text   =   "TUTORIAL_FIRST_CARGO_LOADING_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFirstCargoLoading"
+      }
+      FIRST_CARGO_LOADING_2   =   {
+         data   =   {
+            header   =   "TUTORIAL_SECOND_CARGO_LOADING_HEADER"
+            text   =   "TUTORIAL_SECOND_CARGO_LOADING_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFirstCargoLoadingSecond"
+      }
+      FIRST_CARGO_UNLOADING   =   {
+         data   =   {
+            header   =   "TUTORIAL_FIRST_CARGO_UNLOADING_HEADER"
+            text   =   "TUTORIAL_FIRST_CARGO_UNLOADING_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFirstCargoUnloading"
+      }
+      COMPLETE_FIRST_STAGE_BUILD_BRIDGE   =   {
+         data   =   {
+            header   =   "TUTORIAL_COMPLETE_FIRST_STAGE_BUILD_BRIDGE_HEADER"
+            text   =   "TUTORIAL_COMPLETE_FIRST_STAGE_BUILD_BRIDGE_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageCompleteFirstStageBuildBridge"
+      }
+      LUMBERMILL_ADVICE   =   {
+         data   =   {
+            header   =   "TUTORIAL_LUMBER_MILL_ADVICE_HEADER"
+            text   =   "TUTORIAL_LUMBER_MILL_ADVICE_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "HUD"
+            __type   =   "TutorialViewUpdateData"
+         }
+         activationRadius   =   80
+         __type   =   "TutorialStageLumbermillAdvice"
+      }
+      CONTRACT_COMPLETED   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.PlayerProfile"
+               }
+            ]
+            header   =   "TUTORIAL_CONTRACT_COMPLETED_HEADER"
+            text   =   "TUTORIAL_CONTRACT_COMPLETED_TEXT"
+            positionPreset   =   "LEFT"
+            additionalTextReqLocalization   =   "|playerProfileCurrency40|,|playerProfileStar40|,|playerProfileStar40|,|playerProfileStar40|"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageContractCompleted"
+      }
+      BUILD_BRIDGE_COMPLETED   =   {
+         data   =   {
+            header   =   "TUTORIAL_BUILD_BRIDGE_COMPLETED_HEADER"
+            iconsList   =   [
+               "tutorialShotBridgeDone"
+            ]
+            text   =   "TUTORIAL_BUILD_BRIDGE_COMPLETED_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageBuildBridgeCompleted"
+      }
+      CHANGE_TRUCK_MAP   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.Accept"
+               }
+            ]
+            header   =   "TUTORIAL_CHANGE_TRUCK_MAP_HEADER"
+            text   =   "TUTORIAL_CHANGE_TRUCK_MAP"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            additionalTextReqLocalization   =   "|minimapImg|"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageChangeTruckMap"
+      }
+      WATCHPOINT_ADVICE   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_WATCHPOINT_ADVICE_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         timeToShowSec   =   8
+         __type   =   "TutorialStageWatchpointAdvice"
+      }
+      GARAGE_APPROACH   =   {
+         type   =   "LARGE"
+         data   =   {
+            header   =   "TUTORIAL_GARAGE_APPROACH_HEADER"
+            iconsList   =   [
+               "tutorialShotGarage"
+            ]
+            text   =   "TUTORIAL_GARAGE_APPROACH_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageGarageApproach"
+      }
+      ENTER_GARAGE   =   {
+         data   =   {
+            header   =   "TUTORIAL_ENTER_GARAGE_HEADER"
+            text   =   "TUTORIAL_ENTER_GARAGE_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            forcedObjectivesUntilCompleted   =   [
+               "US_01_01_EXPLORING_WATCHTOWER_OBJ",
+               "US_01_01_EXPLORING_TRUCK_OBJ",
+               "US_01_01_BUILD_A_BRIDGE_OBJ",
+               "US_01_01_EXPLORE_GARAGE_OBJ"
+            ]
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageEnterGarage"
+      }
+      RETAIN_TRUCK   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.TruckRetain"
+               }
+            ]
+            header   =   "TUTORIAL_GARAGE_RETAIN_HEADER"
+            text   =   "TUTORIAL_GARAGE_RETAIN_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageRetainTruck"
+      }
+      TRUCK_RETAINED   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.GoToGlobalMap"
+               }
+            ]
+            header   =   "TUTORIAL_GARAGE_TRUCK_RETAINED_HEADER"
+            text   =   "TUTORIAL_GARAGE_TRUCK_RETAINED_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageTruckRetained"
+      }
+      ENTER_GLOBAL_MAP_WITH_RETAINED_TRUCK   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.TabBarNextTab"
+               }
+            ]
+            header   =   "TUTORIAL_ENTER_GLOBAL_MAP_WITH_RETAINED_CAR_HEADER"
+            text   =   "TUTORIAL_ENTER_GLOBAL_MAP_WITH_RETAINED_CAR_TEXT"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "GLOBAL_MAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageEnterGlobalMapWithRetainedTruck"
+      }
+      GLOBAL_MAP_SWITCHED_TO_ALASKA   =   {
+         data   =   {
+            header   =   "TUTORIAL_GLOBAL_MAP_SWITHCED_TO_ALASKA_HEADER"
+            text   =   "TUTORIAL_GLOBAL_MAP_SWITHCED_TO_ALASKA_TEXT"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "GLOBAL_MAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageGlobalMapSwitchedToAlaska"
+      }
+      ALASKA_MAP   =   {
+         data   =   {
+            header   =   "TUTORIAL_MAP_ALASKA_HEADER"
+            text   =   "TUTORIAL_MAP_ALASKA_TEXT"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "MINIMAP"
+            additionalTextReqLocalization   =   "|minimapImg|"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageAlaskaMap"
+      }
+      ALASKA_GARAGE   =   {
+         data   =   {
+            header   =   "TUTORIAL_ALASKA_GARAGE_HEADER"
+            text   =   "TUTORIAL_ALASKA_GARAGE_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageAlaskaGarage"
+      }
+      ALASKA_DEPLOY_TRUCK   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.TruckDeploy"
+               }
+            ]
+            header   =   "TUTORIAL_ALASKA_GARAGE_DEPLOY_TRUCK_HEADER"
+            text   =   "TUTORIAL_ALASKA_GARAGE_DEPLOY_TRUCK_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            additionalTextReqLocalization   =   ""
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageAlaskaDeployTruck"
+      }
+      ALASKA_TRUCK_DEPLOYED   =   {
+         data   =   {
+            header   =   "TUTORIAL_ALASKA_GARAGE_TRUCK_DEPLOYED_HEADER"
+            text   =   "TUTORIAL_ALASKA_GARAGE_TRUCK_DEPLOYED_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageAlaskaTruckDeployed"
+      }
+      EXIT_ALASKA_GARAGE   =   {
+         type   =   "LARGE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.ShowMinimap"
+               }
+            ]
+            header   =   "TUTORIAL_ALASKA_EXIT_FROM_GARAGE_HEADER"
+            iconsList   =   [
+               "tutorialShotAlaska"
+            ]
+            text   =   "TUTORIAL_ALASKA_EXIT_FROM_GARAGE_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageExitAlaskaGarage"
+      }
+      GARAGE_SLOT_CHANGED   =   {
+         data   =   {
+            header   =   "TUTORIAL_GARAGE_SLOT_CHANGED_HEADER"
+            text   =   "TUTORIAL_GARAGE_SLOT_CHANGED"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageSlotChanged"
+      }
+      GARAGE_NAVIGATION   =   {
+         data   =   {
+            header   =   "TUTORIAL_GARAGE_NAVIGATION_HEADER"
+            text   =   "TUTORIAL_GARAGE_NAVIGATION_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageGarageNavigation"
+      }
+      ENTER_CUSTOMIZE   =   {
+         data   =   {
+            header   =   "TUTORIAL_ENTER_CUSTOMIZE_HEADER"
+            text   =   "TUTORIAL_ENTER_CUSTOMIZE_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageEnterCustomize"
+      }
+      CUSTOMIZE_ENGINE   =   {
+         data   =   {
+            header   =   "TUTORIAL_CUSTOMIZE_ENGINE_HEADER"
+            text   =   "TUTORIAL_CUSTOMIZE_ENGINE_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageCustomizeEngine"
+      }
+      CUSTOMIZE_GEARBOX   =   {
+         data   =   {
+            header   =   "TUTORIAL_CUSTOMIZE_GEARBOX_HEADER"
+            text   =   "TUTORIAL_CUSTOMIZE_GEARBOX_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageCustomizeGearbox"
+      }
+      CUSTOMIZE_SUSPENSION   =   {
+         data   =   {
+            header   =   "TUTORIAL_CUSTOMIZE_SUSPENSION_HEADER"
+            text   =   "TUTORIAL_CUSTOMIZE_SUSPENSION_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageCustomizeSuspension"
+      }
+      CUSTOMIZE_VISUALS   =   {
+         data   =   {
+            header   =   "TUTORIAL_CUSTOMIZE_VISUALS_HEADER"
+            text   =   "TUTORIAL_CUSTOMIZE_VISUALS_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageCustomizeVisuals"
+      }
+      ENTER_TRUCKS_BEFORE_RETAIN   =   {
+         data   =   {
+            header   =   "TUTORIAL_ENTER_TRUCKS_BEFORE_MAIN_CHAIN_HEADER"
+            text   =   "TUTORIAL_ENTER_TRUCKS_BEFORE_MAIN_CHAIN_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageEnterTrucksBeforeRetain"
+      }
+      ENTER_TRUCK_STORE   =   {
+         data   =   {
+            header   =   "TUTORIAL_ENTER_TRUCK_STORE_HEADER"
+            text   =   "TUTORIAL_ENTER_TRUCK_STORE_TEXT"
+            screenPreset   =   "GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageEnterTruckStore"
+      }
+      FUEL_STATION_ON_MAP   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_MAP_FUEL_STATION_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         __type   =   "TutorialStageFuelStationOnMap"
+      }
+      STUCK_FIRST_TIME   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.Functions"
+               }
+            ]
+            header   =   "TUTORIAL_STUCK_FIRST_TIME_HEADER"
+            text   =   "TUTORIAL_STUCK_FIRST_TIME_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageStuckFirstTime"
+      }
+      STUCK_AND_GO_TO_FUNCTIONS   =   {
+         data   =   {
+            header   =   "TUTORIAL_STUCK_AND_GO_TO_FUNCTIONS_HEADER"
+            text   =   "TUTORIAL_STUCK_AND_GO_TO_FUNCTIONS_TEXT"
+            positionPreset   =   "RIGHT"
+            lonelyIcon   =   "tutWinch1"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageStuckAndGoToFunctions"
+      }
+      ACTIVATE_WINCH   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.PullWinch"
+               }
+            ]
+            text   =   "TUTORIAL_ACTIVATE_WINCH_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageActivateWinch"
+      }
+      STUCK_SECOND_TIME   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_STUCK_SECOND_TIME_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageStuckSecondTime"
+      }
+      STUCK_WITH_DIFFLOCK   =   {
+         data   =   {
+            header   =   "TUTORIAL_STUCK_WITH_DIFF_LOCK_HEADER"
+            text   =   "TUTORIAL_STUCK_WITH_DIFF_LOCK"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageStuckWithDifflock"
+      }
+      STUCK_THIRD_TIME   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_STUCK_THIRD_TIME_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageStuckThirdTime"
+      }
+      STUCK_FOURTH_TIME   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.Functions"
+               }
+            ]
+            text   =   "TUTORIAL_STUCK_FOURTH_TIME_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageStuckFourthTime"
+      }
+      STUCK_AND_GO_TO_MAP   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_STUCK_AND_GO_TO_MAP_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageStuckAndGoToMap"
+      }
+      FIRST_DAMAGE   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.Functions"
+               }
+            ]
+            header   =   "TUTORIAL_FIRST_DAMAGE_HEADER"
+            text   =   "TUTORIAL_FIRST_DAMAGE_TEXT"
+            positionPreset   =   "RIGHT"
+            lonelyIcon   =   "tutDamage"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFirstDamage"
+      }
+      SECOND_DAMAGE   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.Menu"
+               }
+            ]
+            header   =   "TUTORIAL_SECOND_DAMAGE_HEADER"
+            text   =   "TUTORIAL_SECOND_DAMAGE_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageSecondDamage"
+      }
+      OUT_OF_FUEL   =   {
+         data   =   {
+            header   =   "TUTORIAL_OUT_OF_FUEL_HEADER"
+            text   =   "TUTORIAL_OUT_OF_FUEL_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageOutOfFuel"
+      }
+      FIRST_ENTER_CRANE   =   {
+         data   =   {
+            header   =   "TUTORIAL_FIRST_ENTER_CRANE_HEADER"
+            text   =   "TUTORIAL_FIRST_ENTER_CRANE_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFirstEnterCrane"
+      }
+      GATEWAY_APPROACH   =   {
+         data   =   {
+            header   =   "TUTORIAL_GATEWAY_APPROACH_HEADER"
+            text   =   "TUTORIAL_GATEWAY_APPROACH_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageGatewayApproach"
+      }
+      TASKGIVER_APPROACH   =   {
+         data   =   {
+            header   =   "TUTORIAL_TASKGIVER_APPROACH_HEADER"
+            text   =   "TUTORIAL_TASKGIVER_APPROACH_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageTaskgiverApproach"
+      }
+      FUEL_STATION_APPROACH   =   {
+         data   =   {
+            header   =   "TUTORIAL_FUEL_STATION_APPROACH_HEADER"
+            text   =   "TUTORIAL_FUEL_STATION_APPROACH_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageFuelStationApproach"
+      }
+      TASKGIVER_DISCOVERED   =   {
+         data   =   {
+            header   =   "TUTORIAL_TASKGIVER_DISCOVERED_HEADER"
+            text   =   "TUTORIAL_TASKGIVER_DISCOVERED_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageTaskgiverDiscovered"
+      }
+      LEVEL_UP   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.PlayerProfile"
+               }
+            ]
+            header   =   "TUTORIAL_LEVEL_UP_HEADER"
+            text   =   "TUTORIAL_LEVEL_UP_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageLevelUp"
+      }
+      ENTER_PROFILE   =   {
+         data   =   {
+            header   =   "TUTORIAL_ENTER_PROFILE_HEADER"
+            text   =   "TUTORIAL_ENTER_PROFILE_TEXT"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "PROFILE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageEnterProfile"
+      }
+      OPEN_ACTIVE_NOT_TRACKED_OBJECTIVE   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "UI.AcceptContract"
+               }
+            ]
+            header   =   "TUTORIAL_OPEN_ACTIVE_NOT_TRACKED_CONTRACT_HEADER"
+            text   =   "TUTORIAL_OPEN_ACTIVE_NOT_TRACKED_CONTRACT_TEXT"
+            positionPreset   =   "RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageOpenActiveNotTrackedObjective"
+      }
+      APPROACH_TRAILER   =   {
+         data   =   {
+            header   =   "TUTORIAL_APPROACH_TRAILER_HEADER"
+            text   =   "TUTORIAL_APPROACH_TRAILER"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageApproachTrailer"
+      }
+      TRAILER_NEAR   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.Functions"
+               }
+            ]
+            text   =   "TUTORIAL_TRAILER_NEAR_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageTrailerNear"
+      }
+      REPAIR_POSSIBILITY   =   {
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Truck.Functions"
+               }
+            ]
+            header   =   "TUTORIAL_REPAIR_POSSIBILITY_HEADER"
+            text   =   "TUTORIAL_REPAIR_POSSIBILITY_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageRepairPossibility"
+      }
+      REPAIR_FUNCTIONS   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_REPAIR_POSSIBILITY_FUNCTIONS_TEXT"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         __type   =   "TutorialStageRepairFunctions"
+      }
+      REPAIR_MENU   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_REPAIR_MENU_OPENED_TEXT"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageRepairMenu"
+      }
+      TRAILER_STORE_APPROACH   =   {
+         data   =   {
+            header   =   "TUTORIAL_APPROACH_TRAILER_STORE_HEADER"
+            text   =   "TUTORIAL_APPROACH_TRAILER_STORE"
+            positionPreset   =   "RIGHT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageApproachTrailerStore"
+      }
+      TRAILER_STORE   =   {
+         data   =   {
+            header   =   "TUTORIAL_TRAILER_STORE_OPENED_HEADER"
+            text   =   "TUTORIAL_TRAILER_STORE_OPENED"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageTrailerStore"
+      }
+      UPGRADE_POPUP   =   {
+         data   =   {
+            header   =   "TUTORIAL_UPGRADE_POPUP_HEADER"
+            text   =   "TUTORIAL_UPGRADE_POPUP"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageUpgradePopup"
+      }
+      UPGRADE_POPUP_LIST   =   {
+         data   =   {
+            header   =   "TUTORIAL_UPGRADE_POPUP_LIST_HEADER"
+            text   =   "TUTORIAL_UPGRADE_POPUP_LIST"
+            positionPreset   =   "LEFT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageUpgradePopupList"
+      }
+      REGIONAL_CONTRACTS   =   {
+         data   =   {
+            header   =   "TUTORIAL_REGIONAL_CONTRACTS_HEADER"
+            text   =   "TUTORIAL_REGIONAL_CONTRACTS"
+            positionPreset   =   "TOP_RIGHT"
+            screenPreset   =   "MINIMAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageRegionalContracts"
+      }
+      GARAGE_COLLISION   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_COLLISION_GARAGE"
+            __type   =   "TutorialViewUpdateData"
+         }
+         timeToShowSec   =   10
+         __type   =   "TutorialStageGarageCollision"
+      }
+      CODEX   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_CODEX"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageCodex"
+      }
+      LIGHTS   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            text   =   "TUTORIAL_LIGHTS"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageLights"
+      }
+      WATCHTOWER_OPEN_MAP   =   {
+         type   =   "SITUATIVE"
+         data   =   {
+            emeddedIconInputs   =   [
+               {
+                  inputLink   =   "Exploration.ShowMinimap"
+               }
+            ]
+            text   =   "TUTORIAL_WATCHTOWER_OPEN_MAP"
+            __type   =   "TutorialViewUpdateData"
+         }
+         repeatChance   =   0
+         __type   =   "TutorialStageWatchtowerOpenMap"
+      }
+      CRAFT   =   {
+         type   =   "LARGE_LONG_LIST"
+         data   =   {
+            header   =   "TUTORIAL_CRAFT_HEADER"
+            list   =   [
+               "TUTORIAL_CRAFT_FIRST_POINT",
+               "TUTORIAL_CRAFT_SECOND_POINT",
+               "TUTORIAL_CRAFT_THIRD_POINT"
+            ]
+            iconsListByPlatform   =   [
+               {
+                  pcIcon   =   "tutorialShotCraft1"
+                  xboxIcon   =   "tutorialShotCraft1XB"
+                  ps4Icon   =   "tutorialShotCraft1ps"
+               },
+               {
+                  pcIcon   =   "tutorialShotCraft2"
+                  xboxIcon   =   "tutorialShotCraft2XB"
+                  ps4Icon   =   "tutorialShotCraft2PS"
+               }
+            ]
+            text   =   "TUTORIAL_CRAFT_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageCraft"
+      }
+      GENERATOR   =   {
+         type   =   "LARGE_LONG_LIST"
+         data   =   {
+            header   =   "TUTORIAL_GENERATOR_HEADER"
+            list   =   [
+               "TUTORIAL_GENERATOR_FIRST_POINT",
+               "TUTORIAL_GENERATOR_SECOND_POINT"
+            ]
+            iconsList   =   [
+               "tutorialShotGenerator"
+            ]
+            text   =   "TUTORIAL_GENERATOR_TEXT"
+            __type   =   "TutorialViewUpdateData"
+         }
+         __type   =   "TutorialStageGenerator"
+      }
+   }
+   __type   =   "TutorialSystem"
+}
+customScenarioTutorial   =   {
+   stages   =   {
+      CUSTOM_SCENARIO   =   {
+         type   =   "LARGE"
+         __type   =   "TutorialStageCustomScenario"
+      }
+   }
+   __type   =   "TutorialSystem"
+}
+__type   =   "GameModeMasterBase"

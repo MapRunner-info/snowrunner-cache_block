@@ -1,0 +1,78 @@
+classes   =   {
+   AutoClassDefaultbuttonLabelcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_default_lib"
+      symbol   =   ""
+      sslClass   =   "UiDefaultLibAutoclassdefaultbuttonlabelcontainer"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   99.9786
+         scaleY   =   100.116
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Defaultbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "DefaultButton"
+      labelContainer   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   8
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   34
+         __type   =   "UiDefaultLibAutoclassdefaultbuttonlabelcontainer"
+      }
+      __type   =   "UiButton"
+   }
+   Defaultmousecursor   =   {
+      sslModule   =   "ui.autogen_libs.ui_default_lib"
+      symbol   =   "DefaultMouseCursor"
+      sslClass   =   "UiDefaultLibDefaultmousecursor"
+      __type   =   "UiContainer"
+   }
+   Mainmenuscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_default_lib"
+      symbol   =   "mainMenuScreen"
+      sslClass   =   "UiDefaultLibMainmenuscreen"
+      btn0   =   {
+         symbol   =   ""
+         x   =   832
+         y   =   538
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDefaultLibDefaultbutton"
+      }
+      btn1   =   {
+         symbol   =   ""
+         x   =   832
+         y   =   614
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiDefaultLibDefaultbutton"
+      }
+      __type   =   "UiContainer"
+   }
+   Minimapcursor   =   {
+      sslModule   =   "ui.autogen_libs.ui_default_lib"
+      symbol   =   "MinimapCursor"
+      sslClass   =   "UiDefaultLibMinimapcursor"
+      __type   =   "UiContainer"
+   }
+   Minimapcursorsfx   =   {
+      sslModule   =   "ui.autogen_libs.ui_default_lib"
+      symbol   =   "MinimapCursorSFX"
+      sslClass   =   "UiDefaultLibMinimapcursorsfx"
+      __type   =   "UiContainer"
+   }
+   TestRenderClip   =   {
+      sslModule   =   "ui.autogen_libs.ui_default_lib"
+      symbol   =   "Test_render_clip"
+      sslClass   =   "UiDefaultLibTestrenderclip"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

@@ -1,0 +1,15 @@
+areCinematicsAllowed   =   True
+enableTruck   =   True
+enableLegacy   =   True
+enableScaleformMouse   =   False
+enableDriveCameraDragging   =   True
+inputScreen   =   {
+   inputsLinks   =   {
+      ShowMinimap   =   {
+         inputLink   =   "Exploration.ShowMinimap"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "GameStateBase"

@@ -1,0 +1,38 @@
+view   =   {
+   __type   =   "PopupDeployPayView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         deploy   =   {
+            uiInputName   =   "Deploy"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupDeployPayNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupDeployPayScreenState"
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupWarehouseDeploy"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Deploy   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

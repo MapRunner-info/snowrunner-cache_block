@@ -1,0 +1,21 @@
+platform   =   {
+   availablePlatforms   =   {
+      DURANGO   =   {
+         __value   =   False
+      }
+      ORBIS   =   {
+         __value   =   False
+      }
+      NX64   =   {
+         __value   =   False
+      }
+   }
+   __type   =   "UiSettingScreenPresetPlatforms"
+}
+deviceInfo   =   {
+   __type   =   "WheelDeviceInfo"
+}
+inputsToSimulateSection   =   {
+   __type   =   "KeymapSection"
+}
+__type   =   "object"

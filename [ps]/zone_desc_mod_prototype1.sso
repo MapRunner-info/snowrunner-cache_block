@@ -1,0 +1,146 @@
+data   =   {
+   region_prototype   =   {
+      indexOfHubMap   =   1
+      mapDescs   =   {
+         test_repair_and_fuel   =   {
+            indexInRegion   =   1
+            isVanilla   =   True
+            zoneDesc   =   {
+               GARAGE_ENTRANCE   =   {
+                  props   =   {
+                     ZonePropertyGarageEntrance   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               AUTO_REPAIR_AND_RESUPPLY   =   {
+                  props   =   {
+                     ZonePropertyGarageExit   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               FUEL_STATION_1   =   {
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoBricks"
+                           }
+                        ]
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               FUEL_STATION_2   =   {
+                  __type   =   "ZoneSettings"
+               }
+               REPAIR_CARGO_PLATFORM   =   {
+                  props   =   {
+                     ZonePropertyWatchpoint   =   {
+                        range   =   100
+                        animationTime   =   2
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               REPAIR_CARGO_PICKUP_ZONE   =   {
+                  props   =   {
+                     ZonePropertyGateway   =   {
+                        cameraPos   =   {
+                           x   =   -960.9601
+                           y   =   71.27112
+                           z   =   -271.6093
+                           __type   =   "Vector3d"
+                        }
+                        cameraDir   =   {
+                           x   =   0.6419
+                           y   =   -0.31711
+                           z   =   -0.69814
+                           __type   =   "Vector3d"
+                        }
+                        animationTime   =   5000
+                        startDelayTime   =   5000
+                        levelZoneLink   =   "test_cargo || cargo_area_04"
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+         test_cargo   =   {
+            zoneDesc   =   {
+               truck_spawn   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_04   =   {
+                  props   =   {
+                     ZonePropertyGateway   =   {
+                        cameraPos   =   {
+                           x   =   -960.9601
+                           y   =   71.27112
+                           z   =   -271.6093
+                           __type   =   "Vector3d"
+                        }
+                        cameraDir   =   {
+                           x   =   0.6419
+                           y   =   -0.31711
+                           z   =   -0.69814
+                           __type   =   "Vector3d"
+                        }
+                        animationTime   =   8000
+                        startDelayTime   =   3000
+                        levelZoneLink   =   "test_repair_and_fuel || REPAIR_CARGO_PICKUP_ZONE"
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_03   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_02   =   {
+                  props   =   {
+                     ZonePropertyGarageEntrance   =   {
+                     }
+                  }
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_05   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_01   =   {
+                  __type   =   "ZoneSettings"
+               }
+               cargo_area_06   =   {
+                  __type   =   "ZoneSettings"
+               }
+               trailer_garage   =   {
+                  __type   =   "ZoneSettings"
+               }
+            }
+            __type   =   "MapWithZonesDesc"
+         }
+      }
+      __type   =   "ZoneRegionDesc"
+   }
+}
+regions   =   [
+   {
+      uiInfo   =   {
+         uiName   =   "UI_REGION_MOD"
+         uiDesc   =   "UI_REGION_MOD_DESC"
+         mapBackground   =   "michiganBg"
+         __type   =   "RegionUiDesc"
+      }
+      name   =   "region_prototype"
+      country   =   "UU"
+   }
+]
+countries   =   {
+   UU   =   {
+      __value   =   "repair country"
+   }
+}
+startingLevel   =   "test_repair_and_fuel"
+__type   =   "ZoneDescStorageContainerBase"

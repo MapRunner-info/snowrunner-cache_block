@@ -1,0 +1,35 @@
+view   =   {
+   __type   =   "PopupContestUiView"
+}
+navPanels   =   {
+   default   =   {
+      useOffset   =   False
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupContestNavigationPanel"
+   }
+}
+useDefaultAttach   =   False
+inputScreen   =   {
+   name   =   "PopupContest"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkActionMr"
+      }
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Restart   =   {
+         inputLink   =   "UI.RestartContract"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupObjectiveUiController"

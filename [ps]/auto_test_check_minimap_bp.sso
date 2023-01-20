@@ -1,0 +1,67 @@
+autotestFlow   =   {
+   nodes   =   {
+      OnAutotestStart   =   {
+         viewData   =   {
+            x   =   1750
+            y   =   3850
+         }
+         OnStart   =   [
+            "Delay/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestStart"
+      }
+      MainMenuPressStart   =   {
+         viewData   =   {
+            x   =   1950
+            y   =   3850
+         }
+         OnSuccess   =   [
+            "InGameGoMinimap/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskMainMenuPressStart"
+      }
+      InGameGoMinimap   =   {
+         viewData   =   {
+            x   =   2300
+            y   =   3850
+         }
+         OnSuccess   =   [
+            "MinimapGoInGame/Start"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskIngameGoMinimap"
+      }
+      MinimapGoInGame   =   {
+         viewData   =   {
+            x   =   2800
+            y   =   3850
+         }
+         OnSuccess   =   [
+            "AutotestSuccess/Success"
+         ]
+         minimapInputLink   =   {
+            inputLink   =   "UI.Close"
+            __type   =   "InputLinkHoldMr"
+         }
+         __type   =   "BlueprintNodeAutotestTaskMinimapGoIngame"
+      }
+      AutotestSuccess   =   {
+         viewData   =   {
+            x   =   3200
+            y   =   3850
+         }
+         __type   =   "BlueprintNodeAutotestSuccess"
+      }
+      Delay   =   {
+         viewData   =   {
+            x   =   2024.575
+            y   =   3747.364
+         }
+         OnFinish   =   [
+            "InGameGoMinimap/Start"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+   }
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestBlueprint"

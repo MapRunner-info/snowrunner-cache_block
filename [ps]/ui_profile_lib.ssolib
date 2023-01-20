@@ -1,0 +1,2088 @@
+classes   =   {
+   Achievementdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "achievementDesc"
+      sslClass   =   "UiProfileLibAchievementdesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Achievementiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "achievementIconAttach"
+      sslClass   =   "UiProfileLibAchievementiconattach"
+      __type   =   "UiContainer"
+   }
+   Achievementlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "achievementLir"
+      tf0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   63
+         y   =   16
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiProfileLibTasklirtfcont"
+      }
+      icon   =   {
+         symbol   =   ""
+         x   =   33
+         y   =   10
+         scaleX   =   16.6672
+         scaleY   =   16.6672
+         __type   =   "UiProfileLibAchievementiconattach"
+      }
+      isCompleted   =   {
+         sslModule   =   "ui.ui_gfx"
+         symbol   =   ""
+         x   =   533
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      progress   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   529
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiProfileLibAchievementprogresstf"
+      }
+      __type   =   "UiListItem"
+   }
+   Achievementlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Achievementprogresstf   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "achievementProgressTf"
+      sslClass   =   "UiProfileLibAchievementprogresstf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Achievementslot   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "achievementSlot"
+      sslClass   =   "UiProfileLibAchievementslot"
+      description   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   40
+         y   =   212
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiProfileLibAchievementdesc"
+      }
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   40
+         y   =   39
+         scaleX   =   41.6672
+         scaleY   =   41.6672
+         __type   =   "UiProfileLibAchievementiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Cargoiconattachcopy   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "cargoIconAttachcopy"
+      sslClass   =   "UiProfileLibCargoiconattachcopy"
+      __type   =   "UiContainer"
+   }
+   Cargoslot   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "cargoSlot"
+      sslClass   =   "UiProfileLibCargoslot"
+      facilityIcon   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibFacilityiconattach"
+      }
+      cargoIcon   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   70
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   40
+         y   =   64
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargotfcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Cargoslotscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "cargoSlotsCont"
+      sslClass   =   "UiProfileLibCargoslotscont"
+      slotsStepper   =   {
+         symbol   =   ""
+         x   =   154
+         y   =   105
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargoslotsstepper"
+      }
+      slot0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargoslot"
+      }
+      slot1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   100
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargoslot"
+      }
+      slot2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   190
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargoslot"
+      }
+      slot3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   290
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargoslot"
+      }
+      slot4   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   390
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargoslot"
+      }
+      __type   =   "UiContainer"
+   }
+   Cargoslotsstepper   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "cargoSlotsStepper"
+      sslClass   =   "UiProfileLibCargoslotsstepper"
+      p0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   10.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibCargoslotsstepperpoint"
+      }
+      p1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   75
+         y   =   10.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibCargoslotsstepperpoint"
+      }
+      p2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   100
+         y   =   10.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibCargoslotsstepperpoint"
+      }
+      stepperBtnLeft   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      stepperBtnRight   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   129
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Cargoslotsstepperpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "cargoSlotsStepperPoint"
+      sslClass   =   "UiProfileLibCargoslotsstepperpoint"
+      __type   =   "UiContainer"
+   }
+   Cargotfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "cargoTfCont"
+      sslClass   =   "UiProfileLibCargotfcont"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestcup   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestCup"
+      sslClass   =   "UiProfileLibContestcup"
+      __type   =   "UiContainer"
+   }
+   Contestcupcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestCupCont"
+      sslClass   =   "UiProfileLibContestcupcont"
+      cupIcon   =   {
+         symbol   =   ""
+         x   =   226
+         y   =   78
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesticonattach"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestcupdesc"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestcupdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestCupDesc"
+      sslClass   =   "UiProfileLibContestcupdesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestcupprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestCupProgress"
+      sslClass   =   "UiProfileLibContestcupprogress"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesticonattach"
+      }
+      tf   =   {
+         x   =   45
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestcurrecycont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestCurrecyCont"
+      sslClass   =   "UiProfileLibContestcurrecycont"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesticonattach"
+      }
+      tf   =   {
+         x   =   45
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contesticonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestIconattach"
+      sslClass   =   "UiProfileLibContesticonattach"
+      __type   =   "UiContainer"
+   }
+   Contestlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "contestLir"
+      tf0   =   {
+         sslModule   =   "ui.ui_gfx"
+         x   =   20
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      tf1   =   {
+         sslModule   =   "ui.ui_gfx"
+         x   =   40
+         y   =   28
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      progress   =   {
+         symbol   =   ""
+         x   =   460
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTasklirprogress"
+      }
+      __type   =   "UiListItem"
+   }
+   Contestlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Contestprogresscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestProgressCont"
+      sslClass   =   "UiProfileLibContestprogresscont"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesticonattach"
+      }
+      tf   =   {
+         x   =   45
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Contestrewardcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestRewardCont"
+      sslClass   =   "UiProfileLibContestrewardcont"
+      cupCont   =   {
+         symbol   =   ""
+         x   =   -75
+         y   =   44
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestcupcont"
+      }
+      rewardCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   235
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesttaskrewards"
+      }
+      __type   =   "UiContainer"
+   }
+   Contesttaskrewardline   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestTaskRewardLine"
+      sslClass   =   "UiProfileLibContesttaskrewardline"
+      cup   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestcupprogress"
+      }
+      currency   =   {
+         symbol   =   ""
+         x   =   157
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestcurrecycont"
+      }
+      progress   =   {
+         symbol   =   ""
+         x   =   307
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestprogresscont"
+      }
+      __type   =   "UiContainer"
+   }
+   Contesttaskrewards   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestTaskRewards"
+      sslClass   =   "UiProfileLibContesttaskrewards"
+      subHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesttasksubheader"
+      }
+      line2   =   {
+         symbol   =   ""
+         x   =   -7
+         y   =   141
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesttaskrewardline"
+      }
+      line1   =   {
+         symbol   =   ""
+         x   =   -7
+         y   =   101
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesttaskrewardline"
+      }
+      line0   =   {
+         symbol   =   ""
+         x   =   -7
+         y   =   61
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContesttaskrewardline"
+      }
+      __type   =   "UiContainer"
+   }
+   Contesttasksubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "contestTaskSubHeader"
+      sslClass   =   "UiProfileLibContesttasksubheader"
+      tf   =   {
+         x   =   0
+         y   =   -3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Facilityiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "facilityIconAttach"
+      sslClass   =   "UiProfileLibFacilityiconattach"
+      __type   =   "UiContainer"
+   }
+   Newregiontabblinkanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "newRegionTabBlinkAnim"
+      sslClass   =   "UiProfileLibNewregiontabblinkanim"
+      __type   =   "UiContainer"
+   }
+   Panelnavbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "panelNavBtnAttach"
+      sslClass   =   "UiProfileLibPanelnavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Paneltabbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "panelTabBtn"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiProfileLibProfiletabtext"
+      }
+      __type   =   "UiButton"
+   }
+   Playercurrency   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerCurrency"
+      sslClass   =   "UiProfileLibPlayercurrency"
+      icon   =   {
+         symbol   =   ""
+         x   =   253
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayercurrencyval"
+      }
+      __type   =   "UiContainer"
+   }
+   Playercurrencyval   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerCurrencyVal"
+      sslClass   =   "UiProfileLibPlayercurrencyval"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Playerinfocuriconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerInfoCurIconAttach"
+      sslClass   =   "UiProfileLibPlayerinfocuriconattach"
+      __type   =   "UiContainer"
+   }
+   Playerinfoiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerInfoIconAttach"
+      sslClass   =   "UiProfileLibPlayerinfoiconattach"
+      __type   =   "UiContainer"
+   }
+   Playerinfopanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerInfoPanel"
+      sslClass   =   "UiProfileLibPlayerinfopanel"
+      rank   =   {
+         symbol   =   ""
+         x   =   286
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerrank"
+      }
+      nick   =   {
+         symbol   =   ""
+         x   =   -105
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayernickname"
+      }
+      plrIcon   =   {
+         symbol   =   ""
+         x   =   286
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfoiconattach"
+      }
+      spinnerAttach   =   {
+         symbol   =   ""
+         x   =   298
+         y   =   12
+         scaleX   =   39.9994
+         scaleY   =   39.9994
+         __type   =   "UiProfileLibPlayerinfospinnerattach"
+      }
+      userPickBackground   =   {
+         symbol   =   ""
+         x   =   286
+         y   =   0
+         scaleX   =   45.7138
+         scaleY   =   45.7138
+         __type   =   "UiProfileLibUserpickbg"
+      }
+      currency   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayercurrency"
+      }
+      __type   =   "UiContainer"
+   }
+   Playerinfospinnerattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerInfoSpinnerAttach"
+      sslClass   =   "UiProfileLibPlayerinfospinnerattach"
+      __type   =   "UiContainer"
+   }
+   Playernickname   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerNickname"
+      sslClass   =   "UiProfileLibPlayernickname"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Playerrank   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerRank"
+      sslClass   =   "UiProfileLibPlayerrank"
+      tfCont   =   {
+         symbol   =   ""
+         x   =   41.5
+         y   =   41.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerrankval"
+      }
+      icon   =   {
+         symbol   =   ""
+         x   =   44
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Playerrankval   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "playerRankVal"
+      sslClass   =   "UiProfileLibPlayerrankval"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Postergradientshade   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "posterGradientShade"
+      sslClass   =   "UiProfileLibPostergradientshade"
+      __type   =   "UiContainer"
+   }
+   Profileclipheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileClipHeader"
+      sslClass   =   "UiProfileLibProfileclipheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Profilecurrecycont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileCurrecyCont"
+      sslClass   =   "UiProfileLibProfilecurrecycont"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      tf   =   {
+         x   =   43
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Profileexploration   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileExploration"
+      sslClass   =   "UiProfileLibProfileexploration"
+      header   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileclipheader"
+      }
+      tf0   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   59
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      tf1   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   93
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      tf2   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   127
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Profilemainscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileMainScreen"
+      sslClass   =   "UiProfileLibProfilemainscreen"
+      tabPanel   =   {
+         symbol   =   ""
+         x   =   960
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletabpanel"
+      }
+      regionTabsHeader   =   {
+         symbol   =   ""
+         x   =   710
+         y   =   136
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegiontabheader"
+      }
+      regionTabs   =   {
+         symbol   =   ""
+         x   =   580
+         y   =   195
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegiontabpanelnew"
+      }
+      profile   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   350
+         y   =   385
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfilescreen"
+      }
+      tasks   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   350
+         y   =   385
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibTaskscreen"
+      }
+      trucks   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   350
+         y   =   385
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibTruckkscreen"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Profileprogresscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileProgressCont"
+      sslClass   =   "UiProfileLibProfileprogresscont"
+      icon   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      tf   =   {
+         x   =   43
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Profileregionlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "profileRegionLir"
+      tf0   =   {
+         sslModule   =   "ui.ui_gfx"
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      tf1   =   {
+         sslModule   =   "ui.ui_gfx"
+         x   =   440
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiListItem"
+   }
+   Profileregionlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Profileregions   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileRegions"
+      sslClass   =   "UiProfileLibProfileregions"
+      header   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileclipheader"
+      }
+      list   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   74
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegionslistcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Profilescreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileScreen"
+      sslClass   =   "UiProfileLibProfilescreen"
+      userInfo   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileuserinfo"
+      }
+      exploration   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   205
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileexploration"
+      }
+      statistic   =   {
+         symbol   =   ""
+         x   =   620
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfilestatistic"
+      }
+      __type   =   "UiContainer"
+   }
+   Profilestatistic   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileStatistic"
+      sslClass   =   "UiProfileLibProfilestatistic"
+      header   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileclipheader"
+      }
+      tf0   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   59
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      tf1   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   93
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      tf2   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   127
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      tf3   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   161
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      subHeader   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   225
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileclipheader"
+      }
+      tf4   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   264
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      tf5   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   298
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      tf6   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   332
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfiletextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Profiletabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileTabPanel"
+      sslClass   =   "UiProfileLibProfiletabpanel"
+      navAttachR   =   {
+         symbol   =   ""
+         x   =   735
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      navAttachL   =   {
+         symbol   =   ""
+         x   =   -764
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      btnsContainer   =   {
+         symbol   =   ""
+         x   =   -764
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      tab0   =   {
+         symbol   =   ""
+         x   =   -715
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPaneltabbtn"
+      }
+      tab1   =   {
+         symbol   =   ""
+         x   =   -475
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPaneltabbtn"
+      }
+      tab2   =   {
+         symbol   =   ""
+         x   =   -235
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPaneltabbtn"
+      }
+      tab3   =   {
+         symbol   =   ""
+         x   =   5
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPaneltabbtn"
+      }
+      tab4   =   {
+         symbol   =   ""
+         x   =   245
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPaneltabbtn"
+      }
+      tab5   =   {
+         symbol   =   ""
+         x   =   489
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPaneltabbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Profiletabtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileTabText"
+      sslClass   =   "UiProfileLibProfiletabtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Profiletextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileTextCont"
+      sslClass   =   "UiProfileLibProfiletextcont"
+      tf0   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      tf1   =   {
+         x   =   455.95
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Profileusericonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileUserIconAttach"
+      sslClass   =   "UiProfileLibProfileusericonattach"
+      __type   =   "UiContainer"
+   }
+   Profileuserinfo   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileUserInfo"
+      sslClass   =   "UiProfileLibProfileuserinfo"
+      profileIcon   =   {
+         symbol   =   ""
+         x   =   35
+         y   =   29
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileusericonattach"
+      }
+      spinnerAttach   =   {
+         symbol   =   ""
+         x   =   55
+         y   =   49
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfospinnerattach"
+      }
+      userPickBackground   =   {
+         symbol   =   ""
+         x   =   35
+         y   =   29
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibUserpickbg"
+      }
+      userName   =   {
+         symbol   =   ""
+         x   =   185
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileusername"
+      }
+      currency   =   {
+         symbol   =   ""
+         x   =   185
+         y   =   140
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfilecurrecycont"
+      }
+      rank   =   {
+         symbol   =   ""
+         x   =   465
+         y   =   61
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileuserrank"
+      }
+      progress   =   {
+         symbol   =   ""
+         x   =   185
+         y   =   95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibProfileprogresscont"
+      }
+      __type   =   "UiContainer"
+   }
+   Profileusername   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileUserName"
+      sslClass   =   "UiProfileLibProfileusername"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Profileuserrank   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "profileUserRank"
+      sslClass   =   "UiProfileLibProfileuserrank"
+      level   =   {
+         symbol   =   ""
+         x   =   18
+         y   =   30
+         scaleX   =   104.9988
+         scaleY   =   100
+         __type   =   "UiProfileLibRanklevel"
+      }
+      iconAttach   =   {
+         symbol   =   ""
+         x   =   -35
+         y   =   -36
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRankiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Rankiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rankIconattach"
+      sslClass   =   "UiProfileLibRankiconattach"
+      __type   =   "UiContainer"
+   }
+   Ranklevel   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rankLevel"
+      sslClass   =   "UiProfileLibRanklevel"
+      tf   =   {
+         x   =   0.3
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regionarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "regionArrow"
+      hint   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   50
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegionarrowhint"
+      }
+      __type   =   "UiButton"
+   }
+   Regionarrowhint   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionArrowHint"
+      sslClass   =   "UiProfileLibRegionarrowhint"
+      __type   =   "UiContainer"
+   }
+   Regionarrowhintanimation   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionArrowHintAnimation"
+      sslClass   =   "UiProfileLibRegionarrowhintanimation"
+      __type   =   "UiContainer"
+   }
+   Regiongradient   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionGradient"
+      sslClass   =   "UiProfileLibRegiongradient"
+      __type   =   "UiContainer"
+   }
+   Regionprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionProgress"
+      sslClass   =   "UiProfileLibRegionprogress"
+      __type   =   "UiContainer"
+   }
+   Regionslistcontainer   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "regionsListContainer"
+      __type   =   "UiScrollingList"
+   }
+   Regiontab   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "regionTab"
+      lockedBuDLC   =   {
+         sslModule   =   "ui.ui_gfx"
+         colorMode   =   3
+         symbol   =   ""
+         x   =   96
+         y   =   -3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      playerIconAttach   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   30
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegiontabplayericonattach"
+      }
+      iconAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   7.5
+         y   =   7.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiProfileLibRegiontabiconattach"
+      }
+      progressBar   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegionprogress"
+      }
+      tf0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -36
+         y   =   80
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiProfileLibRegiontabtf"
+      }
+      tf1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -1
+         y   =   110
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiProfileLibRegiontabtfsmall"
+      }
+      newRegionBlink   =   {
+         symbol   =   ""
+         x   =   -19
+         y   =   -19
+         scaleX   =   172.5006
+         scaleY   =   172.5006
+         __type   =   "UiProfileLibNewregiontabblinkanim"
+      }
+      __type   =   "UiButton"
+   }
+   Regiontabheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionTabHeader"
+      sslClass   =   "UiProfileLibRegiontabheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regiontabiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionTabIconAttach"
+      sslClass   =   "UiProfileLibRegiontabiconattach"
+      __type   =   "UiContainer"
+   }
+   Regiontabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionTabPanel"
+      sslClass   =   "UiProfileLibRegiontabpanel"
+      navAttachL   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   255
+         y   =   79
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      navAttachR   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   472
+         y   =   79
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      tab0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   330
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegiontab"
+      }
+      tab1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibRegiontab"
+      }
+      tab2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibRegiontab"
+      }
+      tab3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibRegiontab"
+      }
+      tab4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibRegiontab"
+      }
+      tab5   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibRegiontab"
+      }
+      tab6   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibRegiontab"
+      }
+      __type   =   "UiContainer"
+   }
+   Regiontabpanelnew   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionTabPanelNew"
+      sslClass   =   "UiProfileLibRegiontabpanelnew"
+      navAttachL   =   {
+         symbol   =   ""
+         x   =   -85
+         y   =   79
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      navAttachR   =   {
+         symbol   =   ""
+         x   =   812
+         y   =   79
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPanelnavbtnattach"
+      }
+      tab0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      tab1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   160
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      tab2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   330
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      tab3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   500
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      tab4   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   670
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPlayerinfocuriconattach"
+      }
+      regionArrowRight   =   {
+         symbol   =   ""
+         x   =   884
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegionarrow"
+      }
+      regionArrowLeft   =   {
+         symbol   =   ""
+         x   =   -124
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRegionarrow"
+      }
+      __type   =   "UiContainer"
+   }
+   Regiontabplayericonattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionTabPlayerIconAttach"
+      sslClass   =   "UiProfileLibRegiontabplayericonattach"
+      __type   =   "UiContainer"
+   }
+   Regiontabtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionTabTf"
+      sslClass   =   "UiProfileLibRegiontabtf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Regiontabtfsmall   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "regionTabTfSmall"
+      sslClass   =   "UiProfileLibRegiontabtfsmall"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Rewardcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardContainer"
+      sslClass   =   "UiProfileLibRewardcontainer"
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardtitletext"
+      }
+      titleBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   8
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardtitlebg"
+      }
+      desc   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   74
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewarddesc"
+      }
+      cargoSlots   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   65
+         y   =   245
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibCargoslotscont"
+      }
+      rewardSlots   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   160
+         y   =   420
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardslotscont"
+      }
+      contestSlot   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   105
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibContestrewardcont"
+      }
+      achievementInfoSlot   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   9
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiProfileLibAchievementslot"
+      }
+      gradient   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibPostergradientshade"
+      }
+      posterAttach   =   {
+         symbol   =   ""
+         x   =   9
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardiconattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Rewarddesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardDesc"
+      sslClass   =   "UiProfileLibRewarddesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Rewardiconattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardIconAttach"
+      sslClass   =   "UiProfileLibRewardiconattach"
+      __type   =   "UiContainer"
+   }
+   Rewardslot   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardSlot"
+      sslClass   =   "UiProfileLibRewardslot"
+      facilityIcon   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardiconattach"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardtfcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Rewardslotscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardSlotsCont"
+      sslClass   =   "UiProfileLibRewardslotscont"
+      header   =   {
+         symbol   =   ""
+         x   =   40
+         y   =   -20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardtfheader"
+      }
+      slot0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardslot"
+      }
+      slot1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   100
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardslot"
+      }
+      slot2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   200
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardslot"
+      }
+      __type   =   "UiContainer"
+   }
+   Rewardtfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardTfCont"
+      sslClass   =   "UiProfileLibRewardtfcont"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Rewardtfheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardTfHeader"
+      sslClass   =   "UiProfileLibRewardtfheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Rewardtitlebg   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardTitleBg"
+      sslClass   =   "UiProfileLibRewardtitlebg"
+      __type   =   "UiContainer"
+   }
+   Rewardtitletext   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "rewardTitleText"
+      sslClass   =   "UiProfileLibRewardtitletext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Taskcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "taskContainer"
+      sslClass   =   "UiProfileLibTaskcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTasklist"
+      }
+      list2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTasklist2"
+      }
+      list3   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTasklist3"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasklir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "taskLir"
+      tf0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiProfileLibTasklirtfcont"
+      }
+      tf1   =   {
+         animated   =   True
+         colorMode   =   4
+         symbol   =   ""
+         x   =   20
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTasklirtfcont"
+      }
+      reward   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   392
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTasklirrewardcont"
+      }
+      isCompleted   =   {
+         sslModule   =   "ui.ui_gfx"
+         symbol   =   ""
+         x   =   540
+         y   =   15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiListItem"
+   }
+   Tasklirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Tasklirprogress   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "taskLirProgress"
+      sslClass   =   "UiProfileLibTasklirprogress"
+      cup0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestcup"
+      }
+      cup1   =   {
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestcup"
+      }
+      cup2   =   {
+         symbol   =   ""
+         x   =   80
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibContestcup"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasklirrewardcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "taskLirRewardCont"
+      sslClass   =   "UiProfileLibTasklirrewardcont"
+      tf0   =   {
+         x   =   30
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      tf1   =   {
+         x   =   30
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      icon0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      icon1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   32
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasklirtfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "taskLirTfCont"
+      sslClass   =   "UiProfileLibTasklirtfcont"
+      tf   =   {
+         x   =   20
+         y   =   -2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasklist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "taskList"
+      __type   =   "UiScrollingList"
+   }
+   Tasklist2   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "taskList2"
+      __type   =   "UiScrollingList"
+   }
+   Tasklist3   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "taskList3"
+      __type   =   "UiScrollingList"
+   }
+   Taskscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "taskScreen"
+      sslClass   =   "UiProfileLibTaskscreen"
+      taskCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTaskcontainer"
+      }
+      rewardCont   =   {
+         symbol   =   ""
+         x   =   620
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibRewardcontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Tasktabbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "taskTabBtn"
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   65
+         __type   =   "UiProfileLibTasktabtf"
+      }
+      __type   =   "UiButton"
+   }
+   Tasktabtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "taskTabTf"
+      sslClass   =   "UiProfileLibTasktabtf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckkscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "truckkScreen"
+      sslClass   =   "UiProfileLibTruckkscreen"
+      trucksList   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiProfileLibTruckstilelist"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckstilelist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "trucksTileList"
+      __type   =   "UiTileList"
+   }
+   Userpickbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_profile_lib"
+      symbol   =   "userPickBg"
+      sslClass   =   "UiProfileLibUserpickbg"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

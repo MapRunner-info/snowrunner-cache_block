@@ -1,0 +1,21 @@
+navBtnTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+inputScreen   =   {
+   name   =   "UiSettingsTab"
+   inputsLinks   =   {
+      TabLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      TabRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "SelectableItemsContainer"

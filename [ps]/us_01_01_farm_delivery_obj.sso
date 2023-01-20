@@ -1,0 +1,33 @@
+uiDesc   =   "US_01_01_FARM_DELIVERY_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "TOOLS_FOR_FARMERS"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_01 || US_01_01_FARM"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_01_FARM_DELIVERY_TRAILER_TO_FARM"
+            afterStageFinished   =   "DESTROY"
+         }
+      ]
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_EXPLORE_GARAGE_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_01_FARM_DELIVERY_REWARD_DESC"
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   130
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1050
+   }
+}
+contractMap   =   "level_us_01_01"
+__type   =   "ContractSettings"

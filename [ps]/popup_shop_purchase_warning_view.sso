@@ -1,0 +1,18 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         textCont   =   {
+            isHtml   =   True
+            __type   =   "UiPopupLibHudpopupcontexttf"
+         }
+         __type   =   "UiPopupLibHudpopupcontext"
+      }
+      __type   =   "UiPopupLibMenuanimcontextpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+expIcon   =   "playerProfileStar20"
+__type   =   "PopupViewBase"

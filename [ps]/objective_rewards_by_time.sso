@@ -1,0 +1,12 @@
+timeSettings   =   {
+   GOLD   =   {
+      __type   =   "ContestResultRewards"
+   }
+   SILVER   =   {
+      __type   =   "ContestResultRewards"
+   }
+   BRONZE   =   {
+      __type   =   "ContestResultRewards"
+   }
+}
+__type   =   "ObjectiveRewardSettingsBase"

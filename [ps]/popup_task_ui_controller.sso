@@ -1,0 +1,53 @@
+view   =   {
+   __type   =   "PopupTaskUiView"
+}
+navPanels   =   {
+   PopupTaskNavigationPanel   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         details   =   {
+            uiInputName   =   "Details"
+            __type   =   "NavButtonDesc"
+         }
+         track   =   {
+            uiInputName   =   "Details"
+            __type   =   "NavButtonDesc"
+         }
+         untrack   =   {
+            uiInputName   =   "Details"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+state   =   {
+   __type   =   "PopupTaskState"
+}
+id   =   "TAKE_TASK"
+useDefaultAttach   =   False
+inputScreen   =   {
+   name   =   "PopupTask"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Close   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkActionMr"
+      }
+      Details   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkActionMr"
+      }
+      Restart   =   {
+         inputLink   =   "UI.RestartContract"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupObjectiveUiController"

@@ -1,0 +1,4 @@
+id   =   "SYSTEM_MESSAGE_LOST_CONNECTION"
+title   =   "UI_SYSTEM_MESSAGE_LOST_CONNECTION_TITLE"
+message   =   "UI_SYSTEM_MESSAGE_LOST_CONNECTION_TEXT"
+__type   =   "SystemMessageUiController"

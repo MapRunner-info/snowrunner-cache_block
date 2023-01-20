@@ -1,0 +1,176 @@
+contractButtonSounds   =   {
+   EMPTY   =   {
+   }
+   ACCEPT_AND_OR_START_TRACKING   =   {
+      __value   =   "ui/ui_accept"
+   }
+   STOP_TRACKING   =   {
+      __value   =   "ui/ui_stoptracking"
+   }
+}
+notifyIconName   =   "taskNotify20"
+blockerZoneIcon   =   "upgradeCreateImg30"
+regionalProgressIcon   =   "regionIcon30"
+tabsHeaders   =   [
+   "UI_MINIMAP_TAB_HEADER_OBJECTS",
+   "UI_MINIMAP_TAB_HEADER_CONTRACTS",
+   "UI_MINIMAP_TAB_HEADER_TASKS"
+]
+tabsIconLinkage   =   [
+   "minimapImg",
+   "clipboardImg",
+   "taskImg40"
+]
+tabNavBtns   =   [
+   {
+      desc   =   {
+         uiInputName   =   "TabPrev"
+         clickSound   =   "ui/ui_main_click_in"
+         isButtonWithoutText   =   True
+         __type   =   "NavButtonDesc"
+      }
+   },
+   {
+      desc   =   {
+         uiInputName   =   "TabNext"
+         clickSound   =   "ui/ui_main_click_in"
+         isButtonWithoutText   =   True
+         __type   =   "NavButtonDesc"
+      }
+   }
+]
+contractDescription   =   {
+   __type   =   "AccordionList"
+}
+contestDescription   =   {
+   __type   =   "AccordionList"
+}
+shortDescription   =   {
+   __type   =   "AccordionList"
+}
+stageHeaderIcons   =   {
+   __type   =   "ObjectiveStageHeaderIcons"
+}
+inputScreen   =   {
+   name   =   "SidepanelView"
+   inputsLinks   =   {
+      ContractAccept   =   {
+         inputLink   =   "UI.AcceptContract"
+         __type   =   "InputLinkActionMr"
+      }
+      ContractRestart   =   {
+         inputLink   =   "UI.RestartContract"
+         __type   =   "InputLinkHoldMr"
+      }
+      TabPrev   =   {
+         inputLink   =   "UI.MinimapPrevTab"
+         __type   =   "InputLinkActionMr"
+      }
+      TabNext   =   {
+         inputLink   =   "UI.MinimapNextTab"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+recommendedTruckIcons   =   {
+   CRANE   =   {
+      __value   =   "manualLoadingImg40"
+   }
+   OFFROAD   =   {
+      __value   =   "offroadTruckImg40"
+   }
+   SCOUT   =   {
+      __value   =   "scoutTruckImg"
+   }
+   SEISMIC   =   {
+      __value   =   "seismicVibratorImg40"
+   }
+   METAL_DETECTOR   =   {
+      __value   =   "metalDetectorImg40"
+   }
+   LOGS   =   {
+      __value   =   "manualLoadingNoStroke"
+   }
+   FARMING_EQUIPMENT   =   {
+      __value   =   "farmingRecommendImg40"
+   }
+   KIROVETS_MANIPULATOR   =   {
+      __value   =   "ManipulatorImg40"
+   }
+   NONE   =   {
+   }
+}
+recommendedTruckDesc   =   {
+   CRANE   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_CRANE"
+   }
+   OFFROAD   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_OFFROAD"
+   }
+   SCOUT   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_SCOUT"
+   }
+   SEISMIC   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_SEISMIC"
+   }
+   METAL_DETECTOR   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_METAL_DETECTOR"
+   }
+   LOGS   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_LOGS"
+   }
+   FARMING_EQUIPMENT   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_FARMING_EQUIPMENT"
+   }
+   KIROVETS_MANIPULATOR   =   {
+      __value   =   "UI_HUD_RECOMMENDED_TRUCK_MANIPULATOR_EQUIPMENT"
+   }
+   NONE   =   {
+   }
+}
+requiredSaddle   =   "UI_HUD_REQUIRED_SADDLE,"
+rewCurrIcon   =   "playerProfileCurrency40"
+rewExpIcon   =   "playerProfileStar40"
+offsets   =   {
+   BG_HEIGHT_OFFSET   =   {
+      __value   =   20
+   }
+   OFFSET_BEFORE_LIST   =   {
+      __value   =   0
+   }
+   OFFSET_BEFORE_WARNINGS   =   {
+      __value   =   15
+   }
+   OFFSET_BETWEEN_WARNINGS   =   {
+      __value   =   0
+   }
+   OFFSET_BEFORE_SEPARATOR   =   {
+      __value   =   0
+   }
+   OFFSET_BEFORE_REWARD   =   {
+      __value   =   15
+   }
+}
+cupLinkages   =   {
+   GOLD   =   {
+      __value   =   "cupImgGold40"
+   }
+   SILVER   =   {
+      __value   =   "cupImgSilver40"
+   }
+   BRONZE   =   {
+      __value   =   "cupImgBronze40"
+   }
+}
+uiFocusScreenForList   =   {
+   __type   =   "UiFocusScreen"
+}
+uiFocusScreenForAccordion   =   {
+   __type   =   "UiFocusScreen"
+}
+tabsManager   =   {
+   clickSound   =   "ui/ui_main_click_in"
+   __type   =   "UiButtonSelectedManagerWrapper"
+}
+__type   =   "ComponentUiViewBase"

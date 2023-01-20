@@ -1,0 +1,66 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	Section1	=	{
+		__type = "section"
+		__viewType = {
+			__caption = "SectionCaption"
+		}
+		__members	 =	{
+			Value1 = {
+				__type = "bool"
+				__defaultValue = true
+				__viewType = {
+					__hint = "bool type value"
+				}
+			}
+			Value2 = {
+				__type = "float"
+				__defaultValue = 10.0
+				__viewType = {
+					__type = "slider"
+					__caption = "AAA"
+					__min = -10.0
+					__max = 123.45
+				}
+			}
+			Value3 = {
+				__type = "colorRGBA"
+			}
+			Value4 = {
+				__type = "float"
+				__defaultValue = 15.0
+				__viewType = {
+					__caption = "CCC"
+				}
+			}
+			Value5 = {
+				__type = "float"
+				__defaultValue = 15.0
+				__viewType = {
+					__min = 1.0
+					__max = 100.0
+					__step = 0.25
+				}
+			}
+		}
+	}
+	Section2 = {
+		__type = "section"
+		__viewType = {
+			__caption = "SectionCaption2"
+		}
+		__members = {
+			Value6 = {
+				__type = "float"
+				__viewType = {
+					__type = "slider"
+					__min = -5.0
+					__max = 5.0
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,2293 @@
+tasksSettings   =   {
+   RU_04_04_TSK_BRIDGE_A   =   {
+      uiDesc   =   "RU_04_04_TSK_BRIDGE_A_01_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_BRIDGE_A_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BRIDGE_A_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        __type   =   "null"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_BRIDGE_A_02"
+                     ]
+                  },
+                  {
+                     uiDesc   =   ""
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BRIDGE_A_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_BRIDGE_A_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "BRIDGE_01"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_complete   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_04_04_TSK_BRIDGE_A_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1150
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   8000
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BRIDGE_A_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_04_04_TSK_BRIDGE_A_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_BRIDGE_B   =   {
+      uiDesc   =   "RU_04_04_TSK_BRIDGE_B_01_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_BRIDGE_B_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BRIDGE_B_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        __type   =   "null"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_BRIDGE_B_02"
+                     ]
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_TSK_BRIDGE_B_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BRIDGE_B_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_BRIDGE_B_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "BRIDGE_02"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_04_04_TSK_BRIDGE_B_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   740
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6350
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BRIDGE_B_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_04_04_TSK_BRIDGE_B_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_ROCKS_A   =   {
+      uiDesc   =   "RU_04_04_TSK_ROCKS_A_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_ROCKS_A_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_A_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_ROCKS_A_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "ROCK_01"
+         stagesProgress   =   {
+            stage_visible   =   {
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_04_04_TSK_ROCKS_A_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   890
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   7350
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_A_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_04_04_TSK_ROCKS_A_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_ROCKS_B   =   {
+      uiDesc   =   "RU_04_04_TSK_ROCKS_B_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_ROCKS_B_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_B_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_ROCKS_B_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "ROCK_02"
+         stagesProgress   =   {
+            stage_visible   =   {
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_04_04_TSK_ROCKS_B_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   810
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6000
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_B_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_04_04_TSK_ROCKS_B_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_ROCKS_C   =   {
+      uiDesc   =   "RU_04_04_TSK_ROCKS_C_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_ROCKS_C_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_C_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_ROCKS_C_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "ROCK_03"
+         stagesProgress   =   {
+            stage_visible   =   {
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_04_04_TSK_ROCKS_C_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   920
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   7900
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_C_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_04_04_TSK_ROCKS_C_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_ROCKS_D   =   {
+      uiDesc   =   "RU_04_04_TSK_ROCKS_D_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_ROCKS_D_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_D_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_04_04_TSK_ROCKS_D_02"
+                     ]
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "ROCK_04"
+         stagesProgress   =   {
+            stage_visible   =   {
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_04_04_TSK_ROCKS_D_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   710
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4200
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_ROCKS_D_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_04_04_TSK_ROCKS_D_02"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_DREAM_CAR   =   {
+      uiDesc   =   "RU_04_04_TSK_DREAM_CAR_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "DREAM_CAR"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_DREAM_CAR_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_DREAM_CAR_ACTION_ST1"
+               }
+            ]
+            uiDesc   =   ""
+         }
+      ]
+      description   =   "RU_04_04_TSK_DREAM_CAR_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   530
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5800
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_DREAM_CAR_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_NEIGHBOR_HELP   =   {
+      uiDesc   =   "RU_04_04_TSK_NEIGHBOR_HELP_01_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "HELP_NEIGHBOR"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_NEIGHBOR_HELP_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_NEIGHBOR_HELP_01_ACTION_ST1"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_04_04_TSK_NEIGHBOR_HELP_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   320
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2250
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_NEIGHBOR_HELP_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_OLD_BUT_GOLD   =   {
+      uiDesc   =   "RU_04_04_TSK_OLD_BUT_GOLD_01_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "GOLD"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_OLD_BUT_GOLD_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_OLD_BUT_GOLD_01_ACTION_ST1"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_04_04_TSK_OLD_BUT_GOLD_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   460
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4600
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_OLD_BUT_GOLD_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_BIG_AND_ABANDONED   =   {
+      uiDesc   =   "RU_04_04_TSK_BIG_AND_ABANDONED_01_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "BIG"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BIG_AND_ABANDONED_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_BIG_AND_ABANDONED_01_ACTION_ST1"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_04_04_TSK_BIG_AND_ABANDONED_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   530
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5400
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_BIG_AND_ABANDONED_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_STEEL_MACHINE   =   {
+      uiDesc   =   "RU_04_04_TSK_STEEL_MACHINE_DESC"
+      stages   =   [
+         {
+            repairTruck   =   [
+               {
+                  truckId   =   "BROKEN"
+                  truckUiName   =   ""
+                  afterStageFinished   =   "DESTROY"
+                  uiDesc   =   "RU_04_04_TSK_STEEL_MACHINE_ACTION_ST1"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_04_04_TSK_STEEL_MACHINE_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   490
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5150
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_STEEL_MACHINE"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_REALLY_BIG_ONE   =   {
+      uiDesc   =   "RU_04_04_TSK_REALLY_BIG_ONE_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_REALLY_BIG_ONE_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_REALLY_BIG_ONE_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoVehiclesSpareParts"
+                        count   =   5
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "REALLY_BIG_ONE"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_REALLY_BIG_ONE_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_REALLY_BIG_ONE_01_ACTION_ST1"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_04_04_TSK_REALLY_BIG_ONE_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   940
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   8650
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_REALLY_BIG_ONE_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_FAMILY_BUSINESS   =   {
+      uiDesc   =   "RU_04_04_TSK_FAMILY_BUSINESS_01_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "FAMILY_BUSINESS"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_FAMILY_BUSINESS_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_FAMILY_BUSINESS_01_ACTION_ST1"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_04_04_TSK_FAMILY_BUSINESS_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   370
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   3000
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_FAMILY_BUSINESS_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_DANGEROUS_ROAD   =   {
+      uiDesc   =   "RU_04_04_TSK_DANGEROUS_ROAD_01_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_TSK_DANGEROUS_ROAD_01_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_DANGEROUS_ROAD_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "DANGEROUS_ROAD"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_DANGEROUS_ROAD_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_DANGEROUS_ROAD_01_ACTION_ST1"
+               }
+            ]
+            livingAreaInfo   =   {
+               __type   =   "null"
+            }
+         }
+      ]
+      description   =   "RU_04_04_TSK_DANGEROUS_ROAD_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   690
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5600
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_DANGEROUS_ROAD_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_04_04_TSK_UNLUCKY_BOY   =   {
+      uiDesc   =   "RU_04_04_TSK_UNLUCKY_BOY_01_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "UNLUCKY_BOY"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_UNLUCKY_BOY_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_04_04_TSK_UNLUCKY_BOY_01_ACTION_ST1"
+               }
+            ]
+         }
+      ]
+      description   =   "RU_04_04_TSK_UNLUCKY_BOY_01_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   370
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   3000
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_TSK_UNLUCKY_BOY_01"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+}
+contractsSettings   =   {
+   RU_04_04_GARAGE_REPAIR   =   {
+      uiDesc   =   "RU_04_04_GARAGE_REPAIR_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_GARAGE_REPAIR_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_GARAGE_REPAIR"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_GARAGE_REPAIR_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_GARAGE_REPAIR"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesSmall"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_GARAGE_REPAIR_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_GARAGE_REPAIR"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBricks"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_GARAGE_REPAIR_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_GARAGE_REPAIR"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteBlocks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         __type   =   "null"
+      }
+      description   =   "RU_04_04_GARAGE_REPAIR_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_04_04_GARAGE"
+                  mapId   =   "level_ru_04_04"
+                  props   =   {
+                     ZonePropertyGarageEntrance   =   {
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   2210
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   18800
+         }
+      }
+      employer   =   "AmurRegionalGov"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_LOCAL_RESIDENTS   =   {
+      uiDesc   =   "RU_04_04_LOCAL_RESIDENTS_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_LOCAL_RESIDENTS_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_LOCAL_RESIDENTS"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLarge"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "RU_04_04_LOCAL_RESIDENTS_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   730
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5950
+         }
+      }
+      employer   =   "AmurRegionalGov"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_WINTER_SUPPLIES   =   {
+      uiDesc   =   "RU_04_04_WINTER_SUPPLIES_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_WINTER_SUPPLIES_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_WINTER_SUPPLIES"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_WINTER_SUPPLIES_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_WINTER_SUPPLIES"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsLong"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_WINTER_SUPPLIES_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_WINTER_SUPPLIES"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsShort"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION"
+      ]
+      description   =   "RU_04_04_WINTER_SUPPLIES_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   2080
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   17850
+         }
+      }
+      employer   =   "AmurRegionalGov"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_FISHER   =   {
+      uiDesc   =   "RU_04_04_FISHER_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_FISHER_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_FISHER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsShort"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_FISHER_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_FISHER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION"
+      ]
+      description   =   "RU_04_04_FISHER_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   690
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   6000
+         }
+      }
+      employer   =   "AmurRegionalGov"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_HEATING_SEASON   =   {
+      uiDesc   =   "RU_04_04_HEATING_SEASON_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_HEATING_SEASON_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_HEATING_SEASON"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_HEATING_SEASON_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_HEATING_SEASON"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsLong"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_HEATING_SEASON_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_HEATING_SEASON"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsShort"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION"
+      ]
+      description   =   "RU_04_04_HEATING_SEASON_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1500
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   15300
+         }
+      }
+      employer   =   "AmurRegionalGov"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_EXPLORATIONS_WORKS   =   {
+      uiDesc   =   "RU_04_04_EXPLORATIONS_WORKS_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               __type   =   "null"
+            }
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     globalZoneId   =   {
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "null"
+            }
+            makeActionInZone   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_04_04_EXPLORATIONS_WORKS_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_EXPLORATIONS_WORKS_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_EXPLORATIONS_WORKS_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_EXPLORATIONS_WORKS_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_EXPLORATIONS_WORKS_ACTION_ST3"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_EXPLORATIONS_WORKS_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_EXPLORATIONS_WORKS_ACTION_ST4"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_EXPLORATIONS_WORKS_04"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_04_04_EXPLORATIONS_WORKS_REW"
+      recommendedTruck   =   "SEISMIC"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   210
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   3600
+         }
+      }
+      employer   =   "Maneuver29Agency"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_LUMBER_MILL_RESTORATION   =   {
+      uiDesc   =   "RU_04_04_LUMBER_MILL_RESTORATION_DESK"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_LUMBER_MILL_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_LUMBER_MILL_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBricks"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_LUMBER_MILL_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_LUMBER_MILL_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteBlocks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_LUMBER_MILL_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_LUMBER_MILL_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_LUMBER_MILL_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_LUMBER_MILL_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_EXPLORATIONS_WORKS",
+         "RU_04_04_WAREHOUSE_RESTORATION"
+      ]
+      description   =   "RU_04_04_LUMBER_MILL_RESTORATION_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_04_04_LUMBER_MILL"
+                  mapId   =   "level_ru_04_04"
+                  props   =   {
+                     ZonePropertyStorehouseCraft   =   {
+                        craftSettings   =   [
+                           {
+                              name   =   "CargoWoodenPlanks"
+                              craftCount   =   3
+                              cargoComponents   =   [
+                                 {
+                                    sslModule   =   "game.terrain_descs_storage.zone_properties.zone_property_storehouse_craft"
+                                    name   =   "CargoLogsMedium"
+                                    count   =   1
+                                 }
+                              ]
+                           },
+                           {
+                              name   =   "CargoWoodenPlanks"
+                              craftCount   =   4
+                              cargoComponents   =   [
+                                 {
+                                    sslModule   =   "game.terrain_descs_storage.zone_properties.zone_property_storehouse_craft"
+                                    name   =   "CargoLogsLong"
+                                    count   =   1
+                                 }
+                              ]
+                           },
+                           {
+                              name   =   "CargoWoodenPlanks"
+                              craftCount   =   2
+                              cargoComponents   =   [
+                                 {
+                                    sslModule   =   "game.terrain_descs_storage.zone_properties.zone_property_storehouse_craft"
+                                    name   =   "CargoLogsShort"
+                                    count   =   1
+                                 }
+                              ]
+                           }
+                        ]
+                        platformId   =   "RU_04_04_LUMBER_MILL_MANUAL"
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1470
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   10650
+         }
+      }
+      employer   =   "Maneuver29Agency"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_FACTORY_RESTORATION   =   {
+      uiDesc   =   "RU_04_04_FACTORY_RESTORATION_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_FACTORY_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_FACTORY_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBricks"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_FACTORY_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_FACTORY_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteBlocks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_FACTORY_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_FACTORY_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalRoll"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_FACTORY_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_FACTORY_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_FACTORY_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_FACTORY_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_EXPLORATIONS_WORKS"
+      ]
+      description   =   "RU_04_04_FACTORY_RESTORATION_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_04_04_CRAFT_01"
+                  mapId   =   "level_ru_04_04"
+                  props   =   {
+                     ZonePropertyStorehouseCraft   =   {
+                        craftSettings   =   [
+                           {
+                              name   =   "CargoPipeLarge"
+                              cargoComponents   =   [
+                                 {
+                                    name   =   "CargoPipesMedium"
+                                 },
+                                 {
+                                    name   =   "CargoMetalRoll"
+                                    count   =   2
+                                 }
+                              ]
+                           },
+                           {
+                              name   =   "CargoMetalPlanks"
+                              craftCount   =   2
+                              cargoComponents   =   [
+                                 {
+                                    name   =   "CargoPipesMedium"
+                                    count   =   1
+                                 },
+                                 {
+                                    name   =   "CargoMetalRoll"
+                                    count   =   2
+                                 }
+                              ]
+                           },
+                           {
+                              name   =   "CargoConcreteSlab"
+                              cargoComponents   =   [
+                                 {
+                                    name   =   "CargoConcreteBlocks"
+                                    count   =   1
+                                 },
+                                 {
+                                    name   =   "CargoBags"
+                                    count   =   1
+                                 },
+                                 {
+                                    name   =   "CargoBags2"
+                                    count   =   1
+                                 }
+                              ]
+                           }
+                        ]
+                        platformId   =   "RU_04_04_CRAFT_01_MANUAL"
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   2250
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   17300
+         }
+      }
+      employer   =   "Maneuver29Agency"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_WAREHOUSE_RESTORATION   =   {
+      uiDesc   =   "RU_04_04_WAREHOUSE_RESTORATION_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               sslModule   =   "game.missions.task_settings"
+               zoneToFill   =   [
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_WAREHOUSE_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_WAREHOUSE_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoBricks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_WAREHOUSE_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_WAREHOUSE_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoConcreteBlocks"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_WAREHOUSE_RESTORATION_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_WAREHOUSE_RESTORATION"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_EXPLORATIONS_WORKS"
+      ]
+      description   =   "RU_04_04_WAREHOUSE_RESTORATION_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_04_04_WAREHOUSE_01"
+                  mapId   =   "level_ru_04_04"
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoPipesSmall"
+                           },
+                           {
+                              name   =   "CargoMetalPlanks"
+                           },
+                           {
+                              name   =   "CargoContainerLarge"
+                           },
+                           {
+                              name   =   "CargoBags2"
+                           }
+                        ]
+                        platformId   =   "RU_04_04_WAREHOUSE_MANUAL_01"
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   1850
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   13100
+         }
+      }
+      employer   =   "Maneuver29Agency"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_WOOD_CARVING   =   {
+      uiDesc   =   "RU_04_04_WOOD_CARVING_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_WOOD_CARVING_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_WOOD_CARVING"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION"
+      ]
+      description   =   "RU_04_04_WOOD_CARVING_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   570
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5850
+         }
+      }
+      employer   =   "Maneuver29Agency"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_OLD_TRAIN   =   {
+      uiDesc   =   "RU_04_04_OLD_TRAIN_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_OLD_TRAIN_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_OLD_TRAIN"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   6
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION"
+      ]
+      description   =   "RU_04_04_OLD_TRAIN_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1500
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   15950
+         }
+      }
+      employer   =   "Maneuver29Agency"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_NPZ_RESTORATION_A   =   {
+      uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteBlocks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrelsOil"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBags2"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesMedium"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_A_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_A"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoConcreteBlocks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "RU_04_04_NPZ_RESTORATION_A"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+            build_complete   =   {
+               __value   =   2
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION"
+      ]
+      description   =   "RU_04_04_NPZ_RESTORATION_A_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   3610
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   25900
+         }
+      }
+      employer   =   "AmurFuelCompany"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_NPZ_RESTORATION_B   =   {
+      uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               sslModule   =   "game.missions.task_settings"
+               zoneToFill   =   [
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_B"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoPipeLarge"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_B"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoPipesMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_B"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoPipesSmall"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_B"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoConcreteSlab"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_B"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoWoodenPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_B"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_B_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_B"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoBags"
+                        count   =   4
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "RU_04_04_NPZ_RESTORATION_B"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_complete   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION",
+         "RU_04_04_NPZ_RESTORATION_A"
+      ]
+      description   =   "RU_04_04_NPZ_RESTORATION_B_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   3360
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   24150
+         }
+      }
+      employer   =   "AmurFuelCompany"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+   RU_04_04_NPZ_RESTORATION_C   =   {
+      uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               sslModule   =   "game.missions.task_settings"
+               zoneToFill   =   [
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoPipesSmall"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoConcreteSlab"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                        name   =   "CargoBricks"
+                        count   =   6
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipeLarge"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesMedium"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrelsOil"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_NPZ_RESTORATION_C_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_NPZ_RESTORATION_C"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoPipesSmall"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_04_04"
+         modelTag   =   "RU_04_04_NPZ_RESTORATION_C"
+         stagesProgress   =   {
+            build_stage_0   =   {
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+            build_complete   =   {
+               __value   =   2
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "RU_04_04_LUMBER_MILL_RESTORATION",
+         "RU_04_04_FACTORY_RESTORATION",
+         "RU_04_04_WAREHOUSE_RESTORATION",
+         "RU_04_04_NPZ_RESTORATION_B"
+      ]
+      description   =   "RU_04_04_NPZ_RESTORATION_C_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   3790
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   27200
+         }
+      }
+      employer   =   "AmurFuelCompany"
+      region   =   "ru_04"
+      __type   =   "ContractSettings"
+   }
+}
+contestSettings   =   {
+   RU_04_04_RACE_A_CNT   =   {
+      uiDesc   =   "RU_04_04_RACE_A_CNT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_04_04_RACE_A_CNT_ACTION_ST1"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_A_01_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_RACE_A_CNT_ACTION_ST2"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_A_02_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_RACE_A_CNT_ACTION_ST3"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_A_03_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_RACE_A_CNT_ACTION_ST4"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_A_04_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_04_04_RACE_A_CNT_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   285
+                  xp   =   270
+                  money   =   4750
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   345
+                  xp   =   130
+                  money   =   2300
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  xp   =   80
+                  money   =   1350
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_A_CNT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   RU_04_04__RACE_B_CNT   =   {
+      uiDesc   =   "RU_04_04_RACE_B_CNT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               sslModule   =   "game.missions.task_settings"
+               zones   =   [
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_B_CNT_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_B_01_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_B_CNT_ACTION_ST2"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_B_02_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_B_CNT_ACTION_ST3"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_B_03_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_04_04_RACE_B_CNT_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   520
+                  xp   =   300
+                  money   =   5200
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   580
+                  xp   =   150
+                  money   =   2500
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   90
+                  money   =   1500
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_B_CNT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   RU_04_04__RACE_C_CNT   =   {
+      uiDesc   =   "RU_04_04_RACE_C_CNT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               sslModule   =   "game.missions.task_settings"
+               zones   =   [
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_C_CNT_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_C_01_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_C_CNT_ACTION_ST2"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_C_02_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_C_CNT_ACTION_ST3"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_C_03_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_C_CNT_ACTION_ST4"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_C_04_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_04_04_RACE_C_CNT_ACTION_ST5"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_C_05_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_04_04_RACE_C_CNT_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   815
+                  xp   =   360
+                  money   =   6150
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   875
+                  xp   =   170
+                  money   =   2950
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   100
+                  money   =   1750
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_C_CNT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   RU_04_04__RACE_D_CNT   =   {
+      uiDesc   =   "RU_04_04_RACE_D_CNT_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               sslModule   =   "game.missions.task_settings"
+               zones   =   [
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_D_CNT_ACTION_ST1"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_D_01_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_D_CNT_ACTION_ST2"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_D_02_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_D_CNT_ACTION_ST3"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_D_03_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     sslModule   =   "game.missions.task_settings"
+                     uiDesc   =   "RU_04_04_RACE_D_CNT_ACTION_ST4"
+                     globalZoneId   =   {
+                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                        globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_D_04_CNT"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+         }
+      ]
+      description   =   "RU_04_04_RACE_D_CNT_REW"
+      recommendedTruck   =   "SCOUT"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   240
+                  xp   =   210
+                  money   =   3550
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   300
+                  xp   =   100
+                  money   =   1750
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  xp   =   60
+                  money   =   1000
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_04_04 || RU_04_04_RACE_D_CNT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

@@ -1,0 +1,107 @@
+view   =   {
+   switchTargetLeft   =   {
+      desc   =   {
+         uiInputName   =   "TargetLeft"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   switchTargetRight   =   {
+      desc   =   {
+         uiInputName   =   "TargetRight"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   switchSourceLeft   =   {
+      desc   =   {
+         uiInputName   =   "SourceLeft"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   switchSourceRight   =   {
+      desc   =   {
+         uiInputName   =   "SourceRight"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   refuelInputName   =   "Accept"
+   __type   =   "PopupRefuelUiViewNew"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            view   =   {
+               __type   =   "NavButtonView"
+            }
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "LoadingCargoPopupNavigationPanel"
+   }
+}
+id   =   "REFUEL"
+uiFocusScreen   =   {
+   __type   =   "UiFocusScreen"
+}
+refuelTruckRange   =   15
+truckGarnish   =   {
+   __type   =   "MarkerOnTrucksGarnish"
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupRefuelUiControllerNew"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      TargetLeft   =   {
+         inputLink   =   "Popups.triggerLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      TargetRight   =   {
+         inputLink   =   "Popups.triggerRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      SourceLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      SourceRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      Accept   =   {
+         inputLink   =   "Popups.RefuelRepair"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+refuelIconName   =   {
+   SOURCE   =   {
+      __value   =   "Source"
+   }
+   TARGET   =   {
+      __value   =   "Target"
+   }
+   SOURCE_TARGET   =   {
+      __value   =   "Empty"
+   }
+   SUBSOURCE   =   {
+      __value   =   "Subsource"
+   }
+   SUBTARGET   =   {
+      __value   =   "Subtarget"
+   }
+   FORBIDDEN   =   {
+      __value   =   "None"
+   }
+}
+__type   =   "RefuelController"

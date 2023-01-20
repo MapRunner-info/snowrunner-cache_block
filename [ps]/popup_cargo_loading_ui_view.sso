@@ -1,0 +1,61 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibHudcargomanagementloading"
+   }
+   __type   =   "UiObjectDesc"
+}
+uiCargoLoading   =   {
+   __type   =   "UiPopupLibHudcargomanagementcurrentloading"
+}
+moneyIcon   =   "playerProfileCurrency20"
+cargoLoadingPlacesSettings   =   {
+   TRUCK   =   {
+      uiName   =   "UI_HUD_CARGO_POPUP_LOADING_STEPPER_STATE_TRUCK"
+      uiIcon   =   "offroadTruckNoStroke"
+      __type   =   "CargoLoadingPlaceViewSettings"
+   }
+   TRAILER   =   {
+      uiName   =   "UI_HUD_CARGO_POPUP_LOADING_STEPPER_STATE_TRAILER"
+      uiIcon   =   "trailerSemiNoStroke"
+      __type   =   "CargoLoadingPlaceViewSettings"
+   }
+   MANUAL   =   {
+      uiName   =   "UI_HUD_CARGO_POPUP_LOADING_STEPPER_STATE_MANUAL"
+      uiIcon   =   "manualLoadingNoStroke"
+      uiDesc   =   "UI_HUD_CARGO_POPUP_LOADING_STEPPER_STATE_MANUAL_DESC"
+      __type   =   "CargoLoadingPlaceViewSettings"
+   }
+}
+cargoTabBtnLeft   =   {
+   desc   =   {
+      uiInputName   =   "SwitchCargoLeft"
+      isButtonWithoutText   =   True
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+cargoTabBtnRight   =   {
+   desc   =   {
+      uiInputName   =   "SwitchCargoRight"
+      isButtonWithoutText   =   True
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+placeTabBtnLeft   =   {
+   desc   =   {
+      uiInputName   =   "SwitchPlaceLeft"
+      isButtonWithoutText   =   True
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+placeTabBtnRight   =   {
+   desc   =   {
+      uiInputName   =   "SwitchPlaceRight"
+      isButtonWithoutText   =   True
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+__type   =   "PopupViewBase"

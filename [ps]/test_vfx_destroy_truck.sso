@@ -1,0 +1,27 @@
+zoneDesc   =   {
+   SMALL_TRUCK_START   =   {
+      __type   =   "ZoneSettings"
+   }
+   SMALL_TRUCK_FINISH   =   {
+      __type   =   "ZoneSettings"
+   }
+   MEDIUM_TRUCK_START   =   {
+      __type   =   "ZoneSettings"
+   }
+   MEDIUM_TRUCK_FINISH   =   {
+      __type   =   "ZoneSettings"
+   }
+   HEAVY_TRUCK_START   =   {
+      __type   =   "ZoneSettings"
+   }
+   HEAVY_TRUCK_FINISH   =   {
+      __type   =   "ZoneSettings"
+   }
+   SUPER_TRUCK_START   =   {
+      __type   =   "ZoneSettings"
+   }
+   SUPER_TRUCK_FINISH   =   {
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

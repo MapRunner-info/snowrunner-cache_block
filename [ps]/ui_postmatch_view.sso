@@ -1,0 +1,79 @@
+uiObjectDesc   =   {
+   type   =   {
+      statsCont1   =   {
+         statValue   =   {
+            textField   =   {
+               autoSize   =   "center"
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiPostmatchPostmatchstatsbigtext"
+         }
+         __type   =   "UiPostmatchPostmatchstatscontainer"
+      }
+      statsCont0   =   {
+         statValue   =   {
+            textField   =   {
+               autoSize   =   "center"
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiPostmatchPostmatchstatsbigtext"
+         }
+         __type   =   "UiPostmatchPostmatchstatscontainer"
+      }
+      __type   =   "UiPostmatchPostmatchscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+musicName   =   "music/music_postmatch"
+musicFadeOutTime   =   1
+resetMultDelay   =   1000
+achievementIcons   =   {
+   Trucks   =   {
+      type   =   {
+         __type   =   "UiIconsLibAllvehicleimg40plus"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   Tasks   =   {
+      type   =   {
+         __type   =   "UiIconsLibClipboardcheckedimg40plus"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   Upgrades   =   {
+      type   =   {
+         __type   =   "UiIconsLibUpgradecreateimg40plus"
+      }
+      __type   =   "UiContainerDesc"
+   }
+}
+postmatchBg   =   [
+   {
+      type   =   {
+         __type   =   "UiImgLibPostmatchbg0"
+      }
+   },
+   {
+      type   =   {
+         __type   =   "UiImgLibPostmatchbg1"
+      }
+   },
+   {
+      type   =   {
+         __type   =   "UiImgLibPostmatchbg2"
+      }
+   }
+]
+starIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilestar40"
+   }
+   __type   =   "UiContainerDesc"
+}
+moneyIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilecurrency40"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "ScreenViewBase"

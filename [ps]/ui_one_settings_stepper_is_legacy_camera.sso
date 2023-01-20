@@ -1,0 +1,3 @@
+header   =   "UI_SETTINGS_LEGACY_CAMERA"
+desc   =   "UI_SETTINGS_LEGACY_CAMERA_DESC"
+__type   =   "UiOneSettingStepperOnOff"

@@ -1,0 +1,11 @@
+view   =   {
+   __type   =   "UiOneSettingSliderView"
+}
+header   =   "UI_SETTINGS_STEERING_WHEEL_FORCE_FEEDBACK_COLLISION_GAIN"
+desc   =   "UI_SETTINGS_STEERING_WHEEL_FORCE_FEEDBACK_COLLISION_GAIN_DESC"
+minValue   =   0
+maxValue   =   1
+defaultValue   =   0.3
+stepInterval   =   0.01
+textfield   =   "FLOAT"
+__type   =   "UiOneSettingSliderController"

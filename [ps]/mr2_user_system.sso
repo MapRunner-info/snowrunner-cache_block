@@ -1,0 +1,7 @@
+userManagerSettings   =   {
+   richPresenceSettings   =   {
+      __type   =   "RichPresenceSettings"
+   }
+   __type   =   "UserManagerSettings"
+}
+__type   =   "UserSystem"

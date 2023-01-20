@@ -1,0 +1,26 @@
+btns   =   {
+   PrevPc   =   {
+      text   =   "UI_PREV_STEP"
+      excludedPlatforms   =   [
+         "DURANGO",
+         "ORBIS"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   PrevConsoles   =   {
+      text   =   "UI_PREV_STEP"
+      excludedPlatforms   =   [
+         "PC"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   Back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   Focus   =   {
+      text   =   "UI_SHOW_KEYBOARD"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

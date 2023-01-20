@@ -1,0 +1,22 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   close   =   {
+      text   =   "UI_CLOSE"
+      __type   =   "NavButtonDesc"
+   }
+   details   =   {
+      text   =   "UI_DETAILS"
+      __type   =   "NavButtonDesc"
+   }
+   track   =   {
+      text   =   "UI_TRACK"
+      __type   =   "NavButtonDesc"
+   }
+   untrack   =   {
+      text   =   "UI_UNTRACK"
+      __type   =   "NavButtonDesc"
+   }
+}
+useBtnsAttach   =   False
+__type   =   "NavigationPanelController"

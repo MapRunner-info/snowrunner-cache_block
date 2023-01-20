@@ -1,0 +1,338 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Blood on Screen (7)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+			
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = false
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Small Blood Lr1"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Middle Blood Lr2"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture2 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Big Blood Lr3"
+							__hint = "texture2"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture3 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Mask and Detail Blood"
+							__hint = "texture3"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture4 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Normal Map Noise"
+							__hint = "texture4"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+						__defaultValue = 1
+					}
+					floatParam01 = {
+						__viewType {
+							__caption = "Small Radial Mask Start"
+							__hint = "Range: [0 - 2]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 2.0
+						}
+						__type = "float"
+						__defaultValue = 0.1
+					}
+					floatParam02 = {
+						__viewType {
+							__caption = "Small Radial Mask End"
+							__hint = "Range: [0 - 2]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 2.0
+						}
+						__type = "float"
+						__defaultValue = 0.8
+					}
+					floatParam03 = {
+						__viewType {
+							__caption = "Big Radial Mask Start"
+							__hint = "Range: [0 - 2]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 2.0
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__caption = "Big Radial Mask End"
+							__hint = "Range: [0 - 2]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 2.0
+						}
+						__type = "float"
+						__defaultValue = 0
+					}
+					floatParam05 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask A Tile U"
+						}
+						__type = "float"
+						__defaultValue = 0.2
+					}
+					floatParam06 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask A Tile U"
+						}
+						__type = "float"
+						__defaultValue = 0.2
+					}
+					floatParam07 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask B Tile U"
+						}
+						__type = "float"
+						__defaultValue = 0.6
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask B Tile V"
+						}
+						__type = "float"
+						__defaultValue = 0.6
+					}
+					floatParam09 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask C Tile U"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					floatParam10 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask C Tile V"
+						}
+						__type = "float"
+						__defaultValue = 0.3
+					}
+					floatParam11 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask D Tile U"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					
+					floatParam12 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask D Tile V"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					floatParam13 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask E Tile U"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					floatParam14 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 5.0
+							__caption = "Mask E Tile V"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					floatParam15 = {
+						__viewType {
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+							__caption = "NAME ME!"
+							__hidden = true
+						}
+						__type = "float"
+						__defaultValue = 0
+					}
+					
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "Blood Color"
+							__hint = ""
+							__wrappable = false
+						}
+					}
+				}
+			}	
+			
+		}
+	}
+}

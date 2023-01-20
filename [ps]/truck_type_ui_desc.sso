@@ -1,0 +1,61 @@
+truckTypeLinkage   =   {
+   HIGHWAY   =   {
+      __value   =   "highwayVehicleImg"
+   }
+   HEAVY_DUTY   =   {
+      __value   =   "heavyDutyVehicleImg"
+   }
+   HEAVY   =   {
+      __value   =   "heavyVehicleImg"
+   }
+   OFFROAD   =   {
+      __value   =   "offroadVehicleImg"
+   }
+   SCOUT   =   {
+      __value   =   "scoutVehicleImg"
+   }
+   ALL   =   {
+      __value   =   "allVehicleImg"
+   }
+}
+truckType30Linkage   =   {
+   HIGHWAY   =   {
+      __value   =   "highwayVehicleImg30"
+   }
+   HEAVY_DUTY   =   {
+      __value   =   "heavyDutyVehicleImg30"
+   }
+   HEAVY   =   {
+      __value   =   "heavyVehicleImg30"
+   }
+   OFFROAD   =   {
+      __value   =   "offroadVehicleImg30"
+   }
+   SCOUT   =   {
+      __value   =   "scoutVehicleImg30"
+   }
+   ALL   =   {
+      __value   =   "allVehicleImg30"
+   }
+}
+typeNames   =   {
+   HIGHWAY   =   {
+      __value   =   "UI_TRUCK_TYPE_HIGHWAY"
+   }
+   HEAVY_DUTY   =   {
+      __value   =   "UI_TRUCK_TYPE_HEAVY DUTY"
+   }
+   HEAVY   =   {
+      __value   =   "UI_TRUCK_TYPE_HEAVY"
+   }
+   OFFROAD   =   {
+      __value   =   "UI_TRUCK_TYPE_OFFROAD"
+   }
+   SCOUT   =   {
+      __value   =   "UI_TRUCK_TYPE_SCOUT"
+   }
+   ALL   =   {
+      __value   =   "UI_TRUCK_TYPE_ALL"
+   }
+}
+__type   =   "object"

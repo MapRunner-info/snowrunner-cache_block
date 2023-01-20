@@ -1,0 +1,137 @@
+view   =   {
+   __type   =   "UiGamepadLayoutView"
+}
+uiData   =   [
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.Handbrake"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HANDBRAKE"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.Functions"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FUNCTIONS"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.QuickWinch"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_QUICK_WINCH"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.ClutchMode"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CLUTCH_MODE"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.Honk"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HONK"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.ToggleCamera"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TOGGLE_CAMERA"
+      extraUiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_IMMERSIVE_SHOW_HUD"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.AwdSolo"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_AWD"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.HeadlightSolo"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HEADLIGHTS"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.DiffLockSolo"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DIFF_LOCK"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.EngineSolo"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ENGINE"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.ReleaseWinch"
+         __type   =   "InputLinkHoldMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_RELEASE_WINCH"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Exploration.StartCargoManagement"
+         __type   =   "InputLinkHoldMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_WINCH_ENGINE"
+   }
+]
+inputLinkClutchMenu   =   {
+   inputLink   =   "Truck.ClutchMode"
+   __type   =   "InputLinkMr"
+}
+inputLinkMovement   =   {
+   inputLink   =   "Truck.truckMovement"
+   __type   =   "InputLinkMr"
+}
+inputLinkRotateCamera   =   {
+   inputLink   =   "DriveCamera.GamepadRotation"
+   __type   =   "InputLinkMr"
+}
+inputLinkZoomCamera   =   {
+   inputLink   =   "DriveCamera.GamepadZoom"
+   __type   =   "InputLinkMr"
+}
+clutchMenuUiData   =   [
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.Engine"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ENGINE"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.DiffLock"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DIFF_LOCK"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.Awd"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_AWD"
+   },
+   {
+      inputLink   =   {
+         inputLink   =   "Truck.Headlights"
+         __type   =   "InputLinkMr"
+      }
+      uiActionName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HEADLIGHTS"
+   }
+]
+__type   =   "ScreenControllerBase"

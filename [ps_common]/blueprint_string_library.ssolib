@@ -1,0 +1,91 @@
+classes   =   {
+   IsEqualStrings   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputStringA   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      inputStringB   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   Append   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputStringA   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      inputStringB   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   IntToString   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputInt   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "IntRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   ConcatenateStrings   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputStringA   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      inputStringB   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   SwitchString   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      stringA   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      stringB   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      condition   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatToString   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputFloat   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   BoolToString   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputBool   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   StringConstant   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ActorToString   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputActor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "ActorRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+}
+__type   =   "ssl_object_lib"

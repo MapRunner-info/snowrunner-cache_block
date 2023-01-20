@@ -1,0 +1,6 @@
+delayBeforeSuccess   =   1000
+minimapInputLink   =   {
+   inputLink   =   "Exploration.ShowMinimap"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

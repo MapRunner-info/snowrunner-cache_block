@@ -1,0 +1,21 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+playerStatuses   =   [
+   {
+      view   =   {
+         __type   =   "HudPlayerStatusUiView"
+      }
+   },
+   {
+      view   =   {
+         __type   =   "HudPlayerStatusUiView"
+      }
+   },
+   {
+      view   =   {
+         __type   =   "HudPlayerStatusUiView"
+      }
+   }
+]
+__type   =   "object"

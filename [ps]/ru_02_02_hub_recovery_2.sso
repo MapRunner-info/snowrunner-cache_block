@@ -1,0 +1,71 @@
+uiDesc   =   "RU_02_02_HUB_RECOVERY_2_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "RU_02_02_HUB_RECOVERY_2_ACTION_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_SERVICE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoVehiclesSpareParts"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_ru_02_02"
+   modelTag   =   "RU_02_02_SERVICE_BUILDINGS"
+   stagesProgress   =   {
+      build_stage_0   =   {
+      }
+      build_complete   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+blockerObjectives   =   [
+   "RU_02_02_HUB_RECOVERY"
+]
+description   =   "RU_02_02_HUB_RECOVERY_2_REW"
+employer   =   "TransTaymir"
+region   =   "ru_02"
+rewards   =   {
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "RU_02_02_REPAIR"
+            mapId   =   "level_ru_02_02"
+            props   =   {
+               ZonePropertyAutoRepairAndRestore   =   {
+               }
+            }
+         }
+         ZonePropertiesSettingsObjectiveReward_1   =   {
+            zoneId   =   "RU_02_02_TRAILER_GARAGE_02"
+            mapId   =   "level_ru_02_02"
+            props   =   {
+               ZonePropertyTrailerAttach   =   {
+               }
+            }
+            __type   =   "ZonePropertiesSettingsObjectiveReward"
+         }
+      }
+   }
+   ObjectiveRewardExperience   =   {
+      amount   =   310
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2400
+   }
+}
+__type   =   "ContractSettings"

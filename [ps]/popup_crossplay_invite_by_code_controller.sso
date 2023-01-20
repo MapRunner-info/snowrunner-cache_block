@@ -1,0 +1,57 @@
+view   =   {
+   __type   =   "PopupCrossplayInviteByCodeView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         accept   =   {
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         virtual_keyboard   =   {
+            uiInputName   =   "VirtualKeyboard"
+            __type   =   "NavButtonDesc"
+         }
+         paste   =   {
+            uiInputName   =   "Paste"
+            excludedPlatforms   =   [
+               "DURANGO",
+               "ORBIS",
+               "NX64"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupCrossplayInviteByCodeNavigationPanel"
+   }
+}
+id   =   "SETTINGS_CHANGE_INPUT"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupRecentPlayersWarningMaxBlockedPlayersController"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkActionMr"
+      }
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      VirtualKeyboard   =   {
+         inputLink   =   "UI.OpenVirtualKeyboard"
+         __type   =   "InputLinkActionMr"
+      }
+      Paste   =   {
+         inputLink   =   "UI.Paste"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

@@ -1,0 +1,43 @@
+nearPlane   =   0.01
+fov   =   60
+inputLinkFlyXZ   =   {
+   inputLink   =   "DebugDBG.FlyXZ"
+   __type   =   "InputLinkVectorMr"
+}
+inputLinkFlyY   =   {
+   inputLink   =   "DebugDBG.FlyY"
+   __type   =   "InputLinkVectorMr"
+}
+inputLinkRotate   =   {
+   inputLink   =   "DebugDBG.Rotate"
+   __type   =   "InputLinkVectorMr"
+}
+inputLinkSpeedChange   =   {
+   inputLink   =   "DebugDBG.SpeedChange"
+   __type   =   "InputLinkVectorMr"
+}
+inputLinkStartRotate   =   {
+   inputLink   =   "DebugDBG.StartRotate"
+   __type   =   "InputLinkTapMr"
+}
+cinematicLinkFlyXZ   =   {
+   inputLink   =   "DebugDBG.CinematicFlyXZ"
+   __type   =   "InputLinkVectorMr"
+}
+cinematicLinkFlyY   =   {
+   inputLink   =   "DebugDBG.CinematicFlyY"
+   __type   =   "InputLinkVectorMr"
+}
+cinematicLinkRotate   =   {
+   inputLink   =   "DebugDBG.CinematicRotate"
+   __type   =   "InputLinkVectorMr"
+}
+cinematicLinkSpeedChange   =   {
+   inputLink   =   "DebugDBG.CinematicSpeedChange"
+   __type   =   "InputLinkVectorMr"
+}
+cinematicLinkStartRotate   =   {
+   inputLink   =   "DebugDBG.CinematicStartRotate"
+   __type   =   "InputLinkTapMr"
+}
+__type   =   "MrCameraBase"

@@ -1,0 +1,4 @@
+achievementId   =   {
+   __type   =   "AchievementId"
+}
+__type   =   "IntWithStringArrayAchievement"

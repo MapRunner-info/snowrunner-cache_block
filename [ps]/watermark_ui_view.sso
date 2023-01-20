@@ -1,0 +1,14 @@
+uiObjectDesc   =   {
+   type   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      wmTextCont   =   {
+         verticalAlign   =   2
+         __type   =   "UiCommonLibAutoclasswatermarkcontainerwmtextcont"
+      }
+      __type   =   "UiCommonLibWatermarkcontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+text   =   ""
+__type   =   "ComponentUiViewBase"

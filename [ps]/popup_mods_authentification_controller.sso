@@ -1,0 +1,47 @@
+view   =   {
+   __type   =   "PopupModsAuthentificationView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         back   =   {
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         focus   =   {
+            uiInputName   =   "Focus"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupModsAuthentificationNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupModAuthorizationState"
+}
+id   =   "MODS_AUTHORIZATION"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupAuthorization"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Focus   =   {
+         inputLink   =   "UI.ModBrowserMoreOptions"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

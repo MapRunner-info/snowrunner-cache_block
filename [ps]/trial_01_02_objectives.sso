@@ -1,0 +1,60 @@
+trialsSettings   =   {
+   TRIAL_01_02_TRUCK_TSK   =   {
+      uiDesc   =   "TRIAL_01_02_TRUCK_TSK_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "TRIAL_01_02_TRUCK_01"
+                  afterStageFinished   =   "DESTROY"
+                  mustDestroyAfterSubstage   =   True
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_trial_01_02 || TRIAL_01_02_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "TRIAL_01_02_TRUCK_01_DESC"
+               },
+               {
+                  truckId   =   "TRIAL_01_02_TRUCK_02"
+                  afterStageFinished   =   "DESTROY"
+                  mustDestroyAfterSubstage   =   True
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_trial_01_02 || TRIAL_01_02_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "TRIAL_01_02_TRUCK_02_DESC"
+               },
+               {
+                  truckId   =   "TRIAL_01_02_TRUCK_03"
+                  afterStageFinished   =   "DESTROY"
+                  mustDestroyAfterSubstage   =   True
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_trial_01_02 || TRIAL_01_02_FINISH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "TRIAL_01_02_TRUCK_03_DESC"
+               }
+            ]
+         }
+      ]
+      description   =   "TRIAL_01_02_REW_DESC"
+      recommendedTruck   =   "SCOUT"
+      isMarkersDisabled   =   True
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardItem   =   {
+                  itemName   =   "stuff_masha"
+               }
+            }
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_01_02 || TRIAL_01_02_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

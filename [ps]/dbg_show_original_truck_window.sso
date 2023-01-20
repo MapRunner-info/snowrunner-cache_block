@@ -1,0 +1,9 @@
+window   =   {
+   id   =   "DebugShowOriginalTruckWindow"
+   pos   =   {
+      x   =   0
+      __type   =   "Vector2d"
+   }
+   __type   =   "DbgWindow"
+}
+__type   =   "DbgWindowBase"

@@ -1,0 +1,15 @@
+incrFuelBtn   =   {
+   __type   =   "CustomHoldButtonView"
+}
+decrFuelBtn   =   {
+   __type   =   "CustomHoldButtonView"
+}
+moneyIconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibPlayerprofilecurrency20"
+   }
+   __type   =   "UiContainerDesc"
+}
+moneyIconName   =   "playerProfileCurrency20"
+changeSound   =   "ui/ui_main_click_in"
+__type   =   "PopupRefuelStationBaseView"

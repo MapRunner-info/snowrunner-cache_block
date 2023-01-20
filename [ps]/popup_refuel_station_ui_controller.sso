@@ -1,0 +1,24 @@
+view   =   {
+   tabBtnLeft   =   {
+      desc   =   {
+         uiInputName   =   "ScrollLeft"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   tabBtnRight   =   {
+      desc   =   {
+         uiInputName   =   "ScrollRight"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   refuelInputName   =   "Refuel"
+   __type   =   "PopupRefuelStationUiViewNew"
+}
+id   =   "REFUEL_STATION"
+inputScreen   =   {
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupRefuelStationBaseController"

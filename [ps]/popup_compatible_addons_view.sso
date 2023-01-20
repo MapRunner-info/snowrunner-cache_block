@@ -1,0 +1,27 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         optionsList   =   {
+            lir   =   {
+               __type   =   "PopupCompatibleAddonsLir"
+            }
+            __type   =   "UiPopupLibModbrowserpopupmorelist"
+         }
+         optionsListLong   =   {
+            lir   =   {
+               __type   =   "PopupCompatibleAddonsLir"
+            }
+            __type   =   "UiPopupLibModbrowserpopupmorelistlong"
+         }
+         __type   =   "UiPopupLibModbrowserpopupmore"
+      }
+      __type   =   "UiPopupLibAnimmodbrowserpopupmore"
+   }
+   __type   =   "UiObjectDesc"
+}
+headerIcon   =   "codexIconDamage40"
+headerText   =   "UI_COMPATIBLE_ADDONS_POPUP_HEADER"
+__type   =   "PopupViewBase"

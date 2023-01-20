@@ -1,0 +1,61 @@
+uiDesc   =   "US_01_01_LOCAL_ENTERTAINMENT_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_01_LOCAL_ENTERTAINMENT_FLAG_A"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BARRELS_01"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_LOCAL_ENTERTAINMENT_FLAG_B"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BARRELS_02"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_LOCAL_ENTERTAINMENT_FLAG_C"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BARRELS_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_LOCAL_ENTERTAINMENT_FLAG_D"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BARRELS_04"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_LOCAL_ENTERTAINMENT_FLAG_E"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_BARRELS_05"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+requiredRank   =   0
+description   =   "US_01_01_LOCAL_ENTERTAINMENT_REW"
+recommendedTruck   =   "SCOUT"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   130
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2200
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_LOCAL_ENTERTAINMENT_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

@@ -1,0 +1,38 @@
+defaultFailIconNames   =   {
+   GARAGE   =   {
+      __value   =   "IconFailGarage"
+   }
+   CHANGE_TRUCK   =   {
+      __value   =   "IconFailChange"
+   }
+   RECOVERY   =   {
+      __value   =   "IconFailRecovery"
+   }
+   TIME   =   {
+      __value   =   "contestImg20"
+   }
+}
+shortNames   =   {
+   CHANGE_TRUCK   =   {
+      __value   =   "UI_HUD_DEFAULT_FAIL_CONDITIONS_TRUCK_CHANGE"
+   }
+   GARAGE   =   {
+      __value   =   "UI_HUD_DEFAULT_FAIL_CONDITIONS_GARAGE"
+   }
+   RECOVERY   =   {
+      __value   =   "UI_HUD_DEFAULT_FAIL_CONDITIONS_RECOVERY"
+   }
+   DAMAGE   =   {
+      __value   =   "UI_HUD_DEFAULT_FAIL_CONDITIONS_DAMAGE"
+   }
+   COCKPIT   =   {
+      __value   =   "UI_HUD_DEFAULT_FAIL_CONDITIONS_COCKPIT"
+   }
+   HOURS   =   {
+      __value   =   "UI_HUD_DEFAULT_FAIL_CONDITIONS_HOURS"
+   }
+   TIME   =   {
+      __value   =   "UI_HUD_DEFAULT_FAIL_CONDITIONS_TIMER"
+   }
+}
+__type   =   "object"

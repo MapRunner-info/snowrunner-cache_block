@@ -1,0 +1,200 @@
+classes   =   {
+   FloatOperationBase   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      aFloat   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      bFloat   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatSum   =   {
+      __type   =   "BlueprintMathLibraryFloatoperationbase"
+   }
+   FloatMultiplication   =   {
+      __type   =   "BlueprintMathLibraryFloatoperationbase"
+   }
+   FloatSubstract   =   {
+      __type   =   "BlueprintMathLibraryFloatoperationbase"
+   }
+   FloatDivision   =   {
+      __type   =   "BlueprintMathLibraryFloatoperationbase"
+   }
+   FloatRandom   =   {
+      __type   =   "BlueprintMathLibraryFloatoperationbase"
+   }
+   Spline   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      spline   =   {
+         sslModule   =   "math.spline_1d"
+         __type   =   "SplineLinear1d"
+      }
+      inputValue   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   BoolReverse   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      bool   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   BoolPipe   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      bool   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   BoolSum   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      boolA   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      boolB   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   BreakVector3d   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      vector   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatCompare   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      aFloat   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      bFloat   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   IntToFloat   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputInt   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "IntRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatLerp   =   {
+      alpha   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BlueprintMathLibraryFloatoperationbase"
+   }
+   BoolOr   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      boolA   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      boolB   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatClamp   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      value   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      minValue   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      maxValue   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatRemap   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      oldMin   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      oldMax   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      newMin   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      newMax   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   100
+         __type   =   "FloatRefParam"
+      }
+      value   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   IntStore   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputValue   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "IntRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatStore   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      inputValue   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatAbs   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      value   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatSign   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      value   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   FloatLinearIntegrator   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+}
+__type   =   "ssl_object_lib"

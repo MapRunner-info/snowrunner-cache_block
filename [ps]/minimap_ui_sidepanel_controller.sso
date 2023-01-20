@@ -1,0 +1,149 @@
+view   =   {
+   fadeWrapper   =   {
+      fadeInAnimName   =   "fade_in"
+      fadeOutAnimName   =   "fade_out"
+      __type   =   "FadableUiContainerWrapper"
+   }
+   uiObjectDesc   =   {
+      __type   =   "null"
+   }
+   __type   =   "MinimapUiSidepanelView"
+}
+contractsList   =   {
+   onSelectedItemRole   =   "HOVER"
+   clickSound   =   "ui/ui_click_contracts"
+   hoverSound   =   "ui/ui_tab_hover_2"
+   __type   =   "AccordionList"
+}
+tasksContestsList   =   {
+   view   =   {
+      __type   =   "LirItemsListView"
+   }
+   onSelectedItemRole   =   "HOVER"
+   clickSound   =   "ui/ui_click_approve"
+   hoverSound   =   "ui/ui_contracts_hover"
+   __type   =   "LirItemsList"
+}
+headerTrucks   =   {
+   mouseEnabled   =   False
+   mouseChildren   =   False
+   visible   =   False
+   focusable   =   False
+   subHeader   =   {
+      textField   =   {
+         text   =   "UI_MINIMAP_TAB_HEADER_TRUCKS"
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiMinimapAutoclassobjectsubheadersubheader"
+   }
+   __type   =   "UiMinimapObjectsubheader"
+}
+headerBuildings   =   {
+   mouseEnabled   =   False
+   mouseChildren   =   False
+   visible   =   False
+   focusable   =   False
+   subHeader   =   {
+      textField   =   {
+         text   =   "UI_MINIMAP_TAB_HEADER_BUILDINGS"
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiMinimapAutoclassobjectsubheadersubheader"
+   }
+   __type   =   "UiMinimapObjectsubheader"
+}
+headerTaskGiver   =   {
+   mouseEnabled   =   False
+   mouseChildren   =   False
+   visible   =   False
+   focusable   =   False
+   subHeader   =   {
+      textField   =   {
+         text   =   "UI_MINIMAP_TAB_HEADER_TASK_GIVERS"
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiMinimapAutoclassobjectsubheadersubheader"
+   }
+   __type   =   "UiMinimapObjectsubheader"
+}
+headerUpgradeGiver   =   {
+   mouseEnabled   =   False
+   mouseChildren   =   False
+   visible   =   False
+   focusable   =   False
+   subHeader   =   {
+      textField   =   {
+         text   =   "UI_MINIMAP_TAB_HEADER_UPGRADE_GIVER"
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiMinimapAutoclassobjectsubheadersubheader"
+   }
+   __type   =   "UiMinimapObjectsubheader"
+}
+contractIcons   =   {
+   NEW   =   {
+      __value   =   "clipboardEmptyExclaimImg20"
+   }
+   VIEWED   =   {
+      __value   =   "clipboardEmptyImg20"
+   }
+   ACTIVE   =   {
+      __value   =   "clipboardImg20"
+   }
+   TRACKED   =   {
+      __value   =   "contractTracked20"
+   }
+   LOCKED   =   {
+      __value   =   "StatusLockedContractIcons20"
+   }
+   COMPLETED   =   {
+      __value   =   "clipboardEmptyCheckedImg20"
+   }
+}
+contestIcons   =   {
+   NEW   =   {
+      __value   =   "contestNewImg20"
+   }
+   VIEWED   =   {
+      __value   =   "contestEmptyImg20"
+   }
+   ACTIVE   =   {
+      __value   =   "contestImg20"
+   }
+   TRACKED   =   {
+      __value   =   "contestTracked20"
+   }
+   LOCKED   =   {
+   }
+   COMPLETED   =   {
+   }
+}
+taskIcons   =   {
+   NEW   =   {
+      __value   =   "taskNewImg20"
+   }
+   VIEWED   =   {
+      __value   =   "taskEmptyImg20"
+   }
+   ACTIVE   =   {
+      __value   =   "taskImg20"
+   }
+   TRACKED   =   {
+      __value   =   "taskTracked20"
+   }
+   LOCKED   =   {
+   }
+   COMPLETED   =   {
+   }
+}
+iconStateOrder   =   [
+   "TRACKED",
+   "NEW",
+   "VIEWED",
+   "ACTIVE",
+   "LOCKED",
+   "COMPLETED"
+]
+regionIcon   =   "regionIcon20"
+iconLinkageInfoTracked   =   "StatusPinIcons20"
+__type   =   "ComponentUiControllerBase"

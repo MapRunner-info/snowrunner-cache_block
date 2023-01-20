@@ -1,0 +1,18 @@
+view   =   {
+   __type   =   "UiCrossSaveView"
+}
+inputScreen   =   {
+   inputsLinks   =   {
+      ToClient   =   {
+         inputLink   =   "UI.CrossSaveToClient"
+         __type   =   "InputLinkHoldMr"
+      }
+      ToCloud   =   {
+         inputLink   =   "UI.CrossSaveToCloud"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

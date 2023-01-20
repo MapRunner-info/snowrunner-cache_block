@@ -1,0 +1,40 @@
+view   =   {
+   __type   =   "PopupRecentPlayerReportView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Close"
+            __type   =   "NavButtonDesc"
+         }
+         accept   =   {
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupRecentPlayerReportNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupRecentPlayerReportState"
+}
+id   =   "SETTINGS_CHANGE_INPUT"
+priority   =   "MIDDLE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupRecentPlayerReportController"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "Popups.Close"
+         __type   =   "InputLinkActionMr"
+      }
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

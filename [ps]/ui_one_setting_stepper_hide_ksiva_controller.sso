@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_HIDE_KSIVA"
+desc   =   "UI_SETTINGS_HIDE_KSIVA_DESC"
+__type   =   "UiOneSettingStepperOnOff"

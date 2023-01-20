@@ -1,0 +1,34 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         priceCont   =   {
+            priceTf   =   {
+               isHtml   =   True
+               __type   =   "UiPopupLibPopupofferpriccetf"
+            }
+            __type   =   "UiPopupLibPopupofferpricecont"
+         }
+         desc   =   {
+            tf   =   {
+               isHtml   =   True
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiPopupLibHuppopupdesc"
+         }
+         __type   =   "UiPopupLibHudpopupprice"
+      }
+      __type   =   "UiPopupLibMenuanimpricepopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+accountMoneyIcon   =   "playerProfileCurrency20"
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibGarageimg40"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "PopupViewBase"

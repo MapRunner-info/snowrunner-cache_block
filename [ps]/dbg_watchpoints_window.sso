@@ -1,0 +1,23 @@
+window   =   {
+   id   =   "DebugWatchpoint"
+   title   =   "DebugWatchpoint"
+   width   =   500
+   heigth   =   600
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   visible   =   False
+   isNoTitlebar   =   True
+   isNoResize   =   True
+   __type   =   "DbgWindow"
+}
+maxMenuPosition   =   15
+advButtons   =   {
+   prev   =   {
+      __value   =   "Previous"
+   }
+   next   =   {
+      __value   =   "Next"
+   }
+}
+__type   =   "DbgWindowBase"

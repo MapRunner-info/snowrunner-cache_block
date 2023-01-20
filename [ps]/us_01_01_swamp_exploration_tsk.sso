@@ -1,0 +1,47 @@
+uiDesc   =   "US_01_01_SWAMP_EXPLORATION_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_01_SWAMP_EXPLORATION_VISIT_PUMP_01"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_PUMP_01"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_SWAMP_EXPLORATION_VISIT_PUMP_02"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_PUMP_02"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            },
+            {
+               uiDesc   =   "US_01_01_SWAMP_EXPLORATION_VISIT_PUMP_03"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_PUMP_03"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_01_SWAMP_EXPLORATION_REWARD_DESC"
+recommendedTruck   =   "OFFROAD"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   180
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3050
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_SWAMP_EXPLORATION_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

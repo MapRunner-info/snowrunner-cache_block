@@ -1,0 +1,16 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         __type   =   "UiPopupLibHudpopuptask"
+      }
+      __type   =   "UiPopupLibHudanimpopuptask"
+   }
+   __type   =   "UiObjectDesc"
+}
+iconDesc   =   {
+   type   =   {
+      __type   =   "UiIconsLibTaskpopupimg40"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "PopupViewBase"

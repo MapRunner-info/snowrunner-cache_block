@@ -1,0 +1,90 @@
+uiObjectDesc   =   {
+   type   =   {
+      cargoManagementTabs   =   {
+         __type   =   "UiPopupLibHudcargomanagementtabs"
+      }
+      popUpReBg   =   {
+         btnWithIcon0   =   {
+            focusable   =   False
+            __type   =   "UiPopupLibPopupreacceptbtnwide"
+         }
+         __type   =   "UiPopupLibHudpopupcargomanagementbg"
+      }
+      __type   =   "UiPopupLibHudpopupcargomanagement"
+   }
+   __type   =   "UiObjectDesc"
+}
+presets   =   {
+   LOADING   =   {
+      header   =   "UI_HUD_POPUP_CARGO_LOADING"
+      tabIconLinkage   =   "minimapMarkUploading30"
+      presetIconLinkage   =   "minimapMarkUploading40"
+      __type   =   "PopupCargoViewPreset"
+   }
+   UNLOADING   =   {
+      header   =   "UI_HUD_POPUP_CARGO_UNLOADING"
+      tabIconLinkage   =   "minimapMarkLoading30"
+      presetIconLinkage   =   "minimapMarkLoading40"
+      __type   =   "PopupCargoViewPreset"
+   }
+   CRAFT   =   {
+      header   =   "UI_HUD_POPUP_CARGO_STOREHOUSE"
+      tabIconLinkage   =   "minimapMarkCraft30"
+      extraTabIconLinkage   =   "craftGenerator30"
+      presetIconLinkage   =   "minimapMarkCraft40"
+      __type   =   "PopupCargoViewPreset"
+   }
+   PREVIEW_LOADING   =   {
+      header   =   "UI_HUD_POPUP_CARGO_LOADING"
+      tabIconLinkage   =   "minimapMarkUploading30"
+      presetIconLinkage   =   "minimapMarkUploading40"
+      __type   =   "PopupCargoViewPreset"
+   }
+}
+tabsManager   =   {
+   clickSound   =   "ui/ui_main_click_in"
+   __type   =   "UiButtonSelectedManagerWrapper"
+}
+tabNavBtns   =   [
+   {
+      desc   =   {
+         isButtonWithoutText   =   True
+         clickSound   =   "ui/ui_main_click_in"
+         __type   =   "NavButtonDesc"
+      }
+   },
+   {
+      desc   =   {
+         isButtonWithoutText   =   True
+         clickSound   =   "ui/ui_main_click_in"
+         __type   =   "NavButtonDesc"
+      }
+   }
+]
+extraLoadIcons   =   [
+   {
+      type   =   "COMMON"
+      iconNames   =   [
+         "ruins40Woods1",
+         "ruins40Woods2",
+         "ruins40Woods3"
+      ]
+   },
+   {
+      type   =   "BRICK"
+      iconNames   =   [
+         "ruins40Bricks1",
+         "ruins40Bricks2",
+         "ruins40Bricks1"
+      ]
+   },
+   {
+      type   =   "METAL"
+      iconNames   =   [
+         "ruins40Metals1",
+         "ruins40Metals2",
+         "ruins40Metals3"
+      ]
+   }
+]
+__type   =   "PopupViewBase"

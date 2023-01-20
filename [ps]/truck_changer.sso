@@ -1,0 +1,39 @@
+inputScreen   =   {
+   name   =   "Truck Changer"
+   inputsLinks   =   {
+      up   =   {
+         inputLink   =   "UI.GamepadDPadUp"
+         __type   =   "InputLinkHoldMr"
+      }
+      left   =   {
+         inputLink   =   "UI.GamepadDPadLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      down   =   {
+         inputLink   =   "UI.GamepadDPadDown"
+         __type   =   "InputLinkHoldMr"
+      }
+      right   =   {
+         inputLink   =   "UI.GamepadDPadRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      tapleft   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      tapright   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+      tapup   =   {
+         inputLink   =   "UI.UiListUpTap"
+         __type   =   "InputLinkActionMr"
+      }
+      tapdown   =   {
+         inputLink   =   "UI.UiListDownTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "object"

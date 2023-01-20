@@ -1,0 +1,1029 @@
+achievements   =   {
+   YouCanDrive_CompleteTutorial   =   {
+      achievementId   =   {
+         steamId   =   "1"
+         xboxId   =   "1"
+         gamecenterId   =   "grp.1_0"
+         psId   =   1
+         ggpId   =   1
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconyeahyoucandrive"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_YOU_CAN_DRIVE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_YOU_CAN_DRIVE_DESC"
+      __type   =   "TutorialAchievement"
+   }
+   Farmer_SmashPumpkins   =   {
+      achievementId   =   {
+         steamId   =   "2"
+         xboxId   =   "2"
+         gamecenterId   =   "grp.1_01"
+         psId   =   2
+         ggpId   =   2
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicononceafarmeralwaysafarmer"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_SMASH_PUMPKINS_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_SMASH_PUMPKINS_DESC"
+      __type   =   "SmashPumpkinsAchivement"
+   }
+   Goliath_RaiseTrailerWithCrane   =   {
+      achievementId   =   {
+         steamId   =   "3"
+         xboxId   =   "3"
+         gamecenterId   =   "grp.1_02"
+         psId   =   3
+         ggpId   =   3
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicongoliath"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_GOLIATH_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_GOLIATH_DESC"
+      trailers   =   [
+         "semitrailer_coiled_tubing",
+         "semitrailer_heavy_construction_equipment",
+         "semitrailer_heavy_oiltank",
+         "semitrailer_oil_rig"
+      ]
+      neededHeight   =   5
+      __type   =   "RaiseTrailerWithCrane"
+   }
+   TheBlueHall_WaterDrive   =   {
+      achievementId   =   {
+         steamId   =   "4"
+         xboxId   =   "4"
+         gamecenterId   =   "grp.1_03"
+         psId   =   4
+         ggpId   =   4
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconthebluehall"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_BLUE_HALL_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_BLUE_HALL_DESC"
+      __type   =   "WaterDriveAchievement"
+   }
+   WhereAreLogs_VisitEvLogAr   =   {
+      achievementId   =   {
+         steamId   =   "5"
+         xboxId   =   "5"
+         gamecenterId   =   "grp.1_04"
+         psId   =   5
+         ggpId   =   5
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconwherearethelogs"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_WHERE_LOGS_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_WHERE_LOGS_DESC"
+      zonesNeedToVisit   =   [
+         "level_us_01_01 || US_01_01_LUMBER_MILL",
+         "level_us_01_04_new || US_01_04_LOG_LOADING",
+         "level_us_02_01 || US_02_01_LOG_STATION",
+         "level_us_02_02_new || US_02_02_MILL",
+         "level_us_02_03_new || US_02_03_LOG_STATION_01",
+         "level_us_02_03_new || US_02_03_LOG_STATION_02",
+         "level_ru_02_02 || RU_02_02_LUMBER_MILL",
+         "level_ru_02_01_crop || RU_02_01_OLD_LUMBERMILL",
+         "level_ru_02_03 || RU_02_03_SAWMILL_2_PICKUP",
+         "level_us_01_03 || US_01_03_LUMBER_MILL_UNLOCK",
+         "level_us_02_01 || US_02_01_LUMBER_MILL",
+         "level_us_02_03_new || US_02_03_MILL"
+      ]
+      zoneType   =   "CARGO_LOADING"
+      __type   =   "VisitZoneAchievement"
+   }
+   PlayYourWay_2000Dmg   =   {
+      achievementId   =   {
+         steamId   =   "6"
+         xboxId   =   "6"
+         gamecenterId   =   "grp.1_05"
+         psId   =   6
+         ggpId   =   6
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconplayyourway"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_PLAY_YOUR_WAY_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_PLAY_YOUR_WAY_DESC"
+      __type   =   "Fix2000DamageAchievement"
+   }
+   DeerHunt_FindAllUpgMichig   =   {
+      achievementId   =   {
+         steamId   =   "7"
+         xboxId   =   "7"
+         gamecenterId   =   "grp.1_06"
+         psId   =   7
+         ggpId   =   7
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicondeerhunt"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_DEER_HUNT_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_DEER_HUNT_DESC"
+      regionId   =   "us_01"
+      __type   =   "FindAllUpgradesInTheRegion"
+   }
+   Moosehunt_FindAllUpgAlaska   =   {
+      achievementId   =   {
+         steamId   =   "8"
+         xboxId   =   "8"
+         gamecenterId   =   "grp.1_07"
+         psId   =   8
+         ggpId   =   8
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconmoosehunt"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter3"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_MOOSE_HUNT_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_MOOSE_HUNT_DESC"
+      regionId   =   "us_02"
+      __type   =   "FindAllUpgradesInTheRegion"
+   }
+   BearHunt_FindAllUpgTaymir   =   {
+      achievementId   =   {
+         steamId   =   "9"
+         xboxId   =   "9"
+         gamecenterId   =   "grp.1_08"
+         psId   =   9
+         ggpId   =   9
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconbearhunt"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_BEAR_HUNT_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_BEAR_HUNT_DESC"
+      regionId   =   "ru_02"
+      __type   =   "FindAllUpgradesInTheRegion"
+   }
+   EatSlDR_DeliverOilRigToDrill   =   {
+      achievementId   =   {
+         steamId   =   "10"
+         xboxId   =   "10"
+         gamecenterId   =   "grp.1_09"
+         psId   =   10
+         ggpId   =   10
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconeatsleapdrillrepeat"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_EAT_SLEAP_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_EAT_SLEAP_DESC"
+      deliverOilRigObjAndStage   =   {
+         US_02_01_DISASS_OBJ   =   {
+            __value   =   0
+         }
+         US_02_02_DISASS_OBJ   =   {
+            __value   =   0
+         }
+         US_02_03_DISASS_OBJ   =   {
+            __value   =   0
+         }
+      }
+      __type   =   "DeliverOilRigToTheDrillingSite"
+   }
+   GetOverHere_Winch   =   {
+      achievementId   =   {
+         steamId   =   "11"
+         xboxId   =   "11"
+         gamecenterId   =   "grp.1_010"
+         psId   =   11
+         ggpId   =   11
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicongetoverhere"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_GET_OVER_HERE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_GET_OVER_HERE_DESC"
+      __type   =   "WinchAchievement"
+   }
+   ThroughBlood_ManualLoad   =   {
+      achievementId   =   {
+         steamId   =   "12"
+         xboxId   =   "12"
+         gamecenterId   =   "grp.1_011"
+         psId   =   12
+         ggpId   =   12
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconthroughbloodsweat"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_BLOOD_AND_SWEAT_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_BLOOD_AND_SWEAT_DESC"
+      __type   =   "ManualLoadAchievement"
+   }
+   BrokenHorse_BrokenWheels   =   {
+      achievementId   =   {
+         steamId   =   "13"
+         xboxId   =   "13"
+         gamecenterId   =   "grp.1_012"
+         psId   =   13
+         ggpId   =   13
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconbrokenhorse"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_BROKEN_HORSE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_BROKEN_HORSE_DESC"
+      __type   =   "BrokenWheelsAchievement"
+   }
+   Simply_DeliverEveryTypeCargo   =   {
+      achievementId   =   {
+         steamId   =   "14"
+         xboxId   =   "14"
+         gamecenterId   =   "grp.1_013"
+         psId   =   14
+         ggpId   =   14
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconsimplydelivered"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_SIMPLY_DELIVERED_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_SIMPLY_DELIVERED_DESC"
+      __type   =   "DeliverEveryTypeOfCargoInTheGame"
+   }
+   WorkersUnite_VisitZone   =   {
+      achievementId   =   {
+         steamId   =   "15"
+         xboxId   =   "15"
+         gamecenterId   =   "grp.1_014"
+         psId   =   15
+         ggpId   =   15
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconworkersunite"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_WORKERS_UNITE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_WORKERS_UNITE_DESC"
+      zonesNeedToVisit   =   [
+         "level_ru_02_02 || RU_02_02_STATUE",
+         "level_ru_02_03 || RU_02_03_LENIN_ZONE"
+      ]
+      zoneType   =   "UNDEFINED"
+      isWorkWithInvisibleZones   =   True
+      __type   =   "VisitZoneAchievement"
+   }
+   StepLightly_10Rec   =   {
+      achievementId   =   {
+         steamId   =   "16"
+         xboxId   =   "16"
+         gamecenterId   =   "grp.1_015"
+         psId   =   16
+         ggpId   =   16
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconsteplightly"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_STEP_LIGHTLY_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_STEP_LIGHTLY_DESC"
+      __type   =   "RecoverAchievement"
+   }
+   WhyProblem_PullVehicleOutWater   =   {
+      achievementId   =   {
+         steamId   =   "17"
+         xboxId   =   "17"
+         gamecenterId   =   "grp.1_016"
+         psId   =   17
+         ggpId   =   17
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconwhyproblemmake"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_WHY_PROBLEM_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_WHY_PROBLEM_DESC"
+      __type   =   "PullVehicleWithBrokenEngineOutOfTheWaterAchievement"
+   }
+   Untouch_TaskConWithoutDmg   =   {
+      achievementId   =   {
+         steamId   =   "18"
+         xboxId   =   "18"
+         gamecenterId   =   "grp.1_017"
+         psId   =   18
+         ggpId   =   18
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicontheuntouchable"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter2"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_UNTOUCHABLE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_UNTOUCHABLE_DESC"
+      __type   =   "CompleteAnyTasksOrContestsWithoutAnyDamage"
+   }
+   Gallo24_AddonsPrice   =   {
+      achievementId   =   {
+         steamId   =   "19"
+         xboxId   =   "19"
+         gamecenterId   =   "grp.1_018"
+         psId   =   19
+         ggpId   =   19
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicongallo24"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter2"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_GALLO_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_GALLO_DESC"
+      __type   =   "AddonPriceAchievement"
+   }
+   "18Wheels_OwnAzov4220Antarctic"   =   {
+      achievementId   =   {
+         steamId   =   "20"
+         xboxId   =   "20"
+         gamecenterId   =   "grp.1_019"
+         psId   =   20
+         ggpId   =   20
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicon18wheelsisnotenough"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter12"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_18_WHEELS_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_18_WHEELS_DESC"
+      truckType   =   "azov_4220_antarctic"
+      finishTruckCount   =   1
+      __type   =   "OwnTruckAchievement"
+   }
+   WhatsAMile_MAZ500   =   {
+      achievementId   =   {
+         steamId   =   "21"
+         xboxId   =   "21"
+         gamecenterId   =   "grp.1_020"
+         psId   =   21
+         ggpId   =   21
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconwhatsamile"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter3"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_WHATS_A_MILE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_WHATS_A_MILE_DESC"
+      cargoCount   =   10
+      truckId   =   "zikz_5368"
+      regionIdArray   =   [
+         "us_01",
+         "us_02"
+      ]
+      __type   =   "DeliveryAchievement"
+   }
+   WesternWind_PacP12   =   {
+      achievementId   =   {
+         steamId   =   "22"
+         xboxId   =   "22"
+         gamecenterId   =   "grp.1_021"
+         psId   =   22
+         ggpId   =   22
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconwesternwind"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_WESTERN_WIND_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_WESTERN_WIND_DESC"
+      cargoCount   =   10
+      truckId   =   "pacific_p12w"
+      regionIdArray   =   [
+         "ru_02"
+      ]
+      __type   =   "DeliveryAchievement"
+   }
+   UncleScrooge_100000money   =   {
+      achievementId   =   {
+         steamId   =   "23"
+         xboxId   =   "23"
+         gamecenterId   =   "grp.1_022"
+         psId   =   23
+         ggpId   =   23
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconunclescrooge"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter1"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_UNCLE_SCROOGE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_UNCLE_SCROOGE_DESC"
+      __type   =   "MoneyAchievement"
+   }
+   MoreThanTwo_AllUsTrucks   =   {
+      achievementId   =   {
+         steamId   =   "24"
+         xboxId   =   "24"
+         gamecenterId   =   "grp.1_023"
+         psId   =   24
+         ggpId   =   24
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconmorethantwo"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter5"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_MORE_THAN_TWO_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_MORE_THAN_TWO_DESC"
+      country   =   "US"
+      __type   =   "OwnTrucksAchievement"
+   }
+   TheDuel_GetLessDmgOnRedScout   =   {
+      achievementId   =   {
+         steamId   =   "25"
+         xboxId   =   "25"
+         gamecenterId   =   "grp.1_024"
+         psId   =   25
+         ggpId   =   25
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicontheduel"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_THE_DUEL_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_THE_DUEL_DESC"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   0
+         b   =   0
+         __type   =   "Color"
+      }
+      dist   =   141
+      additionalColors   =   [
+         {
+            color   =   {
+               a   =   255
+               r   =   117
+               g   =   18
+               b   =   38
+               __type   =   "Color"
+            }
+            dist   =   5
+         }
+      ]
+      __type   =   "DrivingColouredScoutCollideAndGetLessDamageThanOtherTruck"
+   }
+   MasterFuel_TravelReg1tank   =   {
+      achievementId   =   {
+         steamId   =   "26"
+         xboxId   =   "26"
+         gamecenterId   =   "grp.1_025"
+         psId   =   26
+         ggpId   =   26
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconmastersofthefuel"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_MASTERS_OF_FUEL_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_MASTERS_OF_FUEL_DESC"
+      __type   =   "TravelThroughEveryRegionOnSingleTankOfFuel"
+   }
+   VictoryParade_AllRuTrucks   =   {
+      achievementId   =   {
+         steamId   =   "27"
+         xboxId   =   "27"
+         gamecenterId   =   "grp.1_026"
+         psId   =   27
+         ggpId   =   27
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconvictoryparade"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter12"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_VICTORY_PARADE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_VICTORY_PARADE_DESC"
+      country   =   "RU"
+      __type   =   "OwnTrucksAchievement"
+   }
+   DreamsCT_RepairAllPipes   =   {
+      achievementId   =   {
+         steamId   =   "28"
+         xboxId   =   "28"
+         gamecenterId   =   "grp.1_027"
+         psId   =   28
+         ggpId   =   28
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicondreamscometrue"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter3"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_DREAMS_COME_TRUE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_DREAMS_COME_TRUE_DESC"
+      __type   =   "RepairAllPipesInAlaska"
+   }
+   WatchPoints_ExploreAll   =   {
+      achievementId   =   {
+         steamId   =   "29"
+         xboxId   =   "29"
+         gamecenterId   =   "grp.1_028"
+         psId   =   29
+         ggpId   =   29
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconallalongthewatchpoint"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter4"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_ALL_ALONG_WATCHPOINT_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_ALL_ALONG_WATCHPOINT_DESC"
+      __type   =   "ExploreAllWatchPointsInTheGame"
+   }
+   Garages_ExploreAll   =   {
+      achievementId   =   {
+         steamId   =   "30"
+         xboxId   =   "30"
+         gamecenterId   =   "grp.1_029"
+         psId   =   30
+         ggpId   =   30
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconallstartsfromagarage"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_ALL_GARAGES_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_ALL_GARAGES_DESC"
+      __type   =   "ExploreAllGaragesInTheGame"
+   }
+   Pedal_TravelFromOneGate   =   {
+      achievementId   =   {
+         steamId   =   "31"
+         xboxId   =   "31"
+         gamecenterId   =   "grp.1_030"
+         psId   =   31
+         ggpId   =   31
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconpedaltothemetal"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter8"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_PEDAL_TO_METAL_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_PEDAL_TO_METAL_DESC"
+      __type   =   "TravelOneGatewayToAnotherWithoutPullingAccelerator"
+   }
+   BeringStraight_StateTruckInGarAlaska   =   {
+      achievementId   =   {
+         steamId   =   "32"
+         xboxId   =   "32"
+         gamecenterId   =   "grp.1_031"
+         psId   =   32
+         ggpId   =   32
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconberingstraight"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter3"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_BERING_STRAIGHT_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_BERING_STRAIGHT_DESC"
+      achievementTruckId   =   "tuz_420_tatarin"
+      __type   =   "PlaceATruckInAnyGarageOnAlaska"
+   }
+   Convoy_BrokenEngine   =   {
+      achievementId   =   {
+         steamId   =   "33"
+         xboxId   =   "33"
+         gamecenterId   =   "grp.1_032"
+         psId   =   33
+         ggpId   =   33
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconconvoy"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter10"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_CONVOY_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_CONVOY_DESC"
+      __type   =   "BrokenEngineAchievement"
+   }
+   FrontierElite_CompleteAllContracts   =   {
+      achievementId   =   {
+         steamId   =   "34"
+         xboxId   =   "34"
+         gamecenterId   =   "grp.1_033"
+         psId   =   34
+         ggpId   =   34
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconfrontierelite"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter9"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_FRONTIER_ELITE_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_FRONTIER_ELITE_DESC"
+      __type   =   "CompleteEveryContractInTheGame"
+   }
+   ModelCollector_AllTrucks   =   {
+      achievementId   =   {
+         steamId   =   "35"
+         xboxId   =   "35"
+         gamecenterId   =   "grp.1_034"
+         psId   =   35
+         ggpId   =   35
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconmodelcollector"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter9"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_MODEL_COLLECTOR_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_MODEL_COLLECTOR_DESC"
+      __type   =   "OwnTrucksAchievement"
+   }
+   AintNoRest_CompleteAllTaskCont   =   {
+      achievementId   =   {
+         steamId   =   "36"
+         xboxId   =   "36"
+         gamecenterId   =   "grp.1_035"
+         psId   =   36
+         ggpId   =   36
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementiconaintnorestforthetrucker"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter9"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_NO_REST_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_NO_REST_DESC"
+      __type   =   "CompleteEveryTaskAndContestInTheGame"
+   }
+   TheBlackShuck_TruckDistance   =   {
+      achievementId   =   {
+         steamId   =   "37"
+         xboxId   =   "37"
+         gamecenterId   =   "grp.1_036"
+         psId   =   37
+         ggpId   =   37
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicontheblackshuck"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter9"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_BLACK_SHUCK_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_BLACK_SHUCK_DESC"
+      __type   =   "DistanceDriveAchievement"
+   }
+   OneWithTruck_ComplAllAchiev   =   {
+      achievementId   =   {
+         steamId   =   ""
+         psId   =   0
+         ggpId   =   38
+         __type   =   "AchievementId"
+      }
+      iconDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementicononewiththetruck"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      imageDesc   =   {
+         type   =   {
+            __type   =   "UiImgLibAchievementposter9"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      uiName   =   "UI_ACHIEVEMENT_ONE_WITH_TRUCK_NAME"
+      uiDesc   =   "UI_ACHIEVEMENT_ONE_WITH_TRUCK_DESC"
+      __type   =   "CompleteAllTrophies"
+   }
+}
+__type   =   "object"

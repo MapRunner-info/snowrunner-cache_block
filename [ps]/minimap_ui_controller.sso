@@ -1,0 +1,312 @@
+view   =   {
+   fadeWrapper   =   {
+      __type   =   "FadableUiContainerWrapper"
+   }
+   uiObjectDesc   =   {
+      type   =   {
+         nameCont   =   {
+            alpha   =   100
+            __type   =   "UiMinimapMinimapname"
+         }
+         sidePanel   =   {
+            tab0   =   {
+               focusable   =   False
+               __type   =   "UiMinimapMenupaneltanbtn"
+            }
+            tab1   =   {
+               focusable   =   False
+               __type   =   "UiMinimapMenupaneltanbtn"
+            }
+            tab2   =   {
+               focusable   =   False
+               __type   =   "UiMinimapMenupaneltanbtn"
+            }
+            tab3   =   {
+               focusable   =   False
+               __type   =   "UiMinimapMenupaneltanbtn"
+            }
+            content   =   {
+               contractView   =   {
+                  taskList   =   {
+                     scrollBar   =   {
+                        __type   =   "UiCommonLibDefscrollbars"
+                     }
+                     __type   =   "UiMinimapTaskaccordionlist"
+                  }
+                  taskListShort   =   {
+                     scrollBar   =   {
+                        __type   =   "UiCommonLibDefscrollbars"
+                     }
+                     __type   =   "UiMinimapTaskaccordionlistshort"
+                  }
+                  desc   =   {
+                     mouseEnabled   =   False
+                     mouseChildren   =   False
+                     __type   =   "UiMinimapAutoclasscontractcontainerdesc"
+                  }
+                  lockDesc   =   {
+                     visible   =   False
+                     list   =   {
+                        lir   =   {
+                           toggle   =   False
+                           __type   =   "UiLockLir"
+                        }
+                        __type   =   "UiMinimapLockdesclist"
+                     }
+                     __type   =   "UiMinimapLockdescription"
+                  }
+                  whiteBg   =   {
+                     mouseEnabled   =   False
+                     mouseChildren   =   False
+                     __type   =   "UiMinimapMenupanelwhitebg"
+                  }
+                  __type   =   "UiMinimapContractcontainer"
+               }
+               objects   =   {
+                  list   =   {
+                     scrollBar   =   {
+                        __type   =   "UiCommonLibDefscrollbars"
+                     }
+                     __type   =   "UiMinimapObjectsaccordionlist"
+                  }
+                  __type   =   "UiMinimapObjectscontainer"
+               }
+               employers   =   {
+                  list   =   {
+                     updateDuration   =   70
+                     __type   =   "UiMinimapEmployersaccordionlist"
+                  }
+                  __type   =   "UiMinimapEmployerscontainer"
+               }
+               tasks   =   {
+                  list   =   {
+                     isSmoothScroll   =   True
+                     isCreateAllLirs   =   True
+                     lir   =   {
+                        __type   =   "MinimapTaskContestLir"
+                     }
+                     scrollBar   =   {
+                        __type   =   "UiCommonLibDefscrollbars"
+                     }
+                     __type   =   "UiMinimapTaskslist"
+                  }
+                  __type   =   "UiMinimapTaskscontainer"
+               }
+               __type   =   "UiMinimapMenupanelcontent"
+            }
+            __type   =   "UiMinimapMinimapmenupanel"
+         }
+         currentContractAttach   =   {
+            mouseEnabled   =   False
+            __type   =   "UiMinimapMinimapattachpoint"
+         }
+         __type   =   "UiMinimapMinimapscreen"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "MinimapUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         closeMinimap   =   {
+            text   =   "UI_MAP_CLOSE"
+            uiInputName   =   "CloseMinimap"
+            clickSound   =   "ui/ui_click_exit"
+            __type   =   "NavButtonDesc"
+         }
+         goToRegional   =   {
+            text   =   "UI_MINIMAP_REGIONAL_MAP"
+            uiInputName   =   "GoToRegional"
+            clickSound   =   ""
+            __type   =   "NavButtonDesc"
+         }
+         back   =   {
+            text   =   "UI_BACK"
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         moveToPlayer   =   {
+            text   =   "UI_MINIMAP_MOVE_TO_PLAYER"
+            uiInputName   =   "MoveToPlayer"
+            excludedDevices   =   [
+               "steering_wheel"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+         skipTime   =   {
+            text   =   "UI_MINIMAP_SKIP_TIME"
+            uiInputName   =   "SkipTime"
+            __type   =   "NavButtonDesc"
+         }
+         select   =   {
+            text   =   "UI_SELECT_MARKER"
+            uiInputName   =   "SelectMarker"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            __type   =   "NavButtonDesc"
+         }
+         moveMinimap   =   {
+            text   =   "UI_MINIMAP_MOVE"
+            uiInputName   =   "FakeMove"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            useAnim   =   False
+            forcedIcons   =   {
+               iconXbox   =   "xb_LAXIS_UDLR"
+               iconPS4   =   "ps_LAXIS_UDLR"
+               iconNX   =   "nx_LAXIS_UDLR"
+               iconStadia   =   "stadia_LAXIS_UDLR"
+               __type   =   "NavBtnForcedIcons"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         rotateMinimap   =   {
+            text   =   "UI_MINIMAP_ROTATE_ZOOM"
+            uiInputName   =   "FakeRotate"
+            excludedDevices   =   [
+               "keyboard",
+               "mouse",
+               "steering_wheel",
+               "farm_sideboard"
+            ]
+            useAnim   =   False
+            __type   =   "NavButtonDesc"
+         }
+         focusSubstage   =   {
+            text   =   "UI_SELECT"
+            uiInputName   =   "FocusSubstage"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "MinimapNavigationPanel"
+   }
+   notDefault   =   {
+      useBg   =   True
+      btns   =   {
+         clearPath   =   {
+            text   =   "UI_MINIMAP_CLEAR_PATH"
+            uiInputName   =   "ClearPath"
+            holdDesc   =   {
+               holdTimeSec   =   1
+               waitTimeSec   =   0
+               isEnabled   =   True
+               uiInputName   =   "ClearPath"
+               __type   =   "NavBtnHoldDesc"
+            }
+            isTwoLine   =   True
+            translateAndColorize   =   True
+            isMultiline   =   True
+            __type   =   "NavButtonDesc"
+         }
+         placeMarker   =   {
+            text   =   "UI_MINIMAP_PLACE_MARKER"
+            uiInputName   =   "PlaceMarker"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "MinimapPathBuildingNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "MinimapScreenState"
+}
+inputHoldCtrl   =   {
+   cmd   =   {
+      devices   =   [
+         {
+            deviceType   =   "keyboard"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     29
+                  ]
+               },
+               {
+                  keys   =   [
+                     157
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+   __type   =   "InputActionHold"
+}
+dbgInputTeleportToCursor   =   {
+   inputLink   =   "DebugDBG.MinimapTeleportTruckToCursor"
+   __type   =   "InputLinkHoldMr"
+}
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "MinimapUi"
+   inputsLinks   =   {
+      CloseMinimap   =   {
+         inputLink   =   "Exploration.ShowMinimap"
+         __type   =   "InputLinkHoldMr"
+      }
+      GoToRegional   =   {
+         inputLink   =   "UI.GoToRegionalMap"
+         __type   =   "InputLinkHoldMr"
+      }
+      PlaceMarker   =   {
+         inputLink   =   "UI.PlacePathMarker"
+         __type   =   "InputLinkHoldMr"
+      }
+      ClearPath   =   {
+         inputLink   =   "UI.ClearPath"
+         __type   =   "InputLinkHoldMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      ClearLastPathPoint   =   {
+         inputLink   =   "UI.ClearLastPathPoint"
+         __type   =   "InputLinkActionMr"
+      }
+      MoveToPlayer   =   {
+         inputLink   =   "UI.MoveToPlayer"
+         __type   =   "InputLinkActionMr"
+      }
+      SkipTime   =   {
+         inputLink   =   "UI.SkipTime"
+         __type   =   "InputLinkActionMr"
+      }
+      SelectMarker   =   {
+         inputLink   =   "UI.SelectMarker"
+         __type   =   "InputLinkHoldMr"
+      }
+      FakeMove   =   {
+         inputLink   =   "UI.FakeMovement"
+         __type   =   "InputLinkHoldMr"
+      }
+      FakeRotate   =   {
+         inputLink   =   "UI.FakeRotation"
+         __type   =   "InputLinkHoldMr"
+      }
+      FocusSubstage   =   {
+         inputLink   =   "UI.FocusSubstage"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Left",
+      "Right"
+   ]
+   __type   =   "UiFocusScreen"
+}
+blockedGatewayIcon40   =   "gatewayLockedImg"
+blockedGatewayIcon30   =   "gatewayLockedImg30"
+__type   =   "ScreenControllerBase"

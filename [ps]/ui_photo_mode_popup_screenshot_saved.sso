@@ -1,0 +1,57 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         x   =   0
+         y   =   0
+         mouseEnabled   =   True
+         focusable   =   True
+         horizontalAlign   =   0
+         verticalAlign   =   0
+         popUp   =   {
+            actionBtnAttach   =   {
+               y   =   300
+               __type   =   "UiPopupLibPopupbtnattach"
+            }
+            __type   =   "UiPopupLibWidepopup"
+         }
+         __type   =   "UiPopupLibAnimwidepopup"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "PopupSettingsScreenshotSavedView"
+}
+navPanels   =   {
+   PopupNavigationPanel   =   {
+      btns   =   {
+         accept   =   {
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+id   =   "SCREENSHOT_SAVED_MESSAGE"
+priority   =   "VERY_LOW"
+disableInputs   =   False
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupInputOverrideWarning"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+focusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Left",
+      "Right",
+      "Up",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

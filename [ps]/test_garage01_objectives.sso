@@ -1,0 +1,246 @@
+tasksSettings   =   {
+   test_fill_water   =   {
+      uiDesc   =   "UI_TEST_FILL_WATER_DESCRIPTION"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "UI_TEST_FILL_WATER_ZONE_TO_FILL_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_garage01 || water_unload"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWater"
+                        count   =   1800
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            needToStartTimer   =   False
+         }
+      ]
+      description   =   "UI_TEST_FILL_WATER_REWARD_DESCRIPTION"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   66
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   666
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "test_garage01 || task_water"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+   test_open_water_zone   =   {
+      uiDesc   =   "test_open_water_zone"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "will zone 'water_unload'"
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_garage01 || water_unload"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWater"
+                        count   =   500
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      description   =   "Gives you 'water_transit' and 'water_transit_01' as shared zones."
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "water_transit"
+                  mapId   =   "test_garage01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        waterCapacity   =   3500
+                        sharedZones   =   [
+                           {
+                              globalZoneId   =   "test_garage01 || water_transit"
+                           },
+                           {
+                              globalZoneId   =   "test_garage01 || water_transit_01"
+                           }
+                        ]
+                     }
+                  }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "water_transit_01"
+                  mapId   =   "test_garage01"
+                  props   =   {
+                     ZonePropertyWaterStation   =   {
+                        waterCapacity   =   3500
+                        sharedZones   =   [
+                           {
+                              globalZoneId   =   "test_garage01 || water_transit"
+                           },
+                           {
+                              globalZoneId   =   "test_garage01 || water_transit_01"
+                           }
+                        ]
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+            }
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "test_garage01 || task_give_water_zone"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      isRepeatable   =   True
+      __type   =   "TaskSettings"
+   }
+}
+contractsSettings   =   {
+   garage_unlock_customization   =   {
+      uiDesc   =   "Unlock Customization"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_garage01 || trailer_garage_0"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLarge"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      rewards   =   {
+         ObjectiveRewardsUpgradeGarage   =   {
+            zone   =   "test_garage01 || garage_entrance_0"
+            feature   =   "CUSTOMIZATION"
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   garage_unlock_slots   =   {
+      uiDesc   =   "Unlock Slots"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_garage01 || trailer_garage_0"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLarge"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "garage_unlock_customization"
+      ]
+      rewards   =   {
+         ObjectiveRewardsUpgradeGarage   =   {
+            zone   =   "test_garage01 || garage_entrance_0"
+            feature   =   "SLOTS"
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   garage_unlock_store   =   {
+      uiDesc   =   "Unlock Store"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_garage01 || trailer_garage_0"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLarge"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "garage_unlock_slots"
+      ]
+      rewards   =   {
+         ObjectiveRewardsUpgradeGarage   =   {
+            zone   =   "test_garage01 || garage_entrance_0"
+            feature   =   "STORE"
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+   garage_unlock_repair   =   {
+      uiDesc   =   "Unlock Repair"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     globalZoneId   =   {
+                        globalZoneId   =   "test_garage01 || trailer_garage_0"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLarge"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "garage_unlock_store"
+      ]
+      rewards   =   {
+         ObjectiveRewardsUpgradeGarage   =   {
+            zone   =   "test_garage01 || garage_entrance_0"
+            feature   =   "REPAIR"
+         }
+      }
+      __type   =   "ContractSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

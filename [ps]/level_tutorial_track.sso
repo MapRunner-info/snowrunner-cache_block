@@ -1,0 +1,58 @@
+zoneDesc   =   {
+   TUTOR_TRACK_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_01_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_02   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_02_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_03   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_03_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_04   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_04_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_05   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_05_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_06   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_06_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_07   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_07_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_08   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_08_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   TUTOR_TRACK_RECOVER   =   {
+      props   =   {
+         ZonePropertyRecovery   =   {
+         }
+      }
+      __type   =   "ZoneSettings"
+   }
+}
+__type   =   "MapWithZonesDesc"

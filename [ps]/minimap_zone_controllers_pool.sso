@@ -1,0 +1,9 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "MinimapZoneController"
+   }
+   __type   =   "MinimapZoneControllerDesc"
+}
+initialCapacity   =   100
+editorMaxCapacity   =   300
+__type   =   "EditorObjectDescPool"

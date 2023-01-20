@@ -1,0 +1,24 @@
+zoneToEnter   =   "US_01_01_AWD"
+inputScreen   =   {
+   name   =   "Tutorial AWD"
+   inputsLinks   =   {
+      Clutch   =   {
+         inputLink   =   "Truck.ClutchMode"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+clutchInput   =   {
+   inputLink   =   "Truck.ClutchMode"
+   __type   =   "InputLinkMr"
+}
+awdInput   =   {
+   inputLink   =   "Truck.Awd"
+   __type   =   "InputLinkMr"
+}
+awdSoloInput   =   {
+   inputLink   =   "Truck.AwdSolo"
+   __type   =   "InputLinkMr"
+}
+__type   =   "TutorialStage"

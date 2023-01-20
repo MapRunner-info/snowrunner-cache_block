@@ -1,0 +1,5 @@
+ignoreTaskFail   =   True
+delayBeforeStart   =   100
+delayBeforeSuccess   =   100
+delayBeforeDeserialization   =   300
+__type   =   "BlueprintNodeAutotestTaskBase"

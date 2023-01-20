@@ -1,0 +1,99 @@
+view   =   {
+   __type   =   "SaveSlotsUiView"
+}
+navPanels   =   {
+   default   =   {
+      useBg   =   True
+      btns   =   {
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         Left   =   {
+            uiInputName   =   "Left"
+            __type   =   "NavButtonDesc"
+         }
+         Right   =   {
+            uiInputName   =   "Right"
+            __type   =   "NavButtonDesc"
+         }
+         Select   =   {
+            uiInputName   =   "Select"
+            __type   =   "NavButtonDesc"
+         }
+         Delete   =   {
+            uiInputName   =   "Delete"
+            __type   =   "NavButtonDesc"
+         }
+         ImportSave   =   {
+            uiInputName   =   "ImportSave"
+            __type   =   "NavButtonDesc"
+         }
+         NGPButton   =   {
+            uiInputName   =   "NGPButton"
+            input   =   {
+               __type   =   "null"
+            }
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "SaveSlotsNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "SaveSlotScreenState"
+}
+inputScreen   =   {
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Left   =   {
+         inputLink   =   "UI.UiListLeft"
+         __type   =   "InputLinkActionMr"
+      }
+      Right   =   {
+         inputLink   =   "UI.UiListRight"
+         __type   =   "InputLinkActionMr"
+      }
+      Select   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      Delete   =   {
+         inputLink   =   "UI.DeleteCurrentSlot"
+         __type   =   "InputLinkHoldMr"
+      }
+      ShowModsPopup   =   {
+         inputLink   =   "UI.SowModsPopup"
+         __type   =   "InputLinkHoldMr"
+      }
+      ImportSave   =   {
+         inputLink   =   "UI.ImportSave"
+         __type   =   "InputLinkHoldMr"
+      }
+      NGPButton   =   {
+         inputLink   =   "UI.ShowNGPSettins"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+focusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return"
+   ]
+   __type   =   "UiFocusScreen"
+}
+iconModPlaceHolder   =   "lvplaceholder"
+inputScreenSave   =   {
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

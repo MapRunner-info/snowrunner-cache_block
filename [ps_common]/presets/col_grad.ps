@@ -1,0 +1,876 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	useLutTexture = {
+		__type = "bool"
+		__defaultValue = false
+		__viewType {
+			__wrappable = false
+			__caption = "Use LUT texture"
+		}
+	}
+	lutTexture = {
+		__type = "string"
+		__viewType = {
+			__wrappable = false
+			__type = "texture_browser"
+			__path = "filename"
+			__default_path = "$pct_dir$"
+			__caption = "LUT texture"
+			__hint = "3D"
+
+		}
+		__extraData   =   {
+			resource   =   "texture"
+		}
+		__defaultValue = ""
+	}
+	curves = {
+		__type = "section"
+		__viewType = {
+			__expand = true
+			__caption = "Curves editor"
+		}
+		__members = {
+			enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			curve_mode = {
+				__type = "enum"
+				__items = [ "Brightness", "RGB" ]
+				__defaultValue = "Brightness"
+				__viewType {
+					__wrappable = false
+					__caption = "Mode"
+				}
+			}
+			bright_pts = {
+				__type = "section"
+				__viewType = {
+					__caption = "Brightness curve"
+				}
+				__members = {
+					curve = {
+						__type = "spline"
+						__viewType {
+							__bezier = true
+							__wrappable = false
+							__caption = "Brightness curve"
+						}
+						__defaultValue = [0 0 1 1]
+					}
+				}
+			}
+			red_pts = {
+				__type = "section"
+				__viewType = {
+					__caption = "Red curve"
+				}
+				__members = {
+					curve = {
+						__type = "spline"
+						__viewType {
+							__bezier = true
+							__wrappable = false
+							__caption = "Red curve"
+						}
+						__defaultValue = [0 0 1 1]
+					}
+				}
+			}
+			green_pts = {
+				__type = "section"
+				__viewType = {
+					__caption = "Green curve"
+				}
+				__members = {
+					curve = {
+						__type = "spline"
+						__viewType {
+							__bezier = true
+							__wrappable = false
+							__caption = "Green curve"
+						}
+						__defaultValue = [0 0 1 1]
+					}
+				}
+			}
+			blue_pts = {
+				__type = "section"
+				__viewType = {
+					__caption = "Blue curve"
+				}
+				__members = {
+					curve = {
+						__type = "spline"
+						__viewType {
+							__bezier = true
+							__wrappable = false
+							__caption = "Blue curve"
+						}
+						__defaultValue = [0 0 1 1]
+					}
+				}
+			}
+		}
+	}
+	brcon = {
+		__type = "section"
+		__viewType = {
+			__caption = "Brightness, Contrast"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			brightness = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -1.0
+					__max = 1.0
+				}
+			}
+			contrast = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -1.0
+					__max = 1.0
+				}
+			}
+		}
+	}
+	hslv = {
+		__type = "section"
+		__viewType = {
+			__caption = "Hue, Saturation, Lightness, Vibrance"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__caption = "Enabled"
+					__wrappable = false
+				}
+			}
+			hue = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -1
+					__max = 1
+				}
+			}
+			saturation = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -1
+					__max = 1
+				}
+			}
+			lightness = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -0.25
+					__max = 0.25
+				}
+			}
+			vibrance = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -1
+					__max = 1
+				}
+			}
+		}
+	}
+	colorize = {
+		__type = "section"
+		__viewType = {
+			__expand = true
+			__caption = "Colorize effect"
+		}
+		__members = {
+			enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			blendfactor = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = 0
+					__max = 1
+				}
+			}
+			hue = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -1
+					__max = 1
+				}
+			}
+			saturation = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -0.25
+					__max = 0.25
+				}
+			}
+			lightness = {
+				__type = "float"
+				__defaultValue = 0
+				__viewType = {
+					__wrappable = false
+					__type = "slider"
+					__min = -0.25
+					__max = 0.25
+				}
+			}
+		}
+	}
+	selcolor = {
+		__type = "section"
+		__viewType = {
+			__expand = true
+			__caption = "Selective color"
+		}
+		__members = {
+			enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			reds = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Reds"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			yellows = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Yellows"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			greens = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Greens"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			cyans = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Cyans"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {						
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			blues = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Blues"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			magentas = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Magentas"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			whites = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Whites"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			neutrals = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Neutrals"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			blacks = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Blacks"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					black = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	colbalance = {
+		__type = "section"
+		__viewType = {
+			__expand = true
+			__caption = "Color balance"
+		}
+		__members = {
+			enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			shadows = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Shadows"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Cyan"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Magenta"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Yellow"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			midtones = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Midtones"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Cyan"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Magenta"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Yellow"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+			highlights = {
+				__type = "section"
+				__viewType = {
+					__expand = false
+					__caption = "Highlights"
+				}
+				__members = {
+					cyan = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Cyan"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					magenta = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Magenta"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+					yellow = {
+						__type = "float"
+						__defaultValue = 0
+						__viewType = {
+							__caption = "Yellow"
+							__wrappable = false
+							__type = "slider"
+							__min = -1
+							__max = 1
+						}
+					}
+				}
+			}
+		}
+	}	
+}

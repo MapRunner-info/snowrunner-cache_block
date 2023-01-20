@@ -1,0 +1,6 @@
+daytimePresets   =   [
+   "garage_1_us_06_01",
+   "garage_2_us_06_01",
+   "garage_3_us_06_01"
+]
+__type   =   "object"

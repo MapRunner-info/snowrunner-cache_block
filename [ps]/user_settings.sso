@@ -1,0 +1,20 @@
+firstBuildLanguages   =   [
+   "english",
+   "french",
+   "russian",
+   "italian",
+   "german",
+   "spanish",
+   "brazilian_portuguese",
+   "polish",
+   "simplified_chinese",
+   "traditional_chinese",
+   "korean"
+]
+controlsPresetsSetter   =   {
+   __type   =   "ControlsPresetsSetter"
+}
+controlsConfigManager   =   {
+   __type   =   "ControlsConfigManager"
+}
+__type   =   "object"

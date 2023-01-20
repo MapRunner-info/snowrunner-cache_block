@@ -1,0 +1,33 @@
+uiObjectDesc   =   {
+   type   =   {
+      blocked   =   {
+         blockedList   =   {
+            lir   =   {
+               __type   =   "UiRecentPlayersAndBlackListLir"
+            }
+            __type   =   "UiCrossplayLibCrossplaylist"
+         }
+         __type   =   "UiCrossplayLibCrossplayblocked"
+      }
+      recent   =   {
+         recentList   =   {
+            lir   =   {
+               __type   =   "UiRecentPlayersAndBlackListLir"
+            }
+            __type   =   "UiCrossplayLibCrossplaylist"
+         }
+         __type   =   "UiCrossplayLibCrossplayrecent"
+      }
+      __type   =   "UiCrossplayLibCrossplaymainscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+recentPlayersList   =   {
+   hoverIsSelect   =   False
+   __type   =   "UiListAdapter"
+}
+blockedPlayersList   =   {
+   hoverIsSelect   =   False
+   __type   =   "UiListAdapter"
+}
+__type   =   "ScreenViewBase"

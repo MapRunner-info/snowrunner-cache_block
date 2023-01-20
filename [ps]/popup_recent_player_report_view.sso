@@ -1,0 +1,55 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         optionsList   =   {
+            lir   =   {
+               __type   =   "PopupRecentPlayerReportLir"
+            }
+            __type   =   "UiCrossplayLibPopupcrossplayreportlist"
+         }
+         __type   =   "UiCrossplayLibPopupcrossplayreport"
+      }
+      __type   =   "UiCrossplayLibAnimpopupcrossplayreport"
+   }
+   __type   =   "UiObjectDesc"
+}
+hideSound   =   "ui/ui_click_exit"
+reportTypes   =   {
+   offensive_language   =   {
+      uiName   =   "UI_USER_REPORT_OFFENSIVE_LANGUAGE"
+      type   =   "offensive_language"
+      __type   =   "PopupRecentPlayerReportLirData"
+   }
+   cheating   =   {
+      uiName   =   "UI_USER_REPORT_CHEATING"
+      type   =   "cheating"
+      __type   =   "PopupRecentPlayerReportLirData"
+   }
+   exploiting   =   {
+      uiName   =   "UI_USER_REPORT_EXPLOITING"
+      type   =   "exploiting"
+      __type   =   "PopupRecentPlayerReportLirData"
+   }
+   inappropriate_behaviour   =   {
+      uiName   =   "UI_USER_REPORT_INAPPROPRIATE_BEHAVIOUR"
+      type   =   "inappropriate_behaviour"
+      __type   =   "PopupRecentPlayerReportLirData"
+   }
+}
+reportsList   =   {
+   uiInputScreen   =   {
+      name   =   "PopupRecentPlayerReportView"
+      __type   =   "SslUiInputScreenMr"
+   }
+   __type   =   "UiListAdapter"
+}
+sendSuccessIconDesc   =   {
+   type   =   {
+      __type   =   "UiSystemMessageExclamsignanim"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "PopupViewBase"

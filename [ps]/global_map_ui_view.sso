@@ -1,0 +1,75 @@
+uiObjectDesc   =   {
+   type   =   {
+      tabsAttach   =   {
+         focusable   =   False
+         __type   =   "UiRegionMapRegiontabsattach"
+      }
+      region   =   {
+         mapBtn0   =   {
+            mouseChildren   =   True
+            __type   =   "UiRegionMapMapbutton0"
+         }
+         mapBtn1   =   {
+            mouseChildren   =   True
+            __type   =   "UiRegionMapMapbutton1"
+         }
+         mapBtn2   =   {
+            mouseChildren   =   True
+            __type   =   "UiRegionMapMapbutton2"
+         }
+         mapBtn3   =   {
+            mouseChildren   =   True
+            __type   =   "UiRegionMapMapbutton3"
+         }
+         __type   =   "UiRegionMapRegioncontainer"
+      }
+      regionPanel   =   {
+         __type   =   "UiProfileLibRegiontabpanelnew"
+      }
+      __type   =   "UiRegionMapRegionscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+garageIcon   =   "garageImg30"
+garageNoIcon   =   "garageNoImg30"
+regionPanel   =   {
+   regionArrowRight   =   {
+      focusable   =   False
+      __type   =   "UiProfileLibRegionarrow"
+   }
+   regionArrowLeft   =   {
+      focusable   =   False
+      __type   =   "UiProfileLibRegionarrow"
+   }
+   tab5   =   {
+      focusable   =   False
+      __type   =   "UiProfileLibRegiontab"
+   }
+   tab6   =   {
+      focusable   =   False
+      __type   =   "UiProfileLibRegiontab"
+   }
+   __type   =   "UiProfileLibRegiontabpanelnew"
+}
+navBtnRegionTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnRegionTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+regionalProgressIcon   =   "regionIcon30"
+inputScreen   =   {
+   name   =   "GlobalMapUiView"
+   inputsLinks   =   {
+      TabLeft   =   {
+         inputLink   =   "UI.TabBtnL"
+         __type   =   "InputLinkActionMr"
+      }
+      TabRight   =   {
+         inputLink   =   "UI.TabBtnR"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenViewBase"

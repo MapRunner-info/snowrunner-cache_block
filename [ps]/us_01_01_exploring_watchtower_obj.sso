@@ -1,0 +1,34 @@
+uiDesc   =   "US_01_01_EXPLORING_WATCHTOWER_DESC"
+stages   =   [
+   {
+      actions   =   {
+         sslModule   =   "game.missions.task_settings"
+         __type   =   "ActionPackSettings"
+      }
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_01_EXPLORING_WATCHTOWER_VISIT_W9_ON_LEVEL_US_01_01"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_W3"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+description   =   "US_01_01_EXPLORING_WATCHTOWER_REWARD_DESC"
+isSilentReward   =   True
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   100
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   250
+   }
+}
+employer   =   "AttecaTownship"
+region   =   "us_01"
+__type   =   "ContractSettings"

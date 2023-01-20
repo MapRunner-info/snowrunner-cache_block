@@ -1,0 +1,59 @@
+uiDesc   =   "US_01_04_MED_LOGS_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_ST1"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_FIND_LOST_TRUCK_DELIVERY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsMedium"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_ST2"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_FALLEN_CARGO_DELIVERY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsMedium"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_MED_LOGS_ST3"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_EXPLORING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoLogsMedium"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+requiredRank   =   0
+description   =   "US_01_04_MED_LOGS_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   990
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   11300
+   }
+}
+employer   =   "AttecaTownship"
+region   =   "us_01"
+__type   =   "ContractSettings"

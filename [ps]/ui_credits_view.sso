@@ -1,0 +1,24 @@
+fadeWrapper   =   {
+   __type   =   "null"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiCreditsCrerditsscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+scroller   =   {
+   defaultLevel   =   4
+   speedLevels   =   [
+      -20,
+      -10,
+      -5,
+      0,
+      1,
+      10,
+      20
+   ]
+   __type   =   "UiAccordionAutoScroller"
+}
+CREDITS_TIME_SEC   =   1800
+__type   =   "ScreenViewBase"

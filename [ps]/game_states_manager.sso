@@ -1,0 +1,21 @@
+states   =   {
+   GameStateIngame   =   {
+   }
+   GameStateMinimap   =   {
+   }
+   GameStateRegionMap   =   {
+   }
+   GameStateWarehouse   =   {
+   }
+   GameStateSlotMenu   =   {
+   }
+   GameStatePlayerProfile   =   {
+   }
+   GameStateCustomization   =   {
+   }
+   GameStateTruckShop   =   {
+   }
+   GameStateDlcStore   =   {
+   }
+}
+__type   =   "object"

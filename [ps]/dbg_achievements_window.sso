@@ -1,0 +1,19 @@
+window   =   {
+   id   =   "DebugAchievements"
+   title   =   "DebugAchievements"
+   width   =   500
+   heigth   =   600
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   visible   =   False
+   isNoTitlebar   =   True
+   isNoResize   =   True
+   __type   =   "DbgWindow"
+}
+advButtons   =   {
+   reset   =   {
+      __value   =   "Reset All"
+   }
+}
+__type   =   "DbgFlippableWindow"

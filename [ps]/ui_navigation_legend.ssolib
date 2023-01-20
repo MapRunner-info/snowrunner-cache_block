@@ -1,0 +1,730 @@
+classes   =   {
+   AutoClassHudManualLoadingManualLoadingHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   ""
+      sslClass   =   "UiNavigationLegendAutoclasshudmanualloadingmanualloadingheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHudManualLoadingHintBtnBtnHint   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   ""
+      sslClass   =   "UiNavigationLegendAutoclasshudmanualloadinghintbtnbtnhint"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassNavigationLegendCustomNavPanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   ""
+      sslClass   =   "UiNavigationLegendAutoclassnavigationlegendcustomnavpanel"
+      navHidden   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -390
+         y   =   95
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      btn_0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   149
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   300
+         y   =   149
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   570
+         y   =   149
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   840
+         y   =   149
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_4   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   106
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_5   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   300
+         y   =   106
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_6   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   570
+         y   =   106
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_7   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   840
+         y   =   106
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_8   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   63
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_9   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   300
+         y   =   63
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_10   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   570
+         y   =   63
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_11   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   840
+         y   =   63
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_12   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_13   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   300
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_14   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   570
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_15   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   840
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassNavigationLegendManualLoading   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   ""
+      sslClass   =   "UiNavigationLegendAutoclassnavigationlegendmanualloading"
+      navHidden   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -390
+         y   =   95
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      manual_loading_3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   840
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendHudmanualloading"
+      }
+      manual_loading_2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   570
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendHudmanualloading"
+      }
+      manual_loading_1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   300
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendHudmanualloading"
+      }
+      manual_loading_0   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendHudmanualloading"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassNavigationLegendButtonButtonTextfield   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   ""
+      sslClass   =   "UiNavigationLegendAutoclassnavigationlegendbuttonbuttontextfield"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassNavigationLegendHintHintTextfield   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   ""
+      sslClass   =   "UiNavigationLegendAutoclassnavigationlegendhinthinttextfield"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Hudpopupbtnkeyattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "hudPopUpBtnKeyAttach"
+      sslClass   =   "UiNavigationLegendHudpopupbtnkeyattach"
+      __type   =   "UiContainer"
+   }
+   HudManualLoading   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "hud_manual_loading"
+      sslClass   =   "UiNavigationLegendHudmanualloading"
+      manual_loading_btn_cont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   -38
+         y   =   54
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendHudmanualloadinghintbtncont"
+      }
+      manual_loading_header   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   73
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendAutoclasshudmanualloadingmanualloadingheader"
+      }
+      __type   =   "UiContainer"
+   }
+   HudManualLoadingHintBtn   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "hud_manual_loading_hint_btn"
+      sslClass   =   "UiNavigationLegendHudmanualloadinghintbtn"
+      btn_hint   =   {
+         symbol   =   ""
+         x   =   155
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendAutoclasshudmanualloadinghintbtnbtnhint"
+      }
+      btn_0   =   {
+         symbol   =   ""
+         x   =   114
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_1   =   {
+         symbol   =   ""
+         x   =   76
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_2   =   {
+         symbol   =   ""
+         x   =   38
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_3   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   HudManualLoadingHintBtnCont   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "hud_manual_loading_hint_btn_cont"
+      sslClass   =   "UiNavigationLegendHudmanualloadinghintbtncont"
+      btn_0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btn_1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   43
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Navbtndownout   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navBtnDownOut"
+      sslClass   =   "UiNavigationLegendNavbtndownout"
+      __type   =   "UiContainer"
+   }
+   Navbtndownoutanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navBtnDownOutAnim"
+      sslClass   =   "UiNavigationLegendNavbtndownoutanim"
+      __type   =   "UiContainer"
+   }
+   Navbtnholdsfx   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navBtnHoldSfx"
+      sslClass   =   "UiNavigationLegendNavbtnholdsfx"
+      __type   =   "UiContainer"
+   }
+   Navbtnsfx   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navBtnSfx"
+      sslClass   =   "UiNavigationLegendNavbtnsfx"
+      keyboardSfx   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Navbtntf   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navBtnTf"
+      sslClass   =   "UiNavigationLegendNavbtntf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Navbtntftall   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navBtnTfTall"
+      sslClass   =   "UiNavigationLegendNavbtntftall"
+      textField   =   {
+         x   =   0
+         y   =   -8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Navigationpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navigationPanel"
+      sslClass   =   "UiNavigationLegendNavigationpanel"
+      btnAttach   =   {
+         symbol   =   ""
+         x   =   1920
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNavpanelbtnattach"
+      }
+      bg   =   {
+         symbol   =   ""
+         x   =   420
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNavigationpanelbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Navigationpanelbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navigationPanelBg"
+      sslClass   =   "UiNavigationLegendNavigationpanelbg"
+      __type   =   "UiContainer"
+   }
+   Navigationpanelbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "navigationPanelButton"
+      icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   99.9786
+         __type   =   "UiNavigationLegendHudpopupbtnkeyattach"
+      }
+      holdSfx   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNavbtnholdsfx"
+      }
+      sfx   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiNavigationLegendNavbtnsfx"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiNavigationLegendNavbtntf"
+      }
+      newRegionBlink   =   {
+         symbol   =   ""
+         x   =   -23.45
+         y   =   -23.7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNewregionblinkanim"
+      }
+      downOutAnim   =   {
+         symbol   =   ""
+         x   =   1
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNavbtndownoutanim"
+      }
+      __type   =   "UiButton"
+   }
+   Navigationpanelbuttonsimple   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "navigationPanelButtonSimple"
+      icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   99.9786
+         __type   =   "UiNavigationLegendHudpopupbtnkeyattach"
+      }
+      sfx   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiNavigationLegendNavbtnsfx"
+      }
+      downOutAnim   =   {
+         symbol   =   ""
+         x   =   1
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNavbtndownoutanim"
+      }
+      __type   =   "UiButton"
+   }
+   Navigationpanelbuttontall   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "navigationPanelButtonTall"
+      icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   99.9786
+         __type   =   "UiNavigationLegendHudpopupbtnkeyattach"
+      }
+      holdSfx   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNavbtnholdsfx"
+      }
+      sfx   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiNavigationLegendNavbtnsfx"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiNavigationLegendNavbtntftall"
+      }
+      newRegionBlink   =   {
+         symbol   =   ""
+         x   =   -23.45
+         y   =   -23.7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNewregionblinkanim"
+      }
+      downOutAnim   =   {
+         symbol   =   ""
+         x   =   1
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendNavbtndownoutanim"
+      }
+      __type   =   "UiButton"
+   }
+   NavigationLegend   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navigation_legend"
+      sslClass   =   "UiNavigationLegendNavigationlegend"
+      custom_nav_panel   =   {
+         symbol   =   ""
+         x   =   390
+         y   =   829
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendAutoclassnavigationlegendcustomnavpanel"
+      }
+      manual_loading   =   {
+         symbol   =   ""
+         x   =   390
+         y   =   880
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendAutoclassnavigationlegendmanualloading"
+      }
+      navigation_legend_attach   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   967
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   NavigationLegendButton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "navigation_legend_button"
+      button_textfield   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiNavigationLegendAutoclassnavigationlegendbuttonbuttontextfield"
+      }
+      button_icon   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   NavigationLegendHint   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navigation_legend_hint"
+      sslClass   =   "UiNavigationLegendNavigationlegendhint"
+      hint_textfield   =   {
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiNavigationLegendAutoclassnavigationlegendhinthinttextfield"
+      }
+      pc_button_icon_1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   99.9786
+         __type   =   "UiMovieClip"
+      }
+      pc_button_icon_2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      pc_button_icon_3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      pc_button_icon_4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Navpanelbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "navPanelBtnAttach"
+      sslClass   =   "UiNavigationLegendNavpanelbtnattach"
+      __type   =   "UiContainer"
+   }
+   Newregionblinkanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_navigation_legend"
+      symbol   =   "newRegionBlinkAnim"
+      sslClass   =   "UiNavigationLegendNewregionblinkanim"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

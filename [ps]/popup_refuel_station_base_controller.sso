@@ -1,0 +1,53 @@
+view   =   {
+   tabBtnLeft   =   {
+      desc   =   {
+         uiInputName   =   "ScrollLeft"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   tabBtnRight   =   {
+      desc   =   {
+         uiInputName   =   "ScrollRight"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   refuelInputName   =   "Refuel"
+   __type   =   "PopupRefuelStationBaseView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         close   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "LoadingCargoPopupNavigationPanel"
+   }
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "RefuelStation"
+   inputsLinks   =   {
+      Refuel   =   {
+         inputLink   =   "Popups.RefuelRepair"
+         __type   =   "InputLinkHoldMr"
+      }
+      ScrollLeft   =   {
+         inputLink   =   "Popups.tabLeft"
+         __type   =   "InputLinkHoldMr"
+      }
+      ScrollRight   =   {
+         inputLink   =   "Popups.tabRight"
+         __type   =   "InputLinkHoldMr"
+      }
+      Back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "RefuelController"

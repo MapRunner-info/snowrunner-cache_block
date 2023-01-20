@@ -1,0 +1,7 @@
+zoneDescStorage   =   {
+   __type   =   "ZoneDescStorage"
+}
+objSettings   =   {
+   __type   =   "ObjectiveSettings"
+}
+__type   =   "WorldConfiguration"

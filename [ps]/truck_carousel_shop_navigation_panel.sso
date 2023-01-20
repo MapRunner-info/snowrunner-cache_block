@@ -1,0 +1,38 @@
+btns   =   {
+   purchase   =   {
+      text   =   "UI_PURCHASE"
+      __type   =   "NavButtonDesc"
+   }
+   preview   =   {
+      text   =   "UI_SHOP_TRUCK_PREVIEW"
+      __type   =   "NavButtonDesc"
+   }
+   scroll   =   {
+      text   =   "UI_SHOP_SCROLL"
+      excludedDevices   =   [
+         "mouse",
+         "keyboard"
+      ]
+      __type   =   "NavButtonDesc"
+   }
+   back   =   {
+      text   =   "UI_BACK"
+      __type   =   "NavButtonDesc"
+   }
+   modsOnlyOn   =   {
+      text   =   "MODS_ONLY_ON"
+      __type   =   "NavButtonDesc"
+   }
+   modsOnlyOff   =   {
+      text   =   "MODS_ONLY_OFF"
+      __type   =   "NavButtonDesc"
+   }
+   toStore   =   {
+      text   =   "UI_SHOP_TRUCK_SHOW_IN_DLC_STORE"
+      __type   =   "NavButtonDesc"
+   }
+   switchDesc   =   {
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

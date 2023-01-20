@@ -1,0 +1,5 @@
+morphemeController   =   {
+   useAnimRootMotion   =   True
+   __type   =   "MorphemeController"
+}
+__type   =   "prop_base"

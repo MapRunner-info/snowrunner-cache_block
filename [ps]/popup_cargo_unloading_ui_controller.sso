@@ -1,0 +1,7 @@
+view   =   {
+   __type   =   "PopupCargoUnloadingUiView"
+}
+state   =   {
+   __type   =   "ScreenState"
+}
+__type   =   "PopupCargoContentControllerBase"

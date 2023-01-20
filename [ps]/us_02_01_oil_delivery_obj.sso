@@ -1,0 +1,74 @@
+uiDesc   =   "US_02_01_OIL_DELIVERY_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_01_OIL_DELIVERY_ACTION_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_OIL_SERVICE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_01_OIL_DELIVERY_ACTION_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_FACTORY_01"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_01_OIL_DELIVERY_ACTION_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_FACTORY_02"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_01_OIL_DELIVERY_ACTION_4_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_SERVICE_HUB"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_02_01_PIPELINE_OBJ"
+]
+description   =   "US_02_01_OIL_DELIVERY_OBJ_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   520
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   5600
+   }
+}
+employer   =   "BlackBird"
+region   =   "us_02"
+__type   =   "ContractSettings"

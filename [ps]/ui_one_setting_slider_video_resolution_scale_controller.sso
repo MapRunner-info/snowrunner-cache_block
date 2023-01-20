@@ -1,0 +1,8 @@
+header   =   "UI_SETTINGS_RESOLUTION_SCALE"
+desc   =   "UI_SETTINGS_RESOLUTION_SCALE_DESC"
+minValue   =   0.25
+maxValue   =   2
+defaultValue   =   1
+stepInterval   =   0.01
+textfield   =   "FLOAT"
+__type   =   "UiOneSettingSliderController"

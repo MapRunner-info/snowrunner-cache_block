@@ -1,0 +1,7 @@
+cameraPos   =   {
+   __type   =   "Vector3d"
+}
+cameraDir   =   {
+   __type   =   "Vector3d"
+}
+__type   =   "ZonePropertyBase"

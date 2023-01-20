@@ -1,0 +1,7 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_RESOLUTION"
+desc   =   "UI_SETTINGS_RESOLUTION_DESC"
+settingName   =   "Resolution"
+__type   =   "UiOneSettingStepperVideoController"

@@ -1,0 +1,37 @@
+uiDesc   =   "US_02_03_CRATES_OF_CONSUMABLES_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_03_CRATES_OF_CONSUMABLES_ACTION_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoCrateLarge"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+blockerObjectives   =   [
+   "US_02_02_DRILLING_PARTS_OBJ"
+]
+description   =   "US_02_03_CRATES_OF_CONSUMABLES_OBJ_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   500
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3400
+   }
+}
+employer   =   "MorrisonMining"
+region   =   "us_02"
+__type   =   "ContractSettings"

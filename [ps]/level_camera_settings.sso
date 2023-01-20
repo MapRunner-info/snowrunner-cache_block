@@ -1,0 +1,15 @@
+dir   =   {
+   sslModule   =   "math.vector_3d"
+   x   =   0
+   y   =   0
+   z   =   0
+   __type   =   "Vector3d"
+}
+org   =   {
+   sslModule   =   "math.vector_3d"
+   x   =   0
+   y   =   0
+   z   =   0
+   __type   =   "Vector3d"
+}
+__type   =   "object"

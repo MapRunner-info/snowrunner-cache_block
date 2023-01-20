@@ -1,0 +1,41 @@
+keyboardEnter   =   {
+   cmdLinks   =   [
+      {
+         inputLink   =   "Gamepad.GamepadA"
+      }
+   ]
+   __type   =   "UiInputGamepadKeyboardMapping"
+}
+keyboardUp   =   {
+   cmdLinks   =   [
+      {
+         inputLink   =   "Gamepad.GamepadDPadUp"
+      }
+   ]
+   __type   =   "UiInputGamepadKeyboardMappingRepeatOnHold"
+}
+keyboardDown   =   {
+   cmdLinks   =   [
+      {
+         inputLink   =   "Gamepad.GamepadDPadDown"
+      }
+   ]
+   __type   =   "UiInputGamepadKeyboardMappingRepeatOnHold"
+}
+keyboardRight   =   {
+   cmdLinks   =   [
+      {
+         inputLink   =   "Gamepad.GamepadDPadRight"
+      }
+   ]
+   __type   =   "UiInputGamepadKeyboardMappingRepeatOnHold"
+}
+keyboardLeft   =   {
+   cmdLinks   =   [
+      {
+         inputLink   =   "Gamepad.GamepadDPadLeft"
+      }
+   ]
+   __type   =   "UiInputGamepadKeyboardMappingRepeatOnHold"
+}
+__type   =   "object"

@@ -1,0 +1,141 @@
+ignorableDevices   =   [
+   "gamepad_xbox_one",
+   "gamepad_xenon",
+   "gamepad_ds4",
+   "gamepad_orbis",
+   "gamepad_nx64",
+   "gamepad_stadia",
+   "keyboard",
+   "mouse"
+]
+ignorableInputAxis   =   [
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        128
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        129
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        130
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        131
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        132
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        133
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        134
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "steering_wheel"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        135
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+]
+__type   =   "InputMapperProject"

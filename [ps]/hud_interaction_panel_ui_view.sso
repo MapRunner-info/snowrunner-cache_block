@@ -1,0 +1,15 @@
+openNavHint   =   {
+   desc   =   {
+      uiInputName   =   "Functions"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+closeNavHint   =   {
+   desc   =   {
+      uiInputName   =   "Close"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+__type   =   "HudHidableView"

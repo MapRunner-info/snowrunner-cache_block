@@ -1,0 +1,302 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Dash Effect (21)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Noise Pattern"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Distortion Texture"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture2 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Appearing Spline Texture"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam01 = {
+                  __type = "float"
+                  __caption = "Dash Type"
+                  __defaultValue = 0.0
+                  __items = [ 0.0, 1.0, 2.0, 3.0 ]
+                  __viewType = {
+                     __type = "valueEnum"
+                      __items = [ "Forward", "Back", "Left", "Right" ]
+                    }
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Forward Dash Start"
+						}
+						__type = "float"
+						__defaultValue = 7
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Forward Dash End"
+						}
+						__type = "float"
+						__defaultValue = 4.3
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Pattern Size X"
+						}
+						__type = "float"
+						__defaultValue = 17
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Pattern Size Y"
+						}
+						__type = "float"
+						__defaultValue = -5.3
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Size X"
+						}
+						__type = "float"
+						__defaultValue = 31
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Size Y"
+						}
+						__type = "float"
+						__defaultValue = 7.2
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Pattern Speed X"
+						}
+						__type = "float"
+						__defaultValue = -0.002
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Pattern Speed Y"
+						}
+						__type = "float"
+						__defaultValue = 37
+					}
+					floatParam10 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Speed X"
+						}
+						__type = "float"
+						__defaultValue = -4.3
+					}
+					floatParam11 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Speed Y"
+						}
+						__type = "float"
+						__defaultValue = 51
+					}
+					
+					floatParam12 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Power Noise"
+						}
+						__type = "float"
+						__defaultValue = 5.3
+					}
+					floatParam13 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Power Screen"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam14 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Offeset chanel G for sides dash"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam15 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Offeset chanel B for sides dash"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam16 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Offeset chanel G for forward dash"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam17 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Offeset chanel B for forward dash"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam18 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Offeset chanel G for backward dash"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam19 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Offeset chanel B for backward dash"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam20 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Darkness Multiply"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam21 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Blur Multiply"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					floatParam22 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Brights Multiply"
+						}
+						__type = "float"
+						__defaultValue = 89
+					}
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "Noise Color"
+							__hint = ""
+							__wrappable = false
+							__hidden = false
+						}
+					}
+				}
+			}	
+			
+		}
+	}
+}

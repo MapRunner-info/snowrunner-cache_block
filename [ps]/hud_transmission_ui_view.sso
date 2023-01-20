@@ -1,0 +1,20 @@
+moveHint   =   {
+   desc   =   {
+      uiInputName   =   "MoveTransmission"
+      useAnim   =   False
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+hiddenAlpha   =   20
+transmissionInputScreen   =   {
+   name   =   "HudTransmissionUiView"
+   inputsLinks   =   {
+      MoveTransmission   =   {
+         inputLink   =   "Truck.MoveTransmission"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "HudHidableView"

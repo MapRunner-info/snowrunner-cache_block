@@ -1,0 +1,5 @@
+failMsg   =   {
+   def   =   "Force Fail"
+   __type   =   "StringRefParam"
+}
+__type   =   "BlueprintNodeAutotestBase"

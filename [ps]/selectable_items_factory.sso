@@ -1,0 +1,52 @@
+descs   =   {
+   LIST_ITEM_RENDERER   =   {
+      type   =   {
+         __type   =   "SelectableItemControllerBase"
+      }
+      __type   =   "SelectableItemControllerDesc"
+   }
+   MINIMAP_ACCORDION_EMPLOYER   =   {
+      type   =   {
+         view   =   {
+            contentContainerDesc   =   {
+               type   =   {
+                  lir   =   {
+                     textCont   =   {
+                        textField   =   {
+                           isHtml   =   True
+                           __type   =   "UiLabel"
+                        }
+                        __type   =   "UiMinimapAutoclasscontractbtntextcont"
+                     }
+                     __type   =   "MinimapContractLir"
+                  }
+                  __type   =   "UiMinimapMenupanelcontentlist"
+               }
+               __type   =   "SslDesc"
+            }
+            __type   =   "MinimapAccordionEmployerView"
+         }
+         contentList   =   {
+            onSelectedItemRole   =   "HOVER"
+            clickSound   =   "ui/ui_click_approve"
+            hoverSound   =   "ui/ui_contracts_hover"
+            __type   =   "LirItemsList"
+         }
+         __type   =   "AccordionItemController"
+      }
+      __type   =   "SelectableItemControllerDesc"
+   }
+   MINIMAP_ACCORDION_CONTRACT_DESCRIPTION   =   {
+      type   =   {
+         view   =   {
+            __type   =   "MinimapAccordionContractView"
+         }
+         contentList   =   {
+            __type   =   "null"
+         }
+         __type   =   "AccordionItemController"
+      }
+      __type   =   "SelectableItemControllerDesc"
+   }
+}
+__type   =   "object"

@@ -1,0 +1,37 @@
+view   =   {
+   __type   =   "PopupRestartConfirmUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         Yes   =   {
+            uiInputName   =   "Yes"
+            __type   =   "NavButtonDesc"
+         }
+         No   =   {
+            uiInputName   =   "No"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupRestartConfirmNavigationPanel"
+   }
+}
+id   =   "CONFIRM_RESTART_OBJECTIVE"
+priority   =   "MIDDLE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupRestartConfirm"
+   inputsLinks   =   {
+      Yes   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      No   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

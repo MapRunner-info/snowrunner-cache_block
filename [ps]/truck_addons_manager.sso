@@ -1,0 +1,66 @@
+soundTypeNames   =   {
+   POWERED_GROUP_GLOBAL_START   =   {
+      __value   =   "SoundPoweredGroupStart"
+   }
+   POWERED_GROUP_LOOP   =   {
+      __value   =   "SoundPoweredGroupLoop"
+   }
+   POWERED_GROUP_GLOBAL_STOP   =   {
+      __value   =   "SoundPoweredGroupStop"
+   }
+   IK_START   =   {
+      __value   =   "SoundIKStart"
+   }
+   IK_LOOP   =   {
+      __value   =   "SoundIKLoop"
+   }
+   IK_STOP   =   {
+      __value   =   "SoundIKStop"
+   }
+   OPEN_START   =   {
+      __value   =   "SoundOpenStart"
+   }
+   OPEN_LOOP   =   {
+      __value   =   "SoundOpenLoop"
+   }
+   OPEN_STOP   =   {
+      __value   =   "SoundOpenStop"
+   }
+   CLOSE   =   {
+      __value   =   "SoundClose"
+   }
+   POWERED_GROUP_STOP   =   {
+      __value   =   "SoundPoweredGroupLocalStop"
+   }
+   GRABBER_MOVE_START   =   {
+      __value   =   "SoundGrabberMoveStart"
+   }
+   GRABBER_MOVE_LOOP   =   {
+      __value   =   "SoundGrabberMoveLoop"
+   }
+   GRABBER_MOVE_STOP   =   {
+      __value   =   "SoundGrabberMoveStop"
+   }
+   GRABBER_ACTION   =   {
+      __value   =   "SoundGrabberAction"
+   }
+   CRANE_CABIN_SOUND   =   {
+      __value   =   "SoundCraneCabin"
+   }
+}
+additionalUiDescs   =   {
+   MONEY   =   {
+      uiIcon30x30   =   "currency30"
+      uiIcon40x40   =   "currency40"
+      __type   =   "TruckUiDesc"
+   }
+   EXPERIENCE   =   {
+      uiIcon30x30   =   "exp30"
+      uiIcon40x40   =   "exp40"
+      __type   =   "TruckUiDesc"
+   }
+}
+cargoLogsShort   =   "CargoLogsShort"
+cargoLogsMedium   =   "CargoLogsMedium"
+cargoLogsLong   =   "CargoLogsLong"
+__type   =   "object"

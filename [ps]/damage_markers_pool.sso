@@ -1,0 +1,11 @@
+editorObjectDesc   =   {
+   type   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      __type   =   "UiInGameDamagecontainer"
+   }
+   __type   =   "UiContainerDesc"
+}
+initialCapacity   =   10
+editorMaxCapacity   =   40
+__type   =   "EditorObjectDescPool"

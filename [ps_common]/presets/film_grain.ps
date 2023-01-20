@@ -1,0 +1,61 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	enabled = {
+		__viewType {
+			__wrappable = false
+			__caption = "Enabled"
+		}
+		__type = "bool"
+		__defaultValue = "false"
+	}	
+	opacity = {
+		__type = "float"
+		__defaultValue = 0.0
+		__viewType = {
+			__type = "slider"
+			__caption = "Opacity"
+			__min = 0.000
+			__max = 1.0
+			__step = 0.001
+		}
+	}	
+	xScale = {
+		__type = "float"
+		__defaultValue = 1.0
+		__viewType = {
+			__type = "slider"
+			__caption = "X Scale"
+			__min = 0.000
+			__max = 2.0
+		}
+	}
+	yScale = {
+		__type = "float"
+		__defaultValue = 1.0
+		__viewType = {
+			__type = "slider"
+			__caption = "Y Scale"
+			__min = 0.000
+			__max = 2.0
+		}
+	}
+	texture = {
+		__type = "string"
+		__viewType = {
+			__wrappable = false
+			__type = "texture_browser"
+			__path = "filename"
+			__default_path = "$pct_dir$"
+			__caption = "Grain texture"
+			__hint = "texture0"
+
+		}
+		__extraData   =   {
+			resource   =   "texture"
+		}
+		__defaultValue = ""
+	}		
+}

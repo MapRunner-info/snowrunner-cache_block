@@ -1,0 +1,1684 @@
+classes   =   {
+   AutoClassBannercontainerHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassbannercontainerheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassBannercontainerSubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassbannercontainersubheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassBannercontainerSteppertf   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassbannercontainersteppertf"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassCoopheaderclipTextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclasscoopheadercliptextcont"
+      tf   =   {
+         x   =   0
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassHardmodedesccontainerHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclasshardmodedesccontainerheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMainmenubuttonTitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmainmenubuttontitle"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMainmenubuttonTitlegrey   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmainmenubuttontitlegrey"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMenuaddsearchingcontainerHardmodeHardmodetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmenuaddsearchingcontainerhardmodehardmodetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMenuaddsearchingcontainerHardmode   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmenuaddsearchingcontainerhardmode"
+      hardModeText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   2
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuAutoclassmenuaddsearchingcontainerhardmodehardmodetext"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMenubtnDownoutanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmenubtndownoutanim"
+      btnBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtnbginner"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMenubtncDownoutanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmenubtncdownoutanim"
+      btnBg   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtnbginner"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMultiplayerconnectionMultiplayerConnectionHeader   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmultiplayerconnectionmultiplayerconnectionheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMultiplayerconnectionMultiplayerConnectionIp   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmultiplayerconnectionmultiplayerconnectionip"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassMultiplayerconnectionMultiplayerConnectionServer   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   ""
+      sslClass   =   "UiMainMenuAutoclassmultiplayerconnectionmultiplayerconnectionserver"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Bannercontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "bannerContainer"
+      sslClass   =   "UiMainMenuBannercontainer"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassbannercontainerheader"
+      }
+      subheader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   95
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassbannercontainersubheader"
+      }
+      stepperTf   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   145
+         y   =   167
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiMainMenuAutoclassbannercontainersteppertf"
+      }
+      r1ButtonAttach   =   {
+         symbol   =   ""
+         x   =   337
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuNavbtnattach"
+      }
+      l1ButtonAttach   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   166
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuNavbtnattach"
+      }
+      imgAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      navPanelAttach   =   {
+         symbol   =   ""
+         x   =   178.5
+         y   =   229
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuNavbtnattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Bannerstepper   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "bannerStepper"
+      sslClass   =   "UiMainMenuBannerstepper"
+      s5   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   68
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuBannerstepperasset"
+      }
+      s4   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   51
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuBannerstepperasset"
+      }
+      s3   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   34
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuBannerstepperasset"
+      }
+      s2   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   17
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuBannerstepperasset"
+      }
+      s1   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuBannerstepperasset"
+      }
+      __type   =   "UiContainer"
+   }
+   Bannerstepperasset   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "bannerStepperAsset"
+      sslClass   =   "UiMainMenuBannerstepperasset"
+      __type   =   "UiContainer"
+   }
+   Coopcliptextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopClipTextCont"
+      sslClass   =   "UiMainMenuCoopcliptextcont"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Coopembeddedtxt   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "coopEmbeddedTxt"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Coopheaderclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopHeaderClip"
+      sslClass   =   "UiMainMenuCoopheaderclip"
+      textCont   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclasscoopheadercliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Coophostmessagetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopHostMessageText"
+      sslClass   =   "UiMainMenuCoophostmessagetext"
+      tf   =   {
+         x   =   -50
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Cooplir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "coopLir"
+      attachContent   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCooplirattach"
+      }
+      highlight   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCooplirhighlight"
+      }
+      bgMain   =   {
+         sslModule   =   "ui.ui_gfx"
+         symbol   =   ""
+         x   =   2
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiListItem"
+   }
+   Cooplirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Cooplirattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopLirAttach"
+      sslClass   =   "UiMainMenuCooplirattach"
+      __type   =   "UiContainer"
+   }
+   Cooplirhighlight   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopLirHighlight"
+      sslClass   =   "UiMainMenuCooplirhighlight"
+      __type   =   "UiContainer"
+   }
+   Cooplirhitarea   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopLirHitArea"
+      sslClass   =   "UiMainMenuCooplirhitarea"
+      __type   =   "UiContainer"
+   }
+   Cooplirnew   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "coopLirNew"
+      attachContent   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCooplirattach"
+      }
+      highlight   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCooplirattach"
+      }
+      bgMain   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   2
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiListItem"
+   }
+   Cooplirnewdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Coopstepper   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "coopStepper"
+      prevBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   7.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiMainMenuCoopstepperarrow"
+      }
+      nextBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   260
+         y   =   7.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiMainMenuCoopstepperarrow"
+      }
+      __type   =   "UiOptionStepper"
+   }
+   Coopstepperarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "coopStepperArrow"
+      __type   =   "UiButton"
+   }
+   Coopstepperclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopStepperClip"
+      sslClass   =   "UiMainMenuCoopstepperclip"
+      textCont   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoopcliptextcont"
+      }
+      stepper   =   {
+         symbol   =   ""
+         x   =   330
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoopstepper"
+      }
+      __type   =   "UiContainer"
+   }
+   Cooptextclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "coopTextClip"
+      sslClass   =   "UiMainMenuCooptextclip"
+      textEmbedded   =   {
+         symbol   =   ""
+         x   =   342
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoopembeddedtxt"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoopcliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Friendlistcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "friendListContent"
+      sslClass   =   "UiMainMenuFriendlistcontent"
+      slot3   =   {
+         symbol   =   ""
+         x   =   504
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      slot2   =   {
+         symbol   =   ""
+         x   =   525
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      slot1   =   {
+         symbol   =   ""
+         x   =   546
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      slot0   =   {
+         symbol   =   ""
+         x   =   567
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerName   =   {
+         symbol   =   ""
+         x   =   45
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoopcliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Friendlistcontentnew   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "friendListContentNew"
+      sslClass   =   "UiMainMenuFriendlistcontentnew"
+      slot3   =   {
+         symbol   =   ""
+         x   =   504
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      slot2   =   {
+         symbol   =   ""
+         x   =   525
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      slot1   =   {
+         symbol   =   ""
+         x   =   546
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      slot0   =   {
+         symbol   =   ""
+         x   =   567
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerName   =   {
+         symbol   =   ""
+         x   =   45
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoopcliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Friendslir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "friendsLir"
+      attachContent   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCooplirattach"
+      }
+      highlight   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCooplirhighlight"
+      }
+      __type   =   "UiListItem"
+   }
+   Friendslirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Friendslirnew   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "friendsLirNew"
+      __type   =   "UiListItem"
+   }
+   Hardmodedesccontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "hardModeDescContainer"
+      sslClass   =   "UiMainMenuHardmodedesccontainer"
+      header   =   {
+         symbol   =   ""
+         x   =   100
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclasshardmodedesccontainerheader"
+      }
+      desc   =   {
+         symbol   =   ""
+         x   =   100
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuHardmodedescriptiontf"
+      }
+      __type   =   "UiContainer"
+   }
+   Hardmodedescriptiontf   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "hardModeDescriptionTf"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Ipinputtextcont   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "ipInputTextCont"
+      __type   =   "UiTextInput"
+   }
+   Mainmenubutton   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "mainMenuButton"
+      spinner   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   -37
+         y   =   9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      hintAttach   =   {
+         symbol   =   ""
+         x   =   390
+         y   =   -50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCooplirattach"
+      }
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassmainmenubuttontitle"
+      }
+      titleGrey   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMainMenuAutoclassmainmenubuttontitlegrey"
+      }
+      __type   =   "UiListItem"
+   }
+   Mainmenubuttondata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Mainspinnerattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "mainSpinnerAttach"
+      sslClass   =   "UiMainMenuMainspinnerattach"
+      __type   =   "UiContainer"
+   }
+   MainMenu   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "main_menu"
+      sslClass   =   "UiMainMenuMainmenu"
+      hardModeDesc   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1350
+         y   =   338
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      redLynxAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1420
+         y   =   551
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuRedlynxattachpoint"
+      }
+      banner   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1440
+         y   =   707
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      menuAddAnimation   =   {
+         symbol   =   ""
+         x   =   200
+         y   =   405
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      navPanelAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   100
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      menuAddAttach   =   {
+         symbol   =   ""
+         x   =   200
+         y   =   405
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerInfoAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1475
+         y   =   55
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      multiplayerMenuAdd   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1030
+         y   =   475
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuMenubtnlist"
+      }
+      multiplayerMenu   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   630
+         y   =   475
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuMenubtnlist"
+      }
+      btnList   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   230
+         y   =   475
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuMenubtnlist"
+      }
+      multiplayer_connection_attach   =   {
+         symbol   =   ""
+         x   =   735
+         y   =   520
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      main_menu_logo   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   100
+         y   =   170
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Menuaddcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "menuAddContainer"
+      sslClass   =   "UiMainMenuMenuaddcontainer"
+      menuHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoopheaderclip"
+      }
+      alertAttach   =   {
+         symbol   =   ""
+         x   =   615
+         y   =   52
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuNavbtnattach"
+      }
+      menuList   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   52
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuMenuaddlist"
+      }
+      hostMessage   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   387
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuCoophostmessagetext"
+      }
+      menuBtnCancel   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   155
+         y   =   521
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtnc"
+      }
+      menuBtnAccept   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   305
+         y   =   521
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuMenubtn"
+      }
+      spinnerAttach   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   275
+         y   =   283
+         scaleX   =   50
+         scaleY   =   50
+         __type   =   "UiMainMenuMainspinnerattach"
+      }
+      friendListBg   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   52
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   65
+         __type   =   "UiMainMenuMenufriendlistbg"
+      }
+      __type   =   "UiContainer"
+   }
+   Menuaddlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "menuAddList"
+      __type   =   "UiScrollingList"
+   }
+   Menuaddsearchingcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "menuAddSearchingContainer"
+      sslClass   =   "UiMainMenuMenuaddsearchingcontainer"
+      hardMode   =   {
+         symbol   =   ""
+         x   =   634
+         y   =   137
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassmenuaddsearchingcontainerhardmode"
+      }
+      searchingAnim   =   {
+         symbol   =   ""
+         x   =   835
+         y   =   60
+         scaleX   =   75.3693
+         scaleY   =   75
+         __type   =   "UiMainMenuSearchingwheelanimation"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   610
+         y   =   60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuSearchingheader"
+      }
+      hostMessage   =   {
+         symbol   =   ""
+         x   =   460
+         y   =   387
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuCoophostmessagetext"
+      }
+      menuBtnCancel   =   {
+         symbol   =   ""
+         x   =   615
+         y   =   521
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtnc"
+      }
+      __type   =   "UiContainer"
+   }
+   Menubtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuBtn"
+      btnContent   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   5
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtncontent"
+      }
+      downOutAnim   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassmenubtndownoutanim"
+      }
+      __type   =   "UiButton"
+   }
+   Menubtnbginner   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "menuBtnBgInner"
+      sslClass   =   "UiMainMenuMenubtnbginner"
+      __type   =   "UiContainer"
+   }
+   Menubtnc   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuBtnC"
+      btnContent   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   5
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtncontent"
+      }
+      downOutAnim   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassmenubtncdownoutanim"
+      }
+      __type   =   "UiButton"
+   }
+   Menubtncontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "menuBtnContent"
+      sslClass   =   "UiMainMenuMenubtncontent"
+      img   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtnimg"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   45.5
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuMenubtntext"
+      }
+      __type   =   "UiContainer"
+   }
+   Menubtnimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "menuBtnImg"
+      sslClass   =   "UiMainMenuMenubtnimg"
+      __type   =   "UiContainer"
+   }
+   Menubtnlist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "menuBtnList"
+      __type   =   "UiScrollingList"
+   }
+   Menubtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "menuBtnText"
+      sslClass   =   "UiMainMenuMenubtntext"
+      tf   =   {
+         x   =   -49
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Menufriendlistbg   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "menuFriendListBg"
+      sslClass   =   "UiMainMenuMenufriendlistbg"
+      __type   =   "UiContainer"
+   }
+   Modsnousercontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "modsNoUserContent"
+      sslClass   =   "UiMainMenuModsnousercontent"
+      header   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   90
+         y   =   24
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuModsnousercontentheader"
+      }
+      bigText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   74
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuModsnousercontenttextembeded"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   90
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   90
+         __type   =   "UiMainMenuModsnousercontenttext"
+      }
+      __type   =   "UiContainer"
+   }
+   Modsnousercontentheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "modsNoUserContentHeader"
+      sslClass   =   "UiMainMenuModsnousercontentheader"
+      tf   =   {
+         x   =   0
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modsnousercontenttext   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "modsNoUserContentText"
+      sslClass   =   "UiMainMenuModsnousercontenttext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Modsnousercontenttextembeded   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "modsNoUserContentTextEmbeded"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Multiplayerconnection   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "multiplayerConnection"
+      sslClass   =   "UiMainMenuMultiplayerconnection"
+      multiplayer_connection_header   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassmultiplayerconnectionmultiplayerconnectionheader"
+      }
+      inputIp   =   {
+         symbol   =   ""
+         x   =   224
+         y   =   89
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuIpinputtextcont"
+      }
+      multiplayer_connection_ip   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassmultiplayerconnectionmultiplayerconnectionip"
+      }
+      multiplayer_connection_server   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   130
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuAutoclassmultiplayerconnectionmultiplayerconnectionserver"
+      }
+      multiplayer_connection_server_toggle   =   {
+         symbol   =   ""
+         x   =   395
+         y   =   140
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      multiplayer_connection_button   =   {
+         symbol   =   ""
+         x   =   105
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      multiplayerConnectionExit   =   {
+         symbol   =   ""
+         x   =   105
+         y   =   223
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Navbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "navBtnAttach"
+      sslClass   =   "UiMainMenuNavbtnattach"
+      __type   =   "UiContainer"
+   }
+   Redlynxattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxAttachPoint"
+      sslClass   =   "UiMainMenuRedlynxattachpoint"
+      __type   =   "UiContainer"
+   }
+   Redlynxbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxBtnAttach"
+      sslClass   =   "UiMainMenuRedlynxbtnattach"
+      __type   =   "UiContainer"
+   }
+   Redlynxcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxContainer"
+      sslClass   =   "UiMainMenuRedlynxcontainer"
+      redRegistration   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxregistration"
+      }
+      redNews   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuRedlynxnews"
+      }
+      redNewsNotification   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   338
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuRedlynxnewsnotification"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxDesc"
+      sslClass   =   "UiMainMenuRedlynxdesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxHeader"
+      sslClass   =   "UiMainMenuRedlynxheader"
+      tf   =   {
+         x   =   10
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxnews   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxNews"
+      sslClass   =   "UiMainMenuRedlynxnews"
+      newsButtonsAttach   =   {
+         symbol   =   ""
+         x   =   440
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxattachpoint"
+      }
+      redLynxNewsStepper   =   {
+         symbol   =   ""
+         x   =   310.9
+         y   =   18.9
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuBannerstepper"
+      }
+      redLynxNewsL1ButtonAttach   =   {
+         symbol   =   ""
+         x   =   273.2
+         y   =   8.4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuNavbtnattach"
+      }
+      redLynxNewsR1ButtonAttach   =   {
+         symbol   =   ""
+         x   =   395.65
+         y   =   8.4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuNavbtnattach"
+      }
+      newsText   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxnewstext"
+      }
+      iconsAnim   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   49
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRednewsiconsanim"
+      }
+      newsDesc   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   251
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMainMenuRedlynxnewsdesc"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxnewsdesc   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxNewsDesc"
+      sslClass   =   "UiMainMenuRedlynxnewsdesc"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxnewsicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxNewsIcon"
+      sslClass   =   "UiMainMenuRedlynxnewsicon"
+      __type   =   "UiContainer"
+   }
+   Redlynxnewsnotification   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxNewsNotification"
+      sslClass   =   "UiMainMenuRedlynxnewsnotification"
+      icon   =   {
+         symbol   =   ""
+         x   =   403
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      tf   =   {
+         x   =   10
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxnewstext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "redLynxNewsText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Redlynxprosreward   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxProsReward"
+      sslClass   =   "UiMainMenuRedlynxprosreward"
+      prosRewardHeader   =   {
+         symbol   =   ""
+         x   =   3
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxheader"
+      }
+      prosRewardText   =   {
+         symbol   =   ""
+         x   =   17.9
+         y   =   53.05
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxprossavetext"
+      }
+      prosRewardButtonAttachPoint   =   {
+         symbol   =   ""
+         x   =   85.15
+         y   =   316.85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxattachpoint"
+      }
+      prosRewardImageAttachPoint   =   {
+         symbol   =   ""
+         x   =   223
+         y   =   219
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxprossavesynch   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxProsSaveSynch"
+      sslClass   =   "UiMainMenuRedlynxprossavesynch"
+      prosSaveHeader   =   {
+         symbol   =   ""
+         x   =   3
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxheader"
+      }
+      prosSaveSeparatorLine   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   18
+         y   =   204.45
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxseparator"
+      }
+      prosSaveIconResultAttachPoint   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   226.1
+         y   =   228.05
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuRedlynxattachpoint"
+      }
+      prosSaveButtonToLocalAttachPoint   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   84.9
+         y   =   146
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxattachpoint"
+      }
+      prosSaveTextToLocal   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   17.9
+         y   =   53.05
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxprossavetext"
+      }
+      prosSaveButtonToCloudAttachPoint   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   85.15
+         y   =   305.85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxattachpoint"
+      }
+      prosSaveTextToCloud   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   17.9
+         y   =   212.85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxprossavetext"
+      }
+      prosSaveSpinner   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   279.65
+         y   =   271.9
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxprossavetext   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxProsSaveText"
+      sslClass   =   "UiMainMenuRedlynxprossavetext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxqrattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxQrAttach"
+      sslClass   =   "UiMainMenuRedlynxqrattach"
+      __type   =   "UiContainer"
+   }
+   Redlynxqrblock   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxQrBlock"
+      sslClass   =   "UiMainMenuRedlynxqrblock"
+      qrTf   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   125
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMainMenuRedlynxqrdesc"
+      }
+      qrAttach   =   {
+         symbol   =   ""
+         x   =   6
+         y   =   6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxqrattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxqrdesc   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "redLynxQrDesc"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Redlynxregistration   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxRegistration"
+      sslClass   =   "UiMainMenuRedlynxregistration"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxheader"
+      }
+      desc   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   55
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiMainMenuRedlynxdesc"
+      }
+      qrBlock   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   190
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxqrblock"
+      }
+      lynxBtn   =   {
+         symbol   =   ""
+         x   =   75
+         y   =   312.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxbtnattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Redlynxseparator   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redLynxSeparator"
+      sslClass   =   "UiMainMenuRedlynxseparator"
+      __type   =   "UiContainer"
+   }
+   Rednewsiconsanim   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "redNewsIconsAnim"
+      sslClass   =   "UiMainMenuRednewsiconsanim"
+      iconA   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxnewsicon"
+      }
+      iconB   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMainMenuRedlynxnewsicon"
+      }
+      __type   =   "UiContainer"
+   }
+   Searchingheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "searchingHeader"
+      sslClass   =   "UiMainMenuSearchingheader"
+      tf   =   {
+         x   =   -200
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Searchingwheelanimation   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "searchingWheelAnimation"
+      sslClass   =   "UiMainMenuSearchingwheelanimation"
+      __type   =   "UiContainer"
+   }
+   Searchingwheelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_main_menu"
+      symbol   =   "searchingWheelAttach"
+      sslClass   =   "UiMainMenuSearchingwheelattach"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

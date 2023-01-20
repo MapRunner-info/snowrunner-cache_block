@@ -1,0 +1,5 @@
+forceGarageStateInput   =   {
+   inputLink   =   "DebugDBG.ForceGarageState"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "object"

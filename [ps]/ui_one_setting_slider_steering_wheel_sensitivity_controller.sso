@@ -1,0 +1,11 @@
+view   =   {
+   __type   =   "UiOneSettingSliderView"
+}
+header   =   "UI_SETTINGS_STEERING_WHEEL_SENSITIVITY"
+desc   =   "UI_SETTINGS_STEERING_WHEEL_SENSITIVITY_DESC"
+minValue   =   0.1
+maxValue   =   10
+defaultValue   =   1
+stepInterval   =   0.01
+textfield   =   "FLOAT"
+__type   =   "UiOneSettingSliderController"

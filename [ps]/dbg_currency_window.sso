@@ -1,0 +1,27 @@
+window   =   {
+   id   =   "DebugCurrency"
+   title   =   "DebugCurrency"
+   width   =   500
+   heigth   =   600
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   visible   =   False
+   isNoTitlebar   =   True
+   isNoResize   =   True
+   __type   =   "DbgWindow"
+}
+maxMenuPosition   =   10
+currencies   =   [
+   "Add 5000",
+   "Add 10000",
+   "Add 50000",
+   "Add 100000",
+   "Add 1000000",
+   "Remove 5000",
+   "Remove 10000",
+   "Remove 50000",
+   "Remove 100000",
+   "Remove 1000000"
+]
+__type   =   "DbgWindowBase"

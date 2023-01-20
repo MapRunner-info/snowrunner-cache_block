@@ -1,0 +1,134 @@
+grades   =   [
+   {
+      text   =   "C-"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "C"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "C+"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "B-"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "B"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "B+"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "A-"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "A"
+      color   =   {
+         a   =   255
+         r   =   204
+         g   =   0
+         b   =   255
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "A+"
+      color   =   {
+         a   =   255
+         r   =   12
+         g   =   255
+         b   =   0
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "S"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   0
+         b   =   0
+         __type   =   "Color"
+      }
+   },
+   {
+      text   =   "S+"
+      color   =   {
+         a   =   255
+         r   =   255
+         g   =   255
+         b   =   255
+         __type   =   "Color"
+      }
+   }
+]
+colorIdle   =   {
+   a   =   255
+   r   =   255
+   g   =   255
+   b   =   255
+   __type   =   "Color"
+}
+colorUp   =   {
+   a   =   255
+   r   =   233
+   g   =   187
+   b   =   68
+   __type   =   "Color"
+}
+colorDown   =   {
+   a   =   255
+   r   =   233
+   g   =   116
+   b   =   78
+   __type   =   "Color"
+}
+__type   =   "object"

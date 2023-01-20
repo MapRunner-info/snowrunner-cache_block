@@ -1,0 +1,32 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	FullscreenBlur = {
+		__type = "section"
+		__viewType = {
+			__expand = true
+			__caption = "Fullscreen blur"
+		}
+		__members = {
+			Enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			Radius = {
+				__type = "enum"
+				__items = [ "Small - 0.5", "Normal - 1.0" ]
+				__defaultValue = "Small - 0.5"
+				__viewType {
+					__wrappable = false
+					__caption = "Radius"
+				}
+			}
+		}	
+	}
+}

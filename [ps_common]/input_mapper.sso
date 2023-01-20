@@ -1,0 +1,226 @@
+ignorableInput   =   [
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        34
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        35
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        33
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   },
+   {
+      cmd   =   {
+         devices   =   [
+            {
+               deviceType   =   "mouse"
+               shortcuts   =   [
+                  {
+                     keys   =   [
+                        32
+                     ]
+                  }
+               ]
+            }
+         ]
+      }
+   }
+]
+inputDel   =   {
+   cmd   =   {
+      devices   =   [
+         {
+            deviceType   =   "keyboard"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     211
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+   __type   =   "InputAction"
+}
+inputEsc   =   {
+   cmd   =   {
+      devices   =   [
+         {
+            deviceType   =   "keyboard"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     1
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_xenon"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     9
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_nx64"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     11
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_xbox_one"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     9
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_ds4"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     9
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_stadia"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     9
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+   __type   =   "InputAction"
+}
+inputEnter   =   {
+   cmd   =   {
+      devices   =   [
+         {
+            deviceType   =   "keyboard"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     28
+                  ]
+               },
+               {
+                  keys   =   [
+                     156
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_xenon"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     8
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_nx64"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     10
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_xbox_one"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     8
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_ds4"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     8
+                  ]
+               }
+            ]
+         },
+         {
+            deviceType   =   "gamepad_stadia"
+            shortcuts   =   [
+               {
+                  keys   =   [
+                     8
+                  ]
+               }
+            ]
+         }
+      ]
+   }
+   __type   =   "InputAction"
+}
+layersPolicy   =   {
+   __type   =   "InputCommandLayersPolicy"
+}
+__type   =   "object"

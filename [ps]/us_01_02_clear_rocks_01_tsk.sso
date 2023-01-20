@@ -1,0 +1,57 @@
+uiDesc   =   "US_01_02_CLEAR_ROCKS_01_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_CLEAR_ROCKS_01_MATERIALS"
+               globalZoneId   =   {
+                  sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                  globalZoneId   =   "level_us_01_02 || US_01_02_CLEARROCKS01_A_TSK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                  name   =   "CargoServiceSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_01_02_CLEARROCKS01_B_TSK"
+               ]
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_02"
+   modelTag   =   "us_01_02_rockclear01"
+   stagesProgress   =   {
+      stage_visible   =   {
+      }
+      stage_hidden   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "US_01_02_CLEAR_ROCKS_01_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_CLEARROCKS01_A_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_02_CLEARROCKS01_B_TSK"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   160
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1500
+   }
+}
+__type   =   "TaskSettings"

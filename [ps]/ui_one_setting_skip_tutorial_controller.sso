@@ -1,0 +1,5 @@
+view   =   {
+   __type   =   "UiOneSettingSkipTutorialView"
+}
+header   =   "UI_SETTING_SKIP_TUTORIAL"
+__type   =   "UiOneSettingController"

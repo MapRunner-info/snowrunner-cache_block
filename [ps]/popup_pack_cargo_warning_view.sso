@@ -1,0 +1,10 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiPopupLibHudpopupcontext"
+   }
+   __type   =   "UiObjectDesc"
+}
+focusScreen   =   {
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupViewBase"

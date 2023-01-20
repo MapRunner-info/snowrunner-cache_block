@@ -1,0 +1,59 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	enabled = {
+		__viewType {
+			__wrappable = false
+			__caption = "Enabled"
+		}
+		__type = "bool"
+		__defaultValue = "false"
+	}	
+	depth = {
+		__type = "float"
+		__defaultValue = 0.01
+		__viewType = {
+			__type = "slider"
+			__caption = "Depth"
+			__min = 0.001
+			__max = 1.0
+			__step = 0.001
+		}
+	}	
+	intensity = {
+		__type = "float"
+		__defaultValue = 1.0
+		__viewType = {
+			__type = "slider"
+			__caption = "Intensity"
+			__min = 0.001
+			__max = 10.0
+		}
+	}
+	adaptiveIntensity = {
+		__viewType {
+			__wrappable = false
+			__caption = "Adaptive Intensity"
+		}
+		__type = "bool"
+		__defaultValue = "false"
+	}
+	texture = {
+		__type = "string"
+		__viewType = {
+			__wrappable = false
+			__type = "texture_browser"
+			__path = "filename"
+			__default_path = "$pct_dir$"
+			__caption = "Image texture"
+			__hint = "texture0"
+
+		}
+		__extraData   =   {
+			resource   =   "texture"
+		}
+		__defaultValue = ""
+	}		
+}

@@ -1,0 +1,50 @@
+redColor   =   {
+   a   =   255
+   r   =   233
+   g   =   116
+   b   =   78
+   __type   =   "Color"
+}
+blueColor   =   {
+   a   =   255
+   r   =   85
+   g   =   85
+   b   =   213
+   __type   =   "Color"
+}
+yellowColor   =   {
+   a   =   255
+   r   =   233
+   g   =   187
+   b   =   68
+   __type   =   "Color"
+}
+whiteColor   =   {
+   a   =   255
+   r   =   255
+   g   =   255
+   b   =   255
+   __type   =   "Color"
+}
+grayColor   =   {
+   a   =   255
+   r   =   171
+   g   =   171
+   b   =   171
+   __type   =   "Color"
+}
+failColor   =   {
+   a   =   255
+   r   =   255
+   g   =   102
+   b   =   51
+   __type   =   "Color"
+}
+yellowGreenColor   =   {
+   a   =   255
+   r   =   215
+   g   =   215
+   b   =   100
+   __type   =   "Color"
+}
+__type   =   "object"

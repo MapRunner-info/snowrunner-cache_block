@@ -1,0 +1,12 @@
+useOffset   =   False
+centerAllign   =   True
+btns   =   {
+   accept   =   {
+      text   =   "UI_ACCEPT"
+      __type   =   "NavButtonDesc"
+   }
+   toggleList   =   {
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

@@ -1,0 +1,61 @@
+uiDesc   =   "US_01_02_FLOODED_HOUSE_DESC"
+stages   =   [
+   {
+      actions   =   {
+         sslModule   =   "game.missions.task_settings"
+         zoneToFill   =   [
+            {
+               sslModule   =   "game.missions.task_settings"
+               uiDesc   =   "US_01_02_FLOODED_HOUSE_STAGE"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_FLOODED_HOUSE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteBlocks"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_FLOODED_HOUSE_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_FLOODED_HOUSE_CNT"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ContestRewards   =   {
+      timeSettings   =   {
+         GOLD   =   {
+            timeLimit   =   480
+            xp   =   510
+            money   =   4350
+            __type   =   "ContestResultRewards"
+         }
+         SILVER   =   {
+            timeLimit   =   600
+            xp   =   250
+            money   =   2100
+            __type   =   "ContestResultRewards"
+         }
+         BRONZE   =   {
+            timeLimit   =   0
+            xp   =   150
+            money   =   1250
+            __type   =   "ContestResultRewards"
+         }
+      }
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+failReasons   =   {
+   DamageFailReason   =   {
+      maxDamage   =   200
+   }
+}
+__type   =   "ContestSettings"

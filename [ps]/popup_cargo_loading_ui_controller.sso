@@ -1,0 +1,38 @@
+view   =   {
+   cargoLoadingPlacesSettings   =   {
+      TRUCK   =   {
+         uiIcon   =   "offroadVehicleImg30"
+         __type   =   "CargoLoadingPlaceViewSettings"
+      }
+   }
+   __type   =   "PopupCargoLoadingUiView"
+}
+state   =   {
+   __type   =   "ScreenState"
+}
+cargoPreviewSound   =   "cargo_manual/cargo_platform_landing_rnd"
+showEmptyCargo   =   True
+spawnWarningPopup   =   {
+   navPanels   =   {
+      SimpleNavigationPanelController   =   {
+         btns   =   {
+            accept   =   {
+               view   =   {
+                  __type   =   "NavButtonView"
+               }
+               __type   =   "NavButtonDesc"
+            }
+            decline   =   {
+               view   =   {
+                  __type   =   "NavButtonView"
+               }
+               __type   =   "NavButtonDesc"
+            }
+         }
+      }
+   }
+   priority   =   "LOW"
+   useDefaultAttach   =   False
+   __type   =   "PopupSpawnCargoWarningController"
+}
+__type   =   "PopupCargoContentControllerBase"

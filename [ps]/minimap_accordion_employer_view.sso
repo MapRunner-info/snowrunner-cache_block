@@ -1,0 +1,17 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiMinimapEmployerbtn"
+   }
+   __type   =   "UiObjectDesc"
+}
+contentContainerDesc   =   {
+   type   =   {
+      lir   =   {
+         __type   =   "MinimapContractLir"
+      }
+      __type   =   "UiMinimapMenupanelcontentlist"
+   }
+   __type   =   "SslDesc"
+}
+notifyIconName   =   "taskNotify"
+__type   =   "AccordionItemView"

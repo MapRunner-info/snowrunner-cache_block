@@ -1,0 +1,321 @@
+regionProgressDescs   =   {
+   us_01   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_01_DRILLING"
+            uiIcon   =   "metaProgressM01"
+            contrants   =   [
+               "US_01_01_DRILLING_RECOVERY_OBJ"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_01_WINTER"
+            uiIcon   =   "metaProgressM02"
+            contrants   =   [
+               "US_01_02_RESOURCES_FOR_WINTER_OBJ"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_01_DELIVERING"
+            uiIcon   =   "metaProgressM03"
+            contrants   =   [
+               "US_01_04_CARGO_DELIVERING_OBJ"
+            ]
+         }
+      ]
+   }
+   us_02   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_02_CARGO"
+            uiIcon   =   "metaProgressA01"
+            contrants   =   [
+               "US_02_01_DISASS_OBJ",
+               "US_02_02_DISASS_OBJ",
+               "US_02_03_DISASS_OBJ"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_02_DELIVERING"
+            uiIcon   =   "metaProgressA02"
+            contrants   =   [
+               "US_02_01_DRILL_DELIVERY_OBJ",
+               "US_02_03_DRILL_DELIVERY_OBJ"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_02_PIPELINE"
+            uiIcon   =   "metaProgressA03"
+            contrants   =   [
+               "US_02_01_PIPELINE_OBJ",
+               "US_02_02_PIPELINE_OBJ",
+               "US_02_03_PIPELINE_OBJ",
+               "US_02_04_PIPELINE_BUILDING_CNT"
+            ]
+         }
+      ]
+   }
+   ru_02   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_02_GEOLOGICAL_RESEARCH"
+            uiIcon   =   "metaProgressT01"
+            contrants   =   [
+               "RU_02_02_RESEARCH",
+               "RU_02_01_PROSPECTING_01_OBJ",
+               "RU_02_01_PROSPECTING_02_OBJ"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_02_DELIVERY"
+            uiIcon   =   "metaProgressT02"
+            contrants   =   [
+               "RU_02_03_DERRICK_DELIVERY_OBJ"
+            ]
+         }
+      ]
+   }
+   ru_03   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_03_BUNKERS"
+            uiIcon   =   "metaProgressK01"
+            contrants   =   [
+               "RU_03_01_BUNKER_OBJ"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_03_AIRPLANE"
+            uiIcon   =   "metaProgressS01"
+            contrants   =   [
+               "RU_03_02_AIRPLANE_CNT"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_03_TANKS"
+            uiIcon   =   "metaProgressS02"
+            contrants   =   [
+               "RU_03_02_TANK_CNT"
+            ]
+         }
+      ]
+   }
+   us_04   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_04_FINAL"
+            uiIcon   =   "metaProgressY02"
+            contrants   =   [
+               "US_04_02_FINAL_DELIVERY"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_04_GOLD"
+            uiIcon   =   "metaProgressY01"
+            contrants   =   [
+               "US_04_01_MINE_CONT",
+               "US_04_01_CONV_01_CONT",
+               "US_04_01_CONV_02_CONT",
+               "US_04_01_CONV_03_CONT",
+               "US_04_01_SORT_CONT",
+               "US_04_01_TUBING"
+            ]
+         }
+      ]
+   }
+   us_03   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_03_CELL"
+            uiIcon   =   "metaProgressN02"
+            contrants   =   [
+               "US_03_01_CELL_CONT"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_03_TRAIN"
+            uiIcon   =   "metaProgressN01"
+            contrants   =   [
+               "US_03_02_FINAL_COUNTDOWN_OBJ"
+            ]
+         }
+      ]
+   }
+   ru_04   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_04_ROCKET_01"
+            uiIcon   =   "metaProgressRu04Rocket01"
+            contrants   =   [
+               "RU_04_01_ROCKET_OBJ"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_04_NPZ"
+            uiIcon   =   "metaProgressRu04RocketNPZ"
+            contrants   =   [
+               "RU_04_04_NPZ_RESTORATION_A",
+               "RU_04_04_NPZ_RESTORATION_B",
+               "RU_04_04_NPZ_RESTORATION_C"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_04_ROCKET_02"
+            uiIcon   =   "metaProgressRu04Rocket02"
+            contrants   =   [
+               "RU_04_02_ROCKET_TRAIN_DELIVERY_OBJ"
+            ]
+         }
+      ]
+   }
+   ru_05   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_05_BOILER_ROOM_01"
+            uiIcon   =   "metaProgressRostovFactory"
+            contrants   =   [
+               "RU_05_01_BOILER_ROOM_02"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_05_BRIDGE_01"
+            uiIcon   =   "metaProgressRostovBridge"
+            contrants   =   [
+               "RU_05_02_BIG_BRIDGE_02"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_05_RESTORATION_01"
+            uiIcon   =   "metaProgressRostovInfrastructure"
+            contrants   =   [
+               "RU_05_01_RESTORATION_VILLAGE"
+            ]
+         }
+      ]
+   }
+   us_06   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_06_MILL"
+            uiIcon   =   "metaProgressMaineLamberMill"
+            contrants   =   [
+               "US_06_01_MILL_04_BUILD"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_06_GARAGE"
+            uiIcon   =   "metaProgressMaineGarage"
+            contrants   =   [
+               "US_06_01_GARAGE_STAGE_01_SLOTS",
+               "US_06_01_GARAGE_STAGE_01_REPAIR",
+               "US_06_01_GARAGE_CONT_02_TUNING",
+               "US_06_01_GARAGE_STAGE_02_TRUCKSTORE",
+               "US_06_01_GARAGE_STAGE_03_TRAILERS"
+            ]
+         }
+      ]
+   }
+   us_07   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_07_01_CIRCUIT_RACE_1"
+            uiIcon   =   "mpUs07Circuit"
+            contrants   =   [
+               "US_07_01_CIRCUIT_RACE_1"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_07_01_CAREER"
+            uiIcon   =   "mpUs07Climb"
+            contrants   =   [
+               "US_07_01_CAREER"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_07_01_RACE_HEROES"
+            uiIcon   =   "mpUs07Hero"
+            contrants   =   [
+               "US_07_01_RACE_HEROES"
+            ]
+         }
+      ]
+   }
+   ru_08   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_08_SUNSAILS_PROBLEMS"
+            uiIcon   =   "metaProgressRu08Sunsails"
+            contrants   =   [
+               "RU_08_04_WINDMILL",
+               "RU_08_03_SOLAR_STATION_WIRING"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_08_ECO_PROBLEMS"
+            uiIcon   =   "metaProgressRu08Kolari"
+            contrants   =   [
+               "RU_08_02_CHEMICAL_RESTORER",
+               "RU_08_03_RESYCLE_DELIVERY"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_RU_08_FARMING_PROBLEMS"
+            uiIcon   =   "metaProgressRu08Ruscrop"
+            contrants   =   [
+               "RU_08_02_MANURE_TANKS",
+               "RU_08_04_POTATO_BUYING_META"
+            ]
+         }
+      ]
+   }
+   us_09   =   {
+      __value   =   [
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_09_FIRE_EXTING"
+            uiIcon   =   "metaProgressUs09Fire"
+            contrants   =   [
+               "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT",
+               "US_09_01_WATER_DELIVERY_WAREHOUSE_CONTRACT",
+               "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT",
+               "US_09_01_BURNED_LOGS_CLEARING_CONTRACT",
+               "US_09_02_WATER_DELIVERY_WAREHOUSE_CONTRACT",
+               "US_09_02_WATER_DELIVERY_FACTORY_CONTRACT",
+               "US_09_02_SEISMO_SCOUT_CONTRACT",
+               "US_09_02_SEISMO_WATER_DELIVERY_CONTRACT"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_09_EVAC"
+            uiIcon   =   "metaProgressUs09Evac"
+            contrants   =   [
+               "US_09_01_FIRE_STATION_VEHICLE_CONTRACT",
+               "US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT",
+               "US_09_01_GOLD_DELIVERY_CONTRACT",
+               "US_09_02_EXPORT_HAY_CONTRACT",
+               "US_09_02_UNCLEAR_GOLD_CONTRACT",
+               "US_09_02_DISASSEMBLY_DRILL_CONTRACT"
+            ]
+         },
+         {
+            uiName   =   "UI_HUD_METAPROGRESS_US_09_INFRASTRUCTURE"
+            uiIcon   =   "metaProgressUs09Infrastructure"
+            contrants   =   [
+               "US_09_01_GARAGE_RESTORE_CONTRACT",
+               "US_09_01_LOG_HOUSE_CONTRACT_01",
+               "US_09_01_LOG_HOUSE_CONTRACT_02",
+               "US_09_01_WATER_TOWER_CONTRACT_01",
+               "US_09_01_WATER_TOWER_CONTRACT_02",
+               "US_09_01_RAILWAY_DELIVERY_CONTRACT",
+               "US_09_02_EXIT_CONTRACT",
+               "US_09_02_PIPES_CONTRACT",
+               "US_09_02_FUEL_FOR_STATION_DELIVERY_CONTRACT",
+               "US_09_02_FIRE_WATCHTOWER_CONTRACT",
+               "US_09_02_WATER_TOWER_CONTRACT_01",
+               "US_09_02_WATER_TOWER_CONTRACT_02",
+               "US_09_02_LUMBER_MILL_REPAIR_CONTRACT"
+            ]
+         }
+      ]
+   }
+}
+__type   =   "object"

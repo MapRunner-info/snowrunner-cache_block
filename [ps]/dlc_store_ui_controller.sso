@@ -1,0 +1,59 @@
+view   =   {
+   navBtnTabL   =   {
+      uiInputName   =   "TabLeft"
+      __type   =   "CustomNavigationButtonView"
+   }
+   navBtnTabR   =   {
+      uiInputName   =   "TabRight"
+      __type   =   "CustomNavigationButtonView"
+   }
+   __type   =   "DlcStoreUiView"
+}
+navPanels   =   {
+   default   =   {
+      useBg   =   True
+      btns   =   {
+         Select   =   {
+            uiInputName   =   "Select"
+            __type   =   "NavButtonDesc"
+         }
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         ShowInStore   =   {
+            uiInputName   =   "ShowInStore"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "DlcStoreNavigationPanel"
+   }
+}
+inputScreen   =   {
+   name   =   "DlcStore"
+   inputsLinks   =   {
+      Select   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      TabLeft   =   {
+         inputLink   =   "UI.TabBtnL"
+         __type   =   "InputLinkActionMr"
+      }
+      TabRight   =   {
+         inputLink   =   "UI.TabBtnR"
+         __type   =   "InputLinkActionMr"
+      }
+      ShowInStore   =   {
+         inputLink   =   "UI.OpenPlatformStore"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

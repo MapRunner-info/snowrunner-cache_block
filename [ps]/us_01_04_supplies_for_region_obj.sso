@@ -1,0 +1,77 @@
+uiDesc   =   "US_01_04_SUPPLIES_FOR_REGION_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_SUPPLIES_FOR_REGION_TOWN"
+               globalZoneId   =   {
+                  sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                  globalZoneId   =   "level_us_01_01 || US_01_01_TOWN_STORAGE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                  name   =   "CargoBags"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_SUPPLIES_FOR_REGION_CARIER"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_WAREHOUSE_02"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBags"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_SUPPLIES_FOR_REGION_LOG_01"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_03 || US_01_03_LUMBER_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBags"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_01_04_SUPPLIES_FOR_REGION_LOG_02"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_LOG_LOADING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBags"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+blockerObjectives   =   [
+   "US_01_04_CARGO_DELIVERING_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_04_SUPPLIES_FOR_REGION_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   2000
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   22350
+   }
+}
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+contractMap   =   ""
+__type   =   "ContractSettings"

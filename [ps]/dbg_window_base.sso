@@ -1,0 +1,10 @@
+window   =   {
+   width   =   500
+   heigth   =   600
+   visible   =   False
+   isNoTitlebar   =   True
+   isNoResize   =   True
+   __type   =   "DbgWindow"
+}
+maxMenuPosition   =   9
+__type   =   "object"

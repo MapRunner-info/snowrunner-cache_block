@@ -1,0 +1,71 @@
+trialsSettings   =   {
+   TRIAL_03_02_DELIVERY_CNT   =   {
+      uiDesc   =   "TRIAL_03_02_DELIVERY_CNT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "TRIAL_03_02_SPARE_PARTS_DELIVERY"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_trial_03_02 || TRIAL_03_02_FALLEN_TOWER"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_trial_03_02"
+                        modelTag   =   "power_lines"
+                        stagesProgress   =   {
+                           state_start   =   {
+                           }
+                           state_end   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   ""
+         }
+      ]
+      model   =   {
+         levelName   =   "level_trial_03_02"
+         modelTag   =   "power_lines"
+         stagesProgress   =   {
+            state_start   =   {
+            }
+            state_end   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "null"
+      }
+      description   =   "TRIAL_03_02_DELIVERY_CNT_REW"
+      rewards   =   {
+         TrialRewards   =   {
+            rewards   =   {
+               ObjectiveRewardTrialPartItem   =   {
+               }
+            }
+            __type   =   "ObjectiveRewardsTrial"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_trial_03_02 || TRIAL_03_02_START"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      failReasons   =   {
+         RecoveryFailReason   =   {
+         }
+      }
+      __type   =   "TrialSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

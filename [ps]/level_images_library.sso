@@ -1,0 +1,208 @@
+levelImageNames   =   {
+   level_ru_02_01_crop   =   {
+      flaName   =   "levelru_0201"
+      imgName   =   "levelRu0201"
+      __type   =   "LevelImage"
+   }
+   level_ru_02_02   =   {
+      flaName   =   "levelru_0202"
+      imgName   =   "levelRu0202"
+      __type   =   "LevelImage"
+   }
+   level_ru_02_03   =   {
+      flaName   =   "levelru_0203"
+      imgName   =   "levelRu0203"
+      __type   =   "LevelImage"
+   }
+   level_ru_02_04   =   {
+      flaName   =   "levelru_0204"
+      imgName   =   "levelRu0204"
+      __type   =   "LevelImage"
+   }
+   level_us_01_01   =   {
+      flaName   =   "levelus_0101"
+      imgName   =   "levelUs0101"
+      __type   =   "LevelImage"
+   }
+   level_us_01_02   =   {
+      flaName   =   "levelus_0102"
+      imgName   =   "levelUs0102"
+      __type   =   "LevelImage"
+   }
+   level_us_01_03   =   {
+      flaName   =   "levelus_0103"
+      imgName   =   "levelUs0103"
+      __type   =   "LevelImage"
+   }
+   level_us_01_04_new   =   {
+      flaName   =   "levelus_0104"
+      imgName   =   "levelUs0104"
+      __type   =   "LevelImage"
+   }
+   level_us_02_01   =   {
+      flaName   =   "levelus_0201"
+      imgName   =   "levelUs0201"
+      __type   =   "LevelImage"
+   }
+   level_us_02_02_new   =   {
+      flaName   =   "levelus_0202"
+      imgName   =   "levelUs0202"
+      __type   =   "LevelImage"
+   }
+   level_us_02_03_new   =   {
+      flaName   =   "levelus_0203"
+      imgName   =   "levelUs0203"
+      __type   =   "LevelImage"
+   }
+   level_us_02_04_new   =   {
+      flaName   =   "levelus_0204"
+      imgName   =   "levelUs0204"
+      __type   =   "LevelImage"
+   }
+   level_ru_03_01   =   {
+      flaName   =   "levelru_0301"
+      imgName   =   "levelRu0301"
+      __type   =   "LevelImage"
+   }
+   level_ru_03_02   =   {
+      flaName   =   "levelru_0302"
+      imgName   =   "levelRu0302"
+      __type   =   "LevelImage"
+   }
+   level_trial_01_01   =   {
+      flaName   =   "leveltrials_01"
+      imgName   =   "levelTrials01"
+      __type   =   "LevelImage"
+   }
+   level_trial_01_02   =   {
+      flaName   =   "leveltrials_02"
+      imgName   =   "levelTrials02"
+      __type   =   "LevelImage"
+   }
+   level_trial_02_01   =   {
+      flaName   =   "leveltrials_0201"
+      imgName   =   "levelTrials0201"
+      __type   =   "LevelImage"
+   }
+   level_trial_02_02   =   {
+      flaName   =   "leveltrials_0202"
+      imgName   =   "levelTrials0202"
+      __type   =   "LevelImage"
+   }
+   level_us_04_01   =   {
+      flaName   =   "levelus_0401"
+      imgName   =   "levelUs0401"
+      __type   =   "LevelImage"
+   }
+   level_us_04_02   =   {
+      flaName   =   "levelus_0402"
+      imgName   =   "levelUs0402"
+      __type   =   "LevelImage"
+   }
+   level_trial_03_01   =   {
+      flaName   =   "leveltrials_0301"
+      imgName   =   "levelTrials0301"
+      __type   =   "LevelImage"
+   }
+   level_trial_03_02   =   {
+      flaName   =   "leveltrials_0302"
+      imgName   =   "levelTrials0302"
+      __type   =   "LevelImage"
+   }
+   level_trial_03_03   =   {
+      flaName   =   "leveltrials_0303"
+      imgName   =   "levelTrials0303"
+      __type   =   "LevelImage"
+   }
+   level_us_03_01   =   {
+      flaName   =   "levelus_0301"
+      imgName   =   "levelUs0301"
+      __type   =   "LevelImage"
+   }
+   level_us_03_02   =   {
+      flaName   =   "levelus_0302"
+      imgName   =   "levelUs0302"
+      __type   =   "LevelImage"
+   }
+   level_trial_04_01   =   {
+      flaName   =   "leveltrials_0401"
+      imgName   =   "levelTrials0401"
+      __type   =   "LevelImage"
+   }
+   level_trial_04_02   =   {
+      flaName   =   "leveltrials_0402"
+      imgName   =   "levelTrials0402"
+      __type   =   "LevelImage"
+   }
+   level_trial_05_01   =   {
+      flaName   =   "leveltrials_0501"
+      imgName   =   "levelTrials0501"
+      __type   =   "LevelImage"
+   }
+   level_ru_04_01   =   {
+      flaName   =   "levelru_0401"
+      imgName   =   "levelRu0401"
+      __type   =   "LevelImage"
+   }
+   level_ru_04_02   =   {
+      flaName   =   "levelru_0402"
+      imgName   =   "levelRu0402"
+      __type   =   "LevelImage"
+   }
+   level_ru_04_03   =   {
+      flaName   =   "levelru_0403"
+      imgName   =   "levelRu0403"
+      __type   =   "LevelImage"
+   }
+   level_ru_04_04   =   {
+      flaName   =   "levelru_0404"
+      imgName   =   "levelRu0404"
+      __type   =   "LevelImage"
+   }
+   level_ru_05_01   =   {
+      flaName   =   "levelru_0501"
+      imgName   =   "levelRu0501"
+      __type   =   "LevelImage"
+   }
+   level_ru_05_02   =   {
+      flaName   =   "levelru_0502"
+      imgName   =   "levelRu0502"
+      __type   =   "LevelImage"
+   }
+   level_us_06_01   =   {
+      flaName   =   "levelus_0601"
+      imgName   =   "levelUs0601"
+      __type   =   "LevelImage"
+   }
+   level_us_06_02   =   {
+      flaName   =   "levelus_0602"
+      imgName   =   "levelUs0602"
+      __type   =   "LevelImage"
+   }
+   level_us_07_01   =   {
+      flaName   =   "levelus_0701"
+      imgName   =   "levelUs0701"
+      __type   =   "LevelImage"
+   }
+   level_ru_08_01   =   {
+      flaName   =   "levelru_0801"
+      imgName   =   "levelRu0801"
+      __type   =   "LevelImage"
+   }
+   level_ru_08_02   =   {
+      flaName   =   "levelru_0802"
+      imgName   =   "levelRu0802"
+      __type   =   "LevelImage"
+   }
+   level_ru_08_03   =   {
+      flaName   =   "levelru_0803"
+      imgName   =   "levelRu0803"
+      __type   =   "LevelImage"
+   }
+   level_ru_08_04   =   {
+      flaName   =   "levelru_0804"
+      imgName   =   "levelRu0804"
+      __type   =   "LevelImage"
+   }
+}
+__type   =   "object"

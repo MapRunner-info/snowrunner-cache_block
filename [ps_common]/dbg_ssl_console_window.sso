@@ -1,0 +1,9 @@
+executeInputLink   =   {
+   inputLink   =   "DebugConsole.Execute"
+   __type   =   "InputLinkAction"
+}
+closeInputLink   =   {
+   inputLink   =   "DebugConsole.Close"
+   __type   =   "InputLinkAction"
+}
+__type   =   "object"

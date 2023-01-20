@@ -1,0 +1,22 @@
+timeToShow   =   5
+hints   =   {
+   DiscoverObjectiveHudHint   =   {
+   }
+   DiscoverTruckHudHint   =   {
+   }
+   DiscoverUpgradeGiverZoneHudHint   =   {
+   }
+   DiscoverWatchpointHudHint   =   {
+   }
+   DiscoverGarageHudHint   =   {
+   }
+   StageIsCompletedHudHint   =   {
+   }
+   FailObjectiveHudHint   =   {
+   }
+   RankUpHudHint   =   {
+   }
+   ActivateWatchtowerTrailerHudHint   =   {
+   }
+}
+__type   =   "HudControllerMrBase"

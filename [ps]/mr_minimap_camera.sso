@@ -1,0 +1,3 @@
+nearPlane   =   0.01
+farPlane   =   32
+__type   =   "MrCameraBase"

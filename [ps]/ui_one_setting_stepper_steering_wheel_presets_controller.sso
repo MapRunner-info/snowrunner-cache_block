@@ -1,0 +1,16 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         stepper   =   {
+            wrapMode   =   True
+            __type   =   "UiSettingsSettingsstepperwide"
+         }
+         __type   =   "UiSettingsSettingsstepperclipwide"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "UiOneSettingWideStepperView"
+}
+header   =   "UI_SETTINGS_MENU_STEERING_WHEEL_PRESETS"
+desc   =   "UI_SETTINGS_MENU_STEERING_WHEEL_PRESETS_DESC"
+__type   =   "UiOneSettingStepperController"

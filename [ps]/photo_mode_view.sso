@@ -1,0 +1,32 @@
+uiObjectDesc   =   {
+   type   =   {
+      fade   =   {
+         mouseEnabled   =   False
+         __type   =   "UiPhotoModePhotomodefade"
+      }
+      list   =   {
+         lir   =   {
+            mouseChildren   =   True
+            __type   =   "PhotoModeLirItem"
+         }
+         __type   =   "UiPhotoModePhotomodelist"
+      }
+      __type   =   "UiPhotoModePhotomodescreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+photoModeSettingsList   =   {
+   alwaysSendElementSelected   =   True
+   uiFocusScreen   =   {
+      uiGfxInputToDisable   =   [
+         "Return"
+      ]
+      __type   =   "UiFocusScreen"
+   }
+   disableAcceptInput   =   True
+   __type   =   "UiListAdapter"
+}
+screenshotSavedPopup   =   {
+   __type   =   "UiPhotoModePopupScreenshotSaved"
+}
+__type   =   "PopupViewBase"

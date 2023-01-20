@@ -1,0 +1,74 @@
+view   =   {
+   desc   =   "UI_POPUP_MISSING_MODS_DESC,"
+   __type   =   "PopupMissingModsUiView"
+}
+navPanels   =   {
+   default   =   {
+      useOffset   =   False
+      centerAllign   =   True
+      btns   =   {
+         browse   =   {
+            text   =   "UI_BROWSE"
+            uiInputName   =   "browse"
+            excludedPlatforms   =   [
+               "ORBIS",
+               "DURANGO"
+            ]
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         back   =   {
+            text   =   "UI_BACK"
+            uiInputName   =   "back"
+            input   =   {
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+         loadGame   =   {
+            text   =   "UI_LOAD_GAME"
+            input   =   {
+               inputLink   =   "Popups.Accept"
+               __type   =   "InputLinkHoldMr"
+            }
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupMissingModsNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "PopupMissingModsScreenState"
+}
+id   =   "SAVE_SLOT_MISSING_MODS_INFO"
+useDefaultAttach   =   True
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "Missing mods"
+   inputsLinks   =   {
+      browse   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkHoldMr"
+      }
+      back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "End",
+      "Return"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

@@ -1,0 +1,18 @@
+cont   =   {
+   __type   =   "UiTutorialLibTutorialpopupanim"
+}
+focusScreen   =   {
+   __type   =   "UiFocusScreen"
+}
+inputScreen   =   {
+   priority   =   "VERY_HIGH"
+   name   =   "Tutorial"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.AcceptTutorial"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "TutorialViewBase"

@@ -1,0 +1,123 @@
+uiDesc   =   "US_02_03_PIPELINE_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_03_PIPELINE_ACTION_1_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_PIPELINE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               model   =   {
+                  levelName   =   "level_us_02_01"
+                  modelTag   =   "RU_02_02_PIPE_MDL"
+                  stagesProgress   =   {
+                     dase   =   {
+                     }
+                  }
+                  __type   =   "null"
+               }
+               additionalUnloadZones   =   [
+                  "US_02_03_PIPELINE_01"
+               ]
+            },
+            {
+               uiDesc   =   "US_02_03_PIPELINE_ACTION_1_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_PIPELINE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_02_03_PIPELINE_01"
+               ]
+            },
+            {
+               uiDesc   =   "US_02_03_PIPELINE_ACTION_1_3_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_PIPELINE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoPipesMedium"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_02_03_PIPELINE_01"
+               ]
+            },
+            {
+               uiDesc   =   "US_02_03_PIPELINE_ACTION_1_4_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_PIPELINE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoWoodenPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_02_03_PIPELINE_01"
+               ]
+            },
+            {
+               uiDesc   =   "US_02_03_PIPELINE_ACTION_1_5_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_03_new || US_02_03_PIPELINE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoContainerLarge"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_02_03_PIPELINE_01"
+               ]
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_02_03_new"
+   modelTag   =   "US_02_03_PIPE_MDL"
+   stagesProgress   =   {
+      state_start   =   {
+         __value   =   0
+      }
+      state_end   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+blockerObjectives   =   [
+   "US_02_02_DRILLING_PARTS_OBJ"
+]
+description   =   "US_02_03_PIPELINE_OBJ_REW"
+employer   =   "BlackBird"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   800
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   6600
+   }
+}
+__type   =   "ContractSettings"

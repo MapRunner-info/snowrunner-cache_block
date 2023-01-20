@@ -1,0 +1,32 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         header   =   {
+            tf   =   {
+               text   =   "UI_MODS_AUTH_HEADER"
+               __type   =   "UiLabel"
+            }
+            __type   =   "UiPopupLibHudpopupheader"
+         }
+         inputCont   =   {
+            maxChars   =   100
+            __type   =   "UiPopupLibModpopupinputtext"
+         }
+         __type   =   "UiPopupLibModpopup"
+      }
+      __type   =   "UiPopupLibAnimmodpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+popupIcon   =   {
+   type   =   {
+      symbol   =   "StatusUserIcons20"
+      x   =   0
+      y   =   0
+      scaleX   =   170
+      scaleY   =   170
+      __type   =   "UiIconsLibMinimapmarkcraft40"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "PopupViewBase"

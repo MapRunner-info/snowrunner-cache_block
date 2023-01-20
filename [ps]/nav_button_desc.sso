@@ -1,0 +1,7 @@
+tutorialInputLink   =   {
+   inputLink   =   "UI.AcceptTutorial"
+   __type   =   "InputLinkHoldMr"
+}
+hoverSound   =   "ui/ui_hover"
+useAnim   =   True
+__type   =   "object"

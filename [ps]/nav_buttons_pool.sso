@@ -1,0 +1,8 @@
+editorObjectDesc   =   {
+   type   =   {
+      __type   =   "NavButtonController"
+   }
+   __type   =   "NavButtonControllerDesc"
+}
+editorMaxCapacity   =   50
+__type   =   "EditorObjectDescPool"

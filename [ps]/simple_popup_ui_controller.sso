@@ -1,0 +1,30 @@
+view   =   {
+   __type   =   "SimplePopupUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         Accept   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "AllButtonsNavigationPanel"
+   }
+}
+id   =   "CONFIRM_RESTART_OBJECTIVE"
+priority   =   "MIDDLE"
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "PopupRestartConfirm"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

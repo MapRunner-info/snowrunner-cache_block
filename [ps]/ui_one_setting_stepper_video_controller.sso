@@ -1,0 +1,4 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+__type   =   "UiOneSettingStepperController"

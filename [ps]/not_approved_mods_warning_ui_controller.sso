@@ -1,0 +1,63 @@
+view   =   {
+   header   =   "UI_NOT_APPROVED_MODS_WARNING_HEADER"
+   desc   =   "UI_NOT_APPROVED_MODS_WARNING_DESC,"
+   totalSize   =   ""
+   __type   =   "PopupMissingModsUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            text   =   "UI_ACCEPT"
+            uiInputName   =   "accept"
+            __type   =   "NavButtonDesc"
+         }
+         decline   =   {
+            text   =   "UI_DECLINE"
+            uiInputName   =   "back"
+            __type   =   "NavButtonDesc"
+         }
+         disableAndProceed   =   {
+            text   =   "UI_DISABLE_AND_PROCEED"
+            uiInputName   =   "disableAndProceed"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      order   =   [
+         "accept",
+         "disableAndProceed",
+         "decline"
+      ]
+      __type   =   "AllButtonsNavigationPanel"
+   }
+}
+id   =   "CROSSPLAY_MODS_NOT_APPROVED_TRUCK_MODS"
+useDefaultAttach   =   True
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "NotApprovedModsWarning"
+   inputsLinks   =   {
+      disableAndProceed   =   {
+         inputLink   =   "Popups.Details"
+         __type   =   "InputLinkHoldMr"
+      }
+      back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "End",
+      "Return"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

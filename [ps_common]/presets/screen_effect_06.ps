@@ -1,0 +1,410 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Burn Params (6)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Texture"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Flame Pattern"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture2 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Mask A"
+							__hint = "texture2"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture3 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Mask B"
+							__hint = "texture3"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture4 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Flame Gradient"
+							__hint = "texture4"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Brightness"
+						}
+						__type = "float"
+						__defaultValue = 1.2
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Blend"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion"
+						}
+						__type = "float"
+						__defaultValue = 0.02
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame A Tile U"
+						}
+						__type = "float"
+						__defaultValue = 0.75
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame A Tile V"
+						}
+						__type = "float"
+						__defaultValue = 0.75
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame A Speed U"
+						}
+						__type = "float"
+						__defaultValue = 0.13
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame A Speed V"
+						}
+						__type = "float"
+						__defaultValue = -0.2
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame B Tile U"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame B Tile U"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam10 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame B Speed U"
+						}
+						__type = "float"
+						__defaultValue = -0.13
+					}
+					floatParam11 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Flame B Speed V"
+						}
+						__type = "float"
+						__defaultValue = -0.85
+					}
+					
+					floatParam12 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask A Tile U"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam13 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask A Tile V"
+						}
+						__type = "float"
+						__defaultValue = 1.7
+					}
+					floatParam14 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask B Tile U"
+						}
+						__type = "float"
+						__defaultValue = 1.5
+					}
+					floatParam15 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask B Speed U"
+						}
+						__type = "float"
+						__defaultValue = 0
+					}
+					floatParam16 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask B Tile V"
+						}
+						__type = "float"
+						__defaultValue = 1.5
+					}
+					floatParam17 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask B Speed V"
+						}
+						__type = "float"
+						__defaultValue = -1.0
+					}
+					floatParam18 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask B Cut"
+						}
+						__type = "float"
+						__defaultValue = 0.7
+					}
+					
+					floatParam19 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask B Cut Fade"
+						}
+						__type = "float"
+						__defaultValue = 0.1
+					}
+					floatParam20 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L1 Scale U"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam21 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L1 Scale V"
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam22 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L1 Offset U"
+						}
+						__type = "float"
+						__defaultValue = -0.26
+					}
+					
+					floatParam23 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L1 Offset V"
+						}
+						__type = "float"
+						__defaultValue = 0.0
+					}
+					floatParam24 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L2 Scale U"
+						}
+						__type = "float"
+						__defaultValue = -1.0
+					}
+					floatParam25 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L2 Scale V"
+						}
+						__type = "float"
+						__defaultValue = 1.5
+					}
+					floatParam26 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L2 Offset U"
+						}
+						__type = "float"
+						__defaultValue = -0.4
+					}
+					
+					floatParam27 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L2 Offset V"
+						}
+						__type = "float"
+						__defaultValue = 0.0
+					}
+					floatParam28 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L3 Scale U"
+						}
+						__type = "float"
+						__defaultValue = 1.1
+					}
+					floatParam29 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L3 Scale V"
+						}
+						__type = "float"
+						__defaultValue = 1.4
+					}
+					floatParam30 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L3 Offset U"
+						}
+						__type = "float"
+						__defaultValue = -0.5
+					}
+					floatParam31 = {
+						__viewType {
+							__wrappable = false
+							__caption = "L3 Offset V"
+						}
+						__type = "float"
+						__defaultValue = 0.0
+					}
+					
+					
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+							__hidden = true
+						}
+					}
+				}
+			}	
+			
+		}
+	}
+}

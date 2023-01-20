@@ -1,0 +1,3 @@
+header   =   "UI_SETTINGS_MOUSE_INVERT_Y"
+desc   =   "UI_SETTINGS_MOUSE_INVERT_Y_DESC"
+__type   =   "UiOneSettingStepperOnOff"

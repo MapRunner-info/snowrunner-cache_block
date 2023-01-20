@@ -1,0 +1,1279 @@
+sections   =   {
+   Truck   =   {
+      commands   =   {
+         DiffLock   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              9
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              16
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         Handbrake   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              13
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              13
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              13
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              13
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              57
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              13
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         Awd   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              10
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              10
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              8
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              10
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              18
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              10
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         Functions   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              2
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              2
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              2
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              2
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              47
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              2
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         Honk   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              6
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              6
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              6
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              6
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              34
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              6
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         Headlights   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              9
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              9
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              9
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              38
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              9
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         Engine   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              8
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              8
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              10
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              48
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              8
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              8
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         QuickWinch   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              9
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              33
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              11
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         ToggleCamera   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              7
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              7
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              7
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              7
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              2
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              7
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         ClutchMode   =   {
+            cmd   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              12
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              12
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              12
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              12
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              42
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              12
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionHoldMr"
+         }
+         truckMovement   =   {
+            forward   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              15
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              15
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              15
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              15
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              17
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              15
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            backward   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              14
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              14
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              14
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              14
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              31
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              14
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            left   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              33
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              33
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              33
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              33
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              30
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              33
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            right   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              32
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              32
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              32
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              32
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "keyboard"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              32
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              32
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionVector"
+         }
+         AwdSolo   =   {
+            __type   =   "InputActionHoldMr"
+         }
+         HeadlightSolo   =   {
+            __type   =   "InputActionHoldMr"
+         }
+         DiffLockSolo   =   {
+            __type   =   "InputActionHoldMr"
+         }
+         EngineSolo   =   {
+            __type   =   "InputActionHoldMr"
+         }
+         GamepadZoom   =   {
+            forward   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              34
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              34
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              34
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              34
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              34
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            backward   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              35
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              35
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              35
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              35
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              35
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionVector"
+         }
+         GamepadRotation   =   {
+            forward   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              38
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              38
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              38
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              38
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              38
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            backward   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              39
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              39
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              39
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              39
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              39
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            left   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              37
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              37
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              37
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              37
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              37
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            right   =   {
+               devices   =   [
+                  {
+                     deviceType   =   "gamepad_ds4"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              36
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xenon"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              36
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_nx64"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              36
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_xbox_one"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              36
+                           ]
+                        }
+                     ]
+                  },
+                  {
+                     deviceType   =   "gamepad_stadia"
+                     shortcuts   =   [
+                        {
+                           keys   =   [
+                              36
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+            __type   =   "InputActionRotate"
+         }
+      }
+      __type   =   "KeymapSection"
+   }
+}
+__type   =   "ControlsPreset"

@@ -1,0 +1,8 @@
+focusable   =   True
+enabled   =   True
+subHeader   =   {
+   focusable   =   False
+   enabled   =   False
+   __type   =   "UiMinimapTasksubheader"
+}
+__type   =   "UiMinimapTasklistitem"

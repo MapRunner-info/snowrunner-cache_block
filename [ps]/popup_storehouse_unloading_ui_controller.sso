@@ -1,0 +1,5 @@
+view   =   {
+   __type   =   "PopupCargoUnloadingUiView"
+}
+id   =   "STOREHOUSE"
+__type   =   "PopupCargoContentControllerBase"

@@ -1,0 +1,8 @@
+teamDistributor   =   {
+   __type   =   "GameSessionTeamDistributor"
+}
+dbgForceStartInputLink   =   {
+   inputLink   =   "DebugDBG.MainMenuLobbyForceStart"
+   __type   =   "InputLinkActionMr"
+}
+__type   =   "object"

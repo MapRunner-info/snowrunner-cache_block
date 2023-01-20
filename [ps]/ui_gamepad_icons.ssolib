@@ -1,0 +1,4199 @@
+classes   =   {
+   Actiontextc   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "actionTextC"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Actiontextcmultiline   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "actionTextCMultiline"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Actiontextl   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "actionTextL"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Actiontextlmultiline   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "actionTextLMultiline"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Actiontextr   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "actionTextR"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Controllerlayoutcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "controllerLayoutContainer"
+      sslClass   =   "UiGamepadIconsControllerlayoutcontainer"
+      layoutsList   =   {
+         symbol   =   ""
+         x   =   50
+         y   =   236.8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsControllerlayoutslist"
+      }
+      controller   =   {
+         symbol   =   ""
+         x   =   231.95
+         y   =   236
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsControllerscontainer"
+      }
+      __type   =   "UiContainer"
+   }
+   Controllerlayoutlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "controllerLayoutLir"
+      textCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsLayoutlirtext"
+      }
+      selectedLayout   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGamepadIconsLayoutlirselected"
+      }
+      __type   =   "UiListItem"
+   }
+   Controllerlayoutlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Controllerlayoutslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "controllerLayoutsList"
+      __type   =   "UiScrollingList"
+   }
+   Controllerscontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "controllersContainer"
+      sslClass   =   "UiGamepadIconsControllerscontainer"
+      controllerSwitchPro   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   200
+         y   =   -51.9
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGamepadIconsSwitchprocontrollerlayout"
+      }
+      controllerSwitch   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   180
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGamepadIconsSwitchcontrollerlayout"
+      }
+      controllerXboxX   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   180
+         y   =   -60
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGamepadIconsXboxxcontrollerlayout"
+      }
+      controllerXbox   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   180
+         y   =   -60
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsXboxcontrollerlayout"
+      }
+      controllerPs4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   180
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGamepadIconsPs4controllerlayout"
+      }
+      controllerPs5   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   180
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGamepadIconsPs5controllerlayout"
+      }
+      controllerStadia   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   180
+         y   =   -59.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGamepadIconsStadiacontrollerlayout"
+      }
+      __type   =   "UiContainer"
+   }
+   FanatecWheelThumbler   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "Fanatec_Wheel_Thumbler"
+      sslClass   =   "UiGamepadIconsFanatecwheelthumbler"
+      __type   =   "UiContainer"
+   }
+   Layoutlirselected   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "layoutLirSelected"
+      sslClass   =   "UiGamepadIconsLayoutlirselected"
+      __type   =   "UiContainer"
+   }
+   Layoutlirselectedframe   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "layoutLirSelectedFrame"
+      sslClass   =   "UiGamepadIconsLayoutlirselectedframe"
+      __type   =   "UiContainer"
+   }
+   Layoutlirselectedicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "layoutLirSelectedIcon"
+      sslClass   =   "UiGamepadIconsLayoutlirselectedicon"
+      __type   =   "UiContainer"
+   }
+   Layoutlirtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "layoutLirText"
+      sslClass   =   "UiGamepadIconsLayoutlirtext"
+      tf   =   {
+         x   =   9
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   McAttachPoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_attach_point"
+      sslClass   =   "UiGamepadIconsMcattachpoint"
+      __type   =   "UiContainer"
+   }
+   McNsproDpadDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_NSPro_DPad_Down"
+      sslClass   =   "UiGamepadIconsMcnsprodpaddown"
+      __type   =   "UiContainer"
+   }
+   McNsproDpadLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_NSPro_DPad_Left"
+      sslClass   =   "UiGamepadIconsMcnsprodpadleft"
+      __type   =   "UiContainer"
+   }
+   McNsproDpadLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_NSPro_DPad_Left_Right"
+      sslClass   =   "UiGamepadIconsMcnsprodpadleftright"
+      __type   =   "UiContainer"
+   }
+   McNsproDpadRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_NSPro_DPad_Right"
+      sslClass   =   "UiGamepadIconsMcnsprodpadright"
+      __type   =   "UiContainer"
+   }
+   McNsproDpadUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_NSPro_DPad_Up"
+      sslClass   =   "UiGamepadIconsMcnsprodpadup"
+      __type   =   "UiContainer"
+   }
+   McNsproDpadUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_NSPro_DPad_Up_Down"
+      sslClass   =   "UiGamepadIconsMcnsprodpadupdown"
+      __type   =   "UiContainer"
+   }
+   McPc   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC"
+      sslClass   =   "UiGamepadIconsMcpc"
+      textField   =   {
+         x   =   0
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcArrowDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_arrow_down"
+      sslClass   =   "UiGamepadIconsMcpcarrowdown"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcArrowLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_arrow_left"
+      sslClass   =   "UiGamepadIconsMcpcarrowleft"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcArrowLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_arrow_left_right"
+      sslClass   =   "UiGamepadIconsMcpcarrowleftright"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcArrowRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_arrow_right"
+      sslClass   =   "UiGamepadIconsMcpcarrowright"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcArrowUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_arrow_up"
+      sslClass   =   "UiGamepadIconsMcpcarrowup"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcArrowUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_arrow_up_down"
+      sslClass   =   "UiGamepadIconsMcpcarrowupdown"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcBg9slice   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_bg_9slice"
+      sslClass   =   "UiGamepadIconsMcpcbg9slice"
+      __type   =   "UiContainer"
+   }
+   McPcEmpty   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_Empty"
+      sslClass   =   "UiGamepadIconsMcpcempty"
+      pC_Attach   =   {
+         symbol   =   ""
+         x   =   16.5
+         y   =   16.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcattachpoint"
+      }
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcEmptyLong   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_Empty_long"
+      sslClass   =   "UiGamepadIconsMcpcemptylong"
+      pC_Attach   =   {
+         symbol   =   ""
+         x   =   16.5
+         y   =   16.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcEmptyMid   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_Empty_mid"
+      sslClass   =   "UiGamepadIconsMcpcemptymid"
+      pC_Attach   =   {
+         symbol   =   ""
+         x   =   16.5
+         y   =   16.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcEnter   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_enter"
+      sslClass   =   "UiGamepadIconsMcpcenter"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcLong   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_long"
+      sslClass   =   "UiGamepadIconsMcpclong"
+      textField   =   {
+         x   =   0
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   181.8665
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcMouseLeftClick   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_mouse_left_click"
+      sslClass   =   "UiGamepadIconsMcpcmouseleftclick"
+      __type   =   "UiContainer"
+   }
+   McPcMouseMiddleClick   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_mouse_middle_click"
+      sslClass   =   "UiGamepadIconsMcpcmousemiddleclick"
+      __type   =   "UiContainer"
+   }
+   McPcMouseMiddleClickDir   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_mouse_middle_click_dir"
+      sslClass   =   "UiGamepadIconsMcpcmousemiddleclickdir"
+      __type   =   "UiContainer"
+   }
+   McPcMouseRightClick   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_mouse_right_click"
+      sslClass   =   "UiGamepadIconsMcpcmouserightclick"
+      __type   =   "UiContainer"
+   }
+   McPcSpace   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_space"
+      sslClass   =   "UiGamepadIconsMcpcspace"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcSpaceLong   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_space_long"
+      sslClass   =   "UiGamepadIconsMcpcspacelong"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   221.2128
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcSpaceMid   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_space_mid"
+      sslClass   =   "UiGamepadIconsMcpcspacemid"
+      frame   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   160.6064
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcpcbg9slice"
+      }
+      __type   =   "UiContainer"
+   }
+   McPcTextfieldSmall   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PC_textfield_small"
+      sslClass   =   "UiGamepadIconsMcpctextfieldsmall"
+      __type   =   "UiContainer"
+   }
+   McPs4Circle   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Circle"
+      sslClass   =   "UiGamepadIconsMcps4circle"
+      __type   =   "UiContainer"
+   }
+   McPs4Cross   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Cross"
+      sslClass   =   "UiGamepadIconsMcps4cross"
+      __type   =   "UiContainer"
+   }
+   McPs4Dpad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_DPad"
+      sslClass   =   "UiGamepadIconsMcps4dpad"
+      __type   =   "UiContainer"
+   }
+   McPs4DpadDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_DPad_Down"
+      sslClass   =   "UiGamepadIconsMcps4dpaddown"
+      __type   =   "UiContainer"
+   }
+   McPs4DpadLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_DPad_Left"
+      sslClass   =   "UiGamepadIconsMcps4dpadleft"
+      __type   =   "UiContainer"
+   }
+   McPs4DpadLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_DPad_Left_Right"
+      sslClass   =   "UiGamepadIconsMcps4dpadleftright"
+      __type   =   "UiContainer"
+   }
+   McPs4DpadRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_DPad_Right"
+      sslClass   =   "UiGamepadIconsMcps4dpadright"
+      __type   =   "UiContainer"
+   }
+   McPs4DpadUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_DPad_Up"
+      sslClass   =   "UiGamepadIconsMcps4dpadup"
+      __type   =   "UiContainer"
+   }
+   McPs4DpadUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_DPad_Up_Down"
+      sslClass   =   "UiGamepadIconsMcps4dpadupdown"
+      __type   =   "UiContainer"
+   }
+   McPs4Empty   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Empty"
+      sslClass   =   "UiGamepadIconsMcps4empty"
+      pS4_Attach   =   {
+         symbol   =   ""
+         x   =   16.5
+         y   =   16.5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcattachpoint"
+      }
+      __type   =   "UiContainer"
+   }
+   McPs4L   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_L"
+      sslClass   =   "UiGamepadIconsMcps4l"
+      __type   =   "UiContainer"
+   }
+   McPs4L1   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_L1"
+      sslClass   =   "UiGamepadIconsMcps4l1"
+      __type   =   "UiContainer"
+   }
+   McPs4L2   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_L2"
+      sslClass   =   "UiGamepadIconsMcps4l2"
+      __type   =   "UiContainer"
+   }
+   McPs4L3   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_L3"
+      sslClass   =   "UiGamepadIconsMcps4l3"
+      __type   =   "UiContainer"
+   }
+   McPs4LsLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_LS_Left"
+      sslClass   =   "UiGamepadIconsMcps4lsleft"
+      __type   =   "UiContainer"
+   }
+   McPs4LsLeftright   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_LS_LeftRight"
+      sslClass   =   "UiGamepadIconsMcps4lsleftright"
+      __type   =   "UiContainer"
+   }
+   McPs4LsRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_LS_Right"
+      sslClass   =   "UiGamepadIconsMcps4lsright"
+      __type   =   "UiContainer"
+   }
+   McPs4LUdlr   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_L_Udlr"
+      sslClass   =   "UiGamepadIconsMcps4ludlr"
+      __type   =   "UiContainer"
+   }
+   McPs4Options   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Options"
+      sslClass   =   "UiGamepadIconsMcps4options"
+      __type   =   "UiContainer"
+   }
+   McPs4R   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_R"
+      sslClass   =   "UiGamepadIconsMcps4r"
+      __type   =   "UiContainer"
+   }
+   McPs4R1   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_R1"
+      sslClass   =   "UiGamepadIconsMcps4r1"
+      __type   =   "UiContainer"
+   }
+   McPs4R2   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_R2"
+      sslClass   =   "UiGamepadIconsMcps4r2"
+      __type   =   "UiContainer"
+   }
+   McPs4R3   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_R3"
+      sslClass   =   "UiGamepadIconsMcps4r3"
+      __type   =   "UiContainer"
+   }
+   McPs4RUdlr   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_R_Udlr"
+      sslClass   =   "UiGamepadIconsMcps4rudlr"
+      __type   =   "UiContainer"
+   }
+   McPs4Share   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Share"
+      sslClass   =   "UiGamepadIconsMcps4share"
+      __type   =   "UiContainer"
+   }
+   McPs4Square   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Square"
+      sslClass   =   "UiGamepadIconsMcps4square"
+      __type   =   "UiContainer"
+   }
+   McPs4Touchpad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Touchpad"
+      sslClass   =   "UiGamepadIconsMcps4touchpad"
+      __type   =   "UiContainer"
+   }
+   McPs4Triangle   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS4_Triangle"
+      sslClass   =   "UiGamepadIconsMcps4triangle"
+      __type   =   "UiContainer"
+   }
+   McPs5Options   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS5_Options"
+      sslClass   =   "UiGamepadIconsMcps5options"
+      __type   =   "UiContainer"
+   }
+   McPs5Share   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS5_Share"
+      sslClass   =   "UiGamepadIconsMcps5share"
+      __type   =   "UiContainer"
+   }
+   McPs5Touchpad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS5_Touchpad"
+      sslClass   =   "UiGamepadIconsMcps5touchpad"
+      __type   =   "UiContainer"
+   }
+   McPs5TouchpadDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS5_Touchpad_Down"
+      sslClass   =   "UiGamepadIconsMcps5touchpaddown"
+      __type   =   "UiContainer"
+   }
+   McPs5TouchpadLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS5_Touchpad_Left"
+      sslClass   =   "UiGamepadIconsMcps5touchpadleft"
+      __type   =   "UiContainer"
+   }
+   McPs5TouchpadRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS5_Touchpad_Right"
+      sslClass   =   "UiGamepadIconsMcps5touchpadright"
+      __type   =   "UiContainer"
+   }
+   McPs5TouchpadUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_PS5_Touchpad_Up"
+      sslClass   =   "UiGamepadIconsMcps5touchpadup"
+      __type   =   "UiContainer"
+   }
+   McStadiaA   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_A"
+      sslClass   =   "UiGamepadIconsMcstadiaa"
+      __type   =   "UiContainer"
+   }
+   McStadiaAssistant   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_Assistant"
+      sslClass   =   "UiGamepadIconsMcstadiaassistant"
+      __type   =   "UiContainer"
+   }
+   McStadiaB   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_B"
+      sslClass   =   "UiGamepadIconsMcstadiab"
+      __type   =   "UiContainer"
+   }
+   McStadiaBurger   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_Burger"
+      sslClass   =   "UiGamepadIconsMcstadiaburger"
+      __type   =   "UiContainer"
+   }
+   McStadiaDots   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_Dots"
+      sslClass   =   "UiGamepadIconsMcstadiadots"
+      __type   =   "UiContainer"
+   }
+   McStadiaDpad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_DPad"
+      sslClass   =   "UiGamepadIconsMcstadiadpad"
+      __type   =   "UiContainer"
+   }
+   McStadiaDpadDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_DPad_Down"
+      sslClass   =   "UiGamepadIconsMcstadiadpaddown"
+      __type   =   "UiContainer"
+   }
+   McStadiaDpadLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_DPad_Left"
+      sslClass   =   "UiGamepadIconsMcstadiadpadleft"
+      __type   =   "UiContainer"
+   }
+   McStadiaDpadLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_DPad_Left_Right"
+      sslClass   =   "UiGamepadIconsMcstadiadpadleftright"
+      __type   =   "UiContainer"
+   }
+   McStadiaDpadRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_DPad_Right"
+      sslClass   =   "UiGamepadIconsMcstadiadpadright"
+      __type   =   "UiContainer"
+   }
+   McStadiaDpadUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_DPad_Up"
+      sslClass   =   "UiGamepadIconsMcstadiadpadup"
+      __type   =   "UiContainer"
+   }
+   McStadiaDpadUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_DPad_Up_Down"
+      sslClass   =   "UiGamepadIconsMcstadiadpadupdown"
+      __type   =   "UiContainer"
+   }
+   McStadiaL1   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_L1"
+      sslClass   =   "UiGamepadIconsMcstadial1"
+      __type   =   "UiContainer"
+   }
+   McStadiaL2   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_L2"
+      sslClass   =   "UiGamepadIconsMcstadial2"
+      __type   =   "UiContainer"
+   }
+   McStadiaLs   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_LS"
+      sslClass   =   "UiGamepadIconsMcstadials"
+      __type   =   "UiContainer"
+   }
+   McStadiaLsLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_LS_Left_Right"
+      sslClass   =   "UiGamepadIconsMcstadialsleftright"
+      __type   =   "UiContainer"
+   }
+   McStadiaLsPress   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_LS_Press"
+      sslClass   =   "UiGamepadIconsMcstadialspress"
+      __type   =   "UiContainer"
+   }
+   McStadiaLsUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_LS_Up_Down"
+      sslClass   =   "UiGamepadIconsMcstadialsupdown"
+      __type   =   "UiContainer"
+   }
+   McStadiaR1   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_R1"
+      sslClass   =   "UiGamepadIconsMcstadiar1"
+      __type   =   "UiContainer"
+   }
+   McStadiaR2   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_R2"
+      sslClass   =   "UiGamepadIconsMcstadiar2"
+      __type   =   "UiContainer"
+   }
+   McStadiaRs   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_RS"
+      sslClass   =   "UiGamepadIconsMcstadiars"
+      __type   =   "UiContainer"
+   }
+   McStadiaRsLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_RS_Left_Right"
+      sslClass   =   "UiGamepadIconsMcstadiarsleftright"
+      __type   =   "UiContainer"
+   }
+   McStadiaRsPress   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_RS_Press"
+      sslClass   =   "UiGamepadIconsMcstadiarspress"
+      __type   =   "UiContainer"
+   }
+   McStadiaRsUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_RS_Up_Down"
+      sslClass   =   "UiGamepadIconsMcstadiarsupdown"
+      __type   =   "UiContainer"
+   }
+   McStadiaShare   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_Share"
+      sslClass   =   "UiGamepadIconsMcstadiashare"
+      __type   =   "UiContainer"
+   }
+   McStadiaX   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_X"
+      sslClass   =   "UiGamepadIconsMcstadiax"
+      __type   =   "UiContainer"
+   }
+   McStadiaY   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Stadia_Y"
+      sslClass   =   "UiGamepadIconsMcstadiay"
+      __type   =   "UiContainer"
+   }
+   McSwitchA   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_A"
+      sslClass   =   "UiGamepadIconsMcswitcha"
+      __type   =   "UiContainer"
+   }
+   McSwitchB   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_B"
+      sslClass   =   "UiGamepadIconsMcswitchb"
+      __type   =   "UiContainer"
+   }
+   McSwitchDpadDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_DPad_Down"
+      sslClass   =   "UiGamepadIconsMcswitchdpaddown"
+      __type   =   "UiContainer"
+   }
+   McSwitchDpadLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_DPad_Left"
+      sslClass   =   "UiGamepadIconsMcswitchdpadleft"
+      __type   =   "UiContainer"
+   }
+   McSwitchDpadLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_DPad_Left_Right"
+      sslClass   =   "UiGamepadIconsMcswitchdpadleftright"
+      __type   =   "UiContainer"
+   }
+   McSwitchDpadRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_DPad_Right"
+      sslClass   =   "UiGamepadIconsMcswitchdpadright"
+      __type   =   "UiContainer"
+   }
+   McSwitchDpadUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_DPad_Up"
+      sslClass   =   "UiGamepadIconsMcswitchdpadup"
+      __type   =   "UiContainer"
+   }
+   McSwitchDpadUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_DPad_Up_Down"
+      sslClass   =   "UiGamepadIconsMcswitchdpadupdown"
+      __type   =   "UiContainer"
+   }
+   McSwitchL   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_L"
+      sslClass   =   "UiGamepadIconsMcswitchl"
+      __type   =   "UiContainer"
+   }
+   McSwitchLs   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_LS"
+      sslClass   =   "UiGamepadIconsMcswitchls"
+      __type   =   "UiContainer"
+   }
+   McSwitchLsLeftright   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_LS_LeftRight"
+      sslClass   =   "UiGamepadIconsMcswitchlsleftright"
+      __type   =   "UiContainer"
+   }
+   McSwitchLsPress   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_LS_Press"
+      sslClass   =   "UiGamepadIconsMcswitchlspress"
+      __type   =   "UiContainer"
+   }
+   McSwitchLsUpdown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_LS_UpDown"
+      sslClass   =   "UiGamepadIconsMcswitchlsupdown"
+      __type   =   "UiContainer"
+   }
+   McSwitchMinus   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_Minus"
+      sslClass   =   "UiGamepadIconsMcswitchminus"
+      __type   =   "UiContainer"
+   }
+   McSwitchPlus   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_Plus"
+      sslClass   =   "UiGamepadIconsMcswitchplus"
+      __type   =   "UiContainer"
+   }
+   McSwitchR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_R"
+      sslClass   =   "UiGamepadIconsMcswitchr"
+      __type   =   "UiContainer"
+   }
+   McSwitchRs   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_RS"
+      sslClass   =   "UiGamepadIconsMcswitchrs"
+      __type   =   "UiContainer"
+   }
+   McSwitchRsPress   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_RS_Press"
+      sslClass   =   "UiGamepadIconsMcswitchrspress"
+      __type   =   "UiContainer"
+   }
+   McSwitchX   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_X"
+      sslClass   =   "UiGamepadIconsMcswitchx"
+      __type   =   "UiContainer"
+   }
+   McSwitchY   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_Y"
+      sslClass   =   "UiGamepadIconsMcswitchy"
+      __type   =   "UiContainer"
+   }
+   McSwitchZl   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_ZL"
+      sslClass   =   "UiGamepadIconsMcswitchzl"
+      __type   =   "UiContainer"
+   }
+   McSwitchZr   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Switch_ZR"
+      sslClass   =   "UiGamepadIconsMcswitchzr"
+      __type   =   "UiContainer"
+   }
+   McTraktorStick   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick"
+      sslClass   =   "UiGamepadIconsMctraktorstick"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickD   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_D"
+      sslClass   =   "UiGamepadIconsMctraktorstickd"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickL   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_L"
+      sslClass   =   "UiGamepadIconsMctraktorstickl"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_Left_Right"
+      sslClass   =   "UiGamepadIconsMctraktorstickleftright"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickLR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_L_R"
+      sslClass   =   "UiGamepadIconsMctraktorsticklr"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickNeutral   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_Neutral"
+      sslClass   =   "UiGamepadIconsMctraktorstickneutral"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_R"
+      sslClass   =   "UiGamepadIconsMctraktorstickr"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickU   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_U"
+      sslClass   =   "UiGamepadIconsMctraktorsticku"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_Up_Down"
+      sslClass   =   "UiGamepadIconsMctraktorstickupdown"
+      __type   =   "UiContainer"
+   }
+   McTraktorStickUD   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Stick_U_D"
+      sslClass   =   "UiGamepadIconsMctraktorstickud"
+      __type   =   "UiContainer"
+   }
+   McTraktorWheel   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Wheel"
+      sslClass   =   "UiGamepadIconsMctraktorwheel"
+      __type   =   "UiContainer"
+   }
+   McTraktorWheelAlt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Wheel_Alt"
+      sslClass   =   "UiGamepadIconsMctraktorwheelalt"
+      __type   =   "UiContainer"
+   }
+   McTraktorWheelAlt2   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Wheel_Alt_2"
+      sslClass   =   "UiGamepadIconsMctraktorwheelalt2"
+      __type   =   "UiContainer"
+   }
+   McTraktorWheelUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Traktor_Wheel_Up_Down"
+      sslClass   =   "UiGamepadIconsMctraktorwheelupdown"
+      __type   =   "UiContainer"
+   }
+   McWheel   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel"
+      sslClass   =   "UiGamepadIconsMcwheel"
+      __type   =   "UiContainer"
+   }
+   McWheelDpad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Dpad"
+      sslClass   =   "UiGamepadIconsMcwheeldpad"
+      __type   =   "UiContainer"
+   }
+   McWheelDpadDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Dpad_Down"
+      sslClass   =   "UiGamepadIconsMcwheeldpaddown"
+      __type   =   "UiContainer"
+   }
+   McWheelDpadLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Dpad_Left"
+      sslClass   =   "UiGamepadIconsMcwheeldpadleft"
+      __type   =   "UiContainer"
+   }
+   McWheelDpadLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Dpad_Left_Right"
+      sslClass   =   "UiGamepadIconsMcwheeldpadleftright"
+      __type   =   "UiContainer"
+   }
+   McWheelDpadRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Dpad_Right"
+      sslClass   =   "UiGamepadIconsMcwheeldpadright"
+      __type   =   "UiContainer"
+   }
+   McWheelDpadUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Dpad_Up"
+      sslClass   =   "UiGamepadIconsMcwheeldpadup"
+      __type   =   "UiContainer"
+   }
+   McWheelDpadUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Dpad_Up_Down"
+      sslClass   =   "UiGamepadIconsMcwheeldpadupdown"
+      __type   =   "UiContainer"
+   }
+   McWheelEnter   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Enter"
+      sslClass   =   "UiGamepadIconsMcwheelenter"
+      __type   =   "UiContainer"
+   }
+   McWheelL   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_L"
+      sslClass   =   "UiGamepadIconsMcwheell"
+      __type   =   "UiContainer"
+   }
+   McWheelLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Left"
+      sslClass   =   "UiGamepadIconsMcwheelleft"
+      __type   =   "UiContainer"
+   }
+   McWheelLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Left_Right"
+      sslClass   =   "UiGamepadIconsMcwheelleftright"
+      __type   =   "UiContainer"
+   }
+   McWheelLsb   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_LSB"
+      sslClass   =   "UiGamepadIconsMcwheellsb"
+      __type   =   "UiContainer"
+   }
+   McWheelLDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_L_Down"
+      sslClass   =   "UiGamepadIconsMcwheelldown"
+      __type   =   "UiContainer"
+   }
+   McWheelLDownAlt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_L_Down_Alt"
+      sslClass   =   "UiGamepadIconsMcwheelldownalt"
+      __type   =   "UiContainer"
+   }
+   McWheelLUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_L_Up"
+      sslClass   =   "UiGamepadIconsMcwheellup"
+      __type   =   "UiContainer"
+   }
+   McWheelLUpAlt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_L_Up_Alt"
+      sslClass   =   "UiGamepadIconsMcwheellupalt"
+      __type   =   "UiContainer"
+   }
+   McWheelOptions   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Options"
+      sslClass   =   "UiGamepadIconsMcwheeloptions"
+      __type   =   "UiContainer"
+   }
+   McWheelPedal   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal"
+      sslClass   =   "UiGamepadIconsMcwheelpedal"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalFat   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Fat"
+      sslClass   =   "UiGamepadIconsMcwheelpedalfat"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalL   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_L"
+      sslClass   =   "UiGamepadIconsMcwheelpedall"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_R"
+      sslClass   =   "UiGamepadIconsMcwheelpedalr"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalThin   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Thin"
+      sslClass   =   "UiGamepadIconsMcwheelpedalthin"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTriC   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Tri_C"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltric"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTriCenter   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Tri_Center"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltricenter"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTriL   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Tri_L"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltril"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTriLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Tri_Left"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltrileft"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTriR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Tri_R"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltrir"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTriRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_Tri_Right"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltriright"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTC   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_T_C"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltc"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTL   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_T_L"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltl"
+      __type   =   "UiContainer"
+   }
+   McWheelPedalTR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Pedal_T_R"
+      sslClass   =   "UiGamepadIconsMcwheelpedaltr"
+      __type   =   "UiContainer"
+   }
+   McWheelR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_R"
+      sslClass   =   "UiGamepadIconsMcwheelr"
+      __type   =   "UiContainer"
+   }
+   McWheelRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Right"
+      sslClass   =   "UiGamepadIconsMcwheelright"
+      __type   =   "UiContainer"
+   }
+   McWheelRsb   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_RSB"
+      sslClass   =   "UiGamepadIconsMcwheelrsb"
+      __type   =   "UiContainer"
+   }
+   McWheelRDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_R_Down"
+      sslClass   =   "UiGamepadIconsMcwheelrdown"
+      __type   =   "UiContainer"
+   }
+   McWheelRDownAlt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_R_Down_Alt"
+      sslClass   =   "UiGamepadIconsMcwheelrdownalt"
+      __type   =   "UiContainer"
+   }
+   McWheelRUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_R_Up"
+      sslClass   =   "UiGamepadIconsMcwheelrup"
+      __type   =   "UiContainer"
+   }
+   McWheelRUpAlt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_R_Up_Alt"
+      sslClass   =   "UiGamepadIconsMcwheelrupalt"
+      __type   =   "UiContainer"
+   }
+   McWheelSe   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_SE"
+      sslClass   =   "UiGamepadIconsMcwheelse"
+      __type   =   "UiContainer"
+   }
+   McWheelShare   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Share"
+      sslClass   =   "UiGamepadIconsMcwheelshare"
+      __type   =   "UiContainer"
+   }
+   McWheelSt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_ST"
+      sslClass   =   "UiGamepadIconsMcwheelst"
+      __type   =   "UiContainer"
+   }
+   McWheelStick   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick"
+      sslClass   =   "UiGamepadIconsMcwheelstick"
+      __type   =   "UiContainer"
+   }
+   McWheelStickD   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_D"
+      sslClass   =   "UiGamepadIconsMcwheelstickd"
+      __type   =   "UiContainer"
+   }
+   McWheelStickL   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_L"
+      sslClass   =   "UiGamepadIconsMcwheelstickl"
+      __type   =   "UiContainer"
+   }
+   McWheelStickLr   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_LR"
+      sslClass   =   "UiGamepadIconsMcwheelsticklr"
+      __type   =   "UiContainer"
+   }
+   McWheelStickNeutral   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_Neutral"
+      sslClass   =   "UiGamepadIconsMcwheelstickneutral"
+      __type   =   "UiContainer"
+   }
+   McWheelStickR   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_R"
+      sslClass   =   "UiGamepadIconsMcwheelstickr"
+      __type   =   "UiContainer"
+   }
+   McWheelStickU   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_U"
+      sslClass   =   "UiGamepadIconsMcwheelsticku"
+      __type   =   "UiContainer"
+   }
+   McWheelStickUd   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_UD"
+      sslClass   =   "UiGamepadIconsMcwheelstickud"
+      __type   =   "UiContainer"
+   }
+   McWheelStickUdlr   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_Wheel_Stick_UDLR"
+      sslClass   =   "UiGamepadIconsMcwheelstickudlr"
+      __type   =   "UiContainer"
+   }
+   McXb1A   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_A"
+      sslClass   =   "UiGamepadIconsMcxb1a"
+      __type   =   "UiContainer"
+   }
+   McXb1B   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_B"
+      sslClass   =   "UiGamepadIconsMcxb1b"
+      __type   =   "UiContainer"
+   }
+   McXb1Dpad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_DPad"
+      sslClass   =   "UiGamepadIconsMcxb1dpad"
+      __type   =   "UiContainer"
+   }
+   McXb1DpadDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_DPad_Down"
+      sslClass   =   "UiGamepadIconsMcxb1dpaddown"
+      __type   =   "UiContainer"
+   }
+   McXb1DpadLeft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_DPad_Left"
+      sslClass   =   "UiGamepadIconsMcxb1dpadleft"
+      __type   =   "UiContainer"
+   }
+   McXb1DpadLeftRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_DPad_Left_Right"
+      sslClass   =   "UiGamepadIconsMcxb1dpadleftright"
+      __type   =   "UiContainer"
+   }
+   McXb1DpadRight   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_DPad_Right"
+      sslClass   =   "UiGamepadIconsMcxb1dpadright"
+      __type   =   "UiContainer"
+   }
+   McXb1DpadUp   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_DPad_Up"
+      sslClass   =   "UiGamepadIconsMcxb1dpadup"
+      __type   =   "UiContainer"
+   }
+   McXb1DpadUpDown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_DPad_Up_Down"
+      sslClass   =   "UiGamepadIconsMcxb1dpadupdown"
+      __type   =   "UiContainer"
+   }
+   McXb1L   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_L"
+      sslClass   =   "UiGamepadIconsMcxb1l"
+      __type   =   "UiContainer"
+   }
+   McXb1Lb   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_LB"
+      sslClass   =   "UiGamepadIconsMcxb1lb"
+      __type   =   "UiContainer"
+   }
+   McXb1Ls   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_LS"
+      sslClass   =   "UiGamepadIconsMcxb1ls"
+      __type   =   "UiContainer"
+   }
+   McXb1Lt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_LT"
+      sslClass   =   "UiGamepadIconsMcxb1lt"
+      __type   =   "UiContainer"
+   }
+   McXb1Menu   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_Menu"
+      sslClass   =   "UiGamepadIconsMcxb1menu"
+      __type   =   "UiContainer"
+   }
+   McXb1R   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_R"
+      sslClass   =   "UiGamepadIconsMcxb1r"
+      __type   =   "UiContainer"
+   }
+   McXb1Rb   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_RB"
+      sslClass   =   "UiGamepadIconsMcxb1rb"
+      __type   =   "UiContainer"
+   }
+   McXb1Rs   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_RS"
+      sslClass   =   "UiGamepadIconsMcxb1rs"
+      __type   =   "UiContainer"
+   }
+   McXb1Rt   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_RT"
+      sslClass   =   "UiGamepadIconsMcxb1rt"
+      __type   =   "UiContainer"
+   }
+   McXb1View   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_View"
+      sslClass   =   "UiGamepadIconsMcxb1view"
+      __type   =   "UiContainer"
+   }
+   McXb1X   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_X"
+      sslClass   =   "UiGamepadIconsMcxb1x"
+      __type   =   "UiContainer"
+   }
+   McXb1Y   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "MC_XB1_Y"
+      sslClass   =   "UiGamepadIconsMcxb1y"
+      __type   =   "UiContainer"
+   }
+   Ps4controllerlayout   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "ps4ControllerLayout"
+      sslClass   =   "UiGamepadIconsPs4controllerlayout"
+      btnComboWide   =   {
+         symbol   =   ""
+         x   =   531
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextcmultiline"
+      }
+      lStick1Footnote   =   {
+         symbol   =   ""
+         x   =   326
+         y   =   531
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiMovieClip"
+      }
+      lStick2Footnote   =   {
+         symbol   =   ""
+         x   =   334
+         y   =   582
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcps4l3"
+      }
+      touchpadFootnote   =   {
+         symbol   =   ""
+         x   =   642
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      r2Footnote   =   {
+         symbol   =   ""
+         x   =   914
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      r1Footnote   =   {
+         symbol   =   ""
+         x   =   943
+         y   =   169
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      triangleFootnote   =   {
+         symbol   =   ""
+         x   =   932
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      circleFootnote   =   {
+         symbol   =   ""
+         x   =   981
+         y   =   291
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      crossFootnote   =   {
+         symbol   =   ""
+         x   =   934
+         y   =   336
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      squareFootnote   =   {
+         symbol   =   ""
+         x   =   871
+         y   =   323
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick0Footnote   =   {
+         symbol   =   ""
+         x   =   326
+         y   =   421
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadUpFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   248
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadLeftFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   295
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadDownFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   336
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadRightFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   306
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      l2Footnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      l1Footnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   170
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      shareFootnote   =   {
+         symbol   =   ""
+         x   =   596
+         y   =   82
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      optionFootnote   =   {
+         symbol   =   ""
+         x   =   848
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rStick0Footnote   =   {
+         symbol   =   ""
+         x   =   826
+         y   =   425
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btnCombo0   =   {
+         symbol   =   ""
+         x   =   535
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo1   =   {
+         symbol   =   ""
+         x   =   535
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo2   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo3   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      dpadUp   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   244
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadRight   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   370
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadLeft   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   286
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadDown   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   328
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      option   =   {
+         symbol   =   ""
+         x   =   865
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      share   =   {
+         symbol   =   ""
+         x   =   290
+         y   =   75
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      rStick2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   576
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextlmultiline"
+      }
+      rStick1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   534
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick0   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick1Footnote   =   {
+         symbol   =   ""
+         x   =   1103
+         y   =   538
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcps4r3"
+      }
+      lStick1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   534
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   576
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick0   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      triangle   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   244
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      square   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   371
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      cross   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   328
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      circle   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   285
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      l2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      l1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      touchpad   =   {
+         symbol   =   ""
+         x   =   337
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      __type   =   "UiContainer"
+   }
+   Ps4Gamepad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "ps4_gamepad"
+      sslClass   =   "UiGamepadIconsPs4gamepad"
+      __type   =   "UiContainer"
+   }
+   Ps5controllerlayout   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "ps5ControllerLayout"
+      sslClass   =   "UiGamepadIconsPs5controllerlayout"
+      btnComboWide   =   {
+         symbol   =   ""
+         x   =   431
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextcmultiline"
+      }
+      lStick1Footnote   =   {
+         symbol   =   ""
+         x   =   326
+         y   =   531
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiMovieClip"
+      }
+      lStick2Footnote   =   {
+         symbol   =   ""
+         x   =   334
+         y   =   582
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcps4l3"
+      }
+      touchpadFootnote   =   {
+         symbol   =   ""
+         x   =   642
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      r2Footnote   =   {
+         symbol   =   ""
+         x   =   914
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      r1Footnote   =   {
+         symbol   =   ""
+         x   =   943
+         y   =   169
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      triangleFootnote   =   {
+         symbol   =   ""
+         x   =   932
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      circleFootnote   =   {
+         symbol   =   ""
+         x   =   981
+         y   =   291
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      crossFootnote   =   {
+         symbol   =   ""
+         x   =   934
+         y   =   336
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      squareFootnote   =   {
+         symbol   =   ""
+         x   =   871
+         y   =   323
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick0Footnote   =   {
+         symbol   =   ""
+         x   =   326
+         y   =   421
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadUpFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   248
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadLeftFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   295
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadDownFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   336
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadRightFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   306
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      l2Footnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      l1Footnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   170
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      shareFootnote   =   {
+         symbol   =   ""
+         x   =   575
+         y   =   82
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      optionFootnote   =   {
+         symbol   =   ""
+         x   =   862
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rStick0Footnote   =   {
+         symbol   =   ""
+         x   =   826
+         y   =   425
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btnCombo0   =   {
+         symbol   =   ""
+         x   =   535
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo1   =   {
+         symbol   =   ""
+         x   =   535
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo2   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo3   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      dpadUp   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   244
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadRight   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   370
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadLeft   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   286
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadDown   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   328
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      option   =   {
+         symbol   =   ""
+         x   =   882
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      share   =   {
+         symbol   =   ""
+         x   =   265
+         y   =   78
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      rStick2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   576
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextlmultiline"
+      }
+      rStick1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   534
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick0   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick1Footnote   =   {
+         symbol   =   ""
+         x   =   1103
+         y   =   538
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcps4r3"
+      }
+      lStick1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   534
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   576
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick0   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      triangle   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   244
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      square   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   371
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      cross   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   328
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      circle   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   285
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      l2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      l1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      touchpad   =   {
+         symbol   =   ""
+         x   =   337
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      __type   =   "UiContainer"
+   }
+   Ps5Gamepad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "ps5_gamepad"
+      sslClass   =   "UiGamepadIconsPs5gamepad"
+      __type   =   "UiContainer"
+   }
+   Stadiacontrollerlayout   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stadiaControllerLayout"
+      sslClass   =   "UiGamepadIconsStadiacontrollerlayout"
+      btnComboWide   =   {
+         symbol   =   ""
+         x   =   531
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextcmultiline"
+      }
+      lStick1Footnote   =   {
+         symbol   =   ""
+         x   =   326
+         y   =   531
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiMovieClip"
+      }
+      lStick2Footnote   =   {
+         symbol   =   ""
+         x   =   330
+         y   =   577
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcstadialspress"
+      }
+      assistantFootnote   =   {
+         symbol   =   ""
+         x   =   674
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      r2Footnote   =   {
+         symbol   =   ""
+         x   =   914
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      r1Footnote   =   {
+         symbol   =   ""
+         x   =   943
+         y   =   169
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      yFootnote   =   {
+         symbol   =   ""
+         x   =   932
+         y   =   219
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bFootnote   =   {
+         symbol   =   ""
+         x   =   981
+         y   =   260
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      aFootnote   =   {
+         symbol   =   ""
+         x   =   934
+         y   =   305
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      xFootnote   =   {
+         symbol   =   ""
+         x   =   871
+         y   =   292
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick0Footnote   =   {
+         symbol   =   ""
+         x   =   326
+         y   =   421
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadUpFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   233
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadLeftFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   280
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadDownFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   321
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadRightFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   291
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      l2Footnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      l1Footnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   170
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      burgerFootnote   =   {
+         symbol   =   ""
+         x   =   843
+         y   =   82
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dotsFootnote   =   {
+         symbol   =   ""
+         x   =   596
+         y   =   82
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      shareFootnote   =   {
+         symbol   =   ""
+         x   =   765
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rStick0Footnote   =   {
+         symbol   =   ""
+         x   =   826
+         y   =   425
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btnCombo0   =   {
+         symbol   =   ""
+         x   =   535
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo1   =   {
+         symbol   =   ""
+         x   =   535
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo2   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo3   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      dpadUp   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   229
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadRight   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   355
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadLeft   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   271
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadDown   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   313
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      burger   =   {
+         symbol   =   ""
+         x   =   869.4
+         y   =   75
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      share   =   {
+         symbol   =   ""
+         x   =   788.75
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      dots   =   {
+         symbol   =   ""
+         x   =   285.5
+         y   =   75
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      rStick2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   576
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextlmultiline"
+      }
+      rStick1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   534
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick0   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick1Footnote   =   {
+         symbol   =   ""
+         x   =   1098
+         y   =   533
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcstadiarspress"
+      }
+      lStick1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   534
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   576
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick0   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      ybutton   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   213
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      xbutton   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   340
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      abutton   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   297
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      bbutton   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   254
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      l2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      l1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      assistant   =   {
+         symbol   =   ""
+         x   =   369
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      __type   =   "UiContainer"
+   }
+   StadiaGamepad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stadia_gamepad"
+      sslClass   =   "UiGamepadIconsStadiagamepad"
+      __type   =   "UiContainer"
+   }
+   Sticklleft   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stickLLeft"
+      sslClass   =   "UiGamepadIconsSticklleft"
+      __type   =   "UiContainer"
+   }
+   Sticklleftright   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stickLLeftRight"
+      sslClass   =   "UiGamepadIconsSticklleftright"
+      __type   =   "UiContainer"
+   }
+   Stickludlr   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stickLUdlr"
+      sslClass   =   "UiGamepadIconsStickludlr"
+      __type   =   "UiContainer"
+   }
+   Sticklupdown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stickLUpDown"
+      sslClass   =   "UiGamepadIconsSticklupdown"
+      __type   =   "UiContainer"
+   }
+   Stickrleftright   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stickRLeftRight"
+      sslClass   =   "UiGamepadIconsStickrleftright"
+      __type   =   "UiContainer"
+   }
+   Stickrudlr   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stickRUdlr"
+      sslClass   =   "UiGamepadIconsStickrudlr"
+      __type   =   "UiContainer"
+   }
+   Stickrupdown   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "stickRUpDown"
+      sslClass   =   "UiGamepadIconsStickrupdown"
+      __type   =   "UiContainer"
+   }
+   Sticktright   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "sticktRight"
+      sslClass   =   "UiGamepadIconsSticktright"
+      __type   =   "UiContainer"
+   }
+   Switchcontrollerlayout   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "switchControllerLayout"
+      sslClass   =   "UiGamepadIconsSwitchcontrollerlayout"
+      btnComboWide   =   {
+         symbol   =   ""
+         x   =   431
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextcmultiline"
+      }
+      zlTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   150
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick0Footnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   150
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick1Footnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   195
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcswitchlsupdown"
+      }
+      lStick2Footnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcswitchlspress"
+      }
+      lFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      zrTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      minusFootnote   =   {
+         symbol   =   ""
+         x   =   595
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      yBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   293
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      bBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   253
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      aBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   213
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      xBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   173
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      xBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   173
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      aBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   213
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   253
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      yBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   293
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadUp   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   304
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadLeft   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   344
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadDown   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   384
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadRight   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   424
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadUpFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   304
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadDownFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   384
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadLeftFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   344
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadRightFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   424
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      plusFootnote   =   {
+         symbol   =   ""
+         x   =   792
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btnCombo0   =   {
+         symbol   =   ""
+         x   =   517
+         y   =   611
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo1   =   {
+         symbol   =   ""
+         x   =   517
+         y   =   653
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo2   =   {
+         symbol   =   ""
+         x   =   765
+         y   =   611
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo3   =   {
+         symbol   =   ""
+         x   =   765
+         y   =   653
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      plus   =   {
+         symbol   =   ""
+         x   =   833
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      minus   =   {
+         symbol   =   ""
+         x   =   288
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      zr   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick1Footnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   450
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcswitchrspress"
+      }
+      rStick0Footnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   410
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rStick2   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   490
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextlmultiline"
+      }
+      rStick1   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   450
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick0   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   410
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      zl   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      l   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      __type   =   "UiContainer"
+   }
+   Switchprocontrollerlayout   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "switchProControllerLayout"
+      sslClass   =   "UiGamepadIconsSwitchprocontrollerlayout"
+      btnComboWide   =   {
+         symbol   =   ""
+         x   =   431
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextcmultiline"
+      }
+      zlTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   150
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick1   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick0Footnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   150
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick1Footnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   195
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcswitchlsupdown"
+      }
+      lStick2Footnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   250
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcswitchlspress"
+      }
+      lFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      zrTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      minusFootnote   =   {
+         symbol   =   ""
+         x   =   625
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      yBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   293
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      bBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   253
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      aBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   213
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      xBtn   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   173
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      xBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   173
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      aBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   213
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   253
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      yBtnFootnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   293
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadUp   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   304
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadLeft   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   344
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadDown   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   384
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadRight   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   424
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadUpFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   304
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadDownFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   384
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadLeftFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   344
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadRightFootnote   =   {
+         symbol   =   ""
+         x   =   315
+         y   =   424
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      plusFootnote   =   {
+         symbol   =   ""
+         x   =   769
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btnCombo0   =   {
+         symbol   =   ""
+         x   =   517
+         y   =   611
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo1   =   {
+         symbol   =   ""
+         x   =   517
+         y   =   653
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo2   =   {
+         symbol   =   ""
+         x   =   765
+         y   =   611
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo3   =   {
+         symbol   =   ""
+         x   =   765
+         y   =   653
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      plus   =   {
+         symbol   =   ""
+         x   =   810
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      minus   =   {
+         symbol   =   ""
+         x   =   318
+         y   =   19
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      zr   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick1Footnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   450
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsMcswitchrspress"
+      }
+      rStick0Footnote   =   {
+         symbol   =   ""
+         x   =   1075
+         y   =   410
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rStick2   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   490
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextlmultiline"
+      }
+      rStick1   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   450
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick0   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   410
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      r   =   {
+         symbol   =   ""
+         x   =   1117
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      zl   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      l   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   90
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      __type   =   "UiContainer"
+   }
+   SwitchproGamepad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "switchpro_gamepad"
+      sslClass   =   "UiGamepadIconsSwitchprogamepad"
+      __type   =   "UiContainer"
+   }
+   SwitchGamepad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "switch_gamepad"
+      sslClass   =   "UiGamepadIconsSwitchgamepad"
+      __type   =   "UiContainer"
+   }
+   Xboxcontrollerlayout   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "xBoxControllerLayout"
+      sslClass   =   "UiGamepadIconsXboxcontrollerlayout"
+      btnComboWide   =   {
+         symbol   =   ""
+         x   =   431
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextcmultiline"
+      }
+      lStick1Footnote   =   {
+         symbol   =   ""
+         x   =   327
+         y   =   262
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsSticklupdown"
+      }
+      lStick2Footnote   =   {
+         symbol   =   ""
+         x   =   336
+         y   =   313
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcxb1ls"
+      }
+      rStick1Footnote   =   {
+         symbol   =   ""
+         x   =   1100
+         y   =   475
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcxb1rs"
+      }
+      backFootnote   =   {
+         symbol   =   ""
+         x   =   665
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   923
+         y   =   127
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rbFootnote   =   {
+         symbol   =   ""
+         x   =   923
+         y   =   167
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      aBtnFootnote   =   {
+         symbol   =   ""
+         x   =   930
+         y   =   335.65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rStick0Footnote   =   {
+         symbol   =   ""
+         x   =   806
+         y   =   436
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadUpFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   372
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick0Footnote   =   {
+         symbol   =   ""
+         x   =   328
+         y   =   222
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lbFootnote   =   {
+         symbol   =   ""
+         x   =   336
+         y   =   167
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   336
+         y   =   127
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      xBtnFootnote   =   {
+         symbol   =   ""
+         x   =   871
+         y   =   330
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadDownFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   429
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadLeftFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   408
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadRightFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   409
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      startFootnote   =   {
+         symbol   =   ""
+         x   =   770
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      yBtnFootnote   =   {
+         symbol   =   ""
+         x   =   932
+         y   =   248
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bBtnFootnote   =   {
+         symbol   =   ""
+         x   =   975
+         y   =   292
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btnCombo0   =   {
+         symbol   =   ""
+         x   =   537
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo1   =   {
+         symbol   =   ""
+         x   =   537
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo2   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo3   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      dpadUp   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   366
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadRight   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   499
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadLeft   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   411
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadDown   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   455
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      start   =   {
+         symbol   =   ""
+         x   =   801
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      back   =   {
+         symbol   =   ""
+         x   =   358
+         y   =   29
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      aBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   327
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      bBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   285
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      xBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   369
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      yBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   242
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rTrigger   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rb   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      lTrigger   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lb   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      rStick2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   512
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextlmultiline"
+      }
+      rStick1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   470
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick0   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   428.2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      lStick2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   306
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   265.65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick0   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   224.15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      __type   =   "UiContainer"
+   }
+   Xboxxcontrollerlayout   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "xBoxXControllerLayout"
+      sslClass   =   "UiGamepadIconsXboxxcontrollerlayout"
+      btnComboWide   =   {
+         symbol   =   ""
+         x   =   431
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextcmultiline"
+      }
+      lStick1Footnote   =   {
+         symbol   =   ""
+         x   =   327
+         y   =   262
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsSticklupdown"
+      }
+      lStick2Footnote   =   {
+         symbol   =   ""
+         x   =   336
+         y   =   313
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcxb1ls"
+      }
+      rStick1Footnote   =   {
+         symbol   =   ""
+         x   =   1100
+         y   =   475
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiGamepadIconsMcxb1rs"
+      }
+      backFootnote   =   {
+         symbol   =   ""
+         x   =   665
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   923
+         y   =   127
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rbFootnote   =   {
+         symbol   =   ""
+         x   =   923
+         y   =   167
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      aBtnFootnote   =   {
+         symbol   =   ""
+         x   =   930
+         y   =   335.65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      rStick0Footnote   =   {
+         symbol   =   ""
+         x   =   806
+         y   =   436
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadUpFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   372
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lStick0Footnote   =   {
+         symbol   =   ""
+         x   =   328
+         y   =   222
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lbFootnote   =   {
+         symbol   =   ""
+         x   =   336
+         y   =   167
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      lTriggerFootnote   =   {
+         symbol   =   ""
+         x   =   336
+         y   =   127
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      xBtnFootnote   =   {
+         symbol   =   ""
+         x   =   871
+         y   =   330
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadDownFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   429
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadLeftFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   408
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      dpadRightFootnote   =   {
+         symbol   =   ""
+         x   =   335
+         y   =   409
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      startFootnote   =   {
+         symbol   =   ""
+         x   =   770
+         y   =   35
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      yBtnFootnote   =   {
+         symbol   =   ""
+         x   =   932
+         y   =   248
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bBtnFootnote   =   {
+         symbol   =   ""
+         x   =   975
+         y   =   292
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      btnCombo0   =   {
+         symbol   =   ""
+         x   =   537
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo1   =   {
+         symbol   =   ""
+         x   =   537
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo2   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   620
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      btnCombo3   =   {
+         symbol   =   ""
+         x   =   785
+         y   =   662
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      dpadUp   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   366
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadRight   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   499
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadLeft   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   411
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      dpadDown   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   455
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      start   =   {
+         symbol   =   ""
+         x   =   801
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      back   =   {
+         symbol   =   ""
+         x   =   358
+         y   =   29
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      aBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   327
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      bBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   285
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      xBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   369
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      yBtn   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   242
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rTrigger   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rb   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      lTrigger   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   119
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lb   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   162
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      rStick2   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   512
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextlmultiline"
+      }
+      rStick1   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   470
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      rStick0   =   {
+         symbol   =   ""
+         x   =   1137
+         y   =   428.2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextl"
+      }
+      lStick2   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   306
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick1   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   265.65
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      lStick0   =   {
+         symbol   =   ""
+         x   =   20
+         y   =   224.15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGamepadIconsActiontextr"
+      }
+      __type   =   "UiContainer"
+   }
+   XboxxGamepad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "xboxx_gamepad"
+      sslClass   =   "UiGamepadIconsXboxxgamepad"
+      __type   =   "UiContainer"
+   }
+   XboxGamepad   =   {
+      sslModule   =   "ui.autogen_libs.ui_gamepad_icons"
+      symbol   =   "xbox_gamepad"
+      sslClass   =   "UiGamepadIconsXboxgamepad"
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

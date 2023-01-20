@@ -1,0 +1,1225 @@
+autotestFlow   =   {
+   nodes   =   {
+      OnAutotestStart   =   {
+         viewData   =   {
+            x   =   1179
+            y   =   3640
+         }
+         OnStart   =   [
+            "SetBPBool/Set"
+         ]
+         __type   =   "BlueprintNodeAutotestStart"
+      }
+      BlueprintLibraryFunction_1   =   {
+         captionVar   =   "CheckAllTrucks"
+         viewData   =   {
+            x   =   2716
+            y   =   4037
+         }
+         logic   =   {
+            nodes   =   {
+               GarageSlotMenuGoOut   =   {
+                  viewData   =   {
+                     x   =   2996.404
+                     y   =   4277.226
+                  }
+                  OnSuccess   =   [
+                     "Delay/Start"
+                  ]
+                  delayBeforeSuccess   =   100
+                  __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoOut"
+               }
+               InGameGoGarage   =   {
+                  viewData   =   {
+                     x   =   3953.596
+                     y   =   4811.475
+                  }
+                  OnSuccess   =   [
+                     "Pipe/Input"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskIngameGoGarage"
+               }
+               Pipe   =   {
+                  viewData   =   {
+                     x   =   4303.596
+                     y   =   4811.475
+                  }
+                  Output   =   [
+                     "../../../ForEachStringCOROUTINE_1/ContinueIterate"
+                  ]
+                  __type   =   "BlueprintLibraryPipe"
+               }
+               Delay   =   {
+                  viewData   =   {
+                     x   =   3351.199
+                     y   =   4288.013
+                  }
+                  duration   =   {
+                     def   =   0.1
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "BlueprintLibraryFunction_1/logic/nodes/CurrentTruckTeleport/Teleport"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               BlueprintLibraryFunction_1   =   {
+                  captionVar   =   "TeleportTruckFromGarageEnter"
+                  viewData   =   {
+                     x   =   3553.596
+                     y   =   4289.212
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        CurrentTruckTeleport   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4000
+                           }
+                           OnExit   =   [
+                              "../../../Delay_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeCurrentTruckTeleport"
+                        }
+                        CurrentTruckGetTransform   =   {
+                           viewData   =   {
+                              x   =   2400
+                              y   =   4050
+                           }
+                           GetTransform   =   [
+                              "Transform3dSetPosition/transform3d/cb"
+                           ]
+                           __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                        }
+                        Vector3dScale   =   {
+                           viewData   =   {
+                              x   =   2250
+                              y   =   4200
+                           }
+                           scale   =   {
+                              def   =   20
+                              __type   =   "FloatRefParam"
+                           }
+                           Vector3d   =   [
+                              "Vector3dAdd/bVector3d/cb"
+                           ]
+                           __type   =   "BlueprintLibraryVector3dscale"
+                        }
+                        CurrentTruckGetTransform_1   =   {
+                           viewData   =   {
+                              x   =   1690.856
+                              y   =   4150
+                           }
+                           GetTransform   =   [
+                              "BreakTransform3d/transform3d/cb"
+                           ]
+                           __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                        }
+                        BreakTransform3d   =   {
+                           viewData   =   {
+                              x   =   1950
+                              y   =   4150
+                           }
+                           transform3d   =   {
+                              __type   =   "Transform3dRefParam"
+                           }
+                           GetPosition   =   [
+                              "Vector3dAdd/aVector3d/cb"
+                           ]
+                           GetRight   =   [
+                              "Vector3dScale/vector/cb"
+                           ]
+                           __type   =   "BlueprintGeomLibraryBreaktransform3d"
+                        }
+                        Transform3dSetPosition   =   {
+                           viewData   =   {
+                              x   =   2700
+                              y   =   4050
+                           }
+                           transform3d   =   {
+                              __type   =   "Transform3dRefParam"
+                           }
+                           GetResult   =   [
+                              "CurrentTruckTeleport/transfrom3dRef/cb"
+                           ]
+                           vec   =   {
+                              def   =   {
+                                 __type   =   "Vector3d"
+                              }
+                              __type   =   "Vector3dRefParam"
+                           }
+                           __type   =   "BlueprintNodeTransform3dSetPosition"
+                        }
+                        Vector3dAdd   =   {
+                           viewData   =   {
+                              x   =   2450
+                              y   =   4150
+                           }
+                           aVector3d   =   {
+                              def   =   {
+                                 __type   =   "Vector3d"
+                              }
+                              __type   =   "Vector3dRefParam"
+                           }
+                           bVector3d   =   {
+                              def   =   {
+                                 __type   =   "Vector3d"
+                              }
+                              __type   =   "Vector3dRefParam"
+                           }
+                           Vector3d   =   [
+                              "Transform3dSetPosition/vec/cb"
+                           ]
+                           __type   =   "BlueprintVector3dLibraryVector3dadd"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/CurrentTruckTeleport;Teleport",
+                     "logic/nodes/CurrentTruckTeleport;OnExit",
+                     "logic/nodes/Vector3dScale;scale;Destination;scale"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               Delay_1   =   {
+                  viewData   =   {
+                     x   =   3857.192
+                     y   =   4300
+                  }
+                  duration   =   {
+                     def   =   0.1
+                     __type   =   "FloatRefParam"
+                  }
+                  OnFinish   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                  ]
+                  __type   =   "BlueprintTimeLibraryDelay"
+               }
+               BlueprintLibraryFunction_1_1   =   {
+                  captionVar   =   "TeleportTruckFromGarageEnter"
+                  viewData   =   {
+                     x   =   3653.596
+                     y   =   4811.475
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        CurrentTruckTeleport   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4000
+                           }
+                           OnExit   =   [
+                              "../../../InGameGoGarage/Start"
+                           ]
+                           __type   =   "BlueprintNodeCurrentTruckTeleport"
+                        }
+                        CurrentTruckGetTransform   =   {
+                           viewData   =   {
+                              x   =   2400
+                              y   =   4050
+                           }
+                           GetTransform   =   [
+                              "Transform3dSetPosition/transform3d/cb"
+                           ]
+                           __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                        }
+                        Vector3dScale   =   {
+                           viewData   =   {
+                              x   =   2250
+                              y   =   4200
+                           }
+                           scale   =   {
+                              def   =   -20
+                              __type   =   "FloatRefParam"
+                           }
+                           Vector3d   =   [
+                              "Vector3dAdd/bVector3d/cb"
+                           ]
+                           __type   =   "BlueprintLibraryVector3dscale"
+                        }
+                        CurrentTruckGetTransform_1   =   {
+                           viewData   =   {
+                              x   =   1690.856
+                              y   =   4150
+                           }
+                           GetTransform   =   [
+                              "BreakTransform3d/transform3d/cb"
+                           ]
+                           __type   =   "BlueprintNodeCurrentTruckGetTransform"
+                        }
+                        BreakTransform3d   =   {
+                           viewData   =   {
+                              x   =   1950
+                              y   =   4150
+                           }
+                           transform3d   =   {
+                              __type   =   "Transform3dRefParam"
+                           }
+                           GetPosition   =   [
+                              "Vector3dAdd/aVector3d/cb"
+                           ]
+                           GetRight   =   [
+                              "Vector3dScale/vector/cb"
+                           ]
+                           __type   =   "BlueprintGeomLibraryBreaktransform3d"
+                        }
+                        Transform3dSetPosition   =   {
+                           viewData   =   {
+                              x   =   2700
+                              y   =   4050
+                           }
+                           transform3d   =   {
+                              __type   =   "Transform3dRefParam"
+                           }
+                           GetResult   =   [
+                              "CurrentTruckTeleport/transfrom3dRef/cb"
+                           ]
+                           vec   =   {
+                              def   =   {
+                                 __type   =   "Vector3d"
+                              }
+                              __type   =   "Vector3dRefParam"
+                           }
+                           __type   =   "BlueprintNodeTransform3dSetPosition"
+                        }
+                        Vector3dAdd   =   {
+                           viewData   =   {
+                              x   =   2450
+                              y   =   4150
+                           }
+                           aVector3d   =   {
+                              def   =   {
+                                 __type   =   "Vector3d"
+                              }
+                              __type   =   "Vector3dRefParam"
+                           }
+                           bVector3d   =   {
+                              def   =   {
+                                 __type   =   "Vector3d"
+                              }
+                              __type   =   "Vector3dRefParam"
+                           }
+                           Vector3d   =   [
+                              "Transform3dSetPosition/vec/cb"
+                           ]
+                           __type   =   "BlueprintVector3dLibraryVector3dadd"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/CurrentTruckTeleport;Teleport",
+                     "logic/nodes/CurrentTruckTeleport;OnExit",
+                     "logic/nodes/Vector3dScale;scale;Destination;scale"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintLibraryFunction   =   {
+                  captionVar   =   "InstallAllEngines"
+                  viewData   =   {
+                     x   =   3250
+                     y   =   4450
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        ForEachStringCOROUTINE   =   {
+                           viewData   =   {
+                              x   =   3228.376
+                              y   =   4450
+                           }
+                           OnFinish   =   [
+                              "../../../BlueprintLibraryFunction_2/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                           ]
+                           OnIteration   =   [
+                              "InstallEngine/Start"
+                           ]
+                           GetString   =   [
+                              "InstallEngine/engineNameRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeForEachStringCoroutine"
+                        }
+                        GetAllTruckEnginesNames   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4550
+                           }
+                           GetTruckEngines   =   [
+                              "ForEachStringCOROUTINE/arrayString/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetAllTruckEngines"
+                        }
+                        GetCurrentTruck   =   {
+                           viewData   =   {
+                              x   =   2750
+                              y   =   4550
+                           }
+                           GetCurrentTruck   =   [
+                              "GetAllTruckEnginesNames/truckRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetCurrentTruck"
+                        }
+                        Delay_1_1   =   {
+                           viewData   =   {
+                              x   =   3600
+                              y   =   4750
+                           }
+                           duration   =   {
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "ForEachStringCOROUTINE/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        InstallEngine   =   {
+                           viewData   =   {
+                              x   =   3500.02
+                              y   =   4493.185
+                           }
+                           OnFinished   =   [
+                              "If/Input"
+                           ]
+                           ignoreTaskFail   =   True
+                           delayBeforeSuccess   =   0
+                           __type   =   "BlueprintNodeAutotestTaskInstallEngine"
+                        }
+                        TestTruckSerialization_1   =   {
+                           viewData   =   {
+                              x   =   4401.848
+                              y   =   4342.205
+                           }
+                           OnFinished   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeAutotestTaskTestTruckSerialization"
+                        }
+                        GetBPBool   =   {
+                           viewData   =   {
+                              x   =   3915.931
+                              y   =   4364.311
+                           }
+                           name   =   "truckSerialization"
+                           Bool   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   4186.589
+                              y   =   4343.77
+                           }
+                           OnTrue   =   [
+                              "TestTruckSerialization_1/Start"
+                           ]
+                           OnFalse   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                     "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                     "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                  ]
+               }
+               BlueprintLibraryFunction_2   =   {
+                  captionVar   =   "InstallAllGearboxes"
+                  viewData   =   {
+                     x   =   3500
+                     y   =   4500
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        ForEachStringCOROUTINE   =   {
+                           viewData   =   {
+                              x   =   3228.376
+                              y   =   4450
+                           }
+                           OnFinish   =   [
+                              "../../../BlueprintLibraryFunction_2_1/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                           ]
+                           OnIteration   =   [
+                              "InstallGearbox/Start"
+                           ]
+                           GetString   =   [
+                              "InstallGearbox/gearboxNameRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeForEachStringCoroutine"
+                        }
+                        GetCurrentTruck   =   {
+                           viewData   =   {
+                              x   =   2750
+                              y   =   4550
+                           }
+                           GetCurrentTruck   =   [
+                              "GetAllTruckGearboxesNames/truckRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetCurrentTruck"
+                        }
+                        Delay_1_1   =   {
+                           viewData   =   {
+                              x   =   3600
+                              y   =   4750
+                           }
+                           duration   =   {
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "ForEachStringCOROUTINE/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        GetAllTruckGearboxesNames   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4550
+                           }
+                           GetTruckGearboxes   =   [
+                              "ForEachStringCOROUTINE/arrayString/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetAllTruckGearboxes"
+                        }
+                        InstallGearbox   =   {
+                           viewData   =   {
+                              x   =   3500
+                              y   =   4500
+                           }
+                           OnFinished   =   [
+                              "If/Input"
+                           ]
+                           ignoreTaskFail   =   True
+                           delayBeforeSuccess   =   0
+                           __type   =   "BlueprintNodeAutotestTaskInstallGearbox"
+                        }
+                        TestTruckSerialization_1   =   {
+                           viewData   =   {
+                              x   =   4369.292
+                              y   =   4370.251
+                           }
+                           OnSuccess   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeAutotestTaskTestTruckSerialization"
+                        }
+                        GetBPBool   =   {
+                           viewData   =   {
+                              x   =   3883.375
+                              y   =   4392.357
+                           }
+                           name   =   "truckSerialization"
+                           Bool   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   4154.033
+                              y   =   4371.816
+                           }
+                           OnTrue   =   [
+                              "TestTruckSerialization_1/Start"
+                           ]
+                           OnFalse   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                     "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                     "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintLibraryFunction_2_1   =   {
+                  captionVar   =   "InstallAllSuspensions"
+                  viewData   =   {
+                     x   =   3750
+                     y   =   4550
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        ForEachStringCOROUTINE   =   {
+                           viewData   =   {
+                              x   =   3228.376
+                              y   =   4450
+                           }
+                           OnFinish   =   [
+                              "../../../BlueprintLibraryFunction_2_1_1/logic/nodes/InstallTires/Start"
+                           ]
+                           OnIteration   =   [
+                              "InstallSuspension/Start"
+                           ]
+                           GetString   =   [
+                              "InstallSuspension/suspensionNameRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeForEachStringCoroutine"
+                        }
+                        GetCurrentTruck   =   {
+                           viewData   =   {
+                              x   =   2750
+                              y   =   4550
+                           }
+                           GetCurrentTruck   =   [
+                              "GetAllTruckSuspensionsNames/truckRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetCurrentTruck"
+                        }
+                        Delay_1_1   =   {
+                           viewData   =   {
+                              x   =   3600
+                              y   =   4750
+                           }
+                           duration   =   {
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "ForEachStringCOROUTINE/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        GetAllTruckSuspensionsNames   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4550
+                           }
+                           GetTruckSuspensions   =   [
+                              "ForEachStringCOROUTINE/arrayString/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetAllTruckSuspension"
+                        }
+                        InstallSuspension   =   {
+                           viewData   =   {
+                              x   =   3500
+                              y   =   4500
+                           }
+                           OnFinished   =   [
+                              "If/Input"
+                           ]
+                           ignoreTaskFail   =   True
+                           delayBeforeSuccess   =   0
+                           __type   =   "BlueprintNodeAutotestTaskInstallSuspension"
+                        }
+                        TestTruckSerialization_1   =   {
+                           viewData   =   {
+                              x   =   4156.704
+                              y   =   4368.737
+                           }
+                           OnSuccess   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeAutotestTaskTestTruckSerialization"
+                        }
+                        GetBPBool   =   {
+                           viewData   =   {
+                              x   =   3670.787
+                              y   =   4390.843
+                           }
+                           name   =   "truckSerialization"
+                           Bool   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   3941.446
+                              y   =   4370.302
+                           }
+                           OnTrue   =   [
+                              "TestTruckSerialization_1/Start"
+                           ]
+                           OnFalse   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                     "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                     "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintLibraryFunction_2_1_1   =   {
+                  captionVar   =   "InstallAllTires"
+                  viewData   =   {
+                     x   =   4059
+                     y   =   4600
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        GetCurrentTruck   =   {
+                           viewData   =   {
+                              x   =   2709.289
+                              y   =   4578.271
+                           }
+                           GetCurrentTruck   =   [
+                              "InstallTires/truckRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetCurrentTruck"
+                        }
+                        InstallTires   =   {
+                           viewData   =   {
+                              x   =   2978.068
+                              y   =   4526.018
+                           }
+                           OnFinished   =   [
+                              "../../../CheckCurrentTruckConfig/Start"
+                           ]
+                           ignoreTaskFail   =   True
+                           delayBeforeSuccess   =   0
+                           AfterIteration   =   [
+                              "If/Input"
+                           ]
+                           truckRef   =   {
+                              __type   =   "TruckRef"
+                           }
+                           __type   =   "BlueprintNodeAutotestTaskInstallTire"
+                        }
+                        Delay   =   {
+                           viewData   =   {
+                              x   =   3156.753
+                              y   =   4695.07
+                           }
+                           duration   =   {
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "InstallTires/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        TestTruckSerialization_1   =   {
+                           viewData   =   {
+                              x   =   3769.485
+                              y   =   4352.703
+                           }
+                           OnSuccess   =   [
+                              "Delay/Start"
+                           ]
+                           __type   =   "BlueprintNodeAutotestTaskTestTruckSerialization"
+                        }
+                        GetBPBool   =   {
+                           viewData   =   {
+                              x   =   3283.568
+                              y   =   4374.809
+                           }
+                           name   =   "truckSerialization"
+                           Bool   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   3554.226
+                              y   =   4354.268
+                           }
+                           OnTrue   =   [
+                              "TestTruckSerialization_1/Start"
+                           ]
+                           OnFalse   =   [
+                              "Delay/Start"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/InstallTires;OnFinished",
+                     "logic/nodes/InstallTires;Start",
+                     "logic/nodes/Delay;duration"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               BlueprintLibraryFunction_3   =   {
+                  captionVar   =   "InstallAllAddons"
+                  viewData   =   {
+                     x   =   3000
+                     y   =   4400
+                  }
+                  logic   =   {
+                     nodes   =   {
+                        ForEachStringCOROUTINE   =   {
+                           viewData   =   {
+                              x   =   3228.376
+                              y   =   4450
+                           }
+                           OnFinish   =   [
+                              "../../../BlueprintLibraryFunction/logic/nodes/ForEachStringCOROUTINE/StartIterate"
+                           ]
+                           OnIteration   =   [
+                              "InstallAddon/Start"
+                           ]
+                           GetString   =   [
+                              "InstallAddon/addonNameRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeForEachStringCoroutine"
+                        }
+                        GetCurrentTruck   =   {
+                           viewData   =   {
+                              x   =   2750
+                              y   =   4550
+                           }
+                           GetCurrentTruck   =   [
+                              "GetAllTruckAddonNames/truckRef/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetCurrentTruck"
+                        }
+                        Delay_1_1   =   {
+                           viewData   =   {
+                              x   =   3600
+                              y   =   4750
+                           }
+                           duration   =   {
+                              __type   =   "FloatRefParam"
+                           }
+                           OnFinish   =   [
+                              "ForEachStringCOROUTINE/ContinueIterate"
+                           ]
+                           __type   =   "BlueprintTimeLibraryDelay"
+                        }
+                        GetAllTruckAddonNames   =   {
+                           viewData   =   {
+                              x   =   2950
+                              y   =   4550
+                           }
+                           GetTruckAddons   =   [
+                              "ForEachStringCOROUTINE/arrayString/cb"
+                           ]
+                           __type   =   "BlueprintNodeGetAllTruckAddons"
+                        }
+                        InstallAddon   =   {
+                           viewData   =   {
+                              x   =   3500
+                              y   =   4500
+                           }
+                           OnFinished   =   [
+                              "If/Input"
+                           ]
+                           ignoreTaskFail   =   True
+                           delayBeforeSuccess   =   0
+                           __type   =   "BlueprintNodeAutotestTaskInstallAddon"
+                        }
+                        TestTruckSerialization   =   {
+                           viewData   =   {
+                              x   =   4241.732
+                              y   =   4352.724
+                           }
+                           OnSuccess   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeAutotestTaskTestTruckSerialization"
+                        }
+                        GetBPBool   =   {
+                           viewData   =   {
+                              x   =   3755.815
+                              y   =   4374.83
+                           }
+                           name   =   "truckSerialization"
+                           Bool   =   [
+                              "If/condition/cb"
+                           ]
+                           __type   =   "BlueprintLibraryGetbool"
+                        }
+                        If   =   {
+                           viewData   =   {
+                              x   =   4026.473
+                              y   =   4354.289
+                           }
+                           OnTrue   =   [
+                              "TestTruckSerialization/Start"
+                           ]
+                           OnFalse   =   [
+                              "Delay_1_1/Start"
+                           ]
+                           __type   =   "BlueprintNodeIf"
+                        }
+                     }
+                     __type   =   "BluePrintFunction"
+                  }
+                  external   =   [
+                     "logic/nodes/ForEachStringCOROUTINE;StartIterate",
+                     "logic/nodes/ForEachStringCOROUTINE;OnFinish",
+                     "logic/nodes/Delay_1_1;duration;WaitTime;Value of timer delay (sec)"
+                  ]
+                  __type   =   "BlueprintLibraryFunction"
+               }
+               GetBPFloat   =   {
+                  viewData   =   {
+                     x   =   2850
+                     y   =   4650
+                  }
+                  name   =   "waitTime"
+                  GetFloat   =   [
+                     "BlueprintLibraryFunction_3/logic/nodes/Delay_1_1/duration/cb",
+                     "BlueprintLibraryFunction/logic/nodes/Delay_1_1/duration/cb",
+                     "BlueprintLibraryFunction_2/logic/nodes/Delay_1_1/duration/cb",
+                     "BlueprintLibraryFunction_2_1/logic/nodes/Delay_1_1/duration/cb",
+                     "BlueprintLibraryFunction_2_1_1/logic/nodes/Delay/duration/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpFloat"
+               }
+               Pipe_1   =   {
+                  viewData   =   {
+                     x   =   2301
+                     y   =   4041
+                  }
+                  Output   =   [
+                     "UnlockTruck/UnlockTruck"
+                  ]
+                  __type   =   "BlueprintLibraryPipe"
+               }
+               GarageSlotMenuGoShop   =   {
+                  viewData   =   {
+                     x   =   2950
+                     y   =   4100
+                  }
+                  OnSuccess   =   [
+                     "GarageShopBuyTruckConsole/Start"
+                  ]
+                  delayBeforeSuccess   =   100
+                  __type   =   "BlueprintNodeAutotestTaskGarageSlotMenuGoShop"
+               }
+               GarageShopGoSlotMenu   =   {
+                  viewData   =   {
+                     x   =   3708.391
+                     y   =   4097.603
+                  }
+                  OnSuccess   =   [
+                     "GarageSlotMenuGoOut/Start"
+                  ]
+                  delayBeforeSuccess   =   100
+                  __type   =   "BlueprintNodeAutotestTaskGarageShopGoSlotMenu"
+               }
+               AddMoney   =   {
+                  viewData   =   {
+                     x   =   2781
+                     y   =   4100
+                  }
+                  OnExit   =   [
+                     "GarageSlotMenuGoShop/Start"
+                  ]
+                  moneyRef   =   {
+                     def   =   9999999
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodePlayerAddMoney"
+               }
+               AddExperience   =   {
+                  viewData   =   {
+                     x   =   2605.564
+                     y   =   4099.113
+                  }
+                  OnExit   =   [
+                     "AddMoney/AddMoney"
+                  ]
+                  experienceRef   =   {
+                     def   =   9999999
+                     __type   =   "IntRefParam"
+                  }
+                  __type   =   "BlueprintNodePlayerAddExperience"
+               }
+               UnlockTruck   =   {
+                  viewData   =   {
+                     x   =   2417.564
+                     y   =   4098.113
+                  }
+                  OnExit   =   [
+                     "AddExperience/AddExperience"
+                  ]
+                  __type   =   "BlueprintNodePlayerUnlockTruck"
+               }
+               CheckCurrentTruckConfig   =   {
+                  viewData   =   {
+                     x   =   4289.21
+                     y   =   4626.85
+                  }
+                  OnSuccess   =   [
+                     "BlueprintLibraryFunction_1_1/logic/nodes/CurrentTruckTeleport/Teleport"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskCheckTruckConfig"
+               }
+               GarageShopBuyTruckConsole   =   {
+                  viewData   =   {
+                     x   =   3288.33
+                     y   =   4103.036
+                  }
+                  OnSuccess   =   [
+                     "GarageShopGoSlotMenu/Start"
+                  ]
+                  __type   =   "BlueprintNodeAutotestTaskGarageShopBuyTruckConsole"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/Pipe;Output;Success;Output",
+            "logic/nodes/Pipe_1;Input",
+            "logic/nodes/UnlockTruck;truckNameRef",
+            "logic/nodes/GarageShopBuyTruckConsole;truckNameRef"
+         ]
+         __type   =   "BlueprintLibraryFunction"
+      }
+      ForEachStringCOROUTINE_1   =   {
+         viewData   =   {
+            x   =   2650
+            y   =   3800
+         }
+         OnFinish   =   [
+            "AutotestSuccess/Success"
+         ]
+         OnIteration   =   [
+            "BlueprintLibraryFunction/logic/nodes/SetBPFloat_2/Set"
+         ]
+         GetString   =   [
+            "BlueprintLibraryFunction_1/logic/nodes/UnlockTruck/truckNameRef/cb",
+            "BlueprintLibraryFunction_1/logic/nodes/GarageShopBuyTruckConsole/truckNameRef/cb"
+         ]
+         __type   =   "BlueprintNodeForEachStringCoroutine"
+      }
+      AutotestSuccess   =   {
+         viewData   =   {
+            x   =   3333
+            y   =   3801
+         }
+         __type   =   "BlueprintNodeAutotestSuccess"
+      }
+      GetAllTrucksNames   =   {
+         viewData   =   {
+            x   =   2450
+            y   =   3927.474
+         }
+         GetTruckInfo   =   [
+            "ForEachStringCOROUTINE_1/arrayString/cb"
+         ]
+         __type   =   "BlueprintNodeGetAllTrucksName"
+      }
+      SetBPFloat   =   {
+         viewData   =   {
+            x   =   1550
+            y   =   3900
+         }
+         float   =   {
+            def   =   0.1
+            __type   =   "FloatRefParam"
+         }
+         name   =   "waitTime"
+         OnExit   =   [
+            "SetBPFloat_1/Set"
+         ]
+         __type   =   "BlueprintNodeSetBpFloat"
+      }
+      GetConfigVarFloat   =   {
+         viewData   =   {
+            x   =   1050
+            y   =   3950
+         }
+         name   =   {
+            def   =   "Debug.Autotests.delayBeforeAddonOrUpgradeChanges"
+            __type   =   "StringRefParam"
+         }
+         Get   =   [
+            "SetBPFloat/float/cb"
+         ]
+         __type   =   "BlueprintNodeGetCfgVarFloat"
+      }
+      InGameGoGarage   =   {
+         viewData   =   {
+            x   =   2250
+            y   =   3800
+         }
+         OnSuccess   =   [
+            "ForEachStringCOROUTINE_1/StartIterate"
+         ]
+         __type   =   "BlueprintNodeAutotestTaskIngameGoGarage"
+      }
+      Delay   =   {
+         viewData   =   {
+            x   =   1900
+            y   =   3800
+         }
+         OnFinish   =   [
+            "UnlockDLC/UnlockTruck"
+         ]
+         __type   =   "BlueprintTimeLibraryDelay"
+      }
+      SetBPFloat_1   =   {
+         viewData   =   {
+            x   =   1600.877
+            y   =   4037.106
+         }
+         float   =   {
+            def   =   0.1
+            __type   =   "FloatRefParam"
+         }
+         name   =   "truckAmount"
+         OnExit   =   [
+            "Delay/Start"
+         ]
+         __type   =   "BlueprintNodeSetBpFloat"
+      }
+      GetConfigVarFloat_1   =   {
+         viewData   =   {
+            x   =   1100.877
+            y   =   4087.106
+         }
+         name   =   {
+            def   =   "Debug.Autotests.truckAmountToCheck"
+            __type   =   "StringRefParam"
+         }
+         Get   =   [
+            "SetBPFloat_1/float/cb"
+         ]
+         __type   =   "BlueprintNodeGetCfgVarFloat"
+      }
+      BlueprintLibraryFunction   =   {
+         captionVar   =   "IfWeCheckEnoughtAmountOfTrucks"
+         viewData   =   {
+            x   =   2980.772
+            y   =   3900.886
+         }
+         logic   =   {
+            nodes   =   {
+               GetBPFloat   =   {
+                  viewData   =   {
+                     x   =   2850
+                     y   =   3950
+                  }
+                  name   =   "truckAmount"
+                  GetFloat   =   [
+                     "FloatSubtract/aFloat/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpFloat"
+               }
+               SetBPFloat_2   =   {
+                  viewData   =   {
+                     x   =   3245.877
+                     y   =   3900
+                  }
+                  float   =   {
+                     __type   =   "FloatRefParam"
+                  }
+                  name   =   "truckAmount"
+                  OnExit   =   [
+                     "If/Input"
+                  ]
+                  __type   =   "BlueprintNodeSetBpFloat"
+               }
+               FloatSubtract   =   {
+                  viewData   =   {
+                     x   =   3050
+                     y   =   3942.106
+                  }
+                  bFloat   =   {
+                     def   =   1
+                     __type   =   "FloatRefParam"
+                  }
+                  Float   =   [
+                     "SetBPFloat_2/float/cb"
+                  ]
+                  __type   =   "BlueprintMathLibraryFloatsubstract"
+               }
+               If   =   {
+                  viewData   =   {
+                     x   =   3500
+                     y   =   3900
+                  }
+                  OnTrue   =   [
+                     "../../../AutotestSuccess/Success"
+                  ]
+                  OnFalse   =   [
+                     "../../../BlueprintLibraryFunction_1/logic/nodes/Pipe_1/Input"
+                  ]
+                  __type   =   "BlueprintNodeIf"
+               }
+               GetBPFloat_1   =   {
+                  viewData   =   {
+                     x   =   3045.877
+                     y   =   4060.106
+                  }
+                  name   =   "truckAmount"
+                  GetFloat   =   [
+                     "FloatCompare/aFloat/cb"
+                  ]
+                  __type   =   "BlueprintNodeGetBpFloat"
+               }
+               FloatCompare   =   {
+                  viewData   =   {
+                     x   =   3296.877
+                     y   =   4055.106
+                  }
+                  BBigger   =   [
+                     "If/condition/cb"
+                  ]
+                  __type   =   "BlueprintMathLibraryFloatcompare"
+               }
+            }
+            __type   =   "BluePrintFunction"
+         }
+         external   =   [
+            "logic/nodes/SetBPFloat_2;Set",
+            "logic/nodes/If;OnTrue",
+            "logic/nodes/If;OnFalse"
+         ]
+      }
+      UnlockDLC   =   {
+         viewData   =   {
+            x   =   2050
+            y   =   3800
+         }
+         OnExit   =   [
+            "InGameGoGarage/Start"
+         ]
+         dlcRef   =   {
+            def   =   "pre_order"
+            __type   =   "StringRefParam"
+         }
+         __type   =   "BlueprintNodeUnlockDlc"
+      }
+      SetBPBool   =   {
+         viewData   =   {
+            x   =   1460.402
+            y   =   3746.116
+         }
+         OnExit   =   [
+            "SetBPFloat/Set"
+         ]
+         bool   =   {
+            __type   =   "BoolRefParam"
+         }
+         name   =   "truckSerialization"
+         __type   =   "BlueprintLibrarySetbool"
+      }
+      GetConfigVarBool   =   {
+         viewData   =   {
+            x   =   1020.402
+            y   =   3822.116
+         }
+         name   =   {
+            def   =   "Debug.Autotests.truckSerialization"
+            __type   =   "StringRefParam"
+         }
+         Get   =   [
+            "SetBPBool/bool/cb"
+         ]
+         __type   =   "BlueprintNodeGetCfgVarBool"
+      }
+   }
+   __type   =   "BlueprintAutotest"
+}
+__type   =   "AutoTestBlueprint"

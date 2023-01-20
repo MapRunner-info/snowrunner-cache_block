@@ -1,0 +1,519 @@
+inputs   =   {
+   Honk   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HONK"
+      inputLink   =   {
+         inputLink   =   "Truck.Honk"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   Headlights   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HEADLIGHTS"
+      inputLink   =   {
+         inputLink   =   "Truck.Headlights"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   DiffLock   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DIFF_LOCK"
+      inputLink   =   {
+         inputLink   =   "Truck.DiffLock"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   AWD   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_AWD"
+      inputLink   =   {
+         inputLink   =   "Truck.Awd"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   Handbrake   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HANDBRAKE"
+      inputLink   =   {
+         inputLink   =   "Truck.Handbrake"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   Engine   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ENGINE"
+      inputLink   =   {
+         inputLink   =   "Truck.Engine"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   QuickWinch   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_QUICK_WINCH"
+      inputLink   =   {
+         inputLink   =   "Truck.QuickWinch"
+         __type   =   "InputLinkActionMr"
+      }
+      childs   =   [
+         {
+            inputLink   =   "Truck.PullWinch"
+         }
+      ]
+      __type   =   "InputDescription"
+   }
+   ReleaseWinch   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_RELEASE_WINCH"
+      inputLink   =   {
+         inputLink   =   "Truck.ReleaseWinch"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   ZoneInteraction   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ZONE_INTERACTION"
+      inputLink   =   {
+         inputLink   =   "Exploration.StartCargoManagement"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   Functions   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FUNCTIONS"
+      inputLink   =   {
+         inputLink   =   "Truck.Functions"
+         __type   =   "InputLinkMr"
+      }
+      childs   =   [
+         {
+            inputLink   =   "Truck.CloseFunctions"
+         }
+      ]
+      __type   =   "InputDescription"
+   }
+   Minimap   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP"
+      inputLink   =   {
+         inputLink   =   "Exploration.ShowMinimap"
+         __type   =   "InputLinkMr"
+      }
+      childs   =   [
+         {
+            inputLink   =   "Popups.ShowMinimap"
+         }
+      ]
+      __type   =   "InputDescription"
+   }
+   MinimapClearPath   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_ADD_PATH_POINT"
+      inputLink   =   {
+         inputLink   =   "UI.ClearPath"
+         __type   =   "InputLinkMr"
+      }
+      gameContexts   =   [
+         "MINIMAP"
+      ]
+      __type   =   "InputDescription"
+   }
+   PlayerProfile   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_PLAYER_PROFILE"
+      inputLink   =   {
+         inputLink   =   "Exploration.PlayerProfile"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   GearNeutral   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_NEUTRAL"
+      inputLink   =   {
+         inputLink   =   "Exploration.SetGearNeutral"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   GearAuto   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_AUTO"
+      inputLink   =   {
+         inputLink   =   "Exploration.SetGearAuto"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   GearReverse   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_REVERSE"
+      inputLink   =   {
+         inputLink   =   "Exploration.SetGearReverse"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   GearHigh   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_HIGH"
+      inputLink   =   {
+         inputLink   =   "Exploration.SetGearHigh"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   GearLow1   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW1"
+      inputLink   =   {
+         inputLink   =   "Exploration.SetGearLow1"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   GearLow2   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW2"
+      inputLink   =   {
+         inputLink   =   "Exploration.SetGearLow2"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   GearLow3   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW3"
+      inputLink   =   {
+         inputLink   =   "Exploration.SetGearLow3"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   ClutchMenu   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CLUTCH_PEDAL"
+      inputLink   =   {
+         inputLink   =   "Truck.ClutchMode"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   ToggleCamera   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TOGGLE_CAMERA_WITH_SHOW_HUD"
+      inputLink   =   {
+         inputLink   =   "Truck.ToggleCamera"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   truckMovementForward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_THROTTLE"
+      inputLink   =   {
+         inputLink   =   "Truck.truckMovement"
+         direction   =   "Forward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   truckMovementBackward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_BRAKE"
+      inputLink   =   {
+         inputLink   =   "Truck.truckMovement"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   truckMovementLeft   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_MOVEMENT_LEFT"
+      inputLink   =   {
+         inputLink   =   "Truck.truckMovement"
+         direction   =   "Left"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   truckMovementRight   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_MOVEMENT_RIGHT"
+      inputLink   =   {
+         inputLink   =   "Truck.truckMovement"
+         direction   =   "Right"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction1   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_1"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_1"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction2   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_2"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_2"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction3   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_3"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_3"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction4   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_4"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_4"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction5   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_5"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_5"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction6   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_6"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_6"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction7   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_7"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_7"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction8   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_8"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_8"
+         __type   =   "InputLinkActionMr"
+      }
+      __type   =   "InputDescription"
+   }
+   HudVisibility   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_HUD_VISIBILITY"
+      inputLink   =   {
+         inputLink   =   "Exploration.ToggleHudVisibility"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   HidePolygonTool   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HIDE_POLYGON_TOOL"
+      inputLink   =   {
+         inputLink   =   "UI.HidePolygonTool"
+         __type   =   "InputLinkMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction9Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_FORWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_9_vector"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction9Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_BACKWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_9_vector"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction10Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_FORWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_10_vector"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction10Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_BACKWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_10_vector"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction11Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_FORWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_11_vector"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction11Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_BACKWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_11_vector"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction12Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_FORWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_12_vector"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction12Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_BACKWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_12_vector"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction13Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_FORWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_13_vector"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction13Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_BACKWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_13_vector"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction14Forward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_FORWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_14_vector"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   CustomAddonAction14Backward   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_BACKWARD"
+      inputLink   =   {
+         inputLink   =   "CustomAddons.action_14_vector"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraZoomIn   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ZOOM_IN"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraMove"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraZoomOut   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ZOOM_OUT"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraMove"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraMoveLeft   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_LEFT"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraMove"
+         direction   =   "Left"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraMoveRight   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_RIGHT"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraMove"
+         direction   =   "Right"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraMoveUp   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_UP"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraUpDownMove"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraMoveDown   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_DOWN"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraUpDownMove"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraRotateLeft   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_LEFT"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraRotate"
+         direction   =   "Left"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraRotateRight   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_RIGHT"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraRotate"
+         direction   =   "Right"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraRotateCW   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_CW"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraRotateCW"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraRotateCCW   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_CCW"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraRotateCW"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraRotateUp   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_UP"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraRotate"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+   FlyCameraRotateDown   =   {
+      uiName   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_DOWN"
+      inputLink   =   {
+         inputLink   =   "UI.FlyCameraRotate"
+         direction   =   "Backward"
+         __type   =   "InputLinkVectorMr"
+      }
+      __type   =   "InputDescription"
+   }
+}
+__type   =   "object"

@@ -1,0 +1,8 @@
+continiusShootRay   =   {
+   timeInterval   =   0.1
+   moveDistanceThreshold   =   0.1
+   distance   =   0.3
+   __type   =   "ContinuouslyShootray"
+}
+shiftUp   =   0.4
+__type   =   "prop_base"

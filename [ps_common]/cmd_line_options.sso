@@ -1,0 +1,9 @@
+optionTypes   =   {
+   CONFIG   =   {
+      __value   =   "/Config/"
+   }
+   DBG_VAR   =   {
+      __value   =   "/DbgVars/"
+   }
+}
+__type   =   "object"

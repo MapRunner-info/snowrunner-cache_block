@@ -1,0 +1,19 @@
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         modsList   =   {
+            lir   =   {
+               __type   =   "LockedByAddonsPopupLir"
+            }
+            __type   =   "UiPopupLibPopupmodsshortlist"
+         }
+         __type   =   "UiPopupLibModlistpopup"
+      }
+      __type   =   "UiPopupLibAnimmodlistpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+header   =   "UI_HUD_LOCKED_BY_ADDONS_POPUP_HEADER"
+desc   =   "UI_HUD_LOCKED_BY_ADDONS_POPUP_DESC"
+totalSize   =   ""
+__type   =   "PopupViewBase"

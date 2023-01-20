@@ -1,0 +1,34 @@
+uiDesc   =   "US_01_02_UNLUCKY_FISHERMAN_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "FISHERMAN_CAR"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_FISHERMAN_HOUSE"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_02_UNLUCKY_FISHERMAN_CHEVROLET_CK1500"
+            afterStageFinished   =   "DESTROY"
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_UNLUCKY_FISHERMAN_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_FISHERMAN_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_02_FISHERMAN_A_TSK"
+]
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   250
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1850
+   }
+}
+__type   =   "TaskSettings"

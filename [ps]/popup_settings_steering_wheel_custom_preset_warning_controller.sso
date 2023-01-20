@@ -1,0 +1,36 @@
+view   =   {
+   __type   =   "PopupSettingsSteeringWheelCustomPresetWarningView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         accept   =   {
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+         close   =   {
+            uiInputName   =   "Close"
+            clickSound   =   "ui/ui_click_exit"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PopupSettingsInputOverrideWarningNavigationPanel"
+   }
+}
+id   =   "SETTINGS_CHANGE_INPUT"
+inputScreen   =   {
+   name   =   "PopupSettingsSteeringWheelCustomPresetWarningController"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkActionMr"
+      }
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

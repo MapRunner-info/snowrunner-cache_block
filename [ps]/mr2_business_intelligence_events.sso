@@ -1,0 +1,40 @@
+rules   =   {
+   Mr2ClientStatisticsBiEventsRule   =   {
+   }
+   Mr2BiSessionRule   =   {
+   }
+   Mr2ObjectiveStatRule   =   {
+   }
+   Mr2BuySellStatRule   =   {
+   }
+   Mr2DamageRule   =   {
+   }
+   Mr2OutOfFuelRule   =   {
+   }
+   Mr2WinchRule   =   {
+   }
+   Mr2UiHudRule   =   {
+      __type   =   "Mr2UiRule"
+   }
+   Mr2TrailerStatRule   =   {
+   }
+   Mr2TutorialPopupRule   =   {
+   }
+   Mr2ChangeMapRule   =   {
+   }
+   Mr2DeviceRule   =   {
+   }
+   Mr2PaymentRule   =   {
+   }
+   Mr2DlcInfoRule   =   {
+   }
+   Mr2ModInfoRule   =   {
+   }
+   Mr2BiCrossplayEnabledRule   =   {
+   }
+   Mr2IngameDlcRule   =   {
+   }
+   Mr2BiGameModeRule   =   {
+   }
+}
+__type   =   "object"

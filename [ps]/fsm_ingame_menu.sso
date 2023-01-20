@@ -1,0 +1,511 @@
+fsm   =   {
+   states   =   {
+      IngameMenu   =   {
+         sslModule   =   "ui.menu.fsm_ingame_menu"
+         isInitial   =   False
+         links   =   {
+            leave_session   =   {
+               toState   =   "IngameLeaveSession"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7465,
+                        7050.884
+                     ],
+                     [
+                        7318,
+                        7049.69
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            exit_game   =   {
+               toState   =   "IngameExitGame"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7598.351,
+                        7092
+                     ],
+                     [
+                        7591.454,
+                        7158.499
+                     ],
+                     [
+                        7676.239,
+                        7221
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            back   =   {
+               toState   =   "Initial"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7621.404,
+                        7012
+                     ],
+                     [
+                        7632.243,
+                        6989.064
+                     ],
+                     [
+                        7612.014,
+                        6919
+                     ]
+                  ]
+                  labelX   =   24.40881
+                  labelY   =   -2.167926
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            settings   =   {
+               toState   =   "Settings"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7644.048,
+                        7092
+                     ],
+                     [
+                        7823,
+                        7264.287
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            codex   =   {
+               toState   =   "ConnectFsmStateCodex"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7682.5,
+                        7012
+                     ],
+                     [
+                        7876.5,
+                        6915
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            FSMLink   =   {
+               toState   =   "IngameMenu"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        0,
+                        0
+                     ],
+                     [
+                        0,
+                        0
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            restart_trial   =   {
+               toState   =   "FsmIngameMenuContentFsmStatesIngameRestartTrial"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7478.698,
+                        7092
+                     ],
+                     [
+                        7351.802,
+                        7133
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            photo_mode   =   {
+               toState   =   "ConnectFsmStatePhotoMode"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7593.423,
+                        7092
+                     ],
+                     [
+                        7525.577,
+                        7391
+                     ]
+                  ]
+                  labelX   =   19
+                  labelY   =   47
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            dlc_store   =   {
+               toState   =   "ConnectFsmStateDlcStore"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7703.486,
+                        7092
+                     ],
+                     [
+                        7861,
+                        7154.391
+                     ]
+                  ]
+                  labelX   =   -24
+                  labelY   =   5
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7464.593
+            y   =   7012.029
+         }
+         sslClass   =   "FsmIngameMenuContentFsmStatesIngamemenu"
+         inputScreen   =   {
+            name   =   "IngameMenu"
+            inputsLinks   =   {
+               Resume   =   {
+                  inputLink   =   "UI.ToggleMenu"
+                  __type   =   "InputLinkHoldMr"
+               }
+            }
+            __type   =   "SslUiInputScreenMr"
+         }
+         __type   =   "IngameMenuFsmBaseState"
+      }
+      IngameLeaveSession   =   {
+         sslModule   =   "ui.menu.fsm_ingame_menu"
+         isInitial   =   False
+         links   =   {
+            back   =   {
+               toState   =   "Initial"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7292.643,
+                        7009
+                     ],
+                     [
+                        7410.491,
+                        6929.964
+                     ],
+                     [
+                        7537,
+                        6887.255
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7148.188
+            y   =   7008.971
+         }
+         sslClass   =   "FsmIngameMenuContentFsmStatesIngameleavesession"
+         __type   =   "IngameMenuFsmBaseState"
+      }
+      IngameExitGame   =   {
+         sslModule   =   "ui.menu.fsm_ingame_menu"
+         isInitial   =   False
+         links   =   {
+            back   =   {
+               toState   =   "Initial"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7729.064,
+                        7221
+                     ],
+                     [
+                        7723.249,
+                        7059.014
+                     ],
+                     [
+                        7631.19,
+                        6919
+                     ]
+                  ]
+                  labelX   =   60.72955
+                  labelY   =   1.518239
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7655.688
+            y   =   7221.221
+         }
+         sslClass   =   "FsmIngameMenuContentFsmStatesIngameexitgame"
+         __type   =   "IngameMenuFsmBaseState"
+      }
+      Initial   =   {
+         isInitial   =   True
+         links   =   {
+            back   =   {
+               toState   =   "IngameMenu"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7579.91,
+                        6919
+                     ],
+                     [
+                        7556.843,
+                        6989.184
+                     ],
+                     [
+                        7573.426,
+                        7012
+                     ]
+                  ]
+                  labelX   =   -51.01284
+                  labelY   =   -1.924403
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7537.491
+            y   =   6815.035
+         }
+         __type   =   "SslState"
+      }
+      Settings   =   {
+         sslModule   =   "ui.menu.fsm_ingame_menu"
+         isInitial   =   False
+         links   =   {
+            back   =   {
+               toState   =   "IngameMenu"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7823,
+                        7243.465
+                     ],
+                     [
+                        7665.675,
+                        7092
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7822.688
+            y   =   7027.418
+         }
+         sslClass   =   "FsmIngameMenuContentFsmStatesSettings"
+         inputScreen   =   {
+            blockAll   =   True
+            __type   =   "SslUiInputScreenMr"
+         }
+         settings   =   {
+            layout   =   {
+               presets   =   {
+                  Game   =   {
+                     elements   =   {
+                        TutorialSkip   =   {
+                           name   =   "SkipTutorial"
+                           __type   =   "UiSettingScreenElementInteractive"
+                        }
+                     }
+                     __type   =   "UiSettingLayoutScreenPreset"
+                  }
+                  GameConsole   =   {
+                     elements   =   {
+                        TutorialSkip   =   {
+                           name   =   "SkipTutorial"
+                           __type   =   "UiSettingScreenElementInteractive"
+                        }
+                     }
+                     __type   =   "UiSettingLayoutScreenPreset"
+                  }
+               }
+               __type   =   "UiSettingsLayout"
+            }
+            __type   =   "UiSettingsController"
+         }
+         __type   =   "IngameMenuFsmBaseState"
+      }
+      ConnectFsmStateCodex   =   {
+         links   =   {
+            FSMLink   =   {
+               toState   =   "ConnectFsmStateCodex"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        0,
+                        0
+                     ],
+                     [
+                        0,
+                        0
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   -1
+               }
+               __type   =   "SslLink"
+            }
+            back   =   {
+               toState   =   "IngameMenu"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7842.959,
+                        6915
+                     ],
+                     [
+                        7648.959,
+                        7012
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7828.611
+            y   =   6835.438
+         }
+         inputScreen   =   {
+            blockAll   =   True
+            __type   =   "SslUiInputScreenMr"
+         }
+      }
+      FsmIngameMenuContentFsmStatesIngameRestartTrial   =   {
+         links   =   {
+            back   =   {
+               toState   =   "Initial"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7276.235,
+                        7133
+                     ],
+                     [
+                        7537,
+                        6916.756
+                     ]
+                  ]
+                  labelX   =   0
+                  labelY   =   0
+                  connectorIndex   =   0
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7042.685
+            y   =   7132.989
+         }
+      }
+      ConnectFsmStatePhotoMode   =   {
+         links   =   {
+            back   =   {
+               toState   =   "IngameMenu"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7540.958,
+                        7391
+                     ],
+                     [
+                        7608.805,
+                        7092
+                     ]
+                  ]
+                  labelX   =   69
+                  labelY   =   10
+                  connectorIndex   =   1
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7388.769
+            y   =   7391.419
+         }
+         inputScreen   =   {
+            blockAll   =   True
+            __type   =   "SslUiInputScreenMr"
+         }
+      }
+      ConnectFsmStateDlcStore   =   {
+         links   =   {
+            back   =   {
+               toState   =   "IngameMenu"
+               viewData   =   {
+                  joints   =   [
+                     [
+                        7885.147,
+                        7154
+                     ],
+                     [
+                        7805.417,
+                        7111.956
+                     ],
+                     [
+                        7737.878,
+                        7092
+                     ]
+                  ]
+               }
+               __type   =   "SslLink"
+            }
+         }
+         viewData   =   {
+            x   =   7861.417
+            y   =   7153.956
+         }
+         inputScreen   =   {
+            blockAll   =   True
+            __type   =   "SslUiInputScreenMr"
+         }
+      }
+   }
+   __type   =   "OwnedFsm"
+}
+__type   =   "object"

@@ -1,0 +1,16 @@
+uiObjectDesc   =   {
+   type   =   {
+      itemsList   =   {
+         lir   =   {
+            __type   =   "PopupGatewayZoneBlockedLir"
+         }
+         scrollBar   =   {
+            __type   =   "UiCommonLibDefscrollbars"
+         }
+         __type   =   "UiPopupLibHudpopupzoneblockeditemslist"
+      }
+      __type   =   "UiPopupLibHudpopupzoneblocked"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "PopupViewBase"

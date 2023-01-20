@@ -1,0 +1,44 @@
+useBg   =   True
+btns   =   {
+   GoToMap   =   {
+      text   =   "UI_MAP_ACCEPT"
+      uiInputName   =   "GoToMap"
+      excludedDevices   =   [
+         "mouse",
+         "keyboard"
+      ]
+      input   =   {
+         __type   =   "InputLinkHoldMr"
+      }
+      clickSound   =   "ui/ui_accept_region"
+      __type   =   "NavButtonDesc"
+   }
+   back   =   {
+      text   =   "UI_BACK"
+      uiInputName   =   "Back"
+      input   =   {
+         __type   =   "InputLinkHoldMr"
+      }
+      clickSound   =   "ui/ui_click_exit"
+      __type   =   "NavButtonDesc"
+   }
+   GoToGarage   =   {
+      text   =   "UI_MAP_GARAGE_ACCEPT"
+      uiInputName   =   "GoToGarage"
+      excludedDevices   =   [
+         "mouse",
+         "keyboard"
+      ]
+      input   =   {
+         __type   =   "InputLinkHoldMr"
+      }
+      clickSound   =   "ui/ui_accept_region"
+      __type   =   "NavButtonDesc"
+   }
+   toStore   =   {
+      text   =   "UI_SHOP_TRUCK_SHOW_IN_DLC_STORE"
+      uiInputName   =   "ShowDLC"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

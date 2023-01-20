@@ -1,0 +1,830 @@
+maxCapacity   =   100
+iconDescs   =   {
+   pc_   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpc"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   pc_L_Shift   =   {
+      type   =   {
+         textField   =   {
+            text   =   "L. Shift"
+            __type   =   "UiLabel"
+         }
+         __type   =   "UiGamepadIconsMcpclong"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   pc_Space   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpcspace"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   pc_Enter   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpcenter"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   pc_LMB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpcmouseleftclick"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   pc_MMB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpcmousemiddleclick"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   pc_MB_33   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpcmousemiddleclickdir"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   pc_RMB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpcmouserightclick"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_X_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1x"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_Y_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1y"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_A_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1a"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_B_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1b"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_RB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1rb"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_LB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1lb"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_TRIGGER_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1lt"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_TRIGGER_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1rt"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_DPAD_UP   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1dpadup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_DPAD_DOWN   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1dpaddown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_DPAD_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1dpadleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_DPAD_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1dpadright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_BACK   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1view"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_START   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1menu"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_AXIS_RIGHT_FORW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1r"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_AXIS_RIGHT_BACKW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsStickrudlr"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_AXIS_LEFT_FORW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsSticktright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_AXIS_LEFT_BACKW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsSticklleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_THUMB_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1ls"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_THUMB_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1rs"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_X_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiax"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_Y_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiay"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_A_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiaa"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_B_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiab"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_RB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiar1"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_LB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadial1"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_TRIGGER_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadial2"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_TRIGGER_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiar2"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_DPAD_DOWN   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadpaddown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_DPAD_UP   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadpadup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_DPAD_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadpadleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_DPAD_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadpadright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_BACK   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadots"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_START   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiaburger"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_AXIS_RIGHT_FORW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiarsupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_AXIS_RIGHT_BACKW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiars"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_AXIS_LEFT_FORW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadialsupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_AXIS_LEFT_BACKW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_THUMB_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadialspress"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_THUMB_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiarspress"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_AXIS_LEFT_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_X_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchx"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_Y_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchy"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_A_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitcha"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_B_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchb"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_RB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchr"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_LB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchl"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_TRIGGER_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchzl"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_TRIGGER_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchzr"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_DPAD_UP   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchdpadup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_DPAD_DOWN   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchdpaddown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_DPAD_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchdpadleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_DPAD_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchdpadright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_BACK   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchminus"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_START   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchplus"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_RIGHT_FORW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchdpadupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nspro_AXIS_RIGHT_FORW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcnsprodpadupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_RIGHT_BACKW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchrs"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_LEFT_FORW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchlsupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_LEFT_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchlsleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_LEFT_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchdpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_LEFT_BACKW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchdpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nspro_AXIS_LEFT_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcnsprodpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nspro_AXIS_LEFT_BACKW   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcnsprodpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_THUMB_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchlspress"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_THUMB_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchrspress"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nspro_DPAD_UP   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcnsprodpadup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nspro_DPAD_DOWN   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcnsprodpaddown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nspro_DPAD_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcnsprodpadleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nspro_DPAD_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcnsprodpadright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_SQUARE   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4square"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_CIRCLE   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4circle"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_TRIANGLE   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4triangle"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_CROSS   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4cross"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_DPAD_UP   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4dpadup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_DPAD_DOWN   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4dpaddown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_DPAD_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4dpadleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_DPAD_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4dpadright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_LB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4l1"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_TRIGGER_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4l2"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_RB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4r1"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_TRIGGER_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4r2"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_BACK   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4share"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_START   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4options"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_RAXIS_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4r"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_RAXIS_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4rudlr"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_LAXIS_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsSticktright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_LAXIS_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsSticklleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_THUMB_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4l3"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_THUM_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4r3"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_LEFT_TOUCH_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4touchpad"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_MULTI_TOUCH_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4touchpad"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_RIGHT_TOUCH_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4touchpad"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_OPTIONS   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4options"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_SE   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheelse"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_SHARE   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheelshare"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   default   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcpc"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_AXIS_RIGHT_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1dpadupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_RIGHT_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchrs"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx64_AXIS_RIGHT_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchrs"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_AXIS_RIGHT_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiadpadupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_AXIS_RIGHT_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadiars"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_RAXIS_FORWARD   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4dpadupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_GEAR_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheellup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_GEAR_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheelrup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_DPAD_LEFT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheeldpadleft"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_DPAD_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheeldpadright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_DPAD_UP   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheeldpadup"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_DPAD_DOWN   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheeldpaddown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_NAVIGATION_VERTICAL   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheeldpadupdown"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_DPAD_ALL   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheeldpad"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_OPTIONS   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheeloptions"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_ST   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheelst"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_RSB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheelrsb"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_LSB   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheellsb"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_Enter   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcwheelenter"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_LAXIS_UDLR   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4l"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_LAXIS_UDLR   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1l"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   nx_LAXIS_UDLR   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcswitchls"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   stadia_LAXIS_UDLR   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcstadials"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   sw_WHEEL_THUMBLER   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsFanatecwheelthumbler"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   xb_AXIS_LEFT_RIGHT   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcxb1dpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps_LAXIS_BACKWARD   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps4dpadleftright"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps5_OPTIONS   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps5options"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps5_LEFT_TOUCH_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps5touchpad"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps5_MULTI_TOUCH_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps5touchpad"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps5_RIGHT_TOUCH_BUTTON   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps5touchpad"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps5_SHARE   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps5share"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ps5_BACK   =   {
+      type   =   {
+         __type   =   "UiGamepadIconsMcps5share"
+      }
+      __type   =   "UiContainerDesc"
+   }
+}
+__type   =   "object"

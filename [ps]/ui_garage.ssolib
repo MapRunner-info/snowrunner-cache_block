@@ -1,0 +1,500 @@
+classes   =   {
+   AutoClassTruckmarkerhintbtnTfcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   ""
+      sslClass   =   "UiGarageAutoclasstruckmarkerhintbtntfcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Garagebtntext   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageBtnText"
+      sslClass   =   "UiGarageGaragebtntext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Garagebutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "garageButton"
+      buttonAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   -63
+         y   =   11
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      textCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   50
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGaragebtntext"
+      }
+      iconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Garagebuttonpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageButtonPanel"
+      sslClass   =   "UiGarageGaragebuttonpanel"
+      btn0   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGarageGaragebutton"
+      }
+      btn1   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   80
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGarageGaragebutton"
+      }
+      btn2   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   160
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGarageGaragebutton"
+      }
+      btn3   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   240
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGarageGaragebutton"
+      }
+      btn4   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   320
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiGarageGaragebutton"
+      }
+      __type   =   "UiContainer"
+   }
+   Garagelogattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageLogAttach"
+      sslClass   =   "UiGarageGaragelogattach"
+      __type   =   "UiContainer"
+   }
+   Garageplayerprofile   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garagePlayerProfile"
+      sslClass   =   "UiGarageGarageplayerprofile"
+      playerCurIcon   =   {
+         symbol   =   ""
+         x   =   252
+         y   =   34
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerName   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   -5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGaragePlayernametxt"
+      }
+      playerCur   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   29
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGaragePlayercurtxt"
+      }
+      playerAva   =   {
+         symbol   =   ""
+         x   =   282
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Garagescreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageScreen"
+      sslClass   =   "UiGarageGaragescreen"
+      popUpAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      playerInfoAttach   =   {
+         symbol   =   ""
+         x   =   1475
+         y   =   55
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      truckSwitch   =   {
+         symbol   =   ""
+         x   =   960
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageTruckswitchclip"
+      }
+      garageSlots   =   {
+         symbol   =   ""
+         x   =   960
+         y   =   66
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslotsindicator"
+      }
+      garageBtnPanel   =   {
+         symbol   =   ""
+         x   =   200
+         y   =   390
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGaragebuttonpanel"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      logAttach   =   {
+         symbol   =   ""
+         x   =   1825
+         y   =   385
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGaragelogattach"
+      }
+      lockedFeaturesAttach   =   {
+         symbol   =   ""
+         x   =   150
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      placement   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Garageslot   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageSlot"
+      sslClass   =   "UiGarageGarageslot"
+      __type   =   "UiContainer"
+   }
+   Garageslotbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "garageSlotBtn"
+      slotIndicator   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslot"
+      }
+      __type   =   "UiButton"
+   }
+   Garageslotsindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageSlotsIndicator"
+      sslClass   =   "UiGarageGarageslotsindicator"
+      slot5   =   {
+         symbol   =   ""
+         x   =   109
+         y   =   -6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslotbtn"
+      }
+      slot4   =   {
+         symbol   =   ""
+         x   =   63
+         y   =   -6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslotbtn"
+      }
+      slot3   =   {
+         symbol   =   ""
+         x   =   17
+         y   =   -6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslotbtn"
+      }
+      slot2   =   {
+         symbol   =   ""
+         x   =   -29
+         y   =   -6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslotbtn"
+      }
+      slot1   =   {
+         symbol   =   ""
+         x   =   -75
+         y   =   -6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslotbtn"
+      }
+      slot0   =   {
+         symbol   =   ""
+         x   =   -121
+         y   =   -6
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageGarageslotbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   Garageslotslockedalticon   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageSlotsLockedAltIcon"
+      sslClass   =   "UiGarageGarageslotslockedalticon"
+      __type   =   "UiContainer"
+   }
+   Garagetruckmarker   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "garageTruckMarker"
+      sslClass   =   "UiGarageGaragetruckmarker"
+      tfCont   =   {
+         symbol   =   ""
+         x   =   28
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageTruckmarkertf"
+      }
+      arrowL   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageSwitchtruckarrowold"
+      }
+      arrowR   =   {
+         symbol   =   ""
+         x   =   276
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageSwitchtruckarrowold"
+      }
+      hintBtn   =   {
+         symbol   =   ""
+         x   =   28
+         y   =   54.4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageTruckmarkerhintbtn"
+      }
+      __type   =   "UiContainer"
+   }
+   LockedSlotIcon   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "locked_slot_icon"
+      sslClass   =   "UiGarageLockedsloticon"
+      __type   =   "UiContainer"
+   }
+   Playercurtxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "playerCurTxt"
+      sslClass   =   "UiGaragePlayercurtxt"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Playernametxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "playerNameTxt"
+      sslClass   =   "UiGaragePlayernametxt"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Switchtruckarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "switchTruckArrow"
+      arrowAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Switchtruckarrowold   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "switchTruckArrowOld"
+      __type   =   "UiButton"
+   }
+   Truckmarkerhintbtn   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "truckMarkerHintBtn"
+      icon   =   {
+         sslModule   =   "ui.ui_gfx"
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   99.9786
+         __type   =   "UiMovieClip"
+      }
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   40
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiGarageAutoclasstruckmarkerhintbtntfcont"
+      }
+      __type   =   "UiButton"
+   }
+   Truckmarkertf   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "truckMarkerTf"
+      sslClass   =   "UiGarageTruckmarkertf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckswitchclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "truckSwitchClip"
+      sslClass   =   "UiGarageTruckswitchclip"
+      arrowR   =   {
+         symbol   =   ""
+         x   =   158
+         y   =   -50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageSwitchtruckarrow"
+      }
+      arrowL   =   {
+         symbol   =   ""
+         x   =   -191
+         y   =   -50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageSwitchtruckarrow"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiGarageTruckswitchtf"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckswitchtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_garage"
+      symbol   =   "truckSwitchTf"
+      sslClass   =   "UiGarageTruckswitchtf"
+      tf   =   {
+         x   =   -400
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

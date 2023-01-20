@@ -1,0 +1,35 @@
+uiDesc   =   "US_01_01_STUCK_TRAILER_TSK_DESC_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "STUCK_TRAILER"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_01 || US_01_01_STUCK_TRAILER_PARK"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_01_STUCK_TRAILER_DELIVER"
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_01_STUCK_TRAILER_TSK_REWARD_DESC"
+recommendedTruck   =   "OFFROAD"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   240
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1600
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_STUCK_TRAILER_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_01_STUCK_TRAILER_A_TSK"
+]
+__type   =   "TaskSettings"

@@ -1,0 +1,70 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	ChromaticAberration = {
+		__type = "section"
+		__viewType = {
+			__expand = true
+			__caption = "Chromatic aberration"
+		}
+		__members = {
+			Enabled = {
+				__type = "bool"
+				__defaultValue = false
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			Scale = {
+				__type = "float"
+				__defaultValue = 10
+				__viewType = {
+					__wrappable = false
+					__min = 0.0
+					__max = 50.0
+					__step = 0.01
+				}
+			}
+			
+			floatParam01 = {
+				__viewType {
+					__caption = "k(r^2)"
+					__hint = "r - distance from center"
+					__wrappable = false
+					__type = "float"
+					__min = -5.0
+					__max = 5.0
+				}
+				__type = "float"
+				__defaultValue = 1.0
+			}
+			floatParam02 = {
+				__viewType {
+					__caption = "k(r^4)"
+					__hint = "r - distance from center"
+					__wrappable = false
+					__type = "float"
+					__min = -5.0
+					__max = 5.0
+				}
+				__type = "float"
+				__defaultValue = 0
+			}
+			floatParam03 = {
+				__viewType {
+					__caption = "k(r^6)"
+					__hint = "r - distance from center"
+					__wrappable = false
+					__type = "float"
+					__min = -5.0
+					__max = 5.0
+				}
+				__type = "float"
+				__defaultValue = 0
+			}			
+		}	
+	}
+}

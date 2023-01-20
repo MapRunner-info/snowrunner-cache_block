@@ -1,0 +1,70 @@
+uiDesc   =   "US_01_01_LANDSLIDE_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_01_LANDSLIDE_BRING_METAL_AND_SPARE_TO_LANDSLIDE_ON_US_01_01"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_LANDSLIDE_TSK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoMetalPlanks"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_01_01_LANDSLIDE_A_TSK"
+               ]
+            },
+            {
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_LANDSLIDE_TSK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+               additionalUnloadZones   =   [
+                  "US_01_01_LANDSLIDE_A_TSK"
+               ]
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+model   =   {
+   levelName   =   "level_us_01_01"
+   modelTag   =   "rock_landslide_obj"
+   stagesProgress   =   {
+      stage_visible   =   {
+      }
+      stage_hidden   =   {
+         __value   =   1
+      }
+   }
+   __type   =   "ModelBuildingSettings"
+}
+description   =   "US_01_01_LANDSLIDE_REWARD_DESC"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   180
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1600
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_LANDSLIDE_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+additionalTaskGivers   =   [
+   "US_01_01_LANDSLIDE_A_TSK",
+   "US_01_01_LANDSLIDE_B_TSK"
+]
+__type   =   "TaskSettings"

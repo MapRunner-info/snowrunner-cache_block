@@ -1,0 +1,7 @@
+minRadius   =   {
+   __type   =   "Vector3d"
+}
+maxRadius   =   {
+   __type   =   "Vector3d"
+}
+__type   =   "EmissionVectorBase"

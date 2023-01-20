@@ -1,0 +1,18 @@
+view   =   {
+   __type   =   "PopupWithEmbeddedBtnView"
+}
+state   =   {
+   __type   =   "ScreenState"
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "Popup With Context Btn"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

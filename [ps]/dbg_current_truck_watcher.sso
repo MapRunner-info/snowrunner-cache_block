@@ -1,0 +1,27 @@
+presets   =   {
+   ru_02   =   {
+      type   =   "tayga_6436"
+      addons   =   [
+         "frame_addon_flatbed_2",
+         "tayga_6436_snorkel_1"
+      ]
+      engine   =   "ru_truck_old_heavy_engine_1"
+      gearbox   =   "g_truck_offroad"
+      suspension   =   "tayga_6436_suspension_high"
+      tires   =   "offroad_3"
+      __type   =   "TruckPreset"
+   }
+   default   =   {
+      type   =   "royal_bm17"
+      addons   =   [
+         "frame_addon_flatbed_2",
+         "royal_bm17_snorkel_1"
+      ]
+      engine   =   "us_truck_modern_engine_1"
+      gearbox   =   "g_truck_offroad"
+      suspension   =   "royal_bm17_suspension_high"
+      tires   =   "offroad_3"
+      __type   =   "TruckPreset"
+   }
+}
+__type   =   "object"

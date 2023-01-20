@@ -1,0 +1,29 @@
+uiObjectDesc   =   {
+   type   =   {
+      friendlistList   =   {
+         lir   =   {
+            __type   =   "PartyManagerFriendsViewLirItem"
+         }
+         __type   =   "UiExitMenuPartyfriendlistlist"
+      }
+      __type   =   "UiExitMenuPartyfriendlist"
+   }
+   __type   =   "UiObjectDesc"
+}
+inputScreen   =   {
+   priority   =   "VERY_HIGH"
+   name   =   "Party Manager Friends"
+   inputsLinks   =   {
+      Close   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Invite   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenViewBase"

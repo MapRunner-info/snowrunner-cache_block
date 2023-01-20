@@ -1,0 +1,10 @@
+gameFsm   =   {
+   __type   =   "PveGameLobbyFsm"
+}
+hostFsm   =   {
+   __type   =   "PveGameHostFsm"
+}
+teamDistributor   =   {
+   __type   =   "GameSessionTeamDistributor"
+}
+__type   =   "MatchmakingGameSession"

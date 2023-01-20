@@ -1,0 +1,7 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiNavigationLegendNavigationpanel"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ComponentUiViewBase"

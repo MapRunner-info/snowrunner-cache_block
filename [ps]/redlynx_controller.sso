@@ -1,0 +1,60 @@
+localizationInfo   =   [
+   {
+   },
+   {
+      localizationName   =   "french"
+      language   =   "fr"
+      country   =   "FR"
+   },
+   {
+      localizationName   =   "russian"
+      language   =   "ru"
+      country   =   "RU"
+   },
+   {
+      localizationName   =   "italian"
+      language   =   "it"
+      country   =   "IT"
+   },
+   {
+      localizationName   =   "german"
+      language   =   "de"
+      country   =   "DE"
+   },
+   {
+      localizationName   =   "spanish"
+      language   =   "es"
+      country   =   "ES"
+   },
+   {
+      localizationName   =   "brazilian_portuguese"
+      language   =   "pt"
+      country   =   "PT"
+   },
+   {
+      localizationName   =   "polish"
+      language   =   "pl"
+      country   =   "PL"
+   },
+   {
+      localizationName   =   "simplified_chinese"
+      language   =   "zh"
+      country   =   "CN"
+   },
+   {
+      localizationName   =   "traditional_chinese"
+      language   =   "zh"
+      country   =   "TW"
+   },
+   {
+      localizationName   =   "korean"
+      language   =   "ko"
+      country   =   "KR"
+   },
+   {
+      localizationName   =   "japanese"
+      language   =   "ja"
+      country   =   "JP"
+   }
+]
+__type   =   "object"

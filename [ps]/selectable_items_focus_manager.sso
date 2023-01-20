@@ -1,0 +1,7 @@
+focusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Return"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "object"

@@ -1,0 +1,15 @@
+view   =   {
+   __type   =   "PlayerProfileUiView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         back   =   {
+            uiInputName   =   "ExitProfile"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PlayerProfileNavigationPanel"
+   }
+}
+__type   =   "ScreenControllerBase"

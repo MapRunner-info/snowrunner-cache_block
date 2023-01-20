@@ -1,0 +1,7 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiTutorialLibTutorialhintanim"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "ScreenViewBase"

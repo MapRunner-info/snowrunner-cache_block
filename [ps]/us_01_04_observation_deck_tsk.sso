@@ -1,0 +1,32 @@
+uiDesc   =   "US_01_04_OBSERVATION_DECK_TSK_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_04_OBSERVATION_DECK_TSK_SUB_0_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_OBSERVATION_DECK"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+description   =   "US_01_04_OBSERVATION_DECK_TSK_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_04_new || US_01_04_OBSERVATION"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   40
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   650
+   }
+}
+recommendedTruck   =   "SCOUT"
+__type   =   "TaskSettings"

@@ -1,0 +1,328 @@
+__type = "section"
+__viewType = {
+   __type = "rootSection"
+}
+__members   =   {
+   Tonemapping = {
+      __type = "section"
+      __viewType = {
+         __expand = true
+         __caption = "Tonemapping"
+      }
+      __members = {
+         TonemapCurveParams = {
+            __type = "section"
+            __viewType = {
+               __expand = false
+               __caption = "Tonemap curve params"
+            }
+         
+            __members = {
+               pA = {
+                  __type = "float"
+                  __defaultValue = 0.1
+                  __viewType {
+                     __wrappable = false
+                     __type = "slider"
+                     __min = 0.02
+                     __max = 0.5
+                     __step = 0.02
+                     __caption = "(A) shoulder strength"
+                  }
+               }
+               pB = {
+                  __type = "float"
+                  __defaultValue = 0.5
+                  __viewType {
+                     __wrappable = false
+                     __type = "slider"
+                     __min = 0.1
+                     __max = 1.0
+                     __step = 0.05
+                     __caption = "(B) linear strength"
+                  }
+               }
+               pC = {
+                  __type = "float"
+                  __defaultValue = 0.1
+                  __viewType {
+                     __wrappable = false
+                     __type = "slider"
+                     __min = 0.02
+                     __max = 0.5
+                     __step = 0.02
+                     __caption = "(C) linear angle"
+                  }
+               }
+               pD = {
+                  __type = "float"
+                  __defaultValue = 0.2
+                  __viewType {
+                     __wrappable = false
+                     __type = "slider"
+                     __min = 0.05
+                     __max = 1.0
+                     __step = 0.05
+                     __caption = "(D) toe strength"
+                  }
+               }
+               pE = {
+                  __type = "float"
+                  __defaultValue = 0.02
+                  __viewType {
+                     __wrappable = false
+                     __type = "slider"
+                     __min = 0.005
+                     __max = 0.1
+                     __step = 0.005
+                     __caption = "(E) toe numerator"
+                  }
+               }
+               pF = {
+                  __type = "float"
+                  __defaultValue = 0.3
+                  __viewType {
+                     __wrappable = false
+                     __type = "slider"
+                     __min = 0.05
+                     __max = 1.0
+                     __step = 0.05
+                     __caption = "(F) toe numerator"
+                  }
+               }
+            }
+         }
+         WhitePoint = {
+               __type = "float"
+               __defaultValue = 11.0
+               __viewType {
+                  __wrappable = false
+                  __type = "slider"
+                  __min = 0.1
+                  __max = 100
+                  __caption = "White point"
+                  __hint = "Pixels with intensities near this value are white"
+               }
+         }
+         ExposureScaleX = {
+               __type = "float"
+               __defaultValue = 1.0
+               __viewType {
+                  __wrappable = false
+                  __type = "slider"
+                  __min = 0.0
+                  __max = 10
+                  __step = 0.01
+                  __hint = "Lesser value means darker dark areas (more contrast between bright and dark places), greater value means lighter dark areas."
+                  __caption = "Exposure spline scale X"
+               }
+         }
+         ExposureScale = {
+            __type = "float"
+            __defaultValue = 1.0
+            __viewType {
+               __wrappable = false
+               __type = "slider"
+               __min = 0.0
+               __max = 10.0
+               __step = 0.01
+               __caption = "Exposure spline scale Y"
+               __hint = "Bigger values means higher exposure and brighter picture equally across all range of scene lighting. So it's just brightness."
+            }
+         }
+         AdaptationSpeed = {
+            __type = "float"
+            __defaultValue = 0.5
+            __viewType {
+               __wrappable = false
+               __type = "slider"
+               __min = 0.0
+               __max = 10.0
+               __step = 0.1
+               __caption = "Adaptation speed"
+               __hint = "Time for current luminance to fully replace previous, in seconds"
+            }
+         }
+         AdaptationMinLum = {
+            __type = "float"
+            __defaultValue = 0.1
+            __viewType {
+               __wrappable = false
+               __type = "slider"
+               __min = 0.01
+               __max = 1000
+               __caption = "Adaptation min luminance"
+               __hint = "Exposure won't be adapted to lower avg luminance values"
+            }
+         }
+         AdaptationMaxLum = {
+            __type = "float"
+            __defaultValue = 800
+            __viewType {
+               __wrappable = false
+               __type = "slider"
+               __min = 0.01
+               __max = 2000
+               __caption = "Adaptation max luminance"
+               __hint = "Exposure won't be adapted to higher avg luminance values"
+            }
+         }
+      }
+   }
+   Bloom   =   {
+      __type = "section"
+      __viewType = {
+         __caption = "Bloom"
+         __expand = true
+      }
+      __members    =   {
+         Enabled = {
+            __viewType {
+               __wrappable = false
+            }
+            __type = "bool"
+            __defaultValue = true
+         }
+         BloomPoint = {
+            __type = "float"
+            __defaultValue = 100.0
+            __viewType {
+               __wrappable = false
+               __type = "slider"
+               __min = 0.0
+               __max = 100
+               __caption = "Bloom point"
+               __hint = "Pixels with intensities greater than this value will bloom"
+            }
+         }
+         Intensity = {
+            __type = "float"
+            __defaultValue = 1.0
+            __viewType {
+               __wrappable = false
+               __min = 0.0
+               __max = 8.0
+               __step = 0.01
+               __type = "slider"
+               __hint = "Overall bloom brightness in compositing stage"
+            }
+         }
+         Gamma = {
+            __type = "float"
+            __defaultValue = 1.0
+            __viewType {
+               __wrappable = false
+               __min = 0.1
+               __max = 2.0
+               __step = 0.05
+               __type = "slider"
+               __hint = "Gamma applied to bloom mask after bloom point has been subtructed"
+            }
+         }
+         
+         //BloomHarmonics = {
+         //   __type = "section"
+         //   __viewType = {
+         //      __expand = false
+         //      __caption = "Bloom harmonics"
+         //   }
+         //
+         //   __members = {
+         //      Tint0 = {
+         //         __type = "colorARGB"
+         //         __defaultValue = [255.0, 255.0, 255.0, 255.0]
+         //         __viewType {
+         //            __wrappable = false
+         //            __caption = "Tint0"
+         //         }
+         //      }
+         //      Tint1 = {
+         //         __type = "colorARGB"
+         //         __defaultValue = [255.0, 255.0, 255.0, 255.0]
+         //         __viewType {
+         //            __wrappable = false
+         //            __caption = "Tint1"
+         //         }
+         //      }
+         //      Tint2 = {
+         //         __type = "colorARGB"
+         //         __defaultValue = [255.0, 255.0, 255.0, 255.0]
+         //         __viewType {
+         //            __wrappable = false
+         //            __caption = "Tint2"
+         //         }            
+         //      }
+         //      Tint3 = {
+         //         __type = "colorARGB"
+         //         __defaultValue = [255.0, 255.0, 255.0, 255.0]
+         //         __viewType {
+         //            __wrappable = false
+         //            __caption = "Tint3"
+         //         }
+         //      }
+         //      Tint4 = {
+         //         __type = "colorARGB"
+         //         __defaultValue = [255.0, 255.0, 255.0, 255.0]
+         //         __viewType {
+         //            __wrappable = false
+         //            __caption = "Tint4"
+         //         }
+         //      }
+         //   }
+         //}
+         
+         DirtTexture = {
+            __type = "section"
+            __viewType = {
+               __caption = "Dirt texture parameters"
+               __expand = false
+            }
+
+            __members = {
+               Texture = {
+                  __type = "string"
+                  __viewType = {
+                     __wrappable = false
+                     __type = "texture_browser"
+                     __path = "filename"
+                     __default_path = "$pct_dir$"
+                     __caption = "Dirt texture"
+                     __hint = "Screen dirt texture, multiplies bloom"
+
+                  }
+                  __extraData   =   {
+                     resource   =   "texture"
+                  }
+                  __defaultValue = ""
+               }
+               
+               Intensity = {
+                  __type = "float"
+                  __defaultValue = 1.0
+                  __viewType {
+                     __wrappable = false
+                     __min = 0.0
+                     __max = 1.0
+                     __step = 0.05
+                     __type = "slider"
+                     __hint = "Inten"
+                  }
+               }
+            }
+         }
+      }
+   }
+   MayaExposure = {
+      __type = "float"
+      __defaultValue = 1.0
+      __viewType {
+         __wrappable = false
+         __type = "slider"
+         __min = 0.0
+         __max = 10.0
+         __step = 0.01
+         __caption = "Maya Exposure"
+         __hint = "Exposure value for tonemap calculation in Maya"
+      }
+   }
+}

@@ -1,0 +1,12 @@
+enableScaleformMouse   =   True
+inputScreen   =   {
+   name   =   "GameStateBase"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "Exploration.Menu"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "object"

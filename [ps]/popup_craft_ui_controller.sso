@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "PopupCraftUiView"
+}
+id   =   "CRAFT"
+energyIconName   =   "craftFuelImg"
+__type   =   "PopupCargoContentControllerBase"

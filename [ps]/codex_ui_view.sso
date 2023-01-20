@@ -1,0 +1,11 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiCodexLibCodexscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+hideSound   =   "ui/ui_click_exit"
+__type   =   "PopupViewBase"

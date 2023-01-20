@@ -1,0 +1,6 @@
+view   =   {
+   __type   =   "UiOneSettingStepperView"
+}
+header   =   "UI_SETTINGS_STEERING_WHEEL_INVERT_CUSTOMIZATION_CAMERA_X"
+desc   =   "UI_SETTINGS_STEERING_WHEEL_INVERT_CUSTOMIZATION_CAMERA_X_DESC"
+__type   =   "UiOneSettingStepperOnOff"

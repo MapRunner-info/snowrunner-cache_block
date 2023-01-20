@@ -1,0 +1,74 @@
+uiObjectDesc   =   {
+   type   =   {
+      checkBoxBtnAttach   =   {
+         focusable   =   False
+         __type   =   "UiMovieClip"
+      }
+      crossplatformKeyBtn   =   {
+         focusable   =   False
+         textCont   =   {
+            isHtml   =   True
+            __type   =   "UiExitMenuPartycrossplatformkeytfembeded"
+         }
+         __type   =   "UiExitMenuPartycrossplatformkeybutton"
+      }
+      crossplatformKey   =   {
+         visible   =   False
+         textField   =   {
+            isHtml   =   True
+            __type   =   "UiLabel"
+         }
+         __type   =   "UiExitMenuAutoclasspartymanagementcontcrossplatformkey"
+      }
+      checkBoxWinch   =   {
+         focusable   =   False
+         __type   =   "UiExitMenuPartycheckbox"
+      }
+      switcherPublicPrivate   =   {
+         visible   =   False
+         focusable   =   False
+         rightBtnAttach   =   {
+            focusable   =   False
+            __type   =   "UiMovieClip"
+         }
+         leftBtnAttach   =   {
+            focusable   =   False
+            __type   =   "UiMovieClip"
+         }
+         switcherPrivate   =   {
+            focusable   =   False
+            __type   =   "UiExitMenuPartyswitcherbtn"
+         }
+         switcherPublic   =   {
+            focusable   =   False
+            __type   =   "UiExitMenuPartyswitcherbtn"
+         }
+         __type   =   "UiExitMenuPartyswitcher"
+      }
+      __type   =   "UiExitMenuPartymanagementcont"
+   }
+   __type   =   "UiObjectDesc"
+}
+playerStatuses   =   [
+   {
+      view   =   {
+         __type   =   "MenuPlayerStatusUiView"
+      }
+   },
+   {
+      view   =   {
+         __type   =   "MenuPlayerStatusUiView"
+      }
+   },
+   {
+      view   =   {
+         __type   =   "MenuPlayerStatusUiView"
+      }
+   },
+   {
+      view   =   {
+         __type   =   "MenuPlayerStatusUiView"
+      }
+   }
+]
+__type   =   "ScreenViewBase"

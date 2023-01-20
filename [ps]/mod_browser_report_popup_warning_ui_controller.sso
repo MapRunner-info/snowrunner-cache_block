@@ -1,0 +1,35 @@
+view   =   {
+   __type   =   "ModBrowserReportPopupWarningUiView"
+}
+navPanels   =   {
+   default   =   {
+      centerAllign   =   True
+      btns   =   {
+         Back   =   {
+            text   =   "UI_BACK"
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      order   =   [
+         "Back"
+      ]
+      __type   =   "AllButtonsNavigationPanel"
+   }
+}
+priority   =   "MIDDLE"
+disableInputs   =   True
+useDefaultAttach   =   False
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "ModBrowserReportPopupWarning"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "Popups.Back"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

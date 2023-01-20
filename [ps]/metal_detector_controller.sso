@@ -1,0 +1,3 @@
+range   =   60
+objectFoundSoundName   =   "addons/metal_detector/metal_detector_object_found"
+__type   =   "object"

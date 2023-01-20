@@ -1,0 +1,44 @@
+searchQuery   =   ""
+pagination   =   {
+   __type   =   "ModBrowserFilterPagination"
+}
+sort   =   {
+   defaultField   =   "popular"
+   options   =   {
+      name   =   {
+         uiName   =   "UI_MOD_BROWSER_SORT_FIELD_NAME"
+         isAscDefault   =   True
+         __type   =   "ModBrowserFilterSortOption"
+      }
+      rating   =   {
+         uiName   =   "UI_MOD_BROWSER_SORT_FIELD_RATING"
+         __type   =   "ModBrowserFilterSortOption"
+      }
+      subscribers   =   {
+         uiName   =   "UI_MOD_BROWSER_SORT_FIELD_SUBSCRIBERS"
+         __type   =   "ModBrowserFilterSortOption"
+      }
+      popular   =   {
+         uiName   =   "UI_MOD_BROWSER_SORT_FIELD_POPULAR_TODAY"
+         __type   =   "ModBrowserFilterSortOption"
+      }
+      downloads   =   {
+         uiName   =   "UI_MOD_BROWSER_SORT_FIELD_POPULAR_OVERALL"
+         __type   =   "ModBrowserFilterSortOption"
+      }
+      date_added   =   {
+         uiName   =   "UI_MOD_BROWSER_SORT_FIELD_DATE_ADDED"
+         __type   =   "ModBrowserFilterSortOption"
+      }
+      date_updated   =   {
+         uiName   =   "UI_MOD_BROWSER_SORT_FIELD_DATE_UPDATED"
+         __type   =   "ModBrowserFilterSortOption"
+      }
+   }
+   __type   =   "ModBrowserFilterSort"
+}
+tags   =   {
+   consoleApprovedTag   =   "Console_Selected"
+   __type   =   "ModBrowserFilterTags"
+}
+__type   =   "object"

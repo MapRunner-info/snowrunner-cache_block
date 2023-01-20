@@ -1,0 +1,291 @@
+view   =   {
+   photoModeSettingsList   =   {
+      disableAcceptInput   =   True
+      __type   =   "UiListAdapter"
+   }
+   __type   =   "PhotoModeView"
+}
+navPanels   =   {
+   default   =   {
+      useBg   =   True
+      btns   =   {
+         TakePic   =   {
+            uiInputName   =   "TakePic"
+            __type   =   "NavButtonDesc"
+         }
+         RestoreDefault   =   {
+            uiInputName   =   "RestoreDefault"
+            forceShowWithActiveTutorial   =   True
+            __type   =   "NavButtonDesc"
+         }
+         HideUI   =   {
+            uiInputName   =   "HideUI"
+            __type   =   "NavButtonDesc"
+         }
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "PhotoModeNavigationPanel"
+   }
+}
+inputScreen   =   {
+   priority   =   "VERY_LOW"
+   name   =   "PhotoMode"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      TakePic   =   {
+         inputLink   =   "UI.TakePic"
+         __type   =   "InputLinkHoldMr"
+      }
+      RestoreDefault   =   {
+         inputLink   =   "UI.RestoreDefault"
+         __type   =   "InputLinkHoldMr"
+      }
+      HideUI   =   {
+         inputLink   =   "UI.HideUi"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   False
+   __type   =   "SslUiInputScreenMr"
+}
+settings   =   [
+   {
+      name   =   "TIME"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_TIME"
+         presetUiNames   =   [
+            "UI_MORNING_TIME",
+            "UI_AFTERNOON_TIME",
+            "UI_EVENING_TIME",
+            "UI_NIGHT_TIME"
+         ]
+         __type   =   "UiPhotoModeOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "WEATHER"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_WEATHER"
+         presetUiNames   =   [
+            "UI_PHOTO_MODE_WEATHER_DEFAULT",
+            "UI_PHOTO_MODE_WEATHER_CLEAR_SKY",
+            "UI_PHOTO_MODE_WEATHER_LIGHT_RAIN",
+            "UI_PHOTO_MODE_WEATHER_HEAVY_RAIN",
+            "UI_PHOTO_MODE_WEATHER_HEAVY_SNOW"
+         ]
+         __type   =   "UiPhotoModeOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "DRIVER"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_DRIVER"
+         __type   =   "UiPhotoModeOneStepperController"
+      }
+   },
+   {
+      name   =   "LIGHTS"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_TRUCK_LIGHTS"
+         __type   =   "UiPhotoModeOneStepperController"
+      }
+   },
+   {
+      name   =   "SPACE"
+      controller   =   {
+         __type   =   "null"
+      }
+   },
+   {
+      name   =   "EXPOSURE"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_EXPOSURE"
+         minValue   =   -0.5
+         maxValue   =   0.5
+         defaultValue   =   0
+         stepInterval   =   0.05
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "CONTRAST"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_CONTRAST"
+         minValue   =   0
+         maxValue   =   2
+         defaultValue   =   1
+         stepInterval   =   0.05
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "HUE"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_HUE"
+         minValue   =   -3
+         maxValue   =   3
+         defaultValue   =   0
+         stepInterval   =   0.1
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "SATURATION"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_SATURATION"
+         maxValue   =   2
+         defaultValue   =   1
+         stepInterval   =   0.05
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "COLOR_GRADING"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_COLOR_GRADING"
+         minValue   =   0
+         maxValue   =   19
+         defaultValue   =   0
+         stepInterval   =   1
+         textFormat   =   "INTEGER"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "COLOR_GRADING_ITENSITY"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_COLOR_GRADING_ITENSITY"
+         maxValue   =   1
+         defaultValue   =   0.35
+         stepInterval   =   0.05
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "VIGNETTE"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_VIGNETTE"
+         maxValue   =   1
+         defaultValue   =   0.35
+         stepInterval   =   0.05
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "FILM_GRAIN"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_FILM_GRAIN"
+         maxValue   =   1
+         defaultValue   =   0.35
+         stepInterval   =   0.05
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "SPACE"
+      controller   =   {
+         __type   =   "null"
+      }
+   },
+   {
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_FOV"
+         minValue   =   80
+         maxValue   =   130
+         defaultValue   =   80
+         stepInterval   =   1
+         textFormat   =   "INTEGER"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "FOCUS_MODE"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_FOCUS_MODE"
+         presetUiNames   =   [
+            "UI_PHOTO_MODE_FOCUS_MODE_AUTO",
+            "UI_PHOTO_MODE_FOCUS_MODE_MANUAL"
+         ]
+         __type   =   "UiPhotoModeOneAdvancedStepperController"
+      }
+   },
+   {
+      name   =   "APERTURE"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_APERTURE"
+         maxValue   =   200
+         defaultValue   =   30
+         stepInterval   =   1
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "FOCUS_DISTANCE"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_FOCUS_POINT"
+         minValue   =   5
+         maxValue   =   50
+         defaultValue   =   12
+         stepInterval   =   0.25
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   },
+   {
+      name   =   "FOCUS_SPAN"
+      controller   =   {
+         title   =   "UI_PHOTO_MODE_FOCUS_SPAN"
+         minValue   =   5
+         maxValue   =   200
+         defaultValue   =   20
+         stepInterval   =   0.5
+         textFormat   =   "FLOAT"
+         __type   =   "UiPhotoModeOneSliderController"
+      }
+   }
+]
+flyCameraMoveLink   =   {
+   inputLink   =   "UI.FlyCameraMove"
+   __type   =   "InputLinkVectorMr"
+}
+flyCameraRotateLink   =   {
+   inputLink   =   "UI.FlyCameraRotate"
+   __type   =   "InputLinkVectorMr"
+}
+flyCameraRotateCwLink   =   {
+   inputLink   =   "UI.FlyCameraRotateCW"
+   __type   =   "InputLinkVectorMr"
+}
+flyCameraMoveUpDownLink   =   {
+   inputLink   =   "UI.FlyCameraUpDownMove"
+   __type   =   "InputLinkVectorMr"
+}
+flyCameraMoveYAxisLink   =   {
+   inputLink   =   "UI.FlyCameraRotateCW"
+   __type   =   "InputLinkVectorMr"
+}
+flyCameraMoveXAxisLink   =   {
+   inputLink   =   "UI.FlyCameraRotate"
+   __type   =   "InputLinkVectorMr"
+}
+flyCameraMoveZAxisLink   =   {
+   inputLink   =   "UI.FlyCameraMove"
+   __type   =   "InputLinkVectorMr"
+}
+inputCameraRotateLink   =   {
+   __type   =   "InputLinkVector"
+}
+__type   =   "ScreenControllerBase"

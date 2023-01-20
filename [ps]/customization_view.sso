@@ -1,0 +1,90 @@
+uiObjectDesc   =   {
+   type   =   {
+      panel   =   {
+         panelHeader   =   {
+            arrowBack   =   {
+               focusable   =   False
+               enabled   =   False
+               __type   =   "UiCustomizationLibCustomizationpanelarrow"
+            }
+            __type   =   "UiCustomizationLibCustomizepanelsubheader"
+         }
+         content   =   {
+            colors   =   {
+               list   =   {
+                  lir   =   {
+                     __type   =   "CustomizationViewColorLir"
+                  }
+                  scrollBar   =   {
+                     __type   =   "UiCommonLibDefscrollbars"
+                  }
+                  __type   =   "UiCustomizationLibColortilelist"
+               }
+               __type   =   "UiCustomizationLibColorcontainer"
+            }
+            interior   =   {
+               accList   =   {
+                  scrollBar   =   {
+                     __type   =   "UiCommonLibDefscrollbars"
+                  }
+                  __type   =   "UiCustomizationLibVisualaccordionlist"
+               }
+               __type   =   "UiCustomizationLibVisualcontainer"
+            }
+            visual   =   {
+               accList   =   {
+                  scrollBar   =   {
+                     __type   =   "UiCommonLibDefscrollbars"
+                  }
+                  __type   =   "UiCustomizationLibVisualaccordionlist"
+               }
+               __type   =   "UiCustomizationLibVisualcontainer"
+            }
+            tuning   =   {
+               accList   =   {
+                  updateDuration   =   60
+                  scrollBar   =   {
+                     __type   =   "UiCommonLibDefscrollbars"
+                  }
+                  __type   =   "UiCustomizationLibTuningaccordionlist"
+               }
+               __type   =   "UiCustomizationLibTuningcontainer"
+            }
+            __type   =   "UiCustomizationLibCustomizecontent"
+         }
+         __type   =   "UiCustomizationLibCustomizationpanel"
+      }
+      itemInfo   =   {
+         cargoList   =   {
+            lir   =   {
+               __type   =   "CustomizationCargoLir"
+            }
+            __type   =   "UiCustomizationLibTuningviewcargolist"
+         }
+         __type   =   "UiCustomizationLibTuningiteminfocontainer"
+      }
+      __type   =   "UiCustomizationLibCustomizescreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+repairsIcon   =   "rePairValueImg20"
+wheelsIcon   =   "repairWheelsImg20"
+fuelIcon   =   "reFuelValueImg20"
+waterIcon   =   "reFuelValueImg20"
+navBtnTabL   =   {
+   uiInputName   =   "PrevTab"
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabR   =   {
+   uiInputName   =   "NextTab"
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnCompatibleAddons   =   {
+   desc   =   {
+      text   =   "UI_TRUCK_SHOP_COMPATIBLE_ADDONS"
+      uiInputName   =   "OpenPopup"
+      __type   =   "NavButtonDesc"
+   }
+   __type   =   "NavButtonHolder"
+}
+__type   =   "ScreenViewBase"

@@ -1,0 +1,20 @@
+useBg   =   True
+btns   =   {
+   accept   =   {
+      text   =   "UI_AGREEMENT_ACCEPT"
+      input   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+   decline   =   {
+      text   =   "UI_AGREEMENT_DECLINE"
+      input   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

@@ -1,0 +1,40 @@
+uiDesc   =   "US_02_03_DISASS_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         __type   =   "ActionPackSettings"
+      }
+      truckDelivery   =   [
+         {
+            truckId   =   "US_02_03_RIG"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_02_03_new || US_02_03_AIRPORT"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_02_03_DISASS_TRUCK_DESC"
+            globalZoneSpawnId   =   {
+               globalZoneId   =   "level_us_02_03_new || US_02_03_DRILLBIT_SPAWN"
+               __type   =   "null"
+            }
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_02_02_DRILLING_PARTS_OBJ"
+]
+description   =   "US_02_03_DISASS_OBJ_REW"
+recommendedTruck   =   "OFFROAD"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   190
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1750
+   }
+}
+employer   =   "BlackBird"
+region   =   "us_02"
+__type   =   "ContractSettings"

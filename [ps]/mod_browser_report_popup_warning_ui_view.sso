@@ -1,0 +1,38 @@
+fadeWrapper   =   {
+   __type   =   "FadableUiContainerWrapper"
+}
+uiObjectDesc   =   {
+   type   =   {
+      popUp   =   {
+         actionBtnAttach   =   {
+            alpha   =   100
+            __type   =   "UiPopupLibPopupbtnattach"
+         }
+         __type   =   "UiPopupLibHudpopupcontext"
+      }
+      __type   =   "UiPopupLibMenuanimcontextpopup"
+   }
+   __type   =   "UiObjectDesc"
+}
+descArray   =   {
+   REPORT_TYPE_NOT_SELECTED   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_WARNING_DESC_REPORT_TYPE_NOT_SELECTED"
+   }
+   SIGNATURE_IS_REQUIRED   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_WARNING_DESC_SIGNATURE_IS_REQUIRED"
+   }
+   DETAILS_ARE_REQUIRED   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_WARNING_DESC_DETAILS_ARE_REQUIRED"
+   }
+   CONFIRMATION_IS_REQUIRED   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_WARNING_DESC_CONFIRMATION_IS_REQUIRED"
+   }
+   CONTACT_IS_REQUIRED   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_WARNING_DESC_CONTACT_IS_REQUIRED"
+   }
+   PENALTY_IS_NOT_CHECKED   =   {
+      __value   =   "UI_MOD_BROWSER_REPORT_WARNING_DESC_PENALTY_IS_NOT_CHECKED"
+   }
+}
+headerIconName   =   "popupWarningImg"
+__type   =   "PopupViewBase"

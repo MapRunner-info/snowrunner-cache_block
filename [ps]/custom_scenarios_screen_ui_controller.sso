@@ -1,0 +1,46 @@
+view   =   {
+   __type   =   "CustomScenariosScreenUiView"
+}
+navPanels   =   {
+   CustomScenariosNavigationPanel   =   {
+      btns   =   {
+         Back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            uiInputName   =   "Navigation"
+            __type   =   "NavButtonDesc"
+         }
+         ChangeDifficulty   =   {
+            uiInputName   =   "ChangeDifficulty"
+            __type   =   "NavButtonDesc"
+         }
+      }
+   }
+}
+inputScreen   =   {
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      Navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      ChangeDifficulty   =   {
+         inputLink   =   "UI.NavigationHorizontal"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+descScrollStep   =   5
+descGamepadScrollSpeed   =   -1
+descGamepadScrollSpeedSwitch   =   -2
+inputLinkGamepadScrollDesc   =   {
+   inputLink   =   "UI.ModBrowserScrollDesc"
+   __type   =   "InputLinkVectorMr"
+}
+__type   =   "ScreenControllerBase"

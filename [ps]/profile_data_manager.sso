@@ -1,0 +1,5 @@
+startingPersistentProfileData   =   {
+   money   =   5000
+   __type   =   "PersistentProfileData"
+}
+__type   =   "object"

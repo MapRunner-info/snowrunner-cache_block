@@ -1,0 +1,171 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Low Health (22)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+	
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Blood Texture"
+							__hint = "Blood texture rg - normal map b - blood texture a - alpha clip texture"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Beat Texture"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Range: [0 - 1]"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+						__defaultValue = 1.0
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Reftaction Strenght"
+						}
+						__type = "float"
+						__defaultValue = 0.1
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Fisheye Power"
+						}
+						__type = "float"
+						__defaultValue = 6
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Fisheye Zoom"
+						}
+						__type = "float"
+						__defaultValue = 0.8
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Fisheye Global Scale"
+						}
+						__type = "float"
+						__defaultValue = 0.2
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Beat Speed 1"
+						}
+						__type = "float"
+						__defaultValue = 1.5
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Beat Speed 2"
+						}
+						__type = "float"
+						__defaultValue = 0.2
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Clip Start"
+						}
+						__type = "float"
+						__defaultValue = 0.0
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Clip End"
+						}
+						__type = "float"
+						__defaultValue = 0.5
+					}
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "Blood Color"
+							__hint = ""
+							__wrappable = false
+							__hidden = false
+						}
+					}
+				}
+			}	
+			
+		}
+	}
+}

@@ -1,0 +1,2527 @@
+view   =   {
+   __type   =   "UiSettingsView"
+}
+navPanels   =   {
+   default   =   {
+      btns   =   {
+         back   =   {
+            uiInputName   =   "Back"
+            __type   =   "NavButtonDesc"
+         }
+         reset   =   {
+            uiInputName   =   "Reset"
+            __type   =   "NavButtonDesc"
+         }
+         navigation   =   {
+            uiInputName   =   "Navigation"
+            hideWithCustomSteeringWheelPreset   =   True
+            useAnim   =   False
+            __type   =   "NavButtonDesc"
+         }
+         accept   =   {
+            text   =   "UI_HUD_DIALOG_ACCEPT"
+            uiInputName   =   "Accept"
+            __type   =   "NavButtonDesc"
+         }
+      }
+      __type   =   "UiSettingsNavigationPanel"
+   }
+}
+state   =   {
+   __type   =   "UiSettingsScreenState"
+}
+inputScreen   =   {
+   name   =   "UiSettings"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkActionMr"
+      }
+      Reset   =   {
+         inputLink   =   "UI.ResetDefault"
+         __type   =   "InputLinkActionMr"
+      }
+      Navigation   =   {
+         inputLink   =   "UI.Navigation"
+         __type   =   "InputLinkHoldMr"
+      }
+      Accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+layout   =   {
+   presets   =   {
+      Game   =   {
+         elements   =   {
+            ArcadeInput   =   {
+               name   =   "ArcadeInput"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            HideDriver   =   {
+               name   =   "UiOneSettingStepperHideDriver"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Crossplay   =   {
+               name   =   "UiOneSettingStepperCrossplayController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            HideKsiva   =   {
+               name   =   "HideKsivaController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Display   =   {
+               name   =   "UI_SETTINGS_DISPLAY"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            Gamma   =   {
+               name   =   "Gamma"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            LanguageLine   =   {
+               name   =   "UI_SETTINGS_LANGUAGE"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            Language   =   {
+               name   =   "Language"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MetricSystem   =   {
+               name   =   "MetricSystem"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TutorialLine   =   {
+               name   =   "UI_SETTINGS_TUTORIAL"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            RepeatableTutorial   =   {
+               name   =   "RepeatableTutorial"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            availablePlatforms   =   {
+               DURANGO   =   {
+                  __value   =   False
+               }
+               ORBIS   =   {
+                  __value   =   False
+               }
+               NX64   =   {
+                  __value   =   False
+               }
+               GGP   =   {
+                  __value   =   False
+               }
+            }
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_GAME"
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      GameConsole   =   {
+         elements   =   {
+            ArcadeInput   =   {
+               name   =   "ArcadeInput"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            HideDriver   =   {
+               name   =   "UiOneSettingStepperHideDriver"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Crossplay   =   {
+               name   =   "UiOneSettingStepperCrossplayController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            HideKsiva   =   {
+               name   =   "HideKsivaController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            LanguageLine   =   {
+               name   =   "UI_SETTINGS_LANGUAGE"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            Language   =   {
+               name   =   "Language"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MetricSystem   =   {
+               name   =   "MetricSystem"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TutorialLine   =   {
+               name   =   "UI_SETTINGS_TUTORIAL"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            RepeatableTutorial   =   {
+               name   =   "RepeatableTutorial"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            availablePlatforms   =   {
+               PC   =   {
+                  __value   =   False
+               }
+               OSX   =   {
+                  __value   =   False
+               }
+            }
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_GAME"
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      Video   =   {
+         elements   =   {
+            DisplayMode   =   {
+               name   =   "DisplayMode"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Resolution   =   {
+               name   =   "Resolution"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TargetDisplay   =   {
+               name   =   "TargetDisplay"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Vsync   =   {
+               name   =   "Vsync"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MaxFps   =   {
+               name   =   "MaxFps"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            LimitFpsInBackground   =   {
+               name   =   "LimitFpsInBackground"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Antialialiasing   =   {
+               name   =   "Antialialiasing"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            EdgeAA   =   {
+               name   =   "EdgeAA"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MotionBlur   =   {
+               name   =   "MotionBlur"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Sharpening   =   {
+               name   =   "Sharpening"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FilmGrain   =   {
+               name   =   "FilmGrain"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FirstPersonCameraFov   =   {
+               name   =   "FirstPersonCameraFov"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ThirdPersonCameraFov   =   {
+               name   =   "ThirdPersonCameraFov"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            IsLegacyCamera   =   {
+               name   =   "IsLegacyCamera"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            VisualQualityPreset   =   {
+               name   =   "VisualQualityPreset"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            AdvancedVideo   =   {
+               name   =   "UI_SETTINGS_ADVANCED_VIDEO"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            TerrainDist   =   {
+               name   =   "TerrainDist"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GrassDensity   =   {
+               name   =   "GrassDensity"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ObjectQuality   =   {
+               name   =   "ObjectQuality"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SimulationQuality   =   {
+               name   =   "SimulationQuality"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ShadowQuality   =   {
+               name   =   "ShadowQuality"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TextureQuality   =   {
+               name   =   "TextureQuality"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TextureFiltering   =   {
+               name   =   "TextureFiltering"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            AmbientOcclusion   =   {
+               name   =   "AmbientOcclusion"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            WaterQuality   =   {
+               name   =   "WaterQuality"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            VolumeFog   =   {
+               name   =   "VolumeFogQuality"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            LightshaftsQuality   =   {
+               name   =   "LightshaftsQuality"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Mirrors   =   {
+               name   =   "Mirrors"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            availablePlatforms   =   {
+               DURANGO   =   {
+                  __value   =   False
+               }
+               ORBIS   =   {
+                  __value   =   False
+               }
+               NX64   =   {
+                  __value   =   False
+               }
+               GGP   =   {
+                  __value   =   False
+               }
+            }
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_VIDEO"
+         hasAcceptButton   =   True
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      VideoConsoles   =   {
+         elements   =   {
+            Gamma   =   {
+               name   =   "Gamma"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MotionBlur   =   {
+               name   =   "MotionBlur"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FilmGrain   =   {
+               name   =   "FilmGrain"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Sharpening   =   {
+               name   =   "Sharpening"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FirstPersonCameraFov   =   {
+               name   =   "FirstPersonCameraFov"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ThirdPersonCameraFov   =   {
+               name   =   "ThirdPersonCameraFov"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            availablePlatforms   =   {
+               PC   =   {
+                  __value   =   False
+               }
+               OSX   =   {
+                  __value   =   False
+               }
+            }
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_VIDEO"
+         hasAcceptButton   =   True
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      Audio   =   {
+         elements   =   {
+            Master   =   {
+               name   =   "VolumeMaster"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Music   =   {
+               name   =   "VolumeMusic"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Jingles   =   {
+               name   =   "VolumeJingles"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            UI   =   {
+               name   =   "VolumeUI"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SoundFx   =   {
+               name   =   "VolumeSFX"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Ambient   =   {
+               name   =   "VolumeAmbient"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SoundTruck   =   {
+               name   =   "VolumeTruck"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         name   =   "UI_SETTINGS_AUDIO"
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      HUD   =   {
+         elements   =   {
+            HudVisibility   =   {
+               name   =   "HudVisibility"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MarkersInteractiveZones   =   {
+               name   =   "MarkersInteractionZones"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MarkersObjectives   =   {
+               name   =   "MarkersObjectives"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CraneLegend   =   {
+               name   =   "CraneLegend"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            HintsMode   =   {
+               name   =   "SwitchHintsMode"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         name   =   "UI_SETTINGS_HUD"
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      Controls   =   {
+         elements   =   {
+            MouseInvertY   =   {
+               name   =   "MouseInvertY"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MouseSensivity   =   {
+               name   =   "MouseSensitivity"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Binding   =   {
+               name   =   "UI_SETTINGS_KEY_BINDING"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            TruckMovementThrottle   =   {
+               name   =   "InputTruckMovementThrottle"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TruckMovementBrake   =   {
+               name   =   "InputTruckMovementBrake"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TruckMovementLeft   =   {
+               name   =   "InputTruckMovementLeft"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TruckMovementRight   =   {
+               name   =   "InputTruckMovementRight"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ClutchMode   =   {
+               name   =   "InputClutchMode"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Honk   =   {
+               name   =   "InputHonk"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Headlight   =   {
+               name   =   "InputHeadlights"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            AWD   =   {
+               name   =   "InputAWD"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            DiffLock   =   {
+               name   =   "InputDiffLock"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Handbrake   =   {
+               name   =   "InputHandbrake"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Engine   =   {
+               name   =   "InputEngine"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            QuickWinch   =   {
+               name   =   "InputQuickWinch"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ReleaseWinch   =   {
+               name   =   "InputReleaseWinch"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ZoneInteraction   =   {
+               name   =   "InputZoneInteraction"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Minimap   =   {
+               name   =   "InputMinimap"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapClearPath   =   {
+               name   =   "InputMinimapClearPath"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Functions   =   {
+               name   =   "InputFunctions"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            PlayerProfile   =   {
+               name   =   "InputPlayerProfile"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ToggleCamera   =   {
+               name   =   "InputToggleCamera"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            HidePolygonTool   =   {
+               name   =   "InputHidePolygonTool"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            HudVisibility   =   {
+               name   =   "InputHudVisibility"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Gears   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_GEAR"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            GearNeutral   =   {
+               name   =   "InputGearNeutral"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearAuto   =   {
+               name   =   "InputGearAuto"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearReverse   =   {
+               name   =   "InputGearReverse"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearHigh   =   {
+               name   =   "InputGearHigh"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow1   =   {
+               name   =   "InputGearLow1"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow2   =   {
+               name   =   "InputGearLow2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow3   =   {
+               name   =   "InputGearLow3"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonActions   =   {
+               name   =   "UI_SETTINGS_SCHEME_CUSTOM_ADDON_ACTIONS"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            CustomAddonAction1   =   {
+               name   =   "InputCustomAddonAction1"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction2   =   {
+               name   =   "InputCustomAddonAction2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction3   =   {
+               name   =   "InputCustomAddonAction3"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction4   =   {
+               name   =   "InputCustomAddonAction4"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction5   =   {
+               name   =   "InputCustomAddonAction5"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction6   =   {
+               name   =   "InputCustomAddonAction6"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction7   =   {
+               name   =   "InputCustomAddonAction7"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction8   =   {
+               name   =   "InputCustomAddonAction8"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction9Forward   =   {
+               name   =   "InputCustomAddonAction9Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction9Backward   =   {
+               name   =   "InputCustomAddonAction9Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction10Forward   =   {
+               name   =   "InputCustomAddonAction10Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction10Backward   =   {
+               name   =   "InputCustomAddonAction10Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction11Forward   =   {
+               name   =   "InputCustomAddonAction11Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction11Backward   =   {
+               name   =   "InputCustomAddonAction11Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction12Forward   =   {
+               name   =   "InputCustomAddonAction12Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction12Backward   =   {
+               name   =   "InputCustomAddonAction12Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction13Forward   =   {
+               name   =   "InputCustomAddonAction13Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction13Backward   =   {
+               name   =   "InputCustomAddonAction13Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction14Forward   =   {
+               name   =   "InputCustomAddonAction14Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction14Backward   =   {
+               name   =   "InputCustomAddonAction14Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraZoomIn   =   {
+               name   =   "InputFlyCameraZoomIn"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraZoomOut   =   {
+               name   =   "InputFlyCameraZoomOut"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraMoveLeft   =   {
+               name   =   "InputFlyCameraMoveLeft"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraMoveRight   =   {
+               name   =   "InputFlyCameraMoveRight"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraMoveUp   =   {
+               name   =   "InputFlyCameraMoveUp"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraMoveDown   =   {
+               name   =   "InputFlyCameraMoveDown"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraRotateRight   =   {
+               name   =   "InputFlyCameraRotateRight"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraRotateLeft   =   {
+               name   =   "InputFlyCameraRotateLeft"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraRotateUp   =   {
+               name   =   "InputFlyCameraRotateUp"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraRotateDown   =   {
+               name   =   "InputFlyCameraRotateDown"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraRotateCW   =   {
+               name   =   "InputFlyCameraRotateCW"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            FlyCameraRotateCCW   =   {
+               name   =   "InputFlyCameraRotateCCW"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            availablePlatforms   =   {
+               DURANGO   =   {
+                  __value   =   False
+               }
+               ORBIS   =   {
+                  __value   =   False
+               }
+               NX64   =   {
+                  __value   =   False
+               }
+            }
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_CONTROLS"
+         resetPlayersPCInputOnResetDefault   =   True
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      GamePadLayout   =   {
+         elements   =   {
+            ForceFeedback   =   {
+               name   =   "ForceFeedback"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SwapL1R1   =   {
+               name   =   "SwapL1R1"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SwapL2R2   =   {
+               name   =   "SwapL2R2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SwapL1L2   =   {
+               name   =   "SwapL1L2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SwapR1R2   =   {
+               name   =   "SwapR1R2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GamePadLayout   =   {
+               name   =   "GamepadLayout"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GamepadInvertY   =   {
+               name   =   "GamepadInvertY"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GamepadStickSensitivity   =   {
+               name   =   "GamepadStickSensitivity"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_SCHEME"
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      SteeringWheel   =   {
+         elements   =   {
+            SteeringWheelType   =   {
+               name   =   "UiOneSettingStepperSteeringWheelTypeController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InputPresets   =   {
+               name   =   "SteeringWheelPresets"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SteeringWheelSensitivity   =   {
+               name   =   "SteeringWheelSensitivity"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackPower   =   {
+               name   =   "SteeringWheelForceFeedbackPower"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackTiltGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackTiltGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedBackFrictionBase   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackFrictionBaseController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackFrictionGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackFrictionGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackCountersteerGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackCountersteerGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackCollisionGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackCollisionGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TrueForceGain   =   {
+               name   =   "SteeringWheelTrueforceGain"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            BrakePedalSensitivity   =   {
+               name   =   "SteeringWheelBrakePedalSensitivity"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            PairedPedals   =   {
+               name   =   "UiOneSettingStepperSwPairedPedalsController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertWheel   =   {
+               name   =   "UiOneSettingStepperSwInvertWheelController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertThrottle   =   {
+               name   =   "UiOneSettingStepperSwInvertThrottleController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertBrake   =   {
+               name   =   "UiOneSettingStepperSwInvertBrakeController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertClutch   =   {
+               name   =   "UiOneSettingStepperSwInvertClutchController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertTruckCameraX   =   {
+               name   =   "SteeringWheelInvertTruckCameraXController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertTruckCameraY   =   {
+               name   =   "SteeringWheelInvertTruckCameraYController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertMinimapMovementX   =   {
+               name   =   "SteeringWheelInvertMinimapMovementXController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertMinimapMovementY   =   {
+               name   =   "SteeringWheelInvertMinimapMovementYController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertCustomizationCameraX   =   {
+               name   =   "SteeringWheelInvertCustomizationCameraXController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertCustomizationCameraY   =   {
+               name   =   "SteeringWheelInvertCustomizationCameraYController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GameControls   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_GAME_CONTROLS"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            InputSteeringWheel   =   {
+               name   =   "SteeringWheelInputSteeringWheelAxis"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Throttle   =   {
+               name   =   "SteeringWheelInputThrottle"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Brake   =   {
+               name   =   "SteeringWheelInputBrake"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ClutchPedal   =   {
+               name   =   "SteeringWheelInputClutchPedal"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Handbrake   =   {
+               name   =   "SteeringWheelInputHandbrake"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            QuickWinch   =   {
+               name   =   "SteeringWheelInputQuickWinch"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            AWD   =   {
+               name   =   "SteeringWheelInputAWD"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            DiffLock   =   {
+               name   =   "SteeringWheelInputDiffLock"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Honk   =   {
+               name   =   "SteeringWheelInputHonk"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Headlights   =   {
+               name   =   "SteeringWheelInputHeadlights"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Functions   =   {
+               name   =   "SteeringWheelInputFunctionsMenu"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Minimap   =   {
+               name   =   "SteeringWheelInputMinimap"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            IngameMenu   =   {
+               name   =   "SteeringWheelInputIngameMenu"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            PlayerProfile   =   {
+               name   =   "SteeringWheelInputOpenPlayerProfile"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TruckCameraRotationX   =   {
+               name   =   "SteeringWheelInputTruckCameraRotationX"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TruckCameraRotationY   =   {
+               name   =   "SteeringWheelInputTruckCameraRotationY"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TruckCameraZoom   =   {
+               name   =   "SteeringWheelInputTruckCameraZoom"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ToggleGameCamera   =   {
+               name   =   "SteeringWheelInputToggleGameCamera"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ShowDamage   =   {
+               name   =   "SteeringWheelInputShowDamage"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            RotateStepLeft   =   {
+               name   =   "SteeringWheelInputRotateStepLeft"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            RotateStepRight   =   {
+               name   =   "SteeringWheelInputRotateStepRight"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Gear   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_GEAR"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            GearNeutral   =   {
+               name   =   "SteeringWheelInputGearNeutral"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearAuto   =   {
+               name   =   "SteeringWheelInputGearAuto"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearReverse   =   {
+               name   =   "SteeringWheelInputGearReverse"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearHigh   =   {
+               name   =   "SteeringWheelInputGearHigh"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow1   =   {
+               name   =   "SteeringWheelInputGearLow1"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow2   =   {
+               name   =   "SteeringWheelInputGearLow2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow3   =   {
+               name   =   "SteeringWheelInputGearLow3"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Crane   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_CRANE"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            CraneWinchLift   =   {
+               name   =   "SteeringWheelInputCraneWinchLift"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CraneWinchLower   =   {
+               name   =   "SteeringWheelInputCraneWinchLower"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CraneWinchLeft   =   {
+               name   =   "SteeringWheelInputCraneWinchRotateLeft"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CraneWinchRight   =   {
+               name   =   "SteeringWheelInputCraneWinchRotateRight"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CraneArrowLift   =   {
+               name   =   "SteeringWheelInputCraneArrowLift"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CraneArrowLower   =   {
+               name   =   "SteeringWheelInputCraneArrowLower"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            UIControls   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_UI"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            InputDpadUp   =   {
+               name   =   "SteeringWheelInputDpadUp"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InputDpadDown   =   {
+               name   =   "SteeringWheelInputDpadDown"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InputDpadLeft   =   {
+               name   =   "SteeringWheelInputDpadLeft"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InputDpadRight   =   {
+               name   =   "SteeringWheelInputDpadRight"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InputUIAccept   =   {
+               name   =   "SteeringWheelInputUIAccept"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InputUIDecline   =   {
+               name   =   "SteeringWheelInputUIDecline"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            UITabLeft   =   {
+               name   =   "SteeringWheelInputUITabLeft"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            UITabRight   =   {
+               name   =   "SteeringWheelInputUITabRight"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            UILeft2   =   {
+               name   =   "SteeringWheelInputUILeft2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            UIRight2   =   {
+               name   =   "SteeringWheelInputUIRight2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TutorialAccept   =   {
+               name   =   "SteeringWheelInputTutorialAccept"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            PopupOpen   =   {
+               name   =   "SteeringWheelInputPopupOpen"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            PopupAddBtn   =   {
+               name   =   "SteeringWheelInputPopupAddBtn"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Garage   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_GARAGE"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            GarageGlobalMap   =   {
+               name   =   "SteeringWheelInputGlobalMap"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GarageLocalMap   =   {
+               name   =   "SteeringWheelInputLocalMap"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GaragePlayerProfile   =   {
+               name   =   "SteeringWheelInputGaragePlayerProfile"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GarageRetain   =   {
+               name   =   "SteeringWheelInputRetainTruck"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GarageDeploy   =   {
+               name   =   "SteeringWheelInputGarageDeployTruck"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GarageSellTruck   =   {
+               name   =   "SteeringWheelInputSellTruck"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GaragePreviewTruck   =   {
+               name   =   "SteeringWheelInputPreviewTruck"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GarageSwapDescAndStats   =   {
+               name   =   "SteeringWheelInputSwapDescAndStats"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GlobalMapGoToGarage   =   {
+               name   =   "SteeringWheelInputGlobalMapGotoGarage"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapSection   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_MINIMAP"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            MinimapMovementX   =   {
+               name   =   "SteeringWheelInputMinimapCameraMovementX"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapMovementY   =   {
+               name   =   "SteeringWheelInputMinimapCameraMovementY"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapSkipTime   =   {
+               name   =   "SteeringWheelInputMinimapSkipTime"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapAcceptContract   =   {
+               name   =   "SteeringWheelInputMinimapAcceptContract"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapRestartContract   =   {
+               name   =   "SteeringWheelInputMinimapRestartContract"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapGoToGlobalMap   =   {
+               name   =   "SteeringWheelInputMinimapGlobalMap"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapGoToPlayer   =   {
+               name   =   "SteeringWheelInputMinimapGoToPlayer"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapAddPathPoint   =   {
+               name   =   "SteeringWheelInputAddPathPoint"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            MinimapClearPathPoint   =   {
+               name   =   "SteeringWheelInputClearPathPoint"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonActionSection   =   {
+               name   =   "UI_SETTINGS_SCHEME_CUSTOM_ADDON_ACTIONS"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            CustomAddonAction1   =   {
+               name   =   "SteeringWheelInputCustomAction1"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction2   =   {
+               name   =   "SteeringWheelInputCustomAction2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction3   =   {
+               name   =   "SteeringWheelInputCustomAction3"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction4   =   {
+               name   =   "SteeringWheelInputCustomAction4"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction5   =   {
+               name   =   "SteeringWheelInputCustomAction5"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction6   =   {
+               name   =   "SteeringWheelInputCustomAction6"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction7   =   {
+               name   =   "SteeringWheelInputCustomAction7"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction8   =   {
+               name   =   "SteeringWheelInputCustomAction8"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction9Forward   =   {
+               name   =   "SteeringWheelInputCustomAction9Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction9Backward   =   {
+               name   =   "SteeringWheelInputCustomAction9Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonActio10Forward   =   {
+               name   =   "SteeringWheelInputCustomAction10Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction10Backward   =   {
+               name   =   "SteeringWheelInputCustomAction10Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonActio11Forward   =   {
+               name   =   "SteeringWheelInputCustomAction11Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction11Backward   =   {
+               name   =   "SteeringWheelInputCustomAction11Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonActio12Forward   =   {
+               name   =   "SteeringWheelInputCustomAction12Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction12Backward   =   {
+               name   =   "SteeringWheelInputCustomAction12Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonActio13Forward   =   {
+               name   =   "SteeringWheelInputCustomAction13Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction13Backward   =   {
+               name   =   "SteeringWheelInputCustomAction13Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonActio14Forward   =   {
+               name   =   "SteeringWheelInputCustomAction14Forward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            CustomAddonAction14Backward   =   {
+               name   =   "SteeringWheelInputCustomAction14Backward"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            availablePlatforms   =   {
+               DURANGO   =   {
+                  __value   =   False
+               }
+               ORBIS   =   {
+                  __value   =   False
+               }
+               NX64   =   {
+                  __value   =   False
+               }
+               GGP   =   {
+                  __value   =   False
+               }
+            }
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL"
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+      SteeringWheelPS4   =   {
+         elements   =   {
+            InputPresets   =   {
+               name   =   "SteeringWheelPresets"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            SteeringWheelSensitivity   =   {
+               name   =   "SteeringWheelSensitivity"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackPower   =   {
+               name   =   "SteeringWheelForceFeedbackPower"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackTiltGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackTiltGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedBackFrictionBase   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackFrictionBaseController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackFrictionGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackFrictionGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackCountersteerGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackCountersteerGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            ForcefeedbackCollisionGain   =   {
+               name   =   "UiOneSettingSliderSteeringWheelForceFeedbackCollisionGainController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            TrueForceGain   =   {
+               name   =   "SteeringWheelTrueforceGain"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            BrakePedalSensitivity   =   {
+               name   =   "SteeringWheelBrakePedalSensitivity"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            PairedPedals   =   {
+               name   =   "UiOneSettingStepperSwPairedPedalsController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertWheel   =   {
+               name   =   "UiOneSettingStepperSwInvertWheelController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertThrottle   =   {
+               name   =   "UiOneSettingStepperSwInvertThrottleController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertBrake   =   {
+               name   =   "UiOneSettingStepperSwInvertBrakeController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertClutch   =   {
+               name   =   "UiOneSettingStepperSwInvertClutchController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertTruckCameraX   =   {
+               name   =   "SteeringWheelInvertTruckCameraXController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertTruckCameraY   =   {
+               name   =   "SteeringWheelInvertTruckCameraYController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertMinimapMovementX   =   {
+               name   =   "SteeringWheelInvertMinimapMovementXController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertMinimapMovementY   =   {
+               name   =   "SteeringWheelInvertMinimapMovementYController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertCustomizationCameraX   =   {
+               name   =   "SteeringWheelInvertCustomizationCameraXController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            InvertCustomizationCameraY   =   {
+               name   =   "SteeringWheelInvertCustomizationCameraYController"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            Gear   =   {
+               name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL_GEAR"
+               __type   =   "UiSettingScreenElementLine"
+            }
+            GearNeutral   =   {
+               name   =   "InputGearNeutral"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearAuto   =   {
+               name   =   "InputGearAuto"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearReverse   =   {
+               name   =   "InputGearReverse"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearHigh   =   {
+               name   =   "InputGearHigh"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow1   =   {
+               name   =   "InputGearLow1"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow2   =   {
+               name   =   "InputGearLow2"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+            GearLow3   =   {
+               name   =   "InputGearLow3"
+               __type   =   "UiSettingScreenElementInteractive"
+            }
+         }
+         availablePlatforms   =   {
+            availablePlatforms   =   {
+               PC   =   {
+                  __value   =   False
+               }
+               DURANGO   =   {
+                  __value   =   True
+               }
+               ORBIS   =   {
+                  __value   =   True
+               }
+               NX64   =   {
+                  __value   =   False
+               }
+               GGP   =   {
+                  __value   =   False
+               }
+               OSX   =   {
+                  __value   =   False
+               }
+            }
+            __type   =   "UiSettingScreenPresetPlatforms"
+         }
+         name   =   "UI_SETTINGS_SCHEME_STEERING_WHEEL"
+         resetPlayersPCInputOnResetDefault   =   True
+         __type   =   "UiSettingLayoutScreenPreset"
+      }
+   }
+   __type   =   "UiSettingsLayout"
+}
+settings   =   {
+   VolumeMaster   =   {
+      header   =   "UI_SETTINGS_MASTER_AUDIO"
+      desc   =   "UI_SETTINGS_MASTER_AUDIO_DESC"
+      __type   =   "UiOneSettingSliderAudioVolumeController"
+   }
+   VolumeMusic   =   {
+      header   =   "UI_SETTINGS_MUSIC"
+      desc   =   "UI_SETTINGS_MUSIC_DESC"
+      audioType   =   "MUSIC"
+      __type   =   "UiOneSettingSliderAudioVolumeController"
+   }
+   VolumeJingles   =   {
+      header   =   "UI_SETTINGS_JINGLES"
+      desc   =   "UI_SETTINGS_JINGLES_DESC"
+      audioType   =   "JINGLES"
+      __type   =   "UiOneSettingSliderAudioVolumeController"
+   }
+   VolumeAmbient   =   {
+      header   =   "UI_SETTINGS_SOUND_AMBIENT"
+      desc   =   "UI_SETTINGS_SOUND_AMBIENT_DESC"
+      audioType   =   "AMBIENT"
+      __type   =   "UiOneSettingSliderAudioVolumeController"
+   }
+   VolumeUI   =   {
+      header   =   "UI_SETTINGS_SOUND_UI"
+      desc   =   "UI_SETTINGS_SOUND_UI_DESC"
+      audioType   =   "UI"
+      __type   =   "UiOneSettingSliderAudioVolumeController"
+   }
+   VolumeSFX   =   {
+      header   =   "UI_SETTINGS_SFX"
+      desc   =   "UI_SETTINGS_SFX_DESC"
+      audioType   =   "SFX"
+      __type   =   "UiOneSettingSliderAudioVolumeController"
+   }
+   VolumeTruck   =   {
+      header   =   "UI_SETTINGS_SOUND_TRUCK"
+      desc   =   "UI_SETTINGS_SOUND_TRUCK_DESC"
+      audioType   =   "TRUCK"
+      __type   =   "UiOneSettingSliderAudioVolumeController"
+   }
+   Gamma   =   {
+      __type   =   "UiOneSettingSliderGammaController"
+   }
+   Vsync   =   {
+      __type   =   "UiOneSettingStepperVideoVsyncController"
+   }
+   MaxFps   =   {
+      __type   =   "UiOneSettingStepperVideoMaxFpsController"
+   }
+   LimitFpsInBackground   =   {
+      header   =   "UI_SETTINGS_LIMIT_FPS_IN_BACKGROUND"
+      desc   =   "UI_SETTINGS_LIMIT_FPS_IN_BACKGROUND_DESC"
+      settingName   =   "LimitFpsInBackground"
+      __type   =   "UiOneSettingStepperVideoValuesController"
+   }
+   InputHonk   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HONK"
+      desc   =   ""
+      inputDescriptionLink   =   "Honk"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputHeadlights   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HEADLIGHTS"
+      desc   =   ""
+      inputDescriptionLink   =   "Headlights"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputAWD   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_AWD"
+      desc   =   ""
+      inputDescriptionLink   =   "AWD"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputDiffLock   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DIFF_LOCK"
+      desc   =   ""
+      inputDescriptionLink   =   "DiffLock"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputHandbrake   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HANDBRAKE"
+      desc   =   ""
+      inputDescriptionLink   =   "Handbrake"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputEngine   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ENGINE"
+      desc   =   ""
+      inputDescriptionLink   =   "Engine"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputQuickWinch   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_QUICK_WINCH"
+      desc   =   ""
+      inputDescriptionLink   =   "QuickWinch"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   Difficulty   =   {
+      header   =   "UI_HEADER_STEPPER_DIFFICULTY"
+      __type   =   "UiOneSettingStepperController"
+   }
+   LowDynamicRange   =   {
+      header   =   "UI_SETTINGS_LOW_DYNAMIC_RANGE_NAME"
+      desc   =   "UI_SETTINGS_LOW_DYNAMIC_RANGE_DESC"
+      __type   =   "UiOneSettingStepperController"
+   }
+   Language   =   {
+      __type   =   "UiOneSettingStepperLanguage"
+   }
+   GDRP   =   {
+      __type   =   "UiOneSettingStepperGdpr"
+   }
+   Adapter   =   {
+      header   =   "UI_SETTINGS_ADAPTER"
+      desc   =   "UI_SETTINGS_ADAPTER_DESC"
+      __type   =   "UiOneSettingStepperController"
+   }
+   DisplayMode   =   {
+      header   =   "UI_SETTINGS_DISPLAY_MODE"
+      desc   =   "UI_SETTINGS_DISPLAY_MODE_DESC"
+      settingName   =   "WindowMode"
+      valueUiNames   =   [
+         "UI_DISPLAY_WINDOWED",
+         "UI_DISPLAY_BORDERLESS",
+         "UI_DISPLAY_FULLSCREEN"
+      ]
+      __type   =   "UiOneSettingStepperVideoValuesController"
+   }
+   Resolution   =   {
+      __type   =   "UiOneSettingStepperVideoResolutionController"
+   }
+   ResolutionScale   =   {
+      __type   =   "UiOneSettingSliderVideoResolutionScaleController"
+   }
+   TargetDisplay   =   {
+      __type   =   "UiOneSettingStepperVideoTargetDisplayController"
+   }
+   Sharpening   =   {
+      header   =   "UI_SETTINGS_SHARPENING"
+      desc   =   "UI_SETTINGS_SHARPENING_DESC"
+      settingName   =   "SharpeningQuality"
+      valueUiNames   =   [
+         "UI_OPTION_STEPPER_OFF",
+         "UI_SETTINGS_SHARPENING_FIDELITYFX"
+      ]
+      __type   =   "UiOneSettingStepperVideoValuesController"
+   }
+   FilmGrain   =   {
+      header   =   "UI_SETTINGS_FILM_GRAIN"
+      desc   =   "UI_SETTINGS_FILM_GRAIN_DESC"
+      settingName   =   "FilmGrainQuality"
+      __type   =   "UiOneSettingStepperVideoValuesController"
+   }
+   VisualQualityPreset   =   {
+      __type   =   "UiOneSettingStepperVideoPresetQualityController"
+   }
+   TerrainDist   =   {
+      header   =   "UI_SETTINGS_TERRAIN_DIST"
+      desc   =   "UI_SETTINGS_TERRAIN_DIST_DESC"
+      settingName   =   "TerrainDistQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   AmbientOcclusion   =   {
+      header   =   "UI_SETTINGS_AMBIENT_OCCLUSION"
+      desc   =   "UI_SETTINGS_AMBIENT_OCCLUSION_DESC"
+      settingName   =   "AOQuality"
+      presetUiNames   =   [
+         "UI_OPTION_STEPPER_OFF",
+         "UI_SETTING_LOW",
+         "UI_SETTING_HIGH"
+      ]
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   Antialialiasing   =   {
+      __type   =   "UiOneSettingStepperVideoAntialiasingController"
+   }
+   EdgeAA   =   {
+      header   =   "UI_SETTINGS_ANTIALIASING_FXAA"
+      desc   =   "UI_SETTINGS_ANTIALIASING_FXAA_DESC"
+      settingName   =   "EdgeAAQuality"
+      __type   =   "UiOneSettingStepperVideoValuesController"
+   }
+   MotionBlur   =   {
+      header   =   "UI_SETTINGS_MOTION_BLUR"
+      desc   =   "UI_SETTINGS_MOTION_BLUR_DESC"
+      settingName   =   "MotionBlurQuality"
+      __type   =   "UiOneSettingStepperVideoValuesController"
+   }
+   ShadowQuality   =   {
+      header   =   "UI_SETTINGS_SHADOW_QUALITY"
+      desc   =   "UI_SETTINGS_SHADOW_QUALITY_DESC"
+      settingName   =   "ShadowsQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   VolumeFogQuality   =   {
+      header   =   "UI_SETTINGS_VOLUME_FOG_QUALITY"
+      desc   =   "UI_SETTINGS_VOLUME_FOG_QUALITY_DESC"
+      settingName   =   "VolumeFogQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedOnOffController"
+   }
+   SimulationQuality   =   {
+      header   =   "UI_SETTINGS_EFFECTS_QUALITY"
+      desc   =   "UI_SETTINGS_EFFECTS_QUALITY_DESC"
+      settingName   =   "SimulationQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   TextureQuality   =   {
+      header   =   "UI_SETTINGS_TEXTURE_QUALITY"
+      desc   =   "UI_SETTINGS_TEXTURE_QUALITY_DESC"
+      settingName   =   "TexturesQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   TextureFiltering   =   {
+      header   =   "UI_SETTINGS_TEXTURE_FILTERING"
+      desc   =   "UI_SETTINGS_TEXTURE_FILTERING_DESC"
+      settingName   =   "TexturesFiltering"
+      presetUiNames   =   [
+         "UI_OPTION_STEPPER_OFF",
+         "UI_SETTINGS_ANISOTROPY_2X",
+         "UI_SETTINGS_ANISOTROPY_4X",
+         "UI_SETTINGS_ANISOTROPY_8X",
+         "UI_SETTINGS_ANISOTROPY_16X"
+      ]
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   Mirrors   =   {
+      header   =   "UI_SETTINGS_MIRRORS"
+      desc   =   "UI_SETTINGS_MIRRORS_DESC"
+      settingName   =   "MirrorQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedOnOffController"
+   }
+   GrassDensity   =   {
+      header   =   "UI_SETTINGS_GRASS_DENSITY"
+      desc   =   "UI_SETTINGS_GRASS_DENSITY_DESC"
+      settingName   =   "GrassDensity"
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   MarkersInteractionZones   =   {
+      header   =   "UI_SETTINGS_MARKER_VISIBILITY_INTERACTION_ZONES"
+      desc   =   "UI_SETTINGS_MARKER_VISIBILITY_INTERACTION_ZONES_DESC"
+      markerLayer   =   "INTERACTION_ZONES"
+      __type   =   "UiOneSettingStepperMarkersVisibility"
+   }
+   MarkersWaypoints   =   {
+      header   =   "UI_SETTINGS_MARKER_VISIBILITY_WAYPOINTS"
+      desc   =   "UI_SETTINGS_MARKER_VISIBILITY_WAYPOINTS_DESC"
+      markerLayer   =   "WAYPOINTS"
+      __type   =   "UiOneSettingStepperMarkersVisibility"
+   }
+   HudVisibility   =   {
+      header   =   "UI_SETTINGS_HUD_VISIBILITY"
+      desc   =   "UI_SETTINGS_HUD_VISIBILITY_DESC"
+      __type   =   "UiOneSettingStepperHudVisibility"
+   }
+   MarkersObjectives   =   {
+      header   =   "UI_SETTINGS_MARKER_VISIBILITY_OBJECTIVES"
+      desc   =   "UI_SETTINGS_MARKER_VISIBILITY_OBJECTIVES_DESC"
+      markerLayer   =   "OBJECTIVES"
+      __type   =   "UiOneSettingStepperMarkersVisibility"
+   }
+   GamepadLayout   =   {
+      __type   =   "UiOneSettingGamepadLayoutController"
+   }
+   SwapL1R1   =   {
+      __type   =   "UiOneSettingStepperSwapL1r1Controller"
+   }
+   SwapL2R2   =   {
+      __type   =   "UiOneSettingStepperSwapL2r2Controller"
+   }
+   SwapL1L2   =   {
+      __type   =   "UiOneSettingStepperSwapL1l2Controller"
+   }
+   SwapR1R2   =   {
+      __type   =   "UiOneSettingStepperSwapR1r2Controller"
+   }
+   ForceFeedback   =   {
+      __type   =   "UiOneSettingStepperForceFeedbackController"
+   }
+   SkipTutorial   =   {
+      __type   =   "UiOneSettingSkipTutorialController"
+   }
+   RepeatableTutorial   =   {
+      __type   =   "UiOneSettingRepetableTutorialAvailability"
+   }
+   SteeringWheelPresets   =   {
+      __type   =   "UiOneSettingStepperSteeringWheelPresetsController"
+   }
+   SteeringWheelInputSteeringWheelAxis   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_STEERING_WHEEL"
+      inputDescriptionLink   =   "SteeringWheel"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputDpadUp   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_UP"
+      inputDescriptionLink   =   "DpadUp"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputDpadDown   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_DOWN"
+      inputDescriptionLink   =   "DpadDown"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputDpadLeft   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_LEFT"
+      inputDescriptionLink   =   "DpadLeft"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputDpadRight   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DPAD_RIGHT"
+      inputDescriptionLink   =   "DpadRight"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputThrottle   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_THROTTLE"
+      inputDescriptionLink   =   "Throttle"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputBrake   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_BRAKE"
+      inputDescriptionLink   =   "Brake"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputClutchPedal   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CLUTCH_PEDAL"
+      inputDescriptionLink   =   "Clutch"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputIngameMenu   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_INGAME_MENU"
+      inputDescriptionLink   =   "IngameMenu"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputFunctionsMenu   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FUNCTIONS"
+      inputDescriptionLink   =   "FunctionMenu"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputMinimap   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP"
+      inputDescriptionLink   =   "Minimap"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputUIAccept   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_ACCEPT"
+      inputDescriptionLink   =   "UIAccept"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputUIDecline   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_DECLINE"
+      inputDescriptionLink   =   "UIDecline"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputHandbrake   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HANDBRAKE"
+      inputDescriptionLink   =   "Handbrake"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputHonk   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HONK"
+      inputDescriptionLink   =   "Honk"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputHeadlights   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HEADLIGHTS"
+      inputDescriptionLink   =   "Headlights"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputAWD   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_AWD"
+      inputDescriptionLink   =   "AWD"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputDiffLock   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_DIFF_LOCK"
+      inputDescriptionLink   =   "DiffLock"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputQuickWinch   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_QUICK_WINCH"
+      inputDescriptionLink   =   "QuickWinch"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputOpenPlayerProfile   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_PLAYER_PROFILE"
+      inputDescriptionLink   =   "OpenPlayerProfile"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputTruckCameraRotationX   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_CAMERA_ROTATION_X"
+      inputDescriptionLink   =   "TruckCameraRotationX"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputTruckCameraRotationY   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_CAMERA_ROTATION_Y"
+      inputDescriptionLink   =   "TruckCameraRotationY"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputTruckCameraZoom   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_CAMERA_ZOOM"
+      inputDescriptionLink   =   "TruckCameraZoom"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputMinimapCameraMovementX   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_CAMERA_MOVEMENT_X"
+      inputDescriptionLink   =   "MinimapCameraMovementX"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputMinimapCameraMovementY   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_CAMERA_MOVEMENT_Y"
+      inputDescriptionLink   =   "MinimapCameraMovementY"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   ObjectQuality   =   {
+      header   =   "UI_SETTINGS_OBJECT_QUALITY"
+      desc   =   "UI_SETTINGS_OBJECT_QUALITY_DESC"
+      settingName   =   "ObjectQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   SteeringWheelInputGearNeutral   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_NEUTRAL"
+      inputDescriptionLink   =   "GearNeutral"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGearAuto   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_AUTO"
+      inputDescriptionLink   =   "GearAuto"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGearReverse   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_REVERSE"
+      inputDescriptionLink   =   "GearReverse"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGearHigh   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_HIGH"
+      inputDescriptionLink   =   "GearHigh"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGearLow1   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW1"
+      inputDescriptionLink   =   "GearLow1"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGearLow2   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW2"
+      inputDescriptionLink   =   "GearLow2"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGearLow3   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW3"
+      inputDescriptionLink   =   "GearLow3"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCraneWinchLift   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_LIFT"
+      inputDescriptionLink   =   "CraneWinchLift"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCraneWinchLower   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_LOWER"
+      inputDescriptionLink   =   "CraneWinchLower"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCraneWinchRotateLeft   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_LEFT"
+      inputDescriptionLink   =   "CraneWinchRotateLeft"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCraneWinchRotateRight   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_WINCH_RIGHT"
+      inputDescriptionLink   =   "CraneWinchRotateRight"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCraneArrowLift   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_ARROW_LIFT"
+      inputDescriptionLink   =   "CraneArrowLift"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCraneArrowLower   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CRANE_ARROW_LOWER"
+      inputDescriptionLink   =   "CraneArrowLower"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   MetricSystem   =   {
+      __type   =   "UiOneSettingsStepperMetricSystem"
+   }
+   FirstPersonCameraFov   =   {
+      header   =   "UI_SETTINGS_FIRST_PERSON_CAMERA_FOV"
+      desc   =   "UI_SETTINGS_FIRST_PERSON_CAMERA_FOV_DESC"
+      minValue   =   80
+      maxValue   =   130
+      defaultValue   =   107
+      stepInterval   =   1
+      textfield   =   "INTEGER"
+      settingName   =   "FirstPersonCameraFov"
+      __type   =   "UiOneSettingSliderVideoController"
+   }
+   ThirdPersonCameraFov   =   {
+      header   =   "UI_SETTINGS_THIRD_PERSON_CAMERA_FOV"
+      desc   =   "UI_SETTINGS_THIRD_PERSON_CAMERA_FOV_DESC"
+      minValue   =   80
+      maxValue   =   130
+      defaultValue   =   80
+      stepInterval   =   1
+      textfield   =   "INTEGER"
+      settingName   =   "ThirdPersonCameraFov"
+      __type   =   "UiOneSettingSliderVideoController"
+   }
+   MouseInvertY   =   {
+      __type   =   "UiOneSettingsStepperMouseInvertY"
+   }
+   GamepadInvertY   =   {
+      __type   =   "UiOneSettingsStepperGamepadInvertY"
+   }
+   GamepadStickSensitivity   =   {
+      __type   =   "UiOneSettingSliderGamepadStickSensitivity"
+   }
+   MouseSensitivity   =   {
+      __type   =   "UiOneSettingSliderMouseSensitivity"
+   }
+   WaterQuality   =   {
+      header   =   "UI_SETTINGS_WATER_QUALITY"
+      desc   =   "UI_SETTINGS_WATER_QUALITY_DESC"
+      settingName   =   "WaterQuality"
+      presetUiNames   =   [
+         "UI_SETTING_LOW",
+         "UI_SETTING_HIGH"
+      ]
+      __type   =   "UiOneSettingStepperVideoAdvancedController"
+   }
+   LightshaftsQuality   =   {
+      header   =   "UI_SETTINGS_LIGHTSHAFTS_QUALITY"
+      desc   =   "UI_SETTINGS_LIGHTSHAFTS_QUALITY_DESC"
+      settingName   =   "LightshaftsQuality"
+      __type   =   "UiOneSettingStepperVideoAdvancedOnOffController"
+   }
+   SteeringWheelSensitivity   =   {
+      __type   =   "UiOneSettingSliderSteeringWheelSensitivityController"
+   }
+   SteeringWheelInputUITabLeft   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_LEFT"
+      inputDescriptionLink   =   "UITabLeft"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputUITabRight   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_RIGHT"
+      inputDescriptionLink   =   "UITabRight"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   IsLegacyCamera   =   {
+      __type   =   "UiOneSettingsStepperIsLegacyCamera"
+   }
+   InputMinimap   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP"
+      inputDescriptionLink   =   "Minimap"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputMinimapClearPath   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_CLEAR_PATH_POINT"
+      inputDescriptionLink   =   "MinimapClearPath"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputHudVisibility   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_HUD_VISIBILITY"
+      inputDescriptionLink   =   "HudVisibility"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFunctions   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FUNCTIONS"
+      inputDescriptionLink   =   "Functions"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputPlayerProfile   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_PLAYER_PROFILE"
+      inputDescriptionLink   =   "PlayerProfile"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputGearNeutral   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_NEUTRAL"
+      inputDescriptionLink   =   "GearNeutral"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputGearAuto   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_AUTO"
+      inputDescriptionLink   =   "GearAuto"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputGearReverse   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_REVERSE"
+      inputDescriptionLink   =   "GearReverse"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputGearHigh   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_HIGH"
+      inputDescriptionLink   =   "GearHigh"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputGearLow1   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW1"
+      inputDescriptionLink   =   "GearLow1"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputGearLow2   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW2"
+      inputDescriptionLink   =   "GearLow2"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputGearLow3   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GEAR_LOW3"
+      inputDescriptionLink   =   "GearLow3"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputClutchMode   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CLUTCH_PEDAL"
+      inputDescriptionLink   =   "ClutchMenu"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   SteeringWheelForceFeedbackPower   =   {
+      __type   =   "UiOneSettingSliderSteeringWheelForceFeedbackPowerController"
+   }
+   SteeringWheelInputGlobalMap   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GARAGE_GLOBAL_MAP"
+      inputDescriptionLink   =   "GarageGlobalMap"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputLocalMap   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP"
+      inputDescriptionLink   =   "GarageLocalMap"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputRetainTruck   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_RETAIN"
+      inputDescriptionLink   =   "GarageRetain"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGaragePlayerProfile   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_PLAYER_PROFILE"
+      inputDescriptionLink   =   "GaragePlayerProfile"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGarageDeployTruck   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_DEPLOY"
+      inputDescriptionLink   =   "GarageWarehouseDeployTruck"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputSellTruck   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_SELL_TRUCK"
+      inputDescriptionLink   =   "GarageWarehouseSellTruck"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputPreviewTruck   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_PREVIEW"
+      inputDescriptionLink   =   "GarageShopPreviewTruck"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputSwapDescAndStats   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_SWAP_DESC_AND_STATS"
+      inputDescriptionLink   =   "GarageShopSwapDescAndStats"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputGlobalMapGotoGarage   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_GLOBAL_MAP_GO_TO_GARAGE"
+      inputDescriptionLink   =   "GarageGlobalMapGoToGarage"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   UiOneSettingStepperSwInvertBrakeController   =   {
+   }
+   UiOneSettingStepperSwInvertClutchController   =   {
+   }
+   UiOneSettingStepperSwInvertThrottleController   =   {
+   }
+   UiOneSettingStepperSwInvertWheelController   =   {
+   }
+   UiOneSettingStepperSwPairedPedalsController   =   {
+   }
+   SteeringWheelInvertCustomizationCameraXController   =   {
+      __type   =   "UiOneSettingStepperSwInvertCustomizationCameraXController"
+   }
+   SteeringWheelInvertCustomizationCameraYController   =   {
+      __type   =   "UiOneSettingStepperSwInvertCustomizationCameraYController"
+   }
+   SteeringWheelInvertMinimapMovementXController   =   {
+      __type   =   "UiOneSettingStepperSwInvertMinimapMovementXController"
+   }
+   SteeringWheelInvertMinimapMovementYController   =   {
+      __type   =   "UiOneSettingStepperSwInvertMinimapMovementYController"
+   }
+   SteeringWheelInvertTruckCameraXController   =   {
+      __type   =   "UiOneSettingStepperSwInvertTruckCameraXController"
+   }
+   SteeringWheelInvertTruckCameraYController   =   {
+      __type   =   "UiOneSettingStepperSwInvertTruckCameraYController"
+   }
+   SteeringWheelInputMinimapSkipTime   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_SKIP_TIME"
+      inputDescriptionLink   =   "MinimapSkipTime"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputMinimapAcceptContract   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_ACCEPT_CONTRACT"
+      inputDescriptionLink   =   "MinimapAcceptContract"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputMinimapRestartContract   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_RESTART_CONTRACT"
+      inputDescriptionLink   =   "MinimapRestartContract"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputMinimapGoToPlayer   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_GO_TO_PLAYER"
+      inputDescriptionLink   =   "MinimapGoToPlayer"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputMinimapGlobalMap   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_GLOBAL_MAP"
+      inputDescriptionLink   =   "MinimapGlobalMap"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputAddPathPoint   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_ADD_PATH_POINT"
+      inputDescriptionLink   =   "MinimapAddPathPoint"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputClearPathPoint   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_MINIMAP_CLEAR_PATH_POINT"
+      inputDescriptionLink   =   "MinimapClearPathPoint"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   InputToggleCamera   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TOGGLE_CAMERA_WITH_SHOW_HUD"
+      inputDescriptionLink   =   "ToggleCamera"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputTruckMovementThrottle   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_THROTTLE"
+      inputDescriptionLink   =   "truckMovementForward"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputTruckMovementBrake   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_BRAKE"
+      inputDescriptionLink   =   "truckMovementBackward"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputTruckMovementLeft   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_MOVEMENT_LEFT"
+      inputDescriptionLink   =   "truckMovementLeft"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputTruckMovementRight   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TRUCK_MOVEMENT_RIGHT"
+      inputDescriptionLink   =   "truckMovementRight"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   UiOneSettingSliderSteeringWheelForceFeedbackCollisionGainController   =   {
+   }
+   UiOneSettingSliderSteeringWheelForceFeedbackCountersteerGainController   =   {
+   }
+   UiOneSettingSliderSteeringWheelForceFeedbackFrictionGainController   =   {
+   }
+   UiOneSettingSliderSteeringWheelForceFeedbackTiltGainController   =   {
+   }
+   SteeringWheelInputTutorialAccept   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TUTORIAL_ACCEPT"
+      inputDescriptionLink   =   "TutorialAccept"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   UiOneSettingSliderSteeringWheelForceFeedbackFrictionBaseController   =   {
+   }
+   SteeringWheelInputPopupOpen   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_POPUP_OPEN"
+      inputDescriptionLink   =   "PopupOpen"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputUILeft2   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_LEFT2"
+      inputDescriptionLink   =   "UILeft2"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputUIRight2   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_UI_TAB_RIGHT2"
+      inputDescriptionLink   =   "UIRight2"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputToggleGameCamera   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_TOGGLE_CAMERA_WITH_SHOW_HUD"
+      inputDescriptionLink   =   "ToggleGameCamera"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputShowDamage   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_SHOW_DAMAGE"
+      inputDescriptionLink   =   "ShowDamage"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputPopupAddBtn   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_POPUP_ADDITIONAL_BUTTON"
+      inputDescriptionLink   =   "PopupAdditionalButton"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   InputCustomAddonAction1   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_1"
+      inputDescriptionLink   =   "CustomAddonAction1"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction2   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_2"
+      inputDescriptionLink   =   "CustomAddonAction2"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction3   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_3"
+      inputDescriptionLink   =   "CustomAddonAction3"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction4   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_4"
+      inputDescriptionLink   =   "CustomAddonAction4"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction5   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_5"
+      inputDescriptionLink   =   "CustomAddonAction5"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction6   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_6"
+      inputDescriptionLink   =   "CustomAddonAction6"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction7   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_7"
+      inputDescriptionLink   =   "CustomAddonAction7"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction8   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_8"
+      inputDescriptionLink   =   "CustomAddonAction8"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   SteeringWheelInputRotateStepLeft   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ROTATE_STEP_LEFT"
+      inputDescriptionLink   =   "CameraRotateStepLeft"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputRotateStepRight   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ROTATE_STEP_RIGHT"
+      inputDescriptionLink   =   "CameraRotateStepRight"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   ArcadeInput   =   {
+      __type   =   "UiOneSettingsSteeringModeController"
+   }
+   SteeringWheelInputCustomAction1   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_1"
+      inputDescriptionLink   =   "CustomAddonAction1"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction2   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_2"
+      inputDescriptionLink   =   "CustomAddonAction2"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction3   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_3"
+      inputDescriptionLink   =   "CustomAddonAction3"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction4   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_4"
+      inputDescriptionLink   =   "CustomAddonAction4"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction5   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_5"
+      inputDescriptionLink   =   "CustomAddonAction5"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction6   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_6"
+      inputDescriptionLink   =   "CustomAddonAction6"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction7   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_7"
+      inputDescriptionLink   =   "CustomAddonAction7"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction8   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_8"
+      inputDescriptionLink   =   "CustomAddonAction8"
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SwitchHintsMode   =   {
+      __type   =   "UiOneSettingStepperSwitchHintsMode"
+   }
+   UiOneSettingStepperHideDriver   =   {
+   }
+   UiOneSettingStepperCrossplayController   =   {
+   }
+   SteeringWheelBrakePedalSensitivity   =   {
+      __type   =   "UiOneSettingSliderSteeringWheelBrakePedalSensitivityController"
+   }
+   SteeringWheelTrueforceGain   =   {
+      __type   =   "UiOneSettingSliderSteeringWheelTrueforceGain"
+   }
+   HideKsivaController   =   {
+      __type   =   "UiOneSettingStepperHideKsivaController"
+   }
+   UiOneSettingStepperSteeringWheelTypeController   =   {
+   }
+   InputReleaseWinch   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_RELEASE_WINCH"
+      desc   =   ""
+      inputDescriptionLink   =   "ReleaseWinch"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   CraneLegend   =   {
+      __type   =   "UiOneSettingStepperShowCraneLegend"
+   }
+   InputHidePolygonTool   =   {
+      header   =   "UI_SETTINGS_CONTROL_HIDE_POLYGON_TOOL"
+      inputDescriptionLink   =   "HidePolygonTool"
+      __type   =   "UiPcOneSettingInputShortcutController"
+   }
+   InputZoneInteraction   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_ZONE_INTERACTION"
+      inputDescriptionLink   =   "ZoneInteraction"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction9Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction9Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction9Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_Backward"
+      inputDescriptionLink   =   "CustomAddonAction9Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction10Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction10Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction10Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_Backward"
+      inputDescriptionLink   =   "CustomAddonAction10Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction11Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction11Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction11Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_Backward"
+      inputDescriptionLink   =   "CustomAddonAction11Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction12Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction12Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction12Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_Backward"
+      inputDescriptionLink   =   "CustomAddonAction12Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction13Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction13Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction13Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_Backward"
+      inputDescriptionLink   =   "CustomAddonAction13Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction14Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction14Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputCustomAddonAction14Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_Backward"
+      inputDescriptionLink   =   "CustomAddonAction14Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   SteeringWheelInputCustomAction9Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction9Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction9Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_9_BACKWARD"
+      inputDescriptionLink   =   "CustomAddonAction9Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction10Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction10Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction10Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_10_BACKWARD"
+      inputDescriptionLink   =   "CustomAddonAction10Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction11Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction11Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction11Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_11_BACKWARD"
+      inputDescriptionLink   =   "CustomAddonAction11Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction12Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction12Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction12Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_12_BACKWARD"
+      inputDescriptionLink   =   "CustomAddonAction12Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction13Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction13Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction13Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_13_BACKWARD"
+      inputDescriptionLink   =   "CustomAddonAction13Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction14Forward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_FORWARD"
+      inputDescriptionLink   =   "CustomAddonAction14Forward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   SteeringWheelInputCustomAction14Backward   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_CUSTOM_ADDON_ACTION_14_BACKWARD"
+      inputDescriptionLink   =   "CustomAddonAction14Backward"
+      checkOnlySameLayer   =   True
+      __type   =   "UiOneSettingSteeringWheelInputShortcutController"
+   }
+   InputFlyCameraZoomIn   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ZOOM_IN"
+      inputDescriptionLink   =   "FlyCameraZoomIn"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraZoomOut   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ZOOM_OUT"
+      inputDescriptionLink   =   "FlyCameraZoomOut"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraMoveLeft   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_LEFT"
+      inputDescriptionLink   =   "FlyCameraMoveLeft"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraMoveRight   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_RIGHT"
+      inputDescriptionLink   =   "FlyCameraMoveRight"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraMoveUp   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_UP"
+      inputDescriptionLink   =   "FlyCameraMoveUp"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraMoveDown   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_MOVE_DOWN"
+      inputDescriptionLink   =   "FlyCameraMoveDown"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraRotateLeft   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_LEFT"
+      inputDescriptionLink   =   "FlyCameraRotateLeft"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraRotateRight   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_RIGHT"
+      inputDescriptionLink   =   "FlyCameraRotateRight"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraRotateCW   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_CW"
+      inputDescriptionLink   =   "FlyCameraRotateCW"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraRotateCCW   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_CCW"
+      inputDescriptionLink   =   "FlyCameraRotateCCW"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraRotateDown   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_DOWN"
+      inputDescriptionLink   =   "FlyCameraRotateDown"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+   InputFlyCameraRotateUp   =   {
+      header   =   "UI_SETTINGS_CONTROL_LAYOUT_ACTION_FLY_CAMERA_ROTATE_UP"
+      inputDescriptionLink   =   "FlyCameraRotateUp"
+      __type   =   "UiOneSettingInputShortcutController"
+   }
+}
+tabBar   =   {
+   clickSound   =   "ui/ui_qe_chose"
+   hoverSound   =   "ui/ui_hover"
+   __type   =   "UiSettingsTabBar"
+}
+tabBarItemDesc   =   {
+   type   =   {
+      view   =   {
+         uiObjectDesc   =   {
+            type   =   {
+               focusable   =   False
+               __type   =   "UiCommonLibPaneltabbutton"
+            }
+            __type   =   "UiObjectDesc"
+         }
+         __type   =   "UiSettingsTabElementView"
+      }
+      __type   =   "SelectableItemControllerBase"
+   }
+   __type   =   "SelectableItemControllerDesc"
+}
+inputScreenBlock   =   {
+   name   =   "UiSettingsControllerResetDefaultBlock"
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "ScreenControllerBase"

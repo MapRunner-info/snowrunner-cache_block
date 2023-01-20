@@ -1,0 +1,22 @@
+useBg   =   False
+useOffset   =   True
+centerAllign   =   True
+btns   =   {
+   close   =   {
+      text   =   "UI_CLOSE"
+      __type   =   "NavButtonDesc"
+   }
+   accept   =   {
+      text   =   "UI_CONNECT"
+      __type   =   "NavButtonDesc"
+   }
+   virtual_keyboard   =   {
+      text   =   "UI_VIRTUAL_KEYBOARD"
+      __type   =   "NavButtonDesc"
+   }
+   paste   =   {
+      text   =   "UI_PASTE"
+      __type   =   "NavButtonDesc"
+   }
+}
+__type   =   "NavigationPanelController"

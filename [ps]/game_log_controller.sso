@@ -1,0 +1,20 @@
+gameLogView   =   {
+   __type   =   "GameLogView"
+}
+upgradeIcon   =   "upgradeCreateImg30"
+zoneDefaultIcon   =   "markerImg30"
+gameLogObjectiveIcons   =   {
+   CONTEST   =   {
+      __value   =   "taskNewImg30"
+   }
+   TASK   =   {
+      __value   =   "taskNewImg30"
+   }
+   CONTRACT   =   {
+      __value   =   "taskNewImg30"
+   }
+   TRIAL   =   {
+      __value   =   "taskNewImg30"
+   }
+}
+__type   =   "object"

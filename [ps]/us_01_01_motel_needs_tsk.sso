@@ -1,0 +1,33 @@
+uiDesc   =   "US_01_01_MOTEL_NEEDS_DESC"
+stages   =   [
+   {
+      actions   =   {
+         __type   =   "ActionPackSettings"
+      }
+      truckDelivery   =   [
+         {
+            truckId   =   "MOTEL_TRAILER"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               globalZoneId   =   "level_us_01_01 || US_01_01_MOTEL"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_01_MOTEL_NEEDS_TRAILER"
+         }
+      ]
+   }
+]
+description   =   "US_01_01_MOTEL_NEEDS_REWARD_DESC"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   210
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1850
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_MOTEL_NEEDS_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

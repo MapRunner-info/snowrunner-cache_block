@@ -1,0 +1,62 @@
+colors   =   [
+   {
+      a   =   200
+      r   =   0
+      g   =   0
+      b   =   255
+   },
+   {
+      a   =   200
+      r   =   67
+      g   =   49
+      b   =   146
+   },
+   {
+      a   =   200
+      r   =   0
+      g   =   240
+      b   =   255
+   },
+   {
+      a   =   200
+      r   =   103
+      g   =   0
+      b   =   137
+   }
+]
+enabledGameStates   =   [
+   "INGAME",
+   "MINIMAP",
+   "REGION_MAP",
+   "PLAYER_PROFILE"
+]
+independentPhantomGroup   =   {
+   color   =   {
+      a   =   200
+      r   =   239
+      g   =   240
+      b   =   158
+      __type   =   "Color"
+   }
+   mode   =   -1
+   __type   =   "IndependentPhantomGroup"
+}
+networkPhantomGroup   =   {
+   color   =   {
+      a   =   127
+      r   =   167
+      g   =   190
+      b   =   89
+      __type   =   "Color"
+   }
+   mode   =   -1
+   __type   =   "NetworkPhantomGroup"
+}
+generalPhantomGroupColor   =   {
+   a   =   127
+   r   =   0
+   g   =   200
+   b   =   28
+   __type   =   "Color"
+}
+__type   =   "object"

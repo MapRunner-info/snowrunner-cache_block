@@ -1,0 +1,25 @@
+inputScreen   =   {
+   name   =   "GameStateRegionMap"
+   inputsLinks   =   {
+      Back   =   {
+         inputLink   =   "UI.Back"
+         __type   =   "InputLinkHoldMr"
+      }
+      GoToMap   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+      GoToGarage   =   {
+         inputLink   =   "UI.GlobalMapGoToGarage"
+         __type   =   "InputLinkHoldMr"
+      }
+      ShowDLC   =   {
+         inputLink   =   "UI.ShowMapDLC"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+idx   =   "REGION_MAP"
+__type   =   "GameStateBase"

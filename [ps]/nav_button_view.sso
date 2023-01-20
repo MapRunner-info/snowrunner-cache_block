@@ -1,0 +1,37 @@
+uiObjectDesc   =   {
+   type   =   {
+      mouseChildren   =   True
+      focusable   =   False
+      holdSfx   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiNavigationLegendNavbtnholdsfx"
+      }
+      sfx   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiNavigationLegendNavbtnsfx"
+      }
+      tfCont   =   {
+         textField   =   {
+            isHtml   =   True
+            __type   =   "UiLabel"
+         }
+         __type   =   "UiNavigationLegendNavbtntftall"
+      }
+      newRegionBlink   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiNavigationLegendNewregionblinkanim"
+      }
+      downOutAnim   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiNavigationLegendNavbtndownoutanim"
+      }
+      __type   =   "UiNavigationLegendNavigationpanelbuttontall"
+   }
+   __type   =   "UiObjectDesc"
+}
+singleLineYOffset   =   9
+__type   =   "ComponentUiViewBase"

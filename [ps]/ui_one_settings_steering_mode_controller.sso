@@ -1,0 +1,7 @@
+header   =   "UI_SETTINGS_STEERING_MODE"
+desc   =   "UI_SETTINGS_STEERING_MODE_DESC"
+modesUiNames   =   [
+   "UI_GAMEPAD_STEERING",
+   "UI_WHEEL_STEERING"
+]
+__type   =   "UiOneSettingStepperOnOff"

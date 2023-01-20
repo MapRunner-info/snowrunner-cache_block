@@ -1,0 +1,1376 @@
+classes   =   {
+   AutoClassTrucklirdlciconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   ""
+      sslClass   =   "UiShopLibAutoclasstrucklirdlcicontxt"
+      tf   =   {
+         x   =   -50
+         y   =   -15.5
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrucklirmodiconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   ""
+      sslClass   =   "UiShopLibAutoclasstrucklirmodicontxt"
+      tf   =   {
+         x   =   -50
+         y   =   -15.5
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTrucklirpreiconTxt   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   ""
+      sslClass   =   "UiShopLibAutoclasstrucklirpreicontxt"
+      tf   =   {
+         x   =   -50
+         y   =   -15.5
+         scaleX   =   99.9969
+         scaleY   =   99.9969
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTruckshopbuttonIconorigin   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   ""
+      sslClass   =   "UiShopLibAutoclasstruckshopbuttoniconorigin"
+      icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassTruckshoplirIconorigin   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   ""
+      sslClass   =   "UiShopLibAutoclasstruckshopliriconorigin"
+      icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Bgblurblackimg   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "bgBlurBlackImg"
+      sslClass   =   "UiShopLibBgblurblackimg"
+      __type   =   "UiContainer"
+   }
+   Shoparrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "shopArrow"
+      __type   =   "UiButton"
+   }
+   Shopcontent   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopContent"
+      sslClass   =   "UiShopLibShopcontent"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoplist"
+      }
+      __type   =   "UiContainer"
+   }
+   Shoplir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "shopLir"
+      lockIcon   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   185
+         y   =   65
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibShopliricon"
+      }
+      lockedCover   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibShoplirlockedcover"
+      }
+      header   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   20
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibShoplirheader"
+      }
+      cost   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   250
+         y   =   111
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibShoplircost"
+      }
+      icon   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopliricon"
+      }
+      __type   =   "UiListItem"
+   }
+   Shoplirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Shoplircost   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopLirCost"
+      sslClass   =   "UiShopLibShoplircost"
+      icon   =   {
+         symbol   =   ""
+         x   =   100
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopliricon"
+      }
+      tfCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoplircostval"
+      }
+      __type   =   "UiContainer"
+   }
+   Shoplircostval   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopLirCostVal"
+      sslClass   =   "UiShopLibShoplircostval"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Shoplirheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopLirHeader"
+      sslClass   =   "UiShopLibShoplirheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Shopliricon   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopLirIcon"
+      sslClass   =   "UiShopLibShopliricon"
+      __type   =   "UiContainer"
+   }
+   Shoplirlockedcover   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopLirLockedCover"
+      sslClass   =   "UiShopLibShoplirlockedcover"
+      __type   =   "UiContainer"
+   }
+   Shoplist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "shopList"
+      __type   =   "UiScrollingList"
+   }
+   Shopnavpanelattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopNavPanelAttach"
+      sslClass   =   "UiShopLibShopnavpanelattach"
+      __type   =   "UiContainer"
+   }
+   Shopnavpanelbtnattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopNavPanelBtnAttach"
+      sslClass   =   "UiShopLibShopnavpanelbtnattach"
+      __type   =   "UiContainer"
+   }
+   Shoppanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopPanel"
+      sslClass   =   "UiShopLibShoppanel"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoppanelheader"
+      }
+      subHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   171
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoppanelsubheader"
+      }
+      tabPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   100
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoptabpanel"
+      }
+      content   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   228
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopcontent"
+      }
+      panelBg   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Shoppanelheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopPanelHeader"
+      sslClass   =   "UiShopLibShoppanelheader"
+      textField   =   {
+         x   =   0
+         y   =   10
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Shoppanelsubheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopPanelSubHeader"
+      sslClass   =   "UiShopLibShoppanelsubheader"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Shopscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopScreen"
+      sslClass   =   "UiShopLibShopscreen"
+      playerInfoAttach   =   {
+         symbol   =   ""
+         x   =   1520
+         y   =   80
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      panel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoppanel"
+      }
+      infoPanelAttach   =   {
+         symbol   =   ""
+         x   =   510
+         y   =   85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopnavpanelattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Shopscreenattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopScreenAttach"
+      sslClass   =   "UiShopLibShopscreenattach"
+      __type   =   "UiContainer"
+   }
+   Shopscreenattach80   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopScreenAttach80"
+      sslClass   =   "UiShopLibShopscreenattach80"
+      __type   =   "UiContainer"
+   }
+   Shopscrollbar   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopScrollBar"
+      sslClass   =   "UiShopLibShopscrollbar"
+      thumb   =   {
+         symbol   =   ""
+         x   =   780
+         y   =   16
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscrollbarthumb"
+      }
+      downArrow   =   {
+         symbol   =   ""
+         x   =   780
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscrollbararrow"
+      }
+      upArrow   =   {
+         symbol   =   ""
+         x   =   780
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscrollbararrow"
+      }
+      track   =   {
+         symbol   =   ""
+         x   =   780
+         y   =   16
+         scaleX   =   100
+         scaleY   =   599.8749
+         __type   =   "UiShopLibShopscrollbartrack"
+      }
+      __type   =   "UiContainer"
+   }
+   Shopscrollbararrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "shopScrollBarArrow"
+      __type   =   "UiButton"
+   }
+   Shopscrollbarthumb   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "shopScrollBarThumb"
+      __type   =   "UiButton"
+   }
+   Shopscrollbartrack   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "shopScrollBarTrack"
+      __type   =   "UiButton"
+   }
+   Shopscrollindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopScrollIndicator"
+      sslClass   =   "UiShopLibShopscrollindicator"
+      thumb   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscrollbarthumb"
+      }
+      track   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   599.8749
+         __type   =   "UiShopLibShopscrollbartrack"
+      }
+      __type   =   "UiContainer"
+   }
+   Shoptab   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "shopTab"
+      tabIconAttach   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   30
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Shoptabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopTabPanel"
+      sslClass   =   "UiShopLibShoptabpanel"
+      arrowR   =   {
+         symbol   =   ""
+         x   =   320
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopnavpanelattach"
+      }
+      arrowL   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   5
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopnavpanelattach"
+      }
+      btn0   =   {
+         symbol   =   ""
+         x   =   80
+         y   =   7
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn1   =   {
+         symbol   =   ""
+         x   =   120
+         y   =   7
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn2   =   {
+         symbol   =   ""
+         x   =   160
+         y   =   7
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn3   =   {
+         symbol   =   ""
+         x   =   200
+         y   =   7
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn4   =   {
+         symbol   =   ""
+         x   =   240
+         y   =   7
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn5   =   {
+         symbol   =   ""
+         x   =   280
+         y   =   7
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      __type   =   "UiContainer"
+   }
+   Shoptabpaneltext   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "shopTabPanelText"
+      sslClass   =   "UiShopLibShoptabpaneltext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Showcaseindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "showcaseIndicator"
+      sslClass   =   "UiShopLibShowcaseindicator"
+      thumb   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShowcaseindicatorthumb"
+      }
+      __type   =   "UiContainer"
+   }
+   Showcaseindicatorthumb   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "showcaseIndicatorThumb"
+      sslClass   =   "UiShopLibShowcaseindicatorthumb"
+      __type   =   "UiContainer"
+   }
+   Showcaseselector   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "showcaseSelector"
+      sslClass   =   "UiShopLibShowcaseselector"
+      statsCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucklirstatscont"
+      }
+      truckStatsAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      truckEquipmentAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   642
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      truckDescAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   15
+         y   =   500
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      hintBtnAttach   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   808
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirdesctext   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirDescText"
+      sslClass   =   "UiShopLibTrucklirdesctext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirdesctf   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirDescTf"
+      sslClass   =   "UiShopLibTrucklirdesctf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirdlcicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirDlcIcon"
+      sslClass   =   "UiShopLibTrucklirdlcicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -37.95
+         y   =   36.6
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiShopLibAutoclasstrucklirdlcicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirheadertitle   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirHeaderTitle"
+      sslClass   =   "UiShopLibTrucklirheadertitle"
+      title   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirImgAttach"
+      sslClass   =   "UiShopLibTrucklirimgattach"
+      __type   =   "UiContainer"
+   }
+   Trucklirinstockcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirInStockCont"
+      sslClass   =   "UiShopLibTrucklirinstockcont"
+      tfCont   =   {
+         symbol   =   ""
+         x   =   28
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucklirinstockcounter"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirinstockcounter   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirInStockCounter"
+      sslClass   =   "UiShopLibTrucklirinstockcounter"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirlockcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirLockCont"
+      sslClass   =   "UiShopLibTrucklirlockcont"
+      header   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   245
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucklirlockheader"
+      }
+      imgAttach   =   {
+         colorMode   =   2
+         symbol   =   ""
+         x   =   143
+         y   =   114
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucklirimgattach"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   15
+         y   =   164
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucklirlocktext"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirlockheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirLockHeader"
+      sslClass   =   "UiShopLibTrucklirlockheader"
+      title   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucklirheadertitle"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirlocktext   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "truckLirLockText"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Trucklirmodicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirModIcon"
+      sslClass   =   "UiShopLibTrucklirmodicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -37.95
+         y   =   36.6
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiShopLibAutoclasstrucklirmodicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirnewicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirNewIcon"
+      sslClass   =   "UiShopLibTrucklirnewicon"
+      __type   =   "UiContainer"
+   }
+   Trucklirpreicon   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirPreIcon"
+      sslClass   =   "UiShopLibTrucklirpreicon"
+      txt   =   {
+         symbol   =   ""
+         x   =   -37.95
+         y   =   36.6
+         scaleX   =   99.9985
+         scaleY   =   99.9985
+         rotation   =   45
+         __type   =   "UiShopLibAutoclasstrucklirpreicontxt"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirstatscont   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirStatsCont"
+      sslClass   =   "UiShopLibTrucklirstatscont"
+      truckStatsAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      truckEquipmentAttach   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   150
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      truckDescAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   8
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirText"
+      sslClass   =   "UiShopLibTrucklirtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucklirwarningtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckLirWarningText"
+      sslClass   =   "UiShopLibTrucklirwarningtext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckscreenheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckScreenHeader"
+      sslClass   =   "UiShopLibTruckscreenheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckshopbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "truckShopButton"
+      newAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   341
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiShopLibTruckshowcasestatusattach"
+      }
+      inStockCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiShopLibTrucklirinstockcont"
+      }
+      lockCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTrucklirlockcont"
+      }
+      dealerLogoAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   138
+         y   =   325
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibShopscreenattach80"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   23
+         y   =   411
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTrucklirtext"
+      }
+      descCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   23
+         y   =   441
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTrucklirdesctf"
+      }
+      costCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   200
+         y   =   441
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTruckshoplircost"
+      }
+      iconOrigin   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiShopLibAutoclasstruckshopbuttoniconorigin"
+      }
+      __type   =   "UiButton"
+   }
+   Truckshoplir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "truckShopLir"
+      inStockCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   270
+         y   =   30
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTrucklirinstockcont"
+      }
+      lockCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTrucklirlockcont"
+      }
+      truckStatsAttach   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   492
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      truckEquipmentAttach   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   612
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      btnHintAttach   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   796
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      truckDesc   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   500
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucklirdesctext"
+      }
+      dealerLogoAttach   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   30
+         y   =   325
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibShopscreenattach80"
+      }
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   28
+         y   =   411
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTrucklirtext"
+      }
+      descCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   28
+         y   =   441
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTrucklirdesctf"
+      }
+      costCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   200
+         y   =   441
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiShopLibTruckshoplircost"
+      }
+      iconOrigin   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   15
+         y   =   20
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiShopLibAutoclasstruckshopliriconorigin"
+      }
+      __type   =   "UiListItem"
+   }
+   Truckshoplirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Truckshoplircost   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckShopLirCost"
+      sslClass   =   "UiShopLibTruckshoplircost"
+      icon   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   106
+         y   =   7
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      tfCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshoplircosttf"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckshoplircosttf   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckShopLirCostTf"
+      sslClass   =   "UiShopLibTruckshoplircosttf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckshoplist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "truckShopList"
+      __type   =   "UiTileList"
+   }
+   Truckshoplistcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckShopListContainer"
+      sslClass   =   "UiShopLibTruckshoplistcontainer"
+      list   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshoplist"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckshopscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckShopScreen"
+      sslClass   =   "UiShopLibTruckshopscreen"
+      tabPanel   =   {
+         symbol   =   ""
+         x   =   790
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshoptabpanel"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   90
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckscreenheader"
+      }
+      playerInfoAttach   =   {
+         symbol   =   ""
+         x   =   1520
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopscreenattach"
+      }
+      shopArrowRight   =   {
+         symbol   =   ""
+         x   =   1920
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoparrow"
+      }
+      shopArrowLeft   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoparrow"
+      }
+      trucks   =   {
+         symbol   =   ""
+         x   =   -282
+         y   =   188
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshoplistcontainer"
+      }
+      trucksShowcase   =   {
+         symbol   =   ""
+         x   =   -642
+         y   =   180
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTrucksshowcasecontainer"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopnavpanelattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckshoptabpanel   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckShopTabPanel"
+      sslClass   =   "UiShopLibTruckshoptabpanel"
+      arrowR   =   {
+         symbol   =   ""
+         x   =   340
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopnavpanelbtnattach"
+      }
+      arrowL   =   {
+         symbol   =   ""
+         x   =   -33
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShopnavpanelbtnattach"
+      }
+      btn0   =   {
+         symbol   =   ""
+         x   =   30
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn1   =   {
+         symbol   =   ""
+         x   =   80
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn2   =   {
+         symbol   =   ""
+         x   =   130
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn3   =   {
+         symbol   =   ""
+         x   =   180
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn4   =   {
+         symbol   =   ""
+         x   =   230
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      btn5   =   {
+         symbol   =   ""
+         x   =   280
+         y   =   2
+         scaleX   =   75
+         scaleY   =   75
+         __type   =   "UiShopLibShoptab"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   50
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShoptabpaneltext"
+      }
+      __type   =   "UiContainer"
+   }
+   Truckshowcaseattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckShowcaseAttach"
+      sslClass   =   "UiShopLibTruckshowcaseattach"
+      __type   =   "UiContainer"
+   }
+   Truckshowcasestatusattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "truckShowcaseStatusAttach"
+      sslClass   =   "UiShopLibTruckshowcasestatusattach"
+      __type   =   "UiContainer"
+   }
+   Trucksshowcasecontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_shop_lib"
+      symbol   =   "trucksShowcaseContainer"
+      sslClass   =   "UiShopLibTrucksshowcasecontainer"
+      indicator   =   {
+         symbol   =   ""
+         x   =   732
+         y   =   -15
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShowcaseindicator"
+      }
+      selector   =   {
+         symbol   =   ""
+         x   =   1424
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibShowcaseselector"
+      }
+      btnAttach0   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach1   =   {
+         symbol   =   ""
+         x   =   356
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach2   =   {
+         symbol   =   ""
+         x   =   712
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach3   =   {
+         symbol   =   ""
+         x   =   1068
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach4   =   {
+         symbol   =   ""
+         x   =   1424
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach5   =   {
+         symbol   =   ""
+         x   =   1780
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach6   =   {
+         symbol   =   ""
+         x   =   2136
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach7   =   {
+         symbol   =   ""
+         x   =   2492
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      btnAttach8   =   {
+         symbol   =   ""
+         x   =   2848
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiShopLibTruckshowcaseattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Trucksswitcharrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "trucksSwitchArrow"
+      __type   =   "UiButton"
+   }
+}
+__type   =   "ssl_object_lib"

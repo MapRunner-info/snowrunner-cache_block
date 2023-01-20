@@ -1,0 +1,113 @@
+forceCrashInput   =   {
+   inputLink   =   "DebugDBG.ForceDelayedCrash5Sec"
+   __type   =   "InputLinkHoldMr"
+}
+openNavigationByZonesActionLink   =   {
+   inputLink   =   "DebugDBG.OpenNavigationZonesWindow"
+   __type   =   "InputLinkTapMr"
+}
+openCurrencyWindowActionLink   =   {
+   inputLink   =   "DebugDBG.CurrencyWindow"
+   __type   =   "InputLinkTapMr"
+}
+openDistanceTraveledActionLink   =   {
+   inputLink   =   "DebugDBG.TraveledDistanceWindow"
+   __type   =   "InputLinkTapMr"
+}
+truckPlacementWindowActionLink   =   {
+   inputLink   =   "DebugDBG.OpenTruckPlacement"
+   __type   =   "InputLinkTapMr"
+}
+truckPowerGroupsWindowActionLink   =   {
+   inputLink   =   "DebugDBG.OpenTruckPowerGroups"
+   __type   =   "InputLinkTapMr"
+}
+truckShowOriginalWindowActionLink   =   {
+   inputLink   =   "DebugDBG.OpenOriginalTruckWindow"
+   __type   =   "InputLinkTapMr"
+}
+dlcDebugWindowActionLink   =   {
+   inputLink   =   "DebugDBG.ShowDlcPurchaseWindow"
+   __type   =   "InputLinkTapMr"
+}
+cinematicToolsWindowActionLink   =   {
+   inputLink   =   "DebugDBG.OpenCinematicTools"
+   __type   =   "InputLinkTapMr"
+}
+openAchievementsWindowActionLink   =   {
+   inputLink   =   "DebugDBG.AchievementWindow"
+   __type   =   "InputLinkTapMr"
+}
+openLevelSelectionActionLink   =   {
+   inputLink   =   "DebugDBG.LevelSelection"
+   __type   =   "InputLinkTapMr"
+}
+openInputScreenStatusActionLink   =   {
+   inputLink   =   "DebugDBG.ShowInputScreenStatus"
+   __type   =   "InputLinkTapMr"
+}
+openUiGfxInputStatusActionLink   =   {
+   inputLink   =   "DebugDBG.ShowUiGfxInputStatus"
+   __type   =   "InputLinkTapMr"
+}
+unlockAllContentActionLink   =   {
+   inputLink   =   "DebugDBG.UnlockAllContent"
+   __type   =   "InputLinkTapMr"
+}
+reloadAllLocalizationActionLink   =   {
+   inputLink   =   "DebugDBG.ReloadAllLocalization"
+   __type   =   "InputLinkTapMr"
+}
+quickRepairActionLink   =   {
+   inputLink   =   "DebugDBG.QuickRepair"
+   __type   =   "InputLinkTapMr"
+}
+certificationCompatibilityTestLink   =   {
+   inputLink   =   "DebugDBG.CertificationCompatibilityTest"
+   __type   =   "InputLinkTapMr"
+}
+forceSaveActionLink   =   {
+   inputLink   =   "DebugDBG.ForceSave"
+   __type   =   "InputLinkTapMr"
+}
+skipTimeActionLink   =   {
+   inputLink   =   "DebugDBG.SkipTime"
+   __type   =   "InputLinkTapMr"
+}
+watchpointsWindowActionLink   =   {
+   inputLink   =   "DebugDBG.Watchpoints"
+   __type   =   "InputLinkTapMr"
+}
+openMinimapActionLink   =   {
+   inputLink   =   "DebugDBG.OpenMinimap"
+   __type   =   "InputLinkTapMr"
+}
+resetFiniteCargoActionLink   =   {
+   inputLink   =   "DebugDBG.ResetFiniteCargoInCurrentLevel"
+   __type   =   "InputLinkTapMr"
+}
+logPhantomsStateActionLink   =   {
+   inputLink   =   "DebugDBG.LogPhantomsState"
+   __type   =   "InputLinkTapMr"
+}
+switchHardMode   =   {
+   inputLink   =   "DebugDBG.SwitchHardMode"
+   __type   =   "InputLinkTapMr"
+}
+startCheckModsBlueprint   =   {
+   inputLink   =   "DebugDBG.ModsCheck"
+   __type   =   "InputLinkTapMr"
+}
+startAabbCheckBlueprint   =   {
+   inputLink   =   "DebugDBG.AabbCheck"
+   __type   =   "InputLinkTapMr"
+}
+checkLockedByExploreCorrect   =   {
+   inputLink   =   "DebugDBG.CheckAllLockedByExplorationCorrect"
+   __type   =   "InputLinkTapMr"
+}
+dbgInfoWindowActionLink   =   {
+   inputLink   =   "DebugDBG.DbgInfoWindow"
+   __type   =   "InputLinkTapMr"
+}
+__type   =   "object"

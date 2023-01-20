@@ -1,0 +1,165 @@
+defaultSettings   =   {
+   sslModule   =   "game.level_data.level_camera_settings"
+   dir   =   {
+      x   =   0.09
+      y   =   -0.05
+      z   =   0.99
+      __type   =   "Vector3d"
+   }
+   org   =   {
+      x   =   20.88
+      y   =   22.56
+      z   =   -65.33
+      __type   =   "Vector3d"
+   }
+   __type   =   "LevelCameraSettings"
+}
+settings   =   {
+   level_main_menu   =   {
+      dir   =   {
+         x   =   234.2946
+         y   =   41
+         z   =   90.94135
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   6
+         y   =   -57.87336
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_ru03   =   {
+      dir   =   {
+         x   =   694.5367
+         y   =   8.31522
+         z   =   193.7472
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   -8.991
+         y   =   -71.685
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_us04   =   {
+      dir   =   {
+         x   =   112.38
+         y   =   55.2
+         z   =   787.67
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   -0.175
+         y   =   -164.56
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_us03   =   {
+      dir   =   {
+         x   =   915.11
+         y   =   51.095
+         z   =   -3.309
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   21
+         y   =   -130
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_ru04   =   {
+      dir   =   {
+         x   =   265.3044
+         y   =   43.90958
+         z   =   -262.1772
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   13.05
+         y   =   -67.717
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_ru05   =   {
+      dir   =   {
+         x   =   76.42713
+         y   =   47.43387
+         z   =   -62.18077
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   3.863
+         y   =   -99.791
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_us06   =   {
+      dir   =   {
+         x   =   251.6055
+         y   =   19.1135
+         z   =   -877.9548
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   -1.897
+         y   =   -12.496
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_us07   =   {
+      dir   =   {
+         x   =   312
+         y   =   39.5
+         z   =   -608
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   14
+         y   =   -51
+         z   =   0
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_ru08   =   {
+      dir   =   {
+         x   =   82.77267
+         y   =   27.89158
+         z   =   39.08209
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   0.017
+         y   =   -0.554
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+   level_main_menu_us09   =   {
+      dir   =   {
+         x   =   -664.9615
+         y   =   36.90726
+         z   =   -444.3016
+         __type   =   "Vector3d"
+      }
+      org   =   {
+         x   =   4.504
+         y   =   46.373
+         __type   =   "Vector3d"
+      }
+      __type   =   "LevelCameraSettings"
+   }
+}
+__type   =   "object"

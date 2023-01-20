@@ -1,0 +1,20 @@
+moveRushingDesc   =   {
+   type   =   {
+      spline   =   {
+         spline   =   [
+            0,
+            0,
+            0.1,
+            0,
+            0.45889,
+            1.5,
+            1.063193,
+            1.33545
+         ]
+         __type   =   "SplineLinear1d"
+      }
+      __type   =   "SplineRushing1d"
+   }
+   __type   =   "SslDesc"
+}
+__type   =   "object"

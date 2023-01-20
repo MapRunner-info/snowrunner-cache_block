@@ -1,0 +1,71 @@
+uiDesc   =   "US_01_02_WORK_FOR_OLD_SWEAT_DESC"
+stages   =   [
+   {
+      actions   =   {
+         sslModule   =   "game.missions.task_settings"
+         zoneToFill   =   [
+            {
+               sslModule   =   "game.missions.task_settings"
+               uiDesc   =   "US_01_02_WORK_FOR_OLD_SWEAT_BRING"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_QUARRY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoConcreteSlab"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   ""
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_QUARRY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoServiceSpareParts"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_01_01_TOWN_STORAGE_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_02_WORK_FOR_OLD_SWEAT_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   380
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3450
+   }
+   ObjectiveRewardOpenZoneProperties   =   {
+      zoneSettings   =   {
+         ZonePropertiesSettingsObjectiveReward   =   {
+            zoneId   =   "US_01_02_QUARRY_LOADING_ZONE"
+            mapId   =   "level_us_01_02"
+            props   =   {
+               ZonePropertyCargoLoading   =   {
+                  cargosSettings   =   [
+                     {
+                        name   =   "CargoContainerSmall"
+                     }
+                  ]
+                  platformId   =   "US_01_02_QUARRY_LOADING_ZONE_MANUAL"
+               }
+            }
+         }
+      }
+   }
+}
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+__type   =   "ContractSettings"

@@ -1,0 +1,4 @@
+view   =   {
+   __type   =   "WatermarkUiView"
+}
+__type   =   "ComponentUiControllerBase"

@@ -1,0 +1,40 @@
+uiDesc   =   "US_01_04_CARGO_FROM_SHIP_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_CARGO_FROM_SHIP_CONT"
+               globalZoneId   =   {
+                  sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                  globalZoneId   =   "level_us_01_02 || US_01_02_WAREHOUSE_01"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  sslModule   =   "game.missions.cargo_unloading_zone_settings"
+                  name   =   "CargoContainerLarge"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+   }
+]
+blockerObjectives   =   [
+   "US_01_04_CARGO_DELIVERING_OBJ"
+]
+requiredRank   =   0
+description   =   "US_01_04_CARGO_FROM_SHIP_REW"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   1270
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   14100
+   }
+}
+employer   =   "HuskyForwarding"
+region   =   "us_01"
+__type   =   "ContractSettings"

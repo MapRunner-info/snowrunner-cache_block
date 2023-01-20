@@ -1,0 +1,351 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "New York (19)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+			
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+						__defaultValue = false
+					}
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Distortion Texture"
+							__hint = "texture0"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture1 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Drops Layer 1 Texture"
+							__hint = "texture1"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture3= {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Drops Layer 2 Texture"
+							__hint = "texture2"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					texture2 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Mask Texture"
+							__hint = "Use all channel for mask r and g for mask  Dropl lr1 lr2. Channel g and a for blur mask"
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+						__defaultValue = ""
+					}
+					floatParam01 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Layer 1 Size X"
+						}
+						__type = "float"
+					}
+					floatParam02 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Layer 1 Size Y"
+						}
+						__type = "float"
+					}
+					floatParam03 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Size X"
+						}
+						__type = "float"
+					}
+					
+					floatParam04 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Size Y"
+						}
+						__type = "float"
+					}
+					floatParam05 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Power"
+						}
+						__type = "float"
+					}
+					floatParam06 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Size X"
+						}
+						__type = "float"
+					}
+					floatParam07 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Size Y"
+						}
+						__type = "float"
+					}
+					
+					floatParam08 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Clamp Min"
+						}
+						__type = "float"
+					}
+					floatParam09 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Clamp Max"
+						}
+						__type = "float"
+					}
+					floatParam10 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Layer 2 Size X"
+						}
+						__type = "float"
+					}
+					floatParam11 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Layer 2 Size Y"
+						}
+						__type = "float"
+					}
+					floatParam12 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Layer 2 Size X"
+						}
+						__type = "float"
+					}
+					floatParam13 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Layer 2 Size Y"
+						}
+						__type = "float"
+					}
+					floatParam14 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Distortion Layer 2 Power"
+						}
+						__type = "float"
+					}
+					floatParam15 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Layer 2 Size X"
+						}
+						__type = "float"
+					}
+					floatParam16 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Layer 2 Size Y"
+						}
+						__type = "float"
+					}
+					floatParam17 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Layer 2 Clamp Min"
+						}
+						__type = "float"
+					}
+					floatParam18 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Drop Mask Layer 2 Clamp Max"
+						}
+						__type = "float"
+					}
+					floatParam19 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Layer1 Start"
+						}
+						__type = "float"
+					}
+					floatParam20 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Layer1 End"
+						}
+						__type = "float"
+					}
+					floatParam21 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Layer2 Start"
+						}
+						__type = "float"
+					}
+					floatParam22 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Layer2 End"
+						}
+						__type = "float"
+					}
+					floatParam23 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Start"
+						}
+						__type = "float"
+					}
+					floatParam24 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur End"
+						}
+						__type = "float"
+					}
+					floatParam25 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer1 Size X"
+						}
+						__type = "float"
+					}
+					floatParam26 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer1 Size Y"
+						}
+						__type = "float"
+					}
+					floatParam27 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer1 Clamp Min"
+						}
+						__type = "float"
+					}
+					floatParam28 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer1 Clamp Max"
+						}
+						__type = "float"
+					}
+					floatParam29 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer2 Size X"
+						}
+						__type = "float"
+					}
+					floatParam30 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer2 Size Y"
+						}
+						__type = "float"
+					}
+					floatParam31 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer2 Clamp Min"
+						}
+						__type = "float"
+					}
+					floatParam00 = {
+						__viewType {
+							__wrappable = false
+							__caption = "Mask Blur Layer2 Clamp Max"
+						}
+						__type = "float"
+					}							
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+							__hidden = false
+						}
+					}
+				}
+			}	
+
+		}
+	}
+}

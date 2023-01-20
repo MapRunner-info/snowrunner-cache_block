@@ -1,0 +1,4 @@
+activationRadius   =   50
+UPDATE_DELAY_S   =   1
+zonePropertyType   =   "WATCHPOINT"
+__type   =   "TutorialStageRepeatable"

@@ -1,0 +1,25 @@
+view   =   {
+   uiObjectDesc   =   {
+      type   =   {
+         sysMsgMulitlineText   =   {
+            isHtml   =   True
+            __type   =   "UiSystemMessageSysmessagemultilinetext"
+         }
+         __type   =   "UiSystemMessageSystemmessagecontainer"
+      }
+      __type   =   "UiObjectDesc"
+   }
+   __type   =   "SystemMessageUiView"
+}
+inputScreen   =   {
+   priority   =   "MEDIUM"
+   name   =   "SYSTEM INVITE"
+   inputsLinks   =   {
+      Accept   =   {
+         inputLink   =   "Popups.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "SystemMessageBaseUiController"

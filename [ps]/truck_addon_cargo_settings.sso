@@ -1,0 +1,166 @@
+descs   =   {
+   semitrailer_sideboard_4   =   {
+      availableCargos   =   {
+         TruckAvailableCargoDesc   =   {
+            cargoType   =   "CargoServiceSpareParts"
+         }
+         TruckAvailableCargoDesc_1   =   {
+            cargoType   =   "CargoBarrels"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_2   =   {
+            cargoType   =   "CargoBricks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_3   =   {
+            cargoType   =   "CargoConcreteBlocks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_4   =   {
+            cargoType   =   "CargoConcreteSlab"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_5   =   {
+            cargoType   =   "CargoMetalPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_6   =   {
+            cargoType   =   "CargoWoodenPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_7   =   {
+            cargoType   =   "CargoContainerLarge"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_8   =   {
+            cargoType   =   "CargoContainerSmall"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+      }
+      __type   =   "TruckCargoDesc"
+   }
+   tayga_6436   =   {
+      __type   =   "TruckCargoDesc"
+   }
+   trailer_sideboard_2   =   {
+      availableCargos   =   {
+         TruckAvailableCargoDesc   =   {
+            cargoType   =   "CargoServiceSpareParts"
+         }
+         TruckAvailableCargoDesc_1   =   {
+            cargoType   =   "CargoBarrels"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_2   =   {
+            cargoType   =   "CargoBricks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_3   =   {
+            cargoType   =   "CargoConcreteBlocks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_4   =   {
+            cargoType   =   "CargoConcreteSlab"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_5   =   {
+            cargoType   =   "CargoMetalPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_6   =   {
+            cargoType   =   "CargoWoodenPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_7   =   {
+            cargoType   =   "CargoContainerLarge"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_8   =   {
+            cargoType   =   "CargoContainerLarge"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+      }
+      __type   =   "TruckCargoDesc"
+   }
+   semitrailer_flatbed_4   =   {
+      availableCargos   =   {
+         TruckAvailableCargoDesc   =   {
+            cargoType   =   "CargoServiceSpareParts"
+         }
+         TruckAvailableCargoDesc_1   =   {
+            cargoType   =   "CargoBarrels"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_2   =   {
+            cargoType   =   "CargoBricks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_3   =   {
+            cargoType   =   "CargoConcreteBlocks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_4   =   {
+            cargoType   =   "CargoConcreteSlab"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_5   =   {
+            cargoType   =   "CargoMetalPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_6   =   {
+            cargoType   =   "CargoWoodenPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_7   =   {
+            cargoType   =   "CargoContainerLarge"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_8   =   {
+            cargoType   =   "CargoContainerSmall"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+      }
+      __type   =   "TruckCargoDesc"
+   }
+   ws_6900xd_twin   =   {
+      availableCargos   =   {
+         TruckAvailableCargoDesc   =   {
+            cargoType   =   "CargoServiceSpareParts"
+         }
+         TruckAvailableCargoDesc_1   =   {
+            cargoType   =   "CargoBarrels"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_2   =   {
+            cargoType   =   "CargoBricks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_3   =   {
+            cargoType   =   "CargoConcreteBlocks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_4   =   {
+            cargoType   =   "CargoConcreteSlab"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_5   =   {
+            cargoType   =   "CargoMetalPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_6   =   {
+            cargoType   =   "CargoWoodenPlanks"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_7   =   {
+            cargoType   =   "CargoContainerLarge"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+         TruckAvailableCargoDesc_8   =   {
+            cargoType   =   "CargoContainerSmall"
+            __type   =   "TruckAvailableCargoDesc"
+         }
+      }
+      __type   =   "TruckCargoDesc"
+   }
+}
+__type   =   "object"

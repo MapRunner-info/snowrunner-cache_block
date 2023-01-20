@@ -1,0 +1,20 @@
+emptySlotColorTransform   =   {
+   multiplier   =   {
+      a   =   127
+      r   =   112
+      g   =   112
+      b   =   112
+      __type   =   "Color"
+   }
+   shift   =   {
+      a   =   0
+      r   =   10
+      g   =   10
+      b   =   10
+      __type   =   "Color"
+   }
+   __type   =   "UiColorTransform"
+}
+cargoWidth   =   36
+cargoShift   =   5
+__type   =   "object"

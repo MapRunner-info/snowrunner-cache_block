@@ -1,0 +1,12 @@
+snapshotSectionsV1   =   [
+   "user_progression",
+   "user_challenges",
+   "user_loadouts"
+]
+snapshotSectionsV2   =   [
+   "user_progression",
+   "user_challenges",
+   "user_loadouts",
+   "user_firearms"
+]
+__type   =   "object"

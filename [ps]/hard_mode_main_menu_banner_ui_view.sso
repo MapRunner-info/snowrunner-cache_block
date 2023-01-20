@@ -1,0 +1,9 @@
+uiObjectDesc   =   {
+   type   =   {
+      __type   =   "UiMainMenuHardmodedesccontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+pointsCount   =   8
+pointIconName   =   "bulletPoint"
+__type   =   "ComponentUiViewBase"

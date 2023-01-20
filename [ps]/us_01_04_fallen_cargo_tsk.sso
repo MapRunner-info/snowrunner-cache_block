@@ -1,0 +1,63 @@
+uiDesc   =   "US_01_04_FALLEN_CARGO_TSK_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_04_FALLEN_CARGO_TSK_SUB_0_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_04_new || US_01_04_FALLEN_CARGO_DELIVERY"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      spawnCargoOnStageActive   =   [
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_04_new || US_01_04_FALLEN_CARGO_1"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_04_new || US_01_04_FALLEN_CARGO_2"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+               }
+            ]
+         }
+      ]
+   }
+]
+description   =   "US_01_04_FALLEN_CARGO_TSK_REW"
+recommendedTruck   =   "CRANE"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_04_new || US_01_04_FALLEN_CARGO_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   340
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2150
+   }
+}
+__type   =   "TaskSettings"

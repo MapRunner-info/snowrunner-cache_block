@@ -1,0 +1,569 @@
+classes   =   {
+   AutoClassSettingsheaderclipTextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   ""
+      sslClass   =   "UiSettingsAutoclasssettingsheadercliptextcont"
+      tf   =   {
+         x   =   -9
+         y   =   1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   AutoClassSettingssliderTrackfillercontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   ""
+      sslClass   =   "UiSettingsAutoclasssettingsslidertrackfillercontainer"
+      trackFiller   =   {
+         symbol   =   ""
+         x   =   1
+         y   =   1
+         scaleX   =   100.2747
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiContainer"
+   }
+   Harea   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "hArea"
+      sslClass   =   "UiSettingsHarea"
+      __type   =   "UiContainer"
+   }
+   Settingbgtab   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingBgTab"
+      sslClass   =   "UiSettingsSettingbgtab"
+      __type   =   "UiContainer"
+   }
+   Settingsattachclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsAttachClip"
+      sslClass   =   "UiSettingsSettingsattachclip"
+      attachPoint   =   {
+         symbol   =   ""
+         x   =   600
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingslirattach"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingscliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsbrightness   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsBrightness"
+      sslClass   =   "UiSettingsSettingsbrightness"
+      __type   =   "UiContainer"
+   }
+   Settingscliptextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsClipTextCont"
+      sslClass   =   "UiSettingsSettingscliptextcont"
+      tfContainer   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   240
+         y   =   20.85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsTextcontainermultistate"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingscreenplacement   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingScreenPlacement"
+      sslClass   =   "UiSettingsSettingscreenplacement"
+      __type   =   "UiContainer"
+   }
+   Settingsdescription   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "settingsDescription"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Settingsembeddedtxt   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "settingsEmbeddedTxt"
+      __type   =   "UiEmbeddedClipText"
+   }
+   Settingsfade   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsFade"
+      sslClass   =   "UiSettingsSettingsfade"
+      __type   =   "UiContainer"
+   }
+   Settingsheader   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsHeader"
+      sslClass   =   "UiSettingsSettingsheader"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsheaderclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsHeaderClip"
+      sslClass   =   "UiSettingsSettingsheaderclip"
+      textCont   =   {
+         colorMode   =   4
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsAutoclasssettingsheadercliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsheaderlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "settingsHeaderLir"
+      headerText   =   {
+         symbol   =   ""
+         x   =   9.3
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingslirheadertext"
+      }
+      __type   =   "UiListItem"
+   }
+   Settingsheaderlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Settingsliderthumb   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "settingSliderThumb"
+      __type   =   "UiButton"
+   }
+   Settingslidertrack   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "settingSliderTrack"
+      __type   =   "UiButton"
+   }
+   Settingslir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "settingsLir"
+      attach   =   {
+         symbol   =   ""
+         x   =   2
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingslirattach"
+      }
+      attach2   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingslirattach"
+      }
+      bgHighlighted   =   {
+         sslModule   =   "ui.ui_gfx"
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      bgMain   =   {
+         sslModule   =   "ui.ui_gfx"
+         symbol   =   ""
+         x   =   2
+         y   =   2
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiListItem"
+   }
+   Settingslirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Settingslirattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsLirAttach"
+      sslClass   =   "UiSettingsSettingslirattach"
+      __type   =   "UiContainer"
+   }
+   Settingslirheadertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsLirHeaderText"
+      sslClass   =   "UiSettingsSettingslirheadertext"
+      tf   =   {
+         x   =   0
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingslirhighlight   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsLirHighlight"
+      sslClass   =   "UiSettingsSettingslirhighlight"
+      __type   =   "UiContainer"
+   }
+   Settingslirsubheadertext   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsLirSubHeaderText"
+      sslClass   =   "UiSettingsSettingslirsubheadertext"
+      tf   =   {
+         x   =   0
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingslist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "settingsList"
+      __type   =   "UiScrollingList"
+   }
+   Settingsscreen   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsScreen"
+      sslClass   =   "UiSettingsSettingsscreen"
+      fade   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsfade"
+      }
+      navPanel   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   976
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsscreenattachpoint"
+      }
+      header   =   {
+         symbol   =   ""
+         x   =   38
+         y   =   23
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsheader"
+      }
+      tabPanel   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   50
+         y   =   158
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSettingsSettingsscreenattachpoint"
+      }
+      bgTabPanel   =   {
+         symbol   =   ""
+         x   =   43
+         y   =   151
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingbgtab"
+      }
+      controllerLayoutAp   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsscreenattachpoint"
+      }
+      list   =   {
+         symbol   =   ""
+         x   =   45
+         y   =   240
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingslist"
+      }
+      settingDesc   =   {
+         symbol   =   ""
+         x   =   1200
+         y   =   229
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsdescription"
+      }
+      settingAp   =   {
+         symbol   =   ""
+         x   =   1200
+         y   =   290
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsscreenattachpoint"
+      }
+      wheel   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1175
+         y   =   200
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiSettingsSettingswheeldecoration"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsscreenattachpoint   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsScreenAttachPoint"
+      sslClass   =   "UiSettingsSettingsscreenattachpoint"
+      __type   =   "UiContainer"
+   }
+   Settingsslider   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "settingsSlider"
+      sliderTf   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   314
+         y   =   -10
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   60
+         __type   =   "UiSettingsSettingsslidertf"
+      }
+      trackFillerContainer   =   {
+         animated   =   True
+         colorMode   =   2
+         symbol   =   ""
+         x   =   1
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsAutoclasssettingsslidertrackfillercontainer"
+      }
+      __type   =   "UiSlider"
+   }
+   Settingssliderclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsSliderClip"
+      sslClass   =   "UiSettingsSettingssliderclip"
+      textCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingscliptextcont"
+      }
+      slider   =   {
+         symbol   =   ""
+         x   =   640
+         y   =   12
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsslider"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsslidertf   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsSliderTf"
+      sslClass   =   "UiSettingsSettingsslidertf"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsstepper   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "settingsStepper"
+      prevBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   9.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiSettingsSettingsstepperarrow"
+      }
+      nextBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   360
+         y   =   9.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiSettingsSettingsstepperarrow"
+      }
+      __type   =   "UiOptionStepper"
+   }
+   Settingsstepperarrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "settingsStepperArrow"
+      __type   =   "UiButton"
+   }
+   Settingsstepperclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsStepperClip"
+      sslClass   =   "UiSettingsSettingsstepperclip"
+      textCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingscliptextcont"
+      }
+      stepper   =   {
+         symbol   =   ""
+         x   =   640
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsstepper"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsstepperclipwide   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsStepperClipWide"
+      sslClass   =   "UiSettingsSettingsstepperclipwide"
+      stepper   =   {
+         symbol   =   ""
+         x   =   340
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsstepperwide"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingscliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingsstepperwide   =   {
+      sslModule   =   "ui.ui_gfx"
+      symbol   =   "settingsStepperWide"
+      prevBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   9.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiSettingsSettingsstepperarrow"
+      }
+      nextBtn   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   660
+         y   =   9.5
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   49
+         __type   =   "UiSettingsSettingsstepperarrow"
+      }
+      __type   =   "UiOptionStepper"
+   }
+   Settingssubheaderlir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "settingsSubHeaderLir"
+      subHeaderText   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   9.3
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   70
+         __type   =   "UiSettingsSettingslirsubheadertext"
+      }
+      __type   =   "UiListItem"
+   }
+   Settingssubheaderlirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Settingstextclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsTextClip"
+      sslClass   =   "UiSettingsSettingstextclip"
+      textEmbedded   =   {
+         symbol   =   ""
+         x   =   640
+         y   =   4
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingsembeddedtxt"
+      }
+      textCont   =   {
+         symbol   =   ""
+         x   =   10
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiSettingsSettingscliptextcont"
+      }
+      __type   =   "UiContainer"
+   }
+   Settingswheeldecoration   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "settingsWheelDecoration"
+      sslClass   =   "UiSettingsSettingswheeldecoration"
+      __type   =   "UiContainer"
+   }
+   Textcontainermultistate   =   {
+      sslModule   =   "ui.autogen_libs.ui_settings"
+      symbol   =   "textContainerMultistate"
+      sslClass   =   "UiSettingsTextcontainermultistate"
+      tf   =   {
+         x   =   -240
+         y   =   -16.85
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

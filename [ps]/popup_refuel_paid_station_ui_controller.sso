@@ -1,0 +1,42 @@
+view   =   {
+   tabBtnLeft   =   {
+      desc   =   {
+         uiInputName   =   "ScrollLeft"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   tabBtnRight   =   {
+      desc   =   {
+         uiInputName   =   "ScrollRight"
+         __type   =   "NavButtonDesc"
+      }
+      __type   =   "NavButtonHolder"
+   }
+   refuelInputName   =   "Refuel"
+   incrFuelBtn   =   {
+      uiInputName   =   "PlusFuel"
+      waitTimeSec   =   0.02
+      __type   =   "CustomHoldButtonView"
+   }
+   decrFuelBtn   =   {
+      uiInputName   =   "MinusFuel"
+      waitTimeSec   =   0.02
+      __type   =   "CustomHoldButtonView"
+   }
+   __type   =   "PopupRefuelPaidStationUiView"
+}
+inputScreen   =   {
+   inputsLinks   =   {
+      PlusFuel   =   {
+         inputLink   =   "Popups.IncreaseCount"
+         __type   =   "InputLinkHoldMr"
+      }
+      MinusFuel   =   {
+         inputLink   =   "Popups.DecreaseCount"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupRefuelStationBaseController"

@@ -1,0 +1,33 @@
+uiDesc   =   "US_01_01_DROWNED_TRUCKS_DESC"
+stages   =   [
+   {
+      truckDelivery   =   [
+         {
+            truckId   =   "FARMER_TRUCK_01"
+            afterStageFinished   =   "DESTROY"
+            globalZoneDeliveryId   =   {
+               sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+               globalZoneId   =   "level_us_01_01 || US_01_01_FARM"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            uiDesc   =   "US_01_01_DROWNED_TRUCKS_BRING"
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_01_DROWNED_TRUCKS_REWARD_DESC"
+recommendedTruck   =   "OFFROAD"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   190
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1250
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_DROWNED_TRUCKS_A_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

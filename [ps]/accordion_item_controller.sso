@@ -1,0 +1,10 @@
+contentList   =   {
+   lidDesc   =   {
+      type   =   {
+         __type   =   "ListItemDataBase"
+      }
+      __type   =   "ListItemDataDesc"
+   }
+   __type   =   "LirItemsList"
+}
+__type   =   "SelectableItemControllerBase"

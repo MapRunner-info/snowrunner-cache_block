@@ -1,0 +1,989 @@
+tasksSettings   =   {
+   RU_02_01_TOWER_CLEARING_A_TSK   =   {
+      uiDesc   =   "RU_02_01_TOWER_CLEARING_A"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_TOWER_CLEARING_A_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_TOWER_CLEARING_A_TSK"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoMetalPlanks"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                     additionalUnloadZones   =   [
+                        "RU_02_01_TOWER_CLEARING_B_TSK"
+                     ]
+                     cargos   =   {
+                        CargoMetalPlanks   =   {
+                           count   =   2
+                           __type   =   "CargoPack"
+                        }
+                        CargoServiceSpareParts   =   {
+                           count   =   1
+                           __type   =   "CargoPack"
+                        }
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   "RU_02_01_TOWER_CLEARING_A_DESC"
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_02_01_crop"
+         modelTag   =   "COLLAPSED_TOWER"
+         stagesProgress   =   {
+            stage_visible   =   {
+               __value   =   0
+            }
+            stage_hidden   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      description   =   "RU_02_01_TOWER_CLEARING_A_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   600
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_TOWER_CLEARING_A_TSK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_02_01_TOWER_CLEARING_B_TSK"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_HTRUCK_REFUEL_TSK   =   {
+      uiDesc   =   "RU_02_01_HTRUCK_REFUEL"
+      stages   =   [
+         {
+            repairTruck   =   [
+               {
+                  truckId   =   "HTRUCK_REFUEL_TRUCK"
+                  afterStageFinished   =   "REWARD"
+                  uiDesc   =   "RU_02_01_HTRUCK_REFUEL_TSK_DESK"
+               }
+            ]
+            uiDesc   =   "RU_02_01_HTRUCK_REFUEL_TSK_DESK"
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_PROSPECTING_01_OBJ"
+      ]
+      description   =   "RU_02_01_HTRUCK_REFUEL_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   330
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   3900
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_HTRUCK_REFUEL_TSK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      additionalTaskGivers   =   [
+         "RU_02_01_HTRUCK_REFUEL_A_TSK"
+      ]
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK   =   {
+      uiDesc   =   "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK_0_DESC"
+      stages   =   [
+         {
+            repairTruck   =   [
+               {
+                  truckId   =   "HIGHZIKZ_REPAIR_TRUCK"
+                  afterStageFinished   =   "DETACH"
+                  uiDesc   =   "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK_DELIVER_DESC"
+                  globalZoneSpawnId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_REPAIR_TRUCK_HIGHWAY_SPAWN"
+                     __type   =   "null"
+                  }
+                  truckDamageState   =   80
+                  truckFuelState   =   30
+               }
+            ]
+            uiDesc   =   "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK_DELIVER_DESC"
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "HIGHZIKZ_REPAIR_TRUCK"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_DROP_SERVHUB"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK_DELIVER_2_DESC"
+               }
+            ]
+            uiDesc   =   "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK_DELIVER_2_DESC"
+         }
+      ]
+      description   =   "RU_02_01_REPAIR_TRUCK_HIGHWAY_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   430
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5550
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_REPAIR_TRUCK_HIGHWAY"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_REFUEL_TRUCK_SWAMP_TSK   =   {
+      uiDesc   =   "RU_02_01_REFUEL_TRUCK_SWAMP_TSK_0_DESC"
+      stages   =   [
+         {
+            repairTruck   =   [
+               {
+                  truckId   =   "DON_REFUEL_TRUCK"
+                  afterStageFinished   =   "DETACH"
+                  uiDesc   =   "RU_02_01_REFUEL_TRUCK_SWAMP_TSK_DESC"
+               }
+            ]
+            uiDesc   =   "RU_02_01_REFUEL_TRUCK_SWAMP_TSK_DESC"
+         },
+         {
+            truckDelivery   =   [
+               {
+                  sslModule   =   "game.missions.task_settings"
+                  truckId   =   "DON_REFUEL_TRUCK"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_DROP_SERVHUB"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_02_01_REFUEL_TRUCK_SWAMP_TSK_2_DESC"
+                  globalZoneSpawnId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_REFUEL_TRUCK_SWAMP_SPAWN"
+                     __type   =   "null"
+                  }
+               }
+            ]
+            uiDesc   =   "RU_02_01_REFUEL_TRUCK_SWAMP_TSK_2_DESC"
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ"
+      ]
+      description   =   "RU_02_01_REFUEL_TRUCK_SWAMP_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   450
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5950
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_REFUEL_TRUCK_SWAMP"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_VILLAGE_RESTORATION_TSK   =   {
+      uiDesc   =   "RU_02_01_VILLAGE_RESTORATION_TSK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_VILLAGE_RESTORATION_TSK_0_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_OILRIG_VILLAGE"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoWoodenPlanks"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                     cargos   =   {
+                        CargoWoodenPlanks   =   {
+                           count   =   3
+                           __type   =   "CargoPack"
+                        }
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   ""
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_OILRIG_RECOVERY_OBJ"
+      ]
+      description   =   "RU_02_01_VILLAGE_RESTORATION_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   160
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1400
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_VILLAGE_RESTORATION_TSK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_OILRIG_SAMPLING_TSK   =   {
+      uiDesc   =   "RU_02_01_OILRIG_SAMPLING_TSK_0_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "OILRIG_OILTANK_SAMPLE"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_BLD_GAS"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "US_01_02_CLEAN_THE_RIVER_EAST_MASUT"
+                  globalZoneSpawnId   =   {
+                     sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_OILRIG_SAMPLING_SPAWN"
+                     __type   =   "null"
+                  }
+               }
+            ]
+            uiDesc   =   "RU_02_01_OILRIG_SAMPLING_TSK_DESC"
+         }
+      ]
+      description   =   "RU_02_01_OILRIG_SAMPLING_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   300
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4050
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_OILRIG_SAMPLING"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_EXAMINE_SOUTH_TSK   =   {
+      uiDesc   =   "RU_02_01_EXAMINE_SOUTH_TSK_0_DESC"
+      stages   =   [
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "EXAMINE_SOUTH_SERVTRAILER"
+                  afterStageFinished   =   "DETACH"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_EXAMINE_SOUTH"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_02_01_EXAMINE_SOUTH_TSK_1_DESC"
+                  globalZoneSpawnId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_EXAMINE_SOUTH_SPAWN"
+                     __type   =   "null"
+                  }
+               }
+            ]
+            visitAllZones   =   {
+               __type   =   "VisitAllZonesSettings"
+            }
+            uiDesc   =   ""
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_PROSPECTING_01_OBJ"
+      ]
+      description   =   "RU_02_01_EXAMINE_SOUTH_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   200
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1500
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_EXAMINE_SOUTH_TSK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_EXAMINE_EAST_TSK   =   {
+      uiDesc   =   "RU_02_01_EXAMINE_EAST_TSK_DESC"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_02_01_EXAMINE_EAST_TSK_0_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_EXAMINE_EAST"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            uiDesc   =   "RU_02_01_EXAMINE_EAST_TSK_DESC"
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ"
+      ]
+      description   =   "RU_02_01_EXAMINE_EAST_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   70
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   1200
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_EXAMINE_EAST_TSK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+   RU_02_01_HERMIT_RESCUE_TSK   =   {
+      uiDesc   =   "RU_02_01_HERMIT_RESCUE_TSK_DESC"
+      stages   =   [
+         {
+            repairTruck   =   [
+               {
+                  truckId   =   "HERMIT_RESCUE_TRUCK"
+                  afterStageFinished   =   "DETACH"
+                  uiDesc   =   "RU_02_01_HERMIT_RESCUE_TSK_1_DESC"
+                  truckDamageState   =   70
+               }
+            ]
+            uiDesc   =   "RU_02_01_HERMIT_RESCUE_TSK_DESC"
+         },
+         {
+            truckDelivery   =   [
+               {
+                  truckId   =   "HERMIT_RESCUE_TRUCK"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_HERMIT_RESCUE_DROP"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_02_01_HERMIT_RESCUE_TSK_2_DESC"
+                  globalZoneSpawnId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_TUZ_RESCUE_SPAWN"
+                     __type   =   "null"
+                  }
+               }
+            ]
+            uiDesc   =   "RU_02_01_HERMIT_RESCUE_TSK_2_DESC"
+         }
+      ]
+      description   =   "RU_02_01_HERMIT_RESCUE_TSK_REW"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   350
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4250
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_HERMIT_RESCUE_TSK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "TaskSettings"
+   }
+}
+contractsSettings   =   {
+   RU_02_01_PROSPECTING_01_OBJ   =   {
+      uiDesc   =   "RU_02_01_PROSPECTING_01"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               __type   =   "null"
+            }
+            makeActionInZone   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_02_01_PROSPECTING_01_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_SCAN_01"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            uiDesc   =   ""
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_02_RADAR_TOWER_RECOVERY"
+      ]
+      description   =   "RU_02_01_PROSPECTING_01_OBJ_REW"
+      recommendedTruck   =   "SEISMIC"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   740
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4600
+         }
+      }
+      employer   =   "TaigaOil"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+   RU_02_01_PROSPECTING_02_OBJ   =   {
+      uiDesc   =   "RU_02_01_PROSPECTING_02"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               __type   =   "null"
+            }
+            makeActionInZone   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_02_01_PROSPECTING_02_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_SCAN_02"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  },
+                  {
+                     uiDesc   =   "RU_02_01_PROSPECTING_02_2_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_SCAN_03"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            uiDesc   =   ""
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_PROSPECTING_01_OBJ"
+      ]
+      description   =   "RU_02_01_PROSPECTING_02_OBJ_REW"
+      recommendedTruck   =   "SEISMIC"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   1510
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   9950
+         }
+      }
+      employer   =   "TaigaOil"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+   RU_02_01_OILRIG_RECOVERY_OBJ   =   {
+      uiDesc   =   "RU_02_01_OILRIG_RECOVERY"
+      stages   =   [
+         {
+            visitAllZones   =   {
+               __type   =   "VisitAllZonesSettings"
+            }
+            makeActionInZone   =   {
+               zones   =   [
+                  {
+                     uiDesc   =   "RU_02_01_OILRIG_RECOVERY_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_SCAN_OILRIG"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                  }
+               ]
+               __type   =   "VisitAllZonesSettings"
+            }
+            uiDesc   =   "RU_02_01_OILRIG_RECOVERY_1_DESC"
+         },
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_OILRIG_RECOVERY_2_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_BLD_OILRIG"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoContainerLarge"
+                        count   =   1
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   "RU_02_01_OILRIG_RECOVERY_2_DESC"
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_02_01_crop"
+         modelTag   =   "RU_02_01_DRILLING_RIG"
+         stagesProgress   =   {
+            build_stage_2   =   {
+               __value   =   0
+            }
+            build_stage_3   =   {
+               __value   =   1
+            }
+            build_complete   =   {
+               __value   =   2
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
+      blockerObjectives   =   [
+         "RU_02_01_PROSPECTING_01_OBJ"
+      ]
+      description   =   "RU_02_01_OILRIG_RECOVERY_OBJ_REW"
+      recommendedTruck   =   "SEISMIC"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   580
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   4850
+         }
+      }
+      employer   =   "TaigaOil"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+   RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ   =   {
+      uiDesc   =   "RU_02_01_SERVICE_HUB_RECOVERY_01"
+      stages   =   [
+         {
+            actions   =   {
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "SERVHUB_RESTORE_OILTANK"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_BLD_SERVHUB"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_02_01_SERVICE_HUB_RECOVERY_01_DESC"
+                  globalZoneSpawnId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_SERVHUB_FUEL_RESTOCK"
+                     __type   =   "null"
+                  }
+               }
+            ]
+            uiDesc   =   "RU_02_01_SERVICE_HUB_RECOVERY_01_DESC"
+         }
+      ]
+      model   =   {
+         levelName   =   "level_ru_02_01_crop"
+         modelTag   =   "RU_02_01_DRILLING_RIG"
+         stagesProgress   =   {
+            int   =   {
+            }
+            int_1   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "null"
+      }
+      blockerObjectives   =   [
+         "RU_02_02_RADAR_TOWER_RECOVERY"
+      ]
+      description   =   "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_02_01_SERVHUB_GAS"
+                  mapId   =   "level_ru_02_01_crop"
+                  props   =   {
+                     ZonePropertyFuelStation   =   {
+                        pricePerLiter   =   6
+                     }
+                  }
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   230
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   2050
+         }
+      }
+      employer   =   "TransTaymir"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+   RU_02_01_SERVICE_HUB_RECOVERY_02_OBJ   =   {
+      uiDesc   =   "RU_02_01_SERVICE_HUB_RECOVERY_02"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_SERVICE_HUB_RECOVERY_02_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_BLD_SERVHUB"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoVehiclesSpareParts"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   "RU_02_01_SERVICE_HUB_RECOVERY_02_DESC"
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ"
+      ]
+      description   =   "RU_02_01_SERVICE_HUB_RECOVERY_02_OBJ_REW"
+      rewards   =   {
+         ObjectiveRewardOpenZoneProperties   =   {
+            zoneSettings   =   {
+               ZonePropertiesSettingsObjectiveReward   =   {
+                  zoneId   =   "RU_02_01_SERVHUB_GAS"
+                  mapId   =   "level_ru_02_01_crop"
+                  props   =   {
+                     ZonePropertyAutoRepairAndRestore   =   {
+                     }
+                  }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "RU_02_01_PICKUP_SERVHUB"
+                  mapId   =   "level_ru_02_01_crop"
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoServiceSpareParts"
+                              count   =   12
+                           }
+                        ]
+                        platformId   =   "RU_02_01_PICKUP_SERVHUB_MANUAL"
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_3   =   {
+                  zoneId   =   "RU_02_01_PICKUP_SERVHUB"
+                  mapId   =   "level_ru_02_01_crop"
+                  props   =   {
+                     ZonePropertyAutoRepairAndRestore   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+            }
+         }
+         ObjectiveRewardExperience   =   {
+            amount   =   340
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   3800
+         }
+      }
+      employer   =   "TransTaymir"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+   RU_02_01_LOG_QUARRY_REINFORCEMENT_OBJ   =   {
+      uiDesc   =   "RU_02_01_LOG_QUARRY_REINFORCEMENT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_LOG_QUARRY_REINFORCEMENT_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_PICKUP_QUARRY"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_02_RADAR_TOWER_RECOVERY"
+      ]
+      description   =   "RU_02_01_LOG_QUARRY_REINFORCEMENT_REW"
+      recommendedTruck   =   "LOGS"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   630
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5350
+         }
+      }
+      employer   =   "TransTaymir"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+   RU_02_01_LOG_SHIPWRECK_SUPPLY_OBJ   =   {
+      uiDesc   =   "RU_02_01_LOG_SHIPWRECK_SUPPLY_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_LOG_SHIPWRECK_SUPPLY_1_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_DROP_SHIPWRECK"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoLogsMedium"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_02_RADAR_TOWER_RECOVERY"
+      ]
+      description   =   "RU_02_01_LOG_SHIPWRECK_SUPPLY_REW"
+      recommendedTruck   =   "LOGS"
+      rewards   =   {
+         ObjectiveRewardExperience   =   {
+            amount   =   670
+         }
+         ObjectiveRewardMoney   =   {
+            amount   =   5950
+         }
+      }
+      employer   =   "TransTaymir"
+      region   =   "ru_02"
+      __type   =   "ContractSettings"
+   }
+}
+contestSettings   =   {
+   RU_02_01_SHIP_REPAIRS_CNT   =   {
+      uiDesc   =   "RU_02_01_SHIP_REPAIRS_CNT_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_SHIP_REPAIRS_CNT_0_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_DROP_SHIPWRECK"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoServiceSpareParts"
+                        count   =   2
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   ""
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_SERVICE_HUB_RECOVERY_02_OBJ"
+      ]
+      description   =   "RU_02_01_SHIP_REPAIRS_CNT_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   420
+                  xp   =   450
+                  money   =   3750
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   600
+                  xp   =   220
+                  money   =   1800
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   130
+                  money   =   1050
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_SHIP_REPAIRS_CNT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   RU_02_01_SERVHUB_FUEL_RESTOCK_CNT   =   {
+      uiDesc   =   "RU_02_01_SERVHUB_FUEL_RESTOCK_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               zoneToFill   =   [
+                  {
+                     uiDesc   =   "RU_02_01_SERVHUB_FUEL_RESTOCK_0_DESC"
+                     globalZoneId   =   {
+                        globalZoneId   =   "level_ru_02_01_crop || RU_02_01_DROP_SERVHUB"
+                        __type   =   "ZoneGlobalIdentificator"
+                     }
+                     cargo   =   {
+                        name   =   "CargoBarrels"
+                        count   =   3
+                        __type   =   "CargoPack"
+                     }
+                  }
+               ]
+               __type   =   "ActionPackSettings"
+            }
+            uiDesc   =   ""
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ"
+      ]
+      description   =   "RU_02_01_SERVHUB_FUEL_RESTOCK_CNT_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   480
+                  xp   =   690
+                  money   =   5850
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   600
+                  xp   =   330
+                  money   =   2850
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   200
+                  money   =   1650
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_SERVHUB_FUEL_RESTOCK"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+   RU_02_01_FIREWATCH_SUPPLY_CNT   =   {
+      uiDesc   =   "RU_02_01_FIREWATCH_SUPPLY_DESC"
+      stages   =   [
+         {
+            actions   =   {
+               __type   =   "ActionPackSettings"
+            }
+            truckDelivery   =   [
+               {
+                  truckId   =   "FIREWATCH_OILTANK"
+                  afterStageFinished   =   "DESTROY"
+                  globalZoneDeliveryId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_FIREWATCH_SUPPLY"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  uiDesc   =   "RU_02_01_FIREWATCH_SUPPLY_0_DESC"
+                  globalZoneSpawnId   =   {
+                     globalZoneId   =   "level_ru_02_01_crop || RU_02_01_FIREWATCH_SUPPLY_SPAWN"
+                     __type   =   "null"
+                  }
+               }
+            ]
+            uiDesc   =   ""
+         }
+      ]
+      blockerObjectives   =   [
+         "RU_02_01_SERVICE_HUB_RECOVERY_01_OBJ"
+      ]
+      description   =   "RU_02_01_FIREWATCH_SUPPLY_CNT_REW"
+      rewards   =   {
+         ContestRewards   =   {
+            timeSettings   =   {
+               GOLD   =   {
+                  timeLimit   =   200
+                  xp   =   430
+                  money   =   3300
+                  __type   =   "ContestResultRewards"
+               }
+               SILVER   =   {
+                  timeLimit   =   300
+                  xp   =   210
+                  money   =   1600
+                  __type   =   "ContestResultRewards"
+               }
+               BRONZE   =   {
+                  timeLimit   =   0
+                  xp   =   120
+                  money   =   950
+                  __type   =   "ContestResultRewards"
+               }
+            }
+            __type   =   "ObjectiveRewardsByTime"
+         }
+      }
+      taskGiverZone   =   {
+         globalZoneId   =   "level_ru_02_01_crop || RU_02_01_FIREWATCH_SUPPLY_CNT"
+         __type   =   "ZoneGlobalIdentificator"
+      }
+      __type   =   "ContestSettings"
+   }
+}
+__type   =   "ObjectiveMapSettings"

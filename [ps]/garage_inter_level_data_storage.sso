@@ -1,0 +1,27 @@
+startTrucks   =   {
+   test_garage01   =   {
+      __value   =   [
+         {
+            garageSlotZoneId   =   "garage_interior_slot_0"
+            truckName   =   "hummer_h2"
+         },
+         {
+            garageSlotZoneId   =   "garage_interior_slot_1"
+            truckName   =   "tayga_6436"
+         }
+      ]
+   }
+   level_us_01_01   =   {
+      __value   =   [
+         {
+            garageSlotZoneId   =   "garage_interior_slot_0"
+            truckName   =   "hummer_h2"
+         },
+         {
+            garageSlotZoneId   =   "garage_interior_slot_1"
+            truckName   =   "tayga_6436"
+         }
+      ]
+   }
+}
+__type   =   "object"

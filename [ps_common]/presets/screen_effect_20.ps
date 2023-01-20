@@ -1,0 +1,109 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	params = {
+		__type = "section"
+		__viewType = {
+			__caption = "Strogg Drone(20)"
+			__expand = true
+		}
+		__members = {
+			enabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+				__type = "bool"
+			}
+			
+			priority = {
+				__type = "int"
+				__viewType {
+					__wrappable = false
+					__caption = "Render Priority (lower == earlier)"
+				}				
+			}
+			
+			params = {
+				__type = "section"
+				__viewType = {
+					__caption = "Params"
+					__expand = true
+				}
+				__members = {
+					usePrepass = {
+						__viewType {
+							__wrappable = false
+							__caption = "Use prepass"
+							__hidden = true
+						}
+						__type = "bool"
+					}
+					
+					texture0 = {
+						__type = "string"
+						__viewType = {
+							__wrappable = false
+							__type = "texture_browser"
+							__path = "filename"
+							__default_path = "$pct_dir$"
+							__caption = "Random Tex"
+							__hint = "texture0"
+							__hidden = false
+
+						}
+						__extraData   =   {
+							resource   =   "texture"
+						}
+					}
+
+					floatParam00 = {
+						__viewType {
+							__caption = "Global Effect Blend"
+							__hint = "Controll for manual scale effect blend value"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+					floatParam01 = {
+						__viewType {
+							__caption = "Switch Effect Value"
+							__hint = "Control when glith and white noise swith"
+							__wrappable = false
+							__type = "slider"
+							__min = 0.0
+							__max = 1.0
+						}
+						__type = "float"
+					}
+					floatParam02 = {
+                  __type = "float"
+                  __caption = "White Noise Type"
+                  __defaultValue = 0.0
+                  __items = [ 0.0, 1.0 ]
+                  __viewType = {
+                     __type = "valueEnum"
+                      __items = [ "Color", "Grayscale" ]
+                    }
+					}
+					colorParam00 = {
+						__type = "colorARGB"
+						__defaultValue = [255.0, 255.0, 255.0, 255.0]
+						__viewType = {
+							__caption = "colorParam00"
+							__hint = ""
+							__wrappable = false
+							__hidden = true
+						}
+					}
+				}
+			}
+			
+		}
+	}
+}

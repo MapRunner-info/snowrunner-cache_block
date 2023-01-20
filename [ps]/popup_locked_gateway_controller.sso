@@ -1,0 +1,25 @@
+view   =   {
+   iconDesc   =   {
+      type   =   {
+         __type   =   "UiIconsLibPopupgateimg"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   __type   =   "PopupWithEmbeddedBtnView"
+}
+navPanels   =   {
+   PopupNavigationPanel   =   {
+   }
+}
+inputScreen   =   {
+   priority   =   "HIGH"
+   name   =   "Locked gateway"
+   inputsLinks   =   {
+      accept   =   {
+         inputLink   =   "UI.Accept"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "PopupUiController"

@@ -1,0 +1,3 @@
+zoneToLeave   =   "US_01_01_AWD"
+timeBeforeRepeatSec   =   60
+__type   =   "TutorialStageRepeatable"

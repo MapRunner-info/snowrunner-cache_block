@@ -1,0 +1,11 @@
+uiObjectDesc   =   {
+   type   =   {
+      sysMsgMulitlineText   =   {
+         isHtml   =   True
+         __type   =   "UiSystemMessageSysmessagemultilinetext"
+      }
+      __type   =   "UiSystemMessageSystemmessagecontainer"
+   }
+   __type   =   "UiObjectDesc"
+}
+__type   =   "PopupViewBase"

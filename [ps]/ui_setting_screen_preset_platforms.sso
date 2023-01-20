@@ -1,0 +1,21 @@
+availablePlatforms   =   {
+   PC   =   {
+      __value   =   True
+   }
+   DURANGO   =   {
+      __value   =   True
+   }
+   ORBIS   =   {
+      __value   =   True
+   }
+   NX64   =   {
+      __value   =   True
+   }
+   GGP   =   {
+      __value   =   True
+   }
+   OSX   =   {
+      __value   =   True
+   }
+}
+__type   =   "object"

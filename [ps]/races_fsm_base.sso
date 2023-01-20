@@ -1,0 +1,306 @@
+states   =   {
+   RacesClientFsmStateIdle   =   {
+      isInitial   =   True
+      links   =   {
+         OnInZone   =   {
+            toState   =   "RacesClientFsmStateInZoneNotReady"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4315.16,
+                     2154
+                  ],
+                  [
+                     4258.224,
+                     2250
+                  ]
+               ]
+               labelX   =   -70.32821
+               labelY   =   -3.458765
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         OnReady   =   {
+            toState   =   "RacesClientFsmStateReady"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4346.728,
+                     2154
+                  ],
+                  [
+                     4424.604,
+                     2400
+                  ]
+               ]
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4250
+         y   =   2050
+      }
+   }
+   RacesClientFsmStateReady   =   {
+      isInitial   =   False
+      links   =   {
+         OnOut   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4456.071,
+                     2400
+                  ],
+                  [
+                     4378.195,
+                     2154
+                  ]
+               ]
+               labelX   =   0
+               labelY   =   0
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         OnForceAborted   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4440.337,
+                     2400
+                  ],
+                  [
+                     4362.461,
+                     2154
+                  ]
+               ]
+            }
+            __type   =   "SslLink"
+         }
+         UnReady   =   {
+            toState   =   "RacesClientFsmStateInZoneNotReady"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4421.237,
+                     2400
+                  ],
+                  [
+                     4319.27,
+                     2330
+                  ]
+               ]
+               labelX   =   -1.25
+               labelY   =   -27.5
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         OnCountdown   =   {
+            toState   =   "RacesClientFsmStateCountdown"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4556,
+                     2423.703
+                  ],
+                  [
+                     4650,
+                     2408.829
+                  ]
+               ]
+               labelX   =   -17.29382
+               labelY   =   9.223372
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4350
+         y   =   2400
+      }
+   }
+   RacesClientFsmStateInZoneNotReady   =   {
+      links   =   {
+         OnReady   =   {
+            toState   =   "RacesClientFsmStateReady"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4292.767,
+                     2330
+                  ],
+                  [
+                     4394.733,
+                     2400
+                  ]
+               ]
+               labelX   =   -53.09915
+               labelY   =   7.044693
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         OnForceAborted   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4275.663,
+                     2250
+                  ],
+                  [
+                     4332.599,
+                     2154
+                  ]
+               ]
+            }
+            __type   =   "SslLink"
+         }
+         OnOut   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4214.242,
+                     2250
+                  ],
+                  [
+                     4191.039,
+                     2204.185
+                  ],
+                  [
+                     4267.144,
+                     2154
+                  ]
+               ]
+               labelX   =   -76.31268
+               labelY   =   -26.55067
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4100
+         y   =   2250
+      }
+   }
+   RacesClientFsmStateCountdown   =   {
+      links   =   {
+         OnRunning   =   {
+            toState   =   "RacesClientFsmStateRunning"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4747.1,
+                     2350
+                  ],
+                  [
+                     4681.4,
+                     2230
+                  ]
+               ]
+               labelX   =   -0.0000014
+               labelY   =   -12.68213
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         UnReady   =   {
+            toState   =   "RacesClientFsmStateInZoneNotReady"
+            __type   =   "SslLink"
+         }
+         OnForceAborted   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4736.903,
+                     2350
+                  ],
+                  [
+                     4442,
+                     2149.215
+                  ]
+               ]
+            }
+            __type   =   "SslLink"
+         }
+         OnOut   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4710.25,
+                     2350
+                  ],
+                  [
+                     4422.375,
+                     2154
+                  ]
+               ]
+               labelX   =   0
+               labelY   =   0
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4650
+         y   =   2350
+      }
+   }
+   RacesClientFsmStateRunning   =   {
+      links   =   {
+         OnFinished   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4550,
+                     2159.263
+                  ],
+                  [
+                     4442,
+                     2128.947
+                  ]
+               ]
+               labelX   =   1.719048
+               labelY   =   -28.1652
+               connectorIndex   =   -1
+            }
+            __type   =   "SslLink"
+         }
+         OnForceAborted   =   {
+            toState   =   "RacesClientFsmStateIdle"
+            viewData   =   {
+               joints   =   [
+                  [
+                     4572.503,
+                     2150
+                  ],
+                  [
+                     4442,
+                     2113.368
+                  ]
+               ]
+            }
+            __type   =   "SslLink"
+         }
+      }
+      viewData   =   {
+         x   =   4550
+         y   =   2150
+      }
+   }
+}
+countdownTimeSec   =   5
+delayBeforeStartCountdownMs   =   2800
+__type   =   "OwnedFsm"

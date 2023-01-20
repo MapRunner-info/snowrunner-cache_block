@@ -1,0 +1,151 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	cshdParams = {
+		__type = "section"
+		__viewType = {
+			__caption = "Capsule shadows params"
+			__expand = true
+		}
+		__members = {
+			ambientEnabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Ambient shadows enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			  
+			ambient = {
+		      __type = "section"
+		      __viewType = {
+		         __caption = "Ambient shadows"
+		      }
+		      __members = {
+		         exposure = {
+				       __type = "float"
+				       __defaultValue = 1.0
+				       __viewType {
+					      __caption = "Exposure"
+					      __wrappable = false
+				       }
+		         }
+		         characterExposure = {
+				       __type = "float"
+				       __defaultValue = 1.0
+				       __viewType {
+					      __caption = "Exposure on characters"
+					      __wrappable = false
+				       }
+		         }
+   			   softness = {
+   					 __type = "float"
+   					 __defaultValue = 1.0
+   					 __viewType {
+   						__caption = "Softness"
+   						__wrappable = false
+      				}
+      			   }
+      			   minVisibility = {
+      				__type = "float"
+      				__defaultValue = 0.0
+      				__viewType {
+   						__type = "slider"
+   						__caption = "Minimum surface visibility"
+   						__wrappable = false
+   						__min = 0.0
+   						__max = 1
+   						__step = 0.01
+      				}
+   			   }
+		      }
+			}
+			
+			directionalEnabled = {
+				__viewType {
+					__wrappable = false
+					__caption = "Directional shadows enabled"
+				}
+				__type = "bool"
+				__defaultValue = "false"
+			}
+			
+			directional = {
+		      __type = "section"
+		      __viewType = {
+		         __caption = "Directional shadows"
+		      }
+		      __members = {
+		         exposure = {
+				       __type = "float"
+				       __defaultValue = 1.0
+				       __viewType {
+					      __caption = "Exposure"
+					      __wrappable = false
+				       }
+		         }
+		         characterExposure = {
+				       __type = "float"
+				       __defaultValue = 1.0
+				       __viewType {
+					      __caption = "Exposure on characters"
+					      __wrappable = false
+				       }
+		         }
+   			   coneAngle = {
+         			__type = "float"
+         			__defaultValue = 25.0
+         			__viewType {
+   						__type = "slider"
+   						__caption = "Cone angle"
+   						__hint = "Size shadows penumbra, affect perfomance"
+   						__wrappable = false
+   						__min = 0.1
+   						__max = 180
+   						__step = 0.1
+         			}
+      			}
+      			
+      			maxShadowAngle = {
+         			__type = "float"
+         			__defaultValue = 45.0
+         			__viewType {
+         				__type = "slider"
+         				__caption = "Shadow max angle"
+         				__hint = "Angle between shadow and Y axis"
+         				__wrappable = false
+         				__min = 0.0
+         				__max = 90
+         				__step = 0.1
+         			}
+      			}
+   			   minVisibility = {
+      				__type = "float"
+      				__defaultValue = 0.0
+      				__viewType {
+   						__type = "slider"
+   						__caption = "Minimum surface visibility"
+   						__wrappable = false
+   						__min = 0.0
+   						__max = 1
+   						__step = 0.01
+      				}
+   			   }
+		      }
+			}
+
+			occlusionDistance = {
+				__type = "float"
+				__defaultValue = 2.0
+				__viewType {
+					__caption = "Max shadow distance"
+					__hint = "Affect perfomance"
+					__wrappable = false
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,53 @@
+uiDesc   =   "RU_02_02_CONTAINER_DELIVERY_CNT_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "RU_02_02_CONTAINER_DELIVERY_CNT_ACTION_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_ru_02_02 || RU_02_02_LUMBER_MILL"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoContainerSmall"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+description   =   "RU_02_02_CONTAINER_DELIVERY_CNT_REW"
+taskGiverZone   =   {
+   globalZoneId   =   "level_ru_02_02 || RU_02_02_CONTAINER_DELIVERY_CNT"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ContestRewards   =   {
+      timeSettings   =   {
+         GOLD   =   {
+            timeLimit   =   480
+            xp   =   540
+            money   =   5600
+            __type   =   "ContestResultRewards"
+         }
+         SILVER   =   {
+            timeLimit   =   720
+            xp   =   260
+            money   =   2700
+            __type   =   "ContestResultRewards"
+         }
+         BRONZE   =   {
+            xp   =   150
+            money   =   1600
+            __type   =   "ContestResultRewards"
+         }
+      }
+      __type   =   "ObjectiveRewardsByTime"
+   }
+}
+__type   =   "ContestSettings"

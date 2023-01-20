@@ -1,0 +1,7 @@
+globalZoneId   =   {
+   __type   =   "ZoneGlobalIdentificator"
+}
+cargo   =   {
+   __type   =   "CargoPack"
+}
+__type   =   "object"

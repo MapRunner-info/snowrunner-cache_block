@@ -1,0 +1,21 @@
+view   =   {
+   __type   =   "PopupWarningView"
+}
+navPanels   =   {
+   PopupWarningNavigationPanel   =   {
+   }
+}
+state   =   {
+   __type   =   "PopupWarningNavigationPanelState"
+}
+id   =   "SHOP_WARNING"
+uiFocusScreen   =   {
+   uiGfxInputToDisable   =   [
+      "Up",
+      "Right",
+      "Left",
+      "Down"
+   ]
+   __type   =   "UiFocusScreen"
+}
+__type   =   "PopupUiController"

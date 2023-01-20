@@ -1,0 +1,10 @@
+maxMenuPosition   =   15
+advButtons   =   {
+   prev   =   {
+      __value   =   "Previous"
+   }
+   next   =   {
+      __value   =   "Next"
+   }
+}
+__type   =   "DbgWindowBase"

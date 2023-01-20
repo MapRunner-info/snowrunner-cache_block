@@ -1,0 +1,38 @@
+uiDesc   =   "US_02_01_BARRELS_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_01_BARRELS_OBJ_ACTION_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_PORT"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrels"
+                  count   =   2
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_02_01_PIPELINE_OBJ"
+]
+description   =   "US_02_01_BARRELS_OBJ_REW"
+employer   =   "BlackBird"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   250
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   2750
+   }
+}
+__type   =   "ContractSettings"

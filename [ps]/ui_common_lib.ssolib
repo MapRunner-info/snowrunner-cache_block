@@ -1,0 +1,412 @@
+classes   =   {
+   AutoClassWatermarkcontainerWmtextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   ""
+      sslClass   =   "UiCommonLibAutoclasswatermarkcontainerwmtextcont"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Bgscale   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "bgScale"
+      sslClass   =   "UiCommonLibBgscale"
+      __type   =   "UiContainer"
+   }
+   Deflir   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "defLir"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCommonLibDeflirtext"
+      }
+      __type   =   "UiListItem"
+   }
+   Deflirdata   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      __type   =   "UiListItemData"
+   }
+   Deflirtext   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "defLirText"
+      sslClass   =   "UiCommonLibDeflirtext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Deflist   =   {
+      sslModule   =   "ui.ui_gfx_list"
+      symbol   =   "defList"
+      __type   =   "UiScrollingList"
+   }
+   Defscrollbar   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "defScrollBar"
+      sslClass   =   "UiCommonLibDefscrollbar"
+      thumb   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   16
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibDefscrollbarthumb"
+      }
+      downArrow   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibDefscrollbararrow"
+      }
+      upArrow   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibDefscrollbararrow"
+      }
+      track   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   16
+         scaleX   =   100
+         scaleY   =   599.8749
+         __type   =   "UiCommonLibDefscrollbartrack"
+      }
+      __type   =   "UiContainer"
+   }
+   Defscrollbararrow   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "defScrollBarArrow"
+      __type   =   "UiButton"
+   }
+   Defscrollbararrows   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "defScrollBarArrowS"
+      __type   =   "UiButton"
+   }
+   Defscrollbars   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "defScrollBarS"
+      sslClass   =   "UiCommonLibDefscrollbars"
+      thumb   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   16
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibDefscrollbarthumbs"
+      }
+      downArrow   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   128
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibDefscrollbararrows"
+      }
+      upArrow   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibDefscrollbararrows"
+      }
+      track   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   16
+         scaleX   =   100
+         scaleY   =   599.8749
+         __type   =   "UiCommonLibDefscrollbartracks"
+      }
+      __type   =   "UiContainer"
+   }
+   Defscrollbarthumb   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "defScrollBarThumb"
+      __type   =   "UiButton"
+   }
+   Defscrollbarthumbs   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "defScrollBarThumbS"
+      __type   =   "UiButton"
+   }
+   Defscrollbartrack   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "defScrollBarTrack"
+      __type   =   "UiButton"
+   }
+   Defscrollbartracks   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "defScrollBarTrackS"
+      __type   =   "UiButton"
+   }
+   Defscrollindicator   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "defScrollIndicator"
+      sslClass   =   "UiCommonLibDefscrollindicator"
+      thumb   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibDefscrollbarthumbs"
+      }
+      track   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   599.8749
+         __type   =   "UiCommonLibDefscrollbartracks"
+      }
+      __type   =   "UiContainer"
+   }
+   Menuarrowbuttonl   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuArrowButtonL"
+      __type   =   "UiButton"
+   }
+   Menuarrowbuttonr   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuArrowButtonR"
+      __type   =   "UiButton"
+   }
+   Menubutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuButton"
+      textCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   10
+         y   =   3
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCommonLibMenubuttontextcont"
+      }
+      __type   =   "UiButton"
+   }
+   Menubuttononoff   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuButtonOnOff"
+      textCont   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibMenubuttononofftext"
+      }
+      toggleBox   =   {
+         animated   =   True
+         symbol   =   ""
+         x   =   195
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibMenubuttontoggle"
+      }
+      __type   =   "UiButton"
+   }
+   Menubuttononofftext   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "menuButtonOnOffText"
+      sslClass   =   "UiCommonLibMenubuttononofftext"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Menubuttontextcont   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "menuButtonTextCont"
+      sslClass   =   "UiCommonLibMenubuttontextcont"
+      textField   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Menubuttontoggle   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "menuButtonToggle"
+      sslClass   =   "UiCommonLibMenubuttontoggle"
+      hitZone   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibToggleboxhitzone"
+      }
+      __type   =   "UiContainer"
+   }
+   Menutabbtnimgattach   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "menuTabBtnImgAttach"
+      sslClass   =   "UiCommonLibMenutabbtnimgattach"
+      __type   =   "UiContainer"
+   }
+   Menutabbtnimgclip   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "menuTabBtnImgClip"
+      sslClass   =   "UiCommonLibMenutabbtnimgclip"
+      img   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiCommonLibMenutabbtnimgattach"
+      }
+      __type   =   "UiContainer"
+   }
+   Menutabbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "menuTabButton"
+      imgCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   50
+         __type   =   "UiCommonLibMenutabbtnimgclip"
+      }
+      __type   =   "UiButton"
+   }
+   Paneltabbutton   =   {
+      sslModule   =   "ui.ui_button"
+      symbol   =   "panelTabButton"
+      tfCont   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   60
+         __type   =   "UiCommonLibPaneltabtf"
+      }
+      highlight   =   {
+         sslModule   =   "ui.ui_gfx"
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   110.9482
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      bg   =   {
+         sslModule   =   "ui.ui_gfx"
+         colorMode   =   3
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiMovieClip"
+      }
+      __type   =   "UiButton"
+   }
+   Paneltabtf   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "panelTabTf"
+      sslClass   =   "UiCommonLibPaneltabtf"
+      tf   =   {
+         x   =   0
+         y   =   -1
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Placeholdericon16   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "placeholderIcon16"
+      sslClass   =   "UiCommonLibPlaceholdericon16"
+      __type   =   "UiContainer"
+   }
+   Textclip25   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "textClip25"
+      sslClass   =   "UiCommonLibTextclip25"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
+   Toggleboxhitzone   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "toggleBoxHitZone"
+      sslClass   =   "UiCommonLibToggleboxhitzone"
+      __type   =   "UiContainer"
+   }
+   Universalwaitingmodal   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "universalWaitingModal"
+      sslClass   =   "UiCommonLibUniversalwaitingmodal"
+      __type   =   "UiContainer"
+   }
+   Watermarkcontainer   =   {
+      sslModule   =   "ui.autogen_libs.ui_common_lib"
+      symbol   =   "watermarkContainer"
+      sslClass   =   "UiCommonLibWatermarkcontainer"
+      wmTextCont   =   {
+         colorMode   =   3
+         symbol   =   ""
+         x   =   460
+         y   =   1038
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   75
+         __type   =   "UiCommonLibAutoclasswatermarkcontainerwmtextcont"
+      }
+      __type   =   "UiContainer"
+   }
+}
+__type   =   "ssl_object_lib"

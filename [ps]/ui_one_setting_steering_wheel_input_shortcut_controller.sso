@@ -1,0 +1,10 @@
+view   =   {
+   __type   =   "UiOneSettingInputShortcutView"
+}
+header   =   "UI_HEADER_STEPPER"
+inputScreenBlock   =   {
+   name   =   "UiOneSettingSteeringWheelInputShortcutController"
+   blockAll   =   True
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "UiOneSettingController"

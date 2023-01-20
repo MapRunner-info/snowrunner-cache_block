@@ -1,0 +1,88 @@
+uiDesc   =   "US_01_02_CLEAN_THE_RIVER_EAST_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_01_02_CLEAN_THE_RIVER_EAST_MASUT"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_02 || US_01_02_BARRELS_LOADING"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoBarrelsOil"
+                  count   =   4
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      spawnCargoOnStageActive   =   [
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_OIL_BARRELS_A"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_OIL_BARRELS_B"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_OIL_BARRELS_C"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+               }
+            ]
+         },
+         {
+            zone   =   {
+               globalZoneId   =   "level_us_01_02 || US_01_02_OIL_BARRELS_D"
+               __type   =   "ZoneGlobalIdentificator"
+            }
+            cargos   =   [
+               {
+                  name   =   "CargoBarrelsOil"
+                  count   =   1
+               }
+            ]
+         }
+      ]
+      uiDesc   =   ""
+   }
+]
+description   =   "US_01_02_CLEAN_THE_RIVER_EAST_REW"
+recommendedTruck   =   "CRANE"
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_02 || US_01_02_CLEAN_THE_RIVER_EAST_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   340
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   3500
+   }
+}
+__type   =   "TaskSettings"

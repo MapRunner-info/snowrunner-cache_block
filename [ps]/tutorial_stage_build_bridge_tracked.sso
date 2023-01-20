@@ -1,0 +1,3 @@
+objId   =   "US_01_01_BUILD_A_BRIDGE_OBJ"
+loadZoneId   =   "level_us_01_01 || US_01_01_TOWN_STORAGE"
+__type   =   "TutorialStage"

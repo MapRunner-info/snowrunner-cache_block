@@ -1,0 +1,19 @@
+view   =   {
+   __type   =   "UiOneSettingStepperViewBase"
+}
+inputScreen   =   {
+   priority   =   "VERY_HIGH"
+   inputsLinks   =   {
+      LeftTap   =   {
+         inputLink   =   "UI.UiListLeftTap"
+         __type   =   "InputLinkActionMr"
+      }
+      RightTap   =   {
+         inputLink   =   "UI.UiListRightTap"
+         __type   =   "InputLinkActionMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
+header   =   "UI_HEADER_STEPPER"
+__type   =   "UiNewGamePlusOneSettingController"

@@ -1,0 +1,59 @@
+__type = "section"
+__viewType = {
+	__type = "rootSection"
+}
+__members	=	{
+	ScreenSpaceReflections = {
+		__type = "section"
+		__viewType = {
+			__expand = true
+			__caption = "Screen-Space Reflections"
+		}
+		__members = {
+			Enabled = {
+				__type = "bool"
+				__defaultValue = true
+				__viewType {
+					__wrappable = false
+					__caption = "Enabled"
+				}
+			}
+			FloorIntensity = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType {
+					__wrappable = false
+					__type = "slider"
+					__min = 0.0
+					__max = 1.0
+					__caption = "Intensity on Floor"
+					__hint = "Intensity of screen space reflections on horizontal (floor) surfaces"
+				}
+			}
+			WallIntensity = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType {
+					__wrappable = false
+					__type = "slider"
+					__min = 0.0
+					__max = 1.0
+					__caption = "Intensity on Wall"
+					__hint = "Intensity of screen space reflections on vertical surfaces"
+				}
+			}
+			CeilingIntensity = {
+				__type = "float"
+				__defaultValue = 1.0
+				__viewType {
+					__wrappable = false
+					__type = "slider"
+					__min = 0.0
+					__max = 1.0
+					__caption = "Intensity on Ceiling"
+					__hint = "Intensity of screen space reflections on horizontal (ceiling) surfaces"
+				}
+			}
+		}	
+	}
+}

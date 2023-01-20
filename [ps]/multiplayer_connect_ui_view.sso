@@ -1,0 +1,7 @@
+containerDesc   =   {
+   type   =   {
+      __type   =   "UiMainMenuMultiplayerconnection"
+   }
+   __type   =   "UiContainerDesc"
+}
+__type   =   "object"

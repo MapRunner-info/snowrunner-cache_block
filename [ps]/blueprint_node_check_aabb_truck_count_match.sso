@@ -1,0 +1,4 @@
+truckCountParam   =   {
+   __type   =   "IntRefParam"
+}
+__type   =   "BlueprintNodeAutotestTaskBase"

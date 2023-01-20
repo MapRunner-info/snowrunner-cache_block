@@ -1,0 +1,4 @@
+popup   =   {
+   __type   =   "PopupTrailerUiController"
+}
+__type   =   "HudControllerMrBase"

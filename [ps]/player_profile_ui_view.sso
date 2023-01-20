@@ -1,0 +1,145 @@
+fadeWrapper   =   {
+   fadeInAnimName   =   "fade_in"
+   fadeOutAnimName   =   "fade_out"
+   __type   =   "null"
+}
+uiObjectDesc   =   {
+   type   =   {
+      tabPanel   =   {
+         tab0   =   {
+            focusable   =   False
+            __type   =   "UiProfileLibPaneltabbtn"
+         }
+         tab1   =   {
+            focusable   =   False
+            __type   =   "UiProfileLibPaneltabbtn"
+         }
+         tab2   =   {
+            focusable   =   False
+            __type   =   "UiProfileLibPaneltabbtn"
+         }
+         tab3   =   {
+            focusable   =   False
+            __type   =   "UiProfileLibPaneltabbtn"
+         }
+         tab4   =   {
+            focusable   =   False
+            __type   =   "UiProfileLibPaneltabbtn"
+         }
+         __type   =   "UiProfileLibProfiletabpanel"
+      }
+      regionTabs   =   {
+         regionArrowRight   =   {
+            focusable   =   False
+            __type   =   "UiProfileLibRegionarrow"
+         }
+         regionArrowLeft   =   {
+            focusable   =   False
+            __type   =   "UiProfileLibRegionarrow"
+         }
+         __type   =   "UiProfileLibRegiontabpanelnew"
+      }
+      profile   =   {
+         regions   =   {
+            list   =   {
+               lir   =   {
+                  __type   =   "ProfileRegionDataLirItem"
+               }
+               __type   =   "UiProfileLibRegionslistcontainer"
+            }
+            __type   =   "UiProfileLibProfileregions"
+         }
+         __type   =   "UiProfileLibProfilescreen"
+      }
+      tasks   =   {
+         taskCont   =   {
+            list   =   {
+               lir   =   {
+                  __type   =   "ProfileContestLir"
+               }
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiProfileLibTasklist"
+            }
+            list2   =   {
+               lir   =   {
+                  __type   =   "ProfileTaskLir"
+               }
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiProfileLibTasklist2"
+            }
+            list3   =   {
+               visible   =   False
+               lir   =   {
+                  __type   =   "ProfileAchievementLir"
+               }
+               scrollBar   =   {
+                  __type   =   "UiCommonLibDefscrollbars"
+               }
+               __type   =   "UiProfileLibTasklist3"
+            }
+            __type   =   "UiProfileLibTaskcontainer"
+         }
+         __type   =   "UiProfileLibTaskscreen"
+      }
+      trucks   =   {
+         trucksList   =   {
+            isPersistentScrollbar   =   True
+            lir   =   {
+               __type   =   "UiTruckWarehouseViewLir"
+            }
+            scrollBar   =   {
+               __type   =   "UiCommonLibDefscrollbars"
+            }
+            __type   =   "UiProfileLibTruckstilelist"
+         }
+         __type   =   "UiProfileLibTruckkscreen"
+      }
+      __type   =   "UiProfileLibProfilemainscreen"
+   }
+   __type   =   "UiObjectDesc"
+}
+showSound   =   ""
+hideSound   =   "ui/ui_click_exit"
+posters   =   {
+   SEISMIC   =   {
+      __value   =   "profilePosterSeismograph"
+   }
+   REPAIR   =   {
+      __value   =   "profilePosterRepairTruck"
+   }
+   DELIVERY_CARGO   =   {
+      __value   =   "profilePosterDeliveryCargo"
+   }
+   DELIVERY_TRUCK   =   {
+      __value   =   "profilePosterDeliveryTruck"
+   }
+   VISIT   =   {
+      __value   =   "profilePosterVisitZones"
+   }
+}
+allRegionsIcon   =   "profileRegionAllImg"
+navBtnTabR   =   {
+   hoverSound   =   "ui/ui_tab_hover"
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnTabL   =   {
+   hoverSound   =   "ui/ui_tab_hover"
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnRegionTabR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+navBtnRegionTabL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+cargoSlotBtnL   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+cargoSlotBtnR   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+__type   =   "PopupViewBase"

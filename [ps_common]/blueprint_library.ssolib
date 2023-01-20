@@ -1,0 +1,823 @@
+classes   =   {
+   BPNEventOnMrEvent   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      mrEvent   =   {
+         sslModule   =   "animation.morpheme.ctrl_body"
+         __type   =   "MorphemeEvent"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   BPNCtrlParam   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      morphemeCtrlParam   =   {
+         sslModule   =   "animation.morpheme.ctrl_body"
+         __type   =   "MorphemeFloat"
+      }
+      __type   =   "BluePrintNodeOwned"
+   }
+   BPNCheckMrTag   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      morphemeTag   =   {
+         sslModule   =   "animation.morpheme.ctrl_body"
+         __type   =   "MorphemeTag"
+      }
+      __type   =   "BluePrintNodeOwned"
+   }
+   BPNSendMessage   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      mrMsg   =   {
+         sslModule   =   "animation.morpheme.ctrl_body"
+         __type   =   "MorphemeRequest"
+      }
+      __type   =   "BluePrintNodeOwned"
+   }
+   BPNMorphemeTag   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      morphemeTag   =   {
+         sslModule   =   "animation.morpheme.ctrl_body"
+         __type   =   "MorphemeTag"
+      }
+      __type   =   "BluePrintNodeOwned"
+   }
+   BPNOnMorphemeTag   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   OnInitLevel   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   DelayTime   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   Delay   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Pipe   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   LogicCommutator   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   TimerTrigger   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNodeOwned"
+   }
+   SerialEventTrigger   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNodeOwned"
+   }
+   CheckInt   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      compareType   =   "Greater than"
+      intToCheck   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "IntRefParam"
+      }
+      compareValRef   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0
+         __type   =   "IntRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   CheckFloat   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   CheckOnBoard   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   OnTimelineTick   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      spline   =   {
+         sslModule   =   "math.interpolation.motion_clip"
+         sourceSpline   =   {
+            sslModule   =   "math.spline_1d"
+            __type   =   "SplineLinear1d"
+         }
+         isCycled   =   True
+         __type   =   "MotionClip"
+      }
+      isActive   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      isAutostart   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   SetMaterialSlotFloat   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      slot   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      slotValue   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   MotionDumper   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   CreateVector3d   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      x   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      y   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      z   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   OnTick   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      isActive   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   Sin   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      amplitude   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      argument   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      offset   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      phase   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   MultiplyFloat   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      argument1   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      argument2   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   OnTimeCounter   =   {
+      step   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BlueprintLibraryOntick"
+   }
+   SetMaterialSlotColor   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      slot   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      colorValue   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   CreateColor   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   If   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      condition   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   Float   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Int   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   GetMorphemeFloat   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNodeOwned"
+   }
+   SplineRushing1d   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Counter   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   GetFloorMaterial   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNodeOwned"
+   }
+   CreateIactor   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      desc   =   {
+         sslModule   =   "ssl.classes.ssl_desc"
+         __type   =   "IactorDesc"
+      }
+      __type   =   "BluePrintNode"
+   }
+   VarIactor   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      _actor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   "<OWNER>"
+         __type   =   "ActorRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   ExecuteLocalStart   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   VarBool   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   random_switch_2   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   random_switch_3   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   random_switch_4   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   OnAfterBlueprintInited   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Vector3dScale   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      vector   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      scale   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   DbgDrawText   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   Schedule   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   SimpleGroup   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      logic   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "BluePrint"
+      }
+      __type   =   "BluePrintNode"
+   }
+   OnDomainEnter   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      numberUse   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "IntRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   ForEachActor   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   SetBool   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   GetBool   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   BoolPipe   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   SwitchInt   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ChangeMaterial   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   SetMaterial   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   Dissolve   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      active   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      pos   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      dir   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            y   =   1
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      raggedEdge   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0.3
+         __type   =   "FloatRefParam"
+      }
+      lumEdge   =   {
+         __type   =   "FloatRefParam"
+      }
+      lumColor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            r   =   255
+            g   =   102
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      lumWidth   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0.01
+         __type   =   "FloatRefParam"
+      }
+      lumIntensity   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   5
+         __type   =   "FloatRefParam"
+      }
+      tailColor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            r   =   255
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      tailWidth   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   4
+         __type   =   "FloatRefParam"
+      }
+      tailIntensity   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      noiseParamScale   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      noiseParamTime   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_2d"
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "Vector2dRefParam"
+      }
+      invert   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   False
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   ApplyMaterialSuffix   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      enable   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   DissolvePerVertex   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      threshold   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0
+         __type   =   "FloatRefParam"
+      }
+      active   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      invert   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   False
+         __type   =   "BoolRefParam"
+      }
+      raggedEdge   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0.3
+         __type   =   "FloatRefParam"
+      }
+      noiseParamScale   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      noiseParamTime   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_2d"
+            x   =   0
+            y   =   0
+            __type   =   "Vector2d"
+         }
+         __type   =   "Vector2dRefParam"
+      }
+      lumColor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            r   =   255
+            g   =   102
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      lumWidth   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0.1
+         __type   =   "FloatRefParam"
+      }
+      lumIntensity   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      tailColor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            r   =   255
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      tailWidth   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   4
+         __type   =   "FloatRefParam"
+      }
+      tailIntensity   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   DoOnce   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ResetDoOnce   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ExecuteLocalStop   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   RetriggerableDelay   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   TerminateActor   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   WithChance   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   FindActorsByTag   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ActivateDomainActor   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   DeactivateDomainActor   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   OnCustomTick   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      timePeriod   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   30
+         __type   =   "IntRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   Repeat   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ScanTaggedActors   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      tag   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      radius   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      center   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "Vector3dRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   GetBlueprintOwner   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   GetActorsCount   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      actors   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "ActorArrayRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   CheckActorInDomain   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      actor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "ActorRefParam"
+      }
+      domain   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "ActorRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   RememberActors   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   FilterActors   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   GetActorsFromDomain   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   SetAKillRef   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   GetActorsFromTaggedDomain   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ToggleFlow   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   CheckBPCondition   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      boolName   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "StringRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   CheckActor   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   CheckActorHasTag   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   DissolveNoise   =   {
+      sslModule   =   "ssl.lib.blueprint.blue_print_node_owned_custom_actor"
+      active   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      invert   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   True
+         __type   =   "BoolRefParam"
+      }
+      threshold   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0
+         __type   =   "FloatRefParam"
+      }
+      raggedEdge   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      noiseParamScale   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   3
+         __type   =   "FloatRefParam"
+      }
+      noiseParamTime   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_2d"
+            x   =   3
+            y   =   3
+            __type   =   "Vector2d"
+         }
+         __type   =   "Vector2dRefParam"
+      }
+      lumColor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            a   =   0
+            r   =   255
+            g   =   102
+            b   =   0
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      lumWidth   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0.01
+         __type   =   "FloatRefParam"
+      }
+      lumIntensity   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   4
+         __type   =   "FloatRefParam"
+      }
+      tailColor   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            r   =   255
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      tailWidth   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   3
+         __type   =   "FloatRefParam"
+      }
+      tailIntensity   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   0.75
+         __type   =   "FloatRefParam"
+      }
+      patternSpeed   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.vector_3d"
+            __type   =   "Vector3d"
+         }
+         __type   =   "Vector3dRefParam"
+      }
+      patternScale   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   1
+         __type   =   "FloatRefParam"
+      }
+      __type   =   "BluePrintNodeOwnedCustomActor"
+   }
+   DbgDrawLine   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      fromActorInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "ActorRefParam"
+      }
+      fromTrackerInput   =   {
+         sslModule   =   "ssl.lib.blueprint.tracker_ref_param"
+         __type   =   "TrackerRefParam"
+      }
+      fromPosInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "Vector3dRefParam"
+      }
+      toActorInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "ActorRefParam"
+      }
+      toTrackerInput   =   {
+         sslModule   =   "ssl.lib.blueprint.tracker_ref_param"
+         __type   =   "TrackerRefParam"
+      }
+      toPosInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "Vector3dRefParam"
+      }
+      colorInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   {
+            sslModule   =   "math.color"
+            __type   =   "Color"
+         }
+         __type   =   "ColorRefParam"
+      }
+      offsetYInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      timeInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         __type   =   "FloatRefParam"
+      }
+      nameInput   =   {
+         sslModule   =   "ssl.lib.blueprint.blueprint"
+         def   =   "blueprint_dbg_line"
+         __type   =   "StringRefParam"
+      }
+      __type   =   "BluePrintNode"
+   }
+   TimeLevel   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+   ChangeCameraFOV   =   {
+      sslModule   =   "ssl.lib.blueprint.blueprint"
+      __type   =   "BluePrintNode"
+   }
+}
+__type   =   "ssl_object_lib"

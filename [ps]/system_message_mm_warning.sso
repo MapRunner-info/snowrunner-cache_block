@@ -1,0 +1,34 @@
+id   =   "SYSTEM_MESSAGE_LOST_CONNECTION"
+messages   =   {
+   FULL_PARTY   =   {
+      title   =   "UI_WARNING_FULLPARTY"
+      message   =   "UI_WARNING_FULLPARTY_DESC"
+      __type   =   "SystemMessageMmWarningDesc"
+   }
+   LEADER_IN_OFFLINE   =   {
+      title   =   "UI_WARNING_JOINDISABLED_OFFLINE"
+      message   =   "UI_WARNING_JOINDISABLED_OFFLINE_DESC"
+      __type   =   "SystemMessageMmWarningDesc"
+   }
+   UNALLOWED_GAME_MODE   =   {
+      title   =   "UI_WARNING_JOINDISABLED_PVP"
+      message   =   "UI_WARNING_JOINDISABLED_PVP_DESC"
+      __type   =   "SystemMessageMmWarningDesc"
+   }
+   NO_EMPTY_SLOTS   =   {
+      title   =   "UI_WARNING_JOINFULLLOBBY"
+      message   =   "UI_WARNING_JOINFULLLOBBY_DESC"
+      __type   =   "SystemMessageMmWarningDesc"
+   }
+   JOIN_DISABLED_UNHANDLED   =   {
+      title   =   "UI_WARNING_JOINDISABLED"
+      message   =   "UI_WARNING_JOINDISABLED_DESC"
+      __type   =   "SystemMessageMmWarningDesc"
+   }
+   JOIN_SESSION_NOT_FOUND   =   {
+      title   =   "UI_WARNING_SESSIONNOTFOUND"
+      message   =   "UI_WARNING_SESSIONNOTFOUND_DESC"
+      __type   =   "SystemMessageMmWarningDesc"
+   }
+}
+__type   =   "SystemMessageUiController"

@@ -1,0 +1,16 @@
+nearPlane   =   4
+fov   =   30
+cameraOffset   =   {
+   x   =   -4.1
+   y   =   1.5
+   z   =   -16
+   __type   =   "Vector3d"
+}
+cameraRotation   =   {
+   x   =   -2.5
+   y   =   19
+   z   =   0
+   __type   =   "Vector3d"
+}
+totalTime   =   0.5
+__type   =   "MrCameraBase"

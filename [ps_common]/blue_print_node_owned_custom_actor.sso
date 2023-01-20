@@ -1,0 +1,5 @@
+_actor   =   {
+   def   =   "<OWNER>"
+   __type   =   "ActorRefParam"
+}
+__type   =   "BluePrintNodeOwned"

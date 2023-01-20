@@ -1,0 +1,12 @@
+dbgWindow   =   {
+   id   =   "UiGfxInputStatus"
+   title   =   "UiGfxInputStatus"
+   width   =   200
+   heigth   =   300
+   pos   =   {
+      __type   =   "Vector2d"
+   }
+   visible   =   False
+   __type   =   "DbgWindow"
+}
+__type   =   "object"

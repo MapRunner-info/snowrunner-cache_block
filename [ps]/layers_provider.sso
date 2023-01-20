@@ -1,0 +1,136 @@
+layerDescs   =   {
+   MARKERS   =   {
+      type   =   {
+         mouseEnabled   =   False
+         content_attach   =   {
+            mouseEnabled   =   False
+            __type   =   "UiInGameIngamecontentattach"
+         }
+         __type   =   "UiInGameIngamelayer"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   DEFAULT   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   INGAME_MENU   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   TITLE_SCREEN   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   DBG_UI   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   SYSTEM_MESSAGES   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   TUTORIAL   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   SLOT_MENU   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   CUSTOMIZATION   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   WAREHOUSE   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   TRUCK_SHOP   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   MINIMAP   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   GLOBAL_MAP   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   PLAYER_PROFILE   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   MAIN_MENU   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   SAVE_SLOTS   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   HUD_EMPTY   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   ICONS   =   {
+      type   =   {
+         mouseEnabled   =   False
+         mouseChildren   =   False
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   HUD_INGAME   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   HUD_CINEMATIC   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+   DLC_STORE   =   {
+      type   =   {
+         __type   =   "UiIconsLibEmptyfullscreen"
+      }
+      __type   =   "UiContainerDesc"
+   }
+}
+__type   =   "object"

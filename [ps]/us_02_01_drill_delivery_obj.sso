@@ -1,0 +1,50 @@
+uiDesc   =   "US_02_01_DRILL_DELIVERY_OBJ_DESC"
+stages   =   [
+   {
+      actions   =   {
+         zoneToFill   =   [
+            {
+               uiDesc   =   "US_02_01_DRILL_DELIVERY_ACTION_1_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_DRILLING_SITE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoContainerSmall"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            },
+            {
+               uiDesc   =   "US_02_01_DRILL_DELIVERY_ACTION_2_DESC"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_02_01 || US_02_01_DRILLING_SITE"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+               cargo   =   {
+                  name   =   "CargoPipesMedium"
+                  count   =   1
+                  __type   =   "CargoPack"
+               }
+            }
+         ]
+         __type   =   "ActionPackSettings"
+      }
+      uiDesc   =   ""
+   }
+]
+blockerObjectives   =   [
+   "US_02_01_PIPELINE_OBJ"
+]
+description   =   "US_02_01_DRILL_DELIVERY_OBJ_REW"
+employer   =   "MorrisonMining"
+region   =   "us_02"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   670
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   5900
+   }
+}
+__type   =   "ContractSettings"

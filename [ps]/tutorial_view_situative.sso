@@ -1,0 +1,12 @@
+cont   =   {
+   verticalAlign   =   1
+   __type   =   "TutorialViewSituativeContainer"
+}
+focusScreen   =   {
+   __type   =   "UiFocusScreen"
+}
+inputScreen   =   {
+   name   =   "Tutorial situative"
+   __type   =   "SslUiInputScreenMr"
+}
+__type   =   "TutorialViewBase"

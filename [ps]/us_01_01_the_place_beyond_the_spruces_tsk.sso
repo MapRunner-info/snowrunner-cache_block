@@ -1,0 +1,33 @@
+uiDesc   =   "US_01_01_THE_PLACE_BEYOND_THE_SPRUCES_DESC"
+stages   =   [
+   {
+      visitAllZones   =   {
+         zones   =   [
+            {
+               uiDesc   =   "US_01_01_THE_PLACE_BEYOND_THE_SPRUCES_FLAG"
+               globalZoneId   =   {
+                  globalZoneId   =   "level_us_01_01 || US_01_01_THE_PLACE_BEYOND_THE_SPRUCES"
+                  __type   =   "ZoneGlobalIdentificator"
+               }
+            }
+         ]
+         __type   =   "VisitAllZonesSettings"
+      }
+   }
+]
+requiredRank   =   0
+description   =   "US_01_01_THE_PLACE_BEYOND_THE_SPRUCES_REW"
+recommendedTruck   =   "SCOUT"
+rewards   =   {
+   ObjectiveRewardExperience   =   {
+      amount   =   60
+   }
+   ObjectiveRewardMoney   =   {
+      amount   =   1050
+   }
+}
+taskGiverZone   =   {
+   globalZoneId   =   "level_us_01_01 || US_01_01_THE_PLACE_BEYOND_THE_SPRUCES_TSK"
+   __type   =   "ZoneGlobalIdentificator"
+}
+__type   =   "TaskSettings"

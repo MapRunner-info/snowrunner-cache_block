@@ -1,0 +1,3 @@
+id   =   "SYSTEM_MESSAGE_DISCONNECTED"
+title   =   "UI_SYSTEM_MESSAGE_DISCONNECTED_TITLE"
+__type   =   "SystemMessageUiController"

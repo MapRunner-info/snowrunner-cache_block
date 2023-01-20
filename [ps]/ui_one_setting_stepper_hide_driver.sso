@@ -1,0 +1,3 @@
+header   =   "UI_SETTINGS_HIDE_DRIVER_IN_FIRST_CAMERA_MODE_HEADER"
+desc   =   "UI_SETTINGS_HIDE_DRIVER_IN_FIRST_CAMERA_MODE_DESC"
+__type   =   "UiOneSettingStepperOnOff"

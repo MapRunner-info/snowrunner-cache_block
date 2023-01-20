@@ -1,0 +1,59 @@
+mouseActivateInputLink   =   {
+   inputLink   =   "DebugConsole.Click"
+   __type   =   "InputLinkAction"
+}
+activateInputLink   =   {
+   inputLink   =   "DebugConsole.Activate"
+   __type   =   "InputLinkAction"
+}
+downInputLink   =   {
+   inputLink   =   "DebugConsole.Left"
+   __type   =   "InputLinkAction"
+}
+upInputLink   =   {
+   inputLink   =   "DebugConsole.Right"
+   __type   =   "InputLinkAction"
+}
+textColor   =   {
+   a   =   255
+   r   =   200
+   g   =   200
+   b   =   200
+   __type   =   "Color"
+}
+selectedTextColor   =   {
+   a   =   255
+   r   =   255
+   g   =   255
+   b   =   255
+   __type   =   "Color"
+}
+backgroundColor   =   {
+   a   =   255
+   r   =   0
+   g   =   0
+   b   =   0
+   __type   =   "Color"
+}
+selectedBackgroundColor   =   {
+   a   =   255
+   r   =   94
+   g   =   94
+   b   =   94
+   __type   =   "Color"
+}
+frameColor   =   {
+   a   =   255
+   r   =   200
+   g   =   200
+   b   =   200
+   __type   =   "Color"
+}
+selectedFrameColor   =   {
+   a   =   255
+   r   =   255
+   g   =   255
+   b   =   255
+   __type   =   "Color"
+}
+__type   =   "object"

@@ -1,0 +1,67 @@
+truckDetails   =   {
+   mouseEnabled   =   False
+   mouseChildren   =   False
+   focusable   =   False
+   content   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      focusable   =   False
+      isHtml   =   True
+      __type   =   "UiMinimapMarkerselectiondetailscontent"
+   }
+   __type   =   "UiMinimapMarkerselectiondetailscontainer"
+}
+cargoDetails   =   {
+   mouseEnabled   =   False
+   mouseChildren   =   False
+   focusable   =   False
+   detailsList   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      focusable   =   False
+      lir   =   {
+         mouseEnabled   =   False
+         focusable   =   False
+         textClip   =   {
+            mouseEnabled   =   False
+            mouseChildren   =   False
+            focusable   =   False
+            isHtml   =   True
+            __type   =   "UiMinimapLockdesctext"
+         }
+         __type   =   "CargoDetailsLir"
+      }
+      __type   =   "UiMinimapMarkerdetailslist"
+   }
+   __type   =   "UiMinimapMarkerselectiondetailscontainer"
+}
+craftDetails   =   {
+   mouseEnabled   =   False
+   mouseChildren   =   False
+   focusable   =   False
+   detailsList   =   {
+      mouseEnabled   =   False
+      mouseChildren   =   False
+      focusable   =   False
+      lir   =   {
+         mouseEnabled   =   False
+         textClip   =   {
+            mouseEnabled   =   False
+            mouseChildren   =   False
+            isHtml   =   True
+            __type   =   "UiMinimapLockdesctext"
+         }
+         __type   =   "CargoDetailsLir"
+      }
+      __type   =   "UiMinimapMarkerdetailslist"
+   }
+   __type   =   "UiMinimapMarkerselectiondetailscontainer"
+}
+actionButton   =   {
+   __type   =   "UiMinimapMarkerbutton"
+}
+inputHint   =   {
+   inputLink   =   "UI.Accept"
+   __type   =   "InputLinkHoldMr"
+}
+__type   =   "object"
