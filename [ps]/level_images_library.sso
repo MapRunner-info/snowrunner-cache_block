@@ -204,5 +204,15 @@ levelImageNames   =   {
       imgName   =   "levelRu0804"
       __type   =   "LevelImage"
    }
+   level_us_09_01   =   {
+      flaName   =   "levelus_0901"
+      imgName   =   "levelUs0901"
+      __type   =   "LevelImage"
+   }
+   level_us_09_02   =   {
+      flaName   =   "levelus_0902"
+      imgName   =   "levelUs0902"
+      __type   =   "LevelImage"
+   }
 }
 __type   =   "object"

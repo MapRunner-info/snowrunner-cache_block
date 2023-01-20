@@ -454,13 +454,13 @@ zoneDesc   =   {
                levelName   =   "level_us_09_02"
                modelTag   =   "OIL_DERREK_09"
                stagesProgress   =   {
-                  build_stage_0   =   {
+                  build_complete   =   {
                      __value   =   1
                   }
-                  build_complete   =   {
+                  build_stage_0   =   {
                   }
                }
-               __type   =   "ModelBuildingSettings"
+               __type   =   "null"
             }
          }
       }

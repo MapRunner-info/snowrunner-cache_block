@@ -1307,7 +1307,7 @@ contractsSettings   =   {
             amount   =   1150
          }
       }
-      employer   =   "OntarioAdministration"
+      employer   =   "OntarioFireStationDepartment"
       region   =   "us_09"
       __type   =   "ContractSettings"
    }
@@ -1550,6 +1550,32 @@ contractsSettings   =   {
                         extraZoneToPlaceWinch   =   "level_us_09_01 || US_09_01_TRANSIT_02_OUT"
                      }
                   }
+               }
+               ZonePropertiesSettingsObjectiveReward_1   =   {
+                  zoneId   =   "US_09_02_TRANSIT_02"
+                  mapId   =   "level_us_09_02"
+                  props   =   {
+                     ZonePropertyGateway   =   {
+                        cameraPos   =   {
+                           x   =   -147.32
+                           y   =   86.77
+                           z   =   -943.94
+                           __type   =   "Vector3d"
+                        }
+                        cameraDir   =   {
+                           x   =   -0.38
+                           y   =   -0.38
+                           z   =   0.85
+                           __type   =   "Vector3d"
+                        }
+                        animationTime   =   8000
+                        startDelayTime   =   3000
+                        levelZoneLink   =   "level_us_09_01 || US_09_01_TRANSIT_02"
+                        extraZoneToPlaceTrucks   =   "level_us_09_02 || US_09_02_TRANSIT_02_OUT"
+                        extraZoneToPlaceWinch   =   "level_us_09_02 || US_09_02_TRANSIT_02_OUT"
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
                }
             }
          }
@@ -1886,14 +1912,16 @@ contractsSettings   =   {
                            levelName   =   "level_us_09_01"
                            modelTag   =   "BURNT_STORAGE_01"
                            stagesProgress   =   {
-                              state_start   =   {
-                              }
                               state_end   =   {
-                                 __value   =   1
+                              }
+                              state_start   =   {
+                                 __value   =   2
                               }
                            }
+                           modelType   =   "METAL"
                            __type   =   "ModelBuildingSettings"
                         }
+                        isHiddenArea   =   True
                      }
                   }
                }
@@ -1926,14 +1954,16 @@ contractsSettings   =   {
                            levelName   =   "level_us_09_01"
                            modelTag   =   "BURNT_STORAGE_02"
                            stagesProgress   =   {
-                              state_start   =   {
-                              }
                               state_end   =   {
-                                 __value   =   1
+                              }
+                              state_start   =   {
+                                 __value   =   2
                               }
                            }
+                           modelType   =   "METAL"
                            __type   =   "ModelBuildingSettings"
                         }
+                        isHiddenArea   =   True
                      }
                   }
                   __type   =   "ZonePropertiesSettingsObjectiveReward"
@@ -1967,14 +1997,16 @@ contractsSettings   =   {
                            levelName   =   "level_us_09_01"
                            modelTag   =   "BURNT_STORAGE_03"
                            stagesProgress   =   {
-                              state_start   =   {
-                              }
                               state_end   =   {
-                                 __value   =   1
+                              }
+                              state_start   =   {
+                                 __value   =   2
                               }
                            }
+                           modelType   =   "METAL"
                            __type   =   "ModelBuildingSettings"
                         }
+                        isHiddenArea   =   True
                      }
                   }
                   __type   =   "ZonePropertiesSettingsObjectiveReward"
@@ -2237,6 +2269,43 @@ contractsSettings   =   {
                ZonePropertiesSettingsObjectiveReward_1   =   {
                   zoneId   =   "US_09_01_RAILWAY_STORAGE_MANUAL"
                   mapId   =   "level_us_09_01"
+                  props   =   {
+                     ZonePropertyManualLoading   =   {
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_2   =   {
+                  zoneId   =   "US_09_02_DISASSEMBLY_DRILL"
+                  mapId   =   "level_us_09_02"
+                  props   =   {
+                     ZonePropertyCargoLoading   =   {
+                        cargosSettings   =   [
+                           {
+                              name   =   "CargoContainerLargeDrilling"
+                              count   =   1
+                           }
+                        ]
+                        platformId   =   "US_09_02_DISASSEMBLY_DRILL_MANUAL"
+                        modelBuildingSetting   =   {
+                           levelName   =   "level_us_09_02"
+                           modelTag   =   "OIL_DERREK_09"
+                           stagesProgress   =   {
+                              build_stage_0   =   {
+                                 __value   =   1
+                              }
+                              build_complete   =   {
+                              }
+                           }
+                           __type   =   "ModelBuildingSettings"
+                        }
+                     }
+                  }
+                  __type   =   "ZonePropertiesSettingsObjectiveReward"
+               }
+               ZonePropertiesSettingsObjectiveReward_3   =   {
+                  zoneId   =   "US_09_02_DISASSEMBLY_DRILL_MANUAL"
+                  mapId   =   "level_us_09_02"
                   props   =   {
                      ZonePropertyManualLoading   =   {
                      }

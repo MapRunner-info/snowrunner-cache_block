@@ -167,6 +167,20 @@ objectiveFinishedJingles   =   {
       }
       __type   =   "ObjectiveJingles"
    }
+   us_09   =   {
+      sounds   =   {
+         CONTRACT   =   {
+            __value   =   "music_jingle_ontario_contract"
+         }
+         TASK   =   {
+            __value   =   "music_jingle_ontario_task"
+         }
+         CONTEST   =   {
+            __value   =   "music_jingle_ontario_contest"
+         }
+      }
+      __type   =   "ObjectiveJingles"
+   }
 }
 gatewayJingles   =   {
    us_01   =   {
@@ -201,6 +215,9 @@ gatewayJingles   =   {
    }
    ru_08   =   {
       __value   =   "music_jingle_belozersk_level_intro"
+   }
+   us_09   =   {
+      __value   =   "music_jingle_ontario_level_intro"
    }
 }
 watchpointJingles   =   {
@@ -239,6 +256,9 @@ watchpointJingles   =   {
    }
    ru_08   =   {
       __value   =   "music_jingle_belozersk_watchtower"
+   }
+   us_09   =   {
+      __value   =   "music_jingle_ontario_watchtower"
    }
 }
 trialFinishJingle   =   "music_jingle_trial"

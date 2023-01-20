@@ -169,6 +169,282 @@ levelEffect   =   {
          }
       ]
    }
+   level_us_09_02   =   {
+      __value   =   [
+         {
+            name   =   "smoke_build_small_01_0"
+            unique_name   =   "cube_obj_small_09_02_00"
+            position   =   {
+               x   =   213.6501
+               y   =   7.26462
+               z   =   647.2454
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_small_01_0"
+            unique_name   =   "cube_obj_small_09_02_01"
+            position   =   {
+               x   =   207.8596
+               y   =   8.16558
+               z   =   647.3813
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_00"
+            position   =   {
+               x   =   203.8309
+               y   =   9.8841
+               z   =   676.5008
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_01"
+            position   =   {
+               x   =   119.5892
+               y   =   9.56024
+               z   =   654.7036
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_02"
+            position   =   {
+               x   =   249.5774
+               y   =   11.0673
+               z   =   759.4736
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_03"
+            position   =   {
+               x   =   224.7375
+               y   =   5.74956
+               z   =   608.8638
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_04"
+            position   =   {
+               x   =   188.264
+               y   =   5.26737
+               z   =   607.4556
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_05"
+            position   =   {
+               x   =   193.4056
+               y   =   3.70365
+               z   =   644.811
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_06"
+            position   =   {
+               x   =   -111.3621
+               y   =   24.8248
+               z   =   784.2175
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_07"
+            position   =   {
+               x   =   -111.3621
+               y   =   24.8248
+               z   =   784.2175
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_08"
+            position   =   {
+               x   =   -98.95737
+               y   =   22.33891
+               z   =   822.6309
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_09"
+            position   =   {
+               x   =   -108.984
+               y   =   22.38216
+               z   =   548.5847
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_10"
+            position   =   {
+               x   =   -153.6702
+               y   =   24.13623
+               z   =   524.8573
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_11"
+            position   =   {
+               x   =   -97.61383
+               y   =   21.3071
+               z   =   517.3832
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_small_01_0"
+            unique_name   =   "cube_obj_small_09_02_02"
+            position   =   {
+               x   =   214.3214
+               y   =   9.106719
+               z   =   646.0569
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_12"
+            position   =   {
+               x   =   215.2661
+               y   =   9.496147
+               z   =   647.3303
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         },
+         {
+            name   =   "smoke_build_0"
+            unique_name   =   "cube_obj_09_13"
+            position   =   {
+               x   =   216.3249
+               y   =   9.592218
+               z   =   646.7116
+               __type   =   "Vector3d"
+            }
+            scale   =   {
+               x   =   1
+               y   =   1
+               z   =   1
+               __type   =   "Vector3d"
+            }
+         }
+      ]
+   }
 }
 platformWithoutLevelSfx   =   [
    "NX64"

@@ -15105,7 +15105,10 @@ layers   =   {
                   __type   =   "DbgCommandEmptyFuelTank"
                }
                FillWater   =   {
-                  __type   =   "InputActionHoldMr"
+                  __type   =   "DbgCommandFillWater"
+               }
+               EmptyWaterAddons   =   {
+                  __type   =   "DbgCommandEmptyWaterAddons"
                }
             }
             __type   =   "KeymapSectionDbg"

@@ -3821,6 +3821,18 @@ classes   =   {
       sslClass   =   "UiIconsLibOntariotownhallimg40"
       __type   =   "UiContainer"
    }
+   Ontariowaterdropzoneimg30   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioWaterDropZoneImg30"
+      sslClass   =   "UiIconsLibOntariowaterdropzoneimg30"
+      __type   =   "UiContainer"
+   }
+   Ontariowaterdropzoneimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "ontarioWaterDropZoneImg40"
+      sslClass   =   "UiIconsLibOntariowaterdropzoneimg40"
+      __type   =   "UiContainer"
+   }
    Openzonereward20   =   {
       sslModule   =   "ui.autogen_libs.ui_icons_lib"
       symbol   =   "openZoneReward20"

@@ -1463,14 +1463,7 @@ contractsSettings   =   {
                         count   =   2
                         __type   =   "CargoPack"
                      }
-                  }
-               ]
-               __type   =   "ActionPackSettings"
-            }
-         },
-         {
-            actions   =   {
-               zoneToFill   =   [
+                  },
                   {
                      uiDesc   =   "US_09_02_FIRE_WATCHTOWER_CONTRACT_S"
                      globalZoneId   =   {
@@ -1748,10 +1741,10 @@ contractsSettings   =   {
                         modelTag   =   "Smoke_warehouse_1"
                         stagesProgress   =   {
                            stage_visible   =   {
-                              __value   =   1
+                              __value   =   0
                            }
                            stage_hidden   =   {
-                              __value   =   0
+                              __value   =   1
                            }
                         }
                         __type   =   "ModelBuildingSettings"
@@ -1773,9 +1766,10 @@ contractsSettings   =   {
                         modelTag   =   "Smoke_warehouse_2"
                         stagesProgress   =   {
                            stage_visible   =   {
-                              __value   =   1
+                              __value   =   0
                            }
                            stage_hidden   =   {
+                              __value   =   1
                            }
                         }
                         __type   =   "ModelBuildingSettings"
@@ -1818,12 +1812,14 @@ contractsSettings   =   {
                            modelTag   =   "BURNT_STORAGE_04"
                            stagesProgress   =   {
                               state_start   =   {
+                                 __value   =   0
                               }
                               state_end   =   {
                                  __value   =   1
                               }
                            }
-                           __type   =   "ModelBuildingSettings"
+                           modelType   =   "COMMON"
+                           __type   =   "ZoneModelBuildingSettings"
                         }
                      }
                   }
@@ -1908,6 +1904,18 @@ contractsSettings   =   {
                         count   =   5200
                         __type   =   "CargoPack"
                      }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_factory_1"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
                   },
                   {
                      uiDesc   =   "US_09_02_WATER_DELIVERY_CONTRACT_S_02"
@@ -1920,6 +1928,18 @@ contractsSettings   =   {
                         count   =   5200
                         __type   =   "CargoPack"
                      }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_factory_2"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
                   },
                   {
                      uiDesc   =   "US_09_02_WATER_DELIVERY_CONTRACT_S_03"
@@ -1931,6 +1951,18 @@ contractsSettings   =   {
                         name   =   "CargoWater"
                         count   =   5200
                         __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_factory_3"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
                      }
                   }
                ]
@@ -2022,6 +2054,19 @@ contractsSettings   =   {
                         count   =   2400
                         __type   =   "CargoPack"
                      }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_underground_1_1"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   0
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
                   },
                   {
                      uiDesc   =   "US_09_02_SEISMO_WATER_DELIVERY_CONTRACT_S_01"
@@ -2033,6 +2078,19 @@ contractsSettings   =   {
                         name   =   "CargoBags2"
                         count   =   2
                         __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_underground_1_2"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   0
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "ModelBuildingSettings"
                      }
                   },
                   {
@@ -2046,6 +2104,22 @@ contractsSettings   =   {
                         count   =   2400
                         __type   =   "CargoPack"
                      }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_underground_2_1"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   0
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        unloadBlockedZoneId   =   {
+                           __type   =   "null"
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
                   },
                   {
                      uiDesc   =   "US_09_02_SEISMO_WATER_DELIVERY_CONTRACT_S_02"
@@ -2057,6 +2131,22 @@ contractsSettings   =   {
                         name   =   "CargoBags2"
                         count   =   2
                         __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_underground_2_2"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   0
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        unloadBlockedZoneId   =   {
+                           __type   =   "null"
+                        }
+                        __type   =   "ModelBuildingSettings"
                      }
                   },
                   {
@@ -2070,6 +2160,22 @@ contractsSettings   =   {
                         count   =   2400
                         __type   =   "CargoPack"
                      }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_underground_3_1"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   0
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        unloadBlockedZoneId   =   {
+                           __type   =   "null"
+                        }
+                        __type   =   "ModelBuildingSettings"
+                     }
                   },
                   {
                      uiDesc   =   "US_09_02_SEISMO_WATER_DELIVERY_CONTRACT_S_03"
@@ -2081,6 +2187,22 @@ contractsSettings   =   {
                         name   =   "CargoBags2"
                         count   =   2
                         __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "Smoke_underground_3_2"
+                        stagesProgress   =   {
+                           stage_visible   =   {
+                              __value   =   0
+                           }
+                           stage_hidden   =   {
+                              __value   =   1
+                           }
+                        }
+                        unloadBlockedZoneId   =   {
+                           __type   =   "null"
+                        }
+                        __type   =   "ModelBuildingSettings"
                      }
                   }
                ]
@@ -2267,6 +2389,11 @@ contractsSettings   =   {
                         count   =   1
                         __type   =   "CargoPack"
                      }
+                     model   =   {
+                        levelName   =   ""
+                        modelTag   =   ""
+                        __type   =   "null"
+                     }
                   }
                ]
                __type   =   "ActionPackSettings"
@@ -2305,7 +2432,6 @@ contractsSettings   =   {
          }
       ]
       blockerObjectives   =   [
-         "US_09_02_PIPES_CONTRACT",
          "US_09_01_RAILWAY_DELIVERY_CONTRACT"
       ]
       description   =   "US_09_02_DISASSEMBLY_DRILL_CONTRACT_REW"

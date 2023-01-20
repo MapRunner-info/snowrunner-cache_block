@@ -1187,6 +1187,18 @@ classes   =   {
       sslClass   =   "UiImgLibLevelus0701mini"
       __type   =   "UiContainer"
    }
+   Levelus0901mini   =   {
+      sslModule   =   "ui.autogen_libs.ui_img_lib"
+      symbol   =   "levelus0901mini"
+      sslClass   =   "UiImgLibLevelus0901mini"
+      __type   =   "UiContainer"
+   }
+   Levelus0902mini   =   {
+      sslModule   =   "ui.autogen_libs.ui_img_lib"
+      symbol   =   "levelus0902mini"
+      sslClass   =   "UiImgLibLevelus0902mini"
+      __type   =   "UiContainer"
+   }
    Mainebg   =   {
       sslModule   =   "ui.autogen_libs.ui_img_lib"
       symbol   =   "maineBg"

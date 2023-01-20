@@ -1116,7 +1116,38 @@ availableMessages   =   {
       __type   =   "SystemMessageUiController"
    }
    CROSS_SAVE_ACCEPT_REJECT_MESSAGE   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            btns   =   {
+               accept   =   {
+                  uiInputName   =   "Accept"
+                  input   =   {
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+               decline   =   {
+                  uiInputName   =   "Decline"
+                  input   =   {
+                     inputLink   =   "Popups.Back"
+                     __type   =   "InputLinkHoldMr"
+                  }
+                  __type   =   "NavButtonDesc"
+               }
+            }
+            __type   =   "SystemMessageNavigationPanelTwoButtons"
+         }
+      }
       id   =   "CROSS_SAVE_ACCEPT_REJECT_MESSAGE"
+      inputScreen   =   {
+         inputsLinks   =   {
+            Decline   =   {
+               inputLink   =   "Popups.Back"
+               __type   =   "InputLinkHoldMr"
+            }
+         }
+         __type   =   "SslUiInputScreenMr"
+      }
       __type   =   "SystemMessageCustomMessageUiController"
    }
    CROSS_SAVE_UNRECOVERABLE_ERROR_MESSAGE   =   {
@@ -1132,9 +1163,20 @@ availableMessages   =   {
       __type   =   "SystemMessageUiController"
    }
    CROSS_SAVE_APPLYING_MESSAGE   =   {
+      navPanels   =   {
+         SystemMessageNavigationPanel   =   {
+            __type   =   "SystemMessageNavigationPanelNoButtons"
+         }
+      }
       id   =   "CROSS_SAVE_APPLYING_MESSAGE"
       title   =   "SYSTEM_MESSAGE_CROSS_SAVE_APPLYING_MESSAGE_HEADER"
       message   =   "SYSTEM_MESSAGE_CROSS_SAVE_APPLYING_MESSAGE_DESC"
+      __type   =   "SystemMessageUiController"
+   }
+   CROSS_SAVE_SNAPSHOT_NOT_AVAILABLE_MESSAGE   =   {
+      id   =   "CROSS_SAVE_SNAPSHOT_NOT_AVAILABLE_MESSAGE"
+      title   =   "SYSTEM_MESSAGE_CROSS_SAVE_SNAPSHOT_NOT_AVAILABLE_MESSAGE_HEADER"
+      message   =   "SYSTEM_MESSAGE_CROSS_SAVE_SNAPSHOT_NOT_AVAILABLE_MESSAGE_DESC"
       __type   =   "SystemMessageUiController"
    }
 }
