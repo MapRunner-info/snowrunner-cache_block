@@ -565,6 +565,9 @@ tasksSettings   =   {
                         count   =   1
                         __type   =   "CargoPack"
                      }
+                     additionalUnloadZones   =   [
+                        "US_09_01_BRIDGE_02"
+                     ]
                   }
                ]
                __type   =   "ActionPackSettings"
@@ -1802,7 +1805,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   3800
+                        count   =   4400
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -1830,7 +1833,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   3800
+                        count   =   4400
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -1858,7 +1861,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   3800
+                        count   =   4400
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -2047,7 +2050,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   5400
+                        count   =   6400
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -2071,7 +2074,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   5400
+                        count   =   6400
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -2174,10 +2177,13 @@ contractsSettings   =   {
                      __type   =   "ZoneGlobalIdentificator"
                   }
                   uiDesc   =   "US_09_01_GOLD_TRUCK_DELIVERY_CONTRACT_S_01"
-               },
+               }
+            ]
+         },
+         {
+            truckDelivery   =   [
                {
                   truckId   =   "GOLD_TRUCK_02"
-                  truckUiName   =   ""
                   afterStageFinished   =   "DESTROY"
                   globalZoneDeliveryId   =   {
                      globalZoneId   =   "level_us_09_02 || US_09_02_GOLD_TRUCK_DELIVERY"
@@ -2225,6 +2231,20 @@ contractsSettings   =   {
                ]
                __type   =   "ActionPackSettings"
             }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_RAILWAY_DELIVERY_SPAWN_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoIronRoad"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
          }
       ]
       blockerObjectives   =   [
@@ -2283,7 +2303,7 @@ contractsSettings   =   {
                         cargosSettings   =   [
                            {
                               name   =   "CargoContainerLargeDrilling"
-                              count   =   1
+                              count   =   -1
                            }
                         ]
                         platformId   =   "US_09_02_DISASSEMBLY_DRILL_MANUAL"
@@ -2346,6 +2366,104 @@ contractsSettings   =   {
                ]
                __type   =   "ActionPackSettings"
             }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_01"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_02"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_03"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_04"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_05"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_06"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_07"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               },
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_01 || US_09_01_GOLD_DELIVERY_SPAWN_08"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoGold"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
          }
       ]
       blockerObjectives   =   [
@@ -2426,12 +2544,6 @@ contestSettings   =   {
                }
             }
             __type   =   "ObjectiveRewardsByTime"
-         }
-         ObjectiveRewardMoney   =   {
-            amount   =   7050
-         }
-         ObjectiveRewardExperience   =   {
-            amount   =   560
          }
       }
       taskGiverZone   =   {

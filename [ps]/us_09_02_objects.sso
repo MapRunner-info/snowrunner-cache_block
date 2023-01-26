@@ -769,6 +769,7 @@ tasksSettings   =   {
             }
             spawnCargoOnStageActive   =   [
                {
+                  needToBeDiscoveredByMetallodetector   =   True
                   zone   =   {
                      globalZoneId   =   "level_us_09_02 || US_09_02_METALLDETECTING_SPAWN"
                      __type   =   "ZoneGlobalIdentificator"
@@ -781,6 +782,7 @@ tasksSettings   =   {
                   ]
                }
             ]
+            isForceSearchCargoOnMap   =   True
          },
          {
             actions   =   {
@@ -844,6 +846,8 @@ tasksSettings   =   {
                ]
                __type   =   "ActionPackSettings"
             }
+         },
+         {
             truckDelivery   =   [
                {
                   truckId   =   "FORGOTTEN_TRAILER_09"
@@ -1733,7 +1737,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   3800
+                        count   =   4400
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -1758,7 +1762,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   3800
+                        count   =   4400
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -1901,7 +1905,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   5200
+                        count   =   5900
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -1925,7 +1929,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   5200
+                        count   =   5900
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -1949,7 +1953,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   5200
+                        count   =   5900
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -2051,7 +2055,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   2400
+                        count   =   2200
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -2101,7 +2105,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   2400
+                        count   =   2200
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -2157,7 +2161,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWater"
-                        count   =   2400
+                        count   =   2200
                         __type   =   "CargoPack"
                      }
                      model   =   {
@@ -2182,6 +2186,9 @@ contractsSettings   =   {
                      globalZoneId   =   {
                         globalZoneId   =   "level_us_09_02 || US_09_02_SEISMO_SAND_DELIVERY_03"
                         __type   =   "ZoneGlobalIdentificator"
+                     }
+                     manualSettings   =   {
+                        __type   =   "null"
                      }
                      cargo   =   {
                         name   =   "CargoBags2"
@@ -2294,7 +2301,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoForkliftCaravanContainer2"
-                        count   =   2
+                        count   =   1
                         __type   =   "CargoPack"
                      }
                   }
@@ -2686,31 +2693,25 @@ contestSettings   =   {
          ContestRewards   =   {
             timeSettings   =   {
                GOLD   =   {
-                  timeLimit   =   420
+                  timeLimit   =   345
                   xp   =   320
                   money   =   3000
                   __type   =   "ContestResultRewards"
                }
                SILVER   =   {
-                  timeLimit   =   510
+                  timeLimit   =   390
                   xp   =   210
                   money   =   2000
                   __type   =   "ContestResultRewards"
                }
                BRONZE   =   {
-                  timeLimit   =   600
+                  timeLimit   =   420
                   xp   =   105
                   money   =   1000
                   __type   =   "ContestResultRewards"
                }
             }
             __type   =   "ObjectiveRewardsByTime"
-         }
-         ObjectiveRewardMoney   =   {
-            amount   =   2300
-         }
-         ObjectiveRewardExperience   =   {
-            amount   =   130
          }
       }
       taskGiverZone   =   {

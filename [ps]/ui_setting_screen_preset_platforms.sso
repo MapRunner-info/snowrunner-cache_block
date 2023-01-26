@@ -17,5 +17,8 @@ availablePlatforms   =   {
    OSX   =   {
       __value   =   True
    }
+   IOS   =   {
+      __value   =   True
+   }
 }
 __type   =   "object"

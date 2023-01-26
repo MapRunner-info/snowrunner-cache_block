@@ -370,7 +370,7 @@ zoneDesc   =   {
             cargosSettings   =   [
                {
                   name   =   "CargoBags2"
-                  count   =   6
+                  count   =   -1
                }
             ]
             platformId   =   ""

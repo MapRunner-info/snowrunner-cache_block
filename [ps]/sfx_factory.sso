@@ -10099,8 +10099,8 @@ sfxDescs   =   {
             smoke   =   {
                particle   =   "building_smoke_03"
                scaleRange   =   [
-                  0.8,
-                  0.73
+                  0.35,
+                  0.24
                ]
                opacityRange   =   [
                   0.9,
@@ -11132,7 +11132,7 @@ sfxDescs   =   {
       }
       __type   =   "MrSfxDesc"
    }
- fog_water_small   =   {
+   fog_water_small   =   {
       type   =   {
          particleEmitters   =   {
             fire   =   {

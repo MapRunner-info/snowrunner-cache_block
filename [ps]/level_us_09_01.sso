@@ -203,49 +203,15 @@ zoneDesc   =   {
       __type   =   "ZoneSettings"
    }
    US_09_01_MINE_STORAGE_01   =   {
-      props   =   {
-         ZonePropertyCargoLoading   =   {
-            cargosSettings   =   [
-               {
-                  name   =   "CargoGold"
-                  count   =   3
-               }
-            ]
-            platformId   =   "US_09_01_MINE_STORAGE_MANUAL"
-         }
-      }
       __type   =   "ZoneSettings"
    }
    US_09_01_MINE_STORAGE_01_MANUAL   =   {
-      props   =   {
-         ZonePropertyManualLoading   =   {
-         }
-      }
       __type   =   "ZoneSettings"
    }
    US_09_01_MINE_STORAGE_02   =   {
-      props   =   {
-         ZonePropertyCargoLoading   =   {
-            cargosSettings   =   [
-               {
-                  name   =   "CargoGold"
-                  count   =   5
-               },
-               {
-                  name   =   "CargoIronRoad"
-                  count   =   1
-               }
-            ]
-            platformId   =   "US_09_01_MINE_STORAGE_02_MANUAL"
-         }
-      }
       __type   =   "ZoneSettings"
    }
    US_09_01_MINE_STORAGE_02_MANUAL   =   {
-      props   =   {
-         ZonePropertyManualLoading   =   {
-         }
-      }
       __type   =   "ZoneSettings"
    }
    US_09_01_RAILWAY_STORAGE   =   {
@@ -488,7 +454,7 @@ zoneDesc   =   {
             pricePerLiter   =   0
             stationType   =   "DROP"
             water   =   0
-            waterCapacity   =   3800
+            waterCapacity   =   4400
          }
       }
       __type   =   "ZoneSettings"
@@ -499,7 +465,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_WH_02_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   3800
+            waterCapacity   =   4400
          }
       }
       __type   =   "ZoneSettings"
@@ -510,7 +476,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_WH_03_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   3800
+            waterCapacity   =   4400
          }
       }
       __type   =   "ZoneSettings"
@@ -521,7 +487,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_RAILWAY_01_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   5400
+            waterCapacity   =   6400
          }
       }
       __type   =   "ZoneSettings"
@@ -532,7 +498,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_RAILWAY_02_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   5400
+            waterCapacity   =   6400
          }
       }
       __type   =   "ZoneSettings"
@@ -772,6 +738,33 @@ zoneDesc   =   {
       __type   =   "ZoneSettings"
    }
    US_09_01_PARTS_RESUPPLY_02   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_01   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_02   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_03   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_04   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_05   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_06   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_07   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_GOLD_DELIVERY_SPAWN_08   =   {
+      __type   =   "ZoneSettings"
+   }
+   US_09_01_RAILWAY_DELIVERY_SPAWN_01   =   {
       __type   =   "ZoneSettings"
    }
 }

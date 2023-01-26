@@ -336,7 +336,7 @@ zoneDesc   =   {
             pricePerLiter   =   0
             stationType   =   "DROP"
             water   =   0
-            waterCapacity   =   3800
+            waterCapacity   =   4400
          }
       }
       __type   =   "ZoneSettings"
@@ -347,7 +347,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_WH_02_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   3800
+            waterCapacity   =   4400
          }
       }
       __type   =   "ZoneSettings"
@@ -359,7 +359,7 @@ zoneDesc   =   {
             pricePerLiter   =   0
             stationType   =   "DROP"
             water   =   0
-            waterCapacity   =   5200
+            waterCapacity   =   5900
          }
       }
       __type   =   "ZoneSettings"
@@ -370,7 +370,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_FACTORY_02_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   5200
+            waterCapacity   =   5900
          }
       }
       __type   =   "ZoneSettings"
@@ -381,7 +381,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_FACTORY_03_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   5200
+            waterCapacity   =   5900
          }
       }
       __type   =   "ZoneSettings"
@@ -401,9 +401,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_02_SEISMO_WATER_DELIVERY_01_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   2400
-         }
-         ZonePropertyUnloadingCargo   =   {
+            waterCapacity   =   2200
          }
       }
       __type   =   "ZoneSettings"
@@ -414,9 +412,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_02_SEISMO_WATER_DELIVERY_02_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   2400
-         }
-         ZonePropertyUnloadingCargo   =   {
+            waterCapacity   =   2200
          }
       }
       __type   =   "ZoneSettings"
@@ -427,9 +423,7 @@ zoneDesc   =   {
             stationUIName   =   "US_09_02_SEISMO_WATER_DELIVERY_03_NAME"
             pricePerLiter   =   0
             stationType   =   "DROP"
-            waterCapacity   =   2400
-         }
-         ZonePropertyUnloadingCargo   =   {
+            waterCapacity   =   2200
          }
       }
       __type   =   "ZoneSettings"
@@ -441,36 +435,9 @@ zoneDesc   =   {
       __type   =   "ZoneSettings"
    }
    US_09_02_DISASSEMBLY_DRILL   =   {
-      props   =   {
-         ZonePropertyCargoLoading   =   {
-            cargosSettings   =   [
-               {
-                  name   =   "CargoContainerLargeDrilling"
-                  count   =   1
-               }
-            ]
-            platformId   =   "US_09_02_DISASSEMBLY_DRILL_MANUAL"
-            modelBuildingSetting   =   {
-               levelName   =   "level_us_09_02"
-               modelTag   =   "OIL_DERREK_09"
-               stagesProgress   =   {
-                  build_complete   =   {
-                     __value   =   1
-                  }
-                  build_stage_0   =   {
-                  }
-               }
-               __type   =   "null"
-            }
-         }
-      }
       __type   =   "ZoneSettings"
    }
    US_09_02_DISASSEMBLY_DRILL_MANUAL   =   {
-      props   =   {
-         ZonePropertyManualLoading   =   {
-         }
-      }
       __type   =   "ZoneSettings"
    }
    US_09_02_BL_DELIVERY   =   {

@@ -109,8 +109,8 @@ zoneDescs   =   {
    WATER_STATION   =   {
       minimapText   =   "UI_REWARD_OPEN_WATER_STATION"
       popupText   =   "UI_REWARD_POPUP_OPEN_WATER_STATION"
-      uiIcon30x30   =   "fuelStationImg30"
-      uiIcon40x40   =   "fuelStationImg40"
+      uiIcon30x30   =   "waterStationImg30"
+      uiIcon40x40   =   "waterStationImg40"
       __type   =   "ObjectiveRewardOpenZoneDesc"
    }
 }
