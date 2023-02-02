@@ -27,4 +27,10 @@ qrImageDesc   =   {
    }
    __type   =   "SslDesc"
 }
+nextBannerBtn   =   {
+   __type   =   "CustomNavigationButtonView"
+}
+prevBannerBtn   =   {
+   __type   =   "CustomNavigationButtonView"
+}
 __type   =   "ComponentUiViewBase"

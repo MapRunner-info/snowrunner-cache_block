@@ -333,10 +333,10 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_WH_01_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             water   =   0
             waterCapacity   =   4400
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -345,9 +345,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_WH_02_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   4400
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -356,10 +356,10 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_FACTORY_01_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             water   =   0
             waterCapacity   =   5900
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -368,9 +368,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_FACTORY_02_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   5900
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -379,9 +379,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_WATER_DELIVERY_FACTORY_03_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   5900
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -399,9 +399,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_SEISMO_WATER_DELIVERY_01_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   2200
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -410,9 +410,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_SEISMO_WATER_DELIVERY_02_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   2200
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -421,9 +421,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_02_SEISMO_WATER_DELIVERY_03_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   2200
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"

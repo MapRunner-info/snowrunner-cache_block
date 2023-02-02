@@ -1,4 +1,22 @@
 view   =   {
    __type   =   "UiRedlynxView"
 }
+inputScreen   =   {
+   name   =   "redlynx_pros_input_screen"
+   inputsLinks   =   {
+      ShowPros   =   {
+         inputLink   =   "UI.RedlynxShowPros"
+         __type   =   "InputLinkHoldMr"
+      }
+      BannerPrev   =   {
+         inputLink   =   "UI.TabBarPrevTab"
+         __type   =   "InputLinkHoldMr"
+      }
+      BannerNext   =   {
+         inputLink   =   "UI.TabBarNextTab"
+         __type   =   "InputLinkHoldMr"
+      }
+   }
+   __type   =   "SslUiInputScreenMr"
+}
 __type   =   "ScreenControllerBase"

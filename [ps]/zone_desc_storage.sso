@@ -511,7 +511,6 @@ debugData   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_WATER_STATION_UNLOAD"
-                        pricePerLiter   =   0
                         stationType   =   "DROP"
                         waterCapacity   =   10000
                         sharedZones   =   [

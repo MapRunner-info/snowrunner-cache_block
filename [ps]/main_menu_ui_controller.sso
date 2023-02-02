@@ -32,8 +32,15 @@ navPanels   =   {
             __type   =   "NavButtonDesc"
          }
          redlynxShowPros   =   {
-            text   =   "UI_REDLYNX_SHOW_PROS"
             uiInputName   =   "RedlynxShowPros"
+            __type   =   "NavButtonDesc"
+         }
+         redlynxShowCrossSave   =   {
+            uiInputName   =   "RedlynxShowCrossSave"
+            __type   =   "NavButtonDesc"
+         }
+         redlynxShowMOTD   =   {
+            uiInputName   =   "RedlynxShowMOTD"
             __type   =   "NavButtonDesc"
          }
       }
@@ -64,6 +71,14 @@ inputScreen   =   {
       }
       RedlynxShowPros   =   {
          inputLink   =   "UI.RedlynxShowPros"
+         __type   =   "InputLinkHoldMr"
+      }
+      RedlynxShowCrossSave   =   {
+         inputLink   =   "UI.RedlynxShowCrossSave"
+         __type   =   "InputLinkHoldMr"
+      }
+      RedlynxShowMOTD   =   {
+         inputLink   =   "UI.RedlynxShowMOTD"
          __type   =   "InputLinkHoldMr"
       }
    }

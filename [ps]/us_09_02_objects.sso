@@ -60,7 +60,6 @@ tasksSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         waterCapacity   =   3500
                         sharedZones   =   [
                            {
@@ -149,7 +148,6 @@ tasksSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         waterCapacity   =   3500
                         sharedZones   =   [
                            {
@@ -250,7 +248,6 @@ tasksSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         waterCapacity   =   3500
                         sharedZones   =   [
                            {
@@ -782,7 +779,7 @@ tasksSettings   =   {
                   ]
                }
             ]
-            isForceSearchCargoOnMap   =   True
+            isForceSearchCargoOnMap   =   False
          },
          {
             actions   =   {
@@ -802,6 +799,7 @@ tasksSettings   =   {
                ]
                __type   =   "ActionPackSettings"
             }
+            isForceSearchCargoOnMap   =   True
          }
       ]
       blockerObjectives   =   [
@@ -1626,7 +1624,6 @@ contractsSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         stationType   =   "PICK_UP"
                      }
                   }
@@ -1705,7 +1702,6 @@ contractsSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         stationType   =   "PICK_UP"
                      }
                   }
@@ -1815,14 +1811,14 @@ contractsSettings   =   {
                            levelName   =   "level_us_09_02"
                            modelTag   =   "BURNT_STORAGE_04"
                            stagesProgress   =   {
-                              state_start   =   {
+                              state_end   =   {
                                  __value   =   0
                               }
-                              state_end   =   {
-                                 __value   =   1
+                              state_start   =   {
+                                 __value   =   2
                               }
                            }
-                           modelType   =   "COMMON"
+                           modelType   =   "METAL"
                            __type   =   "ZoneModelBuildingSettings"
                         }
                      }
@@ -1857,12 +1853,13 @@ contractsSettings   =   {
                            levelName   =   "level_us_09_02"
                            modelTag   =   "BURNT_STORAGE_05"
                            stagesProgress   =   {
-                              state_start   =   {
-                              }
                               state_end   =   {
-                                 __value   =   1
+                              }
+                              state_start   =   {
+                                 __value   =   2
                               }
                            }
+                           modelType   =   "METAL"
                            __type   =   "ModelBuildingSettings"
                         }
                      }
@@ -2401,14 +2398,7 @@ contractsSettings   =   {
                         modelTag   =   ""
                         __type   =   "null"
                      }
-                  }
-               ]
-               __type   =   "ActionPackSettings"
-            }
-         },
-         {
-            actions   =   {
-               zoneToFill   =   [
+                  },
                   {
                      uiDesc   =   "US_09_02_DISASSEMBLY_DRILL_CONTRACT_S_02"
                      globalZoneId   =   {
@@ -2417,7 +2407,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoConcreteBlocks"
-                        count   =   3
+                        count   =   2
                         __type   =   "CargoPack"
                      }
                   },
@@ -2429,19 +2419,61 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoWoodenPlanks"
-                        count   =   3
+                        count   =   2
                         __type   =   "CargoPack"
+                     }
+                     model   =   {
+                        levelName   =   "level_us_09_02"
+                        modelTag   =   "OIL_DERREK_09"
+                        stagesProgress   =   {
+                           build_stage_0   =   {
+                           }
+                           build_stage_1   =   {
+                              __value   =   1
+                           }
+                        }
+                        __type   =   "null"
                      }
                   }
                ]
                __type   =   "ActionPackSettings"
             }
+            spawnCargoOnStageActive   =   [
+               {
+                  zone   =   {
+                     globalZoneId   =   "level_us_09_02 || US_09_02_DISASSEMBLY_DRILL_MANUAL"
+                     __type   =   "ZoneGlobalIdentificator"
+                  }
+                  cargos   =   [
+                     {
+                        name   =   "CargoContainerLargeDrilling"
+                        count   =   1
+                     }
+                  ]
+               }
+            ]
          }
       ]
+      model   =   {
+         levelName   =   "level_us_09_02"
+         modelTag   =   "OIL_DERREK_09"
+         stagesProgress   =   {
+            build_stage_0   =   {
+               __value   =   0
+            }
+            build_stage_1   =   {
+               __value   =   1
+            }
+         }
+         __type   =   "ModelBuildingSettings"
+      }
       blockerObjectives   =   [
          "US_09_01_RAILWAY_DELIVERY_CONTRACT"
       ]
       description   =   "US_09_02_DISASSEMBLY_DRILL_CONTRACT_REW"
+      jingleSett   =   {
+         __type   =   "null"
+      }
       rewards   =   {
          ObjectiveRewardMoney   =   {
             amount   =   12350

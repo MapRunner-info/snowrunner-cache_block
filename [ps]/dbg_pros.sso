@@ -3,11 +3,11 @@ showButtonsInput   =   {
    __type   =   "InputLinkHoldMr"
 }
 switchCrossSaveViewInput   =   {
-   inputLink   =   "DebugDBG.SwitchSaveSync"
+   inputLink   =   "DebugDBG.SwitchCrossSaveView"
    __type   =   "InputLinkHoldMr"
 }
-switchCrossSaveSpinnerViewInput   =   {
-   inputLink   =   "DebugDBG.SwitchSaveSyncSpinner"
+switchNewsViewInput   =   {
+   inputLink   =   "DebugDBG.SwitchNewsView"
    __type   =   "InputLinkHoldMr"
 }
 __type   =   "object"

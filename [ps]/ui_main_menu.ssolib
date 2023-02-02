@@ -1343,6 +1343,14 @@ classes   =   {
          scaleY   =   100
          __type   =   "UiMainMenuNavbtnattach"
       }
+      redLynxNewsHeader   =   {
+         symbol   =   ""
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiMainMenuRedlynxheader"
+      }
       newsText   =   {
          symbol   =   ""
          x   =   15

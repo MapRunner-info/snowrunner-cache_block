@@ -5372,6 +5372,12 @@ classes   =   {
       sslClass   =   "UiIconsLibWheelimg"
       __type   =   "UiContainer"
    }
+   Wheelimg40   =   {
+      sslModule   =   "ui.autogen_libs.ui_icons_lib"
+      symbol   =   "wheelImg40"
+      sslClass   =   "UiIconsLibWheelimg40"
+      __type   =   "UiContainer"
+   }
    Wheelrepairmenuicon   =   {
       sslModule   =   "ui.autogen_libs.ui_icons_lib"
       symbol   =   "wheelRepairMenuIcon"

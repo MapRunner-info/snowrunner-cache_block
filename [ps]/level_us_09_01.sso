@@ -250,7 +250,7 @@ zoneDesc   =   {
                },
                {
                   name   =   "CargoMetalRoll"
-                  count   =   4
+                  count   =   3
                },
                {
                   name   =   "CargoConcreteBlocks"
@@ -270,7 +270,7 @@ zoneDesc   =   {
                },
                {
                   name   =   "CargoBags2"
-                  count   =   5
+                  count   =   4
                },
                {
                   name   =   "CargoWoodenPlanks"
@@ -307,7 +307,7 @@ zoneDesc   =   {
                },
                {
                   name   =   "CargoMetalRoll"
-                  count   =   4
+                  count   =   3
                },
                {
                   name   =   "CargoConcreteBlocks"
@@ -315,7 +315,7 @@ zoneDesc   =   {
                },
                {
                   name   =   "CargoBricks"
-                  count   =   1
+                  count   =   3
                },
                {
                   name   =   "CargoServiceSpareParts"
@@ -327,7 +327,7 @@ zoneDesc   =   {
                },
                {
                   name   =   "CargoBags2"
-                  count   =   5
+                  count   =   4
                },
                {
                   name   =   "CargoWoodenPlanks"
@@ -376,7 +376,6 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "UI_COMMON_WATER_TOWER"
-            pricePerLiter   =   0
             stationType   =   "PICK_UP"
          }
       }
@@ -386,7 +385,6 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "UI_COMMON_WATER_TOWER"
-            pricePerLiter   =   0
             stationType   =   "PICK_UP"
             water   =   0
          }
@@ -451,10 +449,10 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_WH_01_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             water   =   0
             waterCapacity   =   4400
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -463,9 +461,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_WH_02_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   4400
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -474,9 +472,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_WH_03_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   4400
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -485,9 +483,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_RAILWAY_01_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   6400
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"
@@ -496,9 +494,9 @@ zoneDesc   =   {
       props   =   {
          ZonePropertyWaterStation   =   {
             stationUIName   =   "US_09_01_WATER_DELIVERY_RAILWAY_02_NAME"
-            pricePerLiter   =   0
             stationType   =   "DROP"
             waterCapacity   =   6400
+            isWaterDeliveryObjectiveZone   =   True
          }
       }
       __type   =   "ZoneSettings"

@@ -2,6 +2,7 @@ view   =   {
    __type   =   "UiCrossSaveView"
 }
 inputScreen   =   {
+   name   =   "redlynx_cross_save_input_screen"
    inputsLinks   =   {
       ToClient   =   {
          inputLink   =   "UI.CrossSaveToClient"

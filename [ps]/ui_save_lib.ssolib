@@ -245,6 +245,18 @@ classes   =   {
       sslClass   =   "UiSaveLibLvus0701save"
       __type   =   "UiContainer"
    }
+   Lvus0901save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0901save"
+      sslClass   =   "UiSaveLibLvus0901save"
+      __type   =   "UiContainer"
+   }
+   Lvus0902save   =   {
+      sslModule   =   "ui.autogen_libs.ui_save_lib"
+      symbol   =   "lvus0902save"
+      sslClass   =   "UiSaveLibLvus0902save"
+      __type   =   "UiContainer"
+   }
    Saveheader   =   {
       sslModule   =   "ui.autogen_libs.ui_save_lib"
       symbol   =   "saveHeader"

@@ -71,7 +71,6 @@ tasksSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         waterCapacity   =   3500
                         sharedZones   =   [
                            {
@@ -168,7 +167,6 @@ tasksSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         waterCapacity   =   3500
                         sharedZones   =   [
                            {
@@ -253,8 +251,7 @@ tasksSettings   =   {
          __type   =   "ModelBuildingSettings"
       }
       blockerObjectives   =   [
-         "US_09_01_GARAGE_RESTORE_CONTRACT",
-         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+         "US_09_01_GARAGE_RESTORE_CONTRACT"
       ]
       description   =   "US_09_01_WATER_TOWER_TASK_03_REW"
       rewards   =   {
@@ -266,7 +263,6 @@ tasksSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         waterCapacity   =   3500
                         sharedZones   =   [
                            {
@@ -339,8 +335,7 @@ tasksSettings   =   {
          __type   =   "ModelBuildingSettings"
       }
       blockerObjectives   =   [
-         "US_09_01_GARAGE_RESTORE_CONTRACT",
-         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
+         "US_09_01_GARAGE_RESTORE_CONTRACT"
       ]
       description   =   "US_09_01_WATER_TOWER_TASK_04_REW"
       rewards   =   {
@@ -352,7 +347,6 @@ tasksSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         waterCapacity   =   3500
                         sharedZones   =   [
                            {
@@ -761,12 +755,10 @@ tasksSettings   =   {
                   {
                      uiDesc   =   "US_09_01_SEEMAN_TASK_S"
                      globalZoneId   =   {
-                        sslModule   =   "game.terrain_descs_storage.zone_identificator_utils"
                         globalZoneId   =   "level_us_09_01 || US_09_01_SEEMAN_DELIVERY"
                         __type   =   "ZoneGlobalIdentificator"
                      }
                      cargo   =   {
-                        sslModule   =   "game.missions.cargo_unloading_zone_settings"
                         name   =   "CargoBags2"
                         count   =   2
                         __type   =   "CargoPack"
@@ -1218,7 +1210,7 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoMetalRoll"
-                        count   =   4
+                        count   =   2
                         __type   =   "CargoPack"
                      }
                   },
@@ -1242,18 +1234,6 @@ contractsSettings   =   {
                      }
                      cargo   =   {
                         name   =   "CargoBricks"
-                        count   =   2
-                        __type   =   "CargoPack"
-                     }
-                  },
-                  {
-                     uiDesc   =   "US_09_01_GARAGE_RESTORE_CONTRACT_S"
-                     globalZoneId   =   {
-                        globalZoneId   =   "level_us_09_01 || US_09_01_GARAGE_RESTORE"
-                        __type   =   "ZoneGlobalIdentificator"
-                     }
-                     cargo   =   {
-                        name   =   "CargoBags2"
                         count   =   2
                         __type   =   "CargoPack"
                      }
@@ -1696,7 +1676,6 @@ contractsSettings   =   {
                   props   =   {
                      ZonePropertyWaterStation   =   {
                         stationUIName   =   "UI_COMMON_WATER_TOWER"
-                        pricePerLiter   =   0
                         stationType   =   "PICK_UP"
                      }
                   }
@@ -1773,7 +1752,6 @@ contractsSettings   =   {
                   mapId   =   "level_us_09_01"
                   props   =   {
                      ZonePropertyWaterStation   =   {
-                        pricePerLiter   =   0
                         stationType   =   "PICK_UP"
                      }
                   }
@@ -1813,9 +1791,10 @@ contractsSettings   =   {
                         modelTag   =   "SMOKE_01"
                         stagesProgress   =   {
                            stage_visible   =   {
-                              __value   =   1
+                              __value   =   0
                            }
                            stage_hidden   =   {
+                              __value   =   1
                            }
                         }
                         unloadBlockedZoneId   =   {
@@ -1841,9 +1820,10 @@ contractsSettings   =   {
                         modelTag   =   "SMOKE_02"
                         stagesProgress   =   {
                            stage_visible   =   {
-                              __value   =   1
+                              __value   =   0
                            }
                            stage_hidden   =   {
+                              __value   =   1
                            }
                         }
                         unloadBlockedZoneId   =   {
@@ -1869,9 +1849,10 @@ contractsSettings   =   {
                         modelTag   =   "SMOKE_03"
                         stagesProgress   =   {
                            stage_visible   =   {
-                              __value   =   1
+                              __value   =   0
                            }
                            stage_hidden   =   {
+                              __value   =   1
                            }
                         }
                         unloadBlockedZoneId   =   {
@@ -1887,9 +1868,7 @@ contractsSettings   =   {
          }
       ]
       blockerObjectives   =   [
-         "US_09_01_FIRE_STATION_VEHICLE_CONTRACT",
-         "US_09_01_WATER_TOWER_CONTRACT_01",
-         "US_09_01_WATER_TOWER_CONTRACT_02"
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
       ]
       description   =   "US_09_01_WATER_DELIVERY_CONTRACT_REW"
       rewards   =   {
@@ -2058,9 +2037,10 @@ contractsSettings   =   {
                         modelTag   =   "SMOKE_05"
                         stagesProgress   =   {
                            stage_visible   =   {
-                              __value   =   1
+                              __value   =   0
                            }
                            stage_hidden   =   {
+                              __value   =   1
                            }
                         }
                         __type   =   "ModelBuildingSettings"
@@ -2082,9 +2062,10 @@ contractsSettings   =   {
                         modelTag   =   "SMOKE_04"
                         stagesProgress   =   {
                            stage_visible   =   {
-                              __value   =   1
+                              __value   =   0
                            }
                            stage_hidden   =   {
+                              __value   =   1
                            }
                         }
                         __type   =   "ModelBuildingSettings"
@@ -2096,7 +2077,7 @@ contractsSettings   =   {
          }
       ]
       blockerObjectives   =   [
-         "US_09_01_WATER_DELIVERY_WAREHOUSE_CONTRACT"
+         "US_09_01_AFFECTED_INFROSTRUCTURE_SCOUT_CONTRACT"
       ]
       description   =   "US_09_01_WATER_DELIVERY_RAILWAY_CONTRACT_REW"
       rewards   =   {
@@ -2289,43 +2270,6 @@ contractsSettings   =   {
                ZonePropertiesSettingsObjectiveReward_1   =   {
                   zoneId   =   "US_09_01_RAILWAY_STORAGE_MANUAL"
                   mapId   =   "level_us_09_01"
-                  props   =   {
-                     ZonePropertyManualLoading   =   {
-                     }
-                  }
-                  __type   =   "ZonePropertiesSettingsObjectiveReward"
-               }
-               ZonePropertiesSettingsObjectiveReward_2   =   {
-                  zoneId   =   "US_09_02_DISASSEMBLY_DRILL"
-                  mapId   =   "level_us_09_02"
-                  props   =   {
-                     ZonePropertyCargoLoading   =   {
-                        cargosSettings   =   [
-                           {
-                              name   =   "CargoContainerLargeDrilling"
-                              count   =   -1
-                           }
-                        ]
-                        platformId   =   "US_09_02_DISASSEMBLY_DRILL_MANUAL"
-                        modelBuildingSetting   =   {
-                           levelName   =   "level_us_09_02"
-                           modelTag   =   "OIL_DERREK_09"
-                           stagesProgress   =   {
-                              build_stage_0   =   {
-                                 __value   =   1
-                              }
-                              build_complete   =   {
-                              }
-                           }
-                           __type   =   "ModelBuildingSettings"
-                        }
-                     }
-                  }
-                  __type   =   "ZonePropertiesSettingsObjectiveReward"
-               }
-               ZonePropertiesSettingsObjectiveReward_3   =   {
-                  zoneId   =   "US_09_02_DISASSEMBLY_DRILL_MANUAL"
-                  mapId   =   "level_us_09_02"
                   props   =   {
                      ZonePropertyManualLoading   =   {
                      }

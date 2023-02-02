@@ -1376,7 +1376,7 @@ contractsSettings   =   {
                   }
                   cargos   =   [
                      {
-                        name   =   "CargoContainerLarge"
+                        name   =   "CargoContainerSmall"
                         count   =   1
                      }
                   ]
@@ -1388,7 +1388,7 @@ contractsSettings   =   {
                   }
                   cargos   =   [
                      {
-                        name   =   "CargoContainerLarge"
+                        name   =   "CargoContainerSmall"
                         count   =   1
                      }
                   ]

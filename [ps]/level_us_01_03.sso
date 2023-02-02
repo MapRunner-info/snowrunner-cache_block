@@ -7,6 +7,7 @@ zoneDesc   =   {
             cargosSettings   =   [
                {
                   name   =   "CargoContainerLargeDrilling"
+                  count   =   1
                }
             ]
             platformId   =   "US_01_03_ABANDONED_DS_01_PLATFORM"
@@ -17,7 +18,7 @@ zoneDesc   =   {
                   build_stage_0   =   {
                      __value   =   1
                   }
-                  build_complete   =   {
+                  build_stage_1   =   {
                      __value   =   0
                   }
                }
@@ -502,6 +503,7 @@ zoneDesc   =   {
             cargosSettings   =   [
                {
                   name   =   "CargoContainerLargeDrilling"
+                  count   =   1
                }
             ]
             platformId   =   "US_01_03_ABANDONED_DS_02_PLATFORM"
@@ -512,7 +514,7 @@ zoneDesc   =   {
                   build_stage_0   =   {
                      __value   =   1
                   }
-                  build_complete   =   {
+                  build_stage_1   =   {
                      __value   =   0
                   }
                }
@@ -538,7 +540,7 @@ zoneDesc   =   {
                   build_stage_0   =   {
                      __value   =   1
                   }
-                  build_complete   =   {
+                  build_stage_1   =   {
                      __value   =   0
                   }
                }

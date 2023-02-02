@@ -497,6 +497,12 @@ classes   =   {
       sslClass   =   "UiImgLibBannerseason8"
       __type   =   "UiContainer"
    }
+   BannerSeason9   =   {
+      sslModule   =   "ui.autogen_libs.ui_img_lib"
+      symbol   =   "banner_season_9"
+      sslClass   =   "UiImgLibBannerseason9"
+      __type   =   "UiContainer"
+   }
    BannerTatra   =   {
       sslModule   =   "ui.autogen_libs.ui_img_lib"
       symbol   =   "banner_tatra"
@@ -719,6 +725,12 @@ classes   =   {
       sslClass   =   "UiImgLibDlcpagepreviewimgseason8"
       __type   =   "UiContainer"
    }
+   Dlcpagepreviewimgseason9   =   {
+      sslModule   =   "ui.autogen_libs.ui_img_lib"
+      symbol   =   "dlcpagePreviewImgSeason9"
+      sslClass   =   "UiImgLibDlcpagepreviewimgseason9"
+      __type   =   "UiContainer"
+   }
    Dlcpagepreviewimgtatradualpack   =   {
       sslModule   =   "ui.autogen_libs.ui_img_lib"
       symbol   =   "dlcpagePreviewImgTatraDualPack"
@@ -891,6 +903,12 @@ classes   =   {
       sslModule   =   "ui.autogen_libs.ui_img_lib"
       symbol   =   "dlcstorePreviewImgSeason8"
       sslClass   =   "UiImgLibDlcstorepreviewimgseason8"
+      __type   =   "UiContainer"
+   }
+   Dlcstorepreviewimgseason9   =   {
+      sslModule   =   "ui.autogen_libs.ui_img_lib"
+      symbol   =   "dlcstorePreviewImgSeason9"
+      sslClass   =   "UiImgLibDlcstorepreviewimgseason9"
       __type   =   "UiContainer"
    }
    Dlcstorepreviewimgtatradualpack   =   {

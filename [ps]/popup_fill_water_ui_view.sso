@@ -9,7 +9,7 @@ uiObjectDesc   =   {
 }
 iconDesc   =   {
    type   =   {
-      __type   =   "UiIconsLibWaterrefillimg20"
+      __type   =   "UiIconsLibWaterstationimg40"
    }
    __type   =   "UiContainerDesc"
 }

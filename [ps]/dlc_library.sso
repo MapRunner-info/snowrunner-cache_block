@@ -1005,13 +1005,34 @@ dlcInfos   =   {
    phase_9   =   {
       name   =   "UI_DLC_NAME_PHASE_9"
       desc   =   "UI_DLC_NAME_PHASE_9_DESC"
+      bannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibBannerseason9"
+         }
+         __type   =   "UiContainerDesc"
+      }
+      bigBannerImage   =   {
+         type   =   {
+            __type   =   "UiImgLibDlcstorepreviewimgseason9"
+         }
+         __type   =   "UiContainerDesc"
+      }
       seasonpassId   =   "seasonpass_3"
       dlcTruck   =   {
          zikz_566a   =   {
+            __value   =   "dlcstoreImgZikz566a"
          }
          derry_special_15c177   =   {
+            __value   =   "dlcstoreImgDerrySpecial"
          }
       }
+      truckSkins   =   [
+         {
+            truckType   =   "derry_special_15c177"
+            skinId   =   32
+            storeImage   =   "dlcstoreSkinDerrySpecial"
+         }
+      ]
       regions   =   [
          "us_09"
       ]

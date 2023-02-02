@@ -12,6 +12,19 @@ classes   =   {
       }
       __type   =   "UiContainer"
    }
+   AutoClassExitMenuBgplateHardmodeindicatorNgplustext   =   {
+      sslModule   =   "ui.autogen_libs.ui_exit_menu"
+      symbol   =   ""
+      sslClass   =   "UiExitMenuAutoclassexitmenubgplatehardmodeindicatorngplustext"
+      tf   =   {
+         x   =   0
+         y   =   0
+         scaleX   =   100
+         scaleY   =   100
+         __type   =   "UiLabel"
+      }
+      __type   =   "UiContainer"
+   }
    AutoClassExitMenuBgplateHardmodeindicatorHardmodetext   =   {
       sslModule   =   "ui.autogen_libs.ui_exit_menu"
       symbol   =   ""
@@ -29,12 +42,23 @@ classes   =   {
       sslModule   =   "ui.autogen_libs.ui_exit_menu"
       symbol   =   ""
       sslClass   =   "UiExitMenuAutoclassexitmenubgplatehardmodeindicator"
+      ngPlusText   =   {
+         animated   =   True
+         colorMode   =   3
+         symbol   =   ""
+         x   =   1034.95
+         y   =   -15
+         scaleX   =   100
+         scaleY   =   100
+         alpha   =   0
+         __type   =   "UiExitMenuAutoclassexitmenubgplatehardmodeindicatorngplustext"
+      }
       hardModeText   =   {
          animated   =   True
          colorMode   =   3
          symbol   =   ""
-         x   =   1035
-         y   =   -13
+         x   =   50
+         y   =   -15
          scaleX   =   100
          scaleY   =   100
          alpha   =   0
